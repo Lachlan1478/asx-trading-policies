@@ -45,7 +45,7 @@ class Rule(Strict):
     security_state: SecurityState
     venue: Literal["exchange", "otc", "any"] = Field(description="Derivatives only; 'any' otherwise.")
     answer: Answer
-    mechanism: Literal["express", "via_dealing_definition", "via_hedging_definition", "implied"] = Field(
+    mechanism: Literal["express", "via_dealing_definition", "via_hedging_definition", "implied", "none"] = Field(
         description="'express' when the policy names the activity; 'via_dealing_definition' when it is caught only because the definition of dealing sweeps it in.")
     floor: str = Field(description="For answer 'floor': what the holding must not drop below, e.g. 'minimum shareholding requirement'. Else empty.")
     section: str
@@ -81,7 +81,7 @@ class ShortTermRule(Strict):
 
 class Exception_(Strict):
     kind: Literal["hardship", "court_order", "plan_dealing", "no_change_beneficial_interest", "non_discretionary_plan", "secured_lender_sale", "dividend_plan", "takeover", "other"]
-    scope: Literal["sale_only", "any_dealing", "unclear"]
+    scope: Literal["sale_only", "any_dealing", "specific_dealing", "acquisition_only", "unclear"]
     approver: str
     evidence: str
 

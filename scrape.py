@@ -151,7 +151,7 @@ def main():
         old.update({r["symbol"]: r for r in rows})
         rows = list(old.values())
     with open(manifest, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=rows[0].keys())
+        w = csv.DictWriter(f, fieldnames=list(dict.fromkeys(k for r in rows for k in r)))
         w.writeheader()
         w.writerows(rows)
     ok = sum(r["status"] == "ok" for r in rows)

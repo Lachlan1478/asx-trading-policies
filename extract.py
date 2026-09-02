@@ -72,7 +72,8 @@ def collar_status(p, tier):
         return "blocked_below_floor", [r.floor for r in hedge if r.answer == "floor"]
     if all(r.answer == "not_addressed" for r in hedge + deriv) and p.definitions.dealing_covers_derivatives != "yes":
         return "unclear", []
-    c = next((c for c in p.clearance if c.tier == tier), next((c for c in p.clearance if c.tier == "all"), None))
+    rank = ["approval", "preclearance_system", "notification", "none", "not_addressed"]
+    c = next((c for c in p.clearance if c.tier == tier), None) or min(p.clearance, key=lambda c: rank.index(c.type), default=None)
     return {"approval": "clearance_required", "preclearance_system": "clearance_required", "notification": "notification_required"}.get(c.type if c else "", "available"), []
 
 

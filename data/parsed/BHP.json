@@ -1,0 +1,669 @@
+{
+ "symbol": "BHP",
+ "company": "BHP Group Limited",
+ "title": "Securities Dealing Policy",
+ "date_approved": "",
+ "date_effective": "1 October 2024",
+ "date_lodged": "1 October 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "BHP directors, employees and contractors",
+   "kind": "all_staff",
+   "description": "Everyone the policy applies to. Subject only to the insider trading and confidentiality prohibitions and the substance-over-form approach; no clearance or closed-period obligation unless they fall in a tier below.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Persons on insider lists",
+   "kind": "restricted",
+   "description": "People recorded on a BHP insider list maintained by Group Governance. Must request clearance from the Group Company Secretary before dealing and must not deal during any Closed Period.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Participants in BHP's employee incentive plans",
+   "kind": "plan_participant",
+   "description": "Participants in the Cash and Deferred Plan, Long Term Incentive Plan, Management Award Plan, Short-Term Incentive Plan or successors (excluding Shareplus). Must not deal in any Closed Period and must never hedge unvested or holding-locked plan securities. No clearance requirement in this capacity.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "People who regularly have access to sensitive BHP information: non-PDMR Executive Leadership Team members, their assistants and managers, Investor Relations, Group Governance, Asset Presidents, key Corporate Affairs and Group Reporting employees. Clearance required; no dealing in Closed Periods.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "PDMRs",
+   "kind": "director",
+   "description": "Persons Discharging Managerial Responsibilities: directors of BHP Group Limited, Key Management Personnel named in the Remuneration Report, and anyone the Group Company Secretary determines to be a PDMR. Clearance required, no dealing in Closed Periods, plus express bans on short-term dealing, short selling, exchange-traded derivatives and using unvested securities as collateral; post-trade notification to the Group Company Secretary, FCA and exchanges.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "PCAs",
+   "kind": "associate",
+   "description": "Persons Closely Associated with a PDMR: spouse/civil partner, dependent children and stepchildren, relatives sharing the household for a year, and companies, trusts, partnerships or entities managed or controlled by, set up for the benefit of, or economically equivalent to a PDMR or family member. Must obtain clearance (the PDMR may submit the form) and must not deal in Closed Periods; PDMR must notify them and obtain acknowledgement.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "yes",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a transaction that operates or is intended to operate to limit participants' exposure to the risk of holding unvested BHP securities granted under a BHP employee incentive plan or vested BHP securities that are subject to holding locks or similar restrictions",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Persons on insider lists",
+    "Participants in BHP's employee incentive plans",
+    "Restricted Persons",
+    "PDMRs",
+    "PCAs"
+   ],
+   "start_anchor": "end of BHP's financial year",
+   "end_anchor": "publication of BHP's full year results announcement",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Persons on insider lists",
+    "Participants in BHP's employee incentive plans",
+    "Restricted Persons",
+    "PDMRs",
+    "PCAs"
+   ],
+   "start_anchor": "end of BHP's half year",
+   "end_anchor": "publication of BHP's half year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Persons on insider lists",
+    "Restricted Persons",
+    "PDMRs",
+    "PCAs"
+   ],
+   "start_anchor": "30 days prior to the announcement of BHP's full year results (and 30 days prior to publication of half year results)",
+   "end_anchor": "announcement/publication of the results",
+   "duration_days": 30
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board or the Disclosure Committee may declare any other period a Closed Period. The policy is silent on whether such a declaration is confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "Absolute ban on put options, call options or other derivative securities dealt on an exchange or in any other organised market, regardless of the state of the underlying shares.",
+   "evidence": "where the dealing involves transactions in put options, call options or other derivative securities, on an exchange or in any other organised market"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "PDMRs",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3 (Dealing in securities); 4; 5",
+   "detail": "The express derivatives ban is venue-limited to exchanges and organised markets. A bilateral OTC put and call with a bank falls outside it but is a dealing (contract to secure a profit or avoid a loss by reference to price fluctuations; grant/acceptance of an option; 'securities' includes financial products whether quoted or not), so it requires clearance from the Group Company Secretary, cannot occur in a Closed Period, and must not have a maturity of one year or less. Substance over form applies.",
+   "evidence": "entry into a contract to secure a profit or avoid a loss by reference to price fluctuations; the grant, acceptance, acquisition, disposal, exercise or discharge of any option"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "PDMRs",
+   "security_state": "unvested",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "Any derivative that uses unvested securities as collateral is caught by the PDMR collateral ban, which expressly includes hedging.",
+   "evidence": "where the dealing involves using unvested BHP securities as collateral in any financial transaction, including hedging and margin loan arrangements"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4 (Restricted Persons); 5",
+   "detail": "No express derivatives rule for Restricted Persons or persons on insider lists; options and price-referenced contracts are dealings requiring clearance and barred in Closed Periods.",
+   "evidence": "must request clearance before dealing in BHP securities from the Group Company Secretary in BHP securities by submitting a Securities Dealing Clearance Request Form"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "BHP directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3",
+   "detail": "For staff outside the restricted tiers, derivatives are dealings subject only to the insider trading prohibition and the reputational guiding principle.",
+   "evidence": "Dealing includes any transaction or change affecting title to or interest in securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Participants in BHP's employee incentive plans",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Participants in BHP's employee incentive plans)",
+   "detail": "Absolute, at-any-time ban on any transaction that operates or is intended to operate to limit exposure to the risk of holding unvested plan securities.",
+   "evidence": "Participants must not at any time enter into a transaction that operates or is intended to operate to limit participants' exposure to the risk of holding unvested BHP securities granted under a BHP employee incentive plan"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Participants in BHP's employee incentive plans",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Participants in BHP's employee incentive plans)",
+   "detail": "The hedging ban extends to vested securities that remain subject to holding locks or similar restrictions.",
+   "evidence": "or vested BHP securities that are subject to holding locks or similar restrictions."
+  },
+  {
+   "topic": "hedging",
+   "tier": "PDMRs",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "PDMRs may not use unvested securities as collateral in any financial transaction, expressly including hedging.",
+   "evidence": "where the dealing involves using unvested BHP securities as collateral in any financial transaction, including hedging and margin loan arrangements"
+  },
+  {
+   "topic": "hedging",
+   "tier": "PDMRs",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4; 5",
+   "detail": "Hedging of vested, unrestricted shares is not expressly banned for PDMRs. It is a dealing requiring clearance, outside Closed Periods, not via exchange-traded derivatives, and not with a maturity of one year or less. Clearance is discretionary and will be refused where the dealing could be perceived as taking advantage of position.",
+   "evidence": "Where clearance is required for a dealing under this policy, clearance will not be granted where the dealing would not satisfy the considerations above."
+  },
+  {
+   "topic": "hedging",
+   "tier": "BHP directors, employees and contractors",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3",
+   "detail": "For non-plan-participant, non-restricted staff, hedging vested unrestricted shares is not named; it is a dealing subject only to the insider trading prohibition.",
+   "evidence": "entry into a contract to secure a profit or avoid a loss by reference to price fluctuations"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "PDMRs",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 5",
+   "detail": "Monetisation is not named. A prepaid forward or similar is an agreement to dispose, a price-referenced contract and (if funded) a secured financing arrangement, all of which are dealings requiring clearance and post-trade notification. Structures with a maturity of one year or less are short-term dealings and prohibited.",
+   "evidence": "any application for, acquisition or disposal of, or agreement to apply for, acquire or dispose of securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 5",
+   "detail": "Same dealing-definition analysis; clearance required, no short-term or derivatives restrictions beyond Closed Periods.",
+   "evidence": "any other right or obligation, present or future, conditional or unconditional, to acquire or dispose of securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "Express ban on short selling, defined as borrowing and selling in the hope of buying back lower.",
+   "evidence": "where the dealing involves short selling BHP securities (i.e. the practice of borrowing a security and selling it in the hope that it can be bought back at a lower price some time in the future to close out the short position)"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4",
+   "detail": "Not expressly banned for non-PDMRs; a short sale and the associated stock loan are dealings requiring clearance for Restricted Persons and insider-list persons.",
+   "evidence": "entry into, termination of, assignment of, or novation of any stock lending agreement"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 5",
+   "detail": "Not banned, but entry into, termination, assignment or novation of a stock lending agreement is a dealing requiring clearance and post-trade notification.",
+   "evidence": "entry into, termination of, assignment of, or novation of any stock lending agreement"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4",
+   "detail": "Stock lending is a dealing requiring clearance and barred in Closed Periods.",
+   "evidence": "entry into, termination of, assignment of, or novation of any stock lending agreement"
+  },
+  {
+   "topic": "cfd",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4",
+   "detail": "CFDs are not named. A CFD is a contract to secure a profit or avoid a loss by reference to price fluctuations and so a dealing requiring clearance; if it is traded on an exchange or organised market it falls within the express derivatives ban, a short CFD is likely within the short selling ban in substance, and an open-ended CFD held short-term may be a short-term dealing.",
+   "evidence": "entry into a contract to secure a profit or avoid a loss by reference to price fluctuations"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "PDMRs",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "Express ban on margin loans collateralised by unvested securities.",
+   "evidence": "where the dealing involves using unvested BHP securities as collateral in any financial transaction, including hedging and margin loan arrangements"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "PDMRs",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Dealing in securities); 5",
+   "detail": "Margin lending over vested securities is not banned but entry into the arrangement is expressly a dealing, so it needs clearance, cannot be entered in a Closed Period, and must be notified post-trade (and by BHP to the FCA and exchanges).",
+   "evidence": "entry into any margin lending or other secured financing arrangement."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3; 4",
+   "detail": "Entry into a margin lending arrangement is a dealing requiring clearance for Restricted Persons and insider-list persons.",
+   "evidence": "entry into any margin lending or other secured financing arrangement."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "BHP directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3",
+   "detail": "For general staff a margin loan is a dealing subject only to the insider trading prohibition.",
+   "evidence": "entry into any margin lending or other secured financing arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "PDMRs",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 5",
+   "detail": "Granting security, a charge, lien or other encumbrance over securities is itself a dealing, so a security interest over the collared shares needs clearance, is barred in Closed Periods and triggers PDMR post-trade notification.",
+   "evidence": "use as security, or otherwise granting a charge, lien or other encumbrance over securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "PDMRs",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "Using unvested securities as collateral in any financial transaction is banned.",
+   "evidence": "where the dealing involves using unvested BHP securities as collateral in any financial transaction"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4",
+   "detail": "Granting an encumbrance is a dealing requiring clearance.",
+   "evidence": "use as security, or otherwise granting a charge, lien or other encumbrance over securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "PDMRs",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "No financial transaction may be collateralised by unvested securities.",
+   "evidence": "where the dealing involves using unvested BHP securities as collateral in any financial transaction, including hedging and margin loan arrangements"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "PDMRs",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3; 5",
+   "detail": "Any secured financing arrangement (not just margin loans) is a dealing; permitted for vested unrestricted shares with clearance, outside Closed Periods, with post-trade notification to the Group Company Secretary and onward FCA/exchange disclosure. The policy is silent on holding-locked vested shares as collateral for a loan, though hedging them is banned for plan participants.",
+   "evidence": "entry into any margin lending or other secured financing arrangement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3; 4",
+   "detail": "Secured financing is a dealing requiring clearance for Restricted Persons and insider-list persons.",
+   "evidence": "entry into any margin lending or other secured financing arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Additional restrictions on PDMRs)",
+   "detail": "Instrument-maturity test: any investment with a maturity of one year or less is short-term and prohibited. A collar or loan with tenor of 12 months or less is caught.",
+   "evidence": "on a short-term basis. An investment with a maturity of one year or less is considered of a short-term nature"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The short-term dealing ban is expressed only for PDMRs.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "PDMRs",
+   "type": "approval",
+   "approver": "Group Company Secretary or their delegate (Clearance Officer)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary (transaction details); BHP then notifies the UK FCA and announces to exchanges",
+   "post_trade_deadline": "immediately after dealing; FCA within three business days; exchange announcement within two business days of BHP being notified",
+   "section": "5; 8",
+   "evidence": "Clearance Officers will provide a response in writing within two business days after the initial clearance request. ... Upon receipt of written approval, the dealing must be completed within two business days. ... After dealing in BHP securities, PDMRs (including their PCAs) must immediately notify the Group Company Secretary of the transaction details."
+  },
+  {
+   "tier": "PCAs",
+   "type": "approval",
+   "approver": "Group Company Secretary or their delegate (Clearance Officer); form may be submitted by the PDMR on the PCA's behalf",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary; FCA and exchanges via BHP",
+   "post_trade_deadline": "immediately; FCA within three business days",
+   "section": "4 (PCAs); 5",
+   "evidence": "must request clearance before dealing in BHP securities from the Group Company Secretary by submitting a Securities Dealing Clearance Request Form (which may be submitted by the PDMR on behalf of the PCA)"
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Group Company Secretary or their delegate (Clearance Officer)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4 (Restricted Persons); 5; 8",
+   "evidence": "Restricted Persons: must request clearance before dealing in BHP securities from the Group Company Secretary in BHP securities by submitting a Securities Dealing Clearance Request Form"
+  },
+  {
+   "tier": "Persons on insider lists",
+   "type": "approval",
+   "approver": "Group Company Secretary or their delegate (Clearance Officer)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4 (People on insider lists); 5",
+   "evidence": "must request clearance from the Group Company Secretary before dealing in BHP securities by submitting a Securities Dealing Clearance Request Form"
+  },
+  {
+   "tier": "Participants in BHP's employee incentive plans",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4",
+   "evidence": "BHP employees who are participants in any of BHP's employee incentive plans ... must not deal in any BHP securities during any Closed Period."
+  },
+  {
+   "tier": "BHP directors, employees and contractors",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3",
+   "evidence": "If a BHP director, employee or contractor is unsure, they should consult Group Governance."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "PDMRs",
+   "type": "instrument_maturity",
+   "months": 12,
+   "basis": "maturity of the investment",
+   "carve_outs": [],
+   "evidence": "An investment with a maturity of one year or less is considered of a short-term nature"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Group Company Secretary or Chair of the Board (determination of severe financial difficulty or other exceptional circumstances)",
+   "evidence": "exceptional circumstances, such as severe financial difficulty or compulsion by court order, exist which require the immediate sale of shares"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Group Company Secretary or Chair of the Board",
+   "evidence": "exceptional circumstances, such as severe financial difficulty or compulsion by court order, exist which require the immediate sale of shares"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "any_dealing",
+   "approver": "Clearance Officer (clearance during a Closed Period)",
+   "evidence": "the dealing is made under, or related to, an employee incentive plan, qualification or entitlement of shares"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "Clearance Officer (Closed Period); no clearance needed outside the 30-day pre-results periods",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the BHP securities (for example, transfers of BHP securities already held in a superannuation fund or trust of which the director, employee, contractor or PCA is a beneficiary)"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "acquisition of BHP securities through a dividend reinvestment plan; acquisition of BHP securities through a share purchase plan available to all retail shareholders; acquisition of BHP securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "disposal of BHP securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "PDMRs and PCAs; inception (entry into any margin lending or other secured financing arrangement is a dealing); Group Company Secretary; immediately after dealing, with BHP notifying the FCA within three business days and announcing to exchanges within two business days of notification"
+  ],
+  "transfer_to_custodian_is_dealing": "yes",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Securities Dealing Clearance Request Form",
+  "BHP insider lists maintained by Group Governance",
+  "Employee incentive plan rules (Cash and Deferred Plan, Long Term Incentive Plan, Management Award Plan, Short-Term Incentive Plan)"
+ ],
+ "exemption_authority": "Clearance Officers (Group Company Secretary or delegate) may give or refuse clearance at their discretion and may clear a PDMR, PCA or Restricted Person to deal in a Closed Period in exceptional circumstances; only the Group Company Secretary or the Chair of the Board may determine that severe financial difficulty or other exceptional circumstances exist. The Board or Disclosure Committee declares additional Closed Periods.",
+ "jurisdiction_overlays": [
+  "UK Market Abuse Regulation concepts: PDMRs, PCAs, insider lists, FCA notification of PDMR/PCA dealings within three business days"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "venue-limited derivatives ban",
+   "clause": "PDMRs are prohibited from dealing ... where the dealing involves transactions in put options, call options or other derivative securities, on an exchange or in any other organised market",
+   "why_it_matters": "A bilateral OTC collar with a bank is outside the express ban, so its treatment turns on the dealing definition and clearance, but the bank should not hedge or novate the position through listed options in the executive's name."
+  },
+  {
+   "topic": "substance over form",
+   "clause": "BHP will take a substance over form approach and will have regard to the intent and spirit of this policy when applying and enforcing it.",
+   "why_it_matters": "A Clearance Officer may treat an OTC collar as within the spirit of the exchange-traded derivatives ban or the hedging ban and refuse clearance on that basis."
+  },
+  {
+   "topic": "one-year maturity test",
+   "clause": "An investment with a maturity of one year or less is considered of a short-term nature",
+   "why_it_matters": "Both the collar and the loan must have a tenor exceeding twelve months for a PDMR, and early termination or roll features may be scrutinised."
+  },
+  {
+   "topic": "hedging locked shares",
+   "clause": "Participants must not at any time enter into a transaction that operates or is intended to operate to limit participants' exposure to the risk of holding unvested BHP securities ... or vested BHP securities that are subject to holding locks or similar restrictions.",
+   "why_it_matters": "Only vested shares free of holding locks or plan restrictions can be collared; the ban applies at any time, including outside Closed Periods, and is intent-based."
+  },
+  {
+   "topic": "secured financing is a dealing",
+   "clause": "Dealing includes ... use as security, or otherwise granting a charge, lien or other encumbrance over securities ... entry into any margin lending or other secured financing arrangement.",
+   "why_it_matters": "The loan leg and the security interest over the collared shares each require clearance and are barred in Closed Periods, and for PDMRs are publicly disclosed via FCA and exchange notification."
+  },
+  {
+   "topic": "reputational test on clearance",
+   "clause": "If the market was aware of all the current circumstances, could the proposed dealing be perceived as taking advantage of my position in an inappropriate way? ... clearance will not be granted where the dealing would not satisfy the considerations above.",
+   "why_it_matters": "Clearance for a director's collar is discretionary and may be refused on perception grounds even absent inside information."
+  },
+  {
+   "topic": "clearance window and withdrawal",
+   "clause": "Upon receipt of written approval, the dealing must be completed within two business days. ... A clearance to deal can be withdrawn if new information comes to light or there is a change in circumstances.",
+   "why_it_matters": "The collar and loan must be priced and signed within two business days of clearance, and BHP can withdraw clearance before execution."
+  },
+  {
+   "topic": "PCA obligations",
+   "clause": "PDMRs must ensure that their PCAs: must request clearance before dealing in BHP securities ... companies, trusts, partnerships or entities: which are managed by a PDMR or a family member; which are directly or indirectly controlled by a PDMR",
+   "why_it_matters": "A collar or loan entered through a family trust or controlled company needs the same clearance and disclosure as if entered by the PDMR."
+  },
+  {
+   "topic": "hardship relief is sale-only",
+   "clause": "exceptional circumstances, such as severe financial difficulty or compulsion by court order, exist which require the immediate sale of shares",
+   "why_it_matters": "Closed Period relief covers an immediate sale, not entry into a hedge or financing, and the policy is silent on a lender's enforcement sale in a Closed Period."
+  },
+  {
+   "topic": "dealing on behalf of a third party",
+   "clause": "Persons on insider lists, Restricted Persons, PDMRs and their PCAs must not deal (or deal on behalf of a third party) in BHP securities during any Closed Period.",
+   "why_it_matters": "Physical settlement, unwind or collateral top-up during a Closed Period would be a dealing; structures should cash-settle or avoid mandatory delivery dates in Closed Periods."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted shares is possible for a BHP PDMR (director or KMP) but only with prior written clearance from the Group Company Secretary, executed within two business days of clearance, outside Closed Periods (year-end and half-year-end to results, plus any Board or Disclosure Committee blackout) and with a tenor exceeding one year, since investments maturing in one year or less are prohibited short-term dealings. The express PDMR derivatives ban is limited to exchange-traded or organised-market instruments, so a bilateral OTC put and call is caught only as a dealing, though BHP applies a substance-over-form approach and clearance is discretionary. Unvested securities and vested securities under holding locks cannot be hedged or used as collateral at all, so only free vested shares can be collared or charged. The loan and the security interest over the shares are each dealings requiring clearance and, for PDMRs, post-trade notification to the Group Company Secretary with onward FCA and exchange disclosure. The policy is silent on forced sales by a lender in a Closed Period, and the exceptional-circumstances relief covers only an immediate sale."
+}

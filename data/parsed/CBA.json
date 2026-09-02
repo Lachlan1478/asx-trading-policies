@@ -1,0 +1,627 @@
+{
+ "symbol": "CBA",
+ "company": "Commonwealth Bank of Australia",
+ "title": "Group Personal Trading Policy",
+ "date_approved": "12 August 2024 (version 10.0)",
+ "date_effective": "1 October 2024",
+ "date_lodged": "1 October 2024",
+ "date_next_review": "August 2026",
+ "tiers": [
+  {
+   "name": "all employees",
+   "kind": "all_staff",
+   "description": "All full-time, part-time and casual employees, contractors, secondees, and directors of CBA and its subsidiaries. Bound by the insider trading prohibition and by Pre-Clearance and other requirements in the Group Personal Trading Procedure where designated on the Conflicts Hub.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Specified Persons",
+   "kind": "restricted",
+   "description": "Anyone likely to have access to price-sensitive Group information; at a minimum CBA Board directors, Group Executives, Subsidiary Board directors, Group and Subsidiary company secretaries, Executive General Managers, their direct support staff and Group Control Room employees. Designation is recorded on the Conflicts Hub and may change.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "CBA Board directors, Group Company Secretaries, Group Executives",
+   "kind": "kmp",
+   "description": "Sub-tier of Specified Persons subject to the wider hedging ban on any vested Group Securities (para 9), UK/EU MAR restrictions (para 18) and express Pre-Clearance requirements (para 4). All Specified Persons rules also apply to them.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "enter into a transaction that limits the economic risk of their exposure to any vested Group Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Specified Persons"
+   ],
+   "start_anchor": "the day after the Group's full year results are released to the ASX",
+   "end_anchor": "30 days later (market close on the last day)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Specified Persons"
+   ],
+   "start_anchor": "the day after the Group's half year results are released to the ASX",
+   "end_anchor": "30 days later (market close on the last day)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Specified Persons"
+   ],
+   "start_anchor": "the day after the Group's May trading update is released to the ASX",
+   "end_anchor": "14 days later (market close on the last day)",
+   "duration_days": 14
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Specified Persons"
+   ],
+   "start_anchor": "the day after the Group's November trading update is released to the ASX",
+   "end_anchor": "14 days later (market close on the last day)",
+   "duration_days": 14
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Specified Persons"
+   ],
+   "start_anchor": "any one-off period determined by the CBA Board, such as for new Securities issuances",
+   "end_anchor": "as determined by the CBA Board",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Specified Persons"
+   ],
+   "start_anchor": "close of a Trading Window",
+   "end_anchor": "opening of the next Trading Window (all other periods are closed periods)",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The CBA Board (or its delegate) designates Trading Windows and may vary, suspend or close them at any time; Specified Persons are notified by e-mail and on the Conflicts Hub. Confidentiality of a suspension is not addressed.",
+ "rules": [
+  {
+   "topic": "hedging",
+   "tier": "Specified Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 8(a)",
+   "detail": "No transaction limiting economic risk of exposure to unvested Group Securities received under a Group equity plan. Extends to Associates via para 17 and the definition of Specified Person obligations.",
+   "evidence": "Specified Persons must not enter into a transaction that limits the economic risk of their exposure to Group Securities received under any Group equity plan that are: a. unvested"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Specified Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 8(b)",
+   "detail": "No transaction limiting economic risk of exposure to plan securities that are vested but subject to a holding lock or plan trading restriction.",
+   "evidence": "vested but subject to a holding lock or trading restriction under the terms of the plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Specified Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Policy requirements paras 8, 10, 16; Definitions (Security, Trade)",
+   "detail": "Para 8 is confined to unvested and locked plan securities, so a Specified Person outside the para 9 sub-tier (e.g. an Executive General Manager or Subsidiary Board director) is not expressly barred from hedging vested unrestricted shares. A collar is a derivative over Group Securities, hence a Security, and entering it is a Trade: it may only be done in a Trading Window, with Pre-Clearance where required under the Procedure, and subject to the 30-day LIFO holding rule and the CFD/short selling/stock lending bans.",
+   "evidence": "Specified Persons and their Associates may only Trade in Group Securities during a Trading Window unless one of the exceptions below applies."
+  },
+  {
+   "topic": "hedging",
+   "tier": "CBA Board directors, Group Company Secretaries, Group Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 9",
+   "detail": "Absolute ban on risk-limiting transactions over any vested Group Securities, whether plan-sourced or bought on market; extends to Associates. A purchased put or collar over vested shares is caught.",
+   "evidence": "the CBA Board directors, Group Company Secretaries, Group Executives, and each of their Associates, must not enter into a transaction that limits the economic risk of their exposure to any vested Group Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "CBA Board directors, Group Company Secretaries, Group Executives",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements paras 8(b), 9",
+   "detail": "Caught by para 9 (any vested Group Securities) and by para 8(b) as Specified Persons.",
+   "evidence": "must not enter into a transaction that limits the economic risk of their exposure to any vested Group Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "CBA Board directors, Group Company Secretaries, Group Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 8(a)",
+   "detail": "Caught by para 8(a) as Specified Persons.",
+   "evidence": "Specified Persons must not enter into a transaction that limits the economic risk of their exposure to Group Securities received under any Group equity plan that are: a. unvested"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "Policy requirements paras 8-9",
+   "detail": "The hedging bans are confined to Specified Persons and the para 9 sub-tier; the policy is silent for other employees beyond the insider trading prohibition and any Procedure requirements.",
+   "evidence": ""
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Security, Trade); paras 10, 16(c)",
+   "detail": "Derivatives, including OTC options and hedges settled in cash or otherwise, are Securities; a derivative over Group Securities is a Group Security. Not banned as a class (other than CFDs and short selling/stock lending instruments) but may only be entered in a Trading Window with Pre-Clearance where required, and subject to the hedging bans in paras 8-9.",
+   "evidence": "any derivatives products relating to the types of securities listed above, including but not limited to equity swaps, warrants, futures, contracts for difference, hedges and exchange traded or over the counter options, whether settled by cash or otherwise."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "CBA Board directors, Group Company Secretaries, Group Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "Policy requirements paras 9, 18",
+   "detail": "Any derivative that limits economic risk on vested Group Securities (put, collar, swap) is barred by para 9; a derivative that does not limit risk is a Trade requiring a Trading Window and Pre-Clearance. Para 18(b) separately bans any Security whose price depends on a Group Security listed on a UK or EU regulated market.",
+   "evidence": "must not enter into a transaction that limits the economic risk of their exposure to any vested Group Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "Policy requirements paras 1-5",
+   "detail": "Only the insider trading prohibition and any Pre-Clearance designated under the Procedure apply.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Specified Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Trade, Security); paras 10, 16(a)",
+   "detail": "Monetisation is not named. An agreement to dispose, or a cash-settled derivative, is a Trade and so is confined to Trading Windows with Pre-Clearance where required. Monetisation through a secured loan is barred by para 16(a); monetisation of unvested or locked plan shares through a risk-limiting transaction is barred by para 8.",
+   "evidence": "Trade or Trading includes buying, selling, acquiring, transferring or disposing of Securities, agreeing to do so, or procuring someone else to do so, whether on or off market."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "CBA Board directors, Group Company Secretaries, Group Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "Policy requirements paras 9, 16(a)",
+   "detail": "Any monetisation structure that limits economic risk on vested Group Securities (collar, prepaid forward) is barred by para 9, and any secured financing is barred by para 16(a). An outright sale in a Trading Window with Pre-Clearance remains available.",
+   "evidence": "must not enter into a transaction that limits the economic risk of their exposure to any vested Group Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 16(c)",
+   "detail": "Absolute ban on instruments or arrangements for short selling Group Securities, save to the extent covered by the Trading Window exceptions.",
+   "evidence": "enter into contracts for difference or use any instruments or enter any arrangements for short selling or stock lending of Group Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 16(c)",
+   "detail": "Absolute ban on arrangements for stock lending of Group Securities; relevant if the bank's hedge relies on borrowing the collared shares.",
+   "evidence": "use any instruments or enter any arrangements for short selling or stock lending of Group Securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 16(c)",
+   "detail": "Absolute ban on contracts for difference over Group Securities.",
+   "evidence": "enter into contracts for difference or use any instruments or enter any arrangements for short selling or stock lending of Group Securities"
+  },
+  {
+   "topic": "cfd",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 16(a)",
+   "detail": "Group Securities (vested or unvested) may not be used as security for margin lending. Rationale stated: a forced sale may breach the policy.",
+   "evidence": "use Group Securities as security for margin lending or other secured financing arrangements, as a forced sale may lead to the breach of this Policy"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 16(a)",
+   "detail": "Using Group Securities as security for any secured financing arrangement is banned. Granting a charge or mortgage over collared shares to the bank falls within this. Encumbrance is not otherwise defined as a Trade.",
+   "evidence": "use Group Securities as security for margin lending or other secured financing arrangements"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 16(a)",
+   "detail": "Ban covers any secured financing arrangement over Group Securities, not only margin loans, and applies to Associates. No exception for lender-enforced sales; a forced sale is described as a likely breach.",
+   "evidence": "use Group Securities as security for margin lending or other secured financing arrangements, as a forced sale may lead to the breach of this Policy"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Specified Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Policy requirements para 16(b)",
+   "detail": "Group Securities may not be held for less than 30 days, calculated last in, first out. Any acquisition (including shares delivered under a collar or a written call) restarts the 30-day clock for all holdings.",
+   "evidence": "hold Group Securities for less than a thirty-day period, calculated on a last in, first out basis"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Silent for employees who are not Specified Persons.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "CBA Board directors, Group Company Secretaries, Group Executives",
+   "type": "approval",
+   "approver": "CBA Board Chair for CBA Board directors (other than the Chair) and the CEO; CBA Board Audit Committee Chair for the Board Chair; CEO for Group Executives; for Group Company Secretaries the Pre-Clearance approver is not stated (Attachment A)",
+   "form": "system",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Policy requirements paras 2, 4-6; Definitions (Pre-Clearance); Attachment A",
+   "evidence": "Pre-Clearance requirements apply to the CBA Group Board, Group CEO and Group Executives and certain other individuals as outlined in the Procedure and on the Conflicts Hub."
+  },
+  {
+   "tier": "Specified Persons",
+   "type": "approval",
+   "approver": "As designated in the Procedure and on the Conflicts Hub; the policy does not name the approver for Specified Persons outside the Board/CEO/Group Executive group",
+   "form": "system",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Policy requirements paras 4-6, 16(b); Definitions (Pre-Clearance)",
+   "evidence": "Before Trading in any Securities you must confirm whether you require Pre-Clearance by checking the Conflicts Hub and/or the Procedure."
+  },
+  {
+   "tier": "all employees",
+   "type": "not_addressed",
+   "approver": "Per the Procedure and Conflicts Hub; certain individuals require Pre-Clearance for any Trading, not just Group Securities",
+   "form": "unspecified",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Policy requirements paras 3-5",
+   "evidence": "There are some positions in the Group that may cause individuals to be at greater risk of inappropriate Trading in relation to other entities outside the Group, accordingly certain individuals require Pre-Clearance for any Trading, not just Trading in Group Securities."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Specified Persons",
+   "type": "holding_period",
+   "months": 1.0,
+   "basis": "LIFO, 30 days from execution of the most recent acquisition",
+   "carve_outs": [],
+   "evidence": "hold Group Securities for less than a thirty-day period, calculated on a last in, first out basis (for example, if after obtaining Pre-Clearance you buy 20 CBA shares and the trade executes on 1 January, you must not sell any CBA shares until 1 February."
+  },
+  {
+   "tier": "all employees",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": ""
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "none required",
+   "evidence": "a disposal of Group Securities arising from the acceptance of a takeover offer, scheme of arrangement, equal access buy-back or capital reduction"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "none required",
+   "evidence": "an acquisition of Group Securities under a pro-rata or bonus issue, or a disposal of rights acquired under a pro-rata offer (e.g. renounceable rights issue)"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "unclear",
+   "approver": "none required",
+   "evidence": "an acquisition, forfeiture, lapse or cancellation of any Group Securities under a Group employee incentive plan, including the acquisition of Group Securities in satisfaction of rights to acquire shares, but excluding any Trading in those Group Securities after their acquisition"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "unclear",
+   "approver": "none required",
+   "evidence": "an acquisition of Group Securities pursuant to any dividend reinvestment plan or security purchase plan made available to all or most holders"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "none required",
+   "evidence": "Trading in relation to an investment or account managed by a third party where the Specified Person or Associate has no ability to exercise any influence or discretion in relation to such Trading"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "none required; not available to CBA Board directors and their Associates",
+   "evidence": "Off-market transfers of Group Securities, other than those by the CBA Board directors and their Associates, where there is no change in beneficial ownership"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Attachment A approver (CBA Board Chair; Audit Committee Chair for the Chair; CEO for Group Executives; Subsidiary Board Chair; Group General Counsel and Group Executive Legal & Group Secretariat for other Specified Persons)",
+   "evidence": "severe financial hardship where the sale of Group Securities is the only practical method of overcoming hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Attachment A approver",
+   "evidence": "a requirement to Trade in Group Securities pursuant to a court order or a court enforceable undertaking"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Attachment A approver",
+   "evidence": "an overriding legal or regulatory requirement to transfer, or accept a transfer of, Group Securities."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "Conditional or limit orders, including stop-loss instructions, must be placed and executed during a Trading Window (para 11); no guidance specific to financing price triggers.",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "yes",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Group Personal Trading Procedure (Pre-Clearance mechanics, who requires it and for which Trades, brokerage account declarations, attestations)",
+  "Conflicts Hub (Specified Person designation, Pre-Clearance requests, Trading Window notifications)",
+  "Group Policy Framework Glossary",
+  "Group Policy Framework (process for exemption requests other than Trading Window exceptions)",
+  "Group Conflicts Management Policy",
+  "Group Issue Management Procedure",
+  "Group Incident Management Procedure",
+  "ASB securities trading policy",
+  "Additional BU/SU Securities Trading requirements"
+ ],
+ "exemption_authority": "Group Chief Risk Officer is the Policy Exemption Authority. Trading Window exceptions are approved under Attachment A (CBA Board Chair for directors and the CEO; Board Audit Committee Chair for the Board Chair; CEO for Group Executives; Subsidiary Board Chair or Deputy Chair for subsidiary directors; Group General Counsel and Group Executive Legal & Group Secretariat for other Specified Persons and Board company secretaries). Any other exemption request goes through the Group Policy Framework.",
+ "jurisdiction_overlays": [
+  "UK and EU Market Abuse Regulation No 596/2014: CBA Board directors, Group Company Secretaries, Group Executives and their Associates must not Trade any Group Security listed or traded on a UK or EU regulated market, or any other Security whose price or value depends on or affects such a Group Security (para 18).",
+  "Where laws, regulatory requirements or contractual obligations conflict with the policy, the more stringent standard applies.",
+  "ASB (New Zealand) has its own securities trading policy."
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "forced sale",
+   "clause": "Specified Persons and their Associates must not use Group Securities as security for margin lending or other secured financing arrangements, as a forced sale may lead to the breach of this Policy.",
+   "why_it_matters": "The loan leg of a funded collar secured on the collared shares is expressly prohibited for every Specified Person, and there is no secured-lender-sale exception if the bank enforces."
+  },
+  {
+   "topic": "hedging scope split",
+   "clause": "Para 8 bans risk-limiting transactions on unvested or locked plan securities for all Specified Persons; para 9 extends the ban to any vested Group Securities only for CBA Board directors, Group Company Secretaries, Group Executives and their Associates.",
+   "why_it_matters": "The hedge leg is available only to Specified Persons outside the para 9 group (e.g. Executive General Managers, Subsidiary Board directors) and only over vested shares free of any holding lock."
+  },
+  {
+   "topic": "conditional orders",
+   "clause": "Trading involving conditional or limit orders (e.g. a specified, minimum sell or maximum purchase price or a stop-loss instruction) must be placed and executed during a Trading Window.",
+   "why_it_matters": "A collar whose put or call is exercised or physically settled at maturity, or any price-triggered unwind, may execute outside a Trading Window and breach the policy unless cash-settled or timed to a window."
+  },
+  {
+   "topic": "director off-market transfers",
+   "clause": "Off-market transfers with no change in beneficial ownership are exempt from Trading Windows other than those by the CBA Board directors and their Associates.",
+   "why_it_matters": "A director transferring collared shares to a bank custodian or security account is making a Trade that must occur in a Trading Window with Pre-Clearance."
+  },
+  {
+   "topic": "exception mechanics",
+   "clause": "A Trading Window exception must be requested in writing with evidence that the proposed Trade is the most reasonable course of action and there are no other viable legal alternatives; it remains in force for seven calendar days unless revoked earlier, Pre-Clearance if required must be obtained within that period, Group Control Room must be notified, and confirmation of whether the Trade was placed must go to the approver and Group Control Room by the next business day.",
+   "why_it_matters": "The hardship relief is drafted around a sale and does not extend to entering a hedge, so a collar cannot be executed in a closed period under it."
+  },
+  {
+   "topic": "MAR overlay",
+   "clause": "CBA Board directors, Group Company Secretaries, Group Executives and Associates must not Trade any other Security that has a price or value which depends on, or has an effect on, the price or value of a Group Security that is listed or traded on a UK or EU regulated market.",
+   "why_it_matters": "If the collar's reference security or any Group Security it prices off is listed on a UK or EU market, the derivative is barred outright for this group regardless of Trading Windows."
+  },
+  {
+   "topic": "insider trading override",
+   "clause": "The prohibition on Insider Trading applies at all times and overrides any Pre-Clearance, exception or other provision of this Policy. Pre-Clearance or an exception being granted is not an endorsement of any Trade.",
+   "why_it_matters": "Pre-Clearance does not protect the executive or the bank if the executive holds Inside Information when the collar is struck."
+  },
+  {
+   "topic": "ETF lookthrough",
+   "clause": "If Group Securities make up 20% or more of an exchange traded fund (ETF) at the time of placing a Trade, the ETF is considered to be a Group Security for the purposes of this Policy.",
+   "why_it_matters": "A hedge referenced to a CBA-heavy ETF is treated as a hedge of Group Securities."
+  },
+  {
+   "topic": "designation fluidity",
+   "clause": "The Specified Person list is not exhaustive and other individuals may be considered Specified Persons; designation is recorded on the Conflicts Hub and may change from time to time.",
+   "why_it_matters": "The bank should confirm the counterparty's current designation and whether they fall in the para 9 group before structuring, since the answer differs between tiers."
+  },
+  {
+   "topic": "pre-clearance scope",
+   "clause": "If Pre-Clearance requirements apply to you, you should refer to the Procedure for further information including how to seek Pre-Clearance and for which types of Trading it is required.",
+   "why_it_matters": "Whether an OTC derivative specifically requires Pre-Clearance is settled by the unpublished Procedure, not this policy."
+  }
+ ],
+ "summary": "A funded collar is not possible for CBA Board directors, Group Company Secretaries, Group Executives or their Associates: para 9 bans any transaction that limits the economic risk of their exposure to any vested Group Securities, and para 16(a) bans using Group Securities as security for margin lending or any other secured financing. For other Specified Persons (e.g. Executive General Managers, Subsidiary Board directors, Group Control Room staff), the hedge leg over vested shares free of any holding lock is not expressly banned, but the OTC options are Securities and entering them is a Trade, so it must be done in a Trading Window, with Pre-Clearance where designated on the Conflicts Hub (valid three business days), subject to the 30-day LIFO holding rule, and it must not involve CFDs, short selling or stock lending of Group Securities. The loan leg secured on the collared shares is prohibited for all Specified Persons, so at most an unsecured or unfunded collar is workable for that group, and exercise or settlement mechanics that execute outside a Trading Window are a further risk under para 11. Employees who are not Specified Persons face only the insider trading prohibition and whatever Pre-Clearance the unpublished Procedure imposes. The MAR overlay in para 18 adds an outright bar for the senior group on any Security that prices off a UK/EU-listed Group Security."
+}
