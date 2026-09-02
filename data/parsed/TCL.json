@@ -1,0 +1,503 @@
+{
+ "symbol": "TCL",
+ "company": "Transurban Group (Transurban Holdings Limited, Transurban International Limited and Transurban Holding Trust)",
+ "title": "Dealing in Securities Policy",
+ "date_approved": "June 2021",
+ "date_effective": "June 2021",
+ "date_lodged": "29 June 2021",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All of Transurban's directors, senior executives, employees, officers and contractors on permanent or part-time fixed term contracts, and their Related Parties. Subject to Closed Periods, the short selling, short term dealing and margin lending/secured financing bans, the hedging rules for equity plan entitlements, and the post-dealing notification.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors, members of the Executive Committee and their direct reports, any other person the Company Secretary designates, and their Related Parties. May deal in Open Periods only with prior approval under section 6.1.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors, members of the Executive Committee and their Related Parties",
+   "kind": "kmp",
+   "description": "Directors (including the CEO) and Executive Committee members, with their Related Parties. Subject to an absolute ban on hedging arrangements in relation to Transurban Securities (5.5) in addition to the Restricted Person regime; directors' dealings are notified to ASX within five business days.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors (including the CEO) and their Related Parties",
+   "kind": "director",
+   "description": "Approval sub-tier: approver is the Chairman.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman and their Related Parties",
+   "kind": "director",
+   "description": "Approval sub-tier: approver is the Transurban Board or the Chair of the Audit and Risk Committee; the Chairman is also the person directors consult when unsure whether they may deal.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Company Secretary and their Related Parties",
+   "kind": "kmp",
+   "description": "Approval sub-tier: approver is the CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "All other Employees",
+   "kind": "all_staff",
+   "description": "Approval sub-tier covering Restricted Persons other than directors and the Company Secretary (Executive Committee members and their direct reports, designated persons) for Open Period dealing, and any Employee seeking exceptional-circumstances approval or approval to deal in Other Securities: approver is the Company Secretary, who may confer with the CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees who have entitlements to Transurban Securities under a Transurban Equity Plan",
+   "kind": "plan_participant",
+   "description": "Any Employee holding unvested or holding-locked entitlements under a plan providing Transurban Securities as remuneration; must not hedge those entitlements before vesting or while holding-locked and must seek to ensure Related Parties do not.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Related Party",
+   "kind": "associate",
+   "description": "Spouse, domestic partner, child or dependent (including of the spouse or partner); any family member who may influence or be influenced by the person in dealings; a person or company with a private understanding or business arrangement with the person for dealing in Securities; and any company, trust, partnership or entity the person or those persons control or significantly influence. The Employee submits approval requests and notifications on the Related Party's behalf.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "1 July",
+   "end_anchor": "close of ASX trading on the next ASX trading day after the release of Transurban's full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "1 January",
+   "end_anchor": "close of ASX trading on the next ASX trading day after the release of Transurban's half year results",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "end of a Closed Period",
+   "end_anchor": "start of the next Closed Period (Open Periods are those periods that are not Closed Periods)",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Transurban Board may determine any other Closed Period from time to time (5.1(c)) and may declare or extend a Closed Period to cover a hedge exercise date (5.5). The Company Secretary notifies Employees of exact Closed Period dates each year by email or internal bulletin, so Closed Periods are not confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors, members of the Executive Committee and their Related Parties",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Derivatives are not regulated by name. Options are Securities and an option contract is an agreement to deal, but any derivative that hedges Transurban Securities (a purchased put, a collar) is a hedging arrangement absolutely banned for directors, Executive Committee members and their Related Parties regardless of vesting state or venue. A non-hedging derivative (e.g. a bought call) would be a dealing requiring Chairman approval in an Open Period.",
+   "evidence": "Directors, members of the Executive Committee and their Related Parties must not enter into hedging arrangements in relation to Transurban Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.2, 5.5, 6.1; Glossary (deal or dealing, Securities)",
+   "detail": "For Restricted Persons who are not directors or Executive Committee members (e.g. Executive Committee direct reports), an option contract is an agreement to deal and so a dealing permitted only in an Open Period with prior approval from the Company Secretary, valid five ASX trading days; a hedging derivative must also satisfy the 5.5 Open Period initiation and exercise-date conditions.",
+   "evidence": "entering into an agreement to deal (eg an option contract to apply for, acquire or dispose of Securities)"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1, 5.5; Glossary",
+   "detail": "Employees who are not Restricted Persons need no approval; an option contract is a dealing subject to the Closed Periods, the short selling and short term dealing bans and, if it hedges, the 5.5 Open Period conditions.",
+   "evidence": "Employees must not, except in exceptional circumstances (see section 5.7), deal in Transurban Securities during the following periods (Closed Periods)"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, members of the Executive Committee and their Related Parties",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Absolute ban on hedging arrangements in relation to Transurban Securities for directors, Executive Committee members and their Related Parties, covering vested and unvested holdings alike; no approval or exceptional-circumstances route.",
+   "evidence": "Directors, members of the Executive Committee and their Related Parties must not enter into hedging arrangements in relation to Transurban Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees who have entitlements to Transurban Securities under a Transurban Equity Plan",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "All Employees with equity plan entitlements are banned from hedging them before vesting and must seek to ensure their Related Parties do not.",
+   "evidence": "Employees who have entitlements to Transurban Securities under a Transurban Equity Plan must not, and must seek to ensure their Related Parties do not, hedge against those entitlements prior to the vesting of those entitlements or while they are subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees who have entitlements to Transurban Securities under a Transurban Equity Plan",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Vested entitlements still subject to a holding lock cannot be hedged.",
+   "evidence": "prior to the vesting of those entitlements or while they are subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Employees other than directors, Executive Committee members and their Related Parties may hedge vested, unlocked Transurban Securities only if the hedge is initiated in an Open Period and structured so that its specified exercise date falls within an Open Period. Restricted Persons within this group also need prior approval (5.2). If the Board later declares or extends a Closed Period over the exercise date, the Employee may request approval to exercise.",
+   "evidence": "Employees (other than directors, members of the Executive Committee and their Related Parties) may hedge against vested Transurban Securities that are not subject to a holding lock if the hedge is both initiated in, and arranged so that the specified exercise date falls within, an Open Period."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Collars, prepaid forwards and other monetisation structures are not named. They are caught only as hedging arrangements (5.5) and, for the loan leg, as secured financing arrangements (5.6).",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Outright ban on short selling Transurban Securities for all Employees; reaffirmed in the Employee Dealing Form acknowledgement.",
+   "evidence": "Employees are not permitted to engage in any short selling of Transurban Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and is not within the dealing definition, although a title-transfer loan is a disposal and re-acquisition and would in substance be a dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "CFDs are not named and the Securities definition lists options but not derivatives generally. A short CFD would be a hedging arrangement (banned for directors and Executive Committee members) and may be treated as short selling or short term dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.6",
+   "detail": "All Employees and their Related Parties are banned from margin loans secured on Transurban Securities, solely or as part of a portfolio; no approval route or grandfathering language.",
+   "evidence": "Employees must not obtain margin loans using Transurban Securities (either solely or as part of a portfolio) as security for the loans, or enter into any other secured financing arrangements in respect of Transurban Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.6",
+   "detail": "Granting security over Transurban Securities to support any financing is a prohibited 'secured financing arrangement'. A charge unconnected with financing is not addressed and is not a dealing under the definition.",
+   "evidence": "or enter into any other secured financing arrangements in respect of Transurban Securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.6; Attachment A",
+   "detail": "Blanket ban on any secured financing arrangement in respect of Transurban Securities for all Employees and Related Parties, with no tier, vesting-state or approval carve-out; every dealing request carries an acknowledgement not to enter such arrangements.",
+   "evidence": "I will not engage in short selling of Transurban Securities, obtain margin loans using Transurban Securities (either solely or as part of a portfolio) as security for loans or enter into any other secured financing arrangements in respect of Transurban Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.4, 5.7",
+   "detail": "No buying and selling within a three month period, except in exceptional circumstances (severe financial hardship, court order or other exceptional circumstance) with prior approval under 6.1.",
+   "evidence": "An Employee must not buy and sell Transurban Securities on a short term basis (that is, within a three month period) except in exceptional circumstances (see section 5.7) and provided prior approval is sought and granted in accordance with the procedure set out in section 6.1."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors (including the CEO) and their Related Parties",
+   "type": "approval",
+   "approver": "Chairman",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (nature of transaction, name, date, number of Securities and consideration); Transurban notifies ASX within five business days",
+   "post_trade_deadline": "within two ASX trading days of completion; if no dealing, notify within seven ASX trading days of approval",
+   "section": "6.1, 6.2, 6.3, 8",
+   "evidence": "If approval to deal in Transurban Securities is granted, the dealing must be conducted within five ASX trading days of the approval. If the Employee does not deal in Transurban Securities within this time period, the approval will lapse."
+  },
+  {
+   "tier": "Chairman and their Related Parties",
+   "type": "approval",
+   "approver": "Transurban Board or the Chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (nature of transaction, name, date, number of Securities and consideration); Transurban notifies ASX within five business days",
+   "post_trade_deadline": "within two ASX trading days of completion; if no dealing, notify within seven ASX trading days of approval",
+   "section": "6.1, 6.2, 6.3, 8",
+   "evidence": "Chairman and their Related Parties | Transurban Board or the Chair of the Audit and Risk Committee"
+  },
+  {
+   "tier": "Company Secretary and their Related Parties",
+   "type": "approval",
+   "approver": "CEO",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (nature of transaction, name, date, number of Securities and consideration for executives)",
+   "post_trade_deadline": "within two ASX trading days of completion; if no dealing, notify within seven ASX trading days of approval",
+   "section": "6.1, 6.2, 6.3",
+   "evidence": "Company Secretary and their Related Parties | CEO"
+  },
+  {
+   "tier": "All other Employees",
+   "type": "approval",
+   "approver": "Company Secretary, who may confer with the CEO as necessary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (nature of transaction including 'hedge', name, date; number and consideration for executives)",
+   "post_trade_deadline": "within two ASX trading days of completion; if no dealing, notify within seven ASX trading days of approval",
+   "section": "5.2, 6.1, 6.2, 6.3",
+   "evidence": "The Employee Dealing Form (Attachment A) may be used for this purpose but an e-mail request (containing the information in Attachment A) is sufficient. A request will generally be answered within 48 hours."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Employees",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buy and sell within a three month period",
+   "carve_outs": [
+    "exceptional circumstances (severe financial hardship, court order or other exceptional circumstance) with prior approval under section 6.1"
+   ],
+   "evidence": "An Employee must not buy and sell Transurban Securities on a short term basis (that is, within a three month period) except in exceptional circumstances (see section 5.7) and provided prior approval is sought and granted"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "applying for or acquiring Transurban Securities under a Transurban Equity Plan (including by exercise of options or rights). However, where any Transurban Securities granted to an Employee under a Transurban Equity Plan cease to be held under the terms of that plan ... the Employee must only deal in those Transurban Securities in accordance with this Policy"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer or participation in a scheme of arrangement"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of Transurban Securities resulting in no change in beneficial interests in those securities (eg, the transfer from one personal security holding to another)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental trading that occurs as a consequence of an Employee dealing in units or shares of a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "participation in, acceptance of, or trading under, an offer or invitation made to all or most security holders such as a rights issue, a security purchase plan, Transurban's Distribution Reinvestment Plan and an equal access buy back, where the plan that determines the timing and structure of the offer has been approved by the Transurban Board"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "a transfer of Transurban Securities arising from the administration of a deceased estate"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Approver per section 6.1 table (Chairman for directors; Board or Chair of the Audit and Risk Committee for the Chairman; CEO for the Company Secretary; Company Secretary for all others)",
+   "evidence": "An Employee who is not in possession of inside information may be granted prior approval to sell or otherwise deal in Transurban Securities during a Closed Period or on a short term basis where the Employee is in severe financial hardship ... An Employee is considered in severe financial hardship if they cannot satisfy a pressing financial commitment otherwise than by selling the relevant Transurban Securities."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Approver per section 6.1 table",
+   "evidence": "pursuant to a court order"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Approver per section 6.1 table",
+   "evidence": "or there are other exceptional circumstances"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "All Employees: each dealing request includes a signed acknowledgement that the Employee will not obtain margin loans secured on Transurban Securities or enter into any other secured financing arrangements (Attachment A).",
+   "Directors and executives: post-dealing notification to the Company Secretary within two ASX trading days including number of Securities and consideration (6.3); Transurban notifies ASX of directors' purchases and sales within five business days (8)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Continuous Disclosure Policy",
+  "Code of Conduct",
+  "Transurban Equity Plan rules (holding locks and plan terms)",
+  "Intranet list of identified Other Securities"
+ ],
+ "exemption_authority": "The section 6.1 approver (Chairman for directors including the CEO; Board or Chair of the Audit and Risk Committee for the Chairman; CEO for the Company Secretary; Company Secretary for all other Employees) may approve a dealing during a Closed Period or on a short term basis in exceptional circumstances (severe financial hardship defined as inability to meet a pressing financial commitment otherwise than by selling, a court order, or other exceptional circumstances) provided the Employee holds no inside information; the Company Secretary may approve exercise of a permitted employee hedge where the Board has extended a Closed Period over the exercise date. No authority exists to waive the director/Executive Committee hedging ban, the margin lending and secured financing ban, or the short selling ban.",
+ "jurisdiction_overlays": [
+  "Employees must also comply with any applicable obligations or requirements under local law in their jurisdiction (section 4)"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "director and executive hedging ban",
+   "clause": "Directors, members of the Executive Committee and their Related Parties must not enter into hedging arrangements in relation to Transurban Securities.",
+   "why_it_matters": "The option legs of a collar are a hedging arrangement and are absolutely prohibited for directors, Executive Committee members and their Related Parties over vested and unvested securities alike."
+  },
+  {
+   "topic": "secured financing ban",
+   "clause": "Employees must not obtain margin loans using Transurban Securities (either solely or as part of a portfolio) as security for the loans, or enter into any other secured financing arrangements in respect of Transurban Securities.",
+   "why_it_matters": "A loan secured on the collared shares is prohibited for every Employee and Related Party, so a funded collar fails for all tiers regardless of whether the hedge itself is permitted."
+  },
+  {
+   "topic": "employee hedge timing",
+   "clause": "may hedge against vested Transurban Securities that are not subject to a holding lock if the hedge is both initiated in, and arranged so that the specified exercise date falls within, an Open Period.",
+   "why_it_matters": "For Employees below Executive Committee level an unfunded collar must be executed in an Open Period with a fixed expiry inside an Open Period, which effectively requires European-style options and rules out American exercise or early termination rights that could fall in a Closed Period."
+  },
+  {
+   "topic": "hedging is dealing",
+   "clause": "Hedging is a form of dealing. Therefore, where hedging is not prohibited under this Policy it must be undertaken in accordance with this Policy.",
+   "why_it_matters": "A permitted hedge by a Restricted Person needs prior approval, is subject to Closed Periods and must be reported to the Company Secretary within two ASX trading days as a 'hedge'."
+  },
+  {
+   "topic": "Board extension over exercise date",
+   "clause": "Where an Employee ... has a hedge which is to be exercised in an Open Period but the Transurban Board has decided to declare or extend a Closed Period to cover the exercise date, the Employee may request prior approval to exercise",
+   "why_it_matters": "Settlement of a permitted employee hedge can be blocked by a later Closed Period and depends on discretionary approval, a risk the bank should price into settlement mechanics."
+  },
+  {
+   "topic": "dealing form acknowledgement",
+   "clause": "I will not engage in short selling of Transurban Securities, obtain margin loans using Transurban Securities (either solely or as part of a portfolio) as security for loans or enter into any other secured financing arrangements in respect of Transurban Securities.",
+   "why_it_matters": "Every approval request requires a personal undertaking against secured financing, so a funded collar would involve a false acknowledgement as well as a policy breach."
+  },
+  {
+   "topic": "related party breadth",
+   "clause": "a person or company that has a private understanding or business arrangement with the person for dealing in Securities",
+   "why_it_matters": "A counterparty or vehicle with a standing arrangement to deal in Transurban Securities on the executive's behalf may itself be a Related Party, so the bans cannot be avoided by interposing an entity or nominee."
+  },
+  {
+   "topic": "approval withdrawal and confidentiality",
+   "clause": "If a request for approval to trade is granted, it may be withdrawn if new information comes to light or there is a change in the circumstances of Transurban Securities. If a request for approval to trade is refused, the decision is final and binding and the Employee who has sought the clearance must keep the information (of the refusal) confidential",
+   "why_it_matters": "Any approved dealing can be revoked before execution within its five-trading-day validity and the executive may not tell the bank why a request was refused."
+  },
+  {
+   "topic": "exceptional circumstances scope",
+   "clause": "may be granted prior approval to sell or otherwise deal in Transurban Securities during a Closed Period or on a short term basis",
+   "why_it_matters": "Closed Period relief extends to any dealing, not just sales, but is confined to hardship, court order or other exceptional circumstances and cannot override the hedging or secured financing bans."
+  },
+  {
+   "topic": "stapled securities",
+   "clause": "the shares in THL, the shares in TIL and the units in THT stapled together and quoted on the ASX; and any other Securities relating to Transurban.",
+   "why_it_matters": "Any hedge or security would need to cover the stapled triple security as a unit, and 'any other Securities relating to Transurban' sweeps in OTC option contracts."
+  },
+  {
+   "topic": "forced sale silence",
+   "clause": "Employees must not, except in exceptional circumstances (see section 5.7), deal in Transurban Securities during the following periods (Closed Periods)",
+   "why_it_matters": "There is no carve-out for a counterparty's enforcement or physical settlement in a Closed Period, so even a permitted employee hedge must avoid settlement or unwind in the 1 July and 1 January Closed Periods."
+  }
+ ],
+ "summary": "A funded collar is not possible under Transurban's policy for any tier. Section 5.6 prohibits every Employee and their Related Parties from margin loans and any other secured financing arrangement in respect of Transurban Securities, with no approval or exceptional-circumstances route, so the loan secured on the collared shares is barred outright; each dealing request also requires a signed acknowledgement not to enter such arrangements. For directors, Executive Committee members and their Related Parties the option legs are independently prohibited by the absolute hedging ban in section 5.5. An unfunded collar over vested, unlocked securities is available only to Employees below Executive Committee level (including their direct reports as Restricted Persons, who need prior Company Secretary approval valid five ASX trading days) if it is initiated in an Open Period with the specified exercise date falling in an Open Period, outside the 1 July and 1 January Closed Periods, reported to the Company Secretary within two ASX trading days, and not over unvested or holding-locked equity plan entitlements."
+}
