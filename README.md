@@ -12,13 +12,13 @@ Collects the securities trading policy of the largest ASX-listed companies and e
 
 | File | One row per | Contents |
 |---|---|---|
-| `data/policies.json` | company | Full nested extraction, including `bespoke_clauses` for anything the structured fields cannot hold |
-| `data/policies.csv` | company | Dates, tiers, window model, definition flags, financing scope, forced-sale treatment, disclosure triggers, funded-collar status, summary |
-| `data/rules.csv` | company x tier x topic x security state x venue | Answer (prohibited / permitted / with clearance / with notification / floor / not addressed), mechanism (express or via the dealing definition), section, verbatim evidence |
-| `data/clearance.csv` | company x tier | Approval vs notification vs system pre-clearance, approver, validity, SLA, revocability, post-trade notice |
-| `data/windows.csv` | window | Open or closed, anchors, duration, tiers |
-| `data/collar.csv` | company x tier | Rule-derived collar status (available, clearance required, notification required, blocked, blocked below floor, unclear) and funded-collar status, with blockers |
-| `data/bespoke.csv` | clause | Tagged collar-relevant clauses outside the schema, with why they matter |
+| `data/tables/policies.json` | company | Full nested extraction, including `bespoke_clauses` for anything the structured fields cannot hold |
+| `data/tables/policies.csv` | company | Dates, tiers, window model, definition flags, financing scope, forced-sale treatment, disclosure triggers, funded-collar status, summary |
+| `data/tables/rules.csv` | company x tier x topic x security state x venue | Answer (prohibited / permitted / with clearance / with notification / floor / not addressed), mechanism (express or via the dealing definition), section, verbatim evidence |
+| `data/tables/clearance.csv` | company x tier | Approval vs notification vs system pre-clearance, approver, validity, SLA, revocability, post-trade notice |
+| `data/tables/windows.csv` | window | Open or closed, anchors, duration, tiers |
+| `data/tables/collar.csv` | company x tier | Rule-derived collar status (available, clearance required, notification required, blocked, blocked below floor, unclear) and funded-collar status, with blockers |
+| `data/tables/bespoke.csv` | clause | Tagged collar-relevant clauses outside the schema, with why they matter |
 
 `data/parsed_v1/` holds the first-pass flat extractions of six policies under the earlier schema.
 
@@ -26,7 +26,7 @@ Collects the securities trading policy of the largest ASX-listed companies and e
 
 ```bash
 uv sync
-uv run python scrape.py -n 500                # data/pdf, data/text, data/policies.csv
+uv run python scrape.py -n 500                # data/pdf, data/text, data/policies.csv (the manifest)
 export ANTHROPIC_API_KEY=...
 uv run python extract.py                      # data/parsed/*.json, data/results.csv, data/results.json
 uv run python extract.py --symbols CBA BHP    # subset

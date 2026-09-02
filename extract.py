@@ -112,14 +112,15 @@ def report(rows):
         for t in p.tiers:
             status, blockers = collar_status(p, t.name)
             tables["collar"].append({**base, "tier": t.name, "tier_kind": t.kind, "collar": status, "funded_collar": funded_status(p), "blockers": " | ".join(blockers)})
+    (DATA / "tables").mkdir(exist_ok=True)
     for name, rows_ in tables.items():
         if rows_:
-            with open(DATA / f"{name}.csv", "w", newline="") as fh:
+            with open(DATA / "tables" / f"{name}.csv", "w", newline="") as fh:
                 w = csv.DictWriter(fh, fieldnames=rows_[0].keys())
                 w.writeheader()
                 w.writerows(rows_)
-    (DATA / "policies.json").write_text(json.dumps(full, indent=1))
-    print(f"{len(full)} policies -> data/policies.json and data/{{{','.join(tables)}}}.csv", file=sys.stderr)
+    (DATA / "tables" / "policies.json").write_text(json.dumps(full, indent=1))
+    print(f"{len(full)} policies -> data/tables/policies.json and data/tables/{{{','.join(tables)}}}.csv", file=sys.stderr)
 
 
 Definitions_fields = ["dealing_covers_derivatives", "dealing_covers_agreements_to_deal", "dealing_covers_encumbrance", "dealing_covers_stock_lending",
