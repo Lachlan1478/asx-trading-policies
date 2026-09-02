@@ -1,0 +1,477 @@
+{
+ "symbol": "ALL",
+ "company": "Aristocrat Leisure Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "1 August 2023",
+ "date_lodged": "1 August 2023",
+ "date_next_review": "Every two years (no date stated)",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All Aristocrat non-executive directors, employees, consultants and contractors irrespective of location. Subject to the section 3 restrictions: no dealing with Inside Information or after a company no-deal notice, hedging bans on unvested/locked plan securities, and the short-term/speculative/short-selling bans. No approval or blackout regime unless also a Designated Person.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Non-executive directors (including directors-elect), all members of the Executive Steering Committee and their direct reports (Senior Executives), and Nominated Employees advised by the Company Secretary. Subject to blackout periods, prior written approval for every dealing, the margin lending ban and the Connected Persons obligation.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Non-executive Directors",
+   "kind": "director",
+   "description": "Non-executive directors and directors-elect; a sub-group of Designated Persons distinguished for approval routing (Chair of the Board; Chair of the Audit Committee for the Chair) and post-trade confirmation to the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives",
+   "kind": "kmp",
+   "description": "All members of the Executive Steering Committee and their direct reports; a sub-group of Designated Persons. ESC members are approved by the CEO (the CEO by the Chair) and must confirm compliance with the Executive Minimum Shareholding Policy; direct reports are approved by the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Nominated Employees",
+   "kind": "other",
+   "description": "Other persons who regularly possess inside information and have been advised by the Company Secretary that they are subject to the Designated Person restrictions; approved by the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "Family members who may be expected to influence or be influenced by the Designated Person (spouse, partner, children, partner's children, dependants) and any company or entity the Designated Person has an ability to control. Designated Persons must ensure they only deal when the Designated Person could, and should obtain clearance for their dealings.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding Aristocrat securities.",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "close of trading on the ASX on 30 September",
+   "end_anchor": "the day after the announcement to ASX of the full-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "close of trading on the ASX on 31 March",
+   "end_anchor": "the day after the announcement to ASX of the half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "21 calendar days before the Annual General Meeting",
+   "end_anchor": "the date of the Annual General Meeting (inclusive)",
+   "duration_days": 21
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "the day after release of full-year results",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "the day after release of half-year results",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "Board Chairman, in consultation with the Company Secretary, may specify additional blackout periods for Designated Persons (4.1(d)); Aristocrat may also notify any Employees that they must not deal for a specified period or until further notice (3.1). Confidentiality of such notices is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "3.4; 3.5; 4.3",
+   "detail": "Derivatives and 'deal' are not defined. A put/call collar is an arrangement limiting economic risk and so is hedging (banned pre-vesting and during a holding lock, otherwise unrestricted), and forward contracts are named as short-term dealings. Any dealing by a Designated Person outside a blackout requires prior written approval; no venue distinction is drawn.",
+   "evidence": "During any period that is not a trading blackout period under section 4.1, Designated Persons must, prior to any proposed dealing, seek approval for the proposed dealing in Aristocrat securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3; 3.5",
+   "detail": "Non-Designated Employees need no approval. Derivatives are not named; they remain subject to the Inside Information, hedging, short-term (forward contracts named) and speculative bans.",
+   "evidence": "Short-term trading includes buying and selling securities on market within a 3-month period and entering into other short-term dealings (for example, forward contracts)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Absolute ban on hedging plan securities before vesting, applying to all Employees.",
+   "evidence": "Aristocrat securities acquired under an employee, executive or director equity plan operated by Aristocrat must never be hedged prior to vesting."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Absolute ban on hedging securities while subject to a holding lock or dealing restriction under a plan.",
+   "evidence": "Aristocrat securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan operated by Aristocrat."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.4; 4.3; 4.4",
+   "detail": "Hedging bans are limited to unvested and locked plan securities; hedging of vested, unrestricted shares (plan or otherwise) is not prohibited but is a dealing requiring prior written approval outside blackout periods, subject to the Front Page Test.",
+   "evidence": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding Aristocrat securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Non-Designated Employees may hedge vested, unrestricted securities without approval, subject to the Inside Information and short-term/speculative bans.",
+   "evidence": "Aristocrat securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan operated by Aristocrat."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "3.4; 3.5; 4.3",
+   "detail": "Monetisation is not named. A prepaid forward or similar limits economic risk and is hedging (banned if unvested/locked), forward contracts are cited as short-term dealings, and any dealing needs prior written approval.",
+   "evidence": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding Aristocrat securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Short-selling is banned for all Employees as speculative dealing.",
+   "evidence": "Employees must not deal in Aristocrat securities on a speculative basis, including short-selling."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named; borrowing is mentioned only in describing short-selling.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.5",
+   "detail": "CFDs are not named but fall within the bans on speculative and short-term dealing (forward contracts given as an example of the latter).",
+   "evidence": "Employees must not deal in Aristocrat securities on a speculative basis, including short-selling."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7",
+   "detail": "Designated Persons may neither enter a margin lending arrangement in respect of Aristocrat securities nor transfer Aristocrat securities into an existing margin loan account. No vesting-state or approval carve-out.",
+   "evidence": "Designated Persons must not: (a) enter into a margin lending arrangement in respect of Aristocrat securities; or (b) transfer securities in Aristocrat into an existing margin loan account."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "4.7",
+   "detail": "The margin lending ban is confined to Designated Persons; other Employees are not restricted.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or pledge is not named and 'deal' is not defined to include it; only margin lending (Designated Persons) is banned.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "4.7; 1",
+   "detail": "Only margin lending arrangements are banned; other loans secured on Aristocrat securities are not addressed. The substance-over-form statement means a loan with LVR triggers or lender sale rights may be treated as a margin lending arrangement.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Buy-and-sell within 3 months and other short-term dealings (forward contracts named) are banned. Selling plan shares within 3 months of vesting is carved out; section 5 excluded dealings are also outside 3.5.",
+   "evidence": "Employees must not deal in Aristocrat securities on a short-term trading basis. Short-term trading includes buying and selling securities on market within a 3-month period and entering into other short-term dealings (for example, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Non-executive Directors",
+   "type": "approval",
+   "approver": "Chair of the Board (Chair of the Audit Committee for the Chair of the Board), via the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "4.3; 4.4; 4.5",
+   "evidence": "Following receipt of approval to deal, the approved dealing must occur within 5 business days following approval (or such other time specified in the approval), otherwise the approval is no longer effective and fresh approval must be sought."
+  },
+  {
+   "tier": "Senior Executives",
+   "type": "approval",
+   "approver": "CEO for Executive Steering Committee members and the Company Secretary; Chair of the Board for the CEO; Company Secretary for direct reports to the ESC",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (CEO only)",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into (CEO only)",
+   "section": "4.3; 4.4; 4.5",
+   "evidence": "A request for approval under sections 4.2 or 4.3 by members of the Executive Steering Committee must be accompanied by a confirmation that the member is in compliance with the Executive Minimum Shareholding Policy."
+  },
+  {
+   "tier": "Nominated Employees",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.3; 4.4",
+   "evidence": "The Company Secretary will approve requests received from the balance of the Designated Persons, being the Nominated Employees or direct reports to the Executive Steering Committee."
+  },
+  {
+   "tier": "Employees",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3; 4",
+   "evidence": "Certain parts of this Policy apply only to Designated Persons"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and selling on market within a 3-month period; other short-term dealings such as forward contracts",
+   "carve_outs": [
+    "Selling shares received on vesting under an employee, executive or non-executive director equity plan within 3 months of the vesting date",
+    "Section 5 excluded dealings (plan participation, DRP, SPP, rights issue, takeover/scheme/buy-back, no change in beneficial interest, third-party discretionary funds, pre-approved non-discretionary trading plans)"
+   ],
+   "evidence": "Selling shares received on vesting of entitlements under an employee, executive or non-executive director equity plan within 3 months of the vesting date is not a short-term dealing."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Approver under 4.4 (CEO, Chair of the Board, Chair of the Audit Committee or Company Secretary depending on the applicant)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Approver under 4.4",
+   "evidence": "Approval to deal will only be granted if the Designated Person's application is accompanied by sufficient evidence (in the opinion of the person providing clearance) that the dealing is the most reasonable course of action available in the circumstances."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by Aristocrat. However, where securities in Aristocrat granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Aristocrat securities through a dividend reinvestment plan; acquisition of Aristocrat securities through a share purchase plan available to all retail shareholders; acquisition of Aristocrat securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Aristocrat securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Aristocrat securities already held into a superannuation fund or trust of which the Employee is a beneficiary)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Employee did not enter into the plan or amend the plan during a blackout period, the plan does not permit the Employee to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a blackout period, other than in exceptional circumstances."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "investment in, or trade in units of, a fund or other scheme (other than a scheme only investing in Aristocrat securities) where the assets of the fund or scheme are invested at the discretion of a third party"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "Executive Minimum Shareholding Policy referenced: Executive Steering Committee members must confirm compliance with it in every approval request. Exclusion of hedged shares from the requirement is not addressed in this Policy."
+ },
+ "external_documents": [
+  "Executive Minimum Shareholding Policy"
+ ],
+ "exemption_authority": "Exceptional circumstances (severe financial hardship, court order) approval by the 4.4 approver, on evidence that the dealing is the most reasonable course; approver may impose conditions and revoke. Board approves amendments; Company Secretary may approve minor administrative amendments.",
+ "jurisdiction_overlays": [
+  "US Rule 10b5-1 trading plans are expressly excluded from the non-discretionary trading plan carve-out"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "substance over form",
+   "clause": "Aristocrat will take a substance over form approach and will have regard to the intent and spirit of this Policy when applying and enforcing it.",
+   "why_it_matters": "A bank loan secured on collared shares with LVR triggers or lender sale rights risks being treated as a 'margin lending arrangement' banned for Designated Persons even if not so labelled."
+  },
+  {
+   "topic": "margin lending scope",
+   "clause": "Designated Persons must not: (a) enter into a margin lending arrangement in respect of Aristocrat securities; or (b) transfer securities in Aristocrat into an existing margin loan account.",
+   "why_it_matters": "The ban is confined to margin lending; a fixed-term, non-margin secured loan is not expressly prohibited, so the loan leg turns on whether the facility has margin-call mechanics."
+  },
+  {
+   "topic": "hedging definition",
+   "clause": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding Aristocrat securities.",
+   "why_it_matters": "A collar is squarely hedging, so it is barred over unvested plan securities and shares under a holding lock, and permitted only over vested, unrestricted shares."
+  },
+  {
+   "topic": "forward contracts as short-term dealing",
+   "clause": "Short-term trading includes buying and selling securities on market within a 3-month period and entering into other short-term dealings (for example, forward contracts).",
+   "why_it_matters": "A collar with tenor under three months or early-termination features may be characterised as a short-term dealing; tenor should exceed three months."
+  },
+  {
+   "topic": "front page test",
+   "clause": "Where any approval is required for a dealing under this Policy, approval will not be granted where the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "Approval of a collar over executive shareholdings is discretionary and may be refused on reputational grounds alone, without reasons."
+  },
+  {
+   "topic": "approval revocable and confidential",
+   "clause": "The approver is not obliged to provide reasons for any aspect of their decision, and may revoke their approval at any time. If a request is not approved or an approval is revoked, that fact must be kept confidential.",
+   "why_it_matters": "A cleared collar must be executed within 5 business days and approval can be withdrawn before signing; the bank cannot be told why."
+  },
+  {
+   "topic": "MSR confirmation",
+   "clause": "A request for approval under sections 4.2 or 4.3 by members of the Executive Steering Committee must be accompanied by a confirmation that the member is in compliance with the Executive Minimum Shareholding Policy.",
+   "why_it_matters": "ESC members must show MSR compliance before a collar is approved; whether collared shares count toward the MSR is governed by the external policy."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "a company or any other entity which the Designated Person has an ability to control.",
+   "why_it_matters": "Routing the collar or loan through a controlled entity or family trust does not avoid the approval requirement, blackouts or the margin lending ban."
+  },
+  {
+   "topic": "incomplete orders in blackout",
+   "clause": "Buy or sell orders for Aristocrat securities which are placed but not completed outside of a blackout period ... must be completed within 5 trading days of the order being placed otherwise it will lapse; and the order cannot be varied.",
+   "why_it_matters": "Physical settlement or unwind of a collar that straddles the start of a blackout is not accommodated; settlement dates should avoid blackout periods."
+  },
+  {
+   "topic": "sanctions",
+   "clause": "Any person who breaches this Policy could face disciplinary action (including forfeiture of securities and/or suspension or termination of employment).",
+   "why_it_matters": "A breach caused by the collar or the lender's enforcement could result in forfeiture of the collared securities, a risk to the bank's collateral."
+  }
+ ],
+ "summary": "A funded collar is possible for a Designated Person (non-executive director, ESC member or direct report) over vested shares that are not subject to a plan holding lock, but only with prior written approval routed through the Company Secretary to the CEO, Chair of the Board, Chair of the Audit Committee or Company Secretary as applicable, executed within 5 business days, outside the 30 September, 31 March and pre-AGM blackouts, and satisfying the Front Page Test. The put and call legs are 'hedging' under the policy's broad definition, so they cannot cover unvested plan securities or locked shares; ESC members must also confirm compliance with the Executive Minimum Shareholding Policy. The loan leg is only expressly restricted as a 'margin lending arrangement' (Designated Persons may neither enter one nor transfer shares into a margin account), so a fixed-term loan without margin-call mechanics is not expressly barred, but the stated substance-over-form approach makes a facility with LVR triggers or lender sale rights likely to be treated as margin lending. Tenor should exceed three months to avoid the short-term dealing ban, which names forward contracts, and any unwind or settlement is a further dealing requiring fresh approval."
+}

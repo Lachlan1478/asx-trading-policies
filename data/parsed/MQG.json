@@ -1,0 +1,471 @@
+{
+ "symbol": "MQG",
+ "company": "Macquarie Group Limited",
+ "title": "Trading Policy",
+ "date_approved": "2 January 2024",
+ "date_effective": "January 2024",
+ "date_lodged": "2 January 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Macquarie Staff",
+   "kind": "all_staff",
+   "description": "All Macquarie employees, agency workers, interns, secondees and contractors/consultants deemed subject by RMG Employee Compliance, together with Key Management Personnel and Associates. May deal in Macquarie securities only during a Staff Trading Window with PTA pre-clearance (or as an Excluded Dealing or under an exceptional-circumstances waiver); barred from short-term trading, uncovered short selling and hedging unvested or restricted securities.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "All Voting Directors and members of the Executive Committee of Macquarie Group Limited. Additionally subject to section 2.4: annual disclosure of financing arrangements over Macquarie securities, immediate notification to the Company Secretary of securities lent, mortgaged or charged to a financier and of margin demands, pre-clearance to liquidate for a margin call, and a bar on hedging below the minimum personal shareholding requirement.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Executive Directors",
+   "kind": "other",
+   "description": "Macquarie Executive Directors (a senior title below Executive Committee), named only in the rule that hedging must not reduce economic risk below the minimum personal shareholding requirement.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouse, de facto, domestic or civil union partner, dependants under 18 (Immediate Family); any other relative living in the same household unless financially independent; and any other person whose investment decisions a Staff member may influence.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a transaction that is designed or intended to hedge their exposure to Macquarie securities which have not vested or are subject to a holding lock or dealing restriction ... a transaction that operates to limit or reduce the economic risk of their shareholding below the minimum personal shareholding requirement",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "release of Macquarie's interim results (November/December)",
+   "end_anchor": "up to five weeks after release, at Macquarie's discretion",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "release of Macquarie's final results (May/June)",
+   "end_anchor": "up to five weeks after release, at Macquarie's discretion",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "Annual General Meeting (July/August)",
+   "end_anchor": "up to five weeks after the AGM, at Macquarie's discretion",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "other specific periods where Macquarie has publicly released all relevant price-sensitive information, at Macquarie's discretion",
+   "end_anchor": "as determined by Macquarie",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Staff Trading Windows exist only at Macquarie's discretion and are a conditional exception to a standing prohibition; all pre-clearances carry an expiry date and may be withdrawn if new information comes to light. A denied pre-clearance is final and must be kept confidential. No named officer for ad hoc closures.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; 2.2; 3.1 (Macquarie securities)",
+   "detail": "Options, warrants, futures and structured products providing exposure to MQG shares are Macquarie securities, so any derivative transaction is a dealing that must be pre-cleared through PTA and placed during a Staff Trading Window. A derivative designed to hedge is further governed by 2.2.3 (banned over unvested or restricted securities; MSR floor for KMP and Executive Directors).",
+   "evidence": "Structured products providing exposure to MQG shares, including but not limited to ETFs; Futures contracts, options and warrants over MQG shares"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Macquarie Staff",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2.3",
+   "detail": "Absolute ban at any time on transactions designed or intended to hedge exposure to unvested Macquarie securities (including MEREP RSUs, DSUs and PSUs).",
+   "evidence": "Macquarie Staff are not permitted at any time to enter into a transaction that is designed or intended to hedge their exposure to Macquarie securities which have not vested or are subject to a holding lock or dealing restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Macquarie Staff",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2.3",
+   "detail": "The ban extends to vested securities that remain subject to a holding lock or dealing restriction.",
+   "evidence": "or are subject to a holding lock or dealing restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Macquarie Staff",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2.3",
+   "detail": "Hedging unrestricted Macquarie securities is expressly permitted subject to PTA pre-clearance, business group approval and the general personal dealing requirements (Staff Trading Window, no Inside Information, no short-term trading).",
+   "evidence": "They can however enter into a transaction intended to hedge unrestricted Macquarie securities subject to pre-clearance and other general personal dealing requirements (and, in respect of Key Management Personnel, subject to section 2.4 below)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "floor",
+   "mechanism": "express",
+   "floor": "minimum personal shareholding requirement",
+   "section": "2.2.3; 2.4",
+   "detail": "KMP (and Executive Directors) may hedge unrestricted securities with pre-clearance, but not so as to limit or reduce the economic risk of their shareholding below the minimum personal shareholding requirement; a collar over MSR shares is therefore excluded. Financing disclosures under 2.4 also apply.",
+   "evidence": "Key Management Personnel and Executive Directors may not enter into a transaction that operates to limit or reduce the economic risk of their shareholding below the minimum personal shareholding requirement."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Executive Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "floor",
+   "mechanism": "express",
+   "floor": "minimum personal shareholding requirement",
+   "section": "2.2.3",
+   "detail": "Same MSR floor as KMP: hedging permitted with pre-clearance only over shares in excess of the minimum personal shareholding requirement.",
+   "evidence": "Key Management Personnel and Executive Directors may not enter into a transaction that operates to limit or reduce the economic risk of their shareholding below the minimum personal shareholding requirement."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Macquarie Staff",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.2; 2.2.2; 2.2.3; 3.1",
+   "detail": "Monetisation is not named. A prepaid forward or funded collar is a structured product providing exposure to MQG shares and a hedge, so it requires pre-clearance in a Staff Trading Window over unrestricted securities only; the financing leg is permitted under 2.2.2/2.4 with collateral-sufficiency and (for KMP) disclosure obligations, and the KMP/Executive Director MSR floor applies.",
+   "evidence": "Macquarie considers dealing to include, without limitation, securities transactions such as transfers of beneficial ownership and trading (either directly or indirectly), including entering into an agreement to trade."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.1",
+   "detail": "Uncovered short selling arrangements in any security including Macquarie securities are prohibited even during an open window; covered short sales are not expressly addressed but would be dealings requiring pre-clearance.",
+   "evidence": "Macquarie Staff are prohibited from engaging in short-term trading and uncovered short selling arrangements in relation to any security, include a Macquarie security (even if the designated Staff Trading Window is open)."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not prohibited or named as a dealing; the only reference is the KMP obligation to inform the Company Secretary immediately if Macquarie securities have been lent to a financier.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.1; 2.2; 3.1",
+   "detail": "CFDs are not named but are structured products providing exposure to MQG shares, so are dealings requiring pre-clearance in a window; a CFD would in practice offend the short-term trading ban and, if short, the uncovered short selling ban, and cannot hedge unvested or restricted securities.",
+   "evidence": "Macquarie Staff are prohibited from engaging in short-term trading and uncovered short selling arrangements in relation to any security"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2.2",
+   "detail": "Margin loans over Macquarie securities are permitted without pre-clearance for entry, with an expectation of sufficient cash or other acceptable collateral to meet margin calls even in an extreme sudden downturn. Any sale to meet a margin call is a dealing subject to pre-clearance and the window regime.",
+   "evidence": "Macquarie Staff who enter into margin loans or other financing arrangements over Macquarie securities should ensure they have sufficient available cash or other acceptable collateral to meet margin calls including during a period of extreme sudden market downturn."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "KMP may take margin loans but must disclose financing arrangements annually, inform the Company Secretary immediately when securities are lent, mortgaged or charged to a financier, when the financier is or is likely to become entitled to demand payment, and when a demand cannot be met without disposing of at least 1% of issued securities; liquidating to meet a margin call requires PTA pre-clearance.",
+   "evidence": "Liquidating a position to satisfy a margin call requires pre-clearance against Macquarie's PTA system. KMP must annually disclose their financing arrangements relating to their Macquarie securities to Macquarie."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2.2.2; 1.1",
+   "detail": "Granting security over Macquarie securities is not a listed dealing and is implicitly permitted because financing arrangements over Macquarie securities are contemplated. A transfer of beneficial ownership to a lender would be a dealing requiring pre-clearance.",
+   "evidence": "Macquarie Staff who enter into margin loans or other financing arrangements over Macquarie securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "KMP must inform the Company Secretary immediately when they hold Macquarie securities that have been lent, mortgaged or charged to a financier.",
+   "evidence": "the member of KMP holds Macquarie securities that have been lent, mortgaged, or charged to a financier"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2.2",
+   "detail": "Financing arrangements over Macquarie securities generally (not only margin loans) are permitted, subject to the collateral-sufficiency expectation. The policy is silent on using unvested or locked securities as collateral.",
+   "evidence": "Macquarie Staff who enter into margin loans or other financing arrangements over Macquarie securities should ensure they have sufficient available cash or other acceptable collateral to meet margin calls"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "Permitted with annual disclosure to Macquarie and immediate Company Secretary notification at inception of any charge and on margin-demand events; pre-clearance needed before liquidating to meet a call.",
+   "evidence": "Key Management Personnel (KMP) who enter into margin loans or other financing arrangements over Macquarie securities should ensure they have sufficient available cash or other acceptable collateral to meet margin calls"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Macquarie Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.1",
+   "detail": "Short-term trading in any security including Macquarie securities is prohibited even in an open window; no period is defined.",
+   "evidence": "Macquarie Staff are prohibited from engaging in short-term trading and uncovered short selling arrangements in relation to any security, include a Macquarie security (even if the designated Staff Trading Window is open)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Macquarie Staff",
+   "type": "preclearance_system",
+   "approver": "Macquarie's conflicts management systems (PTA), plus business group approval where the business group policy requires it",
+   "form": "system",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "2.1; 2.2; 2.2.3",
+   "evidence": "All pre-clearances are subject to an expiry date and may be withdrawn if new information comes to light or there is a change in circumstances. A denied pre-clearance is final and binding on the Macquarie Staff member who made the request and must be kept confidential."
+  },
+  {
+   "tier": "Key Management Personnel",
+   "type": "preclearance_system",
+   "approver": "PTA system, plus business group approval; section 2.4 financing disclosures to Macquarie and the Company Secretary",
+   "form": "system",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (immediately, when securities are lent, mortgaged or charged to a financier or a margin demand arises); Macquarie (annual financing disclosure)",
+   "post_trade_deadline": "immediately for financing events; annually for financing arrangements",
+   "section": "2.2; 2.4",
+   "evidence": "KMP must inform the Company Secretary immediately if the following circumstances apply: the member of KMP holds Macquarie securities that have been lent, mortgaged, or charged to a financier"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Macquarie Staff",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Macquarie Staff are prohibited from engaging in short-term trading and uncovered short selling arrangements in relation to any security, include a Macquarie security"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "ANZ Regional Head of Compliance, Global Head of Compliance or Head of Risk Management Group, via written request to RMG Employee Compliance with a statutory declaration",
+   "evidence": "by compulsion of law or regulation. For example, a court order or court enforceable undertaking to transfer or sell Macquarie securities"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "ANZ Regional Head of Compliance, Global Head of Compliance or Head of Risk Management Group, via written request to RMG Employee Compliance with a statutory declaration",
+   "evidence": "on account of severe financial hardship. For example, where the Macquarie Staff member has a pressing/urgent financial commitment that cannot be met other than by selling Macquarie securities."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "ANZ Regional Head of Compliance, Global Head of Compliance or Head of Risk Management Group",
+   "evidence": "there may be a range of other circumstances not identified in this Policy that may be deemed exceptional by the ANZ Regional Head of Compliance, Global Head of Compliance, or the Head of Risk Management Group."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the acquisition of a Macquarie security pursuant to an employee share (or similar) plan under the terms of that plan and the relevant offer document or pursuant to the terms of a business acquisition or individual employment agreement"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "The following dealings are exempt from pre-clearance but may only be executed during a Macquarie Staff Trading Window: the exercise of Deferred Share Units or Performance Share Units under the Macquarie Group Employee Retained Equity Plan (MEREP); the withdrawal of Restricted Share Units under the MEREP."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealing under an offer or invitation made to all or most Macquarie security holders, including but not limited to participation in: the MGL Dividend Reinvestment Plan; any MGL share purchase plan; a rights issue; an equal access buy-back"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of a takeover offer"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "certain investments in financial instruments or accounts where underlying investment decisions are not (and cannot be) made or influenced by the Macquarie Staff investor."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "conversion of a convertible Macquarie security (including exchangeable shares issued by a subsidiary to a vendor upon acquisition of a business) but not the sale of the securities following conversion; public offerings of Macquarie securities to Macquarie Staff"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "clearance_required",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "Staff and KMP entering margin loans or other financing arrangements over Macquarie securities should ensure they have sufficient available cash or other acceptable collateral to meet margin calls, including during a period of extreme sudden market downturn.",
+  "financing_disclosure": [
+   "Key Management Personnel: annual disclosure of financing arrangements relating to their Macquarie securities; to Macquarie; annually",
+   "Key Management Personnel: inception or existence of Macquarie securities lent, mortgaged or charged to a financier; to the Company Secretary; immediately",
+   "Key Management Personnel: financier entitled or likely to become entitled to demand payment under the finance arrangements; to the Company Secretary; immediately",
+   "Key Management Personnel: expectation that a demand cannot be satisfied without disposing of securities representing at least 1% of Macquarie's issued securities; to the Company Secretary; immediately"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "Referenced for KMP and Executive Directors: no transaction may limit or reduce the economic risk of their shareholding below the minimum personal shareholding requirement, so hedged shares effectively do not count toward it; the MSR itself is set outside this policy."
+ },
+ "external_documents": [
+  "Macquarie Personal Investments Policy",
+  "Business group and jurisdiction-specific personal dealing policies",
+  "Macquarie Group Employee Retained Equity Plan (MEREP) rules",
+  "Minimum personal shareholding requirement (for KMP and Executive Directors)",
+  "PTA personal compliance system"
+ ],
+ "exemption_authority": "A specific written waiver from the prohibition on dealing outside a Staff Trading Window may be granted in exceptional circumstances (compulsion of law, severe financial hardship, or other circumstances deemed exceptional) by the ANZ Regional Head of Compliance, Global Head of Compliance or Head of Risk Management Group on a request to RMG Employee Compliance supported by a statutory declaration; granted at Macquarie's absolute discretion, subject to expiry, withdrawable, and refusal is final and confidential. Staff Trading Windows themselves are set at Macquarie's discretion. No waiver route is stated for the hedging bans or the MSR floor.",
+ "jurisdiction_overlays": [
+  "Business group or jurisdiction-specific personal dealing requirements may apply in addition (Staff must consult their business group policy)",
+  "MQG ADRs traded on the US over-the-counter market are Macquarie securities"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "MSR floor",
+   "clause": "Key Management Personnel and Executive Directors may not enter into a transaction that operates to limit or reduce the economic risk of their shareholding below the minimum personal shareholding requirement.",
+   "why_it_matters": "A collar (which limits economic risk) can only be written over shares held in excess of the executive's minimum personal shareholding requirement, so the collarable parcel must be sized after deducting the MSR."
+  },
+  {
+   "topic": "hedging unrestricted securities permitted",
+   "clause": "They can however enter into a transaction intended to hedge unrestricted Macquarie securities subject to pre-clearance and other general personal dealing requirements (and, in respect of Key Management Personnel, subject to section 2.4 below).",
+   "why_it_matters": "The collar legs are expressly permitted over vested, unlocked shares with PTA pre-clearance in a Staff Trading Window; MEREP shares under holding lock or dealing restriction remain ineligible."
+  },
+  {
+   "topic": "financing arrangements permitted",
+   "clause": "Macquarie Staff who enter into margin loans or other financing arrangements over Macquarie securities should ensure they have sufficient available cash or other acceptable collateral to meet margin calls including during a period of extreme sudden market downturn.",
+   "why_it_matters": "The loan leg secured on the collared shares is contemplated and not prohibited, but the executive is expected to be able to meet margin calls from other resources rather than by selling Macquarie shares."
+  },
+  {
+   "topic": "margin call liquidation",
+   "clause": "Liquidating a position to satisfy a margin call requires pre-clearance against Macquarie's PTA system.",
+   "why_it_matters": "A lender's enforcement sale outside a Staff Trading Window would require pre-clearance that is only available in a window or under an exceptional-circumstances waiver, so the facility must not rely on forced sales of the collared shares."
+  },
+  {
+   "topic": "KMP financing notifications",
+   "clause": "KMP must inform the Company Secretary immediately if ... the member of KMP holds Macquarie securities that have been lent, mortgaged, or charged to a financier; circumstances have arisen in which the financier is entitled or likely to become entitled to exercise a right under the finance arrangements to demand payment; the member of KMP expects that the demand will not able to be satisfied without the disposal of securities representing at least 1% of the total number of issued securities of Macquarie.",
+   "why_it_matters": "Charging the collared shares to the bank triggers immediate notification to the Company Secretary (and likely ASX disclosure of the director's interest), and any LTV or event-of-default trigger must also be reported immediately."
+  },
+  {
+   "topic": "trading windows discretionary",
+   "clause": "subject to Macquarie's discretion, a period of up to five weeks following the release of Macquarie's interim results (November/December), final results (May/June) and Annual General Meeting (July/August)",
+   "why_it_matters": "Collar entry, any roll or reset, and unwind must each fall within one of three short discretionary windows a year, and the window may be shortened or withheld."
+  },
+  {
+   "topic": "pre-clearance withdrawal and confidentiality",
+   "clause": "All pre-clearances are subject to an expiry date and may be withdrawn if new information comes to light or there is a change in circumstances. A denied pre-clearance is final and binding on the Macquarie Staff member who made the request and must be kept confidential.",
+   "why_it_matters": "The bank should expect that a cleared collar can be blocked before execution and that a refusal cannot be explained to it."
+  },
+  {
+   "topic": "dealing definition",
+   "clause": "Macquarie considers dealing to include, without limitation, securities transactions such as transfers of beneficial ownership and trading (either directly or indirectly), including entering into an agreement to trade.",
+   "why_it_matters": "Signing the collar confirmation or any agreement to deliver shares is a dealing at signing, and any transfer of beneficial ownership to a lender or nominee is separately a dealing requiring pre-clearance in a window."
+  },
+  {
+   "topic": "securities definition",
+   "clause": "Macquarie securities Includes, but is not limited to: ... Structured products providing exposure to MQG shares, including but not limited to ETFs; Futures contracts, options and warrants over MQG shares",
+   "why_it_matters": "An OTC collar with a bank is a structured product providing exposure to MQG shares and is caught with no venue limitation."
+  },
+  {
+   "topic": "waiver procedure",
+   "clause": "A waiver request must be submitted to RMG Employee Compliance in writing, accompanied by a statutory declaration from the requesting Macquarie Staff member declaring that: the proposed dealing is the only reasonable action available; they do not possess non-public price-sensitive information",
+   "why_it_matters": "Out-of-window settlement, unwind or forced sale of the collared shares is available only through a hardship-style waiver at Macquarie's absolute discretion, which cannot be assumed in facility documentation."
+  }
+ ],
+ "summary": "A funded collar is possible for Macquarie Staff including Key Management Personnel and Executive Directors, over Macquarie securities that have vested and are free of any holding lock or dealing restriction. The collar is a transaction intended to hedge unrestricted securities and is expressly permitted subject to PTA pre-clearance and business group approval, executed within a discretionary Staff Trading Window of up to five weeks after the interim results, final results or AGM; hedging unvested or locked securities (including MEREP awards) is banned at any time, and KMP and Executive Directors cannot hedge below their minimum personal shareholding requirement. Margin loans and other financing arrangements over Macquarie securities are permitted, with an expectation of sufficient cash or other collateral to meet margin calls even in an extreme downturn; KMP must disclose financing arrangements annually, inform the Company Secretary immediately when shares are lent, mortgaged or charged to a financier and on any margin-demand event or anticipated disposal of 1% or more of issued securities, and any liquidation to meet a margin call needs pre-clearance, which is available only in a window or under an exceptional-circumstances waiver. Short-term trading and uncovered short selling are prohibited, so the collar should be medium term and physically settled only in a window."
+}

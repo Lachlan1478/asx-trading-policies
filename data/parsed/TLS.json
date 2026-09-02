@@ -1,0 +1,618 @@
+{
+ "symbol": "TLS",
+ "company": "Telstra Group Limited",
+ "title": "Securities Trading (Group Policy Level 1)",
+ "date_approved": "",
+ "date_effective": "19 September 2025",
+ "date_lodged": "24 September 2025",
+ "date_next_review": "March 2026",
+ "tiers": [
+  {
+   "name": "Everyone",
+   "kind": "all_staff",
+   "description": "All Telstra Group directors, employees, contractors and their Closely Related Parties, plus any other person notified that the Policy applies to them. Bound by the insider trading prohibition and the market perception obligation only; window periods, approvals/notifications, the collateral, short selling, stock lending and speculative dealing bans and the general hedging ban apply only to Designated Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "kmp",
+   "description": "All Designated Employees and their Closely Related Parties. Designated Employees are Telstra directors and the company secretary, all Band A and B executives (including all executive Key Management Personnel), all direct reports of Band A executives, and other persons specified by the CEO, CFO or Company Secretary (full list on the Securities Trading intranet page). Subject to window periods, prior approval or notification, and the paragraph 16 and 19 prohibitions.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Telstra Directors",
+   "kind": "director",
+   "description": "Telstra directors (other than the Chair) and their Closely Related Parties; distinguished for approval (Telstra Chair in consultation with the CEO) and for the paragraph 31 duty to notify the Company Secretary before relying on an excluded dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Telstra Chair",
+   "kind": "director",
+   "description": "The Telstra Chair and his/her Closely Related Parties; approval from the Chair of the People & Remuneration Committee in consultation with the CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Telstra CEO",
+   "kind": "kmp",
+   "description": "The Telstra CEO; approval from the Telstra Chair and one of the Chair of the People & Remuneration Committee or the Chair of the Risk & Sustainability Committee, in consultation with the CFO. Also subject to the Minimum Shareholding Requirement Policy.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Band A executives and other direct reports to the CEO",
+   "kind": "kmp",
+   "description": "Band A executives (other than the CEO), other direct reports to the CEO (including the CEO's Chief of Staff and Executive Aides) and their Closely Related Parties; approval from the Telstra CEO. Group Executives are also subject to the Minimum Shareholding Requirement Policy.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Band B executives, direct reports to Band A executives and other specified persons",
+   "kind": "restricted",
+   "description": "Band B executives (other than those reporting directly to the CEO), direct reports to Band A executives, other persons specified by the CEO, CFO or Company Secretary, and their Closely Related Parties; approval from the Telstra Group Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Telstra Group Company Secretary",
+   "kind": "kmp",
+   "description": "The Company Secretary and his/her Closely Related Parties; approval from the Telstra Chair in consultation with the CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Designated Persons",
+   "kind": "restricted",
+   "description": "Designated Persons other than those listed in the paragraph 13 approval table; must notify the Company Secretary via the Securities Trading Notification Form before dealing in a window period. The approval table appears to capture every category in paragraph 8, so this notification-only tier may be residual.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Equity Plan Participants",
+   "kind": "plan_participant",
+   "description": "Employees participating in a Telstra equity-based remuneration plan (short and long term incentive equity plans for Band A, B and C executives and any grant of performance rights, performance shares, retention shares or restricted shares; excludes general employee plans). Subject to the specific hedging prohibition in paragraph 20 whether or not they are Designated Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Related Parties",
+   "kind": "associate",
+   "description": "Spouse or domestic partner, children under 18 and dependants (of the person or their spouse/partner), any family member who may be expected to influence or be influenced by the person's dealings, any company, trust or entity the person or those persons control or significantly influence, and the trustee of a trust of which any of them is a beneficiary. Designated Employees must act on their behalf for notifications and approvals.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any hedging arrangement that limits the economic risk of holding Telstra securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "10am (Sydney time) on the day following Telstra's half yearly results ASX release",
+   "end_anchor": "4pm (Sydney time) 4 weeks after the start date",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "10am (Sydney time) on the day following Telstra's full year results ASX release",
+   "end_anchor": "4pm (Sydney time) 4 weeks after the start date",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "10am (Sydney time) on the day following Telstra's Annual General Meeting",
+   "end_anchor": "4pm (Sydney time) 4 weeks after the start date",
+   "duration_days": 28
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "any period that is not a window period (blackout periods)",
+   "end_anchor": "start of the next window period or other time the Telstra Board permits",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Telstra Board may specify additional blackout periods from time to time and may permit dealing at other times (additional window periods). The Policy does not say whether such periods are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "16(d), 19; Definitions (securities)",
+   "detail": "Derivatives are not regulated as such. Securities expressly include warrants and other derivative products relating to Telstra securities whether created by Telstra or third parties (no venue limit), so a derivative is a dealing requiring window-period approval or notification. Any derivative that limits the economic risk of holding Telstra securities (a purchased put, a collar) is caught by the general hedging prohibition and is banned outright; forward contracts are deemed speculative short-term dealing.",
+   "evidence": "It also extends to financial products relating to securities issued by Telstra (for example, warrants and other derivative products) whether or not the financial products are created by Telstra or by third parties."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1, 4, 6",
+   "detail": "Persons who are not Designated Persons face only the insider trading prohibition and the market perception obligation when dealing in derivative products over Telstra securities.",
+   "evidence": "you must not deal if your proposed dealing could be perceived as you taking advantage of your position in an inappropriate way."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "18(a), 19",
+   "detail": "General hedging prohibition applying to all Telstra securities held by a Designated Person, vested or not, plan or non-plan. Only relief is paragraph 21 (pre-existing arrangements entered before becoming a Designated Person may continue for a limited period with Company Secretary approval) and the Exceptional Dealing Approval process.",
+   "evidence": "Subject to paragraph 21, if you're a Designated Person, you are prohibited from entering into any hedging arrangement that limits the economic risk of holding Telstra securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Equity Plan Participants",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "18(b), 20",
+   "detail": "Specific prohibition on hedging securities allocated under an equity-based remuneration plan prior to vesting or exercise; applies to every plan participant (Band A, B and C executives) whether or not a Designated Person, and extends to Closely Related Parties.",
+   "evidence": "you must not enter into any hedging arrangement that limits the economic risk of holding Telstra securities allocated to you under these equity plans prior to the vesting or exercise of those securities or while they are subject to a trading restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Equity Plan Participants",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "20",
+   "detail": "Plan securities that have vested but remain subject to a trading restriction cannot be hedged.",
+   "evidence": "or while they are subject to a trading restriction. You must also ensure that your Closely Related Parties do not enter into such hedging arrangements."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Equity Plan Participants",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "18, 19, 20",
+   "detail": "For a plan participant who is not a Designated Person (e.g. a Band C executive), the specific prohibition ends once plan securities have vested or been exercised and are free of trading restrictions; only the insider trading prohibition and market perception obligation remain. A participant who is a Designated Person remains caught by paragraph 19.",
+   "evidence": "general hedging prohibition that applies only to Designated Persons"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "18(a)",
+   "detail": "The general hedging prohibition is expressed to apply only to Designated Persons; other staff who are not equity plan participants are not restricted from hedging beyond the insider trading and market perception obligations.",
+   "evidence": "general hedging prohibition that applies only to Designated Persons"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Collars, prepaid forwards, equity swaps and other monetisation structures are not named. For Designated Persons they would be caught by the general hedging prohibition (19), the collateral ban (16(b)) and, for forward contracts, the speculative dealing ban (16(d)).",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16(c)",
+   "detail": "Outright ban on short selling arrangements in relation to Telstra securities.",
+   "evidence": "engaging in any short selling or stock lending arrangements in relation to Telstra securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16(c)",
+   "detail": "Outright ban on stock lending arrangements in relation to Telstra securities.",
+   "evidence": "engaging in any short selling or stock lending arrangements in relation to Telstra securities"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "16(c), 16(d), 19; Definitions (securities)",
+   "detail": "CFDs are not named. As derivative products relating to Telstra securities they are dealings requiring window-period approval or notification; a short CFD would breach the hedging and short selling bans and a CFD closed within 3 months would be speculative dealing, so in practice only a long CFD held beyond 3 months is open.",
+   "evidence": "Buying and selling Telstra securities within a 3-month period and entering into short term arrangements such as forward contracts in respect of Telstra securities will always be considered speculative dealing and accordingly is prohibited."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16(b), 17, 30(c)",
+   "detail": "Ban on entering margin loan arrangements in respect of Telstra securities and on transferring Telstra securities into an existing margin loan account. An arrangement entered before becoming a Designated Person may continue for 12 months or until expiry, whichever is earlier, and a secured lender's sale under such a grandfathered arrangement is an excluded dealing.",
+   "evidence": "using Telstra securities as collateral in any financial transaction, including entering margin loan arrangements in respect of Telstra securities or transferring Telstra securities to an existing margin loan account"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16(b)",
+   "detail": "Granting security over Telstra securities in any financial transaction is prohibited; not limited to margin loans. A charge unconnected with a financial transaction is not addressed and is not within the dealing definition.",
+   "evidence": "using Telstra securities as collateral in any financial transaction"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16(b), 17",
+   "detail": "Blanket ban on using Telstra securities as collateral in any financial transaction, with no tier, vesting or approval carve-out other than the 12-month grandfathering of arrangements entered before becoming a Designated Person and the Exceptional Dealing Approval process.",
+   "evidence": "using Telstra securities as collateral in any financial transaction, including entering margin loan arrangements in respect of Telstra securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "16",
+   "detail": "The collateral, margin loan, short selling, stock lending and speculative dealing bans in paragraph 16 are addressed to Designated Persons only; other staff are restricted only by the insider trading prohibition and market perception obligation.",
+   "evidence": "If you're a Designated Person, you are prohibited from:"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16(d)",
+   "detail": "Speculative dealing for short term gain is banned. Buying and selling within a 3-month period, and short term arrangements such as forward contracts, are deemed speculative. Carve-out for exercising rights or options under an equity plan and subsequently selling the shares acquired.",
+   "evidence": "Buying and selling Telstra securities within a 3-month period and entering into short term arrangements such as forward contracts in respect of Telstra securities will always be considered speculative dealing and accordingly is prohibited. This does not prohibit exercising rights or options under an equity plan and subsequently selling the shares acquired."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Telstra Directors",
+   "type": "approval",
+   "approver": "Telstra Chair in consultation with the Telstra CEO",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "13, 14, 28, 29, 31",
+   "evidence": "If a Window Dealing Approval Request is approved, you'll be notified by email. You must undertake your proposed dealing within 2 business days of the date of the approval."
+  },
+  {
+   "tier": "Telstra Chair",
+   "type": "approval",
+   "approver": "Chair of the Telstra People & Remuneration Committee in consultation with the Telstra CEO",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "13, 14, 28, 29",
+   "evidence": "you may only deal in Telstra securities during a window period if you've submitted a Window Dealing Approval Request form and it's been approved by the person indicated below"
+  },
+  {
+   "tier": "Telstra CEO",
+   "type": "approval",
+   "approver": "Telstra Chair and one of the Chair of the People & Remuneration Committee or the Chair of the Risk & Sustainability Committee, in consultation with the Telstra CFO",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "13, 14, 28, 29",
+   "evidence": "Telstra Chair and one of the Chair of the People & Remuneration Committee or the Chair of the Risk & Sustainability Committee in consultation with the Telstra CFO"
+  },
+  {
+   "tier": "Band A executives and other direct reports to the CEO",
+   "type": "approval",
+   "approver": "Telstra CEO",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "13, 14, 28, 29",
+   "evidence": "Band A executives (other than the CEO), other direct reports to the CEO (including the CEO's Chief of Staff and Executive Aides) and their Closely Related Parties | Telstra CEO"
+  },
+  {
+   "tier": "Band B executives, direct reports to Band A executives and other specified persons",
+   "type": "approval",
+   "approver": "Telstra Group Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "13, 14, 28, 29",
+   "evidence": "Band B executives (other than those reporting directly to the CEO) ... direct reports to Band A executives ... other persons specified from time to time by the Telstra CEO, Telstra CFO or the Telstra Company Secretary | Telstra Group Company Secretary"
+  },
+  {
+   "tier": "Telstra Group Company Secretary",
+   "type": "approval",
+   "approver": "Telstra Chair in consultation with the Telstra CEO",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "13, 14, 28, 29",
+   "evidence": "Telstra Group Company Secretary and his/her Closely Related Parties | Telstra Chair in consultation with the Telstra CEO"
+  },
+  {
+   "tier": "Other Designated Persons",
+   "type": "notification",
+   "approver": "Telstra Company Secretary (Securities Trading Notification Form)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "12, 15",
+   "evidence": "If you're a Designated Person other than those specified in paragraph 13, you must notify the Telstra Company Secretary by completing the Securities Trading Notification Form before you deal in Telstra securities during a window period."
+  },
+  {
+   "tier": "Everyone",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1, 2",
+   "evidence": "If you are a Designated Person (described in paragraph 8 below), additional restrictions and obligations apply to you."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and selling within a 3-month period; short term arrangements such as forward contracts deemed speculative regardless of period",
+   "carve_outs": [
+    "exercising rights or options under an equity plan and subsequently selling the shares acquired"
+   ],
+   "evidence": "Buying and selling Telstra securities within a 3-month period and entering into short term arrangements such as forward contracts in respect of Telstra securities will always be considered speculative dealing and accordingly is prohibited."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Per paragraph 25 table: Telstra Chair in consultation with the CEO (directors, Company Secretary); Chair of the People & Remuneration Committee in consultation with the CEO (Chair); Chair plus a Committee Chair in consultation with the CFO (CEO); CEO (Band A and CEO direct reports); Company Secretary (any other person)",
+   "evidence": "Exceptional circumstances for these purposes include severe financial hardship, compulsion by court order or any other circumstance that is considered to be exceptional by the relevant approver."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Per paragraph 25 table",
+   "evidence": "compulsion by court order"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Per paragraph 25 table; granted only where the dealing is the only reasonable course of action and the applicant declares no price-sensitive information",
+   "evidence": "where the Exceptional Dealing Approval Request is accompanied by sufficient evidence that the proposed dealing in Telstra securities is the only reasonable course of action available in the circumstances"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "Directors must notify the Company Secretary before relying on the exclusion",
+   "evidence": "dealings which don't result in a change in beneficial interest of Telstra securities e.g., transferring a personal holding of Telstra securities to a personal superannuation fund"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Telstra securities through: a dividend reinvestment plan as an ordinary shareholder; a share purchase plan available to all retail shareholders; a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of Telstra securities arising from the acceptance of a takeover offer, scheme of arrangement or equal access buy-back or disposal of rights acquired under a pro rata issue"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "Directors must notify the Company Secretary before relying on the exclusion",
+   "evidence": "a disposal of Telstra securities as a result of a secured lender exercising their rights pursuant to an arrangement that was permitted under paragraph 17"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "a transfer of Telstra securities between a Designated Employee and their Closely Related Party or between two Closely Related Parties of the Designated Employee"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "a transfer of Telstra securities arising from the administration of a deceased estate"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "applying for or acquiring Telstra securities under an equity plan operated by Telstra (including by exercise of options or rights). However, where any Telstra securities granted to a Designated Person under an equity plan cease to be held under the terms of that plan ... the Designated Person must only deal in those Telstra securities in accordance with this Policy"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental trading that occurs when a Designated Person deals in units or shares of a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party and that happens to hold Telstra securities as part of its portfolio"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Telstra Directors: before dealing in reliance on any paragraph 30 exclusion (including a secured lender's sale under a grandfathered arrangement), notify the Telstra Company Secretary (paragraph 31); no deadline beyond 'before dealing'."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "The CEO and Group Executives must undertake dealings in compliance with the MSR in the Telstra Executive Minimum Shareholding Requirement Policy (paragraph 32); the Policy is silent on whether hedged or encumbered shares count toward the MSR."
+ },
+ "external_documents": [
+  "Telstra Executive Minimum Shareholding Requirement Policy",
+  "Securities Trading intranet page (full list of Designated Persons and of persons requiring approval)",
+  "Window Dealing Approval Request form",
+  "Exceptional Dealing Approval Request form",
+  "Securities Trading Notification Form",
+  "Telstra equity-based remuneration plan rules (trading restrictions and holding terms)"
+ ],
+ "exemption_authority": "Exceptional Dealing Approval (paragraphs 22-27) may authorise a dealing 'in a way that's prohibited under this Policy' in exceptional circumstances (severe financial hardship, court order or other circumstance the approver considers exceptional), only where the dealing is the only reasonable course of action and the applicant declares no price-sensitive information; approvers per the paragraph 25 table (Telstra Chair in consultation with the CEO for directors and the Company Secretary; Chair of the People & Remuneration Committee for the Chair; Chair plus a Committee Chair for the CEO; CEO for Band A and CEO direct reports; Company Secretary for anyone else), valid 2 business days. The Company Secretary may approve continuation of pre-existing hedging arrangements for a limited period (paragraph 21). The Policy scope applies 'unless an exemption has been granted' without naming the grantor, and the CEO or CFO may extend the Policy to other dealings (paragraph 33).",
+ "jurisdiction_overlays": [
+  "Insider trading laws of countries other than Australia may impose additional prohibitions (Application; paragraph 5)"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "general hedging ban",
+   "clause": "Subject to paragraph 21, if you're a Designated Person, you are prohibited from entering into any hedging arrangement that limits the economic risk of holding Telstra securities.",
+   "why_it_matters": "The collar (purchased put plus written call) is itself a hedging arrangement over vested shares and is banned for every director, executive KMP and their Closely Related Parties regardless of vesting state."
+  },
+  {
+   "topic": "collateral ban",
+   "clause": "using Telstra securities as collateral in any financial transaction, including entering margin loan arrangements in respect of Telstra securities or transferring Telstra securities to an existing margin loan account",
+   "why_it_matters": "The loan leg secured on the collared shares is independently prohibited for Designated Persons, so both halves of a funded collar fail."
+  },
+  {
+   "topic": "grandfathering",
+   "clause": "Despite paragraph 16, if you entered an arrangement prior to becoming a Designated Person that would otherwise be prohibited under paragraphs 16 b)-d), you are permitted to continue that arrangement for 12 months from the date that you became a Designated Person or until the date of expiry of the relevant arrangement, whichever occurs earlier.",
+   "why_it_matters": "A collar loan put in place before appointment as a Designated Person can run for at most 12 months after appointment; the hedge leg has a separate, Company Secretary-approved 'limited period' under paragraph 21."
+  },
+  {
+   "topic": "pre-existing hedges",
+   "clause": "If you have any hedging arrangements in effect prior to becoming a Designated Person that would otherwise be prohibited under paragraph 19, you may, in certain limited circumstances with the approval of the Telstra Company Secretary, be permitted to continue such arrangements for a limited period.",
+   "why_it_matters": "Continuation of an existing collar after appointment is discretionary and time-limited, so the bank cannot assume the hedge survives the client becoming a Designated Person."
+  },
+  {
+   "topic": "secured lender sale",
+   "clause": "a disposal of Telstra securities as a result of a secured lender exercising their rights pursuant to an arrangement that was permitted under paragraph 17",
+   "why_it_matters": "Lender enforcement is an excluded dealing only for grandfathered pre-appointment arrangements; there is no carve-out for any other enforcement sale, and directors must notify the Company Secretary before relying on it."
+  },
+  {
+   "topic": "exceptional dealing gateway",
+   "clause": "In exceptional circumstances, you may be granted approval to deal in Telstra securities in a way that's prohibited under this Policy ... where the Exceptional Dealing Approval Request is accompanied by sufficient evidence that the proposed dealing in Telstra securities is the only reasonable course of action available in the circumstances",
+   "why_it_matters": "The only theoretical route to a funded collar for a Designated Person is a hardship-type approval showing the collar is the only reasonable course, which is unlikely for a discretionary monetisation."
+  },
+  {
+   "topic": "forward contracts speculative",
+   "clause": "Buying and selling Telstra securities within a 3-month period and entering into short term arrangements such as forward contracts in respect of Telstra securities will always be considered speculative dealing and accordingly is prohibited.",
+   "why_it_matters": "Even a non-hedging restructure using a forward is deemed speculative, closing off prepaid-forward alternatives to a collar."
+  },
+  {
+   "topic": "approval withdrawal and confidentiality",
+   "clause": "can be withdrawn at any time before you deal if new information becomes available or there is a change in circumstances ... Any such refusal is confidential and you must not disclose the fact that your request has been refused to any other person without the consent of the Telstra Company Secretary.",
+   "why_it_matters": "Where any approval is obtained, the bank may not be told of a refusal or withdrawal, and the executive must execute within 2 business days."
+  },
+  {
+   "topic": "closely related parties",
+   "clause": "The trustee of a trust or fiduciary arrangement of which you or any of the persons referred to in (a) or (b) are a beneficiary",
+   "why_it_matters": "Routing the collar or loan through a family trust, controlled company or a trust of which the executive is a beneficiary does not escape the hedging and collateral bans."
+  },
+  {
+   "topic": "minimum shareholding requirement",
+   "clause": "The Telstra CEO and Group Executives should undertake any dealings in Telstra securities in compliance with the minimum shareholding requirement (MSR) set out in the Minimum Shareholding Requirement Policy",
+   "why_it_matters": "A separate MSR policy may treat hedged or encumbered shares as not counting toward the holding requirement; it should be reviewed alongside this Policy."
+  },
+  {
+   "topic": "market perception obligation",
+   "clause": "You must not deal if your proposed dealing could be perceived by the market as you taking advantage of your position in an inappropriate way.",
+   "why_it_matters": "Applies to everyone including non-Designated staff, so even a permitted collar for a Band C executive must survive a market-perception test."
+  },
+  {
+   "topic": "plan shares released from restriction",
+   "clause": "where any Telstra securities granted to a Designated Person under an equity plan cease to be held under the terms of that plan (for example, Telstra securities that are acquired following the exercise of options or rights or that are released from restriction), the Designated Person must only deal in those Telstra securities in accordance with this Policy",
+   "why_it_matters": "Vested plan shares become ordinary holdings subject to the full hedging and collateral bans once released, so there is no plan-based carve-out for collaring them."
+  }
+ ],
+ "summary": "A funded collar is not possible for Telstra Designated Persons, which covers all directors, the company secretary, all Band A and B executives (including all executive KMP), direct reports of Band A executives and their Closely Related Parties. Paragraph 19 prohibits any hedging arrangement that limits the economic risk of holding Telstra securities, vested or unvested, and paragraph 16(b) separately prohibits using Telstra securities as collateral in any financial transaction, so both the option legs and the secured loan are banned outright with no window-period or approval route. The only openings are an arrangement entered before the person became a Designated Person, which may continue for up to 12 months (loan) or a Company Secretary-approved limited period (hedge), and an Exceptional Dealing Approval in severe hardship or under court order where the dealing is the only reasonable course of action. Employees who are not Designated Persons face only the insider trading prohibition and market perception obligation, except that equity plan participants (Band C executives) may not hedge plan securities before vesting, exercise or release from trading restriction."
+}

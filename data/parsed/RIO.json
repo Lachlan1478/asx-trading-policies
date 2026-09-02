@@ -1,0 +1,577 @@
+{
+ "symbol": "RIO",
+ "company": "Rio Tinto Limited (and Rio Tinto plc)",
+ "title": "Securities Dealing Policy",
+ "date_approved": "21 December 2020 (approved by the Board effective that date)",
+ "date_effective": "21 December 2020",
+ "date_lodged": "23 December 2020",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Rio Tinto Personnel",
+   "kind": "all_staff",
+   "description": "Employees, directors and officers, contractors and secondees of Rio Tinto and its subsidiaries. Subject only to the Insider Dealing prohibition unless designated a Restricted Person or PDMR.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Personnel designated by Company Secretariat as likely to have access to Inside Information: Permanent Restricted Persons, Results Restricted Persons and Project Restricted Persons collectively. All must lodge a Post Trade Notification within two business days of Dealing and may use the section 10 exclusions.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Permanent Restricted Persons",
+   "kind": "restricted",
+   "description": "Personnel designated by reason of their position within the Group, which includes all PDMRs. Must obtain prior written clearance before any Dealing in Rio Tinto Securities (other than section 10 exclusions) and are prohibited from hedging unvested or disposal-restricted employee share plan securities.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Results Restricted Persons",
+   "kind": "restricted",
+   "description": "Personnel designated by reason of involvement in full-year and half-year results. Must not Deal during Closed Periods; no standing clearance requirement unless also a Permanent or Project Restricted Person.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Project Restricted Persons",
+   "kind": "restricted",
+   "description": "Personnel designated by reason of involvement in specific transactions or business situations. May be prohibited from Dealing altogether or may Deal only with prior written clearance, depending on the project.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "PDMRs",
+   "kind": "kmp",
+   "description": "Persons discharging managerial responsibilities as defined in MAR, including every director, any employee told they are a PDMR, and all Key Management Personnel under Australian accounting standards. All PDMRs are Permanent Restricted Persons. Additionally barred from Dealing in Closed Periods without clearance, from derivatives, short-term trading, short selling and margin lending or other secured financing, and must notify the Group Company Secretary immediately after Dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "PCAs",
+   "kind": "associate",
+   "description": "Persons closely associated with a PDMR: spouse, civil partner, dependent children or stepchildren, relatives sharing the household for at least a year, and any company, trust, partnership or entity managed by, controlled by, set up for the benefit of, or with economic interests substantially equivalent to, the PDMR or a family member. Must not Deal in Closed Periods, must notify the Group Company Secretary immediately after Dealing, and the PDMR must obtain clearance before any PCA Dealing.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "arrangements which have the effect of limiting the economic risk related to an unvested share, option or other Rio Tinto Security granted or awarded under a Rio Tinto employee share plan (or a vested share, option or other Rio Tinto Security granted, awarded or acquired under a Rio Tinto employee share plan that is still subject to disposal restrictions)",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Results Restricted Persons",
+    "PDMRs",
+    "PCAs"
+   ],
+   "start_anchor": "the earlier of the end of the financial year and 30 calendar days before publication of the full-year results (whichever gives the longer period)",
+   "end_anchor": "date of publication of the full-year financial results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Results Restricted Persons",
+    "PDMRs",
+    "PCAs"
+   ],
+   "start_anchor": "the earlier of the end of the half year and 30 calendar days before publication of the half-year results (whichever gives the longer period)",
+   "end_anchor": "date of publication of the half-year financial results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Company Secretariat may specify extended or additional Closed Periods and may designate Project Restricted Persons as subject to Dealing prohibitions for specific transactions or business situations; it notifies the person of the prohibitions applicable to them. Confidentiality of the periods is not stated, but any refusal of clearance must be kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3(a)",
+   "detail": "Absolute ban on PDMRs Dealing in derivative products issued over or in respect of Rio Tinto Securities, with no venue, vesting-state or approval carve-out. This captures both the purchased put and the written call of a collar.",
+   "evidence": "PDMRs are prohibited from undertaking any of the following Dealings with respect to Rio Tinto Securities: (a) Dealing in derivative products issued over or in respect of Rio Tinto Securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 14, 16 (Deal, Securities)",
+   "detail": "For Permanent Restricted Persons who are not PDMRs, a derivative is not named as restricted but any transaction whose economic outcome depends on the price of a Rio Tinto Security is a Dealing, and Securities includes unquoted financial instruments linked to Rio Tinto Securities, so an OTC option requires prior written clearance via the Dealing Rules portal and must be executed within the clearance period.",
+   "evidence": "entering into a transaction the economic outcome of which is dependent upon the price of a Rio Tinto Security, including but not limited to a transaction which has the effect of limiting the economic risk of holding a Rio Tinto Security"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Rio Tinto Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1, 16 (Deal)",
+   "detail": "Personnel who are not Restricted Persons or PDMRs may Deal in derivatives subject only to the Insider Dealing prohibition.",
+   "evidence": "All Rio Tinto Personnel who have access to Inside Information about the Rio Tinto Group must not: (a) Deal in Rio Tinto Securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1",
+   "detail": "Permanent Restricted Persons (which includes all PDMRs) must not enter arrangements limiting the economic risk of unvested employee share plan shares, options or other securities.",
+   "evidence": "Rio Tinto prohibits Permanent Restricted Persons, from entering into arrangements which have the effect of limiting the economic risk related to an unvested share, option or other Rio Tinto Security granted or awarded under a Rio Tinto employee share plan"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1",
+   "detail": "The hedging ban extends to vested plan securities, including shares acquired under a plan, that remain subject to disposal restrictions.",
+   "evidence": "(or a vested share, option or other Rio Tinto Security granted, awarded or acquired under a Rio Tinto employee share plan that is still subject to disposal restrictions)"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 11.1, 14, 16 (Deal)",
+   "detail": "Section 11.1 does not reach vested plan securities free of disposal restrictions or non-plan shares. For non-PDMR Permanent Restricted Persons, hedging those holdings is a Dealing (transaction limiting the economic risk of holding a Rio Tinto Security) requiring prior written clearance. PDMRs cannot use this route because of the derivatives ban.",
+   "evidence": "including but not limited to a transaction which has the effect of limiting the economic risk of holding a Rio Tinto Security"
+  },
+  {
+   "topic": "hedging",
+   "tier": "PDMRs",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "12.3(a)",
+   "detail": "No express hedging ban covers PDMRs' vested unrestricted shares, but any hedge implemented through a derivative product over or in respect of Rio Tinto Securities is prohibited by 12.3(a), leaving no practical hedging route.",
+   "evidence": "(a) Dealing in derivative products issued over or in respect of Rio Tinto Securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "12.3(a), 12.3(d)",
+   "detail": "Monetisation is not named. A prepaid forward, funded collar or similar is a derivative product over Rio Tinto Securities and, where secured on the shares, a secured financing arrangement; both are banned for PDMRs.",
+   "evidence": "(d) entering into margin lending or other secure financing arrangements in respect of Rio Tinto Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 14, 16 (Deal)",
+   "detail": "For non-PDMR Permanent Restricted Persons a monetisation structure is a Dealing under limbs (e) and (h) of the definition and requires prior written clearance.",
+   "evidence": "(h) entering into any margin lending, derivative contract or other secured financial arrangement pursuant to which a charge is granted over the Rio Tinto Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3(c)",
+   "detail": "Outright ban on PDMRs short selling Rio Tinto Securities.",
+   "evidence": "(c) engaging in the practice of short selling in Rio Tinto Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 14, 16 (Deal)",
+   "detail": "Short selling is not named for non-PDMR Restricted Persons; a short sale is a disposal and so a Dealing requiring prior written clearance.",
+   "evidence": "Dealing in Securities covers a wide range of transactions affecting the title or interest in those securities including: (a) acquisition or disposal"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "14, 16 (Deal)",
+   "detail": "Securities lending is not named. Lending transfers title and so falls within the chapeau of the Dealing definition (transactions affecting the title or interest in securities), requiring prior written clearance for Permanent and Project Restricted Persons; PDMRs are not separately restricted.",
+   "evidence": "Dealing in Securities covers a wide range of transactions affecting the title or interest in those securities"
+  },
+  {
+   "topic": "cfd",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "12.3(a)",
+   "detail": "CFDs are not named but are derivative products issued over or in respect of Rio Tinto Securities and so fall within the PDMR derivatives ban.",
+   "evidence": "(a) Dealing in derivative products issued over or in respect of Rio Tinto Securities"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 14, 16 (Deal)",
+   "detail": "A CFD is a transaction whose economic outcome depends on the price of a Rio Tinto Security and so a Dealing requiring prior written clearance for non-PDMR Permanent Restricted Persons.",
+   "evidence": "entering into a transaction the economic outcome of which is dependent upon the price of a Rio Tinto Security"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3(d)",
+   "detail": "Absolute ban on PDMRs entering margin lending arrangements in respect of Rio Tinto Securities.",
+   "evidence": "(d) entering into margin lending or other secure financing arrangements in respect of Rio Tinto Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 10(f), 14, 16 (Deal)",
+   "detail": "Entering a margin loan under which a charge is granted over Rio Tinto Securities is a Dealing requiring prior written clearance for non-PDMR Permanent Restricted Persons; a subsequent disposal by the secured lender exercising its rights is excluded from the Policy.",
+   "evidence": "(h) entering into any margin lending, derivative contract or other secured financial arrangement pursuant to which a charge is granted over the Rio Tinto Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3(d), 16 (Deal)",
+   "detail": "Granting a charge over Rio Tinto Securities to secure financing is a secured financing arrangement banned for PDMRs. A charge, lien or encumbrance unconnected with financing is a Dealing under limb (c) requiring clearance and Closed Period compliance rather than being banned.",
+   "evidence": "(c) using as security, or otherwise granting a charge, lien or other encumbrance"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 14, 16 (Deal)",
+   "detail": "Using Rio Tinto Securities as security or granting any charge, lien or encumbrance is a Dealing requiring prior written clearance.",
+   "evidence": "(c) using as security, or otherwise granting a charge, lien or other encumbrance"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3(d)",
+   "detail": "Any secured financing arrangement in respect of Rio Tinto Securities is banned for PDMRs with no approval route; the exceptional circumstances clearance in section 15 covers only Closed Period and short-term dealing.",
+   "evidence": "(d) entering into margin lending or other secure financing arrangements in respect of Rio Tinto Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Permanent Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1, 14, 16 (Deal)",
+   "detail": "For non-PDMR Permanent Restricted Persons a secured financing arrangement under which a charge is granted over Rio Tinto Securities is a Dealing requiring prior written clearance, executed within two Business Days or the period specified.",
+   "evidence": "(h) entering into any margin lending, derivative contract or other secured financial arrangement pursuant to which a charge is granted over the Rio Tinto Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "PDMRs",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3(b), 15.1",
+   "detail": "PDMRs must not Deal on a short-term trading basis, defined as three months between purchase and sale, unless clearance is given in exceptional circumstances under section 15.",
+   "evidence": "(b) Dealing in Rio Tinto Securities on a short-term trading basis, being a period of three months between purchase and sale of any Rio Tinto Securities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "15.1",
+   "detail": "The express short-term ban is confined to PDMRs. Section 15.1 contemplates clearance for Restricted Persons to undertake short-term trading in exceptional circumstances, implying a restriction, but none is stated for non-PDMR Restricted Persons.",
+   "evidence": "Clearance may be given to PDMRs and Restricted Persons to Deal in Rio Tinto Securities during Closed Periods or to undertake short-term trading"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "PDMRs",
+   "type": "approval",
+   "approver": "Chairman: Senior Independent Director or Chief Executive; non-executive directors and Group Company Secretary: Chairman or Chief Executive; Chief Executive: Chairman; other PDMRs including the CFO: Chief Executive",
+   "form": "system",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary (transaction details, for onward notification to ASX and the UK FCA) and Post Trade Notification via the Dealing Rules portal",
+   "post_trade_deadline": "immediately after Dealing (12.2); Post Trade Notification within two business days (14.7), or promptly if the person decides not to deal",
+   "section": "12.1, 12.2, 14.2 to 14.7",
+   "evidence": "Permanent Restricted Persons and Project Restricted Persons must Deal in Rio Tinto Securities within the period specified in the written clearance to Deal, or in the absence of a period being specified, within two Business Days of the receipt of the clearance to Deal."
+  },
+  {
+   "tier": "Permanent Restricted Persons",
+   "type": "approval",
+   "approver": "Group Company Secretary or a delegate of the Group Company Secretary",
+   "form": "system",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Post Trade Notification via the Rio Tinto Dealing Rules portal",
+   "post_trade_deadline": "within two business days of Dealing, or promptly if the person decides not to deal",
+   "section": "9.1, 14.1 to 14.7",
+   "evidence": "The requests for clearance to Deal must be in writing and submitted via the Rio Tinto Dealing Rules portal on the Company intranet."
+  },
+  {
+   "tier": "Project Restricted Persons",
+   "type": "approval",
+   "approver": "Group Company Secretary or a delegate of the Group Company Secretary",
+   "form": "system",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Post Trade Notification via the Rio Tinto Dealing Rules portal",
+   "post_trade_deadline": "within two business days of Dealing",
+   "section": "8.1, 14.1 to 14.7",
+   "evidence": "Permanent Restricted Persons and Project Restricted Persons are required to seek clearance prior to any proposed Dealing in Rio Tinto Securities, other than a Dealing excluded by section 10."
+  },
+  {
+   "tier": "Results Restricted Persons",
+   "type": "none",
+   "approver": "Group Company Secretary or delegate (only for exceptional circumstances clearance under section 15)",
+   "form": "system",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Post Trade Notification via the Rio Tinto Dealing Rules portal",
+   "post_trade_deadline": "within two business days of Dealing",
+   "section": "7.1, 14.3(e), 14.7, 15",
+   "evidence": "Results Restricted Persons are not permitted to Deal in Rio Tinto Securities: (a) during the longer of: (i) the period from the end of the relevant financial period up to the date of publication of the full year or half-year financial results; or (ii) the period of 30 calendar days before the date of such publication"
+  },
+  {
+   "tier": "PCAs",
+   "type": "approval",
+   "approver": "The PDMR must seek clearance under section 14 from the PDMR's own approver before any PCA Dealing",
+   "form": "system",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary (transaction details, for onward notification to ASX and the UK FCA)",
+   "post_trade_deadline": "immediately after Dealing",
+   "section": "13.1, 13.2",
+   "evidence": "seek clearance in accordance with section 14 prior to any proposed Dealing in Rio Tinto Securities by a PCA, other than a Dealing excluded by section 10."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "PDMRs",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "between purchase and sale",
+   "carve_outs": [
+    "clearance in exceptional circumstances under section 15 (severe financial difficulty or court order requiring an immediate sale)"
+   ],
+   "evidence": "Dealing in Rio Tinto Securities on a short-term trading basis, being a period of three months between purchase and sale of any Rio Tinto Securities"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealings that do not result in a change in beneficial ownership of Rio Tinto Securities"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Rio Tinto Securities) where the assets of the fund or scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Rio Tinto Securities arising from a scheme of arrangement or acceptance of a takeover offer"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "Rio Tinto Board approves timing and structure of the offer",
+   "evidence": "acquiring Rio Tinto Securities under an offer or invitation made to all or most holders of Rio Tinto's Securities, such as a rights issue, where the timing and structure of the offer has been approved by the Rio Tinto Board"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "acquisition or automatic disposal without need for instruction of Rio Tinto Securities under an employee share plan or a dividend reinvestment plan, provided that Restricted Persons do not commence or amend their participation or instructions in the relevant plan during a Closed Period"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Rio Tinto Securities that is the result of a secured lender exercising their rights."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Determination of severe financial difficulty or other exceptional circumstances only by the Group Company Secretary or the Chairman of the Board; clearance by the relevant approver under 14.3",
+   "evidence": "where exceptional circumstances, such as severe financial difficulty or compulsion by court order exist, which require an immediate sale of Rio Tinto Securities."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Group Company Secretary or the Chairman of the Board determine; clearance by the relevant approver under 14.3",
+   "evidence": "such as severe financial difficulty or compulsion by court order exist, which require an immediate sale of Rio Tinto Securities."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "PDMRs and PCAs: immediately after any Dealing, which includes granting a charge or entering a secured financial arrangement, notify the Group Company Secretary of the transaction details; Rio Tinto notifies ASX and the UK FCA within the stipulated time frames.",
+   "Permanent, Project and Results Restricted Persons: Post Trade Notification via the Dealing Rules portal within two business days of Dealing."
+  ],
+  "transfer_to_custodian_is_dealing": "no",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "FAQs on the Company intranet",
+  "Rio Tinto Dealing Rules portal on the Company intranet",
+  "Rio Tinto employee share plan rules (including myShare)",
+  "Market Abuse Regulation (EU) 596/2014 (as amended)"
+ ],
+ "exemption_authority": "Only the Group Company Secretary or the Chairman of the Board may determine that severe financial difficulty or other exceptional circumstances exist; clearance to Deal in a Closed Period or on a short-term basis then requires no Inside Information, that the Dealing cannot be executed outside the Closed Period, and circumstances requiring an immediate sale. Clearance is otherwise at the relevant approver's absolute discretion. No authority is stated to waive the PDMR derivatives, short selling and secured financing bans or the section 11 hedging ban.",
+ "jurisdiction_overlays": [
+  "UK Market Abuse Regulation (EU) 596/2014 as amended: PDMR and PCA definitions, Closed Periods and FCA notification of PDMR and PCA dealings",
+  "ASX Listing Rules notification of PDMR dealings",
+  "NYSE-listed ADRs registered with the US SEC are Rio Tinto Securities"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "PDMR derivatives ban",
+   "clause": "PDMRs are prohibited from undertaking any of the following Dealings with respect to Rio Tinto Securities: (a) Dealing in derivative products issued over or in respect of Rio Tinto Securities",
+   "why_it_matters": "Both option legs of a collar are derivative products over Rio Tinto Securities, so no collar of any kind is available to directors, KMP or designated PDMRs, funded or not."
+  },
+  {
+   "topic": "PDMR secured financing ban",
+   "clause": "(d) entering into margin lending or other secure financing arrangements in respect of Rio Tinto Securities.",
+   "why_it_matters": "The loan leg secured on the collared shares is independently prohibited for PDMRs with no exemption authority."
+  },
+  {
+   "topic": "secured lender sale excluded",
+   "clause": "The following types of Dealings are excluded from the operation of this Policy and may be undertaken by Restricted Persons at any time, without prior written clearance ... (f) a disposal of Rio Tinto Securities that is the result of a secured lender exercising their rights.",
+   "why_it_matters": "For non-PDMR Restricted Persons who lawfully grant security, the bank's enforcement sale is outside the Policy even in a Closed Period, though the Insider Dealing prohibition still applies."
+  },
+  {
+   "topic": "economic-outcome dealings",
+   "clause": "(e) entering into a transaction the economic outcome of which is dependent upon the price of a Rio Tinto Security, including but not limited to a transaction which has the effect of limiting the economic risk of holding a Rio Tinto Security",
+   "why_it_matters": "An OTC collar with a bank is a Dealing regardless of venue or settlement method, so non-PDMR Permanent and Project Restricted Persons need prior written clearance for it."
+  },
+  {
+   "topic": "charge under derivative contract is dealing",
+   "clause": "(h) entering into any margin lending, derivative contract or other secured financial arrangement pursuant to which a charge is granted over the Rio Tinto Securities.",
+   "why_it_matters": "The security package of a funded collar is itself a Dealing, so the loan and charge must be cleared and executed inside the clearance window, not only the options."
+  },
+  {
+   "topic": "hedging ban scope",
+   "clause": "Rio Tinto prohibits Permanent Restricted Persons, from entering into arrangements which have the effect of limiting the economic risk related to an unvested share ... (or a vested share ... that is still subject to disposal restrictions).",
+   "why_it_matters": "For non-PDMR Permanent Restricted Persons, only vested plan shares free of disposal restrictions, or non-plan shares, may be collared."
+  },
+  {
+   "topic": "clearance period may be specified",
+   "clause": "must Deal in Rio Tinto Securities within the period specified in the written clearance to Deal, or in the absence of a period being specified, within two Business Days of the receipt of the clearance to Deal.",
+   "why_it_matters": "The approver can grant a longer execution window, which may be needed to document an OTC collar and security, but the default is two Business Days (UK and Australian holidays both excluded)."
+  },
+  {
+   "topic": "PCA net",
+   "clause": "a company, trust, partnership or entity: which is managed by the PDMR or a family member; which is directly or indirectly controlled by the PDMR or a family member; which is set up for the benefit of the PDMR or a family member; or the economic interests of which are substantially equivalent to the PDMR's or a family member's.",
+   "why_it_matters": "A collar or loan taken through a family trust or private company is a PCA Dealing needing clearance and immediate notification, and the PDMR bans on derivatives and secured financing apply to Dealing 'for the account of a third party, directly or indirectly'."
+  },
+  {
+   "topic": "post trade notification even if no deal",
+   "clause": "After receiving the clearance to deal, if Restricted Persons decide not to deal in Rio Tinto Securities, you still need to submit a Post Trading Notification promptly, indicating that you did not deal",
+   "why_it_matters": "A cleared but unexecuted collar still requires a portal notification."
+  },
+  {
+   "topic": "exceptional circumstances limited to sales",
+   "clause": "where exceptional circumstances, such as severe financial difficulty or compulsion by court order exist, which require an immediate sale of Rio Tinto Securities.",
+   "why_it_matters": "Closed Period relief is confined to immediate sales, so collar entry, roll or unwind cannot be cleared inside a Closed Period."
+  }
+ ],
+ "summary": "A funded collar is not possible for Rio Tinto directors, KMP or any other PDMR: section 12.3 expressly prohibits PDMRs from Dealing in derivative products over or in respect of Rio Tinto Securities and from entering margin lending or other secured financing arrangements, with no exemption authority, and PCAs are caught through the 'for the account of a third party' language. For Permanent or Project Restricted Persons who are not PDMRs, a collar and a secured loan are each Dealings (limbs (c), (e) and (h) of the definition) that may proceed only with prior written clearance from the Group Company Secretary or delegate via the Dealing Rules portal, executed within two Business Days or the period specified, outside any Closed Period applying to them, with a Post Trade Notification within two business days. Such persons may not hedge unvested plan securities or vested plan securities still subject to disposal restrictions, so only vested, unrestricted or non-plan shares can be collared. A disposal resulting from a secured lender exercising its rights is excluded from the Policy. Personnel who are not Restricted Persons are subject only to the Insider Dealing prohibition."
+}

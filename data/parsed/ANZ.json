@@ -1,0 +1,484 @@
+{
+ "symbol": "ANZ",
+ "company": "ANZ Group Holdings Limited",
+ "title": "Trading in ANZ Securities Policy",
+ "date_approved": "27 July 2026",
+ "date_effective": "3 August 2026",
+ "date_lodged": "5 August 2026",
+ "date_next_review": "3 August 2029",
+ "tiers": [
+  {
+   "name": "Employees, contingent workers and ANZ Directors",
+   "kind": "all_staff",
+   "description": "Everyone in the ANZ Group. Bound by the insider trading prohibition and the market perception test; the additional obligations (pre-trade approval, Blackout Periods, prohibited activities) apply only to ANZ Restricted Persons.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "ANZ Restricted Persons",
+   "kind": "restricted",
+   "description": "Employees likely to have access to material information, including ANZ Directors, ExCo Members, Key Management Personnel, all Group 1 and 2 staff and their executive assistants, the ANZ Control Room and anyone designated by a Risk Owner or ExCo Member. Must obtain Pre-trade Approval via the Personal Account Dealing Platform, observe Blackout Periods, and comply with the prohibited activities (speculative trading, short sales, margin/LTV financing, hedging unvested or locked plan holdings, 30-day minimum hold). Must treat Associates' transactions as their own.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "ExCo Members and Key Management Personnel",
+   "kind": "kmp",
+   "description": "Group Executives reporting directly to the CEO, and KMP under GN27/AASB 124. Restricted Persons who must additionally obtain written Pre-trade Approval from the CFO, Chief Risk Officer or Group General Counsel via the platform and lodge a copy with the ANZGHL Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "ANZ Directors and Chief Executive Officer",
+   "kind": "director",
+   "description": "Directors of ANZBGL, ANZGHL or a controlled entity (non-employees) and the CEO. Restricted Persons who must obtain written Pre-trade Approval from the Chairman of the ANZGHL Board (Chairman of the Audit Committee if unavailable) outside Blackout Periods and provide a copy to the Company Secretary. Directors of ANZGHL subsidiaries (other than ANZBGL) apply via the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouse or partner, children under 18, dependants or anyone whose investment decisions the Restricted Person can reasonably be expected to influence or control, and any corporation, SMSF, partnership or trust over which the Restricted Person or their Associate has influence or control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "yes",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any options, derivatives or other hedging arrangements which operate to limit the economic risk of an unvested holding or a holding subject to a holding lock or clawback period under an ANZ employee or executive incentive plan in ANZ Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "ANZ Restricted Persons"
+   ],
+   "start_anchor": "two months prior to the announcement of ANZ's half year financial results",
+   "end_anchor": "one trading day after the market announcement of the half year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "ANZ Restricted Persons"
+   ],
+   "start_anchor": "two months prior to the announcement of ANZ's full year financial results",
+   "end_anchor": "one trading day after the market announcement of the full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "ANZ Restricted Persons"
+   ],
+   "start_anchor": "two weeks prior to any periodic ANZ market trading update",
+   "end_anchor": "one trading day after the market announcement of the trading update",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Group's Continuous Disclosure Committee may impose ad hoc Blackout Periods when matters within ASX Listing Rule 3.1A or NZX Listing Rule 3.1.2 exceptions are being considered, or to manage conflicts of interest, on dates it determines. Confidentiality of the restriction is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Options, derivatives or other hedging arrangements limiting economic risk of unvested incentive plan holdings are banned for Restricted Persons and Associates; no venue limit.",
+   "evidence": "not enter into any options, derivatives or other hedging arrangements which operate to limit the economic risk of an unvested holding or a holding subject to a holding lock or clawback period under an ANZ employee or executive incentive plan in ANZ Securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "The ban extends to vested plan shares that remain subject to a holding lock or clawback period, so deferred or restricted shares within their lock or clawback horizon cannot be collared.",
+   "evidence": "or a holding subject to a holding lock or clawback period under an ANZ employee or executive incentive plan in ANZ Securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.4; 6 (ANZ Security, Trade)",
+   "detail": "Derivatives over unrestricted shares are not expressly addressed. An option or derivative relating to ANZ shares is itself an ANZ Security and any transaction affecting an interest in ANZ Securities is a Trade, so an OTC put/call requires Pre-trade Approval (Chairman for Directors/CEO; CFO, CRO or Group General Counsel for ExCo/KMP; platform for others), valid 48 hours, outside Blackout Periods, subject to the speculative trading ban, 30-day hold and market perception test.",
+   "evidence": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees, contingent workers and ANZ Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2; 3.1; 3.2",
+   "detail": "Employees who are not Restricted Persons face only the insider trading prohibition and the market perception test; no derivative, hedging or financing restrictions are imposed on them.",
+   "evidence": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Absolute ban on hedging unvested incentive plan holdings (ANZ Rights: deferred share rights, performance rights, restricted rights).",
+   "evidence": "not enter into any options, derivatives or other hedging arrangements which operate to limit the economic risk of an unvested holding"
+  },
+  {
+   "topic": "hedging",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Hedging of vested plan shares under a holding lock or within a clawback period is banned.",
+   "evidence": "or a holding subject to a holding lock or clawback period under an ANZ employee or executive incentive plan"
+  },
+  {
+   "topic": "hedging",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.4; 3.5; 6",
+   "detail": "Hedging of fully vested, unlocked, post-clawback shares (or shares bought on market) is not prohibited; by negative implication of the targeted ban it is available as a Trade with Pre-trade Approval, provided it has no financing leg subject to margin call or LTV.",
+   "evidence": "ANZ Restricted Persons and their Associates must obtain Pre-trade Approval via the Personal Account Dealing Platform prior to Trading in ANZ Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.4; 3.5; 6 (Trade)",
+   "detail": "Monetisation is not named. A prepaid forward or collar is a derivative relating to ANZ Securities and a transaction affecting an interest in them, so needs Pre-trade Approval; but any funding leg that uses ANZ Securities in connection with a loan subject to margin call or loan-to-value ratio is expressly prohibited, and the 30-day minimum hold and speculative ban apply.",
+   "evidence": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Outright ban for Restricted Persons and Associates.",
+   "evidence": "not engage in short sales of ANZ Securities;"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named. Lending shares changes title and would be a Trade requiring Pre-trade Approval, and lending to a short seller would be inconsistent with the short sale ban.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4; 3.5; 6 (Trade)",
+   "detail": "Entering a CFD relating to ANZ Securities is expressly a Trade requiring Pre-trade Approval; in practice a CFD would fall foul of the speculative trading ban, the 30-day hold, the short sale ban (if short) and the margin/LTV financing ban, and a CFD over unvested or locked plan holdings is prohibited hedging.",
+   "evidence": "entering a contract for difference (CFD) relating to ANZ Securities,"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Restricted Persons and Associates may not use ANZ Securities in connection with a margin loan or any similar financing arrangement that may be subject to a margin call or loan-to-value ratio, regardless of vesting state.",
+   "evidence": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio;"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees, contingent workers and ANZ Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The financing prohibition in 3.5 is confined to Restricted Persons and their Associates.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.4; 3.5; 6 (Trade)",
+   "detail": "Granting security is not named. A charge or mortgage over ANZ Securities is a change affecting an interest in them and so a Trade needing Pre-trade Approval outside Blackout Periods; where the security supports financing subject to a margin call or LTV ratio it is prohibited outright under 3.5.",
+   "evidence": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Any financing arrangement using ANZ Securities that may be subject to a margin call or loan-to-value ratio is banned; the wording 'similar financing arrangements' catches a bank loan secured on collared shares with LTV covenants. A secured loan with no margin call or LTV mechanism is not expressly named but would still be a Trade (change affecting interest) requiring Pre-trade Approval and subject to the market perception test.",
+   "evidence": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio;"
+  },
+  {
+   "topic": "short_term",
+   "tier": "ANZ Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "No short term or speculative transactions; Restricted Persons and Associates must have a medium to long term investment objective and hold ANZ Securities for at least 30 calendar days.",
+   "evidence": "have a medium to long term investment objective and must hold ANZ Securities for a minimum period of 30 calendar days."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "ANZ Directors and Chief Executive Officer",
+   "type": "approval",
+   "approver": "Chairman of the ANZGHL Board (Chairman of the ANZGHL Audit Committee if unavailable); copy to the ANZGHL Company Secretary, who records it. Directors of ANZGHL subsidiaries other than ANZBGL apply via the Company Secretary (corpgovemelb@anz.com)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.4; Schedule 1",
+   "evidence": "Written approval must be obtained from the Chairman of ANZGHL Board prior to Trading in ANZ Securities outside the Blackout Period. Where the Chairman is unavailable, written approval from the Chairman of the ANZGHL Audit Committee is required."
+  },
+  {
+   "tier": "ExCo Members and Key Management Personnel",
+   "type": "approval",
+   "approver": "One of the Chief Financial Officer, Chief Risk Officer or Group General Counsel, via the Personal Account Dealing Platform (StarCompliance); copy to the ANZGHL Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.4; Schedule 1",
+   "evidence": "ExCo Members and Key Management Personnel must obtain Pre-trade Approval from the Group Chief Risk Officer, Chief Financial Officer or Group General Counsel and record such approval with Company Secretary prior to any Trading in ANZ Securities"
+  },
+  {
+   "tier": "ANZ Restricted Persons",
+   "type": "preclearance_system",
+   "approver": "Personal Account Dealing Platform (StarCompliance), acknowledged by the Line Manager and recorded by the ANZ Control Room; by email to Line Manager and Control Room when on leave",
+   "form": "system",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.4",
+   "evidence": "Pre-trade Approvals are valid for 48 hours. Limit orders which have not been executed within 48 hours require a new Pre-trade Approval. ... If a person comes into possession of Inside Information after receiving Pre-trade Approval, they must not Trade in ANZ Securities despite having received Pre-trade Approval."
+  },
+  {
+   "tier": "Employees, contingent workers and ANZ Directors",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.1.1",
+   "evidence": "In addition to the general prohibition above, ANZ Restricted Persons and their Associates: must obtain Pre-trade Approval prior to Trading in ANZ Securities"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "ANZ Restricted Persons",
+   "type": "holding_period",
+   "months": 1,
+   "basis": "30 calendar days from acquisition, plus a medium to long term investment objective",
+   "carve_outs": [],
+   "evidence": "have a medium to long term investment objective and must hold ANZ Securities for a minimum period of 30 calendar days."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "unclear",
+   "approver": "Line Manager and ANZ Control Room, via the Personal Account Dealing Platform; only in exceptional circumstances",
+   "evidence": "Exceptions to this Policy will only be granted in exceptional circumstances. For example, where the ANZ Restricted Person is experiencing severe financial hardship or has an unanticipated significant financial commitment."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of ANZ Securities arising from the acceptance of an equal access share buy-back, takeover offer or scheme of arrangement."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "election to start, cease or vary participation in ANZ's DRP or bonus option plan provided that the ANZ Restricted Person and/ or Associate is not in possession of Inside Information when the election is made."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an exercise of ANZ Rights by the ANZ Restricted Person (i.e. to 'acquire and hold' the ANZ Securities that are the subject of the ANZ Rights) provided the exercise is completed outside a Blackout Period."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "outside of Blackout Periods, a transfer of ANZ Securities from a Broker Account held solely in the name of the ANZ Restricted Person and/ or Associate to another Broker Account held in the ANZ Restricted Person and/ or Associate's own name."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental Trading of ANZ Securities that occurs because of dealing in ANZ Securities issued by a managed investment scheme, listed investment company, exchange traded fund (ETF) or similar investment vehicle, that is managed by a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Associates, trading within the scope of their own employment with a third party (e.g. an Associate who is a stockbroker trading in their professional capacity for a non-related party is exempt)."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "to comply with a compulsory acquisition under the Corporations Act in Australia or under equivalent laws elsewhere ... any mandatory conversion of ANZ Securities (e.g. convertible notes) into ordinary shares that occurs automatically"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "Any margin loan or similar financing arrangement using ANZ Securities that may be subject to a margin call or loan-to-value ratio is prohibited for Restricted Persons and Associates; the policy does not address facilities without such triggers.",
+  "financing_disclosure": [
+   "ANZ Restricted Persons: all Broker Accounts (any account used for holding or transacting ANZ Securities, including accounts over which they or Associates have trading authority) must be disclosed and registered in the Personal Account Dealing Platform regardless of activity, and kept up to date; ongoing"
+  ],
+  "transfer_to_custodian_is_dealing": "yes",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "ANZ Policy glossary",
+  "Code of Conduct",
+  "Conflicts of Interest Policy",
+  "Non-financial risk framework and Conduct Risk Framework",
+  "Performance and Remuneration Policy",
+  "Trading in Non-ANZ Securities Policy",
+  "StarCompliance Personal Account Dealing User Guide",
+  "Event Management Standard",
+  "Policy Exemption Form"
+ ],
+ "exemption_authority": "Exceptions to the Policy are requested through the Personal Account Dealing Platform and must be approved by the Restricted Person's Line Manager and the ANZ Control Room, and only in exceptional circumstances such as severe financial hardship or an unanticipated significant financial commitment; the Control Room reviews, approves and records exemptions, and formal policy exemptions go to the owner (Head of Compliance Institutional) on the Policy Exemption Form. Exercise of ANZ Rights during a Blackout Period requires a special circumstance trading application. The Continuous Disclosure Committee sets ad hoc Blackout Periods.",
+ "jurisdiction_overlays": [
+  "NZX Listing Rule 3.1.2 (ad hoc Blackout Periods when NZX non-disclosure exceptions are relied on)",
+  "Compulsory acquisition under equivalent laws outside Australia is exempt from Pre-trade Approval",
+  "Where the law imposes a higher standard than the Policy, the legal obligation prevails"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing scope",
+   "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio;",
+   "why_it_matters": "The loan leg of a funded collar secured on the collared shares with any LTV covenant or margin call right is prohibited outright for Directors, ExCo, KMP and all other Restricted Persons and their Associates; only a facility with no margin call or LTV mechanism falls outside the literal ban."
+  },
+  {
+   "topic": "hedging ban extends to locked and clawback shares",
+   "clause": "an unvested holding or a holding subject to a holding lock or clawback period under an ANZ employee or executive incentive plan",
+   "why_it_matters": "Vested deferred or restricted shares cannot be collared until both the holding lock and any clawback period have expired; only unencumbered plan shares or on-market purchases are eligible."
+  },
+  {
+   "topic": "trade definition",
+   "clause": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights",
+   "why_it_matters": "Granting a charge, transferring shares to a lender's nominee, and each put/call leg are all Trades requiring Pre-trade Approval outside Blackout Periods, and unwinds or settlements need fresh approval."
+  },
+  {
+   "topic": "off-market transfers",
+   "clause": "outside of Blackout Periods, a transfer of ANZ Securities from a Broker Account held solely in the name of the ANZ Restricted Person and/ or Associate to another Broker Account held in the ANZ Restricted Person and/ or Associate's own name.",
+   "why_it_matters": "Only same-name transfers are exempt from Pre-trade Approval; moving collared shares into a bank custody or nominee account is a Trade needing approval, and the August 2026 update was specifically made to tighten controls on off-market transfers."
+  },
+  {
+   "topic": "market perception test",
+   "clause": "Employees and contingent workers must not engage in Trading in ANZ Securities where the proposed Trade could be perceived as taking advantage of their position.",
+   "why_it_matters": "Even a technically compliant collar can be refused or later criticised if it could be seen as exploiting the executive's position, giving approvers a broad discretionary veto."
+  },
+  {
+   "topic": "blackout length",
+   "clause": "Blackout Periods commence: Two months prior to the announcement of ANZ's half year and full year financial results; Two weeks prior to any periodic ANZ market trading updates",
+   "why_it_matters": "Roughly five to six months of each year are closed, plus trading-update and ad hoc blackouts, so collar entry, rolls, resets and unwinds must be scheduled into narrow open windows."
+  },
+  {
+   "topic": "approval validity",
+   "clause": "Pre-trade Approvals are valid for 48 hours. Limit orders which have not been executed within 48 hours require a new Pre-trade Approval.",
+   "why_it_matters": "The collar must be priced and executed within 48 hours of approval, and approval lapses if the executive receives Inside Information before execution."
+  },
+  {
+   "topic": "associates",
+   "clause": "ANZ Restricted Persons must treat their Associates' transactions for the purpose of this Policy and applicable laws as if the transactions were their own.",
+   "why_it_matters": "Structuring the collar or loan through a spouse, SMSF, trust or controlled company does not avoid the financing ban or approval requirements."
+  },
+  {
+   "topic": "approval is monitoring only",
+   "clause": "Acknowledgement of a Pre-trade Approval by or on behalf of ANZ is intended as a compliance monitoring function only and is not an endorsement of the proposed transaction.",
+   "why_it_matters": "Approval gives no comfort that the structure complies with insider trading law or the prohibited activities list; the executive bears that risk."
+  },
+  {
+   "topic": "exceptions",
+   "clause": "Exceptions to this Policy will only be granted in exceptional circumstances. For example, where the ANZ Restricted Person is experiencing severe financial hardship or has an unanticipated significant financial commitment.",
+   "why_it_matters": "A waiver of the margin/LTV financing ban for a routine funded collar is unlikely; the exception route is reserved for hardship and needs both Line Manager and Control Room approval."
+  }
+ ],
+ "summary": "A funded collar as typically structured is not available to ANZ Directors, ExCo Members, KMP or other Restricted Persons: section 3.5 prohibits using ANZ Securities in connection with a margin loan or any similar financing arrangement that may be subject to a margin call or loan-to-value ratio, and exceptions are granted only in exceptional circumstances such as severe hardship. The unfunded collar legs (put and call) over shares that are vested, outside any holding lock and past any clawback period are not prohibited, but each is a Trade requiring written Pre-trade Approval from the ANZGHL Chairman for Directors and the CEO, or from the CFO, Chief Risk Officer or Group General Counsel for ExCo and KMP, valid for 48 hours, outside the long Blackout Periods (two months before results, two weeks before trading updates, plus ad hoc periods), with a medium to long term objective, a 30-day minimum hold and the market perception test. Hedging unvested, locked or clawback-period plan holdings is banned outright. Any charge over the shares or transfer into a bank nominee account is itself a Trade needing approval, and a loan with no margin call or LTV mechanism, while outside the literal ban, would still need approval and could be refused on perception grounds."
+}
