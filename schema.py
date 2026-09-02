@@ -1,56 +1,128 @@
-"""Pydantic schema for the terms extracted from a securities trading policy."""
+"""Pydantic schema (v2) for the terms extracted from a securities trading policy. See DATASET.md."""
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-Answer = Literal["permitted", "prohibited", "permitted_with_approval", "not_addressed"]
+Topic = Literal["derivatives", "hedging", "monetisation", "short_selling", "stock_lending", "cfd", "margin_lending", "encumbrance", "secured_financing", "short_term"]
+SecurityState = Literal["unvested", "vested_locked", "vested_unrestricted", "any"]
+Answer = Literal["prohibited", "permitted", "permitted_with_clearance", "permitted_with_notification", "floor", "not_addressed"]
+YesNo = Literal["yes", "no", "not_addressed"]
 
 
 class Strict(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
 
-class Finding(Strict):
+class Tier(Strict):
+    name: str = Field(description="The policy's own label, e.g. 'Restricted Persons', 'PDMRs', 'all employees'.")
+    kind: Literal["director", "kmp", "restricted", "plan_participant", "all_staff", "associate", "other"]
+    description: str
+    includes_associates: YesNo = Field(description="Whether the policy extends this tier's rules to spouses, dependants, controlled entities or trusts.")
+
+
+class Definitions(Strict):
+    dealing_covers_derivatives: YesNo
+    dealing_covers_agreements_to_deal: YesNo
+    dealing_covers_encumbrance: YesNo = Field(description="Granting security, a charge, lien or pledge is itself a dealing.")
+    dealing_covers_stock_lending: YesNo
+    dealing_covers_change_of_beneficial_ownership: YesNo
+    securities_include_otc_derivatives: YesNo
+    hedging_definition: str = Field(description="Verbatim definition of hedging or 'limiting economic risk', or empty.")
+    substance_over_form: YesNo
+
+
+class Window(Strict):
+    kind: Literal["open", "closed"]
+    applies_to: list[str] = Field(description="Tier names, or ['all'].")
+    start_anchor: str = Field(description="e.g. '1 July', 'close of trading 30 June', 'day after release of full-year results'.")
+    end_anchor: str
+    duration_days: int | None = Field(description="Fixed length in days if the policy states one.")
+
+
+class Rule(Strict):
+    topic: Topic
+    tier: str = Field(description="Tier name, or 'all'.")
+    security_state: SecurityState
+    venue: Literal["exchange", "otc", "any"] = Field(description="Derivatives only; 'any' otherwise.")
     answer: Answer
-    detail: str = Field(description="One or two sentences on what the policy says, including who it applies to and any conditions.")
-    evidence: str = Field(description="Verbatim quote from the policy supporting the answer, or empty string if not addressed.")
+    mechanism: Literal["express", "via_dealing_definition", "via_hedging_definition", "implied"] = Field(
+        description="'express' when the policy names the activity; 'via_dealing_definition' when it is caught only because the definition of dealing sweeps it in.")
+    floor: str = Field(description="For answer 'floor': what the holding must not drop below, e.g. 'minimum shareholding requirement'. Else empty.")
+    section: str
+    detail: str
+    evidence: str = Field(description="Verbatim quote, one to three sentences. Empty only when not_addressed.")
 
 
-class TradingWindow(Strict):
-    opens: str = Field(description="When the window opens, e.g. 'day after release of full-year results'.")
-    closes: str = Field(description="When the window closes, e.g. '30 days after opening' or 'close of business 30 June'.")
-
-
-class Approval(Strict):
-    required: Literal["yes", "no", "not_addressed"]
-    must_be_written: Literal["yes", "no", "not_addressed"]
-    approver: str = Field(description="Who grants clearance, e.g. 'Chairman for directors; Company Secretary for other designated persons'.")
-    validity: str = Field(description="How long a clearance remains valid, e.g. '5 business days', or empty.")
-    post_trade_notification: str = Field(description="Any obligation to notify after dealing and the deadline, or empty.")
+class Clearance(Strict):
+    tier: str
+    type: Literal["approval", "notification", "preclearance_system", "none", "not_addressed"]
+    approver: str
+    form: Literal["written", "system", "unspecified"]
+    validity_days: int | None = Field(description="Business days the clearance remains valid, if stated.")
+    response_sla_days: int | None
+    revocable: YesNo
+    conditions_allowed: YesNo
+    refusal_confidential: YesNo
+    covers_derivatives: Literal["express", "implied", "not_addressed"]
+    post_trade_to: str = Field(description="Who must be told after dealing, or empty.")
+    post_trade_deadline: str
+    section: str
     evidence: str
 
 
-class PolicyTerms(Strict):
+class ShortTermRule(Strict):
+    tier: str
+    type: Literal["holding_period", "buy_sell_window", "intention", "instrument_maturity", "undefined", "not_addressed"]
+    months: float | None
+    basis: str = Field(description="e.g. 'LIFO', 'from acquisition', or empty.")
+    carve_outs: list[str]
+    evidence: str
+
+
+class Exception_(Strict):
+    kind: Literal["hardship", "court_order", "plan_dealing", "no_change_beneficial_interest", "non_discretionary_plan", "secured_lender_sale", "dividend_plan", "takeover", "other"]
+    scope: Literal["sale_only", "any_dealing", "unclear"]
+    approver: str
+    evidence: str
+
+
+class Financing(Strict):
+    secured_financing_scope: Literal["margin_loan_only", "any_secured_financing", "any_financing_in_respect_of_securities", "not_addressed"]
+    unvested_as_collateral: Literal["prohibited", "not_addressed"]
+    transfer_into_margin_account_is_dealing: YesNo
+    forced_sale_in_closed_period: Literal["breach", "excluded_dealing", "clearance_required", "not_addressed"]
+    margin_call_sale_needs_clearance: YesNo
+    price_trigger_guidance: str
+    financing_disclosure: list[str] = Field(description="Each entry: tier, trigger (inception / annual / financier entitled to demand / threshold), to whom, deadline.")
+    transfer_to_custodian_is_dealing: YesNo
+    minimum_shareholding_requirement: str = Field(description="Whether an MSR is referenced and whether hedged shares are excluded, or empty.")
+
+
+class BespokeClause(Strict):
+    topic: str = Field(description="Short tag, e.g. 'forced sale', 'MAR overlay', 'exemption authority', 'ETF lookthrough'.")
+    clause: str = Field(description="Verbatim or closely paraphrased clause.")
+    why_it_matters: str = Field(description="One sentence on the effect on a funded collar with a bank.")
+
+
+class Policy(Strict):
+    symbol: str
     company: str
-    policy_title: str
-    policy_date: str = Field(description="Effective or approval date as stated in the document, or empty.")
-    covered_persons: str = Field(description="Who the restrictions apply to, e.g. directors, KMP, designated employees, all staff.")
-    window_model: Literal["open_windows", "closed_periods", "both", "not_addressed"] = Field(
-        description="Whether the policy defines when dealing IS allowed (open windows), when it is NOT (closed/blackout periods), or both.")
-    trading_windows: list[TradingWindow] = Field(description="Each open trading window as defined by the policy.")
-    closed_periods: str = Field(description="Description of the closed/blackout periods, e.g. 'from 1 January until the day after release of half-year results'.")
-    ad_hoc_blackouts: Literal["yes", "no", "not_addressed"] = Field(description="Whether the company can impose additional ad hoc blackout periods.")
-    derivatives: Finding = Field(description="Dealing in derivatives, options, warrants or other financial products over company securities.")
-    hedging_unvested: Finding = Field(description="Hedging or limiting economic risk on unvested equity incentives (rights, options, performance shares).")
-    hedging_vested: Finding = Field(description="Hedging vested holdings via collars, caps, floors, put/call structures, equity swaps or similar.")
-    monetisation: Finding = Field(description="Monetising positions via forward sales, prepaid variable forwards, equity swaps or similar structures that transfer economic exposure.")
-    short_selling: Finding
-    margin_lending: Finding = Field(description="Margin loans, or using securities as collateral where the lender may sell them.")
-    encumbrance: Finding = Field(description="Granting security interests, pledging or otherwise encumbering securities; any requirement that holdings remain unencumbered.")
-    short_term_trading: Finding = Field(description="Short-term or speculative dealing.")
-    minimum_holding_period: str = Field(description="Any minimum holding period, e.g. '3 months', or empty.")
-    approval: Approval
-    exceptional_circumstances: Finding = Field(description="Whether dealing in a closed period is possible under exceptional circumstances (e.g. severe financial hardship).")
-    explicit_collar_mention: bool = Field(description="True if the policy expressly names collars, caps and collars, or zero-cost collars.")
-    other_collar_relevant_clauses: list[str] = Field(description="Any other clauses that would affect entering an OTC collar with a bank, quoted or closely paraphrased.")
-    collar_assessment: str = Field(description="Two to four sentences: can a director or executive enter a collar over vested shares with a bank under this policy, and on what conditions.")
+    title: str
+    date_approved: str
+    date_effective: str
+    date_lodged: str
+    date_next_review: str
+    tiers: list[Tier]
+    definitions: Definitions
+    windows: list[Window]
+    ad_hoc_blackout_authority: str = Field(description="Who can impose extra blackouts, and whether they are confidential; empty if none.")
+    rules: list[Rule] = Field(description="One entry per (topic, tier, security_state, venue) the policy distinguishes. Cover every topic at least once, using not_addressed where silent.")
+    clearance: list[Clearance] = Field(description="One entry per tier with a distinct regime.")
+    short_term: list[ShortTermRule]
+    exceptions: list[Exception_]
+    financing: Financing
+    external_documents: list[str] = Field(description="Documents incorporated by reference that are not in the PDF.")
+    exemption_authority: str
+    jurisdiction_overlays: list[str] = Field(description="e.g. UK MAR, NZX, US rules.")
+    bespoke_clauses: list[BespokeClause] = Field(description="Anything collar-relevant that the structured fields cannot hold.")
+    summary: str = Field(description="Three to five sentences: can a director or executive enter a funded collar with a bank, and on what conditions.")
