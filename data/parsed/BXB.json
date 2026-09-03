@@ -1,0 +1,387 @@
+{
+ "symbol": "BXB",
+ "company": "Brambles Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "3 July 2017",
+ "date_lodged": "3 July 2017",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors and Company Secretary; former Executive Directors still employed; Executive Leadership Team and their direct reports; all Band 4 (employee director-level) and above; all personnel at London or Sydney HQ; anyone notified by the CEO, an ELT member or the Company Secretary; plus their connected persons. All substantive rules (approval, Closed Periods, 30-day hold, derivatives ban, Security Interest ban) apply uniformly to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Members of the Board (with former Executive Directors still employed and the Company Secretary); distinguished only for approval (Chairman, or Deputy Chairman/CEO if unavailable) and 2-business-day notification of changes in interests.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman",
+   "kind": "director",
+   "description": "Distinguished only for approval, which comes from the Deputy Chairman or Chief Executive Officer.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other employees",
+   "kind": "restricted",
+   "description": "Designated Persons who are not Directors or the Company Secretary; distinguished only for approval (Company Secretary, who first seeks approval from the Chairman or another Director) and 5-business-day post-dealing notification.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected persons",
+   "kind": "associate",
+   "description": "Spouse; children and step-children under 18; nominees including investment managers; trusts of which the person, family member or family-controlled company is trustee or beneficiary; partners; and companies controlled by the person or their family. Subject to the 2.7 exceptions (e.g. independent trustee decisions, third-party discretionary funds).",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "financial products (including equity swaps, caps and collars and other hedging arrangements) which have the effect of limiting exposure to risks associated with such price movements",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "24 December (seventh day before the end of the half-year reporting period)",
+   "end_anchor": "first day after the preliminary announcement of the half-year results (around mid February)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "23 June (seventh day before the end of the financial year)",
+   "end_anchor": "first day after the preliminary announcement of the full-year results (around mid August)",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Brambles (no officer specified) may impose additional periods when price sensitive information may exist; these with Closed Periods are 'Prohibited Periods'. Confidentiality of the ad hoc period itself is not addressed, but a person told they cannot Deal must not communicate that fact to others.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4; 7 (Derivatives)",
+   "detail": "Absolute ban on trading Brambles Derivatives, defined to include exchange traded options, options granted by third parties, equity swaps, caps and collars and other hedging arrangements. No venue, tier or vesting-state carve-out and no approval route, so an OTC put and call with a bank is prohibited outright.",
+   "evidence": "Designated Persons must not trade in Brambles Derivatives."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "Express ban on hedging arrangements or financial products (equity swaps, caps and collars named) over unvested Awards that reduce or limit exposure to market value risk.",
+   "evidence": "Designated Persons may not enter into any hedging arrangements or acquire financial products (such as equity swaps, caps and collars or other hedging products) over unvested Awards which have the effect of reducing or limiting exposure to risks associated with the market value of Brambles Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4; 7 (Derivatives)",
+   "detail": "The unvested-Awards paragraph is illustrative only; the operative ban is on trading any Brambles Derivatives, and 'Derivatives' expressly includes collars and other hedging arrangements limiting exposure to price movements of Securities (which include shares). Hedging vested or non-plan shares is therefore also prohibited. The policy does not distinguish vested-but-locked shares.",
+   "evidence": "Derivatives means financial products which provide a financial return based on price movements of Securities, including exchange traded options or options granted by third parties, and includes financial products (including equity swaps, caps and collars and other hedging arrangements) which have the effect of limiting exposure to risks associated with such price movements."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "2.4; 2.5; 7 (Derivatives)",
+   "detail": "Monetisation is not named. A prepaid forward or similar limits exposure to price movements and so is a Brambles Derivative caught by the 2.4 ban; any monetisation taking a Security Interest over Brambles Securities is separately barred by 2.5.",
+   "evidence": "includes financial products (including equity swaps, caps and collars and other hedging arrangements) which have the effect of limiting exposure to risks associated with such price movements."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2.3",
+   "detail": "Short selling is not named. It falls within the ban on short-term or speculative trading, and a disposal is a Dealing requiring prior approval in any event.",
+   "evidence": "Designated Persons must not engage in short-term or speculative trading in Brambles Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and is not listed in the Dealing or Security Interest definitions; a transfer of title under a lending arrangement would in practice be a disposal (Dealing) requiring approval.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2.4; 7 (Derivatives)",
+   "detail": "CFDs are not named but are financial products providing a financial return based on price movements of Securities, so are Brambles Derivatives and banned under 2.4; they would also offend the short-term or speculative trading ban.",
+   "evidence": "Derivatives means financial products which provide a financial return based on price movements of Securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.5",
+   "detail": "Margin loans secured on Brambles Securities are given as the common example of a prohibited Security Interest. Margin or other investment loans remain permitted only if Brambles Securities are not used as security. A lender's sale in a Closed Period or while the person has inside information could put the person in breach.",
+   "evidence": "A common example of a situation to which this paragraph would apply is a margin loan. ... Designated Persons may still acquire Brambles Securities through a margin or other investment loan if Brambles Securities are not used as security for that loan."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.5; 7 (Security Interest)",
+   "detail": "Absolute ban on granting any pledge, lien, charge, mortgage or other encumbrance over any Brambles Securities held, whether or not connected with a financing. Awards are Securities, so unvested Awards are covered. No approval or exemption route.",
+   "evidence": "A Designated Person must not grant a Security Interest over any Brambles Securities they hold."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.5",
+   "detail": "Any financing secured on Brambles Securities is prohibited because the grant of the Security Interest is banned; the paragraph expressly applies to any Security Interest, not only margin loans.",
+   "evidence": "Although margin loans are a common situation in which Security Interests over Brambles shares could be granted, this paragraph applies to any Security Interest over Brambles Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.3",
+   "detail": "No short-term or speculative trading; minimum 30-day holding period. Carve-out for sale of shares received on vesting of Awards within 30 days of vesting where section 3 clearance was obtained for that sale.",
+   "evidence": "Designated Persons must not engage in short-term or speculative trading in Brambles Securities. They must hold Brambles Securities for a minimum of 30 days."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Brambles Chairman (or Deputy Chairman or Chief Executive Officer where the Chairman is not available); also for former Executive Directors still employed and the Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (any change in interests of the Director or connected persons)",
+   "post_trade_deadline": "within two business days after the change in interests",
+   "section": "3.1; 4.1",
+   "evidence": "the Designated Person may ordinarily Deal within two business days after receiving the approval. The Designated Person will be notified if the clearance position changes within those two business days."
+  },
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "Deputy Chairman or Chief Executive Officer",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (any change in interests)",
+   "post_trade_deadline": "within two business days after the change in interests",
+   "section": "3.1; 4.1",
+   "evidence": "the Deputy Chairman or Chief Executive Officer, in the case of approvals for the Chairman"
+  },
+  {
+   "tier": "Other employees",
+   "type": "approval",
+   "approver": "Company Secretary, who first seeks approval from the Chairman or another Director",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (any Dealing)",
+   "post_trade_deadline": "within five business days of effecting the Dealing",
+   "section": "3.1; 4.1",
+   "evidence": "the Company Secretary, in the case of approvals for any other employee. Before granting approval, the Company Secretary will seek approval from the Chairman or another Director."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 1,
+   "basis": "30 days from acquisition",
+   "carve_outs": [
+    "sale of Brambles Securities acquired on vesting of Awards within 30 days of vesting where section 3 clearance was obtained for that sale"
+   ],
+   "evidence": "They must hold Brambles Securities for a minimum of 30 days. This does not apply to any sale of Brambles Securities acquired as a result of Awards vesting within 30 days of that vesting where clearance under section 3 of this Policy had been obtained for that sale."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or Dealing in units of, a fund or other scheme (other than a scheme only investing in Brambles Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealing under an offer or invitation made to all or most of Brambles' Security holders, such as a rights issue, a security purchase plan, a dividend reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealing which results in no change to the beneficial interest in the securities (eg transfers of Brambles Securities already held by a Designated Person into that Designated Person's superannuation fund or other saving scheme in which the Designated Person is a beneficiary)"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Designated Person is a trustee, Dealing in Brambles Securities by that trust, provided that: (i) the Designated Person is not a beneficiary of the trust; and (ii) any decision to trade during a Prohibited Period is taken by the other trustees or by the investment managers independently of the Designated Person"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "if a Designated Person wishes to make an undertaking to accept, or to accept, a takeover offer"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of Brambles Securities following exercise) of an Award, where the final date for the exercise of the Award falls during a Prohibited Period, Brambles has been in an exceptionally long Prohibited Period, or has had a number of consecutive Prohibited Periods"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Approver under 3.1 (prior written clearance for the plan)",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided pursuant to paragraph 3.1 and where: (i) the Designated Person did not enter into the plan or amend the plan during a Prohibited Period; and (ii) the trading plan does not permit the Designated Person to exercise any influence or discretion over how, when, or whether to trade."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Relevant person authorised under 3.1 (Chairman / Deputy Chairman or CEO / Company Secretary), in their discretion, in advance",
+   "evidence": "A Designated Person would be in severe financial hardship if they had a pressing financial commitment that could not be satisfied otherwise than by selling Brambles Securities."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Relevant person authorised under 3.1, in their discretion, in advance",
+   "evidence": "a Designated Person was required by a court order, or there were court enforceable undertakings (eg in a bona fide family settlement) or some other overriding legal or regulatory requirement to transfer or sell Brambles Securities"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Brambles Chairman, or the Chief Executive Officer where the Chairman is involved",
+   "evidence": "there were other circumstances that the Brambles Chairman or the Chief Executive Officer (where the Chairman is involved) deemed to be exceptional."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The approver under 3.1 (Chairman, or Deputy Chairman/CEO, or Company Secretary) may in their discretion approve a sale or disposal during a Prohibited Period for severe financial hardship or exceptional circumstances (court order, overriding legal requirement, or other circumstances the Chairman or CEO deems exceptional), in advance only and on a declaration of no inside information. No authority exists to waive the derivatives ban (2.4) or the Security Interest ban (2.5).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "collars named in derivatives ban",
+   "clause": "Derivatives means financial products which provide a financial return based on price movements of Securities, including exchange traded options or options granted by third parties, and includes financial products (including equity swaps, caps and collars and other hedging arrangements) which have the effect of limiting exposure to risks associated with such price movements. ... Designated Persons must not trade in Brambles Derivatives.",
+   "why_it_matters": "A bank-written put and call is an 'option granted by a third party' and a 'collar', so the derivative legs of a funded collar are prohibited by name for all Designated Persons regardless of vesting state."
+  },
+  {
+   "topic": "security interest ban",
+   "clause": "A Designated Person must not grant a Security Interest over any Brambles Securities they hold. ... Security Interest means a pledge, lien, charge, mortgage or other encumbrance.",
+   "why_it_matters": "The loan leg secured on the collared shares is prohibited outright; the ban is not limited to margin loans and has no approval route."
+  },
+  {
+   "topic": "forced sale",
+   "clause": "If a Designated Person were to take out a margin loan and the security for that loan included Brambles Securities, the lender may be able to sell or otherwise Deal in those Securities. This would be so notwithstanding that, at the relevant time, there may be a Closed Period or the Designated Person may be in possession of price sensitive information ... This could cause the Designated Person to be in breach of this Policy.",
+   "why_it_matters": "The policy treats a lender's enforcement sale as the Designated Person's own breach, so lender enforcement rights cannot be relied on even if a security interest were somehow permitted."
+  },
+  {
+   "topic": "unsecured investment loans permitted",
+   "clause": "Designated Persons may still acquire Brambles Securities through a margin or other investment loan if Brambles Securities are not used as security for that loan.",
+   "why_it_matters": "Only a loan with no security over Brambles Securities is open, which removes the secured-loan element that defines a funded collar."
+  },
+  {
+   "topic": "associates and nominees",
+   "clause": "their nominee, including an investment manager managing funds on their behalf; a trust of which they, any member of their family, or any family controlled company, are the trustee or beneficiary; ... a company which they or their family control.",
+   "why_it_matters": "Routing a collar or secured loan through a family trust, nominee or controlled company remains within the derivatives and Security Interest bans."
+  },
+  {
+   "topic": "approval discretion and revocation",
+   "clause": "Approval can be given or refused at Brambles' discretion without giving reasons. A refusal to approve a request to Deal in Brambles Securities is final and binding ... The Designated Person will be notified if the clearance position changes within those two business days.",
+   "why_it_matters": "Any permitted Dealing must be executed within two business days and clearance can be withdrawn before execution, which matters for pricing and settlement of any structured transaction."
+  },
+  {
+   "topic": "share registry surveillance",
+   "clause": "The names and addresses of Designated Persons will be supplied to Brambles' share registry from time to time, for the purpose of investigating compliance with this Policy and with the insider trading prohibition.",
+   "why_it_matters": "Any transfer of collared shares to a bank nominee or custodian is likely to be detected through registry monitoring."
+  },
+  {
+   "topic": "policy vintage",
+   "clause": "Amended: ... and 3 July 2017",
+   "why_it_matters": "The lodged policy is dated July 2017 and may have been superseded; the bank should confirm the current version before relying on it."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 2.4 bans Designated Persons (Directors, ELT, Band 4 and above, HQ staff and their connected persons) from trading any Brambles Derivatives, a term that expressly includes options granted by third parties and collars, so the purchased put and written call are prohibited outright over vested and unvested shares alike. Section 2.5 separately bans granting any pledge, lien, charge, mortgage or other encumbrance over Brambles Securities, so the loan secured on the collared shares is also prohibited, and the policy warns that a lender's enforcement sale in a Closed Period would itself be a breach. Neither ban has an approval or exemption route; the hardship and exceptional-circumstances discretion only covers sales or disposals during Prohibited Periods. The only financing left open is an investment loan that takes no security over Brambles Securities."
+}
