@@ -1,0 +1,499 @@
+{
+ "symbol": "SUN",
+ "company": "Suncorp Group Limited",
+ "title": "Suncorp Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "10 May 2022",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Suncorp Directors, Employees and Contractors",
+   "kind": "all_staff",
+   "description": "All statutory directors of Suncorp Group Limited and its controlled entities, all full-time, part-time and casual employees, and all consultants, contractors and secondees. This is the widest tier: the insider trading prohibition and the hedging ban in section 5.1 apply to it without differentiation, but closed periods, clearance and the short-term dealing and short selling bans do not.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Prescribed Persons",
+   "kind": "restricted",
+   "description": "Persons who because of their seniority or position are likely to become involved with key financial, operational and strategic information about Suncorp, including all Suncorp Directors and members of the Executive Leadership Team (together Suncorp's KMP), the Company Secretary, Executive General Managers and selected Executive Managers, all Executive Assistants and Executive Officers of those groups, and any other person nominated by an ELT member, the Company Secretary, an Executive General Manager or an Executive Manager. Subject to Closed Periods, clearance, the short-term dealing and short selling bans and margin loan review.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Suncorp Directors",
+   "kind": "director",
+   "description": "Statutory directors of Suncorp. A subset of Prescribed Persons, distinguished for clearance (Suncorp Chairman or delegate; the Chairman's own requests go to the Audit Committee Chairman), for the requirement that even no-change-of-beneficial-owner transfers still need clearance, and for post-trade notification to the Company Secretary within three business days.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Executive Leadership Team",
+   "kind": "kmp",
+   "description": "The senior executive positions reporting directly to the Group CEO. A subset of Prescribed Persons, distinguished only by the obligation to notify the Company Secretary of any Dealing within three business days so the Company Secretary can report to the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A Prescribed Person's spouse or partner, their or their partner's dependent children, anyone else in the family whom the Prescribed Person may be expected to influence or be influenced by in Dealings with Securities, and a company, trust or entity that the Prescribed Person or any such family member controls or has an interest in. Connected Persons are subject to the same Closed Period, clearance, short-term dealing, short selling and margin loan restrictions as the Prescribed Person, who must make their clearance requests, waiver applications and notifications for them.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a hedging transaction that is designed to limit the economic risk of holdings in Suncorp Securities, including unvested performance rights",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Prescribed Persons",
+    "Connected Persons"
+   ],
+   "start_anchor": "1 January",
+   "end_anchor": "the beginning of trading in Sydney on the day following the announcement of Suncorp's half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Prescribed Persons",
+    "Connected Persons"
+   ],
+   "start_anchor": "1 July",
+   "end_anchor": "the beginning of trading in Sydney on the day following the announcement of Suncorp's full-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Prescribed Persons",
+    "Connected Persons"
+   ],
+   "start_anchor": "the day that is 20 calendar days before the day of Suncorp's annual general meeting",
+   "end_anchor": "the beginning of trading in Sydney on the day following Suncorp's annual general meeting",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Suncorp Board of Directors may determine from time to time that any other period is to be a Closed Period. Separately, the Company Secretary may place individuals who may possess Price Sensitive Information on a 'Restricted List'; those individuals are told they are prohibited from Dealing and are told when the prohibition is lifted, but the policy does not say the list itself is announced.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1; Key Terms (Security or Securities, Deal or Dealing)",
+   "detail": "An OTC put or call over Suncorp shares is a Security in its own right, so writing or buying it is a Dealing that would otherwise need clearance outside Closed Periods. But because the pair is designed to limit economic risk of a holding, section 5.1's hedging ban applies and the collar legs are prohibited outright rather than merely clearable.",
+   "evidence": "derivative products (including but not limited to warrants, exchange-traded options, over-the-counter options and contracts for differences) relating to those securities, whether or not the securities or the derivative products are issued or created by Suncorp or by third parties."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; 4; Key Terms (Security or Securities)",
+   "detail": "Exchange-traded options and warrants over Suncorp Securities are expressly within the definition of Securities, so acquiring or disposing of them is a Dealing requiring prior written clearance, outside Closed Periods and the Restricted List. Permitted only where the derivative is not itself designed to limit economic risk of a Suncorp holding (5.1) and does not amount to short-term Dealing or short selling (5.2).",
+   "evidence": "Outside of Closed Periods, Prescribed Persons and their Connected Persons are required to obtain clearance before Dealing in Suncorp Securities (unless the proposed Dealing falls into an Exempt Dealing category set out in Section 3)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Suncorp Directors, Employees and Contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Absolute, tier-wide hedging ban with no clearance or waiver route. It is not confined to plan or unvested securities: it reaches any 'holdings in Suncorp Securities' and expressly extends to unvested performance rights, so vested unrestricted shares are covered too. There is no venue limit and no exception for a collar.",
+   "evidence": "Directors, Employees and Contractors are prohibited from entering into a hedging transaction that is designed to limit the economic risk of holdings in Suncorp Securities, including unvested performance rights."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Suncorp Directors, Employees and Contractors",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Unvested performance rights are expressly named as within the hedging ban, putting beyond doubt that awards not yet vested cannot be hedged.",
+   "evidence": "prohibited from entering into a hedging transaction that is designed to limit the economic risk of holdings in Suncorp Securities, including unvested performance rights."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.1; 5.2(a)",
+   "detail": "Monetisation is not named. A prepaid forward, collar-plus-loan or similar structure is designed to limit the economic risk of a Suncorp holding and so is caught by the section 5.1 hedging ban; forward contracts are also given as the example of prohibited short-term Dealing in 5.2(a).",
+   "evidence": "entering into any other short term Dealings (for example, forward contracts) in relation to Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "Outright ban for Prescribed Persons and Connected Persons, defined as borrowing the security and selling it to profit from an anticipated fall. No carve-outs and no clearance route.",
+   "evidence": "Short Selling of Suncorp Securities. This is the practice of attempting to profit from an anticipated drop in the price of Securities by borrowing the Security and selling it in anticipation of later being able to buy the Securities at a lower price to close out their short position at a profit."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Lending out Suncorp Securities is nowhere prohibited or named as a Dealing. Borrowing securities appears only descriptively inside the definition of short selling. The Dealing definition's limb on granting a security interest and its limb on disposing of a beneficial interest may reach a title-transfer stock loan, but the policy does not say so.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Key Terms (Security or Securities); 5.1; 5.2(a)",
+   "detail": "Contracts for differences relating to Suncorp shares are expressly named as Securities. A CFD taken to offset a holding is a hedging transaction banned by 5.1, and a CFD is in practice a short-term Dealing under 5.2(a); a short CFD would also engage the short selling ban.",
+   "evidence": "derivative products (including but not limited to warrants, exchange-traded options, over-the-counter options and contracts for differences) relating to those securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Margin loans are not banned. A new or increased Margin Loan over Suncorp Securities is a Dealing (granting a security interest) requiring clearance, and the request is escalated to the Suncorp Chairman or the Group CEO personally, who may impose whatever terms and conditions they see fit because of forced-sale risk. The heading says Prescribed Persons 'may be restricted', so clearance is discretionary and may be refused without reasons.",
+   "evidence": "The Suncorp Chairman, or the Group CEO, will review any request for waiver or clearance to Deal by Prescribed Persons or their Connected Persons which involves entering into a new or increased Margin Loan or other use of Suncorp Securities as collateral in a financial transaction."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Key Terms (Deal or Dealing); 6",
+   "detail": "Granting a mortgage, lien, charge or other security interest over Suncorp Securities is expressly listed as an example of Dealing, so it needs prior written clearance and cannot be done in a Closed Period. Where the security interest supports a financial transaction, section 6 escalates it to the Chairman or Group CEO.",
+   "evidence": "granting a mortgage, lien, charge or other security interest (such as a Margin Loan) over Securities;"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Section 6 is not limited to margin loans: it reaches 'other use of Suncorp Securities as collateral in a financial transaction', which squarely captures a loan secured on collared shares. There is no prohibition, only mandatory review by the Chairman or Group CEO with power to impose conditions, and the underlying clearance can be refused in Suncorp's discretion without reasons.",
+   "evidence": "which involves entering into a new or increased Margin Loan or other use of Suncorp Securities as collateral in a financial transaction."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Prescribed Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Buying and selling the same Security within six months is banned, as is entering into any other short term Dealing, with forward contracts given as the example. Carve-outs for the sale of ordinary shares acquired on exercise of a right or option under a Suncorp employee share plan, and for off-market transactions with no effective change in beneficial owner.",
+   "evidence": "Short-Term Dealing of Suncorp Securities: means buying and selling the same Security within a six month period and entering into any other short term Dealings (for example, forward contracts) in relation to Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Suncorp Directors",
+   "type": "approval",
+   "approver": "Suncorp Chairman or delegate (requests by the Chairman or their Connected Person go to the Suncorp Audit Committee Chairman or delegate); applications are lodged with and administered by the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within three business days of any Dealing by them or their Connected Persons",
+   "section": "4",
+   "evidence": "Any clearance request to Deal can be given, refused or withdrawn by Suncorp in its discretion, without giving any reasons. ... The person providing the clearance may specify a time period of no more than five business days during which Dealing must be completed"
+  },
+  {
+   "tier": "Executive Leadership Team",
+   "type": "approval",
+   "approver": "Suncorp Group Chief Executive Officer or delegate; applications lodged with the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within three business days of any Dealing by them or their Connected Persons",
+   "section": "4",
+   "evidence": "Suncorp Directors and members of the Executive Leadership Team must notify the Company Secretary within three business days of any Dealing in Suncorp Securities undertaken by them or their Connected Persons."
+  },
+  {
+   "tier": "Prescribed Persons",
+   "type": "approval",
+   "approver": "Suncorp Group Chief Executive Officer or delegate; applications lodged with the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4",
+   "evidence": "To apply for a clearance to Deal the Prescribed Person must provide the following information to the Company Secretary by email, in writing or through any online portal made available for the purpose ... Dealing may not take place until the written clearance has been provided."
+  },
+  {
+   "tier": "Connected Persons",
+   "type": "approval",
+   "approver": "Same approver as the associated Prescribed Person; the Prescribed Person must make the clearance request, waiver application or notification on the Connected Person's behalf",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (where the Prescribed Person is a Director or ELT member)",
+   "post_trade_deadline": "within three business days of the Dealing",
+   "section": "4; 7",
+   "evidence": "make clearance requests, waiver applications or Dealing notifications under this Policy on behalf of their Connected Persons;"
+  },
+  {
+   "tier": "Suncorp Directors, Employees and Contractors",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Application; 2",
+   "evidence": "There are additional restrictions on Dealing in Suncorp Securities by Prescribed Persons and their Connected Persons."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Prescribed Persons",
+   "type": "buy_sell_window",
+   "months": 6,
+   "basis": "buying and selling the same Security within a six month period",
+   "carve_outs": [
+    "the sale of ordinary shares in Suncorp acquired on exercise of a right or option under an employee share plan operated by Suncorp",
+    "an off-market transaction in Suncorp Securities where there is no effective change in the beneficial owner"
+   ],
+   "evidence": "Short-Term Dealing of Suncorp Securities: means buying and selling the same Security within a six month period and entering into any other short term Dealings (for example, forward contracts) in relation to Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "Suncorp Chairman or delegate, but only where the dealer is a Suncorp Director or their Connected Person",
+   "evidence": "no change in beneficial owner: an off-market transaction in Suncorp Securities, where there is no effective change in the beneficial owner (such as a transfer to a family trust or a self-managed superannuation fund). However, where proposed to be undertaken by a Suncorp Director or their Connected Person, clearance to Deal must still be sought under Section 4;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "takeover offer: a disposal of Suncorp Securities arising from acceptance of a takeover offer, scheme of arrangement or equal access buy-back;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "pro-rata issue: an acquisition of Suncorp Securities under a pro-rata issue or a disposal of rights acquired under a pro-rata issue (e.g. a rights issue);"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "dividend reinvestment plan “DRP” or security purchase plan “SPP”: an acquisition of Suncorp Securities under a DRP or SPP where the Prescribed Person or their Connected Person did not commence or amend their participation in the plan during a Closed Period"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "acquisition or forfeiture under employee incentive plan: the acquisition, forfeiture, lapse or cancellation of any Suncorp Securities under an employee share plan operated by Suncorp, noting that where Suncorp Securities cease to be held under the terms of a plan (e.g. when Suncorp ordinary shares are received on exercise of an option), Prescribed Persons and their Connected Persons must only Deal in those Securities in compliance with Section 2;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Prior written clearance under Section 4 required for the plan itself",
+   "evidence": "predetermined investment plan: an acquisition or disposal of Suncorp Securities under a predetermined investment or divestment plan for which prior written clearance has been provided under Section 4 of this Policy and where: (1) the Prescribed Person or their Connected Person did not enter into or amend the plan during a Closed Period; (2) the plan does not permit the Prescribed Person or their Connected Person to exercise any discretion over how, when, or whether to acquire or dispose of the Suncorp Securities"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "third party investments: indirect and incidental Dealing that occurs as a consequence of a Prescribed Person or their Connected Person Dealing in Suncorp Securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party and that holds Suncorp Securities as part of its portfolio;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "offer under prospectus or product disclosure statement: accepting an offer of (or invitation to apply for) Suncorp Securities made in (or accompanied by) a prospectus or product disclosure statement;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Prescribed Person or Connected Persons as trustee: where a Prescribed Person or their Connected Person is a trustee, Dealing in Suncorp Securities by the trust, provided that neither the Prescribed Person or their Connected Persons is a beneficiary of the trust and any decision to Deal in a Closed Period is taken by another trustee or by an investment manager independently"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "change of trustee: the disposal of Suncorp Securities occurring merely because of a change of the trustee of a trust;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "gifts and inheritance: an off-market transaction in Suncorp Securities where no or only nominal consideration is given or received by the Prescribed Person or their Connected Persons"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "involuntary disposal under a margin loan: a disposal of Suncorp Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Suncorp Chairman or delegate for Directors; Audit Committee Chairman or delegate for the Chairman; Group CEO or delegate for other Prescribed Persons",
+   "evidence": "severe financial hardship (e.g. if the person has a pressing financial commitment that cannot be satisfied in any other way than by selling Suncorp Securities);"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Suncorp Chairman, Audit Committee Chairman or Group CEO (or delegate) depending on applicant",
+   "evidence": "compulsion by court order or court enforceable undertaking (e.g. a bona fide family settlement);"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Suncorp Chairman, Audit Committee Chairman or Group CEO (or delegate) depending on applicant",
+   "evidence": "an overriding legal or regulatory requirement to transfer, or accept a transfer of, Suncorp Securities; or any other circumstance that is deemed exceptional by the person providing the waiver."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "No LVR or price trigger is specified. The policy identifies forced-sale risk as the reason for escalation and gives the Chairman or Group CEO an open-ended power to impose terms and conditions on the financing: 'A margin call or a default on a Margin Loan could result in the need for a forced sale of Securities, at a time outside of a Prescribed Person's control. Therefore the Suncorp Chairman or the Group CEO may impose terms and conditions on such Dealings as they see fit.'",
+  "financing_disclosure": [
+   "Prescribed Persons and Connected Persons: at inception of a new or increased Margin Loan or other use of Suncorp Securities as collateral in a financial transaction, the request is made to the Company Secretary and reviewed by the Suncorp Chairman or the Group CEO before the arrangement may be entered into (section 6).",
+   "Suncorp Directors and Executive Leadership Team: after any Dealing (which includes granting a security interest over Suncorp Securities) by them or their Connected Persons, to the Company Secretary, within three business days (section 4).",
+   "Prescribed Persons: must keep, and produce to the Company Secretary on request, a register of every Dealing by themselves and their Connected Persons with supporting material such as contract notes (section 4, Record keeping)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Policy Definitions Standard (defines commonly used terms and phrases not otherwise defined in this Policy)"
+ ],
+ "exemption_authority": "'Policy Exemptions: No exemptions apply to this Policy.' The only relief routes are the Section 3 Exempt Dealing categories and a Section 8 waiver for Exceptional Circumstances, granted by the Suncorp Chairman (Directors), the Audit Committee Chairman (the Chairman) or the Group CEO (other Prescribed Persons), each acting through the Company Secretary. No one has power to waive the section 5.1 hedging ban or the section 5.2 short-term dealing and short selling bans, which are not expressed as Closed Period restrictions and so fall outside the waiver mechanism.",
+ "jurisdiction_overlays": [
+  "ASX Listing Rule 12.10 (the policy is lodged under it) and Listing Rule notification of Directors' interests, which is the stated reason for the three business day post-trade notification",
+  "Corporations Act 2001 (Cth) insider trading provisions",
+  "Suncorp has an ADR programme (ADR: SNMCY) but the policy imposes no US-specific overlay"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban reaches vested shares",
+   "clause": "Directors, Employees and Contractors are prohibited from entering into a hedging transaction that is designed to limit the economic risk of holdings in Suncorp Securities, including unvested performance rights.",
+   "why_it_matters": "The ban is drafted around 'holdings in Suncorp Securities' generally rather than plan or unvested securities, so a put and call collar over vested unrestricted shares is prohibited outright, and 'including unvested performance rights' reads as an extension of that scope rather than a limit on it."
+  },
+  {
+   "topic": "no waiver for the hedging ban",
+   "clause": "Policy Exemptions: No exemptions apply to this Policy. The Section 8 waiver enables Prescribed Persons 'to Deal in Suncorp Securities during Closed Periods' in Exceptional Circumstances.",
+   "why_it_matters": "The waiver power is confined to lifting Closed Period restrictions, so there is no mechanism by which the Chairman, Group CEO or Board could authorise a collar despite section 5.1."
+  },
+  {
+   "topic": "collateral use is expressly contemplated",
+   "clause": "The Suncorp Chairman, or the Group CEO, will review any request for waiver or clearance to Deal by Prescribed Persons or their Connected Persons which involves entering into a new or increased Margin Loan or other use of Suncorp Securities as collateral in a financial transaction.",
+   "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is permitted in principle subject to individual approval by the Chairman or Group CEO who may attach conditions, so the financing is not the obstacle here; the hedging ban on the derivative legs is."
+  },
+  {
+   "topic": "forced sale is an exempt dealing",
+   "clause": "involuntary disposal under a margin loan: a disposal of Suncorp Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement.",
+   "why_it_matters": "Unusually favourable for a lender: enforcement or margin-call sale by the bank is expressly exempt from Closed Period restrictions and from the clearance requirement, so the bank's security can be realised at any time without putting the executive in breach."
+  },
+  {
+   "topic": "granting security is itself a dealing",
+   "clause": "Examples of Dealing in Securities include: ... granting a mortgage, lien, charge or other security interest (such as a Margin Loan) over Securities;",
+   "why_it_matters": "Executing the security document over the collared shares is a Dealing in its own right, so it needs prior written clearance, must be outside Closed Periods and must be completed inside the clearance window."
+  },
+  {
+   "topic": "OTC derivatives are Securities",
+   "clause": "Security or Securities: ... derivative products (including but not limited to warrants, exchange-traded options, over-the-counter options and contracts for differences) relating to those securities, whether or not the securities or the derivative products are issued or created by Suncorp or by third parties.",
+   "why_it_matters": "The put and the call written by a bank are themselves Suncorp Securities, so every leg, roll, amendment and settlement is a separate Dealing subject to clearance and Closed Periods even before section 5.1 is considered."
+  },
+  {
+   "topic": "forward contracts are short-term dealing",
+   "clause": "Short-Term Dealing ... means buying and selling the same Security within a six month period and entering into any other short term Dealings (for example, forward contracts) in relation to Securities.",
+   "why_it_matters": "Even if the hedging ban did not apply, a forward-settled or short-dated collar is the express example of prohibited short-term Dealing, so any structure would need a tenor comfortably beyond six months and no early unwind."
+  },
+  {
+   "topic": "clearance is discretionary and confidential",
+   "clause": "Any clearance request to Deal can be given, refused or withdrawn by Suncorp in its discretion, without giving any reasons. A decision to refuse clearance is final and binding on the person seeking clearance. If clearance to Deal is refused, the person seeking clearance must keep that information confidential and not disclose it to anyone.",
+   "why_it_matters": "Clearance can be withdrawn after it is given and before execution, and the executive cannot tell the bank why a trade cannot proceed, so pricing and mandate documentation must tolerate silent withdrawal."
+  },
+  {
+   "topic": "confidential Restricted List",
+   "clause": "In certain circumstances the Company Secretary may be asked to restrict individuals from Dealing in Suncorp Securities who may be in possession of Price Sensitive Information for a period of time ('Restricted List').",
+   "why_it_matters": "An individual can be blocked from dealing at any time outside the scheduled Closed Periods, which would prevent entry, roll, unwind or physical settlement of any structure without notice to the counterparty."
+  },
+  {
+   "topic": "Connected Persons and controlled entities",
+   "clause": "A Connected Person of a Prescribed Person includes ... a company, trust or entity that the Prescribed Person (or any of their family members falling within any of the above categories) controls or has an interest in.",
+   "why_it_matters": "Routing the collar or the loan through a family trust, SMSF or controlled company does not escape either the hedging ban or the clearance and Closed Period regime, and the 'has an interest in' limb is wider than control."
+  },
+  {
+   "topic": "hedging ban has the widest personal scope",
+   "clause": "5.1 Directors, Employees and Contractors are prohibited from entering into a hedging transaction ...",
+   "why_it_matters": "The hedging ban is addressed to all Directors, Employees and Contractors rather than only to Prescribed Persons, so it catches executives well below KMP level who are otherwise free of Closed Periods and clearance."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy, and the obstacle is the hedging ban rather than the financing. Section 5.1 prohibits all Suncorp Directors, Employees and Contractors from entering any hedging transaction designed to limit the economic risk of holdings in Suncorp Securities, and that ban is drafted around holdings generally, with unvested performance rights expressly swept in, so a purchased put and written call over vested unrestricted shares is caught; there is no clearance, waiver or exemption route out of it, because the Section 8 Exceptional Circumstances waiver only lifts Closed Period restrictions and the policy states that no exemptions apply. By contrast the loan leg would be workable in isolation: granting a mortgage, lien or charge over Suncorp Securities is a Dealing requiring prior written clearance, section 6 expressly contemplates a new or increased Margin Loan or 'other use of Suncorp Securities as collateral in a financial transaction' subject to personal review by the Suncorp Chairman or Group CEO who may impose any terms they see fit, and an involuntary disposal by a secured lender exercising its rights is an Exempt Dealing that can occur even in a Closed Period. If the hedging ban were ever amended, a structure would still need clearance for each leg from the Chairman (Directors) or Group CEO (other Prescribed Persons), execution within a specified period of no more than five business days, entry outside the 1 January, 1 July and pre-AGM Closed Periods and off the Restricted List, notification to the Company Secretary within three business days for Directors and ELT members, and a tenor beyond six months to avoid the short-term dealing ban on forward contracts."
+}

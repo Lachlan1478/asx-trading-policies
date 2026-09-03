@@ -1,0 +1,428 @@
+{
+ "symbol": "SOL",
+ "company": "Washington H. Soul Pattinson and Company Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "15 September 2025 (approved by the Board)",
+ "date_effective": "15 September 2025",
+ "date_lodged": "15 September 2025",
+ "date_next_review": "Annually (review cycle)",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company. Subject to the full policy; distinguished for approval (Chairman) and for the notifiable-interests obligation in section 7.1. The Board encourages Directors to hold a minimum shareholding.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman",
+   "kind": "director",
+   "description": "The Chairman in his or her own personal dealing capacity; distinguished only for approval, which must come from two Directors or one Director and the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel (KMP)",
+   "kind": "kmp",
+   "description": "Key Management Personnel as defined in ASX Listing Rule 19.12; a KMP may also be a Director or Employee. Subject to the full policy; approval outside Prohibited Periods is under the Share Trading Procedure, and in exceptional circumstances from the Chairman.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Any individual employed by the Company, including individuals engaged as contractors or on a non-permanent basis. Subject to the full policy; approval under the Share Trading Procedure in the Employee Handbook, and in exceptional circumstances from the Chairman via the CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A family member who may be expected to be influenced by the person in dealings with the securities; any trust or other fiduciary arrangement under which the person, their spouse or partner or dependent children is or may be a beneficiary; any company in which the person holds directly or indirectly a majority of the shares; and any other entity over which the person can exercise control directly or indirectly. A Director, KMP or Employee can obtain approval on an Associate's behalf. Note Associates are named in the trading and approval provisions but not in the section 10 and 11 hedging, short-selling, margin loan and financial product prohibitions.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a hedging arrangement if the arrangement would have the effect of limiting their exposure to Company securities that have not vested or are subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "10.00am on 1 January",
+   "end_anchor": "10.00am on the day after the Company's half year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "10.00am on 1 July",
+   "end_anchor": "10.00am on the day after the Company's full year results are released to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board has discretion to impose Blackout Periods, established by resolution of the Board. These are additional periods during which Directors, KMP, Employees and their Associates are prohibited from trading. The policy does not say whether their existence is confidential, but a refusal of approval to trade during a Prohibited Period is final and binding and must be kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1",
+   "detail": "Flat prohibition on trading in any financial product issued or created over the Company's securities. There is no venue limit, no clearance route and no exception for vested or unrestricted shares, so an OTC put purchased from a bank and a call written to it are both prohibited outright.",
+   "evidence": "Directors, KMPs and Employees are prohibited from using margin loans to finance the purchase of securities in the Company or from trading in any financial products issued or created over the Company's securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1",
+   "detail": "Exchange-traded options and warrants over Company securities are equally caught; section 11.1 makes no distinction by venue or by whether the product is issued by the Company or created by a third party.",
+   "evidence": "prohibited from ... trading in any financial products issued or created over the Company's securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10.1",
+   "detail": "Express ban on trading as part of a hedging arrangement that limits exposure to Company securities that have not vested. No clearance route is offered.",
+   "evidence": "Directors, KMPs and Employees must not trade in securities of the Company: ... as part of a hedging arrangement if the arrangement would have the effect of limiting their exposure to Company securities that have not vested or are subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10.1",
+   "detail": "Shares that have vested but remain subject to a holding lock are expressly and separately caught by the same ban, so a collar cannot be placed over restricted or escrowed vested shares.",
+   "evidence": "as part of a hedging arrangement if the arrangement would have the effect of limiting their exposure to Company securities that have not vested or are subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1; 10.1",
+   "detail": "Section 10.1 confines its hedging ban to unvested or holding-locked securities, so hedging of freely held shares is not caught by that limb. However section 11.1 independently prohibits trading in any financial product issued or created over the Company's securities, and every practical hedge of a vested holding (put, call, collar, swap, forward) is such a product. The result is that hedging vested unrestricted shares is prohibited by the financial products limb even though the hedging limb stops short.",
+   "evidence": "prohibited from ... trading in any financial products issued or created over the Company's securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1",
+   "detail": "Monetisation is not named. A prepaid variable forward, collar-plus-loan or similar structure is a financial product created over the Company's securities and so falls within the section 11.1 prohibition; an outright sale remains available with approval.",
+   "evidence": "or from trading in any financial products issued or created over the Company's securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10.1",
+   "detail": "Express ban on trading in Company securities as part of a short selling strategy, with no clearance route and no exceptional-circumstances relief.",
+   "evidence": "Directors, KMPs and Employees must not trade in securities of the Company: ... as part of a short selling strategy;"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending and borrowing are not mentioned anywhere in the policy, are not defined as trading, and are not within the section 10 or 11 prohibitions. A lend of scrip to the bank would however sit uneasily with the short selling ban if it facilitated a short strategy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1; 10.1",
+   "detail": "CFDs are not named but a contract for difference over Company shares is a financial product created over the Company's securities and so is prohibited by section 11.1; a short CFD would also engage the short selling ban and any CFD the short term or speculative gain ban.",
+   "evidence": "prohibited from ... trading in any financial products issued or created over the Company's securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1",
+   "detail": "The margin loan ban is drafted narrowly: it prohibits using margin loans to finance the purchase of Company securities. It does not on its face prohibit a margin loan taken over an existing holding for an unrelated purpose, but the policy gives no clearance route and no guidance for that case.",
+   "evidence": "Directors, KMPs and Employees are prohibited from using margin loans to finance the purchase of securities in the Company"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge, lien or pledge over Company securities is not mentioned, is not defined as trading, and is not caught by section 10 or 11 except where the financing is a margin loan used to buy Company securities. There is no disclosure obligation for encumbrances beyond the general director notifiable-interests duty.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Secured financing generally is not addressed. Section 11.1 reaches only margin loans used to finance the purchase of Company securities, so a term loan from a bank secured on an existing holding is outside the express words of the policy. That silence is unhelpful rather than permissive, because the derivative legs that would accompany it are separately prohibited.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10.1",
+   "detail": "Bare prohibition on trading for short term or speculative gain. No holding period, no LIFO or matching rule, no numerical threshold and no carve-outs are stated.",
+   "evidence": "Directors, KMPs and Employees must not trade in securities of the Company: for short term or speculative gain;"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "the Chairman (or, if unavailable, two Directors or one Director and the Company Secretary); in exceptional circumstances during a Prohibited Period, the Chairman or in his absence two Directors or one Director and the Company Secretary",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "the Company, via the Company Secretary (change in interests in the securities of the Company)",
+   "post_trade_deadline": "promptly",
+   "section": "6.1; 9.1; 9.3; 9.4; 9.5; 7.1",
+   "evidence": "Directors and their Associates must obtain approval from the Chairman to do so (in the case of the Chairman and their Associates, approval from two Directors or one Director and the Company Secretary). ... The written approval shall have effect for a period of four weeks from the date of the approval notice or a shorter period if specified in the notice unless a material change in circumstances occurs."
+  },
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "two Directors, or one Director and the Company Secretary",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "the Company, via the Company Secretary (change in interests in the securities of the Company)",
+   "post_trade_deadline": "promptly",
+   "section": "6.1; 9.1",
+   "evidence": "in the case of the Chairman, from two Directors, or one Director and the Company Secretary;"
+  },
+  {
+   "tier": "Key Management Personnel (KMP)",
+   "type": "approval",
+   "approver": "in accordance with the Share Trading Procedure outside Prohibited Periods; in exceptional circumstances, the Chairman or in his absence two Directors or one Director and the Company Secretary",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1; 9.1",
+   "evidence": "other KMP, Employees and their Associates must obtain approval to do so in accordance with the Share Trading Procedure. ... in the case of another Director or KMP, from the Chairman or in his absence, two Directors or one Director and the Company Secretary;"
+  },
+  {
+   "tier": "Employees",
+   "type": "approval",
+   "approver": "in accordance with the Share Trading Procedure outside Prohibited Periods; in exceptional circumstances, the Chairman via the CEO",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1; 9.1",
+   "evidence": "in the case of another Employee, from the Chairman via the CEO."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Directors, KMPs and Employees must not trade in securities of the Company: for short term or speculative gain;"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman; for the Chairman, two Directors or one Director and the Company Secretary; for Employees, the Chairman via the CEO",
+   "evidence": "severe financial hardship, where a financial commitment cannot be satisfied otherwise than by selling the securities;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "specific_dealing",
+   "approver": "Chairman; for the Chairman, two Directors or one Director and the Company Secretary",
+   "evidence": "the requirement to comply with relevant court orders, court enforceable undertakings, or where there is an overriding legal or regulatory requirement or enforceable direction to dispose of or to acquire the securities;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "the Chairman, Directors and/or Company Secretary considering the issue of an approval notice",
+   "evidence": "other circumstances as determined by the Chairman, Directors and/or Company Secretary considering the issue of an approval notice."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Such circumstances include where the trading results in no change in beneficial interest in the securities"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the securities of the Company) where the assets of the fund or other scheme are invested at the discretion of a third party;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "steps taken (including undertakings or the giving of instructions to market participants) to accept, or the acceptance of, a takeover offer;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "the Board (instruction or approval to the trustee)",
+   "evidence": "trading by or on behalf of the trustee of the Washington H. Soul Pattinson and Company Limited Employee Share Trust in accordance with an instruction issued by, or with the approval of, the Board."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors: trigger is any change in their interests in the securities of the Company (which would include a transfer or encumbrance shown in the register); to the Company via the Company Secretary; promptly. Submitting an application to trade does not relieve this obligation."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "Soft encouragement only, not a binding MSR: the Board encourages Directors to hold shares to align their interests with shareholders, and 'In establishing a minimum shareholding, Directors should have reference to the typical holdings of company equity held by non-executive directors of ASX listed corporate entities.' The policy does not say whether hedged or encumbered shares count toward it."
+ },
+ "external_documents": [
+  "Share Trading Procedure (the process for clearing staff trading of securities set out in the Company's Employee Handbook)",
+  "Employee Handbook (on the Company's intranet)"
+ ],
+ "exemption_authority": "The Chairman (or two Directors, or one Director and the Company Secretary, and for Employees the Chairman via the CEO) may give written approval to trade during a Prohibited Period in exceptional circumstances, including 'other circumstances as determined by the Chairman, Directors and/or Company Secretary'. That discretion relieves only the Prohibited Period restriction; there is no stated authority to waive the section 10 hedging, short selling and short term prohibitions or the section 11 margin loan and financial products prohibition. The Board is the document approver and can amend the policy.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "financial products ban",
+   "clause": "Directors, KMPs and Employees are prohibited from using margin loans to finance the purchase of securities in the Company or from trading in any financial products issued or created over the Company's securities.",
+   "why_it_matters": "This is the decisive clause: both collar legs are financial products created over Company securities, so the derivative overlay is banned outright with no approval route, regardless of vesting state."
+  },
+  {
+   "topic": "hedging ban is narrower than the products ban",
+   "clause": "must not trade in securities of the Company ... as part of a hedging arrangement if the arrangement would have the effect of limiting their exposure to Company securities that have not vested or are subject to a holding lock.",
+   "why_it_matters": "Section 10 alone would permit hedging fully vested unrestricted shares, so any argument for a collar must overcome section 11.1 rather than section 10.1."
+  },
+  {
+   "topic": "margin loan ban is purpose-limited",
+   "clause": "prohibited from using margin loans to finance the purchase of securities in the Company",
+   "why_it_matters": "The financing ban bites only on borrowing to buy Company shares, so a bank loan secured on an existing vested holding is not expressly prohibited, leaving the derivative legs as the sole blocker."
+  },
+  {
+   "topic": "no secured financing regime",
+   "clause": "The policy contains no provision on granting security, charges, liens or pledges over Company securities, on forced sales by a secured lender, on margin calls, or on disclosure of encumbrances.",
+   "why_it_matters": "A lender enforcing security during a Closed Period has no express carve-out, so the executive would have to rely on the general 'no control or influence' exclusion in section 8.1 with no certainty."
+  },
+  {
+   "topic": "clearance revocation by inside information",
+   "clause": "This is the case even if clearance to trade securities has been granted under this policy. Such clearance is taken to be revoked if the relevant person seeking to trade is in possession of non-public price sensitive information about or affecting the relevant securities.",
+   "why_it_matters": "Approval is automatically void on receipt of inside information, so any structure must be executed immediately after approval and cannot rely on a standing consent."
+  },
+  {
+   "topic": "approval validity and withdrawal",
+   "clause": "The written approval shall have effect for a period of four weeks from the date of the approval notice or a shorter period if specified in the notice unless a material change in circumstances occurs. ... Written approval to trade during a Prohibited Period is discretionary, is not an endorsement of the proposed trade and can be withdrawn if new information comes to light or there is a change in circumstances.",
+   "why_it_matters": "Even the generous four-week exceptional-circumstances approval is expressly revocable, so a bank cannot treat it as a committed condition precedent."
+  },
+  {
+   "topic": "refusal is final and confidential",
+   "clause": "A decision to refuse approval to trade during a Prohibited Period is final and binding and must be kept confidential.",
+   "why_it_matters": "There is no appeal and the executive cannot explain to the bank why a trade date was missed."
+  },
+  {
+   "topic": "group-wide reach",
+   "clause": "This Policy applies to trading in the securities of Washington H. Soul Pattinson and Company Limited, those of its controlled and associated entities and those of entities in which it has a Substantial Interest [5% or more of the voting shares].",
+   "why_it_matters": "A collar over shares in any listed investee in which SOL holds 5% or more also needs Chairman approval, which matters given SOL's investment portfolio."
+  },
+  {
+   "topic": "associates carve-out from section 10 and 11",
+   "clause": "Sections 10.1 and 11.1 bind 'Directors, KMPs and Employees' whereas sections 2.2, 4.1, 5.1, 6.1 and 9.1 bind those persons 'and their Associates'.",
+   "why_it_matters": "The drafting arguably leaves Associates outside the financial products ban, but the Associate definition and the approval requirement make any attempt to structure around it plainly against the policy's intent."
+  },
+  {
+   "topic": "breach reporting",
+   "clause": "A breach of this policy will be recorded, and serious breaches will be reported to the Leadership Team and the Board.",
+   "why_it_matters": "Entering a collar without approval would be escalated to the Board rather than handled informally, with termination of employment expressly contemplated."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 11.1 prohibits Directors, KMP and Employees from trading in any financial products issued or created over the Company's securities, which captures both the purchased put and the written call whether traded OTC or on exchange, with no clearance route, no exceptional-circumstances relief and no distinction by vesting state. The section 10.1 hedging ban is narrower, reaching only arrangements that limit exposure to unvested or holding-locked securities, and the margin loan ban in section 11.1 is narrower still, reaching only borrowing used to finance the purchase of Company shares, so the secured loan leg over an existing vested holding is not itself expressly prohibited. That is of no assistance while the derivative overlay remains banned, and the policy is silent on encumbrances, margin calls and forced sales, giving a lender no comfort that enforcement during a Closed Period would be excused. In practice an executive can only sell outright, with prior Chairman approval, outside the 1 January and 1 July Closed Periods and any Board-imposed Blackout Period."
+}

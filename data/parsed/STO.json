@@ -1,0 +1,475 @@
+{
+ "symbol": "STO",
+ "company": "Santos Limited",
+ "title": "Securities Dealing Policy (Version 2)",
+ "date_approved": "25 June 2020",
+ "date_effective": "3 August 2020",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors, executives and employees",
+   "kind": "all_staff",
+   "description": "The general population to whom the policy is addressed. Bound by the insider trading prohibition, the section 5 hedging ban on unvested and locked securities, the front page test and the obligation to ensure their Connected Persons comply. Not subject to Trading Windows, clearance, the short-term dealing ban or the margin lending ban unless they are also a Designated Person; for other employees the margin lending clause is cautionary only.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Each Non-Executive Director; the CEO; members of the Executive Committee and any other employees reporting directly to the CEO; all direct reports to any of the above including Executive Assistants; all employees with a Job Grade of 13 or above; all personnel in the Business Development, Legal, Company Secretariat, Investor Relations and Strategy functions; any Santos group company dealing to meet employee share plan commitments; and any other person deemed in writing to be a Designated Person by the CEO, a direct report to the CEO or the Company Secretary. Subject to Trading Windows, prior written clearance, the short-term and speculative dealing ban and the margin lending and security-granting ban.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of Santos. Non-Executive Directors and the CEO are Designated Persons. Distinguished for clearance, which the Company Secretary seeks from the Chairman (or from the Chairman of the Audit and Risk Committee in the Chairman's own case), and for post-trade confirmation of price and quantity within 2 business days.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "In relation to a Director, executive or employee, a spouse, partner or child or any other person whom the Director, executive or employee may be expected to control or have significant influence over, including other immediate family members, business partners, companies or other entities or trusts. A Designated Person must ensure their Connected Persons deal only in a Trading Window, must obtain clearance for their dealings, and must ensure they do not engage in short-term or speculative dealing or margin lending arrangements.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "hedging or other financial arrangements which operate to limit the economic risk associated with holding Santos securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "10.00am (Sydney time) on the day after the release of Santos' half year results announcement to the ASX",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "10.00am (Sydney time) on the day after the release of Santos' annual results announcement to the ASX",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "10.00am (Sydney time) on the later of the day after Santos' Annual General Meeting and the day after the release of Santos' first quarter report to the ASX",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "all periods that are not a Trading Window",
+   "end_anchor": "opening of the next Trading Window notified in writing by the Company Secretary",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board or CEO controls the calendar in both directions. A Trading Window opens only by a decision of the Board or CEO, in consultation with the Disclosure Officers, and only once the Company Secretary has given written notification; Designated Persons may not assume a window is open even after the relevant announcement or AGM. A Trading Window may be varied, suspended or withdrawn by the Board or the CEO at any time, and may be opened for some or all Designated Persons only.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3 (definitions of 'deal' and 'securities'), 4.1, 4.3",
+   "detail": "There is no express derivatives rule. Creating a derivative over securities, and entering into an agreement to do so, are dealings, and securities include financial products relating to Santos securities such as warrants and other derivative products, irrespective of whether created by the company or by third parties, so there is no venue limitation and an OTC option is caught. A Designated Person may therefore write or buy an option only inside a Trading Window with prior written clearance, and the front page test must be satisfied.",
+   "evidence": "It extends to subscribing for new securities, exercising options over securities and creating a derivative over securities and includes entering into an agreement to do any of those things."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors, executives and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1, 4",
+   "detail": "Employees who are not Designated Persons are not subject to Trading Windows or clearance. Their only constraints on a derivative over Santos securities are the insider trading prohibition, the front page test and the section 5 hedging ban where the underlying securities are unvested or subject to a holding lock.",
+   "evidence": "Designated Persons must not deal in Santos securities at any time that is not a Trading Window."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, executives and employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5",
+   "detail": "Absolute ban on any hedging or other financial arrangement that operates to limit the economic risk of holding Santos securities before those securities vest. It reaches the whole population, not just Designated Persons, and there is no clearance or exceptional-circumstances route out of it.",
+   "evidence": "Directors, executives and employees must not enter into hedging or other financial arrangements which operate to limit the economic risk associated with holding Santos securities prior to the vesting of those securities or while they are subject to a holding lock or restriction on dealing."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, executives and employees",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5",
+   "detail": "The ban is expressed twice over: before vesting, and while the securities are subject to a holding lock or restriction on dealing. Vested shares that remain under a plan holding lock or a disposal restriction therefore cannot be collared, and the exclusion in section 8 confirms that plan shares stay within the plan's terms until released.",
+   "evidence": "prior to the vesting of those securities or while they are subject to a holding lock or restriction on dealing."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5, 3, 4.1, 4.3",
+   "detail": "Section 5 stops at vesting and release, so hedging vested unrestricted Santos securities is not prohibited. It remains a dealing (creating a derivative over securities, or an agreement to do so) and so requires prior written clearance inside a Trading Window, must pass the front page test, and must not be short-term or speculative.",
+   "evidence": "Directors, executives and employees must not enter into hedging or other financial arrangements which operate to limit the economic risk associated with holding Santos securities prior to the vesting of those securities or while they are subject to a holding lock or restriction on dealing."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, executives and employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5",
+   "detail": "For employees who are not Designated Persons, hedging vested and unrestricted Santos securities is outside the section 5 ban and outside the Trading Window and clearance regime, leaving only the insider trading prohibition and the front page test.",
+   "evidence": "Before dealing or seeking clearance to deal, all group personnel should apply the following ‘front page test’"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8, 4.9",
+   "detail": "Forward contracts are expressly listed as short-term or speculative dealing and are prohibited for Designated Persons, which rules out a prepaid forward or forward sale monetisation. Any monetisation that grants security over Santos securities is separately banned by section 4.9. A monetisation achieved purely through cash-settled options over vested unrestricted shares would not be a forward contract but would still need clearance and would face the front page test.",
+   "evidence": "Short-term or speculative dealing includes buying and selling securities on market within a 3 month period, forward contracts and short selling."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8",
+   "detail": "Short selling is listed as a form of short-term or speculative dealing and is prohibited for Designated Persons and, through section 7, for their Connected Persons. Short selling is not separately defined.",
+   "evidence": "Designated Persons must not engage in short-term or speculative dealing in Santos securities. Short-term or speculative dealing includes buying and selling securities on market within a 3 month period, forward contracts and short selling."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Directors, executives and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The short selling prohibition sits in section 4, headed 'Restrictions on Designated Persons', and is not extended to employees generally.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy and is not within the definition of dealing, which covers buying, selling, subscribing, exercising options, creating a derivative and agreements to do those things.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3, 4.8",
+   "detail": "Contracts for differences are not named. A CFD is a financial product relating to Santos securities and so a security, and creating it is a dealing, but a CFD is inherently speculative and, if short, is economically a short sale, so it falls within the section 4.8 ban on short-term or speculative dealing rather than the clearance regime.",
+   "evidence": "Designated Persons must not engage in short-term or speculative dealing in Santos securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.9",
+   "detail": "Outright ban with no clearance or exceptional-circumstances route, extended to Connected Persons by section 7. Not limited by security state or by the size of the facility.",
+   "evidence": "Designated Persons must not enter into margin lending or any other arrangements where any form of security is granted over Santos securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors, executives and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.9",
+   "detail": "For employees who are not Designated Persons the clause is a warning rather than a prohibition: they are told to note that margin lending and other such arrangements could result in a forced sale in breach of insider trading laws or this policy. No consent is required and no approval mechanism is offered.",
+   "evidence": "Other employees should note that margin lending and other such arrangements could result in a forced sale of securities in breach of insider trading laws or this policy, such as during a period when you are in possession of or could be perceived to be in possession of inside information."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.9",
+   "detail": "The clause is not limited to loans: any arrangement under which any form of security is granted over Santos securities is banned. That catches a mortgage, charge, pledge, lien or security trust arrangement over the collared shares, and by section 7 the same applies to Connected Persons. Granting security is not itself within the definition of dealing, so the ban rests entirely on section 4.9.",
+   "evidence": "Designated Persons must not enter into margin lending or any other arrangements where any form of security is granted over Santos securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors, executives and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 4.9 binds only Designated Persons; for other employees the policy offers a caution about forced sales but imposes no prohibition on granting security.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.9",
+   "detail": "The words 'or any other arrangements where any form of security is granted over Santos securities' reach well beyond margin loans and squarely capture a loan secured on collared shares. There is no consent, waiver or exemption authority for this clause, and the section 4.6 exceptional-circumstances route is confined to dealing outside a Trading Window.",
+   "evidence": "Designated Persons must not enter into margin lending or any other arrangements where any form of security is granted over Santos securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8",
+   "detail": "A buy-sell window test with a speculative overlay: buying and selling securities on market within a 3 month period, forward contracts and short selling are all short-term or speculative dealing and are prohibited. The 3 month leg is expressed for on-market trades, but forward contracts are prohibited without any on-market qualification. No carve-outs are stated.",
+   "evidence": "Designated Persons must not engage in short-term or speculative dealing in Santos securities. Short-term or speculative dealing includes buying and selling securities on market within a 3 month period, forward contracts and short selling."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman (or, in the case of the Chairman, the Chairman of the Audit and Risk Committee), with the Company Secretary seeking clearance on the Director's behalf",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary, written confirmation of the price and quantity of securities traded, for Listing Rule 3.19A and section 205G purposes",
+   "post_trade_deadline": "within 2 business days of any dealing",
+   "section": "4.3, 4.5, 4.7",
+   "evidence": "Any clearance given under section 4.3 or 4.6 will be provided in writing and lasts for 5 business days or such other period specified in the notice of clearance. ... Within 2 business days of any dealing, Directors must provide written confirmation to the Company Secretary of the price and quantity of securities traded"
+  },
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Company Secretary, who may provide clearance after consultation where appropriate or seek clearance from the Chief Executive Officer",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.3, 4.4, 4.7",
+   "evidence": "Before dealing in any Santos securities during a Trading Window, a Designated Person must obtain prior written clearance for the dealing. ... The notice seeking clearance to trade must: be in writing; provide details of the proposed dealing (including the nature of the dealing, whether it involves an on-market or off-market transaction and the anticipated number and type of Santos securities that are proposed to be the subject of the dealing)"
+  },
+  {
+   "tier": "Connected Persons",
+   "type": "approval",
+   "approver": "Company Secretary or Chairman, obtained by the Designated Person on the Connected Person's behalf",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "7",
+   "evidence": "obtain clearance in accordance with this policy for any dealings by their Connected Persons"
+  },
+  {
+   "tier": "Directors, executives and employees",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.3",
+   "evidence": "Before dealing in any Santos securities during a Trading Window, a Designated Person must obtain prior written clearance for the dealing."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and selling securities on market within a 3 month period",
+   "carve_outs": [],
+   "evidence": "Short-term or speculative dealing includes buying and selling securities on market within a 3 month period, forward contracts and short selling."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Company Secretary, who for Directors seeks clearance from the Chairman (or the Chairman of the Audit and Risk Committee) and for other Designated Personnel may clear it or seek clearance from the Chief Executive Officer",
+   "evidence": "A written application to deal with Santos securities outside a Trading Window due to severe financial difficulty or other exceptional circumstances may be made to the Company Secretary."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "under a dividend reinvestment plan;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "under an offer or invitation made to all or most shareholders or class of shareholders (for example, a share purchase plan available to retail shareholders or a share buy-back); under a rights issue;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "in relation to the acceptance of a takeover offer;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "under or in relation to a Non-Executive Director equity plan or a Santos employee equity plan, including applying for an allocation of securities under an equity plan offer. However, where shares received under an equity plan cease to be held under the terms of that plan, any dealings in those shares must only occur in accordance with this policy;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Prior notification to the Company Secretary is required, but no clearance",
+   "evidence": "arising from the administration of a deceased estate (although prior notification is required under section 4.3)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Market Communication & Continuous Disclosure Policy (source of the Disclosure Officers consulted before a Trading Window is opened)",
+  "Non-Executive Director equity plan and Santos employee equity plan rules",
+  "Further guidance on the requirements of this policy and the law on the company's intranet site"
+ ],
+ "exemption_authority": "Section 4.6 allows a written application to the Company Secretary to deal outside a Trading Window due to severe financial difficulty or other exceptional circumstances, cleared by the Chairman for Directors and by the Company Secretary or CEO for other Designated Personnel. That authority relieves only the Trading Window restriction in section 4.1; there is no waiver power over the section 4.9 margin lending and security ban, the section 4.8 short-term and speculative dealing ban, or the section 5 hedging ban.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "any form of security is banned",
+   "clause": "Designated Persons must not enter into margin lending or any other arrangements where any form of security is granted over Santos securities.",
+   "why_it_matters": "This is broader than a margin lending ban and kills the funded leg outright: a loan secured on the collared shares, and any charge, pledge or security trust over them, is prohibited for every Designated Person with no consent route."
+  },
+  {
+   "topic": "forward contracts are speculative dealing",
+   "clause": "Short-term or speculative dealing includes buying and selling securities on market within a 3 month period, forward contracts and short selling.",
+   "why_it_matters": "Naming forward contracts as speculative dealing blocks prepaid forward and forward sale alternatives to a collar, and invites the same characterisation of a tightly struck zero-cost collar that is economically a forward sale."
+  },
+  {
+   "topic": "no waiver over the financing and hedging bans",
+   "clause": "A written application to deal with Santos securities outside a Trading Window due to severe financial difficulty or other exceptional circumstances may be made to the Company Secretary.",
+   "why_it_matters": "The only discretionary relief in the policy is from the Trading Window restriction, so the sections 4.8, 4.9 and 5 prohibitions cannot be waived even in hardship."
+  },
+  {
+   "topic": "front page test",
+   "clause": "If the market was aware of all the current circumstances, could the proposed dealing be perceived to be inappropriate for someone in my position? ... Clearance to deal under this Policy will not be granted where the person providing clearance does not consider that the ‘front page test’ is satisfied.",
+   "why_it_matters": "Even an unfunded collar over vested unrestricted shares can be refused on perception grounds alone, with no reasons given and no appeal, so the bank cannot rely on the technical permissibility of the derivative legs."
+  },
+  {
+   "topic": "windows open only on notice",
+   "clause": "Designated Persons may not assume that a Trading Window is open, even after the relevant ASX announcement or Annual General Meeting. ... A Trading Window may be varied, suspended or withdrawn by the Board or the CEO at any time.",
+   "why_it_matters": "Execution windows are discretionary and can be withdrawn mid-window, so any collar entry, roll or unwind must be documented as conditional on a subsisting open window at the moment of dealing."
+  },
+  {
+   "topic": "clearance mechanics",
+   "clause": "Any clearance given under section 4.3 or 4.6 will be provided in writing and lasts for 5 business days or such other period specified in the notice of clearance. ... Any clearance may be revoked or withdrawn or the clearance period shortened or lengthened and may include conditions at the company's absolute discretion.",
+   "why_it_matters": "Pricing and execution of the derivative legs must complete within 5 business days and can be conditioned or revoked at any point before dealing, and a refusal must be kept confidential from the bank."
+  },
+  {
+   "topic": "off-market dealing timing",
+   "clause": "In the case of an on-market trade, the dealing occurs at execution (but not settlement) of the trade. In the case of an off-market trade, the dealing occurs at settlement of the trade.",
+   "why_it_matters": "For an OTC collar the dealing is timed at settlement rather than trade date, so physical settlement or delivery must itself fall inside an open window with subsisting clearance, not merely the trade date."
+  },
+  {
+   "topic": "third party derivatives are securities",
+   "clause": "“securities” include ... financial products relating to a company's securities (for example, warrants and other derivative products), irrespective of whether the financial products are created by the company or by third parties.",
+   "why_it_matters": "A bank-written OTC put and call are securities in their own right, so the Trading Window, clearance, short-term dealing and front page test rules all attach to the option legs, not just to the shares."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "Designated Persons must ... ensure that their Connected Persons do not engage in any short-term or speculative dealing or margin lending arrangements.",
+   "why_it_matters": "Routing the collar or the secured loan through a spouse, family trust or controlled company does not escape the section 4.9 ban."
+  },
+  {
+   "topic": "forced sale is a breach",
+   "clause": "margin lending and other such arrangements could result in a forced sale of securities in breach of insider trading laws or this policy, such as during a period when you are in possession of or could be perceived to be in possession of inside information.",
+   "why_it_matters": "Santos treats lender enforcement as capable of breaching the policy rather than excluding it, so even for non-Designated employees a secured structure carries policy risk on enforcement."
+  }
+ ],
+ "summary": "A funded collar is not possible for any Designated Person, which covers all Non-Executive Directors, the CEO, the Executive Committee, their direct reports and every employee at Job Grade 13 or above. Section 4.9 bans not only margin lending but 'any other arrangements where any form of security is granted over Santos securities', so the loan secured on the collared shares is prohibited outright, and the only discretionary relief in the policy, section 4.6, reaches the Trading Window restriction alone and cannot waive it. The derivative legs on their own would be workable over vested, unrestricted shares, because the section 5 hedging ban stops at vesting and release from a holding lock, but they are dealings requiring prior written clearance inside a Board-notified Trading Window, valid 5 business days, revocable and conditionable at absolute discretion, and refusable on the front page test with no reasons. Tenor is also constrained: forward contracts are expressly branded speculative dealing and on-market round trips inside 3 months are prohibited, and for an off-market trade the dealing is timed at settlement, so physical settlement of a collar must itself fall in an open window. Only employees who are not Designated Persons sit outside the financing ban, and for them the policy still warns that a forced sale under a secured facility could itself breach the policy."
+}
