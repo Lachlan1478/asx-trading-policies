@@ -1,0 +1,384 @@
+{
+ "symbol": "INA",
+ "company": "Ingenia Communities Group",
+ "title": "Personal Trading Policy",
+ "date_approved": "",
+ "date_effective": "6 April 2021",
+ "date_lodged": "8 April 2021",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "All Directors (of Ingenia Communities Holdings Limited and subsidiaries, the Eighth Gate Funds Management group and the Sungenia group), Executives (senior executive committee members), all staff in the Sydney head office and Brisbane support offices (including onsite support staff such as Operations Managers), and any other staff notified by the CEO, CFO or Company Secretary. Base tier to which Closed Periods, short-term/short-selling/hedging bans and the approval process apply.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Group; for clearance purposes the CEO is grouped with Directors. Distinguished for margin loan ban (with Executives), clearance from the Chair of the Board, and ASX interest-disclosure duties (Appendix 3X/3Y/3Z).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Executives",
+   "kind": "kmp",
+   "description": "Members of the senior executive committee. Distinguished, with Directors, for the absolute margin loan/financing ban in section 4.9.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chairman; distinguished for clearance (must be approved by two other Independent Directors), for granting hardship exceptions to other directors, and for discretion to place entities on, and remove them from, the Exclusion List.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "All other Designated Persons",
+   "kind": "all_staff",
+   "description": "Designated Persons other than Directors, the CEO and the Chair; obtain clearance via a Personal Trading Form to the CFO or, in their absence, the Company Secretary, with a right of appeal to the CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Family members and associates",
+   "kind": "associate",
+   "description": "Immediate family (spouse or de facto spouse, parents, children, and the spouse or de facto spouse of a child) and other associates (including corporations and trusts) over whose dealing a Designated Person has effective control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "enter into transactions or arrangements with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: has not vested; or has vested but remains subject to a holding lock; or deal at any time in financial products associated with Ingenia's securities, except for a type of dealing permitted by law or a permitted dealing under this policy",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "1 January",
+   "end_anchor": "day after the release of half yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "1 July",
+   "end_anchor": "day after the release of the final annual results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Ingenia Board, in consultation with Management, may at its discretion designate additional Closed Periods for Designated Persons, notified by email from the Group Risk and Compliance Manager. Separately, the Chairman may at their discretion place specific external entities (e.g. fund managers, listed property trusts) discussed at Board meetings on an Exclusion List, barring directors and other meeting attendees from trading in them; these exclusions are minuted in the Board meeting minutes and are not confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8(b)",
+   "detail": "Absolute, all-times ban on dealing in financial products associated with Ingenia's securities, subject only to a dealing 'permitted by law or a permitted dealing under this policy'. The ordinary approval process in section 4.10 addresses dealing in 'INA securities' generally and does not clearly extend to bespoke OTC derivative structures, so this carve-out is unlikely to cover a bank-written put or call.",
+   "evidence": "deal at any time in financial products associated with Ingenia's securities, except for a type of dealing permitted by law or a permitted dealing under this policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8(a)",
+   "detail": "Absolute ban on any transaction or arrangement with anyone that could have the effect of limiting exposure to risk relating to unvested remuneration.",
+   "evidence": "enter into transactions or arrangements with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: has not vested"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8(a)",
+   "detail": "Same absolute ban expressly extended to remuneration securities that have vested but remain subject to a holding lock.",
+   "evidence": "or has vested but remains subject to a holding lock"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.8(b)",
+   "detail": "Prepaid forwards or similar monetisation structures are not separately named but fall within the ban on dealing in financial products associated with Ingenia's securities.",
+   "evidence": "deal at any time in financial products associated with Ingenia's securities, except for a type of dealing permitted by law or a permitted dealing under this policy."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7",
+   "detail": "Absolute, all-times ban on short selling.",
+   "evidence": "Designated Persons may not engage in short selling with INA securities at any time."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.3; 4.8(b)",
+   "detail": "CFDs are not separately named; the Financial Products list (Securities, Derivatives, Options, Warrants, Futures, Forward Contracts, Swaps) captures them as a derivative, so they fall within the 4.8(b) ban on dealing in financial products associated with Ingenia's securities.",
+   "evidence": "The Insider Trading provisions only apply to financial products that can be traded on a financial market, including: Securities, Derivatives, Options, Warrants, Futures, Forward Contracts, Swaps"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.9",
+   "detail": "Absolute ban, with no clearance or waiver route referenced, on Directors and Executives entering into margin loans or similar financing facilities using INA securities, solely or as part of a portfolio.",
+   "evidence": "Directors and Executives may not enter into margin loans or similar financing facilities using INA securities (either solely or as part of a portfolio)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "All other Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.9; 4.10; Personal Trading Approval Form",
+   "detail": "The section 4.9 margin loan ban applies only to Directors and Executives; other Designated Persons are not expressly barred, but must disclose an existing pledge of INA securities for a margin loan or similar funding arrangement on the Personal Trading Approval Form used for the general approval process.",
+   "evidence": "Have you pledged INA securities for a margin loan / similar funding arrangement?"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors and Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.9",
+   "detail": "A margin loan or similar financing facility necessarily involves granting security over INA securities, which is banned outright for Directors and Executives under 4.9.",
+   "evidence": "Directors and Executives may not enter into margin loans or similar financing facilities using INA securities (either solely or as part of a portfolio)."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors and Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.9",
+   "detail": "'Similar financing facilities' is broader than margin loans specifically and captures other secured financing arrangements using INA securities as collateral, all of which are prohibited for Directors and Executives.",
+   "evidence": "or similar financing facilities using INA securities (either solely or as part of a portfolio)"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "All other Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.9; 4.10; Personal Trading Approval Form",
+   "detail": "Section 4.9 does not extend to Designated Persons who are not Directors or Executives; secured financing using INA securities is only addressed via the Approval Form's disclosure question, implying it is treated like any other dealing requiring approval.",
+   "evidence": "Have you pledged INA securities for a margin loan / similar funding arrangement?"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6",
+   "detail": "Absolute ban on short term or speculative dealing; a 90-day holding period applies to any purchase of INA securities.",
+   "evidence": "Designated Persons may not engage in short term or speculative dealing at any time. Any purchase of INA securities triggers a 90-day holding period when those interests may not be sold."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board (also applies to the CEO)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary (informed at request stage); Company Secretary confirmed by Group Risk and Compliance Manager of all director trading; Appendix 3Y for ASX",
+   "post_trade_deadline": "confirmation to approving officer once trade completed or not (within 5 business days of consent); Appendix 3Y within 5 business days of the trade",
+   "section": "4.10; 4.12; 5.1",
+   "evidence": "Ingenia Directors and the CEO must request approval to deal from the Chair of the Board and inform the Company Secretary. ... If consent is given, the approved trade must then be completed within five (5) business days"
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Two other Independent Directors",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "",
+   "section": "4.10",
+   "evidence": "The Chair of the Board must request approval to deal from two other Independent Directors and inform the Company Secretary."
+  },
+  {
+   "tier": "All other Designated Persons",
+   "type": "approval",
+   "approver": "CFO, or in their absence the Company Secretary; appeal to the CEO (final)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Approving officer; retained by the Group Risk and Compliance Manager",
+   "post_trade_deadline": "confirmation once trade completed, within 5 business days of consent",
+   "section": "4.10",
+   "evidence": "All other Designated Persons must submit a Personal Trading Form to the Group Risk and Compliance Manager requesting approval from the Ingenia CFO or in their absence the Company Secretary If the Designated Person disagrees with the decision of the CFO or the Company Secretary, they may lodge an appeal with the Ingenia CEO whose decision will be final."
+  },
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Chairman (for directors); two non-executive Directors (for the Chairman); CEO (for all other Designated Persons)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.11",
+   "evidence": "The determination as to whether circumstances qualify as exceptional and the dealing in securities therefore approved can only be made by the Chairman for directors, two non-executive Directors in the case of the Chairman and with the CEO for all other Designated Persons. ... Permission granted for a sale in exceptional circumstances will be provided in writing and will state the time period for which the sale of securities can be made."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "from acquisition (90-day holding period)",
+   "carve_outs": [],
+   "evidence": "Any purchase of INA securities triggers a 90-day holding period when those interests may not be sold."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Provided the election to participate (or amend participation) in any INA securities entitlement offer (for example, rights issues, Distribution Reinvestment Plans (DRPs) or Security Purchase Plans (SPPs) is made at a time when a person is not in possession of any non-public price sensitive information, Designated Persons will not require pre-approval to participate in such entitlement offers."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "The transfer of securities within what can be considered a wholly owned group, including individual direct family members and between entities controlled by direct family members, is excluded from the authorisation process outlined in Clause 4.10 of this policy."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The vesting and subsequent exercise (but not the sale of securities of the Company following exercise) of an option or a performance right under an employee incentive scheme for a Designated Person is excluded from the general rule prohibiting trading in a Closed Period and does not require authorisation under this policy."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman (directors); two non-executive Directors (Chairman); CEO (other Designated Persons)",
+   "evidence": "Severe financial hardship is considered to be where individuals are unable to satisfy a pressing financial commitment otherwise than by selling the relevant securities."
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chairman (directors); two non-executive Directors (Chairman); CEO (other Designated Persons)",
+   "evidence": "may be granted prior approval to sell or otherwise dispose of securities during a Closed Period or on a short-term basis where there is severe financial hardship or there are other exceptional circumstances"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "All Designated Persons: disclose on the Personal Trading Approval Form, at each approval request, whether they have pledged INA securities for a margin loan or similar funding arrangement."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Ingenia's Code of Conduct", "Ingenia's Continuous Disclosure Policy"],
+ "exemption_authority": "Chairman decides exceptional-circumstances hardship waivers for directors; two non-executive Directors decide for the Chairman; the CEO decides for all other Designated Persons (section 4.11), on a written application with a statutory declaration made in advance. The Board (with Management) may separately designate additional Closed Periods at its discretion (4.1), and the Chairman may at their discretion place specific external entities on an Exclusion List after Board discussions, minuted in Board minutes (4.5).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "derivatives dealing ban has no clear collar pathway",
+   "clause": "deal at any time in financial products associated with Ingenia's securities, except for a type of dealing permitted by law or a permitted dealing under this policy.",
+   "why_it_matters": "The ordinary approval process in section 4.10 governs dealing in 'INA securities' generally and does not obviously extend to a bespoke OTC put/call structure, so the 'permitted dealing under this policy' carve-out is unlikely to legitimise a collar even over fully vested, unrestricted shares."
+  },
+  {
+   "topic": "margin loan ban is absolute for Directors/Executives",
+   "clause": "Directors and Executives may not enter into margin loans or similar financing facilities using INA securities (either solely or as part of a portfolio).",
+   "why_it_matters": "The loan leg of a funded collar, if secured on INA shares, is prohibited outright for Directors and Executives (the tier that also includes the CEO for clearance purposes), with no waiver or clearance route referenced anywhere in the policy."
+  },
+  {
+   "topic": "approval form flags existing financing",
+   "clause": "Have you pledged INA securities for a margin loan / similar funding arrangement?",
+   "why_it_matters": "Any Designated Person seeking approval for a subsequent trade must disclose an existing pledge of INA securities, surfacing a funded collar structure to the CFO, Company Secretary or Chair."
+  },
+  {
+   "topic": "A-REIT sector exclusion list",
+   "clause": "the Chairman may at their discretion decide to place these entities on an exclusion list whereby all directors and other meeting attendees will be prohibited from trading in these entities.",
+   "why_it_matters": "Because Ingenia sits in the A-REIT sector and directors discuss other funds/trusts at Board level, a bank counterparty active in that sector could itself become subject to an ad hoc, Board-minuted trading exclusion affecting timing."
+  },
+  {
+   "topic": "SMSF/investment company lookthrough",
+   "clause": "This policy extends to self-managed super funds and investment companies where the Designated Person has a direct influence over the investment process.",
+   "why_it_matters": "Holding the collared shares through an SMSF or investment company does not avoid the approval process or the margin loan ban if the Designated Person controls the investment decisions."
+  }
+ ],
+ "summary": "A funded collar is effectively foreclosed under this policy, particularly for Directors and Executives. Section 4.9 imposes an absolute, unwaivable ban on Directors and Executives entering into margin loans or similar financing facilities using INA securities, so the bank loan leg secured on the collared shares cannot be put in place for that tier. Even setting the financing aside, section 4.8(b) bars dealing 'at any time' in financial products associated with Ingenia's securities except for a 'permitted dealing under this policy', and the ordinary share-trading approval process in section 4.10 does not clearly extend to bespoke OTC derivative structures, leaving no obvious clearance pathway for the put and call legs; section 4.8(a) separately and absolutely bans any risk-limiting arrangement over unvested or vested-but-holding-locked remuneration securities. For Designated Persons outside the Directors/Executives tier, the margin loan ban does not apply and financing is only addressed via a disclosure question on the Personal Trading Approval Form, but the same 4.8(b) derivatives-dealing ban still applies. Any dealing that does proceed must in any event occur in an Open Period, without inside information, with prior written approval from the applicable officer (Chair, two Independent Directors, or CFO/Company Secretary) and completion within five business days of consent."
+}
