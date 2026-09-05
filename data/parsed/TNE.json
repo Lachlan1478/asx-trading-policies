@@ -1,0 +1,379 @@
+{
+ "symbol": "TNE",
+ "company": "Technology One Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "Feb 2026",
+ "date_effective": "19 February 2026 (takes effect immediately)",
+ "date_lodged": "19 February 2026",
+ "date_next_review": "Annually (reviewed by the Board); last reviewed Feb 2026",
+ "tiers": [
+  {
+   "name": "Covered Persons",
+   "kind": "all_staff",
+   "description": "All directors, officers, employees and contractors of Technology One Limited and its subsidiaries. All substantive prohibitions (blackout periods, short-term trading, short selling, use of securities as loan security or margin lending, hedging of unvested or locked securities) apply to this tier without differentiation.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors & KMP (CEO, COO or CFO)",
+   "kind": "kmp",
+   "description": "Directors and Key Management Personnel, identified in the approval table as the CEO, COO or CFO. Distinguished only for pre-trade approval (by the Chair, with notification to the Company Secretary) and post-trade notification within two business days for ASX announcement.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The Chair of the Board. Distinguished only for pre-trade approval, which must come from the Chair of the Audit & Risk Committee and the Managing Director (or another Director if one is unavailable), with notification to the Company Secretary.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "a transaction that is designed or intended to hedge their exposure to TechnologyOne securities which have not vested or are subject to a holding lock or dealing restriction",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "first day of the month preceding the Annual General Meeting (1 February)",
+   "end_anchor": "completion of the Annual General Meeting",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "first day of the month following the Annual General Meeting (1 March)",
+   "end_anchor": "the day following the announcement of the half-year results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "first day of the month preceding the end of the full-year financial reporting period (1 September)",
+   "end_anchor": "the day following the announcement of the full-year results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "end of a blackout period",
+   "end_anchor": "start of the next blackout period",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board or the CEO may impose additional blackout periods as necessary. The policy does not say whether they are announced or confidential, and gives no criteria or duration.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors & KMP (CEO, COO or CFO)",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3(a)-(b); 6; 8",
+   "detail": "No express derivatives rule. Securities expressly include derivatives and Trading includes 'otherwise dealing in' them, so a put or call over TechnologyOne shares is Trading: it needs the Chair's prior approval, must fall in a Trading Window, must not be done while holding Inside Information, and must be notified to the Company Secretary within two business days. The definition of Securities is confined to financial products 'that can be traded on a financial market', so whether a purely OTC bilateral option is caught is left unclear.",
+   "evidence": "\"Securities\" include shares, options, derivatives, and any other financial products of TechnologyOne that can be traded on a financial market."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Chair",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3(a)-(b); 8",
+   "detail": "Same position as other Directors and KMP, except approval must come from the Chair of the Audit & Risk Committee and the Managing Director (or another Director if one is unavailable), with notification to the Company Secretary.",
+   "evidence": "Chair: Approvals by the Chair of the Audit & Risk Committee and the Managing Director (or another Director if one of these is unavailable) and notification to the Company Secretary"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Covered Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3(a)-(b); 5; 6; 8",
+   "detail": "For Covered Persons who are not the Chair, a Director or KMP the policy imposes no approval requirement at all: a derivative over vested shares is Trading, so it is barred in blackout periods and while holding Inside Information, but otherwise needs no clearance or notification.",
+   "evidence": "The Chair, Directors and KMP are required to be granted approval from the following before Trading:"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Absolute, permanent ban on any transaction designed or intended to hedge exposure to unvested TechnologyOne securities. No approval or exceptional-circumstances route.",
+   "evidence": "Covered Persons are not permitted at any time to enter into a transaction that is designed or intended to hedge their exposure to TechnologyOne securities which have not vested or are subject to a holding lock or dealing restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "The same absolute ban extends to vested securities that remain subject to a holding lock or dealing restriction, so shares still inside a plan holding lock cannot be collared.",
+   "evidence": "not permitted at any time to enter into a transaction that is designed or intended to hedge their exposure to TechnologyOne securities which have not vested or are subject to a holding lock or dealing restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9; 8",
+   "detail": "The hedging ban is expressly limited to unvested or locked securities, so hedging vested and unrestricted shares is not prohibited. It remains Trading, so it requires prior approval for the Chair, Directors and KMP, must occur in a Trading Window and not while holding Inside Information. Other Covered Persons need no approval.",
+   "evidence": "Covered Persons are not permitted at any time to enter into a transaction that is designed or intended to hedge their exposure to TechnologyOne securities which have not vested or are subject to a holding lock or dealing restriction."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Monetisation, prepaid forwards and similar structures are not named. Any monetisation that advances loan money against the shares is caught by the express ban on using TechnologyOne Securities as security for loans; a monetisation achieved purely by derivative over vested unrestricted shares would instead be Trading requiring approval for the Chair, Directors and KMP.",
+   "evidence": "Covered Persons are prohibited from: ... Using TechnologyOne's Securities as security for loans or margin lending"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Flat ban on short selling TechnologyOne Securities, with no tier, security-state or approval carve-out.",
+   "evidence": "Covered Persons are prohibited from: ... Short selling TechnologyOne's Securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy and the definition of Trading does not refer to it.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "CFDs are not named. A short CFD over TechnologyOne shares is caught by the express short selling ban, and any CFD closed out within three months is caught by the short-term trading ban; a long CFD held for more than three months is otherwise only Trading, subject to blackouts and approval for the Chair, Directors and KMP.",
+   "evidence": "Covered Persons are prohibited from: Short-term trading (buying and selling Securities within a 3-month period) Short selling TechnologyOne's Securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Margin lending against TechnologyOne Securities is expressly prohibited for all Covered Persons at all times, with no approval route and no exception for vested shares.",
+   "evidence": "Covered Persons are prohibited from: ... Using TechnologyOne's Securities as security for loans or margin lending"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Granting security over TechnologyOne Securities for a loan is expressly prohibited. A charge, lien or pledge unconnected with a loan is not named, and the definition of Trading does not sweep in encumbrances.",
+   "evidence": "Using TechnologyOne's Securities as security for loans or margin lending"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "The ban is on using the Securities as security for 'loans' generally, not only margin loans, so it reaches a bank facility secured on collared shares. It applies to all Covered Persons, all security states, and there is no clearance, waiver or exceptional-circumstances route (the section 7 exemption is confined to trading during a blackout period).",
+   "evidence": "Covered Persons are prohibited from: ... Using TechnologyOne's Securities as security for loans or margin lending"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Objective buy-and-sell test: buying and selling Securities within a three-month period is prohibited. No stated basis (LIFO or otherwise) and no carve-out for plan securities or for exercise of options.",
+   "evidence": "Covered Persons are prohibited from: Short-term trading (buying and selling Securities within a 3-month period)"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors & KMP (CEO, COO or CFO)",
+   "type": "approval",
+   "approver": "The Chair (with notification to the Company Secretary)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary, for notification via the ASX Announcements Platform",
+   "post_trade_deadline": "as soon as possible and within two business days of the Trade at the latest",
+   "section": "8",
+   "evidence": "Directors & KMP (CEO, COO or CFO): Approval by the Chair and notification to Company Secretary"
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "Chair of the Audit & Risk Committee and the Managing Director (or another Director if one of these is unavailable), with notification to the Company Secretary",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary, for notification via the ASX Announcements Platform",
+   "post_trade_deadline": "as soon as possible and within two business days of the Trade at the latest",
+   "section": "8",
+   "evidence": "Chair: Approvals by the Chair of the Audit & Risk Committee and the Managing Director (or another Director if one of these is unavailable) and notification to the Company Secretary"
+  },
+  {
+   "tier": "Covered Persons",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8",
+   "evidence": "The Chair, Directors and KMP are required to be granted approval from the following before Trading:"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Short-term trading (buying and selling Securities within a 3-month period)"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "specific_dealing",
+   "approver": "The Chair (for directors) or the Company Secretary (for all other Covered Persons)",
+   "evidence": "In exceptional circumstances, the Chair (for directors) or the Company Secretary (for all other Covered Persons) may grant written permission to Trade during a blackout period. Exceptional circumstances may include severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "The Chair (for directors) or the Company Secretary (for all other Covered Persons)",
+   "evidence": "Exceptional circumstances may include severe financial hardship or a court order requiring the sale of Securities."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chair (for directors) or the Company Secretary (for all other Covered Persons) may grant written permission to Trade during a blackout period in exceptional circumstances such as severe financial hardship or a court order requiring the sale of Securities. This authority is confined to blackout-period trading; it does not reach the section 9 prohibitions on short selling, short-term trading, hedging of unvested or locked securities, or use of Securities as loan security.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "loan security ban",
+   "clause": "Covered Persons are prohibited from: ... Using TechnologyOne's Securities as security for loans or margin lending.",
+   "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is prohibited outright for every director, officer, employee and contractor, with no approval or waiver route, so the funded structure cannot be offered."
+  },
+  {
+   "topic": "hedging ban limited to unvested and locked stock",
+   "clause": "Covered Persons are not permitted at any time to enter into a transaction that is designed or intended to hedge their exposure to TechnologyOne securities which have not vested or are subject to a holding lock or dealing restriction.",
+   "why_it_matters": "Unlike the loan ban, the hedging prohibition stops at unvested and locked shares, so an unfunded collar over vested unrestricted shares is not itself prohibited."
+  },
+  {
+   "topic": "Securities definition venue limit",
+   "clause": "\"Securities\" include shares, options, derivatives, and any other financial products of TechnologyOne that can be traded on a financial market.",
+   "why_it_matters": "The qualifier 'that can be traded on a financial market' leaves it arguable whether a bilateral OTC put and call are Securities at all, so the bank should assume they are and seek clearance rather than rely on the ambiguity."
+  },
+  {
+   "topic": "three-month short-term trading ban",
+   "clause": "Short-term trading (buying and selling Securities within a 3-month period).",
+   "why_it_matters": "Because Securities expressly include derivatives, buying a put and writing a call and then unwinding either leg inside three months risks being characterised as prohibited short-term trading, so the collar tenor and any roll should exceed three months."
+  },
+  {
+   "topic": "ad hoc blackouts",
+   "clause": "Additional blackout periods may be imposed by the Board or CEO as necessary.",
+   "why_it_matters": "The Board or CEO can close the trading window without notice or stated criteria, so pricing, unwind or physical settlement of a collar can be blocked at short notice."
+  },
+  {
+   "topic": "no associates extension",
+   "clause": "This policy applies to all directors, officers, employees, and contractors of TechnologyOne and its subsidiaries (referred to as \"Covered Persons\").",
+   "why_it_matters": "The policy never extends to spouses, dependants or controlled entities and trusts, so its literal reach over shares held through a family trust is untested rather than clearly prohibited; the bank should not treat that as a workaround."
+  },
+  {
+   "topic": "post-trade ASX notification",
+   "clause": "Details of Trading in TechnologyOne Securities undertaken by the Chair, Directors or KMP are to be provided to the Company Secretary as soon as possible and within two business days of the Trade at the latest so that notification can be made via the ASX Announcements Platform.",
+   "why_it_matters": "Collar entry, roll and unwind by a Director or KMP will be disclosed publicly through Appendix 3Y-style notification within two business days, so the structure cannot be kept confidential."
+  },
+  {
+   "topic": "no clearance mechanics",
+   "clause": "The Chair, Directors and KMP are required to be granted approval from the following before Trading.",
+   "why_it_matters": "The policy states no validity period, response time, conditions power or revocation right for an approval, so the bank cannot rely on a defined execution window and should obtain the approval terms in writing before pricing."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. The derivative legs alone are workable over vested, unrestricted shares: the express hedging ban is confined to securities that have not vested or remain subject to a holding lock or dealing restriction, so a put and call over free shares is only 'Trading', requiring the Chair's prior approval for Directors and KMP (approval by the Audit & Risk Committee Chair and Managing Director for the Chair), execution in a Trading Window outside the 1 February, 1 March and 1 September blackouts, no Inside Information, and notification to the Company Secretary within two business days for ASX release. The loan leg is fatal: section 9 flatly prohibits every Covered Person from using TechnologyOne Securities as security for loans or margin lending, with no approval, tier or vesting carve-out, and the only exemption power (severe hardship or a court order) reaches blackout-period trading only. Because Securities expressly include derivatives, tenor and any roll or unwind should exceed three months to avoid the short-term trading ban, and the Board or CEO can impose additional blackouts at any time. An unfunded collar is therefore available with clearance, but the bank cannot take security over the shares."
+}

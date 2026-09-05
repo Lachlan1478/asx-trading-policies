@@ -1,0 +1,366 @@
+{
+ "symbol": "ORI",
+ "company": "Orica Limited",
+ "title": "Policy: Securities Dealing",
+ "date_approved": "July 2016 (Orica Limited Board)",
+ "date_effective": "July 2016",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors, employees and contractors",
+   "kind": "all_staff",
+   "description": "The general population to whom the policy applies. They may deal freely unless they hold inside information, have been formally notified that they are restricted, or are a Restricted Person. No blackout periods, no approval requirement and none of the 'prohibited dealings' (margin loans, hedging, short-term dealing, short selling) apply to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Any Director of Orica Limited, executives who are members of the Executive Committee, and any other employee who has regular access to inside information or has been advised by Company Secretariat that they are subject to the additional dealing restrictions. This tier carries the approval requirement, the blackout periods and the prohibited dealings list.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A family member who may be expected to influence, or be influenced by, your dealings in Securities (including spouse or partner and their child or dependant), or a company or other entity which you have an ability to control or significantly influence. Associates are subject to the same dealing restrictions as the individual they are associated with.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "1 April",
+   "end_anchor": "one trading day following the release of the Company's half year results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "1 October",
+   "end_anchor": "one trading day following the release of the Company's annual results to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may specify 'any other period' as a blackout period for Restricted Persons, and may also formally notify any individual (Restricted Person or not) that they are restricted from dealing. No criteria, duration or announcement obligation is stated, and no confidentiality rule is stated for the notification itself.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Additional Dealing Restrictions - Prohibited dealings; Glossary (Deal or dealing, Securities)",
+   "detail": "Securities expressly include 'any other financial product relating to securities whether or not the product is created by Orica or by a third party', and dealing includes 'entering into a contract or arrangement to secure profit or avoid a loss by reference to price fluctuations', so an OTC put or call over Orica shares is a dealing in Securities. Because the put and call legs of a collar are hedging, they fall squarely within the express prohibited dealings list for Restricted Persons. A non-hedging derivative would instead require written approval and fall outside blackout periods.",
+   "evidence": "Restricted Persons must not enter into, create or deal in the following in respect of Securities: - margin loans; - hedging;"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "General Dealing Restrictions; Glossary (Deal or dealing, Securities)",
+   "detail": "For employees and contractors who are not Restricted Persons the prohibited dealings list does not apply. A derivative over Orica Securities is a dealing, so it is barred only while the person holds inside information or has been formally notified that they are restricted; no approval, blackout or notification applies. Employees are told to consider perception issues and consult the Company Secretary if necessary.",
+   "evidence": "You may deal in Securities unless you have inside information or are a Restricted Person."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Additional Dealing Restrictions - Prohibited dealings",
+   "detail": "Hedging is listed as a flatly prohibited dealing for Restricted Persons. The word is undefined and unqualified: there is no distinction between unvested, locked and vested unrestricted Securities, no venue limit, no approval route and no exceptional-circumstances relief (the exceptional circumstances power reaches only dealing during a blackout period).",
+   "evidence": "Restricted Persons must not enter into, create or deal in the following in respect of Securities: - margin loans; - hedging;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "General Dealing Restrictions; Additional Dealing Restrictions - Prohibited dealings",
+   "detail": "The hedging prohibition is expressed only as an 'additional dealing restriction' applying to Restricted Persons, so employees and contractors outside that tier are not prohibited from hedging; the only constraints are inside information, a formal restriction notice, and the general perception warning.",
+   "evidence": "Restricted Persons have more exposure to inside information and therefore additional dealing restrictions apply."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "Additional Dealing Restrictions - Prohibited dealings; Glossary (Deal or dealing)",
+   "detail": "Monetisation, prepaid forwards and similar structures are not named. A prepaid forward or collar-plus-loan is an arrangement to secure profit or avoid a loss by reference to price fluctuations and is therefore a dealing; in substance it is hedging, which is prohibited for Restricted Persons, and if funded by a loan against the shares it also engages the margin loan prohibition.",
+   "evidence": "entering into a contract or arrangement to secure profit or avoid a loss by reference to price fluctuations"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Additional Dealing Restrictions - Prohibited dealings",
+   "detail": "Short selling is an express prohibited dealing for Restricted Persons at all times, with no approval route. It is not prohibited for employees and contractors outside that tier.",
+   "evidence": "Restricted Persons must not enter into, create or deal in the following in respect of Securities: ... - short selling."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy and the glossary definition of 'Deal or dealing' does not refer to it.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "Glossary (Deal or dealing); Additional Dealing Restrictions - Prohibited dealings",
+   "detail": "CFDs are not named but fall precisely within the dealing limb 'entering into a contract or arrangement to secure profit or avoid a loss by reference to price fluctuations'. For Restricted Persons a CFD is in substance hedging, a short position, or short-term dealing, all of which are prohibited dealings.",
+   "evidence": "entering into a contract or arrangement to secure profit or avoid a loss by reference to price fluctuations"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Additional Dealing Restrictions - Prohibited dealings",
+   "detail": "Margin loans in respect of Orica Securities are an express prohibited dealing for Restricted Persons at all times, with no approval route, no vesting carve-out and no grandfathering language. Employees and contractors outside the tier are not prohibited.",
+   "evidence": "Restricted Persons must not enter into, create or deal in the following in respect of Securities: - margin loans;"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge, mortgage, lien or pledge over Orica Securities is not named as a prohibited dealing and does not appear in the glossary definition of 'Deal or dealing'. Only margin loans are expressly caught, so a security interest is regulated only to the extent it forms part of a margin loan.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Additional Dealing Restrictions - Prohibited dealings",
+   "detail": "The financing prohibition is drafted narrowly as 'margin loans' rather than as secured financing generally, so a bank loan secured on Orica Securities is not expressly named. Whether a limited-recourse loan advanced against collared shares is a 'margin loan' in substance is untested and the policy contains no anti-avoidance or substance-over-form clause.",
+   "evidence": "Restricted Persons must not enter into, create or deal in the following in respect of Securities: - margin loans;"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Additional Dealing Restrictions - Prohibited dealings",
+   "detail": "Short-term dealing is prohibited for Restricted Persons, with on-market buying and selling within three months given as an inclusive example, so the ban is not confined to on-market round trips. No carve-out for plan securities and no stated matching basis.",
+   "evidence": "short-term dealing, including buying and selling Securities on market within a three month period;"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Directors (other than the Chairman): the Chairman. Chairman: Chair of the Board Audit & Risk Committee. Any other Restricted Person: the Company Secretary. Company Secretary: Managing Director & CEO.",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (Directors only), for ASX Listing Rule disclosure",
+   "post_trade_deadline": "within two business days of the trade",
+   "section": "Additional Dealing Restrictions - Approval to deal",
+   "evidence": "A Restricted Person approved to deal must deal no later than two business days commencing on the day after approval is received, otherwise new approval must be sought. Any approval to deal may be withdrawn at any time if there is a change in circumstance, and any decision to refuse approval is final and binding and must be kept confidential."
+  },
+  {
+   "tier": "Associates",
+   "type": "approval",
+   "approver": "The relevant approver for the Restricted Person with whom the associate is connected",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Dealing Restrictions - Associates",
+   "evidence": "Restricted Persons must obtain written approval to deal in Securities on behalf of their associates from the relevant approver."
+  },
+  {
+   "tier": "Directors, employees and contractors",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "General Dealing Restrictions",
+   "evidence": "You may deal in Securities unless you have inside information or are a Restricted Person."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "on market buying and selling, given as an inclusive example of short-term dealing",
+   "carve_outs": [],
+   "evidence": "short-term dealing, including buying and selling Securities on market within a three month period;"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "specific_dealing",
+   "approver": "Chairman for Directors; Chair of the Board Audit & Risk Committee for the Chairman; Company Secretary for any other Restricted Person; Managing Director & CEO for the Company Secretary",
+   "evidence": "Restricted Persons that need to deal in Securities during a blackout period due to exceptional circumstances (such as demonstrated and severe financial hardship), must obtain written approval to deal in Securities during a blackout period"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The acquisition of Securities through: - a dividend reinvestment plan or share purchase plan available to all retail shareholders; or - a rights issue."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Applying for or acquiring Securities under an employee incentive scheme; however, for clarity, any subsequent dealing of Securities which cease to be held under the terms of a scheme remains subject to the provisions of this Policy."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "The disposal of Securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Any dealing that results in no effective change to the beneficial interest (e.g. transfer of Securities already held into a superannuation fund or trust of which you or your associate is a beneficiary)."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Any dealing under a pre-approved non-discretionary trading plan, provided the plan is not entered into or amended during a blackout period (e.g. a regular share acquisition plan)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "no",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Only the 'exceptional circumstances' power, which permits a Restricted Person to deal during a blackout period with written approval from the Chairman (Directors), the Chair of the Board Audit & Risk Committee (Chairman), the Company Secretary (any other Restricted Person) or the Managing Director & CEO (Company Secretary), on grounds such as demonstrated and severe financial hardship. There is no power to waive the prohibited dealings list (margin loans, hedging, short-term dealing, short selling).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "unqualified hedging ban",
+   "clause": "Restricted Persons must not enter into, create or deal in the following in respect of Securities: - margin loans; - hedging; - short-term dealing, including buying and selling Securities on market within a three month period; and - short selling.",
+   "why_it_matters": "'Hedging' is undefined and unlimited by vesting state or venue, so a collar over fully vested unrestricted shares is prohibited for every Director and Executive Committee member, with no approval or hardship route."
+  },
+  {
+   "topic": "narrow financing ban",
+   "clause": "Restricted Persons must not enter into, create or deal in the following in respect of Securities: - margin loans.",
+   "why_it_matters": "The financing prohibition names only margin loans rather than secured financing generally, so the loan leg is not expressly banned; but with the hedge itself prohibited the point is academic, and a loan advanced against collared shares may still be characterised as a margin loan."
+  },
+  {
+   "topic": "third-party products are Securities",
+   "clause": "Securities Includes, in relation to Orica Limited: ... any other financial product relating to securities whether or not the product is created by Orica or by a third party.",
+   "why_it_matters": "A bank-written OTC put and call are expressly Securities, so every leg of a collar and every roll or unwind is a dealing subject to the policy rather than sitting outside it."
+  },
+  {
+   "topic": "profit or loss arrangements are dealings",
+   "clause": "Deal or dealing Includes: ... entering into a contract or arrangement to secure profit or avoid a loss by reference to price fluctuations.",
+   "why_it_matters": "This limb catches economically synthetic structures (collars, CFDs, prepaid forwards) even when no share changes hands, so no cash-settled variant escapes the policy."
+  },
+  {
+   "topic": "restriction notices to non-restricted staff",
+   "clause": "Do not deal in Securities if the Company has formally notified you that you are restricted from dealing.",
+   "why_it_matters": "Even an employee outside the Restricted Persons tier can be individually blocked at any time without notice or criteria, so a counterparty cannot rely on a person's tier remaining unrestricted for the life of a collar."
+  },
+  {
+   "topic": "approval revocation",
+   "clause": "Any approval to deal may be withdrawn at any time if there is a change in circumstance, and any decision to refuse approval is final and binding and must be kept confidential.",
+   "why_it_matters": "Approval can be pulled after it is given and before execution, and the executive cannot explain a refusal to the bank, so there is execution risk between pricing and signing."
+  },
+  {
+   "topic": "two business day approval life",
+   "clause": "A Restricted Person approved to deal must deal no later than two business days commencing on the day after approval is received, otherwise new approval must be sought.",
+   "why_it_matters": "Any permitted dealing must be documented and executed inside a two business day window, which is tight for negotiating and signing OTC derivative and loan documentation."
+  },
+  {
+   "topic": "associates capture",
+   "clause": "Associates of Directors, employees and contractors are subject to the same dealing restrictions that apply to that individual. ... a company or any other entity which you have an ability to control or significantly influence.",
+   "why_it_matters": "Routing a collar through a family trust or controlled company does not avoid the hedging prohibition, and the Restricted Person must obtain written approval for dealings on the associate's behalf."
+  },
+  {
+   "topic": "plan shares remain in scope after release",
+   "clause": "Applying for or acquiring Securities under an employee incentive scheme; however, for clarity, any subsequent dealing of Securities which cease to be held under the terms of a scheme remains subject to the provisions of this Policy.",
+   "why_it_matters": "Shares released from an incentive plan do not become policy-free, so vested shares held by a Restricted Person remain subject to the hedging prohibition."
+  }
+ ],
+ "summary": "A funded collar is not available to Orica Directors or Executive Committee members. They are Restricted Persons, and the policy flatly prohibits 'hedging' in respect of Securities with no definition, no vesting distinction, no venue limit, no approval route and no exceptional-circumstances relief, so the purchased put and written call are barred over vested unrestricted shares as much as over unvested ones. The financing leg is drafted more narrowly, catching only 'margin loans' rather than secured financing generally, so a bank loan secured on the shares is not expressly named, but that does not rescue the structure and such a loan may itself be characterised as a margin loan. Employees and contractors who are not Restricted Persons are not subject to the prohibited dealings list and could in principle hedge, but they would rarely be the intended clients and can be made subject to a formal restriction notice at any time. If Orica were ever to permit a structure, it would still need written approval valid for only two business days, would have to avoid the 1 April and 1 October blackouts, would be disclosed by Directors to the Company Secretary within two business days, and would have to exceed three months to avoid the short-term dealing ban."
+}
