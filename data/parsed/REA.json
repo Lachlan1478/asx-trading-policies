@@ -1,0 +1,720 @@
+{
+ "symbol": "REA",
+ "company": "REA Group Ltd",
+ "title": "Securities Dealing Policy",
+ "date_approved": "",
+ "date_effective": "6 May 2026",
+ "date_lodged": "8 May 2026",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "directors, employees and contractors",
+   "kind": "all_staff",
+   "description": "Directors, employees and contractors of REA or any of its subsidiaries in any part of the world, including all permanent employees, contractors, consultants, secondees and casual employees. This tier is bound by the insider trading prohibition in section 3 only; the Blackout Periods, the speculative dealing prohibitions in section 5 and the clearance process in section 8 apply only to Restricted Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors including the CEO; members of the Executive Leadership Team; direct reports of the Executive Leadership Team including Executive Assistants; members of the Legal, Company Secretary, Strategy, Corporate Development and Communications teams and all employees with access to the monthly consolidated financial information; and any other employee nominated for a specified duration by the CEO, Company Secretary or CFO. Where section 5 refers to 'all other Restricted Persons' it means this group excluding Directors and Executive Leadership Team members, who face the stricter absolute bans.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of REA, including the CEO. A Restricted Person subject to the absolute hedging and secured financing bans in sections 5.2(a) and 5.3, to clearance by the Chair of the Board plus the CEO or Company Secretary (or, for the Chair, the Chair of the ARCC plus the CEO or Company Secretary), and to a duty to advise the Company Secretary within two business days of executing a cleared dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Members of the Executive Leadership Team",
+   "kind": "kmp",
+   "description": "Members of REA's Executive Leadership Team. Subject to the same absolute bans as Directors on hedging exposure to REA Securities and on margin loans and secured financing arrangements in respect of REA Securities.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Parties",
+   "kind": "associate",
+   "description": "Any person a director, employee or contractor may be expected to influence, or be influenced by, in relation to a decision to deal in REA Securities, including spouse or partner and children, any family company or family trust the person or their close family members control or have an interest in, and any company, trust or partnership the person controls or in which they are a director, trustee or partner. Every substantive prohibition in sections 5.2 and 5.3 is expressed to bind Connected Parties directly, and clearance sought on their behalf is binding on them.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Hedges and derivatives are used to limit the economic risk associated with securities and include OTC products, contracts for difference, options, forward contracts, futures, warrants, swaps, caps and collars.",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons",
+    "Directors",
+    "Members of the Executive Leadership Team",
+    "Connected Parties"
+   ],
+   "start_anchor": "close of trading on 31 March (or the last trading day of the quarter if 31 March is not a trading day)",
+   "end_anchor": "10:00am on the trading day after REA announces its \"Q3\" quarterly results to the ASX (usually early May)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons",
+    "Directors",
+    "Members of the Executive Leadership Team",
+    "Connected Parties"
+   ],
+   "start_anchor": "close of trading on 30 June (or the last trading day of the quarter if 30 June is not a trading day)",
+   "end_anchor": "10:00am on the trading day after REA announces its full year or annual results to the ASX (usually early August)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons",
+    "Directors",
+    "Members of the Executive Leadership Team",
+    "Connected Parties"
+   ],
+   "start_anchor": "close of trading on 30 September (or the last trading day of the quarter if 30 September is not a trading day)",
+   "end_anchor": "10:00am on the trading day after REA announces its \"Q1\" quarterly results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons",
+    "Directors",
+    "Members of the Executive Leadership Team",
+    "Connected Parties"
+   ],
+   "start_anchor": "close of trading on 31 December (or the last trading day of the quarter if 31 December is not a trading day)",
+   "end_anchor": "10:00am on the trading day after REA announces its half year results (usually early February)",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The REA Board, or the Chairman of the Board acting alone, may determine any other period to be a Blackout Period. The Policy does not say whether such a determination is announced or kept confidential, but it also provides that REA may monitor dealings and block dealings it considers to be in breach, and may apply blocks or restrictions on securities held under an employee share scheme by the scheme administrator.",
+ "rules": [
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Absolute ban with no clearance route and no vesting qualification: Directors and their Connected Parties must not hedge their exposure to REA Securities at all. The hedging definition expressly names collars and OTC products.",
+   "evidence": "Directors, members of the Executive Leadership Team and their Connected Parties must not hedge their exposure to REA Securities;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Members of the Executive Leadership Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Identical absolute ban on hedging exposure to REA Securities, extending to Connected Parties.",
+   "evidence": "Directors, members of the Executive Leadership Team and their Connected Parties must not hedge their exposure to REA Securities;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(i)",
+   "detail": "For Restricted Persons other than Directors and Executive Leadership Team members, hedging arrangements over vested REA Securities are prohibited only in the absence of prior written clearance, so clearance under section 8 makes them permissible. This is an express contemplation of a hedge over vested shares, not mere silence.",
+   "evidence": "all other Restricted Persons and their Connected Parties are prohibited from hedging arrangements over: (i) vested REA Securities, unless they have received prior written clearance;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(ii)",
+   "detail": "Hedging of REA Securities acquired under an employee share or equity incentive plan prior to vesting is banned outright, with no clearance route. For key management personnel the Policy notes this is also an offence under the Corporations Act.",
+   "evidence": "REA Securities acquired under an employee share or equity incentive plan operated by the Company, prior to vesting;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(iii)",
+   "detail": "Vested securities that remain subject to a holding lock or dealing restriction under a plan cannot be hedged, with no clearance route.",
+   "evidence": "REA Securities that are subject to a holding lock or restriction on dealing under the terms of an employee share or equity incentive plan operated by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Connected Parties",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a), (b)",
+   "detail": "The hedging restrictions bind Connected Parties directly and in the same terms as the person they are connected to, so a family trust or controlled company of a Director cannot write the collar either.",
+   "evidence": "Directors, members of the Executive Leadership Team and their Connected Parties must not hedge their exposure to REA Securities;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "5",
+   "detail": "Section 5 is headed 'Other types of speculative dealing which this policy prohibits for Restricted Persons'; an employee or contractor who is not a Restricted Person is not subject to any hedging restriction under this Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Section 5.2 is headed 'No hedging or other derivatives' and defines hedges and derivatives together to include OTC products, options, forward contracts, swaps, caps and collars. The ban on Directors hedging their exposure therefore captures both legs of an OTC collar directly, with no venue distinction and no clearance route.",
+   "evidence": "Hedges and derivatives are used to limit the economic risk associated with securities and include OTC products, contracts for difference, options, forward contracts, futures, warrants, swaps, caps and collars."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Members of the Executive Leadership Team",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Same absolute prohibition on OTC derivatives that limit economic risk in REA Securities.",
+   "evidence": "Hedges and derivatives are used to limit the economic risk associated with securities and include OTC products, contracts for difference, options, forward contracts, futures, warrants, swaps, caps and collars."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(i); 6; 8",
+   "detail": "An OTC put and call over vested, unrestricted REA Securities is a derivative that limits economic risk and so falls under 5.2(b)(i), which permits it with prior written clearance. Independently, entering the derivative is a dealing in REA Securities (financial products created over REA securities) and every dealing by a Restricted Person requires clearance at all times, even outside a Blackout Period.",
+   "evidence": "If you are a Restricted Person, you must seek prior written clearance (see section 8 below) before you deal in any REA Securities. This clearance process applies at all times, even outside Blackout Periods."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(ii), (iii)",
+   "detail": "No derivative may be written over unvested plan securities or over vested securities under a holding lock, with no clearance route.",
+   "evidence": "REA Securities acquired under an employee share or equity incentive plan operated by the Company, prior to vesting;"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1; 3",
+   "detail": "For a person who is not a Restricted Person, creating a hedge over REA Securities is a dealing but is restricted only by the insider trading prohibition; no Blackout Period or clearance requirement applies.",
+   "evidence": "Deal or dealing has a wide meaning and includes: buying, selling or applying for securities; creating a hedge, security interest or other financial interest over securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(a); 5.3",
+   "detail": "Monetisation is not named. A prepaid forward, collar plus loan or similar structure limits economic risk in REA Securities and so is a hedge banned by 5.2(a), and any secured borrowing element is separately banned by 5.3.",
+   "evidence": "Directors and members of the Executive Leadership Team and their Connected Parties must not enter into a margin loan using REA Securities as security, or enter into secured financing arrangements in respect of REA Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(i); 5.3",
+   "detail": "For Restricted Persons below Director and Executive Leadership Team level, both the hedge over vested securities and the grant of security or secured lending arrangement are permitted with prior written clearance, so a full monetisation is contemplated subject to clearance for each element.",
+   "evidence": "All other Restricted Persons and their Connected Parties must not, unless they have prior written clearance: (a) grant any security or any other rights over REA Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1(b)",
+   "detail": "Restricted Persons and their Connected Parties must not short sell REA Securities. Unlike the short-term dealing limb, the short-selling limb carries no clearance carve-out.",
+   "evidence": "Restricted Persons and their Connected Parties must not: ... (b) short-sell any REA Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The short selling ban applies only to Restricted Persons and their Connected Parties.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending or stock borrowing is not named anywhere and does not appear in the definition of dealing, although lending REA Securities to a bank would arguably involve creating a financial interest over securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Contracts for difference are named in the definition of hedges and derivatives, so they fall within the absolute ban on Directors and Executive Leadership Team members hedging their exposure to REA Securities.",
+   "evidence": "Hedges and derivatives ... include OTC products, contracts for difference, options, forward contracts, futures, warrants, swaps, caps and collars."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(i); 5.1(b)",
+   "detail": "A CFD over vested REA Securities requires prior written clearance under 5.2(b)(i); a short CFD would still offend the short selling ban and a CFD closed within three months the short-term dealing rule.",
+   "evidence": "all other Restricted Persons and their Connected Parties are prohibited from hedging arrangements over: (i) vested REA Securities, unless they have received prior written clearance;"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Directors and their Connected Parties must not enter into a margin loan using REA Securities as security. The only carve-out is for arrangements duly approved under earlier versions of the Policy, which are grandfathered.",
+   "evidence": "Directors and members of the Executive Leadership Team and their Connected Parties must not enter into a margin loan using REA Securities as security, or enter into secured financing arrangements in respect of REA Securities. This prohibition does not apply to arrangements which were duly approved under earlier versions of this policy."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Members of the Executive Leadership Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Identical ban, subject to the same grandfathering of arrangements approved under earlier versions of the Policy.",
+   "evidence": "Directors and members of the Executive Leadership Team and their Connected Parties must not enter into a margin loan using REA Securities as security, or enter into secured financing arrangements in respect of REA Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "For all other Restricted Persons, entering a new margin loan, transferring REA Securities into an existing margin loan account, and selling REA Securities to satisfy a margin call each require prior written clearance rather than being prohibited.",
+   "evidence": "All other Restricted Persons and their Connected Parties must not, unless they have prior written clearance: ... (b) enter into any margin loan, margin lending or other secured lending arrangement in respect of REA Securities – this includes not: (i) entering into any new arrangement; (ii) transferring any REA Securities into an existing margin loan account; or (iii) selling REA Securities to satisfy any margin loan call."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Creating a security interest over securities is itself a dealing under the definition, and for Directors and Executive Leadership Team members any secured financing arrangement in respect of REA Securities is prohibited outright. Section 5.3(a), which allows the grant of security with clearance, is expressed to apply only to 'all other Restricted Persons'.",
+   "evidence": "Deal or dealing has a wide meaning and includes: buying, selling or applying for securities; creating a hedge, security interest or other financial interest over securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Other Restricted Persons may grant security or any other rights over REA Securities with prior written clearance, expressly including over unvested REA Securities.",
+   "evidence": "All other Restricted Persons and their Connected Parties must not, unless they have prior written clearance: (a) grant any security or any other rights over REA Securities, including over any 'unvested' REA Securities;"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1; 5",
+   "detail": "Creating a security interest is a dealing, but section 5 binds only Restricted Persons, so an employee outside that group faces only the insider trading prohibition when pledging REA Securities.",
+   "evidence": "Deal or dealing has a wide meaning and includes: ... creating a hedge, security interest or other financial interest over securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "The ban is not limited to margin loans: it extends to any secured financing arrangement in respect of REA Securities, which is exactly the loan leg of a funded collar. There is no clearance route and no hardship waiver, only grandfathering of arrangements duly approved under earlier versions of the Policy.",
+   "evidence": "Directors and members of the Executive Leadership Team and their Connected Parties must not enter into a margin loan using REA Securities as security, or enter into secured financing arrangements in respect of REA Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Members of the Executive Leadership Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Identical outright ban on secured financing arrangements in respect of REA Securities.",
+   "evidence": "Directors and members of the Executive Leadership Team and their Connected Parties must not enter into a margin loan using REA Securities as security, or enter into secured financing arrangements in respect of REA Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Other secured lending arrangements in respect of REA Securities are permitted for Restricted Persons below Director and Executive Leadership Team level with prior written clearance; the same clearance requirement attaches to later transfers of shares into the facility and to selling shares to meet a call.",
+   "evidence": "enter into any margin loan, margin lending or other secured lending arrangement in respect of REA Securities – this includes not: (i) entering into any new arrangement; (ii) transferring any REA Securities into an existing margin loan account; or (iii) selling REA Securities to satisfy any margin loan call."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Connected Parties",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "The prohibition on Directors and Executive Leadership Team members is expressed to bind their Connected Parties, which include any family trust or controlled company, so the borrower cannot be an SPV or family vehicle.",
+   "evidence": "Directors and members of the Executive Leadership Team and their Connected Parties must not enter into a margin loan using REA Securities as security, or enter into secured financing arrangements in respect of REA Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Buying and selling REA Securities within a three month period is prohibited except with prior written clearance. Securities acquired under an employee share or equity incentive plan may be sold within three months if the person has no Inside Information and it is not a Blackout Period, but written clearance is still required.",
+   "evidence": "Short-term trading occurs when you buy and sell securities within a 3-month period. ... Restricted Persons and their Connected Parties must not: (a) deal in REA Securities on a short-term basis, except with prior written clearance;"
+  },
+  {
+   "topic": "short_term",
+   "tier": "directors, employees and contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The short-term dealing restriction applies only to Restricted Persons and their Connected Parties.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board and either the CEO or the Company Secretary (for a director or the CEO); for the Chair of the Board, the Chair of the Audit, Risk and Compliance Committee and either the CEO or the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary, to assist REA to comply with its disclosure obligations under the ASX Listing Rules",
+   "post_trade_deadline": "within two business days of executing the dealing",
+   "section": "8.1-8.3",
+   "evidence": "Where clearance is granted, it will last for five business days - if you do not complete the dealing within this period you will need to apply for a new clearance. For Directors: If clearance is given, you must advise the Company Secretary within two business days of executing the dealing"
+  },
+  {
+   "tier": "Members of the Executive Leadership Team",
+   "type": "approval",
+   "approver": "The CEO (as direct reports of the CEO)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8.1-8.3",
+   "evidence": "if you report directly to the CEO - the CEO;"
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "The Company Secretary, except where clearance is sought to deal during a Blackout Period, in which case the CEO",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6; 8.1-8.3",
+   "evidence": "for all other Restricted Persons – the Company Secretary, except where you are seeking clearance to deal during a Blackout Period, in which case the request will be considered by the CEO."
+  },
+  {
+   "tier": "Connected Parties",
+   "type": "approval",
+   "approver": "The same approver as for the Restricted Person, on whose behalf the request is made",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8.2",
+   "evidence": "is final and binding on you (regardless of whether it was sought on the Restricted Person's own behalf or on behalf of a Connected Party)."
+  },
+  {
+   "tier": "directors, employees and contractors",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "2; 6",
+   "evidence": "If you have any questions, are unsure if this policy applies to you, or are unsure if any dealing you are thinking of undertaking is allowed under this policy, contact the Company Secretary immediately (and definitely before dealing in any REA Securities)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and selling within a 3-month period",
+   "carve_outs": [
+    "REA Securities acquired under an employee share or equity incentive plan (by becoming entitled to those securities or exercising a performance right) may be sold within 3 months, provided the person has no Inside Information and it is not a Blackout Period, but written clearance under section 8 is still required"
+   ],
+   "evidence": "Short-term trading occurs when you buy and sell securities within a 3-month period. ... Restricted Persons and their Connected Parties must not: (a) deal in REA Securities on a short-term basis, except with prior written clearance;"
+  },
+  {
+   "tier": "directors, employees and contractors",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": ""
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "specific_dealing",
+   "approver": "the CEO (clearance to deal during a Blackout Period is considered by the CEO; for directors, the Chair of the Board with the CEO or Company Secretary)",
+   "evidence": "Clearance will only be granted if exceptional circumstances apply. Exceptional circumstances are rare, but may include severe financial hardship or where the dealing is required to comply with a court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "specific_dealing",
+   "approver": "the CEO",
+   "evidence": "where the dealing is required to comply with a court order."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of REA Securities that occurs when a secured lender exercises their rights over those securities);"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "accepting or acquiring REA Securities under an employee share or equity incentive plan operated by REA. However, where REA Securities granted under such a plan cease to be held under the terms of that plan, any dealings in those securities must occur only in accordance with this Policy. Also, performance rights must not be exercised during a Blackout Period;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "a purchase of REA Securities through an offer or invitation available to all REA shareholders, such as a share purchase plan, a dividend reinvestment plan or a rights issue;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of REA Securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "a transfer where there is no effective change to the beneficial interest in the REA Securities (for example, transfers of REA Securities the person already owns into a superannuation fund or trust where that person is a beneficiary);"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "as result of trading which occurs under a pre-determined investment or trading plan which meets all of the following conditions: (i) the Restricted Person or their Connected Party did not enter into the plan or amend the plan during a Blackout Period; (ii) the Restricted Person and their Connected Parties have no influence or discretion over how, when or whether trading occurs under the plan; and (iii) the plan cannot be cancelled during a Blackout Period, other than in exceptional circumstances;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental trading where a Restricted Person or their Connected Party deals in units or shares of a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party and that happens to hold REA Securities as part of its portfolio."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors; on executing any cleared dealing (including entry into a hedge or grant of security, each of which is a dealing); the Company Secretary, to support REA's ASX Listing Rule disclosure obligations; within two business days of executing the dealing",
+   "Restricted Persons; before entering any margin loan or other secured lending arrangement, before transferring REA Securities into an existing margin loan account, and before selling REA Securities to satisfy a margin call; the Company Secretary (or the CEO if during a Blackout Period) via the Securities Dealing Request Form; prior written clearance, valid five business days"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Employee share and equity incentive plan rules (which determine vesting, holding locks and dealing restrictions, and under which the scheme administrator may apply blocks)",
+  "REA's annual report, which lists the employees and directors considered key management personnel"
+ ],
+ "exemption_authority": "There is no power to waive the absolute prohibitions in sections 5.2(a) and 5.3 on Directors and Executive Leadership Team members hedging or entering secured financing; the only relief in the Policy is grandfathering of margin loan and secured financing arrangements duly approved under earlier versions of the Policy. For Blackout Periods, clearance to deal in exceptional circumstances (severe financial hardship or compliance with a court order) may be granted by the CEO, or by the Chair of the Board with the CEO or Company Secretary for directors. Clearance is discretionary, may be refused without reasons, may be withdrawn at any time before dealing, and is automatically withdrawn if Inside Information was withheld or subsequently arises.",
+ "jurisdiction_overlays": [
+  "The Policy applies to directors, employees and contractors of REA or any of its subsidiaries in any part of the world, and notes that insider trading laws exist in many other countries",
+  "Australia: the Policy flags that for key management personnel, entering into a hedge or derivative over unvested or vested but holding-locked REA Securities is also an offence under the Corporations Act 2001 (Cth)"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "two-speed hedging rule",
+   "clause": "(a) Directors, members of the Executive Leadership Team and their Connected Parties must not hedge their exposure to REA Securities; (b) all other Restricted Persons and their Connected Parties are prohibited from hedging arrangements over: (i) vested REA Securities, unless they have received prior written clearance;",
+   "why_it_matters": "The bank's target population, directors and executive leadership, is subject to an absolute hedging ban with no clearance route, while a collar over vested shares is expressly available with clearance to Restricted Persons one level below them."
+  },
+  {
+   "topic": "collars named in the hedging definition",
+   "clause": "Hedges and derivatives are used to limit the economic risk associated with securities and include OTC products, contracts for difference, options, forward contracts, futures, warrants, swaps, caps and collars.",
+   "why_it_matters": "There is no scope to argue that an OTC collar sits outside the hedging prohibition; the instrument is named and OTC venue is expressly included."
+  },
+  {
+   "topic": "secured financing ban is broader than margin lending",
+   "clause": "Directors and members of the Executive Leadership Team and their Connected Parties must not enter into a margin loan using REA Securities as security, or enter into secured financing arrangements in respect of REA Securities.",
+   "why_it_matters": "The loan leg of a funded collar is prohibited outright for directors and executive leadership, independently of the hedging ban, so neither restructuring the derivative nor unsecuring the facility rescues the trade for that tier."
+  },
+  {
+   "topic": "grandfathering of approved arrangements",
+   "clause": "This prohibition does not apply to arrangements which were duly approved under earlier versions of this policy.",
+   "why_it_matters": "An existing facility approved under a prior policy version survives, so a bank refinancing or extending a legacy arrangement should establish whether the amendment falls within the grandfathered approval or is a new prohibited arrangement."
+  },
+  {
+   "topic": "encumbrance is a dealing",
+   "clause": "Deal or dealing has a wide meaning and includes: buying, selling or applying for securities; creating a hedge, security interest or other financial interest over securities; transferring legal ownership of securities (even where beneficial ownership does not change)",
+   "why_it_matters": "Both granting the security and creating the hedge are dealings in their own right, so for a Restricted Person each requires separate prior written clearance and each falls inside the four Blackout Periods."
+  },
+  {
+   "topic": "security over unvested shares available with clearance",
+   "clause": "All other Restricted Persons and their Connected Parties must not, unless they have prior written clearance: (a) grant any security or any other rights over REA Securities, including over any 'unvested' REA Securities;",
+   "why_it_matters": "Unusually, unvested shares may be pledged by a non-Director Restricted Person with clearance, even though hedging those same unvested shares is banned outright, so a lender could take security without the borrower being able to hedge the exposure."
+  },
+  {
+   "topic": "lender enforcement carved out of blackouts",
+   "clause": "a disposal of REA Securities that occurs when a secured lender exercises their rights over those securities",
+   "why_it_matters": "Enforcement by the bank is exempt from the Blackout Periods and the clearance requirement altogether, and unlike some policies there is no precondition of prior notice, so lender remedies are unusually clean where the underlying facility is itself permitted."
+  },
+  {
+   "topic": "borrower-initiated margin call sale needs clearance",
+   "clause": "selling REA Securities to satisfy any margin loan call",
+   "why_it_matters": "A borrower who sells shares to meet a call must first obtain clearance, which will not be forthcoming in a Blackout Period absent exceptional circumstances, so the facility should be structured so the bank enforces rather than the borrower self-remedies."
+  },
+  {
+   "topic": "four blackout periods a year",
+   "clause": "The Blackout Periods are: (a) from the close of trading on 31 March until 10:00am on the trading day after REA announces its \"Q3\" quarterly results ... (c) from the close of trading on 30 September until 10:00am on the trading day after REA announces its \"Q1\" quarterly results",
+   "why_it_matters": "REA has quarterly rather than semi-annual blackouts, so the open periods for entering, rolling or unwinding a collar are materially narrower than for a typical ASX 100 issuer."
+  },
+  {
+   "topic": "clearance withdrawable and confidential",
+   "clause": "can be withdrawn at any time before you deal if new information becomes available or there is a change in circumstances; ... If clearance to deal is refused, you must keep that information confidential and not disclose it to anyone.",
+   "why_it_matters": "A clearance is not a firm five-day option: it can be pulled before execution and is automatically withdrawn if Inside Information arises, and a refusal cannot be explained to the bank, so pricing and documentation must tolerate a last-minute failure to execute."
+  },
+  {
+   "topic": "REA may block dealings",
+   "clause": "REA may monitor dealings in REA Securities as part of the administration of this policy and may, where appropriate, seek to block dealings which we consider to be in breach of this policy. ... REA may also apply blocks or restrictions on any REA Securities held under an employee share scheme which are held or controlled by the scheme administrator",
+   "why_it_matters": "The company can apply registry-level holding locks to shares held through the scheme administrator, which would prevent delivery of collateral or physical settlement of a put."
+  },
+  {
+   "topic": "connected party look-through",
+   "clause": "all 'Connected Parties' ... includes any person who you may be expected to influence, or be influenced by, in relation to any decision to deal in REA Securities, and may include: your spouse/partner and children; any family company or family trust that you or your close family members may control or have an interest in; or any company, trust or partnership which you control or in which you are a director, trustee or partner.",
+   "why_it_matters": "The definition reaches entities the person merely has an interest in or is a director of, so a director cannot use a family or associated vehicle as the counterparty, borrower or holder of the collared shares."
+  }
+ ],
+ "summary": "A funded collar is not available to an REA director or Executive Leadership Team member. Section 5.2(a) bans them and their Connected Parties from hedging their exposure to REA Securities at all, with the hedging definition naming OTC products and collars specifically, and section 5.3 separately bans them from margin loans and any secured financing arrangement in respect of REA Securities; neither prohibition has a clearance route or hardship waiver, and the only relief is grandfathering of arrangements duly approved under earlier versions of the Policy. For Restricted Persons below that level the answer is different and unusually permissive: a hedge over vested REA Securities and the grant of security or a secured lending arrangement, including over unvested shares, are each permitted with prior written clearance from the Company Secretary, valid for five business days and revocable at any time before dealing. Any such structure must sit outside REA's four quarterly Blackout Periods, must not involve short selling or a buy and sell within three months without further clearance, and must not touch securities that are unvested or under a plan holding lock, which cannot be hedged at all. Lender enforcement is a helpful carve-out, being exempt from both blackouts and clearance, but a borrower selling to meet a margin call needs clearance, and a director's cleared dealing must be reported to the Company Secretary within two business days for ASX disclosure."
+}
