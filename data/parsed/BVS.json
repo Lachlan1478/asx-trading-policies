@@ -1,0 +1,551 @@
+{
+ "symbol": "BVS",
+ "company": "Bravura Solutions Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "27 October 2016",
+ "date_effective": "the date of the Company's admission to the Official List of ASX",
+ "date_lodged": "27 October 2016",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of any company in the Group. Subject to Prohibited Period restrictions, prior written approval and subsequent notification for all Trading, the margin loan/security approval regime, and the section 3.8 hedging/derivatives restriction on unvested Company Securities. Designated Officer for a Director is the Chair (or the CEO if the Director is the Chair).",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Restricted Employees",
+   "kind": "restricted",
+   "description": "The CEO, CFO, Company Secretary, General Counsel, employees involved in preparing the Group's monthly financial reports, direct reports to those positions, and any employee nominated by the Board and notified accordingly. Subject to the identical Prohibited Period, approval, notification, margin loan and hedging regime as Directors. Designated Officer for a Restricted Employee is the Company Secretary (or the CEO if the Restricted Employee is the Company Secretary).",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Any full or part time employee of any Group member. Subject only to the general insider trading prohibition and the universal short-term trading ban; not subject to Prohibited Periods, the approval/notification regime, the margin loan approval requirement, or the section 3.8 hedging restriction, none of which extend beyond Directors and Restricted Employees.",
+   "includes_associates": "no"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Derivatives or other products which operate to limit the economic risk of unvested Company Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Directors",
+    "Restricted Employees"
+   ],
+   "start_anchor": "the Company's year end",
+   "end_anchor": "after the release of the full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Directors",
+    "Restricted Employees"
+   ],
+   "start_anchor": "the Company's half year end",
+   "end_anchor": "after the release of the half yearly results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may impose any additional periods from time to time, for example when the Company is considering matters subject to Listing Rule 3.1A. If approval to Trade is refused (including in connection with an additional period), the person seeking approval must keep that fact confidential and not disclose it to anyone.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Absolute ban on using, or allowing to be used, any Derivative to limit the economic risk of unvested Company Securities.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5; Schedule (Derivative, Securities)",
+   "detail": "The section 3.8 ban is limited to unvested securities. A Derivative — the Schedule expressly names 'options, forward contracts, futures, warrants, cash settled swaps, caps and collars' — is itself a 'Security'; entering one is 'Trading' requiring prior written approval from the Designated Officer outside a Prohibited Period, and subsequent notification.",
+   "evidence": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Identical ban to Restricted Employees.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5; Schedule (Derivative, Securities)",
+   "detail": "Identical treatment to Restricted Employees: permitted as an ordinary Trade in a Derivative Security, subject to Designated Officer approval (the Chair).",
+   "evidence": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule (Derivative, Securities)",
+   "detail": "Ordinary Employees are not subject to the Prohibited Period, approval/notification, or section 3.8 hedging regime, all of which are expressly limited to Directors and Restricted Employees. A Derivative traded by an ordinary Employee is only subject to the general insider trading prohibition and short-term trading ban.",
+   "evidence": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Absolute ban, not subject to any clearance or exceptional-circumstances route.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.5; 3.8 (by omission)",
+   "detail": "Section 3.8's prohibition is expressly limited to unvested Company Securities; hedging of vested shares is not banned and is treated as an ordinary Trade in a Derivative-type Security requiring prior written approval outside a Prohibited Period.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Identical ban to Restricted Employees.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.5; 3.8 (by omission)",
+   "detail": "Identical to Restricted Employees: not banned once vested, requires ordinary Trade approval.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5; Schedule",
+   "detail": "Not named separately. A prepaid forward or cash-settled swap over vested shares is expressly within the Derivative definition and is treated as an ordinary Trade requiring Designated Officer approval; Directors are subject to the identical rule.",
+   "evidence": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "A monetisation instrument that limits the economic risk of unvested Company Securities is banned as 'other products' under section 3.8.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.5; Schedule (Deal)",
+   "detail": "Not named. A short sale is 'dispos[ing] of Securities' within the Deal definition and so is ordinary Trading requiring Designated Officer approval outside a Prohibited Period; Directors are subject to the identical rule.",
+   "evidence": "to Deal in Securities means to apply for, acquire or dispose of Securities, or enter into an agreement to do any of those things, and Dealing has a corresponding meaning."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule (Deal)",
+   "detail": "Not named. Ordinary Employees face no approval requirement, only the general insider trading prohibition and the short-term trading ban.",
+   "evidence": "to Deal in Securities means to apply for, acquire or dispose of Securities, or enter into an agreement to do any of those things, and Dealing has a corresponding meaning."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not referred to anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.5; Schedule (Derivative)",
+   "detail": "Not named specifically, but a CFD is a 'Derivative' under the s761D reference and so a Security; treated as ordinary Trading requiring approval once vested.",
+   "evidence": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Employees",
+   "security_state": "unvested",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "A CFD used to limit the economic risk of unvested Company Securities falls within the broad 'any Derivatives or other products' language of section 3.8.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Permitted with prior written approval from the Designated Officer; ongoing disclosure of material changes (e.g. LVR movements from drawdowns or price movements) and at least annual disclosure of the amount drawn and securities covered.",
+   "evidence": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Identical regime to Restricted Employees.",
+   "evidence": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "none",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Section 3.7 is expressly limited to Directors and Restricted Employees; ordinary Employees are not required to obtain approval for a margin loan or similar funding arrangement under this Policy.",
+   "evidence": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Granting lenders any rights over Company Securities (i.e. a charge, pledge or other security interest) requires the same prior written approval as a margin loan.",
+   "evidence": "or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Identical regime to Restricted Employees.",
+   "evidence": "or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Not limited to formal margin loans; 'similar funding arrangement' and 'grant lenders any rights' language is broad enough to cover any secured financing over Company Securities, permitted with Designated Officer approval and the section 3.7 disclosure regime.",
+   "evidence": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Identical regime to Restricted Employees.",
+   "evidence": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2",
+   "detail": "Universal prohibition on all Directors and Employees; no carve-out is stated for equity incentive scheme securities.",
+   "evidence": "Directors and Employees must not engage in short term Trading of Company Securities. In general, the acquisition of Securities with a view to resale within a 12 month period and the sale of Securities with a view to repurchase within a 12 month period would be considered to be transactions of a short term nature."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair (or the CEO, if the Director in question is the Chair)",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (who informs the Board)",
+   "post_trade_deadline": "within two business days of the Trade; Directors must also provide sufficient detail within 5 business days for ASX notice filing purposes",
+   "section": "3.5; 3.6",
+   "evidence": "Directors and Restricted Employees must seek prior written approval before undertaking any Trading in Company Securities. ... Any approval for the Trading will be valid for 7 days from the date it is given. ... Directors and Restricted Employees must provide the Company Secretary with subsequent written notification of all Trading in Company Securities within two business days."
+  },
+  {
+   "tier": "Restricted Employees",
+   "type": "approval",
+   "approver": "Company Secretary (or the CEO, if the Restricted Employee in question is the Company Secretary)",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (who informs the Board)",
+   "post_trade_deadline": "within two business days of the Trade",
+   "section": "3.5; 3.6",
+   "evidence": "Directors and Restricted Employees must seek prior written approval before undertaking any Trading in Company Securities. ... Any approval for the Trading will be valid for 7 days from the date it is given."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Designated Officer (the Chair)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary; Board informed at its next meeting",
+   "post_trade_deadline": "promptly on any material change (e.g. LVR movement), and at least annually report the amount drawn and securities covered",
+   "section": "3.7",
+   "evidence": "In order to obtain approval to enter into a margin loan or similar funding arrangement, Directors and Restricted Employees must submit a written request to the Designated Officer and copied to the Company Secretary. ... Approval to enter into a margin loan or similar funding arrangement can be withdrawn if new information comes to light or there is a change in circumstances."
+  },
+  {
+   "tier": "Restricted Employees",
+   "type": "approval",
+   "approver": "Designated Officer (the Company Secretary)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary; Board informed at its next meeting",
+   "post_trade_deadline": "promptly on any material change (e.g. LVR movement), and at least annually report the amount drawn and securities covered",
+   "section": "3.7",
+   "evidence": "In order to obtain approval to enter into a margin loan or similar funding arrangement, Directors and Restricted Employees must submit a written request to the Designated Officer and copied to the Company Secretary."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "intention",
+   "months": 12,
+   "basis": "from acquisition (resale) or from sale (repurchase)",
+   "carve_outs": [],
+   "evidence": "the acquisition of Securities with a view to resale within a 12 month period and the sale of Securities with a view to repurchase within a 12 month period would be considered to be transactions of a short term nature."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Designated Officer",
+   "evidence": "(Severe financial hardship): a pressing financial commitment that can only be satisfied by selling the relevant Company Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Designated Officer",
+   "evidence": "(Court order): a requirement to Trade in Company Securities as a result of: a court order; court enforceable undertakings (eg as part of a bona fide family settlement); or some other overriding legal or regulatory requirement"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Designated Officer",
+   "evidence": "(Other circumstances): any other circumstances considered exceptional by the Designated Officer"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "(Involuntary disposals caused by margin lender) An involuntary disposal of Securities that results from a margin lender or similar financier exercising its rights under a margin loan or similar funding arrangement."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An investment in, or Trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Where the Director or Restricted Employee is a trustee or a director of a corporate trustee, Trading in Company Securities by that trust provided the Director or Restricted Employee is not a beneficiary of the trust and any decision to Trade during a Prohibited Period is taken by the other trustees or directors or by the investment managers independently of the Director or Restricted Employee."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(Accepting a takeover offer) Undertakings to accept, or the acceptance of, a takeover offer, or participation in a scheme of arrangement."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "Board (approves the plan's timing and structure)",
+   "evidence": "Trading under an offer or invitation made to all or most of the Company's security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "(Exercise of options or rights) The exercise (but not the sale of Securities following exercise) of an option or a right under an employee incentive scheme. This exception applies to options and rights granted under an employee incentive scheme before this Policy takes effect."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The exercise (but not the sale of Securities following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise ... falls during a Prohibited Period and the Company has been in an exceptionally long Prohibited Period or the entity has had a number of consecutive Prohibited Periods and the Director or Restricted Employee could not reasonably have been expected to exercise it at a time when free to do so."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "(Transfers into a superannuation fund) Transfers of Company Securities already held into a superannuation fund or other saving scheme in which the Director or Restricted Employee is a beneficiary."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "(Share qualifications) The acquisition of shares by a Director of shares to obtain a share qualification."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors and Restricted Employees; trigger: any material change in their margin loan or similar funding arrangement (e.g. LVR movements from drawdowns or price movements), and at least annually; to: Company Secretary (Board informed at its next meeting); deadline: promptly on the change, and at least annually for amount drawn and securities covered"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "Not set out as a regime, but exception (i) refers to a Director acquiring shares 'to obtain a share qualification', implying some minimum shareholding requirement exists outside this Policy; hedged-share exclusion from any such requirement is not addressed."
+ },
+ "external_documents": [],
+ "exemption_authority": "The Designated Officer (Chair for a Director, CEO for the Chair, Company Secretary for a Restricted Employee, CEO for the Company Secretary, or another Board-appointed officer) may determine that Exceptional Circumstances apply and grant prior written approval to Trade during a Prohibited Period; the discretion is exercised 'with caution' and may be refused without reasons. No broader Board-level general waiver power beyond this is stated.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "collars named as Derivative",
+   "clause": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars.",
+   "why_it_matters": "This is the only policy in this batch to expressly name 'collars' as a covered instrument, removing definitional doubt that a funded equity collar with a bank is a Derivative and hence a Security requiring ordinary Trade approval once vested, not an outright-banned instrument."
+  },
+  {
+   "topic": "hedging ban limited to unvested",
+   "clause": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities.",
+   "why_it_matters": "The absolute hedging/derivatives ban applies only to unvested Company Securities; once shares vest, a collar is not banned at all and is treated as ordinary Trading requiring standard prior written approval, materially more favourable than a blanket hedging ban regardless of vesting."
+  },
+  {
+   "topic": "margin loan approval regime",
+   "clause": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, or grant lenders any rights over their Company Securities without first obtaining prior written approval.",
+   "why_it_matters": "The loan leg secured on the collared shares is not prohibited, only subject to Designated Officer approval, ongoing LVR/drawdown disclosure, and at least annual reporting of amount drawn and securities covered."
+  },
+  {
+   "topic": "forced sale carve-out with residual approval tension",
+   "clause": "An involuntary disposal of Securities that results from a margin lender or similar financier exercising its rights under a margin loan or similar funding arrangement [is permitted during a Prohibited Period]. (Please note that the Policy requirements with respect to prior written approval and subsequent notification continue to apply to Trading under one of these exceptions.)",
+   "why_it_matters": "A lender's enforcement sale on default is excluded from the Prohibited Period ban, but the Policy states prior-approval and notification duties technically continue to apply even to this exception, a practical tension (an involuntary sale cannot easily obtain prior approval) worth clarifying with the Company Secretary before relying on it."
+  },
+  {
+   "topic": "tax liability not exceptional circumstance",
+   "clause": "A tax liability relating to Securities received under an employee incentive scheme would also not normally constitute severe financial hardship or otherwise be considered an exceptional circumstance for the purpose of obtaining proper written approval to sell or otherwise dispose of Securities during a Prohibited Period.",
+   "why_it_matters": "A collar or sale timed specifically to fund tax due on vesting of incentive securities cannot rely on the Exceptional Circumstances gateway to trade inside a Prohibited Period; timing must fall within an open window instead."
+  },
+  {
+   "topic": "7-day clearance validity",
+   "clause": "Any approval for the Trading will be valid for 7 days from the date it is given.",
+   "why_it_matters": "A cleared collar (or its unwind) must be priced and executed within 7 days of Designated Officer approval or the approval lapses and must be sought again."
+  }
+ ],
+ "summary": "A funded collar with a bank is achievable for both Directors and Restricted Employees under this policy, and is one of the more favourable of its kind: the Schedule expressly defines 'Derivative' to include 'collars', and section 3.8's hedging/derivatives ban applies only to unvested Company Securities, so a collar over vested shares is simply an ordinary Trade requiring prior written approval from the Designated Officer (the Chair for a Director, the Company Secretary for a Restricted Employee), outside a Prohibited Period, with approval valid for only 7 days and subsequent notification to the Company Secretary within two business days. The loan leg is separately and expressly permitted: entering a margin loan or similar funding arrangement, or granting lenders any rights over the collared shares, requires only the Designated Officer's prior written approval plus ongoing disclosure of material changes (e.g. LVR movements) and at least annual reporting of the amount drawn and securities covered, with no outright secured-financing ban. A lender's forced sale on enforcement of the loan is excluded from the Prohibited Period restriction, though the Policy's own wording states that prior-approval and notification duties technically continue to apply to that exception, a tension worth clarifying with the Company Secretary. One important limitation: a tax liability arising from vesting of incentive securities is expressly stated not normally to constitute an Exceptional Circumstance, so a collar or sale timed to fund such a tax liability cannot rely on that gateway to trade inside a Prohibited Period."
+}
