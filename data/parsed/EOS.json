@@ -1,0 +1,407 @@
+{
+ "symbol": "EOS",
+ "company": "Electro Optic Systems Holdings Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "5 September 2025",
+ "date_effective": "September 2025",
+ "date_lodged": "10 September 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Relevant Persons",
+   "kind": "all_staff",
+   "description": "All Directors, officers, Key Management Personnel, employees and contractors of the Group, their family and Associates. Only part 2 (insider trading laws) and part 7 (confidentiality) apply to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "kmp",
+   "description": "All Directors, officers and other Key Management Personnel of the Group, and any other persons designated by the Board from time to time (which may include all employees and contractors). The whole trading policy (Prohibited Periods, prior notification, permitted dealings, further restrictions) applies to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates of Designated Persons",
+   "kind": "associate",
+   "description": "Close family members (spouse, partners, dependent children), trusts, companies, nominees and other persons over whom a Designated Person has or may be expected to have control or influence. The policy applies to Associates except for paragraphs 3.2 to 3.4 (prior notification, confirmation and notification of dealing); the Designated Person must inform Associates of the policy and communicate with the Notification Officer on their behalf.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "enter into transactions or arrangements (e.g. a derivative) with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: has not vested; or has vested but remains subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "Associates of Designated Persons"],
+   "start_anchor": "31 December",
+   "end_anchor": "close of trading on the business day after the Company's annual results are announced to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "Associates of Designated Persons"],
+   "start_anchor": "30 June",
+   "end_anchor": "close of trading on the business day after the Company's half year results are announced to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "Associates of Designated Persons"],
+   "start_anchor": "last day of each quarter",
+   "end_anchor": "close of trading on the business day after the quarterly business activity report and cashflow report are announced to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "Associates of Designated Persons"],
+   "start_anchor": "one month before the Company's annual general meeting",
+   "end_anchor": "close of trading on the business day after the annual general meeting",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "Associates of Designated Persons"],
+   "start_anchor": "one month before a prospectus or similar disclosure document is lodged by the Company with ASX",
+   "end_anchor": "lodgement of the prospectus or disclosure document",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Any extension to a closed period, and any additional period, as specified by the Board of the Company. Confidentiality of such extensions is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(a)",
+   "detail": "Designated Persons and closely related parties must not enter into any derivative transaction or arrangement that could limit their exposure to risk on remuneration that has not vested.",
+   "evidence": "enter into transactions or arrangements (e.g. a derivative) with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: has not vested"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(a)",
+   "detail": "The same ban extends to remuneration securities that have vested but remain subject to a holding lock.",
+   "evidence": "has vested but remains subject to a holding lock"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(b); 3.2-3.4",
+   "detail": "Designated Persons must not deal at any time in Financial Products associated with the Company's Securities except for the type of dealing permitted by law or under this policy; a derivative over vested, unrestricted securities is therefore only permitted as a cleared dealing under the standard prior notification/confirmation process and outside Prohibited Periods.",
+   "evidence": "deal at any time in Financial Products associated with the Company’s Securities, except for the type of dealing permitted by law or under this policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(a)",
+   "detail": "Absolute ban on hedging arrangements limiting exposure to risk on unvested remuneration securities.",
+   "evidence": "enter into transactions or arrangements (e.g. a derivative) with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: has not vested"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(a)",
+   "detail": "Hedging ban also applies to vested remuneration securities that remain subject to a holding lock.",
+   "evidence": "has vested but remains subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.3(b); 3.2-3.4",
+   "detail": "Hedging of fully vested, unrestricted securities is not separately named once the holding lock and vesting condition no longer apply; it falls under the general restriction on dealing in Financial Products, requiring the standard notification/confirmation process.",
+   "evidence": "deal at any time in Financial Products associated with the Company’s Securities, except for the type of dealing permitted by law or under this policy."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.3(a)",
+   "detail": "Monetisation is not named, but a structure that limits exposure to risk on unvested remuneration falls within the 6.3(a) hedging ban.",
+   "evidence": "enter into transactions or arrangements (e.g. a derivative) with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: has not vested"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.3(b); 3.2-3.4",
+   "detail": "Not named; a prepaid forward or similar monetisation over vested, unrestricted securities is a Financial Product dealing and so only permitted as a cleared dealing under the standard process.",
+   "evidence": "deal at any time in Financial Products associated with the Company’s Securities, except for the type of dealing permitted by law or under this policy."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Outright ban on short selling of the Company's Securities.",
+   "evidence": "Designated Persons are not permitted to engage in short selling of the Company’s Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy or the Financial Products/dealing definitions.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(b); Schedule 1 (Financial Products)",
+   "detail": "Contracts for difference are expressly listed as Financial Products issued or created over Company Securities; dealing in them is restricted to permitted dealing types under 6.3(b), i.e. via the standard clearance process, and is also subject to the short-term/speculative trading ban.",
+   "evidence": "Financial Products include derivatives, options, warrants, futures, forward contracts, swaps and contracts for difference issued or created over or associated with Company Securities by third parties"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Outright ban on margin lending arrangements in relation to the Company's Securities, on the grounds that such arrangements' terms may require a forced sale during a Prohibited Period or while holding inside information.",
+   "evidence": "Designated Persons are not permitted to enter into margin lending arrangements in relation to the Company’s Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "The margin lending ban does not extend to other funding arrangements where the Company's Securities may be included as security; encumbering shares to support a non-margin-loan facility is not prohibited. Designated Persons should consult the Company Secretary if uncertain whether an arrangement is a margin lending arrangement.",
+   "evidence": "This restriction does not extend to other funding arrangements where the Company’s Securities may be included as security. Designated Persons should consult the Company Secretary if they are uncertain as to whether an arrangement should be classified as a margin lending arrangement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Only margin lending arrangements are banned; a loan secured on Company Securities that is not a margin lending arrangement is expressly not restricted by 6.1, subject to consulting the Company Secretary on classification and to the general insider trading and Financial Products dealing rules for any resulting dealing.",
+   "evidence": "This restriction does not extend to other funding arrangements where the Company’s Securities may be included as security."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "No short term or speculative trading in the Company's Securities or in derivative or other Financial Products associated with them; short term is defined as less than a 6 month period.",
+   "evidence": "Designated Persons must not engage in short term or speculative trading in the Company’s Securities or in derivative or other Financial Products associated with the Company’s Securities. Short term means in less than a 6 month period."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Applicable Notification Officer(s): Chair of the Audit & Risk Committee and CEO (or CFO) for the Chair of the Board; Chair of the Board and CEO (or CFO) for other Directors; Chair of the Board, Chair of the Audit & Risk Committee and CFO (or Company Secretary) for the CEO; CEO and CFO (or Company Secretary) for other Designated Persons",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "the relevant Notification Officer and the Company Secretary",
+   "post_trade_deadline": "within three business days from when the dealing occurred",
+   "section": "3.2-3.4; Schedule 2",
+   "evidence": "A confirmation ... (iii) lapses immediately if the applicant acquires Inside Information ... (v) expires five days from its date, unless it specifies a different expiry date and (vi) may be withdrawn if new information comes to light or there is a change in circumstances."
+  },
+  {
+   "tier": "Associates of Designated Persons",
+   "type": "not_addressed",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.7",
+   "evidence": "This policy also applies to Associates of Designated Persons, except for paragraphs 3.2 to 3.4 regarding prior notification, confirmation and notification of dealing."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "Designated Persons must not engage in short term or speculative trading in the Company’s Securities or in derivative or other Financial Products associated with the Company’s Securities. Short term means in less than a 6 month period."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertaking to accept, or accepting, an offer for Company Securities made under a takeover bid or disposing of Company Securities under a court-approved compromise or arrangement under Part 5.1 of the Corporations Act"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the securityholders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Company’s Board."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of the Company’s Securities that is the result of a secured lender exercising their rights, however, this does not extend to disposal under a margin lending agreement where such agreements are prohibited by this policy"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of the Company’s Securities following exercise) of an option or right, under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise ... falls during a Prohibited Period and the Company has been in an exceptionally long Prohibited Period"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-determined trading plan for which prior written clearance has been provided ... the trading plan does not permit the Designated Person to exercise any influence or discretion over how, when, or whether to trade."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquiring the Company’s Securities under the terms of the Company’s dividend reinvestment plan where the Designated Person did not enter into the plan or amend their participation in the plan during a Prohibited Period"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading the Company’s Securities where the trading results in no change in beneficial interest in the Company’s Securities. However, the requirements of paragraphs 3.2 to 3.4 must be complied with."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transactions between an individual and a close family member or civil partner for which prior written clearance has been provided in accordance with procedures set out in this policy"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "cancellation of the Company’s Securities as a result of failure to vest or other forfeiture of securities received by individuals as part of performance based remuneration"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "vesting (but not subsequent sale) of the Company’s Securities as a result of meeting performance hurdles or release of the Company’s Securities from holding lock or holding term in respect of securities received by individuals as part of performance-based remuneration"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chair (or CEO where the Chair is involved) may determine 'other exceptional circumstances' warranting a confirmation to deal during a Prohibited Period, in addition to severe financial hardship and court orders; the Notification Officer retains discretion to grant confirmation for other circumstances it considers warrant one, exercised with caution.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "margin lending vs other secured funding",
+   "clause": "Designated Persons are not permitted to enter into margin lending arrangements in relation to the Company’s Securities... This restriction does not extend to other funding arrangements where the Company’s Securities may be included as security.",
+   "why_it_matters": "A bank loan secured on the collared shares is not a 'margin lending arrangement' and is expressly carved out of the only financing prohibition in the policy, but the executive should have the Company Secretary confirm the classification before entering the facility."
+  },
+  {
+   "topic": "financial products dealing restricted to permitted types",
+   "clause": "deal at any time in Financial Products associated with the Company’s Securities, except for the type of dealing permitted by law or under this policy.",
+   "why_it_matters": "The put and call legs of the collar are Financial Products, so they can only be entered as a dealing that fits the standard notification/confirmation process or a Part 5 exception, not as an unrestricted OTC trade even outside a Prohibited Period."
+  },
+  {
+   "topic": "hedging ban extends to holding-locked vested shares",
+   "clause": "has vested but remains subject to a holding lock",
+   "why_it_matters": "Shares that have technically vested but remain under a holding lock are treated the same as unvested shares for hedging purposes, narrowing the pool of shares eligible for the collar to fully unrestricted vested holdings."
+  },
+  {
+   "topic": "lender enforcement carve-out excludes margin loans",
+   "clause": "a disposal of the Company’s Securities that is the result of a secured lender exercising their rights, however, this does not extend to disposal under a margin lending agreement where such agreements are prohibited by this policy",
+   "why_it_matters": "If the bank enforces its security and force-sells the collared shares, that disposal is an excluded dealing outside the confirmation process only because the facility is not classified as margin lending; correct structuring of the loan is therefore load-bearing for exit mechanics."
+  },
+  {
+   "topic": "confirmation validity window",
+   "clause": "A confirmation ... expires five days from its date, unless it specifies a different expiry date.",
+   "why_it_matters": "Collar execution and documentation with the bank must be completed within the five business day clearance window (or a longer window if the Notification Officer specifies one), or fresh clearance must be sought."
+  }
+ ],
+ "summary": "A funded collar is achievable in principle but only over vested Company Securities that are no longer subject to a holding lock, since 6.3(a) bans any arrangement limiting economic risk on unvested or holding-locked remuneration securities outright. Over eligible vested shares, the put and call legs are Financial Products dealings that require prior written notification to, and confirmation from, the applicable Notification Officer (the specific officer depending on whether the individual is the Chair, another Director, the CEO, or another Designated Person), executed within the confirmation's five-day validity, outside the periodic and ad hoc Prohibited Periods and without Inside Information. The loan leg secured on the collared shares is not a prohibited margin lending arrangement; 6.1 expressly permits other funding arrangements using the shares as security, though the Company Secretary should confirm this classification before the facility is entered. A lender's enforcement sale is an excluded dealing outside the confirmation process, but only because it is not a margin loan; short-term or speculative trading (under six months) and short selling are separately and absolutely prohibited, so collar tenor should be set with that floor in mind."
+}
