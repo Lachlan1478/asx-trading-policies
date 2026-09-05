@@ -1,0 +1,473 @@
+{
+ "symbol": "ILU",
+ "company": "Iluka Resources Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "19 August 2025",
+ "date_effective": "19 August 2025",
+ "date_lodged": "20 August 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors and employees",
+   "kind": "all_staff",
+   "description": "All Directors and employees of the Company and its subsidiaries. The general insider trading prohibition, the reputation test, the section 3.2(a) ban on economic-risk-limiting transactions over unvested/holding-locked securities, the short-selling ban, and the 12-month short-term trading rule apply to this tier without differentiation.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and Restricted Employees",
+   "kind": "restricted",
+   "description": "Directors and Restricted Employees (the Executive; employees involved in preparing statutory financial information; and any other employee designated by the Company Secretary and approved by the Managing Director and CEO). Subject to Closed Periods, the Exceptional Circumstances exception, and mandatory prior written clearance for every trade.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Distinguished only for the clearance approver: the Chairman obtains approval from the Chairman of the Audit and Risk Committee; any other Director obtains approval from the Chairman.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel (KMP)",
+   "kind": "kmp",
+   "description": "Subject to an absolute, permanent ban on using Company securities as collateral in any financial transaction, including margin lending arrangements.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "An associate, nominee or agent of a Director or employee: family members who may influence or be influenced by them (spouse, partner, children or dependants), or a company or other entity the Director or employee can control. May only deal in circumstances where the connected Director or employee would themselves be permitted to deal, including obtaining clearance.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a transaction (e.g. a derivative) that operates or is intended to operate to limit the economic risk of holdings",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Restricted Employees"],
+   "start_anchor": "end of the March quarter",
+   "end_anchor": "1 business day after release of the quarterly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Restricted Employees"],
+   "start_anchor": "end of the September quarter",
+   "end_anchor": "1 business day after release of the quarterly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Restricted Employees"],
+   "start_anchor": "end of the half financial year",
+   "end_anchor": "1 business day after release of the half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Restricted Employees"],
+   "start_anchor": "end of the financial year",
+   "end_anchor": "1 business day after release of the annual results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify an Additional Closed Period from time to time. Directors and Restricted Employees must not disclose to anyone that an Additional Closed Period is in effect.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors and employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(a)",
+   "detail": "Absolute, permanent ban on entering a transaction (e.g. a derivative) that operates or is intended to operate to limit the economic risk of unvested holdings; no clearance route.",
+   "evidence": "Directors and employees must not at any time enter into a transaction (e.g. a derivative) that operates or is intended to operate to limit the economic risk of holdings of unvested Company securities or vested Company securities which are subject to a holding lock."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors and employees",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(a)",
+   "detail": "Same absolute ban extends to vested securities that remain subject to a holding lock.",
+   "evidence": "Directors and employees must not at any time enter into a transaction (e.g. a derivative) that operates or is intended to operate to limit the economic risk of holdings of unvested Company securities or vested Company securities which are subject to a holding lock."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.5; 6.1",
+   "detail": "Section 3.2(a) does not reach vested, unrestricted holdings. Securities is defined to include 'any other instrument or derivative in respect of the Company', so an OTC derivative is itself a security and dealing in it requires prior written clearance like any other trade.",
+   "evidence": "A reference in this Policy to \"securities\" includes: shares; debentures; rights; options; warrants; exchange-traded options; contracts for difference; any other instrument or derivative in respect of the Company on issue from time to time."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors and employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.1; 6.1",
+   "detail": "For employees who are not Directors or Restricted Employees, there is no formal clearance requirement; dealing in a derivative over vested, unrestricted holdings is only subject to the general prohibition on dealing while in possession of inside information.",
+   "evidence": "Directors and employees of the Company must not buy or sell securities in the Company when: they are in possession of inside information."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(a)",
+   "detail": "This clause is the policy's own hedging provision; it expressly names derivatives as an example of a risk-limiting transaction and bans it outright over unvested holdings.",
+   "evidence": "Directors and employees must not at any time enter into a transaction (e.g. a derivative) that operates or is intended to operate to limit the economic risk of holdings of unvested Company securities or vested Company securities which are subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and employees",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(a)",
+   "detail": "Same absolute ban applies while a holding lock remains in place.",
+   "evidence": "vested Company securities which are subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.5; 6.1",
+   "detail": "Once vested and unrestricted, a hedge is only an ordinary dealing in a security (the derivative) requiring prior clearance.",
+   "evidence": "any other instrument or derivative in respect of the Company on issue from time to time"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "3.2(a)",
+   "detail": "Monetisation is not named, but a structure that operates to limit the economic risk of an unvested holding falls within the 3.2(a) ban.",
+   "evidence": "operates or is intended to operate to limit the economic risk of holdings of unvested Company securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.5; 6.1",
+   "detail": "A monetisation structure over vested, unrestricted holdings is caught only as a dealing in a security/derivative and requires prior clearance.",
+   "evidence": "any other instrument or derivative in respect of the Company on issue from time to time"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.1",
+   "detail": "Absolute ban, expressly defined and named; no clearance route or vesting distinction.",
+   "evidence": "Directors and employees must not engage in short-selling of the Company's securities. Short-selling involves borrowing and selling securities in the hope that they can be bought back at a lower price in the future to close out the short position at a profit."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending (acting as lender) is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(a); 6.1",
+   "detail": "Contracts for difference are expressly named as a 'security'; a CFD referencing the Company's shares to limit economic risk of an unvested holding is banned outright.",
+   "evidence": "contracts for difference; any other instrument or derivative in respect of the Company on issue from time to time"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.5; 6.1",
+   "detail": "A CFD over vested, unrestricted holdings is an ordinary dealing in a named security type and requires prior written clearance.",
+   "evidence": "contracts for difference"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Key Management Personnel (KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(b)",
+   "detail": "Absolute, permanent ban for KMP, expressly naming margin lending arrangements, with no vesting distinction and no clearance route.",
+   "evidence": "Key Management Personnel (KMP) must not at any time enter into a transaction that involves using Company securities as collateral in any financial transaction, including margin lending arrangements."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.2(b)",
+   "detail": "The express ban in 3.2(b) is limited to KMP. For non-KMP Directors and employees, margin lending is not separately regulated; granting security without a change of beneficial ownership may not be captured by the 'deal' definition in 6.2 at all.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Key Management Personnel (KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(b)",
+   "detail": "Using Company securities as collateral in any financial transaction is banned outright for KMP at any time, not limited to margin loans.",
+   "evidence": "Key Management Personnel (KMP) must not at any time enter into a transaction that involves using Company securities as collateral in any financial transaction, including margin lending arrangements."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.2(b)",
+   "detail": "No express provision addresses granting a charge, lien or pledge for non-KMP Directors and employees; the 'deal' definition (6.2) does not obviously capture encumbering securities without a change of ownership.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Key Management Personnel (KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2(b)",
+   "detail": "The ban covers 'any financial transaction' using Company securities as collateral, which is broader than margin loans and would catch a bespoke bank loan secured on the collared shares. Applies permanently, regardless of vesting.",
+   "evidence": "using Company securities as collateral in any financial transaction, including margin lending arrangements"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.2(b)",
+   "detail": "Secured financing generally is not addressed for non-KMP Directors and employees; only KMP are expressly banned. A secured loan over a non-KMP's vested, unrestricted shares is not clearly caught by the 'deal' definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.1",
+   "detail": "Selling within 12 months of acquisition requires prior written clearance under the section 2.5 process; not an absolute ban. Selling shares within 12 months of vesting under an equity plan is expressly carved out and is not treated as short-term.",
+   "evidence": "Any proposed sale of Company securities less than 12 months after their acquisition must receive prior written clearance in accordance with the procedures set out in Section 2.5 of this Policy."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman of the Audit and Risk Committee (for the Chairman); the Chairman (for any other Director)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as reasonably practicable, and in any event by close of business on the following business day after the transaction",
+   "section": "2.5",
+   "evidence": "the Chairman must inform the Company Secretary and obtain the written approval of the Chairman of the Audit and Risk Committee before dealing; any Director must inform the Company Secretary and obtain the written approval of the Chairman before dealing. ... Directors or Restricted Employees given clearance to trade must trade no more than two (2) business days from clearance being received."
+  },
+  {
+   "tier": "Restricted Employees",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as reasonably practicable, and in any event by close of business on the following business day after the transaction",
+   "section": "2.5",
+   "evidence": "Restricted Employees and, where applicable, all other employees, must inform and obtain the written approval of the Company Secretary before dealing. ... The approver is not obliged to provide reasons for any aspect of their decision, and may revoke their approval at any time. If a request is not approved or an approval is revoked, that fact must be kept confidential."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 12,
+   "basis": "from acquisition",
+   "carve_outs": [
+    "Selling securities received following the vesting of entitlements under an employee, executive or Director equity plan within 12 months of the vesting date is not a short-term dealing."
+   ],
+   "evidence": "Directors and employees must not engage in short-term trading of Company securities (i.e. buy and sell within a 12 month period) without prior written approval."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of Company securities by a Director or employee into a superannuation fund or trust in which the Director or employee is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Director or employee did not enter into the plan or amend the plan during a Closed Period, the plan does not permit the Director or employee to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a Closed Period, other than in exceptional circumstances"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Company securities arising from the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "a disposal of rights, or an acquisition of Company securities, under a pro rata issue"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan or share purchase plan available to all retail shareholders"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Company securities under an employee, executive or director incentive or share matching scheme"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman of the Audit and Risk Committee / Chairman / Company Secretary (per section 2.5)",
+   "evidence": "A Director or Restricted Employee, who is not in possession of inside information in relation to Company securities, may be given clearance to sell (but not buy) Company securities during a Closed Period if there are exceptional circumstances. Exceptional circumstances may include: (a) where the Director or Restricted Employee is in severe financial hardship."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chairman of the Audit and Risk Committee / Chairman / Company Secretary (per section 2.5)",
+   "evidence": "the existence of a court order or enforceable undertaking, or some other overriding legal or regulatory requirement"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Under 2.4, the Chairman of the Audit and Risk Committee, the Chairman, or the Company Secretary (per the 2.5 approval chain) may grant a sale-only clearance during a Closed Period for severe financial hardship, a court order or enforceable undertaking, or another overriding legal or regulatory requirement, on sufficient evidence. The Section 4 exclusions and the 2.4 exceptional-circumstances process apply only to Sections 2.3 (Closed Period), 2.5 (clearance) and 3.1 (short-term trading); no exemption authority is provided anywhere from the Section 3.2 bans on economic-risk-limiting transactions over unvested/holding-locked securities or on KMP using securities as collateral.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "vesting-gated derivatives/hedging ban",
+   "clause": "Directors and employees must not at any time enter into a transaction (e.g. a derivative) that operates or is intended to operate to limit the economic risk of holdings of unvested Company securities or vested Company securities which are subject to a holding lock.",
+   "why_it_matters": "The put/call legs of a collar are absolutely banned, with no clearance route, only while the underlying shares are unvested or holding-locked. Once vested and unrestricted, the same transaction is merely an ordinary 'dealing' in a security (since the Securities definition expressly includes derivatives and CFDs) requiring prior written clearance for Directors and Restricted Employees."
+  },
+  {
+   "topic": "KMP-specific permanent collateral ban",
+   "clause": "Key Management Personnel (KMP) must not at any time enter into a transaction that involves using Company securities as collateral in any financial transaction, including margin lending arrangements.",
+   "why_it_matters": "For a KMP, the secured loan leg of a funded collar is banned permanently and unconditionally, regardless of vesting status, with no clearance route and no exclusion under Section 4 (which only carves out Sections 2.3, 2.5 and 3.1, not 3.2). This blocks a funded collar for KMP even over long-vested, unrestricted shares."
+  },
+  {
+   "topic": "non-KMP financing gap",
+   "clause": "Section 3.2(b) applies only to Key Management Personnel; no equivalent express provision restricts non-KMP Directors or employees from granting security over their Company securities.",
+   "why_it_matters": "For a Director or employee who is not KMP, the secured loan leg of a collar is not expressly prohibited by this Policy, and pledging shares (without a change of beneficial ownership) may fall outside the 'deal' definition altogether, making a funded collar structurally more feasible for that population, subject to legal confirmation."
+  },
+  {
+   "topic": "secured lender enforcement carve-out",
+   "clause": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement [is excluded from the operation of Sections 2.3, 2.5 and 3.1].",
+   "why_it_matters": "A bank's enforcement sale on default is expressly excluded from the Closed Period ban, the clearance requirement and the 12-month short-term trading rule, which materially de-risks the bank's ability to enforce security over a non-KMP borrower's shares."
+  },
+  {
+   "topic": "confidential additional closed periods",
+   "clause": "Directors and Restricted Employees must not disclose to anyone that an Additional Closed Period is in effect.",
+   "why_it_matters": "An undisclosed, Board-imposed blackout can arise at any time and cannot be revealed even to a transacting counterparty, adding execution-timing risk to entering, adjusting or unwinding a collar."
+  },
+  {
+   "topic": "short clearance window",
+   "clause": "Directors or Restricted Employees given clearance to trade must trade no more than two (2) business days from clearance being received, otherwise the approval is no longer effective and fresh approval must be sought.",
+   "why_it_matters": "Collar execution must occur within 2 business days of clearance, and the approver may revoke clearance at any time beforehand without giving reasons, so timing needs to be tightly coordinated with the bank counterparty."
+  }
+ ],
+ "summary": "For Key Management Personnel, a funded collar is not possible: section 3.2(b) permanently and unconditionally bans using Company securities as collateral in any financial transaction (including margin lending), with no vesting distinction, no clearance route and no exclusion, so the secured loan leg cannot be implemented even though the derivative legs would become clearance-gated once the shares vest and any holding lock lifts. For Directors and Restricted Employees who are not KMP, the position is more favourable: the section 3.2(a) ban on risk-limiting transactions applies only while the shares are unvested or holding-locked, and once vested and unrestricted, both a put and a call are simply 'securities' (the definition expressly includes derivatives and contracts for difference) requiring ordinary prior written clearance, to be executed within 2 business days and outside Closed Periods. Secured financing is not expressly regulated for non-KMP personnel at all, and a lender's enforcement sale on default is expressly excluded from the Closed Period, clearance and short-term trading rules, which supports the bank's ability to rely on its security. Ordinary employees who are neither Directors, Restricted Employees nor KMP face only the general insider-trading prohibition and the unvested/holding-locked derivatives ban, with no formal clearance system for other dealings. Overall, a funded collar over fully vested, unrestricted shares held by a non-KMP Director or employee appears structurally achievable subject to timely clearance and window management, but is squarely blocked for any KMP."
+}

@@ -1,0 +1,474 @@
+{
+ "symbol": "SUL",
+ "company": "Super Retail Group Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "18 May 2023",
+ "date_lodged": "18 May 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Team Members",
+   "kind": "all_staff",
+   "description": "All directors, officers and employees of the Group and any contractor or consultant whose terms of engagement with the Group apply this Policy to them.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors of the Company, members of the Executive Leadership Team and the Company Secretary, and any other person advised in writing that they are a Designated Person. Subject to Trading Window approval, margin lending prohibition and Connected Party obligations.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "Sub-group of Designated Persons distinguished only for clearance: approved by the Chair of the Audit and Risk Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors (other than the Chair of the Board)",
+   "kind": "director",
+   "description": "Sub-group of Designated Persons distinguished only for clearance: approved by the Chair of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons (other than the Directors and the Company Secretary)",
+   "kind": "kmp",
+   "description": "ELT members and other notified Designated Persons, distinguished only for clearance: approved by the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Company Secretary",
+   "kind": "other",
+   "description": "Distinguished only for clearance: approved by the Group Managing Director and Chief Executive Officer.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Parties",
+   "kind": "associate",
+   "description": "A Designated Person's family members who may influence or be influenced by them, and companies or entities the Designated Person can control (including family trusts or superannuation funds where they are trustee or beneficiary).",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding the Company's securities.",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "first trading day after the Company's half yearly results are announced to ASX",
+   "end_anchor": "20 business days after that trading day",
+   "duration_days": 20
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "first trading day after the Company's full year results are announced to ASX",
+   "end_anchor": "20 business days after that trading day",
+   "duration_days": 20
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "first trading day after the Company's annual general meeting",
+   "end_anchor": "20 business days after that trading day",
+   "duration_days": 20
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "a prospectus, cleansing notice or similar disclosure document is lodged with ASIC",
+   "end_anchor": "the document ceases to be open for acceptances",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board or the Company Secretary (or their delegates) has discretion not to open a Trading Window, or to impose an additional blackout period during a Trading Window. If a dealing request is refused or an approval revoked, that fact must be kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Team Members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6",
+   "detail": "No express derivatives rule. 'Deal' is described (in the insider trading section) as including exercising options over securities, so an OTC put/call would be a dealing, but ordinary Team Members are not subject to a clearance or Trading Window regime -- only the insider trading, front page test and short-term/speculative dealing rules apply.",
+   "evidence": "buy or sell securities in a company, or enter in an agreement to buy or sell securities, or exercise options over securities, or otherwise apply for, acquire or dispose of securities (deal)"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1; 4.4",
+   "detail": "No express derivatives rule, but 'deal' extends to exercising options over securities, and Designated Persons may only deal (in or outside a Trading Window) with prior written approval from the relevant Approval Officer.",
+   "evidence": "Designated Persons may only deal in the Company's securities during the following Trading Windows if they apply for and receive prior approval for the proposed dealing"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Absolute ban on hedging equity-plan securities before they vest, applying to all Team Members including Designated Persons.",
+   "evidence": "Company securities acquired under an employee, executive or director equity plan operated by the Company must never be hedged prior to vesting."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Absolute ban on hedging plan securities that are vested but still subject to a plan holding lock or dealing restriction.",
+   "evidence": "Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan operated by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Team Members",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.3; 3.4",
+   "detail": "Once vested and free of any holding lock, hedging is not itself named as prohibited; it is only caught as an ordinary dealing, subject to the insider trading and short-term/speculative dealing rules, with no clearance requirement for non-Designated Team Members.",
+   "evidence": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding the Company's securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1; 4.4",
+   "detail": "Once vested and unrestricted, hedging is treated as an ordinary dealing requiring prior written approval and confinement to a Trading Window.",
+   "evidence": "Designated Persons may only deal in the Company's securities during the following Trading Windows if they apply for and receive prior approval for the proposed dealing"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Team Members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6",
+   "detail": "Monetisation (e.g. a prepaid forward) is not named. It would fall within 'enter in an agreement to buy or sell securities', a dealing, but non-Designated Team Members face no clearance regime, only the general dealing restrictions.",
+   "evidence": "enter in an agreement to buy or sell securities, or exercise options over securities, or otherwise apply for, acquire or dispose of securities (deal)"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1; 4.4",
+   "detail": "Monetisation is not named; caught as a dealing requiring prior written approval and confinement to a Trading Window.",
+   "evidence": "Designated Persons may only deal in the Company's securities during the following Trading Windows if they apply for and receive prior approval for the proposed dealing"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "Outright ban on short selling for all Team Members, framed as part of the ban on speculative dealing.",
+   "evidence": "Team Members must also not deal in the Company's securities on a speculative basis, including short‐selling."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and is not covered by the description of 'deal' used for the insider trading rules.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.3",
+   "detail": "CFDs are not named, but the ban on dealing 'on a speculative basis' would in substance catch a CFD referencing the Company's securities, especially given the Policy's stated substance-over-form approach.",
+   "evidence": "Team Members must also not deal in the Company's securities on a speculative basis, including short‐selling."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6",
+   "detail": "Designated Persons may not enter a margin lending arrangement over Company securities or transfer Company securities into an existing margin loan account. Not expressed to extend to other Team Members.",
+   "evidence": "Designated Persons must not enter into a margin lending arrangement in respect of the Company's securities or transfer securities in the Company into an existing margin loan account."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Team Members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The margin lending prohibition in 4.6 is expressed to apply only to Designated Persons; it is silent for other Team Members.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or pledge over Company securities generally (outside a margin lending arrangement) is not named and is not captured by the description of 'deal'.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Only 'margin lending arrangements' and transfers into 'an existing margin loan account' are prohibited (4.6); a broader secured financing arrangement not structured as a margin loan is not expressly addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "Objective ban on buying and selling on market within 3 months, and on entering 'other short term dealings' such as forward contracts, for all Team Members. Carve-out for selling vested plan shares within 3 months of vesting.",
+   "evidence": "Short‐term trading includes buying and selling securities on market within a 3 month period, and entering into other short term dealings (for example, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "4.4; 4.5",
+   "evidence": "Written confirmation that approval has been provided by the Approval Officer must be provided before a Designated Person deals in the Company's securities."
+  },
+  {
+   "tier": "Directors (other than the Chair of the Board)",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "4.4; 4.5",
+   "evidence": "Written confirmation that approval has been provided by the Approval Officer must be provided before a Designated Person deals in the Company's securities."
+  },
+  {
+   "tier": "Designated Persons (other than the Directors and the Company Secretary)",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "4.4; 4.5",
+   "evidence": "Written confirmation that approval has been provided by the Approval Officer must be provided before a Designated Person deals in the Company's securities."
+  },
+  {
+   "tier": "Company Secretary",
+   "type": "approval",
+   "approver": "Group Managing Director and Chief Executive Officer",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "4.4; 4.5",
+   "evidence": "Written confirmation that approval has been provided by the Approval Officer must be provided before a Designated Person deals in the Company's securities."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "on market, from acquisition",
+   "carve_outs": [
+    "Selling shares received on vesting of awards under an employee, executive or director equity plan within 3 months of the vesting date is not a short-term dealing."
+   ],
+   "evidence": "Short‐term trading includes buying and selling securities on market within a 3 month period, and entering into other short term dealings (for example, forward contracts)."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Approval Officer",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Approval Officer",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by the Company. However, where securities in the Company granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a share purchase plan available to all retail shareholders; acquisition of Company securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Company securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy‐back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Company securities already held into a superannuation fund or trust of which the Team Member is a beneficiary)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre‐approved non‐discretionary trading plan, where the Team Member did not enter into the plan or amend the plan during a blackout period, the plan does not permit the Team Member to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a blackout period, other than in exceptional circumstances"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The relevant Approval Officer (Chair of the Audit and Risk Committee, Chair of the Board, Company Secretary or the CEO, per the table in 4.4) may approve dealing during a blackout period in exceptional circumstances such as severe financial hardship or compulsion by court order (4.3); the Approval Officer need not give reasons, may impose conditions, and may revoke approval at any time (4.4(c)), and any refusal or revocation is kept confidential.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured lender exclusion",
+   "clause": "a disposal of securities of the Company that is the result of a secured lender exercising their rights [is an Excluded Dealing not subject to sections 3.3, 4.1 and 4.2]",
+   "why_it_matters": "The bank's enforcement sale on default is excluded from both the short-term dealing ban and the Trading Window/blackout restriction, so it is not blocked by a closed window."
+  },
+  {
+   "topic": "margin loan limited scope",
+   "clause": "Designated Persons must not enter into a margin lending arrangement in respect of the Company's securities or transfer securities in the Company into an existing margin loan account.",
+   "why_it_matters": "The ban is confined to margin lending and margin loan accounts; a bespoke pledge-secured loan not structured or documented as a margin loan is not expressly captured, though the Policy's substance-over-form approach could still be invoked against it."
+  },
+  {
+   "topic": "forward contract as short-term dealing",
+   "clause": "Short‐term trading includes buying and selling securities on market within a 3 month period, and entering into other short term dealings (for example, forward contracts).",
+   "why_it_matters": "A collar (paired forward-like derivative positions) risks being characterised as a prohibited 'other short term dealing' irrespective of the 3-month on-market test, so structuring and tenor should be cleared with the Company Secretary in advance."
+  },
+  {
+   "topic": "clearance revocable and confidential",
+   "clause": "The Approval Officer is not obliged to provide reasons for any aspect of their decision, and may revoke their approval at any time. If a request is not approved or an approval is revoked, that fact must be kept confidential.",
+   "why_it_matters": "A cleared collar could be revoked without reasons before execution, so the bank cannot treat clearance as final until both legs are signed within the validity window."
+  },
+  {
+   "topic": "5 business day validity",
+   "clause": "the approved dealing must occur within 5 business days following approval (or such other time specified in the approval), otherwise the approval is no longer effective and fresh approval must be sought.",
+   "why_it_matters": "Pricing and execution of both collar legs must complete within 5 business days of approval or a fresh clearance application is required."
+  },
+  {
+   "topic": "front page test",
+   "clause": "Where any approval is required for a dealing under this Policy, approval will not be granted where the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "A publicised leveraged hedge around an executive's shareholding could be refused on reputational grounds even where otherwise compliant."
+  },
+  {
+   "topic": "connected parties",
+   "clause": "Designated Persons must take appropriate steps to ensure that their Connected Parties only deal in securities in circumstances where the Designated Person to whom they are connected would be permitted to deal under this Policy.",
+   "why_it_matters": "Routing the collar or loan through a spouse, family trust or controlled entity does not avoid the Trading Window, margin-lending or hedging restrictions."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted shares appears workable for Designated Persons (directors, ELT, the Company Secretary and other notified persons) subject to prior written approval from the applicable Approval Officer, confined to an open Trading Window, and executed within 5 business days of approval. Hedging is only expressly banned while shares are unvested or subject to a plan holding lock; once vested and unrestricted, entering into the put/call is an ordinary dealing requiring clearance rather than being prohibited outright. The Policy's only financing restriction bans 'margin lending arrangements' and transfers into an 'existing margin loan account', which is narrower than a full secured-financing ban, so a bespoke pledge-secured loan not structured as a margin loan is not expressly caught, though this should be confirmed given the Policy's substance-over-form approach. Usefully, a disposal resulting from a secured lender exercising its rights is an Excluded Dealing, exempt from both the short-term dealing ban and the Trading Window restriction, so the bank's enforcement sale is not blocked by a closed window. Residual risks are the ban on 'other short term dealings (for example, forward contracts)', which could catch a short-tenor collar, and the Approval Officer's unfettered, confidential discretion to refuse or revoke clearance under the Front Page Test."
+}

@@ -1,0 +1,192 @@
+{
+ "symbol": "GYG",
+ "company": "Guzman y Gomez Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "31 May 2024",
+ "date_effective": "",
+ "date_lodged": "2 July 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "GYG Persons",
+   "kind": "restricted",
+   "description": "Each director of GYG, the Co-Chief Executive Officers, the Chief Financial Officer, Company Secretary, Key Management Personnel and persons the Board designates, plus franchisees and restaurant managers and any other person the Board designates in writing; also includes a company or trust controlled by any of these persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and Senior Management",
+   "kind": "kmp",
+   "description": "Each director of GYG, the Co-Chief Executive Officers, the Chief Financial Officer, and Company Secretary of GYG, Key Management Personnel and persons the Board decides from time to time; distinguished for the obligation to obtain prior consent to trade outside a Blackout Period and to notify the Company Secretary after trading.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "all other employees of GYG",
+   "kind": "all_staff",
+   "description": "Employees who are not GYG Persons; subject to insider trading rules, Blackout Periods, exceptional circumstances relief, protection arrangements/security-and-margin-lending rules and exemptions, but not expressed to be subject to the section 6 consent-to-trade or section 7 post-trade notification obligations.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A spouse (including de facto spouse), child (including step-child or adopted child), a close relative, or a person financially dependent on or acting in concert with a GYG Person, treated as a GYG Person only for the purposes of section 5 (Blackout Periods); a company or trust controlled by a GYG Person is a GYG Person for all purposes of the policy.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "operate to limit the economic risk of any GYG Person's security holding (e.g. hedging arrangements) including GYG's securities held beneficially (for example, in trust or under any GYG incentive plan) on that GYG Person's behalf",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of the ASX trading day on 30 November each year",
+   "end_anchor": "10:00am AEDT on the ASX trading day following the day on which the Company's half yearly results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of the ASX trading day on 31 May each year",
+   "end_anchor": "10:00am AEST on the ASX trading day following the day on which the Company's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of the ASX trading day two weeks prior to the date of the Company's AGM",
+   "end_anchor": "10:00am AEST on the ASX trading day following the date of the Company's AGM",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify 'any other period' as a Blackout Period from time to time (section 5(c)(iv)); the policy does not address whether such additional periods are confidential.",
+ "rules": [
+  {"topic": "derivatives", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.2(a)", "detail": "Protection arrangements, expressly including 'GYG products in the derivatives markets', are banned outright over unvested securities.", "evidence": "The entering into of all types of \"protection arrangements\" for any GYG securities (or GYG products in the derivatives markets): is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock."},
+  {"topic": "derivatives", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.2(a)", "detail": "Same ban extends to vested securities still subject to a holding lock.", "evidence": "is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock"},
+  {"topic": "derivatives", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "9.2(b)", "detail": "Once vested and lock-free, a derivative protection arrangement (including one enabling profit from a price decrease) requires prior consent under 6.1.", "evidence": "otherwise, requires consent under paragraph 6.1. ... otherwise enable a GYG Person to profit from a decrease in the market price of securities."},
+  {"topic": "hedging", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.2(a),(d)", "detail": "Hedging arrangements limiting economic risk of unvested holdings, including plan securities held beneficially, are banned outright.", "evidence": "operate to limit the economic risk of any GYG Person's security holding (e.g. hedging arrangements) including GYG's securities held beneficially ... is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock."},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.2(a),(d)", "detail": "Same ban applies to vested but holding-locked securities.", "evidence": "is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock"},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "9.2(b),(d)", "detail": "Hedging of vested, unrestricted holdings requires prior consent under 6.1.", "evidence": "otherwise, requires consent under paragraph 6.1."},
+  {"topic": "monetisation", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "9.2(a),(e)", "detail": "Monetisation is not named; a structure that enables profit from a price decrease is caught by the protection-arrangements sweep and banned outright over unvested securities.", "evidence": "otherwise enable a GYG Person to profit from a decrease in the market price of securities ... is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock."},
+  {"topic": "monetisation", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "9.2(a),(e)", "detail": "Same ban applies while still holding-locked.", "evidence": "is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock"},
+  {"topic": "monetisation", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "9.2(b),(e)", "detail": "A monetisation structure over vested, unrestricted shares is caught as a protection arrangement and needs prior consent under 6.1.", "evidence": "otherwise, requires consent under paragraph 6.1."},
+  {"topic": "short_selling", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.2(a),(c)", "detail": "Short selling beyond a person's holding is named as a protection arrangement, banned outright while the reference holding is unvested.", "evidence": "amount to \"short selling\" of securities beyond the GYG Person's holding of securities ... is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock."},
+  {"topic": "short_selling", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.2(a),(c)", "detail": "Same ban while holding-locked.", "evidence": "is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock"},
+  {"topic": "short_selling", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "9.2(b),(c)", "detail": "Short selling beyond a vested, unrestricted holding requires prior consent under 6.1.", "evidence": "otherwise, requires consent under paragraph 6.1."},
+  {"topic": "cfd", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.1; 9.2(a)", "detail": "CFDs are named as a derivative-market instrument caught by the speculative-trading ban and, as a protection arrangement, are banned outright over unvested holdings.", "evidence": "transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."},
+  {"topic": "cfd", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.2(a)", "detail": "Same ban while holding-locked.", "evidence": "is prohibited at any time in respect of any GYG securities which are unvested or subject to a holding lock"},
+  {"topic": "cfd", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "9.1; 9.2(b)", "detail": "A non-speculative CFD over vested, unrestricted shares is a protection arrangement requiring consent under 6.1; a short-term or speculative CFD remains prohibited regardless of vesting.", "evidence": "otherwise, requires consent under paragraph 6.1."},
+  {"topic": "margin_lending", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.3(a)", "detail": "Margin lending arrangements involving unvested or holding-locked GYG securities are banned outright.", "evidence": "GYG Persons may not at any time, directly or indirectly, grant any form of security ... over any GYG securities which are unvested or subject to a holding lock, to secure any obligation ... or enter into any margin lending arrangement involving GYG securities."},
+  {"topic": "margin_lending", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.3(a)", "detail": "Same ban while holding-locked.", "evidence": "grant any form of security ... over any GYG securities which are unvested or subject to a holding lock ... or enter into any margin lending arrangement involving GYG securities"},
+  {"topic": "margin_lending", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "9.3(b)", "detail": "Margin lending against vested, unrestricted shares requires consent under 6.1.", "evidence": "Unless paragraph (a) applies, GYG Persons may, directly or indirectly, grant any form of security ... or enter into any margin lending arrangement involving GYG securities, with consent under paragraph 6.1."},
+  {"topic": "encumbrance", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.3(a)", "detail": "Granting a charge, mortgage or pledge over unvested or holding-locked securities to secure any obligation of the person or a third party is banned outright.", "evidence": "GYG Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any GYG securities which are unvested or subject to a holding lock, to secure any obligation of that GYG Person or any third party."},
+  {"topic": "encumbrance", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.3(a)", "detail": "Same ban while holding-locked.", "evidence": "grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any GYG securities which are unvested or subject to a holding lock"},
+  {"topic": "encumbrance", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "9.3(b)", "detail": "Granting security over vested, unrestricted shares to secure an obligation of the person or a third party requires consent under 6.1.", "evidence": "Unless paragraph (a) applies, GYG Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any GYG securities, to secure any obligation of that GYG Person or any third party ... with consent under paragraph 6.1."},
+  {"topic": "secured_financing", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.3(a)", "detail": "Any financing secured by a charge, mortgage or pledge over unvested or holding-locked securities is banned outright, whoever the borrower is.", "evidence": "grant any form of security ... over any GYG securities which are unvested or subject to a holding lock, to secure any obligation of that GYG Person or any third party"},
+  {"topic": "secured_financing", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.3(a)", "detail": "Same ban while holding-locked.", "evidence": "grant any form of security ... over any GYG securities which are unvested or subject to a holding lock"},
+  {"topic": "secured_financing", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "9.3(b)", "detail": "A loan secured on vested, unrestricted shares (to secure an obligation of the person or a third party, e.g. a bank) is permitted with consent under 6.1.", "evidence": "Unless paragraph (a) applies, GYG Persons may, directly or indirectly, grant any form of security ... to secure any obligation of that GYG Person or any third party ... with consent under paragraph 6.1."},
+  {"topic": "stock_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "not_addressed", "mechanism": "none", "floor": "", "section": "", "detail": "Securities lending is not mentioned anywhere in the policy.", "evidence": ""},
+  {"topic": "short_term", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "9.1", "detail": "Blanket ban on short-term or speculative trading, including short-term direct dealing and short-term or speculative derivative-market transactions; no numeric holding period is given.", "evidence": "Under no circumstances should GYG Persons engage in short-term or speculative trading in GYG securities. This prohibition includes short-term direct dealing in GYG securities as well as transactions in the derivative markets ... which are short term or speculative."}
+ ],
+ "clearance": [
+  {
+   "tier": "Directors and Senior Management",
+   "type": "approval",
+   "approver": "For the Chair of the Board: the chair of the Audit and Risk Committee. For other directors, the Company Secretary and any other Key Management Personnel: the chair of the Board or, in his/her absence, the chair of the Audit and Risk Committee.",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (transaction confirmation)",
+   "post_trade_deadline": "unspecified",
+   "section": "6.1; 7.1",
+   "evidence": "prior to dealing in GYG securities outside a Blackout Period ... notify the relevant person in paragraph 6.1(c) (the Authorising Officer) of their proposed dealing and obtain consent from the Authorising Officer."
+  },
+  {
+   "tier": "all other employees of GYG",
+   "type": "approval",
+   "approver": "Company Secretary or, in his/her absence, the General Counsel",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1(c); 9.2(b); 9.3(b)",
+   "evidence": "Any other GYG Person or other GYG employee | The Company Secretary or, in his/her absence, the General Counsel."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should GYG Persons engage in short-term or speculative trading in GYG securities."
+  }
+ ],
+ "exceptions": [
+  {"kind": "no_change_beneficial_interest", "scope": "any_dealing", "approver": "", "evidence": "trade GYG securities where the trading does not result in a change of beneficial interest in the securities"},
+  {"kind": "plan_dealing", "scope": "acquisition_only", "approver": "", "evidence": "acquire securities under any director or employee security plan or through the exercise of options or performance rights under an option or performance rights plan or acquire, or agree to acquire, options or performance rights under an option or performance rights plan."},
+  {"kind": "other", "scope": "specific_dealing", "approver": "", "evidence": "transfer GYG securities already held into a self-managed superannuation fund or other saving scheme in which the restricted person is a beneficiary"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "acquire GYG's ordinary shares by conversion of securities giving a right of conversion to GYG's ordinary shares"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "acquire GYG's securities under a bonus issue made to all holders of securities of the same class"},
+  {"kind": "takeover", "scope": "any_dealing", "approver": "", "evidence": "undertake to accept, or accept, a takeover offer"},
+  {"kind": "non_discretionary_plan", "scope": "any_dealing", "approver": "", "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in the securities of GYG) where the assets of the fund or other scheme are invested at the discretion of a third party"},
+  {"kind": "secured_lender_sale", "scope": "sale_only", "approver": "", "evidence": "a disposal of GYG securities that is the result of a secured lender exercising their rights under a loan or security agreement"},
+  {"kind": "other", "scope": "any_dealing", "approver": "", "evidence": "where a restricted person is a trustee, trade in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the restricted person"},
+  {"kind": "dividend_plan", "scope": "any_dealing", "approver": "", "evidence": "trade under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."},
+  {"kind": "hardship", "scope": "any_dealing", "approver": "Authorising Officer, within the Board's absolute discretion", "evidence": "the Authorising Officer has discretion to approve dealings in GYG securities during a Blackout Period, or other dealings that would otherwise be prohibited by this policy ... may include, without limitation, severe financial hardship"},
+  {"kind": "court_order", "scope": "any_dealing", "approver": "Authorising Officer, within the Board's absolute discretion", "evidence": "may include, without limitation, severe financial hardship or a requirement to comply with a court order or court enforceable undertaking"}
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Board has absolute discretion to decide what counts as 'exceptional circumstances' (e.g. severe financial hardship or a court order/enforceable undertaking); the Authorising Officer may then approve, by email, dealings otherwise prohibited (including in a Blackout Period), on confirmation the person holds no Inside Information.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured lender forced-sale carve-out",
+   "clause": "GYG Persons and other GYG employees may at any time: ... a disposal of GYG securities that is the result of a secured lender exercising their rights under a loan or security agreement",
+   "why_it_matters": "Unlike policies that treat a lender's enforcement sale as a breach, GYG expressly permits it 'at any time', including in a Blackout Period, so the bank could enforce against the collared shares on default without putting the executive in breach (subject to post-event notification to the Authorising Officer)."
+  },
+  {
+   "topic": "consent-scope drafting ambiguity",
+   "clause": "Section 6 states it 'applies to Directors and Senior Management only', yet its Authorising Officer table (6.1(c)) includes a row for 'Any other GYG Person or other GYG employee', and sections 9.2(b)/9.3(b) (which apply to all GYG Persons and employees) cross-refer to 'consent under paragraph 6.1'.",
+   "why_it_matters": "For a non-Director/Senior-Management participant the availability of a clearance route for the collar's derivative and security legs is not free of doubt; the conservative reading (and the one supported by the 6.1(c) table) is that Company Secretary/General Counsel consent is still required."
+  },
+  {
+   "topic": "protection arrangements sweep",
+   "clause": "entering into protection arrangements includes entering into transactions which ... operate to limit the economic risk of any GYG Person's security holding ... or otherwise enable a GYG Person to profit from a decrease in the market price of securities",
+   "why_it_matters": "The definition is not limited by venue or instrument type, so an OTC put and written call over vested shares squarely falls within 'protection arrangements' and needs consent even though derivatives, hedging and monetisation are not separately named."
+  },
+  {
+   "topic": "no minimum shareholding requirement",
+   "clause": "not addressed",
+   "why_it_matters": "There is no floor on retained holdings, so a collar sized against the full vested position would not itself breach a shareholding guideline."
+  }
+ ],
+ "summary": "A funded OTC collar is workable once the GYG shares have vested and are free of any holding lock: both the put/call structure (a 'protection arrangement' under 9.2, since it limits economic risk and could profit from a price fall) and the loan secured on the shares (9.3) are permitted with prior consent from the Authorising Officer, taken outside Blackout Periods and while not in possession of Inside Information. Both legs are prohibited outright, with no consent route, while the shares remain unvested or subject to a holding lock. Consent is granted by the Chair of the Board or Audit & Risk Committee chair for directors and senior KMP, and by the Company Secretary or General Counsel for other staff, though the policy's own section headings leave some doubt as to whether non-Director/Senior-Management participants can access this route. A useful feature for the bank is the express carve-out permitting a secured lender's enforcement sale 'at any time', including during a Blackout Period, so default enforcement against the collared shares would not itself breach the policy. There is no minimum shareholding requirement and no defined short-term holding period beyond a general, undated ban on short-term or speculative trading, and the only exemption authority is the Board's case-by-case discretion for hardship or court orders."
+}
