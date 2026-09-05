@@ -1,0 +1,447 @@
+{
+ "symbol": "TLX",
+ "company": "Telix Pharmaceuticals Limited",
+ "title": "Securities Dealing Policy",
+ "date_approved": "11 December 2025 (adopted by the Board)",
+ "date_effective": "11 December 2025",
+ "date_lodged": "15 December 2025",
+ "date_next_review": "at a minimum annually",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "The Group worldwide, its directors, officers, executive and senior management, and other employees. All of the substantive prohibitions (blackout periods, short-term dealing, short selling, hedging, margin lending and secured financing) apply to this tier without differentiation.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Partners",
+   "kind": "other",
+   "description": "Telix's consultants, contractors, vendors, collaboration partners or advisors acting on behalf of Telix or the Group with access to Inside Information. Subject to the same substantive prohibitions as Employees.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Each Director; the Group Company Secretary; each member of the Telix Group Executive Team and key management team members and their respective direct reports; and any other Employee or Partner designated by the Group Company Secretary. A list is maintained by People & Culture with oversight by the Group Company Secretary. Subject to two additional quarterly blackout periods and, if not a Director, to prior notification and post-trade confirmation to the Group Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of Telix, including the CEO. Uniquely, they and their Connected Persons must obtain prior approval to deal even during a Trading Window, and must send written confirmation with a broker trade statement to the Group Company Secretary after each trade.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A person or entity connected to another person or entity in a way that allows for influence over dealings, including individuals with close family ties, business partners, associated companies or trusts, and any company or entity the Employee or Partner has an ability to control, including its directors and officers. The Employee or Partner must inform them of the Policy and communicate on their behalf in relation to approval requests.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "Hedging is a form of dealing and includes entering into transactions in financial products that operate to limit the economic risk associated with holding Telix Securities.",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "close of trading on the ASX on 31 December each year",
+   "end_anchor": "start of trading on the day following the release of the Full Year Results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "close of trading on the ASX on 30 June each year",
+   "end_anchor": "start of trading on the day following the release of the Half Year Results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "close of trading on the ASX on 31 March each year",
+   "end_anchor": "start of trading on the day following the release of the Q1 Business Update",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "close of trading on the ASX on 30 September each year",
+   "end_anchor": "start of trading on the day following the release of the Q3 Business Update",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "start of trading on the day following the release of results (or of the Q1 or Q3 Business Update for Restricted Persons)",
+   "end_anchor": "close of trading on the ASX on the next period end (31 December or 30 June, and additionally 31 March or 30 September for Restricted Persons), or the start of any special blackout period specified by the Board",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other special blackout period from time to time, both for everyone and separately for Restricted Persons only. Special blackouts are effectively confidential: the existence of a special blackout period is itself listed as an example of Inside Information.",
+ "rules": [
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6",
+   "detail": "Unqualified ban on hedging Telix Securities by all Employees and Partners, with no vesting, tier or venue distinction and no approval or exceptional-circumstances route. The definition is effects-based, catching any transaction in financial products that operates to limit the economic risk of holding Telix Securities, which is precisely what a collar does.",
+   "evidence": "Employees and Partners must not engage in hedging of Telix Securities. Hedging is a form of dealing and includes entering into transactions in financial products that operate to limit the economic risk associated with holding Telix Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.6",
+   "detail": "There is no express derivatives clause, but a purchased put and a written call over Telix shares are transactions in financial products that operate to limit economic risk, so both legs of a collar are prohibited hedging. A short derivative would separately breach the short selling ban.",
+   "evidence": "Hedging is a form of dealing and includes entering into transactions in financial products that operate to limit the economic risk associated with holding Telix Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.2 (Telix Securities); 4.6; 6.1",
+   "detail": "Exchange traded options and warrants over Telix ordinary shares are expressly Telix Securities, so dealing in them is subject to the Blackout Periods and, for Directors and their Connected Persons, prior approval. Any such option that limits economic risk is nevertheless prohibited hedging under 4.6, which leaves almost no permitted use.",
+   "evidence": "The definition of a security is complex and includes not only ordinary shares but also options, performance share appreciation rights and rights over ordinary shares, as well as exchange traded options and warrants."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6; 4.7",
+   "detail": "Monetisation is not named. A prepaid forward, collar loan or similar structure is caught twice over: it limits the economic risk of holding Telix Securities (prohibited hedging under 4.6) and, where it is funded against the shares, it is a secured financing arrangement in respect of Telix Securities (prohibited under 4.7). Outright disposal in a Trading Window remains the only monetisation route.",
+   "evidence": "Employees and Partners must not obtain margin loans using Telix Securities (either solely or as part of a portfolio) as security for the loans, or enter into any other secured financing arrangements in respect of Telix Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Flat ban, with a definition confined to selling financial products the person does not own with a view to repurchasing them later at a lower price.",
+   "evidence": "Employees and Partners must not engage in any short selling of Telix Securities. Short selling occurs when a person sells financial products they do not own with a view to repurchasing them later at a lower price."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned and there is no dealing definition that would sweep it in, though lending stock to support a short position would engage section 4.5.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.5; 4.6",
+   "detail": "CFDs are not named. A CFD over Telix Securities is a transaction in a financial product that operates to limit or invert economic exposure and so is prohibited hedging; a short CFD also engages the short selling ban and any in-and-out position engages the three-month short-term dealing ban.",
+   "evidence": "Employees and Partners must not engage in hedging of Telix Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7",
+   "detail": "Absolute ban on margin loans using Telix Securities as security, whether the securities are pledged alone or as part of a wider portfolio. No approval, materiality threshold or grandfathering is provided.",
+   "evidence": "Employees and Partners must not obtain margin loans using Telix Securities (either solely or as part of a portfolio) as security for the loans"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7",
+   "detail": "Granting security over Telix Securities to support a financing is prohibited as a secured financing arrangement. A charge, lien or pledge unconnected with any financing is not named and is not described as a dealing, but that is a narrow gap.",
+   "evidence": "or enter into any other secured financing arrangements in respect of Telix Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7",
+   "detail": "Blanket ban on any secured financing arrangement in respect of Telix Securities, not limited to margin loans, with no tier, security-state or approval carve-out. The exemptions in section 5 are confined to plan participation, exceptional-circumstances disposals and the listed excluded dealings, none of which reaches a financing.",
+   "evidence": "or enter into any other secured financing arrangements in respect of Telix Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4; 5.2",
+   "detail": "Bright-line ban on buying and selling Telix Securities within a three-month period. The only relief is a disposal (never an acquisition) in exceptional circumstances with prior approval from the relevant approver under section 6.1.",
+   "evidence": "Employees and Partners must not buy and sell Telix Securities on a short-term basis (that is, within a three-month period), except Telix Securities may be sold in exceptional circumstances and provided prior approval is sought and granted in accordance with the procedure set out in section 6.1."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of Board for Directors (including the CEO) and their Connected Persons; the Board or the Chair of the Audit and Risk Committee for the Chair and their Connected Persons; the CEO and the Chair of the Board for the Company Secretary and their Connected Persons. The Group Company Secretary is notified in each case.",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary (written confirmation including a copy of the trade statement or other broker documentation)",
+   "post_trade_deadline": "as soon as possible following confirmation of trade",
+   "section": "6.1; 6.2; 6.3",
+   "evidence": "Prior approval to deal in Telix Securities: (a) by Directors (including the CEO) and their Connected Persons during a Trading Window ... must be sought by the individual submitting a written request (including email) to deal in Telix Securities to the relevant approver"
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "notification",
+   "approver": "Group Company Secretary (notification only for Restricted Persons other than Directors; approval is required from the Group Company Secretary for dealing during a Blackout Period or on a short-term basis in exceptional circumstances)",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary",
+   "post_trade_deadline": "as soon as practicable after confirmation of any order to trade",
+   "section": "6.4",
+   "evidence": "Restricted Persons (other than Directors, including the CEO who must obtain prior approval under section 6.1) must notify the Group Company Secretary both prior to the commencement of any trade, and as soon as practicable after confirmation of any order to trade, including in respect of any of their Connected Persons."
+  },
+  {
+   "tier": "Employees",
+   "type": "approval",
+   "approver": "Group Company Secretary (required only to deal during a Blackout Period or on a short-term basis in exceptional circumstances; no approval is needed to deal in a Trading Window)",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1; 6.2; 6.3",
+   "evidence": "Any request for approval to trade may be granted or refused without explanation. If a request for approval to trade is granted, it may be withdrawn at any time prior to the order for dealing being lodged or otherwise authorised, if new information comes to light or there is a change in the circumstances of Telix Securities."
+  },
+  {
+   "tier": "Connected Persons",
+   "type": "approval",
+   "approver": "The same approver as for the Employee, Partner or Director to whom they are connected; the Employee or Partner communicates on their behalf",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary (where the connected Restricted Person or Director has a notification obligation)",
+   "post_trade_deadline": "as soon as practicable after confirmation of any order to trade",
+   "section": "2.2 (Connected Person); 4.3",
+   "evidence": "Employees and Partners must take appropriate steps to ensure that their Connected Persons only deal in Telix Securities in circumstances where the Employee or Partner to whom they are connected would be permitted to deal under this Policy."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3.0,
+   "basis": "buying and selling within a three-month period",
+   "carve_outs": [
+    "sale in exceptional circumstances with prior approval under section 6.1 (severe financial hardship, court order, court enforceable undertaking or other legal or regulatory requirement such as a family law settlement)"
+   ],
+   "evidence": "Employees and Partners must not buy and sell Telix Securities on a short-term basis (that is, within a three-month period), except Telix Securities may be sold in exceptional circumstances and provided prior approval is sought and granted in accordance with the procedure set out in section 6.1."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "The restriction in section 4.1 does not apply to: (a) participation in a Telix employee equity incentive plan; (b) the exercise of any option, warrant, right or any other class of convertible security issued under a Telix employee equity plan (Telix Share Plan Derivative) ... Subsequent dealings with Telix Securities issued on exercise or conversion of any Telix Share Plan Derivative are always subject to this Policy, including section 4.1"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "purchases of ordinary shares or American Depositary Shares through periodic, automatic payroll contributions to a Company employee share or stock purchase plan (ESPP). However, electing to enroll in an ESPP, making any changes in elections under an ESPP or terminating contributions under an ESPP are not permitted during a Blackout Period or while the Employee is in possession of Inside Information."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Group Company Secretary (requests are sent to the Group Company Secretary and approved under the section 6.1 table)",
+   "evidence": "In exceptional circumstances, Employees and Partners may be given prior written approval to dispose of (but not acquire) Telix Securities where they are not in possession of Inside Information and they would otherwise be restricted by this Policy due to the application of a Blackout Period (section 4.1) or the general prohibition on short-term dealing (section 4.4). Exceptional circumstances may include severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Group Company Secretary",
+   "evidence": "a requirement under a court order, court enforceable undertaking or other legal or regulatory requirement (for example, a family law settlement)."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Telix Securities through a dividend reinvestment plan; acquisition of Telix Securities through a share purchase plan available to all shareholders; acquisition of Telix Securities through a rights issue or other pro rata entitlement offer available to all shareholders;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of Telix Securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in Telix Securities;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "pre-approval required under the Policy",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Employee did not enter into the plan or amend the plan during a Blackout Period, the plan does not permit the Employee to exercise any influence or discretion in relation to trading under the plan, and the plan cannot be cancelled during a Blackout Period or while the Employee is in possession of Inside Information."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Telix employee equity incentive plan rules",
+  "Telix Non-Executive Director Rights Plans",
+  "Telix employee share or stock purchase plan (ESPP) rules"
+ ],
+ "exemption_authority": "Approval to dispose of Telix Securities during a Blackout Period or on a short-term basis is given, in exceptional circumstances only and to the extent legally permitted at the time, by the Chair of the Board (for Directors and the CEO), the Board or the Chair of the Audit and Risk Committee (for the Chair), the CEO and Chair of the Board (for the Company Secretary), or the Group Company Secretary (for all other Employees and Partners). Any request may be granted or refused without explanation and approval will not be granted where the dealing would fail the Front Page Test. No officer has authority to exempt anyone from the hedging, margin lending, secured financing or short selling prohibitions.",
+ "jurisdiction_overlays": [
+  "U.S. Securities Exchange Act of 1934 and U.S. federal securities laws; Nasdaq Stock Market listing rules; SEC enforcement (Telix is dual listed on Nasdaq and issues American Depositary Shares)",
+  "Singapore Exchange listing rules and any other exchange on which Telix Securities may trade",
+  "ESMA and local law in any jurisdiction where Employees or Partners reside, travel to or are located in connection with Group business",
+  "Corporations Act 2001 (Cth) and ASX Listing Rules, including extra-territorial application of the insider trading prohibition"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban is effects-based",
+   "clause": "Employees and Partners must not engage in hedging of Telix Securities. Hedging is a form of dealing and includes entering into transactions in financial products that operate to limit the economic risk associated with holding Telix Securities.",
+   "why_it_matters": "The test is economic effect rather than instrument type or venue, so an OTC put and call with a bank over vested shares is squarely prohibited and cannot be re-engineered around."
+  },
+  {
+   "topic": "secured financing ban",
+   "clause": "Employees and Partners must not obtain margin loans using Telix Securities (either solely or as part of a portfolio) as security for the loans, or enter into any other secured financing arrangements in respect of Telix Securities.",
+   "why_it_matters": "The loan leg of a funded collar is separately and independently prohibited, so even if the hedge could be justified there is no route to the borrowing."
+  },
+  {
+   "topic": "no exemption authority for the bans",
+   "clause": "The exemptions in section 5 are limited to plan participation, disposals in exceptional circumstances, and a closed list of excluded dealings; sections 4.5, 4.6 and 4.7 have no approval or exceptional-circumstances carve-out.",
+   "why_it_matters": "There is no person or committee that can waive the hedging or secured financing prohibitions, so a bank cannot cure the problem with a company consent letter."
+  },
+  {
+   "topic": "front page test",
+   "clause": "Where any approval is required for a dealing under this Policy under section 6.1, approval will not be granted where the dealing would not satisfy the Front Page Test. ... How would it look if the transaction were reported on the front page of the newspaper?",
+   "why_it_matters": "An optics-based veto sits over every approval, so even an otherwise compliant transaction can be blocked on perception grounds alone."
+  },
+  {
+   "topic": "special blackouts are confidential",
+   "clause": "Any other special blackout period that the Board specifies from time to time. ... Some examples which may constitute Inside Information include ... (l) the existence of a special blackout period.",
+   "why_it_matters": "An undisclosed Board-imposed blackout can block execution or unwind at any time and the executive may not be able to explain the delay to the bank."
+  },
+  {
+   "topic": "three business day approval life",
+   "clause": "If approval to deal in Telix Securities is granted, the dealing must be conducted within three business days of the approval. ... it may be withdrawn at any time prior to the order for dealing being lodged or otherwise authorised.",
+   "why_it_matters": "Any permitted dealing must be documented, priced and executed inside three business days and remains revocable until lodged, which is unworkable for a negotiated bilateral structure."
+  },
+  {
+   "topic": "directors need approval even in a window",
+   "clause": "Prior approval to deal in Telix Securities: (a) by Directors (including the CEO) and their Connected Persons during a Trading Window ... must be sought.",
+   "why_it_matters": "Directors have no self-executing dealing right at all, so every step of any structure, including a permitted outright sale, needs the Chair's sign-off."
+  },
+  {
+   "topic": "connected persons look-through",
+   "clause": "Connected Person is a person or entity that is connected to another person or entity in a way that allows for influence over dealings, including ... individuals with close family ties, business partners, and associated companies or trusts; a company or any other entity which the Employee or Partner has an ability to control, including its directors and officers.",
+   "why_it_matters": "Booking the collar or the loan through a family trust, controlled company or business partner does not escape the hedging and secured financing bans."
+  },
+  {
+   "topic": "plan share provenance",
+   "clause": "Subsequent dealings with Telix Securities issued on exercise or conversion of any Telix Share Plan Derivative are always subject to this Policy, including section 4.1.",
+   "why_it_matters": "Vesting confers no freedom: shares issued out of the plans remain fully subject to the hedging and financing prohibitions."
+  },
+  {
+   "topic": "US overlay",
+   "clause": "Prompt notification to the Group Company Secretary is essential to assist Telix in complying with its disclosure obligations under the Corporations Act, the U.S. Securities Exchange Act, the Listing Rules, the U.S. federal securities laws and related compliance policies.",
+   "why_it_matters": "Any transaction would also engage Nasdaq and SEC insider reporting and, for a pledge or hedge by an officer or director, US disclosure regimes on top of the ASX rules."
+  },
+  {
+   "topic": "forfeiture sanction",
+   "clause": "Employees or Partners who fail to adhere to the requirements of this policy may face disciplinary action, including suspension or termination of employment, forfeiture of securities issued under any equity incentive plan of the Group, and/or exclusion from participating in any equity incentive plan of the Group.",
+   "why_it_matters": "Breach can extinguish the very shares a bank is relying on as collateral, which is a direct credit risk to a secured lender."
+  },
+  {
+   "topic": "OTC derivatives not named in the securities definition",
+   "clause": "Telix Securities means shares, American Depositary Shares representing shares, and other instruments considered to be a security for the purposes of the Corporations Act or Listing Rules ... as well as exchange traded options and warrants.",
+   "why_it_matters": "The securities definition names only exchange traded options, but the hedging prohibition is drafted by economic effect rather than by reference to Telix Securities, so the venue gap gives no opening for an OTC structure."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy, and both legs fail independently. Section 4.6 prohibits all Employees and Partners from hedging Telix Securities, defined by economic effect as entering into transactions in financial products that operate to limit the economic risk of holding Telix Securities, which captures a purchased put and a written call over vested shares regardless of venue, tier or how long ago the shares vested. Section 4.7 separately bans margin loans secured on Telix Securities and any other secured financing arrangement in respect of them, so the loan leg is prohibited as well. Neither prohibition has an approval, hardship or exceptional-circumstances route: the section 5 exemptions are confined to plan participation, disposals in exceptional circumstances and a closed list of excluded dealings, and no officer can waive sections 4.5 to 4.7. Even a permitted outright sale is tightly controlled, requiring the Chair's prior approval for Directors even inside a Trading Window, execution within three business days, satisfaction of the Front Page Test, and compliance with the three-month short-term dealing ban, with breach exposing the executive to forfeiture of plan securities."
+}

@@ -1,0 +1,490 @@
+{
+ "symbol": "HVN",
+ "company": "Harvey Norman Holdings Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "29 February 2016",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "Those persons having authority and responsibility for planning, directing and controlling the activities of the Company, directly or indirectly, including each Director (executive or non-executive) and each Executive (a person who is an 'officer' as defined in the Corporations Act). Individually a 'Key Management Member'. This is the only tier subject to the Trading Window restriction, the hedging and short term trading restrictions, the Secured Financing Arrangement consent requirement and the notification duties in clause 5.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Person",
+   "kind": "restricted",
+   "description": "A person who is subject to trading restrictions as a result of the application of the Policy. Used in the clearance, Prohibited Period and excluded trading provisions (clauses 6, 7 and 8); in practice it captures Key Management Members and anyone else the Policy restricts.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Employee",
+   "kind": "all_staff",
+   "description": "Includes each Director, Executive, employee of, or contractor to the Company and each controlled entity. Subject to the insider trading prohibitions in clause 3, but the clause 5 additional restrictions and the clause 4 Trading Window requirement are expressed to apply only to Key Management Members.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Key Management Personnel",
+    "Restricted Person"
+   ],
+   "start_anchor": "one day after the announcement of half-yearly financial results of the Company",
+   "end_anchor": "thirty days later (or such other period as may be determined by the Chairman or a Committee)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Key Management Personnel",
+    "Restricted Person"
+   ],
+   "start_anchor": "one day after the announcement of annual financial results of the Company",
+   "end_anchor": "thirty days later (or such other period as may be determined by the Chairman or a Committee)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Key Management Personnel",
+    "Restricted Person"
+   ],
+   "start_anchor": "one day after the holding of the annual general meeting of the Company",
+   "end_anchor": "thirty days later (or such other period as may be determined by the Chairman or a Committee)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Key Management Personnel",
+    "Restricted Person"
+   ],
+   "start_anchor": "one day after the filing of a disclosure document for an offer of securities in the Company with ASIC or the ASX, or both",
+   "end_anchor": "thirty days later (or such other period as may be determined by the Chairman or a Committee)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Key Management Personnel",
+    "Restricted Person"
+   ],
+   "start_anchor": "one day after the declaration by the Chairman of the commencement of a period as a Trading Window",
+   "end_anchor": "thirty days later (or such other period as may be determined by the Chairman or a Committee)",
+   "duration_days": 30
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Key Management Personnel"
+   ],
+   "start_anchor": "any period that is not a Trading Window, and any period when the Key Management Member has Price Sensitive Information",
+   "end_anchor": "the start of the next Trading Window, or when the information becomes Generally Available Information",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "No express power to impose an additional blackout: a Prohibited Period arises automatically as any period that is not a Trading Window, or (for a Key Management Member) any period when that person holds Price Sensitive Information. The Chairman or a Committee may set a Trading Window at a length other than thirty days, and the Chairman may declare a period to be a Trading Window, so the window can effectively be shortened. Nothing is said about confidentiality of a refusal.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1; 4.2; 5.8; 1.5 (Shares)",
+   "detail": "Derivatives over Shares are not banned. 'Shares' includes options or rights over shares, and clause 5.8 prohibits a Key Management Member from trading in financial products issued or created over or in respect of Shares only during a Prohibited Period, with no venue limitation. Inside a Trading Window, and with no Price Sensitive Information, a Key Management Member may deal without prior consent; outside a Trading Window the Chairman's consent (clause 4.2), or written consent from the Chairman or CEO in exceptional circumstances (clauses 6.1 and 7.1), is required.",
+   "evidence": "Each Key Management Member is prohibited from trading during any Prohibited Period in financial products issued or created over or in respect of any Shares."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "5",
+   "detail": "The clause 5 restrictions, including clause 5.8 on financial products over Shares, are headed 'Additional restrictions upon Key Management Personnel' and are expressed to bind only a Key Management Member. Employees below that level are constrained only by the insider trading prohibition in clause 3.",
+   "evidence": "ADDITIONAL RESTRICTIONS UPON KEY MANAGEMENT PERSONNEL"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Flat ban on hedging Performance Rights, which are defined as Shares, or rights or options over Shares, granted under a shareholder-approved plan. No consent route is offered.",
+   "evidence": "Each Key Management Member must not hedge any Performance Rights."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Shares received on exercise or vesting of Performance Rights cannot be dealt or traded in at all while subject to any transfer restriction, which rules out pledging or hedging them until the restriction lifts.",
+   "evidence": "Each Key Management Member must not deal or trade in any Shares received upon exercise or vesting of any Performance Rights while those Shares are subject to any transfer restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Hedging of Shares acquired on exercise of Performance Rights is contemplated and permitted, subject only to notifying the Chairman; there is no approval requirement and no deadline for the notice. The hedge is still a dealing in Shares, so it must occur in a Trading Window (or with consent) and not while the member holds Price Sensitive Information. Hedging of Shares acquired otherwise than under a plan is not addressed at all.",
+   "evidence": "Each Key Management Member must notify the Chairman if that person hedges any Shares acquired as a result of the exercise of any Performance Rights."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.5 (Secured Financing Arrangement); 5.6",
+   "detail": "The Policy names the exact product: a 'capital protected loan with put and call options' is a Secured Financing Arrangement, permitted with the prior written consent of the Chairman or Chief Executive Officer. Sufficient details must be given to the Company for its ASX Listing Rule disclosure, and the Company may be obliged to announce the existence and terms.",
+   "evidence": "\"Secured Financing Arrangement\" means any financing arrangement pursuant to which Shares are provided as security, and includes (without limitation) a margin loan facility and a capital protected loan with put and call options."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is nowhere mentioned; the only indirect constraints are the Trading Window restriction and the short term trading restriction in clause 5.5.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned and there is no definition of dealing or trading that would sweep it in.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5.8",
+   "detail": "CFDs are not named. A CFD over Harvey Norman shares is a financial product created over or in respect of Shares, so clause 5.8 bars a Key Management Member from trading it during a Prohibited Period; outside a Prohibited Period it is unregulated except by the short term trading restriction in clause 5.5.",
+   "evidence": "Each Key Management Member is prohibited from trading during any Prohibited Period in financial products issued or created over or in respect of any Shares."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.5 (Secured Financing Arrangement); 5.6; 5.7",
+   "detail": "A margin loan facility is a named Secured Financing Arrangement, permitted with prior written consent of the Chairman or CEO. A forced sale to meet an unmet margin call or on default is a breach of the Policy unless approval to the arrangement was first obtained; anticipated margin calls or defaults must be disclosed immediately.",
+   "evidence": "A Key Management Member must obtain the written consent of the Chairman or Chief Executive Officer prior to entering into a Secured Financing Arrangement. A forced sale of Shares under a margin loan to satisfy an unmet margin call or default, or otherwise pursuant to a Secured Financing Arrangement will be a breach of this Policy unless the Key Management Member has first obtained approval to the Secured Financing Arrangement in accordance with this clause."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.5 (Secured Financing Arrangement); 5.6",
+   "detail": "Providing Shares as security is regulated only through the Secured Financing Arrangement definition, which catches any financing arrangement under which Shares are provided as security and requires the Chairman's or CEO's prior written consent. A charge or pledge unconnected with a financing is not addressed and is not described as a dealing.",
+   "evidence": "\"Secured Financing Arrangement\" means any financing arrangement pursuant to which Shares are provided as security"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Shares from Performance Rights that remain subject to a transfer restriction cannot be dealt or traded in at all, so they cannot be pledged as collateral while the restriction subsists, and consent under clause 5.6 cannot cure that.",
+   "evidence": "Each Key Management Member must not deal or trade in any Shares received upon exercise or vesting of any Performance Rights while those Shares are subject to any transfer restriction."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.6; 5.7; 8.1(f)",
+   "detail": "Any financing arrangement under which Shares are provided as security is permitted with the prior written consent of the Chairman or CEO. Once approved, a disposal by the secured lender exercising its rights is excluded trading under clause 8.1(f), so enforcement outside a Trading Window is not a breach. The member must supply sufficient details for the Company's continuous disclosure and Listing Rule obligations.",
+   "evidence": "A Key Management Member who has, or proposes to enter into a Secured Financing Arrangement must comply with this Policy. A Key Management Member must obtain the written consent of the Chairman or Chief Executive Officer prior to entering into a Secured Financing Arrangement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "5.6",
+   "detail": "Clause 5.6 binds only a Key Management Member; an employee or contractor below that level who pledges Shares is not covered by the consent or disclosure requirements.",
+   "evidence": "A Key Management Member who has, or proposes to enter into a Secured Financing Arrangement must comply with this Policy."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Short term trading in Shares is prohibited with one narrow cumulative exception: a specific request to the Chairman or CEO explaining a specific circumstance, the request must relate to exercised or vested Performance Rights, and prior written approval must be given. 'Short term' is not defined, so there is no bright-line holding period.",
+   "evidence": "Each Key Management Member must not engage in short term trading in Shares except where: (a) the Key Management Member makes a specific request to the Chairman or Chief Executive Officer, explaining a specific circumstance or requirement of that Key Management Member; (b) the request relates to exercised or vested Performance Rights; and (c) the Chairman or Chief Executive Officer gives prior written approval to the proposed short term trading."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Key Management Personnel",
+   "type": "approval",
+   "approver": "Chairman (notice and consent to deal outside a Trading Window, clause 4.2); Chairman or Chief Executive Officer (written consent to deal in a Prohibited Period in exceptional circumstances under clauses 6.1 and 7.1, to sell Performance Rights shares outside a Trading Window under clause 4.3(b)(ii), to enter into a Secured Financing Arrangement under clause 5.6, and to short term trade under clause 5.5)",
+   "form": "written",
+   "validity_days": 28,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (notice when a Key Management Member buys or sells shares, so the ASX can be informed); Chairman (notice if the member hedges Shares acquired on exercise of Performance Rights)",
+   "post_trade_deadline": "not stated",
+   "section": "4.2; 5.3; 5.4; 6.1; 7.1; 7.2",
+   "evidence": "A Restricted Person may buy, sell, otherwise acquire, or deal in Shares during any Prohibited Period within twenty eight (28) days after the grant of written consent to that action from the Chairman or the Chief Executive Officer of the Company.  Written consent may be provided by email."
+  },
+  {
+   "tier": "Restricted Person",
+   "type": "approval",
+   "approver": "Chairman or Chief Executive Officer",
+   "form": "written",
+   "validity_days": 28,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1; 7.1; 7.2",
+   "evidence": "Any consent granted pursuant to clause 7.1 is automatically revoked if the Restricted Person receives Price Sensitive Information, without the need for the Chairman or Chief Executive Officer of the Company to provide written notice of the revocation."
+  },
+  {
+   "tier": "Employee",
+   "type": "not_addressed",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.1",
+   "evidence": "Each Key Management Member may buy, sell, otherwise acquire, or deal in Shares only in a Trading Window, and never when that Key Management Member is in possession of Price Sensitive Information."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Key Management Personnel",
+   "type": "undefined",
+   "months": null,
+   "basis": "'short term trading' is used without definition; no holding period, window or LIFO basis is stated",
+   "carve_outs": [
+    "a specific request to the Chairman or Chief Executive Officer explaining a specific circumstance or requirement, where the request relates to exercised or vested Performance Rights and prior written approval is given"
+   ],
+   "evidence": "Each Key Management Member must not engage in short term trading in Shares except where: ... (b) the request relates to exercised or vested Performance Rights; and (c) the Chairman or Chief Executive Officer gives prior written approval to the proposed short term trading."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "Chairman or Chief Executive Officer (approval of the underlying arrangement under clause 5.6)",
+   "evidence": "a disposal of Shares that is the result of a secured lender exercising rights under a Secured Financing Arrangment where approval of the arrangement was obtained pursuant to clause 5.6;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of Shares already held by a Restricted Person to a superannuation fund or other saving scheme in which the Restricted Person is a beneficiary;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the Shares) where the assets of the fund or other scheme are invested at the discretion of a third party;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Restricted Person is a trustee, trading in the Shares by that trust provided the Restricted Person is not a beneficiary of the trust and any decision to trade during a Prohibited Period is taken by the other trustees or by the investment managers independently of the Restricted Person;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the board of the Company"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of Shares following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise of the option or right, or the conversion of the security, falls during a Prohibited Period"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "prior written clearance in accordance with the Policy",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided in accordance with procedures set out in this Policy and where: (i) the Restricted Person did not enter into the plan or amend the plan during a Prohibited Period; (ii) the trading plan does not permit the Restricted Person to exercise any influence or discretion over how, when, or whether to trade;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Shares compelled by court order."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairman or Chief Executive Officer",
+   "evidence": "A Restricted Person may buy, sell, otherwise acquire, or deal in Shares during any Prohibited Period upon receiving written consent pursuant to clause 7 in certain circumstances deemed exceptional by the Chairman or the Chief Executive Officer, including but not limited to circumstances where that person has a pressing financial commitment that cannot be satisfied otherwise than selling the relevant Shares."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "No loan-to-value ratio, buffer or price trigger level is prescribed. A Key Management Member who, acting reasonably, would believe there will be an unmet margin call, event of default or other circumstance that may result in a financier forcing an acquisition or disposal of Shares must immediately disclose full and complete details to the Chairman, Company Secretary or Chief Executive Officer so the Company can meet its continuous disclosure obligations.",
+  "financing_disclosure": [
+   "Key Management Personnel: at inception, obtain the written consent of the Chairman or Chief Executive Officer before entering into a Secured Financing Arrangement.",
+   "Key Management Personnel: for any existing or proposed Secured Financing Arrangement, provide the Company sufficient details to allow it to fulfil its ASX Listing Rule and legal obligations, since the Company may be obliged to disclose the existence and terms to the market; no deadline stated.",
+   "Key Management Personnel: immediately on reasonably believing there will be an unmet margin call, event of default or other circumstance that may result in a financier forcing an acquisition or disposal of Shares, disclose full and complete details to the Chairman, Company Secretary or Chief Executive Officer.",
+   "Key Management Personnel: notify the Chairman if the member hedges any Shares acquired as a result of the exercise of Performance Rights; no deadline stated.",
+   "Key Management Personnel: notify the Company Secretary when the member buys or sells shares in the Company so the ASX can be informed; no deadline stated."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chairman or the Chief Executive Officer may consent in writing to dealing during a Prohibited Period in circumstances they deem exceptional (including a pressing financial commitment), to a sale of Performance Rights shares outside a Trading Window, to short term trading relating to exercised or vested Performance Rights, and to a Secured Financing Arrangement. The Chairman alone consents to a Key Management Member dealing outside a Trading Window under clause 4.2, and the Chairman or a Committee may set the length of a Trading Window. No one may consent to hedging Performance Rights or to dealing in Shares still subject to a transfer restriction, and no consent overrides the insider trading prohibition.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "capital protected loan named",
+   "clause": "\"Secured Financing Arrangement\" means any financing arrangement pursuant to which Shares are provided as security, and includes (without limitation) a margin loan facility and a capital protected loan with put and call options.",
+   "why_it_matters": "The funded collar is described almost exactly and is treated as permissible with consent rather than prohibited, which makes this one of the few ASX policies that expressly contemplates the product."
+  },
+  {
+   "topic": "consent gateway for financing",
+   "clause": "A Key Management Member must obtain the written consent of the Chairman or Chief Executive Officer prior to entering into a Secured Financing Arrangement.",
+   "why_it_matters": "A single executive consent, not a full Board resolution, unlocks the loan and security leg, and it may be given by email."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "A forced sale of Shares under a margin loan to satisfy an unmet margin call or default, or otherwise pursuant to a Secured Financing Arrangement will be a breach of this Policy unless the Key Management Member has first obtained approval to the Secured Financing Arrangement in accordance with this clause. ... a disposal of Shares that is the result of a secured lender exercising rights under a Secured Financing Arrangment where approval of the arrangement was obtained pursuant to clause 5.6 [is excluded trading].",
+   "why_it_matters": "With prior consent, the bank's enforcement or close-out sale is excluded trading and can occur even in a Prohibited Period; without consent the same sale puts the executive in breach, so obtaining consent before signing is critical to the bank's enforcement rights."
+  },
+  {
+   "topic": "hedging plan shares permitted on notice",
+   "clause": "Each Key Management Member must notify the Chairman if that person hedges any Shares acquired as a result of the exercise of any Performance Rights.",
+   "why_it_matters": "Hedging vested plan shares is treated as a notifiable event rather than a prohibited one, which is the opposite of the standard ASX approach and leaves the option legs available over vested stock."
+  },
+  {
+   "topic": "hedging Performance Rights banned",
+   "clause": "Each Key Management Member must not hedge any Performance Rights.",
+   "why_it_matters": "Because Performance Rights are defined to include Shares granted under a shareholder-approved plan, unexercised rights and plan-granted shares that have not been acquired 'as a result of the exercise' of a right sit on the wrong side of the line and cannot form part of the collared parcel."
+  },
+  {
+   "topic": "transfer restriction blocks collateral",
+   "clause": "Each Key Management Member must not deal or trade in any Shares received upon exercise or vesting of any Performance Rights while those Shares are subject to any transfer restriction.",
+   "why_it_matters": "Shares still inside a holding lock or disposal restriction cannot be pledged or hedged at all, so the collateral pool is limited to plan shares whose restriction period has ended plus shares acquired on market."
+  },
+  {
+   "topic": "market disclosure of the facility",
+   "clause": "The Company may be obliged to disclose the existence and terms of any Secured Financing Arrangement to the market pursuant to the ASX Listing Rules and the Key Management Member must provide the Company sufficient details of any existing or proposed Secured Financing Arrangement so as to allow the Company to fulfil its obligations.",
+   "why_it_matters": "The bank must expect the terms of the collar and loan, including LVR and trigger events, to be given to the Company and potentially announced, so confidentiality provisions in the facility need to accommodate that."
+  },
+  {
+   "topic": "early warning obligation",
+   "clause": "If a Key Management Member, acting reasonably, would believe that there will be an unmet margin call, event of default or other circumstance in relation to any Secured Financing Arrangement which may result in a financier exercising its rights to force an acquisition or disposal of Shares, the Key Management Member must immediately disclose to the Chairman, Company Secretary or Chief Executive Officer, full and complete details.",
+   "why_it_matters": "Approaching an LVR trigger creates an immediate internal reporting obligation before the bank acts, so margin call notices should be structured to give the executive time to comply."
+  },
+  {
+   "topic": "28 day consent window",
+   "clause": "A Restricted Person may buy, sell, otherwise acquire, or deal in Shares during any Prohibited Period within twenty eight (28) days after the grant of written consent ... Any consent granted pursuant to clause 7.1 is automatically revoked if the Restricted Person receives Price Sensitive Information, without the need for ... written notice of the revocation.",
+   "why_it_matters": "Twenty eight days is generous by ASX standards and comfortably accommodates negotiation and pricing of an OTC structure, but the consent evaporates automatically and silently if the executive receives price sensitive information before execution."
+  },
+  {
+   "topic": "derivatives only blocked in Prohibited Periods",
+   "clause": "Each Key Management Member is prohibited from trading during any Prohibited Period in financial products issued or created over or in respect of any Shares.",
+   "why_it_matters": "The put and call legs are restricted by timing rather than by subject matter, so they can be struck inside a thirty day Trading Window without any express derivatives ban applying."
+  },
+  {
+   "topic": "no associates extension",
+   "clause": "The Policy contains no definition of associates, closely connected persons or related parties, and no clause extending the restrictions to spouses, dependants or controlled entities.",
+   "why_it_matters": "There is no express look-through to family trusts or controlled companies, though the insider trading law and clause 3.2(f) on procuring family members or trusts still apply."
+  },
+  {
+   "topic": "short term trading undefined",
+   "clause": "Each Key Management Member must not engage in short term trading in Shares except where ... the request relates to exercised or vested Performance Rights ... and the Chairman or Chief Executive Officer gives prior written approval.",
+   "why_it_matters": "With no defined period, a short-dated or early-terminated collar carries characterisation risk, so a longer tenor and consent that expressly covers the unwind are prudent."
+  }
+ ],
+ "summary": "A funded collar is possible under this policy and is, unusually, contemplated in terms: a 'capital protected loan with put and call options' is expressly included in the definition of a Secured Financing Arrangement, which a Key Management Member may enter into with the prior written consent of the Chairman or the Chief Executive Officer. Hedging is not banned for vested stock either; clause 5.3 requires only that the member notify the Chairman if they hedge Shares acquired on exercise of Performance Rights, in contrast to clause 5.1's ban on hedging the Performance Rights themselves and clause 5.2's ban on dealing in plan shares still subject to a transfer restriction, so the collateral must be limited to unrestricted shares. Execution must occur inside a thirty day Trading Window following the half-year or full-year results, the AGM, a disclosure document filing or a Chairman's declaration, or within twenty eight days of a written consent granted in circumstances deemed exceptional, and any consent lapses automatically if the member receives Price Sensitive Information. The bank's position on enforcement is strong: once the arrangement has been approved under clause 5.6, a disposal by the secured lender exercising its rights is excluded trading under clause 8.1(f), whereas an unapproved forced sale is a breach. The trade-offs are that the Company must be given sufficient details of the arrangement and may announce its existence and terms, that any looming margin call or default must be reported immediately to the Chairman, Company Secretary or CEO, and that 'short term trading' is undefined, so a long tenor with consent covering the unwind is advisable."
+}

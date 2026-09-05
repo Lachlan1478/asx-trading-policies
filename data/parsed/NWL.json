@@ -1,0 +1,446 @@
+{
+ "symbol": "NWL",
+ "company": "Netwealth Group Limited",
+ "title": "Netwealth Trading Policy (previously known as the Securities Trading Policy)",
+ "date_approved": "3 June 2021 (Netwealth Group Limited); pending approval by Netwealth Investments Limited, Netwealth Superannuation Services Pty Ltd and Netwealth Group Services Pty Ltd",
+ "date_effective": "3 June 2021",
+ "date_lodged": "9 June 2021",
+ "date_next_review": "June 2022 (unless required earlier)",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Any person employed by, contracted by or appointed by the Group for the provision of services to the Company or a related entity, and any director of the Group or its subsidiaries. All substantive rules (blackouts, prior approval for every trade, short-term trading ban, margin lending approval, hedging rules, trading register, annual declaration) apply to this whole population without differentiation; only the identity of the approver changes by seniority.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives and Nominated Employees",
+   "kind": "kmp",
+   "description": "Senior Executives and Nominated Employees, distinguished only for approval: the Joint Managing Directors must be informed and must approve before a trade, and they also decide exceptional-circumstances applications for this group.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Group other than the Chair of the Board. Distinguished only for approval: the Chair of the Board must be informed and must approve before a trade, and decides their exceptional-circumstances applications. Non-executive directors may also use a pre-approved non-discretionary trading plan.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair of the Board, whose trades and exceptional-circumstances applications must be approved by the Chair of the Group's Compliance and Risk Management Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "Family members who may be expected to influence or be influenced by the Employee (spouse, partner, children, partner's children, dependants); trustees of trusts or fiduciary arrangements including SMSFs under which the Employee, their spouse or partner or dependent children is or may be a beneficiary; companies in which the Employee holds a majority of shares or otherwise has control; and any entity in which the Employee is a director, secretary or executive officer or which they can control. Employees must take steps to ensure their Connected Persons do not breach the Policy.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Hedging includes entering into transactions in Financial Products that operate to limit the economic risk associated with holding Company securities.",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "close of trading on the ASX on 30 June each year, or if that date is not a trading day, the last trading day before that day",
+   "end_anchor": "the day following the announcement to ASX of the full-year results (usually mid August)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "close of trading on the ASX on 31 December each year, or if that date is not a trading day, the last trading day before that day",
+   "end_anchor": "the day following the announcement to ASX of the half-year results (usually mid February)",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "the day following an announcement to the market, when the Company Secretary notifies staff that an 'open' trading window (a bulk pre-approval) has commenced",
+   "end_anchor": "the expiry the Company Secretary defines at the time, generally three weeks",
+   "duration_days": 21
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other blackout period from time to time. The Company Secretary provides an email confirming when Netwealth commences 'blackout', and employees must check that the open-window notification from the Company Secretary has been received and not removed before trading. Separately, the Company Secretary or delegate may direct a person not to trade or impose conditions in their discretion and is not obliged to give reasons.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2 (Financial Product); 4.3; 5.4",
+   "detail": "Derivatives and options are Financial Products, and section 5.4(d) expressly treats a hedge transaction in a Financial Product as a dealing in Company securities for the purposes of the Policy. A purchased put and written call over Netwealth shares therefore require prior approval through trading@netwealth.com.au from the relevant approver, must be executed within five business days of approval, may not be entered during a blackout period, and must be confirmed to the trading mailbox after execution. No venue distinction is drawn, so an OTC structure with a bank is treated the same as an exchange-traded option.",
+   "evidence": "Financial Product Includes: Securities; Derivatives; Options; ... Employees and their Connected Persons are permitted to hedge their vested and unrestricted Company securities provided that the hedge transaction is treated as a dealing in Company securities for the purposes of this Policy"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.4(b)",
+   "detail": "Absolute ban with no approval route on hedging securities acquired under a Company employee share plan before vesting.",
+   "evidence": "Company securities acquired under an Employee share plan operated by the Company must never be hedged prior to vesting;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.4(c)",
+   "detail": "Securities subject to a holding lock or a dealing restriction under an employee share plan may never be hedged, even after vesting. No approval route and no time limit.",
+   "evidence": "Company securities that are subject to a holding lock or restriction on dealing under the terms of an Employee share plan operated by the Company must never be hedged;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.4(a), 5.4(d)",
+   "detail": "Hedging vested and unrestricted Company securities is expressly permitted, on condition that the hedge is treated as a dealing and so goes through the section 4 approval and post-trade notification machinery: no entry, renewal, alteration or close-out while in possession of Inside Information, prior approval from the relevant approver, execution within five business days, no dealing in a blackout period absent exceptional circumstances, and prompt confirmation to the trading mailbox.",
+   "evidence": "Employees and their Connected Persons are permitted to hedge their vested and unrestricted Company securities provided that the hedge transaction is treated as a dealing in Company securities for the purposes of this Policy, and the relevant approvals and notifications required under section 4 are made on that basis."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.3; 5.2; 5.4(d)",
+   "detail": "Monetisation is not named as such. A prepaid forward or collar-plus-loan is a transaction in Financial Products limiting the economic risk of holding Company securities and so is a hedge, permitted over vested and unrestricted shares with prior approval. Forward contracts are, however, given as an example of a prohibited short-term dealing, so a short-dated forward or prepaid forward is likely to be caught by section 5.2 and would need NWL Board authorisation.",
+   "evidence": "Short-term trading includes the buying and selling securities on market within a 3 month period, and entering into other short-term dealings (for example, forward contracts)."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the Policy and is not caught by any definition. A naked short would still need approval as a dealing in a Financial Product and would be tested against the Front Page Test and the short-term trading ban.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and no definition sweeps it in. A lend that changed the beneficial interest would be a dealing requiring approval, since only dealings with no material change to the beneficial interest are excluded.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2 (Financial Product); 4.3; 5.2",
+   "detail": "CFDs are not named. A CFD over Netwealth securities is a derivative and so a Financial Product, and if it limits the economic risk of a holding it is also a hedge; either way it requires prior approval. In practice a CFD position opened and closed inside three months would breach the short-term trading ban unless the NWL Board authorises it.",
+   "evidence": "Financial Product Includes: Securities; Derivatives; Options;"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Margin lending is not banned. Entering into a margin lending arrangement over Netwealth securities, transferring Netwealth securities into an existing margin loan account, and selling Netwealth securities to satisfy a margin call are each dealings requiring approval under the section 4 procedure. The approver may attach conditions, expressly including conditions on the circumstances in which the securities may be sold to satisfy a margin call.",
+   "evidence": "Employees and their Connected Persons must obtain approval in accordance with the procedure set out within this Policy for any proposed dealing in the Netwealth's securities in connection with a margin lending arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Granting security is addressed only through the margin lending lens: entering into a margin lending arrangement in respect of Netwealth securities, and transferring securities into a margin loan account, are expressly dealings requiring approval. Granting a charge or pledge outside a margin lending arrangement is not separately named, but the substance over form clause and the wording 'in connection with a margin lending arrangement' would be read to capture a bank facility secured on the shares.",
+   "evidence": "Examples of such dealings include: 1) entering into a margin lending arrangement in respect of the Netwealth's securities; 2) transferring securities in Netwealth into an existing margin loan account;"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3; 6(e); 7.2",
+   "detail": "There is no prohibition on secured financing. The only express regime is section 5.3 on margin lending arrangements, which is an approval regime, and section 6(e) recognises secured lenders over Netwealth securities by excluding their enforcement sales from the Policy. A loan from a bank secured on the collared shares is not named but would be treated on a substance over form basis as a dealing in connection with a lending arrangement requiring approval on the same terms.",
+   "evidence": "a disposal of securities of Netwealth that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Buying and selling (or selling and buying) within three months is prohibited, measured from the last purchase or last sale, as is entering into other short-term dealings, with forward contracts given as the example. Employees and Connected Persons are assessed separately unless securities have been transferred between them. The NWL Board has discretion to authorise a short-term trade on reasonable grounds. Section 5.2 does not apply to the section 6 excluded dealings.",
+   "evidence": "Employees and their Connected Persons must not deal in Netwealth's securities on a short-term trading basis. Short-term trading includes the buying and selling securities on market within a 3 month period, and entering into other short-term dealings (for example, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Senior Executives and Nominated Employees",
+   "type": "approval",
+   "approver": "Joint Managing Directors (request lodged with trading@netwealth.com.au, monitored by the Company Secretary or delegate); either Joint Managing Director also decides exceptional-circumstances applications to trade in a blackout",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "trading@netwealth.com.au",
+   "post_trade_deadline": "promptly following any trade, ideally by close of business on the day of the trade; within 24 hours of completing the trade where trading under an 'open' window bulk pre-approval",
+   "section": "4.2, 4.3, 4.4",
+   "evidence": "For any Senior Executive or Nominated Employee, the Joint Managing Directors must be informed and have provided approval before a trade is undertaken ... Following receipt of approval to trade, the approved trading must occur within five business days following approval, otherwise the approval is no longer effective and fresh approval must be sought."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board (request lodged with trading@netwealth.com.au); the Chair of the Board also decides exceptional-circumstances applications for directors and their Connected Persons",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "trading@netwealth.com.au",
+   "post_trade_deadline": "promptly following any trade, ideally by close of business on the day of the trade",
+   "section": "4.2, 4.3, 4.4",
+   "evidence": "For any other director, the Chair of the Board must be informed and have provided approval before a trade is undertaken."
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Chair of the Group's Compliance and Risk Management Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "trading@netwealth.com.au",
+   "post_trade_deadline": "promptly following any trade, ideally by close of business on the day of the trade",
+   "section": "4.2, 4.3, 4.4",
+   "evidence": "For the Chair of the Board the Chair of the Group's Compliance and Risk Management Committee must be informed and have provided approval before a trade is undertaken;"
+  },
+  {
+   "tier": "Employees",
+   "type": "approval",
+   "approver": "Company Secretary or delegate via the trading@netwealth.com.au mailbox, other than where the Policy names a more senior approver; no approval is needed while an 'open' trading window bulk pre-approval is in force, but the trade must still be confirmed within 24 hours",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "trading@netwealth.com.au",
+   "post_trade_deadline": "promptly following any trade, ideally by close of business on the day of the trade",
+   "section": "4.3, 4.4",
+   "evidence": "During any period that is not a trading blackout period, Employees must, prior to any proposed trading, notify trading@netwealth.com.au and seek approval for the proposed trading in Netwealth's securities (including any proposed trading by one of their Connected Persons)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Employees",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "from the last purchase for a sale, and from the last sale for a purchase; Employee and Connected Person assessed separately unless securities have been transferred between them",
+   "carve_outs": [
+    "participation in an Employee incentive plan operated by Netwealth",
+    "acquisition through a dividend reinvestment plan",
+    "acquisition through a share purchase plan available to all retail shareholders",
+    "acquisition through a rights issue",
+    "disposal through acceptance of a takeover offer, scheme of arrangement or equal access buy-back",
+    "dealings that result in no material change to the beneficial interest",
+    "trading under a pre-approved non-discretionary trading plan by a non-executive director",
+    "a disposal resulting from a secured lender exercising their rights",
+    "a short-term trade authorised by the NWL Board on reasonable grounds"
+   ],
+   "evidence": "Where an Employee or a Connected Person need to make a short-term trade, a request to the NWL Board may be made. The NWL Board have discretion to authorise a short-term trade where there is a reasonable grounds for doing so."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Joint Managing Directors (Senior Executives, Nominated Employees and their Connected Persons); Chair of the Board (directors and their Connected Persons); Chair of the Group's Compliance and Risk Management Committee (Chair of the Board and their Connected Persons)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order. ... Approval to trade will only be granted if the Employee's or their Connected Person's application is accompanied by sufficient evidence (in the opinion of the person providing clearance) that the trading is the most reasonable course of action available in the circumstances."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Joint Managing Directors, Chair of the Board or Chair of the Compliance and Risk Management Committee as applicable",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "participation in an Employee incentive plan operated by Netwealth. However, where securities in Netwealth granted under an Employee incentive plan cease to be held under the terms of that plan, any dealings in Netwealth securities must only occur in accordance with this Policy;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Netwealth securities through a dividend reinvestment plan; acquisition of Netwealth securities through a share purchase plan available to all retail shareholders; acquisition of Netwealth securities through a rights issue;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Netwealth securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no material change to the beneficial interest in the securities (for example, transfers of Netwealth securities already held by an Employee or their Connected Person into a superannuation fund or trust of which the Employee or their Connected Person is a beneficiary);"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Plan must be pre-approved and not entered into or amended during a blackout period",
+   "evidence": "trading under a pre-approved non-discretionary trading plan by a non-executive director where: the non-executive director is required under a Netwealth policy to acquire Netwealth securities over a period of time; the non-executive director did not enter into the plan or amend the plan during a blackout period; the plan does not permit the non-executive director to exercise any influence or discretion in relation to trading under the plan; and the plan cannot be cancelled during a blackout period, other than in exceptional circumstances;"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of Netwealth that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "No guidance on where triggers should be set, but the approver may condition its approval on the circumstances in which Netwealth securities may be sold to satisfy a margin call: 'The relevant approver may, at its discretion, make any approval granted in accordance with this Policy conditional upon such terms and conditions as Netwealth sees fit (for example, regarding the circumstances in which Netwealth's securities may be sold to satisfy a margin call).'",
+  "financing_disclosure": [
+   "All Employees (including directors): at inception and on each occasion, prior approval must be sought from the relevant approver via trading@netwealth.com.au for any dealing in Netwealth securities in connection with a margin lending arrangement.",
+   "All Employees: annually, via the Netwealth Employee Annual Trading Declaration, each person must confirm 'I do not have a margin loan associated with my NWL securities and / or have not hedged my NWL Securities'.",
+   "All Employees: on request, the up to date Trading Register of all trading in Financial Products must be supplied to trading@netwealth.com.au.",
+   "Directors and Key Management Personnel: Finance maintains the register of Directors' and Key Management Personnel's interests and publishes appropriate statements to the market where required; no deadline stated in the Policy."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "Not stated as a rule, but the non-discretionary trading plan carve-out presupposes that a non-executive director may be 'required under a Netwealth policy to acquire Netwealth securities over a period of time'. Nothing addresses whether hedged shares count towards any such requirement."
+ },
+ "external_documents": [
+  "Netwealth Code of Conduct",
+  "Group Insider Trading and Market Manipulation Policy",
+  "Incident & Breach Handling Policy",
+  "Netwealth Whistleblowing Policy",
+  "Continuous disclosure register of Directors' and Key Management Personnel's interests maintained by Finance"
+ ],
+ "exemption_authority": "Trading in a blackout period may be approved on exceptional-circumstances grounds by either Joint Managing Director (Senior Executives, Nominated Employees), the Chair of the Board (directors) or the Chair of the Compliance and Risk Management Committee (Chair of the Board), on written application to trading@netwealth.com.au with sufficient evidence that the trade is the most reasonable course of action available; approval lasts five business days. The NWL Board has a separate discretion to authorise a short-term trade on reasonable grounds. There is no exemption power over the bans on hedging unvested or holding-locked plan securities.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging vested shares expressly permitted",
+   "clause": "Employees and their Connected Persons are permitted to hedge their vested and unrestricted Company securities provided that the hedge transaction is treated as a dealing in Company securities for the purposes of this Policy, and the relevant approvals and notifications required under section 4 are made on that basis.",
+   "why_it_matters": "This is an express positive permission for the derivative legs of a collar over vested unrestricted shares, rather than the more common outright hedging ban, so the structure has a clear policy pathway."
+  },
+  {
+   "topic": "hedge lifecycle events",
+   "clause": "any Employee or their Connected Persons must not enter into, renew, alter or close out a hedge transaction when they are in possession of Inside Information;",
+   "why_it_matters": "Rolls, amendments, resets and unwinds of the collar are each separately regulated events, so the bank must build in approval and inside-information checkpoints at every lifecycle step, not just at inception."
+  },
+  {
+   "topic": "margin lending is an approval regime",
+   "clause": "Employees and their Connected Persons must obtain approval ... for any proposed dealing in the Netwealth's securities in connection with a margin lending arrangement. Examples of such dealings include: entering into a margin lending arrangement in respect of the Netwealth's securities; transferring securities in Netwealth into an existing margin loan account; and selling securities in Netwealth to satisfy a call pursuant to a margin loan.",
+   "why_it_matters": "The secured loan leg is permitted with approval rather than banned, but each of inception, the transfer of the collared shares into the lender's account, and any self-help sale to meet a call is a separate dealing needing its own approval."
+  },
+  {
+   "topic": "conditional approval on margin call sales",
+   "clause": "The relevant approver may, at its discretion, make any approval granted in accordance with this Policy conditional upon such terms and conditions as Netwealth sees fit (for example, regarding the circumstances in which Netwealth's securities may be sold to satisfy a margin call).",
+   "why_it_matters": "Netwealth can impose conditions that constrain the bank's enforcement rights, so the facility documentation should anticipate company-imposed limits on when collateral may be sold."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "Sections 4.1, 4.3 and 5.2 of this Policy do not apply to ... a disposal of securities of Netwealth that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement.",
+   "why_it_matters": "Lender enforcement is outside the blackout, prior-approval and short-term trading rules, so the bank can realise the collateral even in a blackout period without putting the executive in breach."
+  },
+  {
+   "topic": "forward contracts are short-term dealings",
+   "clause": "Short-term trading includes the buying and selling securities on market within a 3 month period, and entering into other short-term dealings (for example, forward contracts).",
+   "why_it_matters": "A prepaid forward or a short-dated collar risks being characterised as a prohibited short-term dealing, so tenor should comfortably exceed three months or NWL Board authorisation should be obtained."
+  },
+  {
+   "topic": "14 day cooling off in the annual declaration",
+   "clause": "Appendix A, question 8: 'I have not traded or transferred NWL securities within 14 days of purchasing or selling one or more NWL securities.'",
+   "why_it_matters": "The annual declaration asserts a 14-day gap between trades that has no counterpart in the body of the Policy, so paired legs or a same-window loan drawdown and share transfer may need to be spaced or explained."
+  },
+  {
+   "topic": "substance over form",
+   "clause": "We will take a substance over form approach and will have regard to the intent and spirit of this Policy when applying and enforcing it.",
+   "why_it_matters": "A collar or loan structured to sit outside the literal wording of the margin lending and hedging sections will still be assessed on its economic substance."
+  },
+  {
+   "topic": "Front Page Test",
+   "clause": "Where any approval is required for a trading under this Policy, approval will not be granted where the trading would not satisfy the Front Page Test.",
+   "why_it_matters": "Approval for the collar can be refused on pure reputational grounds regardless of technical compliance, and the approver need give no reasons."
+  },
+  {
+   "topic": "no reasons for direction or condition",
+   "clause": "The Company Secretary (or their delegate) may direct the person who is proposing to trade in the Company's securities not to trade, or impose conditions on the trading in their discretion, and is not obliged to provide reasons for any direction or condition.",
+   "why_it_matters": "Execution of the collar can be blocked or conditioned at short notice without explanation, so the bank should treat approval as revocable until the trade is struck."
+  },
+  {
+   "topic": "trading register and annual declaration",
+   "clause": "All Employees must keep an up to date register containing information relating to all trading of Financial Products (Trading Register). ... I confirm I do not have a margin loan associated with my NWL securities and / or have not hedged my NWL Securities.",
+   "why_it_matters": "The existence of the collar and any associated loan must be recorded and annually declared, so it cannot be kept confidential from the company."
+  }
+ ],
+ "summary": "A funded collar is possible under this policy, which is one of the more permissive on the ASX. Section 5.4(d) expressly permits Employees and their Connected Persons to hedge vested and unrestricted Company securities, provided the hedge is treated as a dealing: prior approval through trading@netwealth.com.au from the Joint Managing Directors (Senior Executives and Nominated Employees), the Chair of the Board (directors) or the Chair of the Compliance and Risk Management Committee (the Chair), execution within five business days, no dealing in the 30 June or 31 December blackout periods or any Board-specified period, no Inside Information at entry, renewal, alteration or close-out, and prompt post-trade confirmation. The loan leg is likewise an approval regime rather than a ban: section 5.3 requires approval for entering a margin lending arrangement over Netwealth securities, transferring shares into the lender's account and selling shares to meet a call, and the approver may impose conditions on when the collateral may be sold, while section 6(e) puts a secured lender's enforcement sale outside the blackout, approval and short-term trading rules entirely. The collar must be sized only to vested, unrestricted shares, because plan securities may never be hedged before vesting or while subject to a holding lock. The main traps are tenor and disclosure: forward contracts are given as an example of prohibited short-term dealing so the structure should run well beyond three months or be authorised by the NWL Board, and the arrangement must be entered in the personal Trading Register and disclosed in the annual declaration, with directors' and KMP interests published to the market where required."
+}
