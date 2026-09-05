@@ -1,0 +1,483 @@
+{
+ "symbol": "NGI",
+ "company": "Navigator Global Investments Limited",
+ "title": "Trading Policy",
+ "date_approved": "15 October 2025",
+ "date_effective": "15 October 2025",
+ "date_lodged": "15 October 2025",
+ "date_next_review": "October 2027",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company; a subset of KMP and of Personnel.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished only for the approver of pre-trade clearance and notification (routed to the Chair of the Audit and Risk Committee instead).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other KMP",
+   "kind": "kmp",
+   "description": "KMP as defined by the ASX Listing Rules and AASB 124 who are not Directors, including certain senior managers of Navigator and any other person advised by the Company Secretary that they are a KMP member or subject to the same trading restrictions.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Full-time, part-time or casual employees, consultants, and contractors of the Group.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Lighthouse employees",
+   "kind": "other",
+   "description": "Employees of Lighthouse (a Group entity); notifications and clearance requests must additionally be submitted to the Lighthouse Chief Compliance Officer as well as the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Family members and closely connected entities, such as a spouse and minor children, and any family company or family trust that the director, KMP, or employee or their close family members may control or have an interest in, and also includes anyone directed to trade or deal on the person's behalf.",
+   "includes_associates": "no"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a transaction or financial product (such as a derivative or other arrangements) that operates to limit the economic risk of an element of their remuneration that has either not vested or is a vested holding which remains subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "1 day after the release of the annual financial results of the Navigator Group (normally the second last week of August)",
+   "end_anchor": "four weeks after the Window opens",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "1 day after the Annual General Meeting of the Navigator Group (normally held in October each year)",
+   "end_anchor": "four weeks after the Window opens",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "1 day after the release of the interim financial results of the Navigator Group (normally the second last week of February)",
+   "end_anchor": "four weeks after the Window opens",
+   "duration_days": 28
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "the day after each Trading Window closes",
+   "end_anchor": "the start of the next Trading Window",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may, at its discretion, open additional Trading Windows, close a Trading Window early, extend a Trading Window, or impose additional trading restrictions during any period (including within a permitted Trading Window), for example when the Company is considering matters subject to ASX Listing Rule 3.1A, and may apply this to specific directors, other KMP and employees, or generally. Affected individuals are notified by email from the Company Secretary and/or the Lighthouse Chief Compliance Officer; the Policy does not say these restrictions are otherwise kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1; 11 (Securities, Trading definitions)",
+   "detail": "Trading in Navigator Securities expressly includes any derivative over an NGI share, and Securities is defined broadly to include financial products issued or created by third parties over Securities, so an OTC put/call written by a bank is squarely caught. Permitted during a Trading Window subject to notification, or outside a Window only via Pre-trade Clearance.",
+   "evidence": "Any derivative over or in respect of an ordinary share of Navigator (including but not limited to options, contracts for differences, future contracts, swaps and warrants) ... financial products issued or created by third parties over Securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.7.2",
+   "detail": "A derivative created to limit the economic risk of unvested remuneration falls within the absolute hedging ban, which applies to unvested holdings with no clearance route.",
+   "evidence": "Personnel and Associates must not enter into a transaction or financial product (such as a derivative or other arrangements) that operates to limit the economic risk of an element of their remuneration that has either not vested"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.7.2",
+   "detail": "The hedging ban expressly extends to a vested holding that remains subject to a holding lock, so a derivative over such shares is also absolutely prohibited.",
+   "evidence": "or is a vested holding which remains subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.7.2",
+   "detail": "Absolute ban, no clearance route stated, reinforced by the Part 2D.7 Corporations Act reference for KMP.",
+   "evidence": "Personnel and Associates must not enter into a transaction or financial product (such as a derivative or other arrangements) that operates to limit the economic risk of an element of their remuneration that has either not vested or is a vested holding which remains subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.7.2",
+   "detail": "Same absolute ban as unvested holdings; covers vested shares still subject to a holding lock.",
+   "evidence": "or is a vested holding which remains subject to a holding lock. KMP and their Associates are prohibited from entering into hedging arrangements with respect to such remuneration under Part 2D.7 of the Corporations Act."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "11 (Securities definition); 5.2-5.5",
+   "detail": "The absolute ban in 5.7.2 is limited to unvested or holding-locked remuneration. A hedge over vested, unrestricted shares is caught only because 'Securities' includes 'products designed to limit economic risk in Securities holdings', making it ordinary Trading subject to Trading Window timing and notification/clearance rather than an outright ban.",
+   "evidence": "products designed to limit economic risk in Securities holdings"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Not named. A prepaid forward or similar contract is an agreement to dispose of Securities and so is Trading, requiring Trading Window timing and the applicable notification or Pre-trade Clearance.",
+   "evidence": "Trading in Securities includes: Applying for, acquiring or disposing of Securities ... Entering into an agreement to do so"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.7.3",
+   "detail": "Absolute ban at any time, listed among the 'Prohibited trades at any time' with no clearance route.",
+   "evidence": "Personnel and Associates are prohibited from engaging in short selling in Navigator Securities at any time."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Stock lending is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1.2(d); 11 (Securities definition)",
+   "detail": "'Contracts for differences' is named expressly within both the Trading and Securities definitions; a CFD over vested, unrestricted shares is Trading requiring Trading Window timing and notification/clearance.",
+   "evidence": "Any derivative over or in respect of an ordinary share of Navigator (including but not limited to options, contracts for differences, future contracts, swaps and warrants)"
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.7.2",
+   "detail": "A CFD used to limit economic risk of unvested or holding-locked remuneration falls within the absolute hedging ban.",
+   "evidence": "must not enter into a transaction or financial product (such as a derivative or other arrangements) that operates to limit the economic risk of an element of their remuneration that has either not vested or is a vested holding which remains subject to a holding lock"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.7.4",
+   "detail": "Absolute, unconditional ban on including Navigator Securities in a margin loan portfolio or otherwise dealing under a margin lending arrangement; unlike the short-term trading restriction in the same section, no approver route is offered for margin lending.",
+   "evidence": "Personnel and their Associates must not include Navigator Securities in a margin loan portfolio or otherwise deal in Securities in the Company pursuant to a margin lending arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.7.4",
+   "detail": "Transferring the shares into an existing margin loan account (i.e. encumbering them to secure a loan) is expressly listed as one of the prohibited 'dealings' under the margin lending ban; a charge or lien outside a margin-loan structure is not separately addressed.",
+   "evidence": "Transferring Securities in the Company into an existing margin loan account"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.7.4",
+   "detail": "The ban is limited by its own wording to margin loan portfolios and margin lending arrangements; a secured facility not structured as, or resembling, a margin loan is not addressed either way, but a bank loan secured on the collared shares would likely be characterised as a margin lending arrangement and so be caught outright.",
+   "evidence": "Personnel and their Associates must not include Navigator Securities in a margin loan portfolio or otherwise deal in Securities in the Company pursuant to a margin lending arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.7.1",
+   "detail": "Short-swing/short-term dealing (a forward contract is given as an example) within three months of acquisition is permitted only with approval from the section 5.5 approvers; unlike hedging, short selling and margin lending, this restriction has a built-in clearance route.",
+   "evidence": "Personnel and Associates may not buy and sell Navigator Securities nor enter into any other short-term dealings (such as a forward contract) within a three-month period."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair (within a Trading Window: notify Chair and Company Secretary 1 day before intending to trade; outside a Trading Window: written Pre-trade Clearance from the Chair). Company Secretary follows the same Chair-approved route.",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within three days of completing the transaction",
+   "section": "5.3; 5.5; 5.6",
+   "evidence": "Pre-trade clearance is valid for a period of 1 week after it is obtained. ... Any Pre-trade Clearance to trade may be given or refused by Navigator in its discretion, without giving any reason. ... KMPs must notify the Company Secretary within three days of completing any Navigator Securities transactions."
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "Chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within three days of completing the transaction",
+   "section": "5.3; 5.5; 5.6",
+   "evidence": "Chair ... Chair of the Audit and Risk Committee and Company Secretary ... 1 day before intend to trade."
+  },
+  {
+   "tier": "Other KMP",
+   "type": "approval",
+   "approver": "Chair",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within three days of completing the transaction",
+   "section": "5.3; 5.5; 5.6",
+   "evidence": "Other KMP ... Chair and Company Secretary ... 1 day before intend to trade."
+  },
+  {
+   "tier": "Employees",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as possible once the trade is completed",
+   "section": "5.3; 5.5",
+   "evidence": "Employees ... Company Secretary ... As soon as possible once the trade is completed. ... Employees / Company Secretary [approves Pre-trade Clearance]"
+  },
+  {
+   "tier": "Lighthouse employees",
+   "type": "approval",
+   "approver": "Company Secretary, with the Lighthouse Chief Compliance Officer also to be notified/copied",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary and Lighthouse Chief Compliance Officer",
+   "post_trade_deadline": "as soon as possible once the trade is completed",
+   "section": "5.3",
+   "evidence": "For Lighthouse employees, the notification must be submitted to the Lighthouse Chief Compliance Officer and the Company Secretary."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "Personnel and Associates may not buy and sell Navigator Securities nor enter into any other short-term dealings (such as a forward contract) within a three-month period."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chair (Chair of the Audit and Risk Committee for the Chair; Company Secretary for Employees)",
+   "evidence": "In exceptional circumstances (such as financial hardship), Personnel may seek permission to trade in Navigator Securities outside of a Trading Window."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Transfer Navigator Securities already held into a superannuation fund or other savings scheme where they are a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Invest in, or trade units of a fund or scheme (excluding those solely investing in Navigator Securities) where the assets of the fund or scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "Undertake to accept, or accept, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "Board (approves timing/structure of the offer)",
+   "evidence": "Participate in an offer or invitation made to all or most Navigator Security holders, including a rights issue, equal access buy-backs, security purchase plans, or dividend or distribution reinvestment plans, where the Board has approved the timing or structure of the offer or invitation."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Acquire (but not trade) Navigator Securities by conversion of financial instruments giving rights to conversion to shares (e.g. options or convertible Securities) where the final date for the conversion of the security falls outside a Trading Window or the Personnel could not reasonably have been expected to exercise it at a time when free to do so"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Acquire Navigator Securities under a bonus issue made to all holders of Navigator Securities of the same class."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Acquire Navigator Securities under a dividend reinvestment or top-up plan that is available to all holders of the same class."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Acquire, agree to acquire or Exercise (but not trade) options or rights under an employee incentive scheme, including if the final exercise date falls outside a Trading Window or if it was unreasonable to expect exercise during a permitted period."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Withdraw ordinary shares held on their behalf in an employee share plan, if permitted by the plan rules."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Where the Personnel is acting as a trustee, trade in the Securities of the Company by that trust, provided the Personnel is not a beneficiary of the trust and any decisions to trade outside a Trading Window are taken by the other trustees or by the investment managers independently of the Personnel."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Group's Director and Employee Codes of Conduct (this Policy is to be read together with them)",
+  "Pre-trade Clearance Form"
+ ],
+ "exemption_authority": "Chair grants Pre-trade Clearance for Directors, Company Secretary and other KMP to trade outside a Trading Window in exceptional circumstances such as financial hardship; the Chair of the Audit and Risk Committee approves for the Chair; the Company Secretary approves for Employees (Lighthouse Chief Compliance Officer also involved for Lighthouse employees). Approval may be given or refused, without reason, in Navigator's discretion, and may be withdrawn at any time if new information emerges.",
+ "jurisdiction_overlays": [
+  "Part 2D.7 of the Corporations Act (KMP hedging prohibition)",
+  "Separate policies govern relevant Group employees for United States Securities and Exchange Commission and other applicable regulatory requirements in their jurisdiction of residence/employment"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "broad Securities definition sweeps in OTC derivatives",
+   "clause": "Securities: Shares, preference shares, options, derivatives, bonds and other financial products that can be traded on a financial market and include shares issued by the Company or any other company, redeemable rights, financial products issued or created by third parties over Securities, and products designed to limit economic risk in Securities holdings.",
+   "why_it_matters": "This expressly captures a bank-created OTC put and call ('financial product... created by third parties over Securities') and any hedge ('products designed to limit economic risk'), so the derivative legs of a collar over vested, unrestricted shares are Trading requiring Trading Window timing and notification/clearance rather than falling outside the Policy's scope."
+  },
+  {
+   "topic": "margin lending is an absolute, no-exception ban",
+   "clause": "Personnel and their Associates must not include Navigator Securities in a margin loan portfolio or otherwise deal in Securities in the Company pursuant to a margin lending arrangement.",
+   "why_it_matters": "Unlike the short-term trading restriction in the same section, which is expressly 'without permission from the relevant approvers', the margin lending ban carries no equivalent carve-out, so a bank loan secured on the collared shares, if it is or resembles a margin lending arrangement, cannot be cleared under this Policy at all."
+  },
+  {
+   "topic": "transfer into margin account and margin-call sale are dealings",
+   "clause": "Transferring Securities in the Company into an existing margin loan account; and Selling Securities in the Company to satisfy a call pursuant to a margin loan",
+   "why_it_matters": "Pledging the collared shares into a margin-style facility, and any forced sale on a margin call, are both expressly listed as prohibited dealings, so the enforcement mechanics of a secured funded-collar loan would themselves breach the Policy if structured as, or characterised as, a margin lending arrangement."
+  },
+  {
+   "topic": "hedging ban limited to unvested/locked remuneration",
+   "clause": "an element of their remuneration that has either not vested or is a vested holding which remains subject to a holding lock",
+   "why_it_matters": "The absolute hedging ban does not extend to vested, unrestricted shares (including on-market purchases or shares no longer subject to plan restrictions), so a collar over such shares is not banned outright and is instead assessed as ordinary Trading."
+  },
+  {
+   "topic": "forward contract named as short-term dealing",
+   "clause": "Personnel and Associates may not buy and sell Navigator Securities nor enter into any other short-term dealings (such as a forward contract) within a three-month period.",
+   "why_it_matters": "The Policy expressly treats a forward-type instrument as short-term dealing, so a short-tenor collar or one unwound within three months of the shares' acquisition needs section 5.5 approver clearance; a tenor beyond three months avoids this issue."
+  },
+  {
+   "topic": "narrow annual Trading Window timing",
+   "clause": "Each Trading Window is open for a period of four weeks [after annual results, the AGM, or interim results]. ... All other periods are prohibited periods.",
+   "why_it_matters": "Absent Pre-trade Clearance for exceptional circumstances, entry, unwind or exercise of a funded collar must be scheduled within one of three narrow four-week windows a year, materially constraining execution timing."
+  }
+ ],
+ "summary": "A funded collar is workable over vested, unrestricted Navigator shares but not over unvested or holding-locked remuneration: section 5.7.2 imposes an absolute, clearance-free ban on any transaction or financial product limiting the economic risk of unvested or locked holdings, while a collar over vested, unrestricted shares is instead ordinary Trading (the Securities and Trading definitions expressly capture third-party-created derivatives and economic-risk-limiting products), permitted within a Trading Window subject to notification (Directors, Chair and other KMP a day beforehand; Employees on completion) or, outside a Window, subject to written Pre-trade Clearance from the Chair (Company Secretary for Employees), valid for one week and refusable without reason. The loan leg is harder: margin lending arrangements, including transferring shares into a margin loan account or selling to satisfy a margin call, are banned outright with no exception under section 5.7.4, so a bank facility that is or resembles a margin lending arrangement cannot be cleared at all; a facility not structured as a margin loan is not addressed either way. Tenor should exceed three months, since the Policy names a forward contract as an example of short-term dealing that otherwise needs clearance from the section 5.5 approvers. Overall: the derivative legs are achievable with correct timing and clearance, but the secured loan leg carries a real risk of falling within the unconditional margin-lending ban and needs careful structuring to avoid that characterisation."
+}
