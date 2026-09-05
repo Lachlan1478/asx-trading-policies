@@ -1,0 +1,314 @@
+{
+ "symbol": "DTL",
+ "company": "Data#3 Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "30 December 2010",
+ "date_lodged": "30 December 2010",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "all Directors and staff of DTL",
+   "kind": "all_staff",
+   "description": "All Directors and staff of DTL (whether employees or consultants). Non-Restricted staff members are subject only to the general prohibition on dealing while in possession of Inside Information.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors and certain management staff (whether employees or consultants) of DTL. Subject to Closed Periods (including over financial products created over DTL securities), a 12-month short-term trading ban, and immediate notification duties for margin lending/encumbrance and margin calls.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 January",
+   "end_anchor": "the day on which the DTL half-year results are released to the market",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 July",
+   "end_anchor": "the day on which the DTL full-year results are released to the market",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "A Prohibited Period also includes any other periods from time to time when DTL is considering matters which are subject to Listing Rule 3.1A, as resolved by the Board. Confidentiality of the reason is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Financial products issued or created over, or in respect of, DTL securities are expressly named and swept into the Closed Period ban -- an OTC put/call is caught. Outside the two Closed Periods (and any Board-resolved Prohibited Period) and absent Inside Information, no clearance is required to deal in such a derivative.",
+   "evidence": "Restricted Persons must not trade in DTL securities (nor trade in financial products issued or created over, or in respect of, DTL securities) during the following Closed Periods"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all Directors and staff of DTL",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The general prohibition on non-Restricted staff (section 5.1) refers only to dealing in 'DTL securities' or 'listed securities of another entity'; it does not extend expressly to financial products created over DTL securities the way section 5.2 does for Restricted Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The word 'hedge' or 'hedging' does not appear anywhere in the Policy; there is no hedging-specific prohibition or definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Monetisation is not named, but a prepaid forward or similar structure is a financial product created 'in respect of' DTL securities and so is caught by the Closed Period ban; outside Closed/Prohibited Periods and absent Inside Information it is not otherwise restricted.",
+   "evidence": "nor trade in financial products issued or created over, or in respect of, DTL securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.2",
+   "detail": "CFDs are not named, but a CFD referencing DTL securities is a financial product 'in respect of' DTL securities and so is caught by the Closed Period ban only; not otherwise restricted.",
+   "evidence": "nor trade in financial products issued or created over, or in respect of, DTL securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Margin lending involving DTL shares is not banned, but must be disclosed immediately to the Chairman (or, in his absence, the Chairman of the Audit Committee or the Company Secretary); a material Security Arrangement may also require DTL to notify the ASX. No prior clearance is needed, only prompt post-arrangement disclosure.",
+   "evidence": "If a Restricted Person enters into a margin lending arrangement involving DTL shares or otherwise encumbers DTL shares (a \"Security Arrangement\"), then the Restricted Person must provide details of the Security Arrangement to the Chairman, or in his absence the Chairman of the Audit Committee or the Company Secretary immediately."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Encumbering DTL shares by any means (a 'Security Arrangement') is expressly named and is not banned, but requires immediate disclosure to the Chairman/alternate, and possible ASX notification if the number of shares is material.",
+   "evidence": "or otherwise encumbers DTL shares (a \"Security Arrangement\")"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Secured financing over DTL shares (margin loan or other Security Arrangement) is permitted subject to immediate notification; a resulting forced sale by the secured lender exercising its rights is expressly permitted at any time, including during a Prohibited Period.",
+   "evidence": "A Restricted Person may sell securities at any time where the disposal is the result of a secured lender exercising its rights under a margin lending or similar arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1(a)",
+   "detail": "Absolute intention-based ban on buying DTL securities with intent to sell within 12 months, applying to Restricted Persons at all times, not only in Closed Periods.",
+   "evidence": "Engage in short-term trading of any DTL securities (i.e. buy DTL securities with an intention to sell those securities within a 12 month period)"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Chairman and the Company Secretary (or, where either of them is the Applicant, the other of them and the Chairman of the Audit Committee)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1; 6.2",
+   "evidence": "A Restricted Person who wishes to trade in DTL securities during a Prohibited Period (Applicant) must obtain the prior written permission of: (a) Both the Chairman and the Company Secretary; or (b) Where the Chairman or the Company Secretary is the Applicant, the other of them and the Chairman of the Audit Committee."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "intention",
+   "months": 12,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "Engage in short-term trading of any DTL securities (i.e. buy DTL securities with an intention to sell those securities within a 12 month period)"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman and the Company Secretary (or alternate per section 6.2)",
+   "evidence": "Severe Financial Hardship could include, but is not limited to, a pressing financial commitment that cannot be satisfied otherwise than by selling the DTL securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chairman and the Company Secretary (or alternate per section 6.2)",
+   "evidence": "an Exceptional Circumstance could include, but is not limited to, where the Restricted Person is required by a court order, or there are court enforceable undertakings, for example, in a bona fide family settlement, to transfer or sell the securities of the entity"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Transfers of DTL securities where the transfer results in no change to the beneficial interest in the securities (for example, a Restricted Person transferring shares between one or more of their share holding entities, with no change to the ultimate beneficial holder)"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Transfers of DTL securities already held into a superannuation fund or other saving scheme in which the Restricted Person is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in DTL securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Where a Restricted Person is a trustee, trading in DTL securities by that trust, provided the Restricted Person is not a beneficiary of the trust and any decision to trade during a Closed Period is taken by other trustees or by the investment managers independently of the Restricted Person"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An undertaking or agreement to accept, or the acceptance of, a takeover offer for some or all of the Restricted Person's DTL securities"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading under an offer or invitation made to some or all of DTL's members, such as a rights issue, a security purchase plan, a bonus equity plan, dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "A Restricted Person may sell securities at any time where the disposal is the result of a secured lender exercising its rights under a margin lending or similar arrangement."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Restricted Persons: immediate disclosure to the Chairman (or, in his absence, the Chairman of the Audit Committee or the Company Secretary) upon entering a margin lending arrangement or otherwise encumbering DTL shares",
+   "Restricted Persons: immediate written notice to the Chairman or Company Secretary upon receiving a margin call that can only be satisfied by selling DTL securities",
+   "DTL: may notify the ASX of a Security Arrangement covering a material number of shares"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chairman and Company Secretary (or, where either is the Applicant, the other of them plus the Chairman of the Audit Committee) may grant written permission to trade during a Prohibited Period only for Severe Financial Hardship or an Exceptional Circumstance (e.g. court order or enforceable undertaking), subject to any conditions they set. No exemption exists for the 12-month short-term trading ban or the general Inside Information prohibition.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "derivatives named in Closed Period ban",
+   "clause": "Restricted Persons must not trade in DTL securities (nor trade in financial products issued or created over, or in respect of, DTL securities) during the following Closed Periods",
+   "why_it_matters": "The put/call legs of a collar are expressly caught by the Closed Period ban but are otherwise unrestricted outside the two Closed Periods (absent Inside Information), so timing -- not an outright ban -- is the primary constraint on a funded collar."
+  },
+  {
+   "topic": "Security Arrangement notification",
+   "clause": "If a Restricted Person enters into a margin lending arrangement involving DTL shares or otherwise encumbers DTL shares (a \"Security Arrangement\"), then the Restricted Person must provide details of the Security Arrangement to the Chairman ... immediately.",
+   "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is not prohibited but triggers an immediate written disclosure obligation, and DTL may separately need to notify the ASX if the number of shares involved is material."
+  },
+  {
+   "topic": "forced sale permitted at any time",
+   "clause": "A Restricted Person may sell securities at any time where the disposal is the result of a secured lender exercising its rights under a margin lending or similar arrangement.",
+   "why_it_matters": "The bank's enforcement sale on default is expressly permitted even during a Closed or Prohibited Period, giving the lender a clear, policy-sanctioned right to liquidate the collateral regardless of the executive's own trading restrictions at the time."
+  },
+  {
+   "topic": "no hedging concept",
+   "clause": "(the terms 'hedge' and 'hedging' do not appear anywhere in the Policy)",
+   "why_it_matters": "A collar is analysed purely as 'dealing'/'trading' in DTL securities or financial products over them; the Closed Period and 12-month short-term rules are the operative constraints, not a separate hedging prohibition."
+  },
+  {
+   "topic": "margin call notification",
+   "clause": "A Restricted Person must immediately notify the Chairman or the Company Secretary in writing if he or she receives a margin call that can only be satisfied by the sale of DTL's securities.",
+   "why_it_matters": "If the bank's facility has margin-call mechanics rather than being fully secured to a fixed level, any call forcing a sale must be reported immediately even though clearance for the sale itself is not required."
+  }
+ ],
+ "summary": "A funded collar over vested shares appears achievable for a Data#3 Restricted Person, subject to timing and disclosure conditions. Financial products created over or in respect of DTL securities -- which expressly includes an OTC put or call -- are only barred during the two annual Closed Periods (1 January to half-year results, 1 July to full-year results) or any Board-resolved Prohibited Period, or while the person holds Inside Information; outside those windows no clearance is required. The loan secured on the collared shares is not prohibited but is a 'Security Arrangement' requiring immediate written disclosure to the Chairman (or alternate), with possible ASX notification if material, and any margin call forcing a sale must also be notified immediately, though the resulting forced sale itself is expressly permitted at any time including in a Closed Period. The collar must not be entered with an intention to sell the underlying shares within 12 months of their acquisition, given the absolute short-term trading ban, and if timed within a Prohibited Period would need written permission from the Chairman and Company Secretary (or alternate) on hardship or court-order grounds only, which would not extend to voluntary collar entry."
+}
