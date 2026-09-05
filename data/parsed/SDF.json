@@ -1,0 +1,528 @@
+{
+ "symbol": "SDF",
+ "company": "Steadfast Group Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "August 2025 (Steadfast Board of Directors; version 1.1)",
+ "date_effective": "August 2025",
+ "date_lodged": "6 August 2025",
+ "date_next_review": "May 2026",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "All directors and other key management personnel of Steadfast, and any other person designated by the Managing Director & CEO from time to time, in relation to which the Company Secretary maintains a list. Parts 3 to 6 (trading windows, prior notification, clearance, notification of dealing, records, exceptional circumstances, permitted dealings, margin lending, short term trading, short selling, stock lending and hedging) apply only to this tier and their Associates.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and alternate directors of Steadfast (other than the Chair)",
+   "kind": "director",
+   "description": "Board directors and alternate directors other than the Chair; the Company Secretary is grouped with them for clearance. They clear through the Chair. Their off-market transfers with no change in beneficial ownership are expressly carved out of the permitted-dealings exclusion, so such transfers remain subject to windows and clearance for them.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The chair of the Board. Clears through the Chair of the Audit & Risk Committee or another non-executive director nominated by that Chair; exceptional circumstances involving the Chair are determined by the Chair of the Audit & Risk Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "key management personnel",
+   "kind": "kmp",
+   "description": "Steadfast's key management personnel. Automatically Designated Persons, and the hedging prohibition is extended beyond them to their closely related parties as defined in the Corporations Act.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "all directors, employees and contractors of Steadfast",
+   "kind": "all_staff",
+   "description": "The full population, including Associates, to whom only part 2 (insider trading laws) and the breach provisions apply. They are not subject to the trading windows, clearance, margin lending, short term trading, short selling, stock lending or hedging restrictions unless designated by the Managing Director & CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouse, de facto partner, domestic partner or any other dependant under 18 (Immediate Family) and any other relative living in the same household unless financially independent; another family member for whom the person controls or influences dealing in securities; and trusts, companies, nominees, partnerships and other entities that the person or those persons control or significantly influence. Designated Persons must take reasonable steps to ensure Associates comply and must communicate with the Notification Officer on the Associate's behalf.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "must not enter into transactions or arrangements with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: a) has not vested; or b) has vested but remains subject to a holding lock.",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "the business day after Steadfast's half yearly results are announced to ASX",
+   "end_anchor": "30 days later",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "the business day after Steadfast's annual results are announced to ASX",
+   "end_anchor": "30 days later",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "the business day after Steadfast's annual general meeting",
+   "end_anchor": "30 days later",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "any other period designated by the Board at its discretion (e.g. following lodgement of a prospectus or similar disclosure document open for acceptances, or a period of enhanced disclosure)",
+   "end_anchor": "as designated by the Board",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "expiry of a trading window",
+   "end_anchor": "opening of the next notified trading window",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may vary, suspend or terminate trading window arrangements at any time, conditionally or unconditionally. Designated Persons are notified of windows by email and must not assume a window is open in the absence of notification. Separately, any refusal of clearance by a Notification Officer must be kept confidential and no reasons need be given.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.1; 3.1-3.3; 9 (Definitions)",
+   "detail": "Steadfast's Securities expressly include options, derivatives and other financial products of Steadfast that are able to be traded on a financial market, and dealing includes applying for, granting, exercising or transferring options. Exchange-traded options over SDF are therefore dealings requiring an open 30 day window and clearance from the Notification Officer.",
+   "evidence": "this policy summarises the law relating to insider trading and sets out Steadfast's policy on dealing in securities of Steadfast including shares, options, derivatives and any other financial products of Steadfast that are able to be traded on a financial market (\"Steadfast's Securities\")."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1.1; 6.2; 9 (Definitions)",
+   "detail": "The definition of Steadfast's Securities is qualified by 'that are able to be traded on a financial market', so a bilateral OTC put and call written by a bank is arguably outside part 3 and needs no window or clearance. The separately defined 'financial products' (which expressly includes swaps, forward contracts and contracts for difference issued or created over or associated with Steadfast's Securities by third parties) is used only in the short term trading prohibition in 6.2, not in the clearance regime. Prudent practice would still be to clear.",
+   "evidence": "financial products includes derivatives, options, warrants, futures, forward contracts, swaps and contracts for difference issued or created over or associated with Steadfast's Securities by third parties;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2 (No hedging)",
+   "detail": "Absolute ban, with no clearance route, on any transaction or arrangement with anyone that could have the effect of limiting exposure to risk relating to an unvested element of remuneration. Only a disposal, not a hedge, can be relieved under the exceptional circumstances provision in part 4.",
+   "evidence": "Designated Persons (and, in relation to Steadfast's key management personnel, their closely related parties) must not enter into transactions or arrangements with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: a) has not vested"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2 (No hedging)",
+   "detail": "The ban extends expressly to remuneration that has vested but remains subject to a holding lock, so shares still in a disposal restriction period cannot be collared.",
+   "evidence": "b) has vested but remains subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2 (No hedging); 3.1-3.3",
+   "detail": "The hedging ban is confined to unvested remuneration and vested remuneration under a holding lock, so hedging vested unrestricted shares (whether plan-sourced or bought on market) is not prohibited. Any hedge implemented through Steadfast's Securities still needs an open window and prior clearance, and must not amount to short term trading within 3 months.",
+   "evidence": "must not enter into transactions or arrangements with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: a) has not vested; or b) has vested but remains subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "key management personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2 (No hedging)",
+   "detail": "For KMP the hedging ban reaches beyond Associates to closely related parties as defined in the Corporations Act, so hedges booked by a KMP's spouse, dependant or controlled entity over unvested or holding-locked remuneration are equally banned.",
+   "evidence": "Designated Persons (and, in relation to Steadfast's key management personnel, their closely related parties) must not enter into transactions or arrangements with anyone which could have the effect of limiting their exposure to risk"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all directors, employees and contractors of Steadfast",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "1.2",
+   "detail": "Parts 3 to 6 apply only to Designated Persons, so employees and contractors who are not directors, KMP or designated by the MD & CEO are not subject to the hedging, margin lending, short term trading, short selling or stock lending restrictions at all; only the insider trading prohibitions bind them.",
+   "evidence": "parts 3 to 6 (trading policy) apply to all directors and other key management personnel of Steadfast, and any other person designated by the Managing Director & CEO from time to time"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1 (No margin lending)",
+   "detail": "Monetisation is not named. A prepaid forward, collar-plus-loan or similar monetisation that is secured on SDF securities is caught by the flat ban on margin lending or other secured financing arrangements in relation to Steadfast's Securities. An unsecured monetisation implemented through tradable Steadfast Securities would instead be a dealing requiring window and clearance.",
+   "evidence": "Designated Persons and their Associates are not permitted to enter into margin lending or other secured financing arrangements in relation to Steadfast's Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2 (No short term trading)",
+   "detail": "Flat ban on short selling SDF securities by Designated Persons and their Associates, with no clearance route.",
+   "evidence": "Designated Persons and their Associates are not permitted to engage in short selling or stock lending of Steadfast's Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2 (No short term trading)",
+   "detail": "Stock lending of SDF securities is expressly prohibited alongside short selling, which rules out any collar structure in which the shares are lent to the bank or on to the hedging desk.",
+   "evidence": "Designated Persons and their Associates are not permitted to engage in short selling or stock lending of Steadfast's Securities."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.2; 9 (Definitions, financial products)",
+   "detail": "Contracts for difference are not separately prohibited but are named in the definition of 'financial products', which is the subject of the short term trading ban; a CFD entered and closed within 3 months is therefore prohibited, and a short CFD would also breach the short selling ban.",
+   "evidence": "financial products includes derivatives, options, warrants, futures, forward contracts, swaps and contracts for difference issued or created over or associated with Steadfast's Securities by third parties;"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1 (No margin lending)",
+   "detail": "Flat ban on margin lending for Designated Persons and their Associates, with the stated rationale that the terms may force a sale outside a window or while holding Inside Information. Uncertain cases are to be referred to the Company Secretary.",
+   "evidence": "Designated Persons and their Associates are not permitted to enter into margin lending or other secured financing arrangements in relation to Steadfast's Securities. This is on the grounds that the terms may require Steadfast's Securities to be sold outside a trading window or when the Designated Person possesses Inside Information."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1 (No margin lending)",
+   "detail": "Granting security over SDF securities to support any financing is prohibited as an 'other secured financing arrangement in relation to Steadfast's Securities'. A charge or pledge unconnected with a financing is not addressed and is not within the definition of dealing.",
+   "evidence": "not permitted to enter into margin lending or other secured financing arrangements in relation to Steadfast's Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1 (No margin lending)",
+   "detail": "The prohibition is not limited to margin loans: any secured financing arrangement in relation to Steadfast's Securities is banned for Designated Persons and Associates regardless of vesting state or loan-to-value ratio. There is no clearance route; the only conceivable relief is the Board's general power to adjust or exclude a requirement of the policy case by case.",
+   "evidence": "Designated Persons and their Associates are not permitted to enter into margin lending or other secured financing arrangements in relation to Steadfast's Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all directors, employees and contractors of Steadfast",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "1.2",
+   "detail": "Employees and contractors who are not directors, KMP or otherwise designated are outside parts 3 to 6 entirely, so the secured financing ban does not reach them.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2 (No short term trading)",
+   "detail": "Buying and selling within a 3 month period is short term trading and is banned, and the ban expressly extends to financial products associated with Steadfast's Securities, so a collar with a tenor under 3 months, or one opened and unwound within 3 months, is prohibited. Only the exercise of plan options or rights and the subsequent sale of the resulting shares is carved out.",
+   "evidence": "Designated Persons and their Associates must not engage in short term trading in Steadfast's Securities or in financial products associated with Steadfast's Securities. Buying and selling Steadfast's Securities within a 3 month period is considered short term trading."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors and alternate directors of Steadfast (other than the Chair)",
+   "type": "approval",
+   "approver": "Chair, and if unavailable the Chair of the Audit & Risk Committee or another non-executive director nominated by the Chair of the Audit & Risk Committee (the same officer clears the Company Secretary)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Notification Officer (number of Steadfast's Securities affected and the relevant parties to the dealing)",
+   "post_trade_deadline": "3 business days from when the dealing occurred",
+   "section": "3.2-3.4",
+   "evidence": "A clearance lasts for 5 business days unless it specifies a different date or is withdrawn earlier. ... Designated Persons must confirm in writing to the Notification Officer, within 3 business days from when the dealing in Steadfast's Securities has occurred, the number of Steadfast's Securities affected and the relevant parties to the dealing."
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "Chair of the Audit & Risk Committee or another non-executive director nominated by the Chair of the Audit & Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Notification Officer",
+   "post_trade_deadline": "3 business days from when the dealing occurred",
+   "section": "3.2-3.4",
+   "evidence": "Chair | Chair of the Audit & Risk Committee or another non-executive director nominated by the Chair of the Audit & Risk Committee"
+  },
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Managing Director & CEO and the Company Secretary, and if unavailable the Chair, or if the Chair is unavailable the Chair of the Audit & Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Notification Officer",
+   "post_trade_deadline": "3 business days from when the dealing occurred",
+   "section": "3.2-3.4",
+   "evidence": "If a Designated Person proposes to deal in Steadfast's Securities (including entering into an agreement to deal) at any time they must first provide: a) written notice of their intention to the \"Notification Officer\" ... b) written confirmation that the Designated Person is not in possession of Inside Information."
+  },
+  {
+   "tier": "all directors, employees and contractors of Steadfast",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.2",
+   "evidence": "part 2 (insider trading laws) and part 9 (breaches of this policy) apply to all directors, employees and contractors of Steadfast, and their Associates;"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and selling within a 3 month period; extended to financial products associated with Steadfast's Securities",
+   "carve_outs": [
+    "exercising options or rights under Steadfast incentive schemes and subsequently selling the Steadfast Securities acquired"
+   ],
+   "evidence": "Buying and selling Steadfast's Securities within a 3 month period is considered short term trading. This does not prohibit exercising options or rights under Steadfast incentive schemes and subsequently selling Steadfast's Securities acquired."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Notification Officer (consulting the Chair, or the Chair of the Audit & Risk Committee where the Chair is involved)",
+   "evidence": "severe financial hardship, for example, a pressing financial commitment that cannot be satisfied otherwise than by selling Steadfast's Securities;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Notification Officer",
+   "evidence": "requirements under a court order or court enforceable undertakings or other legal or regulatory requirements;"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "Chair (or Chair of the Audit & Risk Committee where the Chair is involved)",
+   "evidence": "A Designated Person may request, and the Notification Officer may give, prior confirmation for the Designated Person or their Associate to: a) deal in Steadfast's Securities outside a trading window; or b) dispose of Steadfast's Securities even if otherwise prohibited under part 6, if there are exceptional circumstances"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "(lender disposals) disposals of Steadfast's Securities that are the result of a secured lender exercising their rights, however, this does not extend to disposals under any margin lending agreement where such agreements are prohibited by this policy;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(off market) off-market transfers of Steadfast Securities, other than those by the Board Directors and their Associates, where there is no change in beneficial ownership (e.g. transferring between two of your own accounts, such as from your employee holding to a personal holding in your name)."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(superannuation) dealings in Steadfast's Securities between a superannuation fund, custodian or other saving scheme in which the Designated Person is a beneficiary and the Designated Person or their Associate, provided that any such dealings are notified immediately to the Notification Officer;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(third parties) investments in, or dealings in units of, a fund or other scheme (other than a scheme only investing in Steadfast's Securities) where the assets of the fund or other scheme are invested at the discretion of a third party and the Designated Person or Associate has no ability to exercise any influence or discretion in relation to such dealing"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "(schemes and takeovers) disposals, or undertakings to dispose, of Steadfast's Securities arising from a scheme of arrangement or acceptance of a takeover offer;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "(DRPs and SPPs) acquisitions of Steadfast's Securities under a dividend or distribution reinvestment plan or security purchase plan, provided that the Designated Person or their Associate did not join or vary their participation in the plan while in possession of Inside Information;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "(incentive scheme) exercises (but not the sale of Steadfast's Securities following exercise) of an option or right under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise of the option or right, or the conversion of the security, falls outside a trading window and it has been an exceptionally long time since the last trading window"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(deceased estates) dealings in Steadfast's Securities arising from the administration of a deceased estate;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "Board (timing and structure of the offer approved by the Board)",
+   "evidence": "(rights offers, bonus issues and buy-backs) dealings in Steadfast's Securities under an offer or invitation made to all or most of Steadfast's security holders, such as a rights issue, a bonus issue and an equal access buy-back, where the timing and structure of the offer has been approved by the Board."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "The stated rationale for the margin lending ban is the forced-sale risk itself: 'This is on the grounds that the terms may require Steadfast's Securities to be sold outside a trading window or when the Designated Person possesses Inside Information.' A collar structure that can force delivery or sale on a price trigger therefore offends the policy's underlying concern even where the drafting is arguably narrower.",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "yes",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "The list of Designated Persons maintained by the Company Secretary",
+  "Steadfast employee incentive scheme rules (referenced for option and right exercises and holding locks)"
+ ],
+ "exemption_authority": "Two routes. (1) Part 4: a Notification Officer may give prior confirmation for a Designated Person or Associate to deal outside a trading window, or to dispose of Steadfast's Securities even if otherwise prohibited under part 6, in exceptional circumstances (severe financial hardship, court order or legal or regulatory requirement, or other exceptional circumstances determined by the Chair or, where the Chair is involved, the Chair of the Audit & Risk Committee); prior notification, clearance and post-trade notification still apply. This route covers only disposals, not entry into a hedge or a secured financing. (2) Part 8: 'The Board may, in its discretion, adjust or exclude a specific requirement of this policy from time to time, either generally or on a case by case basis.'",
+ "jurisdiction_overlays": [
+  "For those parts of Steadfast impacted by laws, regulatory requirements or contractual obligations that conflict with the policy, the more stringent standard applies"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing ban",
+   "clause": "Designated Persons and their Associates are not permitted to enter into margin lending or other secured financing arrangements in relation to Steadfast's Securities.",
+   "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is expressly prohibited for every director, KMP and designated person and their Associates, with no clearance route."
+  },
+  {
+   "topic": "stock lending ban",
+   "clause": "Designated Persons and their Associates are not permitted to engage in short selling or stock lending of Steadfast's Securities.",
+   "why_it_matters": "Structures in which the executive lends the collared shares to the bank to support its hedge, or the bank borrows them back, are separately prohibited."
+  },
+  {
+   "topic": "exceptional circumstances is disposal-only",
+   "clause": "A Designated Person may request, and the Notification Officer may give, prior confirmation for the Designated Person or their Associate to: a) deal in Steadfast's Securities outside a trading window; or b) dispose of Steadfast's Securities even if otherwise prohibited under part 6.",
+   "why_it_matters": "The only relief from part 6 is to dispose of shares, so it cannot be used to authorise entering into a secured loan, a hedge, stock lending or a short-dated collar."
+  },
+  {
+   "topic": "Board waiver power",
+   "clause": "The Board may, in its discretion, adjust or exclude a specific requirement of this policy from time to time, either generally or on a case by case basis.",
+   "why_it_matters": "This is the only realistic route to a funded collar: the Board would have to disapply the margin lending and stock lending prohibitions for the specific transaction."
+  },
+  {
+   "topic": "lender enforcement carve-back",
+   "clause": "(lender disposals) disposals of Steadfast's Securities that are the result of a secured lender exercising their rights, however, this does not extend to disposals under any margin lending agreement where such agreements are prohibited by this policy.",
+   "why_it_matters": "A secured lender's enforcement sale is a permitted dealing in principle, but the carve-back withdraws that protection for any facility the policy itself prohibits, so a bank enforcing against a Designated Person's collared shares gets no safe harbour."
+  },
+  {
+   "topic": "OTC derivatives arguably outside the clearance regime",
+   "clause": "shares, options, derivatives and any other financial products of Steadfast that are able to be traded on a financial market (\"Steadfast's Securities\") ... financial products includes derivatives, options, warrants, futures, forward contracts, swaps and contracts for difference issued or created over or associated with Steadfast's Securities by third parties.",
+   "why_it_matters": "The window and clearance machinery bites on 'Steadfast's Securities', which is qualified by tradability on a financial market, while the wider 'financial products' definition that plainly captures an OTC collar is used only in the short term trading ban; the gap is arguable rather than reliable, so a bank should still require clearance."
+  },
+  {
+   "topic": "director off-market transfers not exempt",
+   "clause": "(off market) off-market transfers of Steadfast Securities, other than those by the Board Directors and their Associates, where there is no change in beneficial ownership.",
+   "why_it_matters": "For directors, moving collateral shares into a lender's nominee or custodian account is not an excluded dealing even if beneficial ownership is unchanged, so it needs an open window and clearance."
+  },
+  {
+   "topic": "three month tenor floor",
+   "clause": "Designated Persons and their Associates must not engage in short term trading in Steadfast's Securities or in financial products associated with Steadfast's Securities. Buying and selling Steadfast's Securities within a 3 month period is considered short term trading.",
+   "why_it_matters": "The tenor of any collar must exceed three months and it must not be unwound early, because the ban expressly reaches associated financial products."
+  },
+  {
+   "topic": "hedging ban scope",
+   "clause": "must not enter into transactions or arrangements with anyone which could have the effect of limiting their exposure to risk relating to an element of their remuneration that: a) has not vested; or b) has vested but remains subject to a holding lock.",
+   "why_it_matters": "The 'with anyone' and 'could have the effect' wording is broad but the ban is limited to unvested or holding-locked remuneration, leaving vested unrestricted shares hedgeable."
+  },
+  {
+   "topic": "windows must be notified",
+   "clause": "Designated Persons will be notified of trading windows by email prior to the opening of a trading window. Designated Persons must not assume that a trading window is open in the absence of notification, as the Board may vary, suspend or terminate (conditionally or unconditionally) trading window arrangements at any time.",
+   "why_it_matters": "Execution certainty is low: a window can be suspended between pricing and signing, and there is no default open period."
+  },
+  {
+   "topic": "record keeping",
+   "clause": "Designated Persons must keep for 12 months and make available to the Company Secretary on request, a record of all dealings in Steadfast's Securities by themselves and their Associates, in the form of a record of every trade, including any supporting materials.",
+   "why_it_matters": "Collar documentation and confirmations would be discoverable by the Company Secretary for at least 12 months."
+  }
+ ],
+ "summary": "A funded collar is not available to any Steadfast director, KMP or other Designated Person: part 6.1 bans margin lending and any other secured financing arrangement in relation to Steadfast's Securities for them and their Associates, and part 6.2 separately bans stock lending, so both the loan leg and any borrow-based hedge are prohibited. The exceptional circumstances relief in part 4 only permits a disposal notwithstanding part 6, not entry into a financing or a hedge, so the only route would be the Board exercising its power under part 8 to adjust or exclude a requirement of the policy case by case. The unfunded collar legs are more workable: the hedging ban reaches only remuneration that is unvested or vested but under a holding lock, so vested unrestricted shares can be hedged, subject to an open 30 day window, prior written notice and clearance from the Notification Officer (Chair for directors, MD & CEO with the Company Secretary for others) valid for 5 business days, and written post-trade confirmation within 3 business days. Any structure must run longer than three months because short term trading expressly extends to financial products associated with Steadfast's Securities. Employees and contractors who are not directors, KMP or MD & CEO designees fall outside parts 3 to 6 entirely and are constrained only by the insider trading laws."
+}

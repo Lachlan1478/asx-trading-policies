@@ -1,0 +1,501 @@
+{
+ "symbol": "IGO",
+ "company": "Independence Group NL",
+ "title": "Group Governance Standard 7 - Dealing in Securities",
+ "date_approved": "24 June 2019 (Board; original adoption 23 January 2015)",
+ "date_effective": "24 June 2019",
+ "date_lodged": "28 June 2019",
+ "date_next_review": "Reviewed annually by the IGO Board of Directors",
+ "tiers": [
+  {
+   "name": "Personnel",
+   "kind": "all_staff",
+   "description": "All directors, full-time, part-time and casual employees, contractors, consultants and advisers of the Group, and their Associates. Subject to the insider trading prohibition, the Front Page Test, the hedging ban over unvested and holding-locked entitlements, the 3% funding security cap, and the bans on short term dealing, forward contracts and short selling. Personnel who are not Restricted Persons do not need written clearance to deal.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors, senior managers and other employees and their Associates, as determined by the Managing Director and Company Secretary from time to time, on a list maintained by the Company Secretary and notified to them by email. They may not deal in IGO securities at any time without prior written clearance and are barred from dealing during the prescribed blackout periods.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "directors and senior management",
+   "kind": "kmp",
+   "description": "Directors and senior managers. Uniquely subject to the requirement to obtain prior approval before entering into agreements that give lenders rights over their interests in IGO securities, and the only tier for whom a secured lender's enforcement disposal is an excluded dealing (and only where the original financing was pre-cleared).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of IGO. In addition to the Restricted Person regime, they must notify the Company Secretary within two business days of any dealing by themselves or an Associate, and their clearances are given by the Chair of the Board (or, for the Chair, the Chair of the Audit Committee).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A family member who may be expected to influence, or be influenced by, the Personnel in dealings with the Company and its securities (spouse, partner, children or dependants, and the children or dependants of the partner); and a company or any other entity the Personnel can control, including a family trust or superannuation fund, including pursuant to standing orders to trade. Where the Standard requires an act such as obtaining written clearance, the Personnel must do it in respect of the Associate.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "transactions or arrangements which limit the economic risk of holding unvested entitlements, or entitlements that are subject to a holding lock or similar deal restriction under the terms of any employee, executive or director equity plan operated by the Company",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "the Company's September quarter end",
+   "end_anchor": "the next trading day that is at least one full trading day after the announcement of the quarterly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "the Company's March quarter end",
+   "end_anchor": "the next trading day that is at least one full trading day after the announcement of the quarterly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "the Company's half year end",
+   "end_anchor": "the next trading day that is at least one full trading day after the announcement of the half-yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "the Company's full year end",
+   "end_anchor": "the next trading day that is at least one full trading day after the announcement of the annual results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "commencement of any other period imposed by the Board from time to time (Additional Period)",
+   "end_anchor": "as determined by the Board",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may impose any other period as an Additional Period. Additional Periods are confidential: 'Restricted Persons must not disclose to anyone that an Additional Period is in effect.' Separately, IGO may give notice to any or all Personnel that they must not deal, either for a specified period or until further notice.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1; 3.4; 6",
+   "detail": "IGO securities are defined open-endedly as 'including, but not limited to, options and shares', so an option position over IGO is a dealing. Restricted Persons need prior written clearance for any dealing at any time and cannot deal in a blackout period. Forward contracts and short selling are separately banned outright, so only the purchased put and (as part of a net long holding) a written call are candidates.",
+   "evidence": "Restricted Persons must not deal in IGO securities at any time, unless the Restricted Person first obtains written clearance prior to dealing."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1; 6",
+   "detail": "Personnel who are not on the Company Secretary's Restricted Persons list need no clearance and are subject to no blackout periods; they are constrained only by the inside information prohibition, the Front Page Test, any notice from IGO not to deal, the hedging ban over unvested and locked entitlements, the 3% funding cap and the bans on short term dealing, forwards and short selling.",
+   "evidence": "Personnel must not: deal in IGO securities (including, but not limited to, options and shares) ... where they may be in possession of \"price sensitive information\" or IGO has given notice to any or all Personnel that they must not deal in securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Flat ban, applying to all Personnel and their Associates, on any transaction or arrangement limiting the economic risk of holding unvested plan entitlements. No approval route is offered.",
+   "evidence": "All Personnel are prohibited from entering into transactions or arrangements which limit the economic risk of holding unvested entitlements, or entitlements that are subject to a holding lock or similar deal restriction under the terms of any employee, executive or director equity plan operated by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Personnel",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "The ban expressly extends to vested entitlements that remain subject to a holding lock or similar deal restriction under a plan, so shares released from performance conditions but still under a disposal restriction cannot be collared.",
+   "evidence": "or entitlements that are subject to a holding lock or similar deal restriction under the terms of any employee, executive or director equity plan operated by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 3.4",
+   "detail": "The hedging ban is limited to unvested entitlements and entitlements under a holding lock or similar plan restriction, so hedging vested unrestricted shares (and shares that never came from a plan) is not prohibited. For a Restricted Person it remains a dealing needing prior written clearance, outside blackout periods, and must satisfy the Front Page Test.",
+   "evidence": "All Personnel are prohibited from entering into transactions or arrangements which limit the economic risk of holding unvested entitlements, or entitlements that are subject to a holding lock or similar deal restriction"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Monetisation is not named as such, but the classic monetisation instrument is: entering into forward contracts over IGO securities is prohibited at any time, permitted only in circumstances of special hardship with the Chair's prior written approval. A prepaid variable forward is therefore off the table, and a monetisation implemented through options remains a dealing needing clearance for Restricted Persons.",
+   "evidence": "Personnel may not deal in IGO securities on a \"short term\" basis, for example, buying and then selling IGO securities within a three month period (subject to the exceptions set out in section 3) or entering into forward contracts, or short selling at any time, except in circumstances of special hardship, with the Chair's prior written approval (email suffices)."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Short selling is prohibited at any time for all Personnel, with the only relief being special hardship approved in advance in writing by the Chair (email suffices).",
+   "evidence": "or entering into forward contracts, or short selling at any time, except in circumstances of special hardship, with the Chair's prior written approval (email suffices)."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending or borrowing is not mentioned and there is no definition of dealing that plainly captures it, though a lend that supports a short position would engage the short selling ban.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1; 6",
+   "detail": "CFDs are not named. The open-ended definition of IGO securities ('including, but not limited to, options and shares') would capture a CFD as a dealing needing clearance for a Restricted Person, and a short CFD would in any event breach the short selling ban and a CFD closed inside three months the short term dealing ban.",
+   "evidence": "deal in IGO securities (including, but not limited to, options and shares);"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "directors and senior management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 4",
+   "detail": "Margin lending is not banned. Directors and senior management need prior approval before entering an agreement that gives a lender rights over their IGO securities, and that prior written clearance is also the condition of the lender's later enforcement disposal being an excluded dealing.",
+   "evidence": "Without prior approval, directors and senior management should not enter into agreements that provide lenders with rights over their interests in IGO securities (such as the disposal of some or all of those IGO securities) if a secured lender exercises their rights (for example, under a margin lending or secured financing arrangement)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "For Personnel generally the only bar is a size test: a funding arrangement relating to their interests in IGO securities is prohibited where the funding security would affect the equivalent of 3% or more of the Company's listed shares. Below that threshold a margin loan is not prohibited, and the prior approval requirement is expressed only for directors and senior management.",
+   "evidence": "All Personnel are prohibited from entering into funding arrangements relating to their interests in IGO securities where the funding security would affect the equivalent of 3% or more of the Company's listed shares."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "directors and senior management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Granting a lender rights over IGO securities, including a right to dispose of them on enforcement, is permitted for directors and senior management only with prior approval; the Standard does not say who gives that approval, but the Appendix 1 authorisation levels (Chair for a director, Managing Director or Chair for an employee) are the natural route.",
+   "evidence": "Without prior approval, directors and senior management should not enter into agreements that provide lenders with rights over their interests in IGO securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "For Personnel below director and senior management level, security over IGO shares is unregulated except by the 3% funding security cap; a pledge is not otherwise a dealing.",
+   "evidence": "All Personnel are prohibited from entering into funding arrangements relating to their interests in IGO securities where the funding security would affect the equivalent of 3% or more of the Company's listed shares."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "directors and senior management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 4",
+   "detail": "Secured financing arrangements are expressly contemplated and permitted with prior approval, which is unusual among ASX policies. The exceptions clause reinforces this by treating a secured lender's enforcement disposal as excluded from the Standard where the original financing arrangement was pre-cleared, giving the bank a workable enforcement path.",
+   "evidence": "a disposal that is the result of a secured lender exercising their rights, where the director or senior manager has already received prior written clearance for the original financing arrangement in accordance with this Standard."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "The only restriction on secured financing for Personnel generally is the 3% cap on the funding security; it is a ceiling on size rather than a general prohibition, so a facility whose security covers less than 3% of IGO's listed shares is not caught.",
+   "evidence": "All Personnel are prohibited from entering into funding arrangements relating to their interests in IGO securities where the funding security would affect the equivalent of 3% or more of the Company's listed shares."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Short term dealing is prohibited, illustrated by buying and then selling within three months, and the same sentence bans forward contracts and short selling at any time. Only special hardship with the Chair's prior written approval relieves any of these, and the section 3 exceptions (no change in beneficial interest, plan participation, pro rata offers, takeovers, third party managed funds, cleared lender enforcement) are carved out.",
+   "evidence": "Personnel may not deal in IGO securities on a \"short term\" basis, for example, buying and then selling IGO securities within a three month period (subject to the exceptions set out in section 3)"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Company Secretary receives the Appendix 1 Clearance to Deal form (or in his or her absence the Managing Director); authorisation is given by the Managing Director or Chair of the Board for an employee or their associate",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.4; Appendix 1",
+   "evidence": "Any written clearance granted under this Standard will be valid for five business days from the time which it is given or such other period as may be determined. The expiry time of the clearance will be stated when the clearance is granted."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board (for the Chair of the Board or their associate, the Chair of the Audit Committee); form submitted to the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "two business days of any dealing by themselves or an Associate",
+   "section": "5; Appendix 1",
+   "evidence": "Directors must give a notice to the Company Secretary within two business days of any dealing in IGO securities by themselves or an Associate."
+  },
+  {
+   "tier": "Personnel",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.1",
+   "evidence": "Restricted Persons may not deal in IGO securities at any time unless they have applied for (using the form annexed) and received, the relevant approval (see below)."
+  },
+  {
+   "tier": "directors and senior management",
+   "type": "approval",
+   "approver": "Unspecified 'prior approval' for lender rights agreements; described elsewhere as 'prior written clearance for the original financing arrangement in accordance with this Standard', which points to the Appendix 1 authorisation levels",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6; 4",
+   "evidence": "Without prior approval, directors and senior management should not enter into agreements that provide lenders with rights over their interests in IGO securities"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and then selling IGO securities within a three month period, given as an example of short term dealing; forward contracts and short selling are banned at any time in the same sentence",
+   "carve_outs": [
+    "the exceptions set out in section 3 (dealings with no effective change to beneficial interest; participation in an employee, executive or director equity plan including exercise of options or rights; Board-approved offers to all or most holders such as rights issues, security purchase plans, dividend or distribution reinvestment plans and equal access buy-backs; undertakings to accept or acceptance of a takeover or scheme; third party managed funds; and a disposal resulting from a secured lender exercising rights where the original financing was pre-cleared)",
+    "circumstances of special hardship with the Chair's prior written approval"
+   ],
+   "evidence": "Personnel may not deal in IGO securities on a \"short term\" basis, for example, buying and then selling IGO securities within a three month period (subject to the exceptions set out in section 3) or entering into forward contracts, or short selling at any time, except in circumstances of special hardship, with the Chair's prior written approval (email suffices)."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by the Company (including an exercise of options or rights granted under such a plan). However, where securities in the Company granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Standard;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "Board (the offer must be approved by the Board)",
+   "evidence": "accepting an offer approved by the Board and made to all or most of the security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer or a scheme of arrangement;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in IGO securities) where the assets of the fund or other scheme are invested at the discretion of a third party; and"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "The clearer of the original financing arrangement under the Appendix 1 authorisation levels",
+   "evidence": "a disposal that is the result of a secured lender exercising their rights, where the director or senior manager has already received prior written clearance for the original financing arrangement in accordance with this Standard."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Board (in its absolute discretion, if necessary subject to prior written legal opinion that insider trading is unlikely); the Chair for short term dealing, forward contracts and short selling",
+   "evidence": "A Restricted Person, who is not in possession of inside information, may be given written clearance to deal in IGO securities during a blackout period in exceptional circumstances, such as severe financial hardship or compliance with a court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "exceptional circumstances, such as severe financial hardship or compliance with a court order."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "No guidance on price triggers as such. Instead a size cap: 'All Personnel are prohibited from entering into funding arrangements relating to their interests in IGO securities where the funding security would affect the equivalent of 3% or more of the Company's listed shares.' Directors and senior management additionally need prior approval for any agreement giving a lender rights over their IGO securities, including a right of disposal on enforcement.",
+  "financing_disclosure": [
+   "directors and senior management; inception (before entering into any agreement giving a lender rights over their IGO securities, and as the condition of the lender-enforcement exception); prior approval / prior written clearance in accordance with the Standard (Appendix 1 authorisation levels: Chair of the Board for a director, Managing Director or Chair for an employee, Chair of the Audit Committee for the Chair); before entering the financing arrangement",
+   "Directors; each dealing in IGO securities by themselves or an Associate; Company Secretary; within two business days"
+  ],
+  "transfer_to_custodian_is_dealing": "no",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Code of Conduct",
+  "List of Restricted Persons maintained by the Company Secretary",
+  "Employee, executive and director equity plan rules (for holding locks and deal restrictions)"
+ ],
+ "exemption_authority": "Blackout period dealing: 'The Board, in its absolute discretion and, if necessary, subject to it receiving prior written legal opinion that insider trading is unlikely, may approve the dealing of IGO securities during a blackout period' in exceptional circumstances such as severe financial hardship or compliance with a court order, for a Restricted Person not in possession of inside information. Short term dealing, forward contracts and short selling: relieved only in circumstances of special hardship with the Chair's prior written approval (email suffices). Financing arrangements giving lenders rights over IGO securities: prior approval for directors and senior management. No exemption authority is stated for the hedging ban over unvested or holding-locked entitlements.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "3% funding security cap",
+   "clause": "All Personnel are prohibited from entering into funding arrangements relating to their interests in IGO securities where the funding security would affect the equivalent of 3% or more of the Company's listed shares.",
+   "why_it_matters": "The only hard limit on the loan leg is a size test measured against IGO's whole issued capital rather than the individual's holding, so a normal executive funded collar sits comfortably below it, but the bank must size the security package against 3% of listed shares."
+  },
+  {
+   "topic": "secured financing permitted with prior approval",
+   "clause": "Without prior approval, directors and senior management should not enter into agreements that provide lenders with rights over their interests in IGO securities (such as the disposal of some or all of those IGO securities) if a secured lender exercises their rights (for example, under a margin lending or secured financing arrangement).",
+   "why_it_matters": "Unlike most ASX policies this permits margin lending and secured financing outright subject to prior approval, so the loan leg of a funded collar is achievable for directors and senior management."
+  },
+  {
+   "topic": "lender enforcement safe harbour",
+   "clause": "a disposal that is the result of a secured lender exercising their rights, where the director or senior manager has already received prior written clearance for the original financing arrangement in accordance with this Standard.",
+   "why_it_matters": "Enforcement or physical settlement by the bank is an excluded dealing even in a blackout period, provided the facility itself was pre-cleared in writing, which gives the bank certainty it lacks under most other policies."
+  },
+  {
+   "topic": "forward contracts banned",
+   "clause": "or entering into forward contracts, or short selling at any time, except in circumstances of special hardship, with the Chair's prior written approval (email suffices).",
+   "why_it_matters": "A prepaid variable forward or any forward-sale leg is prohibited outright, so the structure must be built from a purchased put and a written call rather than a forward."
+  },
+  {
+   "topic": "hedging ban scope",
+   "clause": "All Personnel are prohibited from entering into transactions or arrangements which limit the economic risk of holding unvested entitlements, or entitlements that are subject to a holding lock or similar deal restriction under the terms of any employee, executive or director equity plan.",
+   "why_it_matters": "The collar may only cover shares that have vested and are free of any plan holding lock; nothing in the Standard restricts hedging vested unrestricted shares."
+  },
+  {
+   "topic": "Front Page Test",
+   "clause": "If the market was aware of all the current circumstances, could I be perceived to be taking advantage of my position in an inappropriate way? How would it look if it was reported on the front page of the newspaper? ... Where any approval is required for a dealing under this Standard, approval will not be granted where the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "A reputational overlay sits above every approval, so a large executive collar can be refused purely on how it would read publicly even if technically compliant."
+  },
+  {
+   "topic": "confidential additional blackouts",
+   "clause": "any other period imposed by the Board from time to time (Additional Period). Restricted Persons must not disclose to anyone that an Additional Period is in effect.",
+   "why_it_matters": "The executive cannot tell the bank why a trade date must move, so documentation should allow the client to defer without explanation."
+  },
+  {
+   "topic": "clearance mechanics",
+   "clause": "Any written clearance granted under this Standard will be valid for five business days from the time which it is given or such other period as may be determined ... A clearance to deal can be withdrawn at any time. The decision to refuse the clearance is final and binding.",
+   "why_it_matters": "Pricing and execution of the collar must complete within five business days of clearance, and the clearance can be pulled at any point before dealing."
+  },
+  {
+   "topic": "clearance form specifies the transaction",
+   "clause": "NATURE OF TRANSACTION (Specify precisely, e.g.: sale of shares) ... Permission given on the basis that the transaction is completed by no later than close of business on ...",
+   "why_it_matters": "Each leg and the financing must be described precisely on the Appendix 1 form and completed by the stated deadline, so a multi-leg collar needs a carefully drafted single application."
+  },
+  {
+   "topic": "Associates and standing orders",
+   "clause": "a company or any other entity which the Personnel has an ability to control, including a family trust or superannuation fund, including pursuant to standing orders to trade. Where this Standard requires Personnel to do an act or thing (for example, obtaining written clearance), the relevant Personnel must do that act or thing in respect of the associate.",
+   "why_it_matters": "A collar booked in a family trust or SMSF needs the same clearance obtained by the executive on the entity's behalf."
+  },
+  {
+   "topic": "policy vintage",
+   "clause": "Group Governance Standard 7 Dealing in Securities, date 24/06/2019, to be reviewed annually by the IGO Board of Directors.",
+   "why_it_matters": "The lodged Standard dates from 2019 under the company's former name Independence Group NL, so the bank should confirm the current version before relying on the permissive financing provisions."
+  }
+ ],
+ "summary": "IGO is one of the more workable policies for a funded collar. There is no ban on margin lending or secured financing: directors and senior management simply need prior approval before entering an agreement that gives a lender rights over their IGO securities, and a disposal by a secured lender exercising those rights is an excluded dealing provided the original financing arrangement received prior written clearance, which gives the bank a clean enforcement path even during a blackout. The two real limits on the loan leg are the size cap, since no Personnel may enter a funding arrangement where the funding security would affect 3% or more of IGO's listed shares, and the Front Page Test, under which approval will not be granted for anything that looks like an executive taking advantage of position. On the derivative legs, the collar may only cover vested entitlements free of any plan holding lock, must not be a forward contract or create a short sale (both banned at any time absent special hardship approved by the Chair), must have a tenor beyond the three month short term dealing rule, and for a Restricted Person needs prior written clearance on the Appendix 1 form, valid five business days, outside the September and March quarter, half year and full year blackouts and any confidential Additional Period. Directors must also notify the Company Secretary of each dealing within two business days."
+}
