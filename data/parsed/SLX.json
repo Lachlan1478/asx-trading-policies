@@ -1,0 +1,417 @@
+{
+ "symbol": "SLX",
+ "company": "Silex Systems Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "12 May 2025",
+ "date_effective": "12 May 2025",
+ "date_lodged": "12 May 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Any person who is an employee (full-time, part-time or casual), Contractor, officer, Director or Company Secretary of the Company or Group, including Senior Executives. Base tier to which the insider trading rules, hedging/short-term/short-selling bans, Closed Periods and dealing notification obligations apply.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives",
+   "kind": "kmp",
+   "description": "CEO/Managing Director and CFO/Company Secretary, all direct reports to the CEO/Managing Director, other Group key management personnel (per AASB 124), and any Employee the Board designates. Distinguished for an extra Closed Period derivatives ban (4.3), the margin lending Chair-consent regime (section 8), and dealing notification to the Company Secretary/Board under section 10.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Group. Distinguished for dealing notification to the Chair, immediate unconditional post-trade notification to the Company Secretary for ASX reporting, a letter agreement per ASX Guidance Note 22, and the margin lending Chair-consent regime (section 8, grouped with Senior Executives).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Connected Persons or Entities",
+   "kind": "associate",
+   "description": "Close family members (spouses, partners, children, spouse/partner's children), family companies or trusts over which the person or family has investment control or influence, and other trusts, companies, nominees or persons over whom the person has or may be expected to have investment control or influence.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk of an Employee's holdings of either unvested or vested Group Securities, including vested and unvested Group Securities granted under an employee incentive plan or as part of their remuneration",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "14 calendar days before the end of the Company's half year (31 December)",
+   "end_anchor": "close of trading on the trading day after the announcement of the Company's half-year financial results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "14 calendar days before the end of the Company's full year (30 June)",
+   "end_anchor": "close of trading on the trading day after the announcement of the Company's full-year financial results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "14 calendar days before the Company's Annual General Meeting",
+   "end_anchor": "date of the Annual General Meeting",
+   "duration_days": 14
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "14 calendar days before issue of a prospectus, product disclosure statement or cleansing notice",
+   "end_anchor": "issue of the prospectus, product disclosure statement or cleansing notice",
+   "duration_days": 14
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may declare additional Closed Periods at any time in its absolute discretion and without prior notice, and may separately impose ad hoc trading restrictions on Senior Executives, staff who work closely with or near Senior Executives, finance/strategic planning staff, the management layer below Senior Executives, IT staff with access to Senior Executives' materials, and Closely Connected Persons or Entities of Senior Executives. Confidentiality of these ad hoc restrictions is not separately stated, though any objection to a specific proposed Deal must be kept confidential by the Employee.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.1 (Securities/Dealing definitions); 7; 10",
+   "detail": "Securities expressly includes derivatives, swaps, futures, options, warrants and other financial products over Shares, whether OTC or exchange-traded and whether issued by the Group or a third party. Dealing in them is a 'Dealing' requiring the same prior written notice (2 trading days) to the Company Secretary or Chair as any other Dealing, subject to Closed Period, insider trading, and hedging/short-selling restrictions.",
+   "evidence": "as well as financial products issued or created over Shares, including structured financial products, swaps, futures contracts, contracts for differences, spread bets, options, warrants, depositary receipts or other derivatives over or related to the performance of Shares or those securities, whether or not the securities or the derivative products are issued or created by the Group or by third parties."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3",
+   "detail": "In addition to the general dealing and hedging rules, Senior Executives face an absolute, express ban on trading any financial product issued or created over or in respect of Group Securities during Closed Periods, regardless of purpose.",
+   "evidence": "In addition to sections 4.1 and 4.2, Senior Executives are prohibited from trading in financial products issued or created over or in respect of Group Securities during Closed Periods."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(b)",
+   "detail": "Absolute, all-times prohibition, expressly stated to apply irrespective of Closed Period, on any transaction or arrangement, including derivatives, that operates to limit the economic risk of an Employee's unvested or vested Group Securities, including plan/remuneration securities. The Closed Period exceptions in section 4.7 apply only to the Closed Period Dealing ban in 4.4, not to this standalone prohibition, and no clearance or waiver route is referenced for it.",
+   "evidence": "entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk of an Employee's holdings of either unvested or vested Group Securities, including vested and unvested Group Securities granted under an employee incentive plan or as part of their remuneration"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.2(b)",
+   "detail": "Monetisation structures (e.g. prepaid forwards, equity swaps, exchange funds) are not separately named but fall within the section 4.2(b) hedging ban wherever they operate to limit the economic risk of the holding, and are also caught by 4.2(c) to the extent they let the Employee profit from a price decline.",
+   "evidence": "entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk of an Employee's holdings of either unvested or vested Group Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(c)",
+   "detail": "Absolute ban, applying irrespective of Closed Period, on Dealing in Group Securities that enables an Employee to profit from, or limit the economic risk of, a decrease in the market price of Shares.",
+   "evidence": "Dealing in Group Securities which enable an Employee to profit from or limit the economic risk of a decrease in the market price of Shares."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named in the Dealing definition or anywhere else in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.1 (Securities definition); 7; 10",
+   "detail": "Contracts for differences are expressly named within the definition of Securities and so are Dealing requiring standard prior notice; a CFD used to hedge or to profit from a price decline would additionally be caught by the absolute bans in 4.2(b)/(c).",
+   "evidence": "contracts for differences, spread bets, options, warrants, depositary receipts or other derivatives"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Directors and Senior Executives may not include Group Securities in a Margin Loan portfolio, or otherwise Deal pursuant to a margin lending arrangement, without first obtaining the Chair's prior written consent (or the CEO/Managing Director's or lead independent director's consent if the Chair is dealing); consent may be made conditional, e.g. specifying when securities may be sold to meet a margin call.",
+   "evidence": "Directors and Senior Executives may not include their Group Securities in a Margin Loan portfolio or otherwise Deal in Group Securities pursuant to a margin lending arrangement (Margin Lending Arrangement) without first obtaining the written consent of the Chair (or, in the case of the Chair, the CEO/Managing Director or lead independent director of the Company)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.1(c); 7",
+   "detail": "For Employees other than Directors/Senior Executives, a margin loan is caught only as a 'Dealing' (grant of a mortgage, lien, charge or security interest, including a Margin Loan) and so requires the ordinary 2-trading-day Dealing Notice to the Company Secretary rather than the Chair's specific written consent under section 8.",
+   "evidence": "grant a mortgage, lien, charge or other security interest (including a Margin Loan) over Securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.1(c)",
+   "detail": "Granting any mortgage, lien, charge or other security interest over Securities is expressly listed as an example of Dealing, triggering the standard prior notice/clearance regime (and the Chair's consent regime under section 8 if the charge secures a Margin Loan held by a Director or Senior Executive).",
+   "evidence": "grant a mortgage, lien, charge or other security interest (including a Margin Loan) over Securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.1(c); 4.7(e); 8",
+   "detail": "Secured financing in respect of Group Securities generally is treated as a Dealing (encumbrance limb) requiring notice, and if it is a Margin Loan held by a Director/Senior Executive it needs the Chair's prior written consent under section 8. A forced sale by 'a secured lender or financier' exercising its rights is excused from the Closed Period ban, except where the underlying arrangement is itself a prohibited (unauthorised) Margin Lending Arrangement.",
+   "evidence": "an involuntary disposal of Group Securities that is the result of a secured lender or financier exercising their rights. However, this does not extend to disposal under a margin lending arrangement where such arrangement is prohibited by this Policy."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a)",
+   "detail": "Absolute ban, applying irrespective of Closed Period, on buying and selling within 3 months, or entering other short-term dealings such as forward contracts, other than exercising employee options/performance rights at the specified exercise price.",
+   "evidence": "Dealing in Group Securities (or an interest in Group Securities) on a short-term trading basis. Short-term trading includes buying and selling Group Securities within a 3-month period, and entering into other short-term dealings (e.g. forward contracts), other than when an Employee exercises employee options or performance rights to acquire Group Securities at the specified exercise price"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Employees",
+   "type": "preclearance_system",
+   "approver": "Company Secretary (may object); Board may overrule the Company Secretary's decision",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "7",
+   "evidence": "all Employees ... must give at least two trading days' ... prior written notice (Dealing Notice) of any proposed Dealing in Group Securities and confirm that they do not possess any inside information ... the opportunity to make the relevant Deal expires on the date which is five trading days from the date of the Dealing Notice."
+  },
+  {
+   "tier": "Senior Executives",
+   "type": "preclearance_system",
+   "approver": "Company Secretary (may object); Board may overrule",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary, by email (number and price of Securities)",
+   "post_trade_deadline": "unspecified ('once a Deal ... has been made')",
+   "section": "10",
+   "evidence": "In addition to providing prior notification under section 10.1, once a Deal of any Group Securities has been made by or for a Director or a Senior Executive, details of the Deal, including the number and price of Securities involved, must be notified by email to the Company Secretary."
+  },
+  {
+   "tier": "Directors",
+   "type": "preclearance_system",
+   "approver": "Chair (or CEO/Managing Director or lead independent director if the Chair is dealing); Board may overrule an objection",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary, immediately and without exception, for ASX reporting",
+   "post_trade_deadline": "immediately; Company must notify ASX within 5 business days, Director must furnish details no later than 3 business days after appointment or change",
+   "section": "10",
+   "evidence": "Directors must immediately notify the Company Secretary of all acquisitions or disposals or other Dealing of Group Securities, including date, price and volume, without exception so that the Company can comply with its ASX reporting obligations."
+  },
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Company Secretary reviews the application and seeks clearance from the Chair (or CEO/Managing Director or lead independent director if the Chair is dealing)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6",
+   "evidence": "Permission to Deal is entirely discretionary ... A permission expires five trading days from its date, unless it specifies a different date. Any permission to Deal can be given or refused by the Company in its discretion, without giving any reasons. A permission to Deal can be withdrawn if new information comes to light or there is a change in circumstances."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "from acquisition",
+   "carve_outs": ["exercise of employee options or performance rights to acquire Group Securities at the specified exercise price"],
+   "evidence": "Short-term trading includes buying and selling Group Securities within a 3-month period, and entering into other short-term dealings (e.g. forward contracts), other than when an Employee exercises employee options or performance rights to acquire Group Securities at the specified exercise price."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Company Secretary reviews; Chair (or CEO/Managing Director or lead independent director) grants",
+   "evidence": "severe financial hardship, where the Employee has pressing financial commitments that cannot be satisfied otherwise than by selling Group Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Company Secretary reviews; Chair (or CEO/Managing Director or lead independent director) grants",
+   "evidence": "requirements under a court order or court enforceable undertakings or other legal or regulatory requirements"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chair (or CEO/Managing Director or lead independent director)",
+   "evidence": "any other exceptional circumstances as determined by the Chair (or the CEO/Managing Director or lead independent director of the Company in the case of proposed Dealing by the Chair)"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an exercise (but not the sale of Group Securities following exercise) of an option or other right to acquire Shares under an employee incentive scheme or the conversion of a convertible security, where the final date for the exercise of the option or right, or the conversion of the security falls during a Closed Period"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Dealing under an offer or invitation made to all or most of the shareholders such as a rights or entitlement issue, a security purchase plan, or an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "Dealing where the beneficial interest in the relevant Group Securities does not change, in respect of which prior written clearance has been obtained from the Board"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "an Employee accepting a takeover bid or transferring Group Securities under a scheme of arrangement in respect of the Group"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "an involuntary disposal of Group Securities that is the result of a secured lender or financier exercising their rights. However, this does not extend to disposal under a margin lending arrangement where such arrangement is prohibited by this Policy."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Group Securities under a bonus issue made to all holders of the Group Securities of the same class"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "indirect and incidental Dealing that occurs as a consequence of an Employee dealing in securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party and that happens to hold as part of its portfolio Securities in the Group"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where an Employee is a trustee, Dealing in Group Securities by that trust provided the Employee are not a beneficiary of the trust and any decision to trade during a Closed Period is taken by the other trustees or by the investment managers independently of the relevant Employee"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealing under a pre-determined investment or divestment plan for which prior written clearance has been provided in accordance with procedures set out in this Policy and where ... the trading plan does not permit the Employee to exercise any influence or discretion over how, when, or where to Deal"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "Margin Loan is defined as a loan secured on Securities where a margin call requires the borrower to restore a pre-agreed minimum 'loan to value' ratio; no specific ratio or price trigger is disclosed.",
+  "financing_disclosure": [
+   "Directors and Senior Executives: prior written consent of the Chair (or CEO/Managing Director/lead independent director) required before entering any Margin Lending Arrangement (inception disclosure), to Chair, before the arrangement is put in place.",
+   "Directors: immediate, unconditional notification to the Company Secretary of all acquisitions, disposals or other Dealing (including financing-related transfers), for ASX reporting, no later than 3 business days after the change."
+  ],
+  "transfer_to_custodian_is_dealing": "yes",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Attachment 1 to Guidance Note 22 of the ASX Listing Rules (pro forma Director letter agreement for trading notifications)"],
+ "exemption_authority": "Chair (or CEO/Managing Director or lead independent director if the Chair is dealing) grants waivers to Deal during a Closed Period in Exceptional Circumstances (severe hardship, court order, or other circumstances the Chair considers make the Dealing the only reasonable course). Permission is entirely discretionary, can be refused without reasons, can be withdrawn if circumstances change, and a refusal must be kept confidential by the applicant.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban is absolute and vesting-state-blind",
+   "clause": "entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk of an Employee's holdings of either unvested or vested Group Securities ... Irrespective of whether Employees enter into such arrangements outside of a Closed Period",
+   "why_it_matters": "Because the ban covers both unvested and vested holdings and applies at all times, a collar's put and call legs are prohibited outright for every Employee, with no clearance, notification or waiver route referenced anywhere in section 4.2, and the section 4.7 Closed Period exceptions do not reach this standalone prohibition."
+  },
+  {
+   "topic": "Chair consent for margin lending",
+   "clause": "Directors and Senior Executives may not include their Group Securities in a Margin Loan portfolio or otherwise Deal in Group Securities pursuant to a margin lending arrangement ... without first obtaining the written consent of the Chair.",
+   "why_it_matters": "Even if the hedging ban were somehow avoided, a bank loan secured on the collared shares would be a Margin Lending Arrangement requiring the Chair's prior written consent, which may be made conditional (e.g. dictating the circumstances in which shares can be sold on a margin call)."
+  },
+  {
+   "topic": "forced sale exception is conditional on lawful financing",
+   "clause": "an involuntary disposal of Group Securities that is the result of a secured lender or financier exercising their rights. However, this does not extend to disposal under a margin lending arrangement where such arrangement is prohibited by this Policy.",
+   "why_it_matters": "A bank's enforcement sale of collared shares during a Closed Period is excused from the Closed Period ban only if the underlying financing was itself validly consented to; an unauthorised or non-compliant facility would leave the forced sale in breach."
+  },
+  {
+   "topic": "ad hoc restrictions reach collar-adjacent parties",
+   "clause": "The Company may also impose ad hoc trading restrictions on ... staff who work closely with, or in close proximity to, Senior Executives ... Closely Connected Persons or Entities to Senior Executives.",
+   "why_it_matters": "Discretionary, unannounced trading freezes can extend to family trusts or related entities that might otherwise be used to hold the collared shares or receive the loan proceeds."
+  },
+  {
+   "topic": "connected persons and control routing",
+   "clause": "If an Employee may not Deal in Group Securities under this Policy, he or she must use all reasonable endeavours to prohibit any dealing in Group Securities by ... their Closely Connected Persons or Entities.",
+   "why_it_matters": "Routing the collar or its financing through a spouse, family trust, or controlled company does not escape the hedging ban, notification duties, or Chair-consent regime; the Employee remains responsible for that entity's dealing."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 4.2(b) imposes an absolute, all-times ban (expressly stated to apply irrespective of Closed Period) on any arrangement, including derivatives, that operates to limit the economic risk of an Employee's vested or unvested Group Securities, and section 4.2(c) separately bans any Dealing that lets an Employee profit from or limit the risk of a price decrease; a purchased put and written call collar falls squarely within both, with no clearance, notification or waiver mechanism referenced for this standalone prohibition (the Closed Period exceptions in section 4.7 and the Exceptional Circumstances waiver in section 6 apply only to the separate Closed Period Dealing ban in section 4.4). Even setting the hedging ban aside, the loan leg secured on the collared shares would be a Margin Lending Arrangement requiring the Chair's prior written consent for Directors and Senior Executives (section 8), which may be made conditional. A lender's forced sale of the shares is excused from the Closed Period ban only where the underlying secured financing was itself validly authorised. Overall, the structure is blocked at the first hurdle by the categorical hedging prohibition, independent of vesting status, tier, or timing."
+}

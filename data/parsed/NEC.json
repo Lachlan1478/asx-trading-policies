@@ -1,0 +1,454 @@
+{
+ "symbol": "NEC",
+ "company": "Nine Entertainment Co. Holdings Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "27 March 2015",
+ "date_effective": "27 March 2015",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "NEC Person",
+   "kind": "all_staff",
+   "description": "All Directors and Senior Management, executive assistants to them, any other person designated in writing by the Board, and companies or trusts controlled by such persons; for closed-period purposes only, also a spouse, dependent child, close relative or person acting in concert. Substantive prohibitions (insider trading, Closed Periods, no speculative trading, protection arrangements, security/margin lending) apply to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and Senior Management",
+   "kind": "kmp",
+   "description": "Each director, the CEO, CFO, COO and Company Secretary, the Commercial Director and Group General Counsel, and other named senior executives, or such other persons as the Board decides (must at least include Key Management Personnel). Defines the core of 'NEC Person' but is not itself separately regulated.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished for clearance only.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Other directors and Company Secretary",
+   "kind": "director",
+   "description": "Directors other than the Chair, and the Company Secretary; distinguished for clearance only.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Any other NEC Person",
+   "kind": "other",
+   "description": "Any NEC Person other than the Chair, other directors or the Company Secretary; distinguished for clearance only.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A spouse, dependent child, close relative or a person acting in concert with a Director or Senior Management person; picked up as 'NEC Person' for the purposes of section 4 (Closed Periods) only, not for sections 3 (insider trading) or 5 (speculative trading, protection arrangements, security/margin lending).",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Operate to limit the economic risk of any NEC Person's security holding (e.g. hedging arrangements) including NEC Securities held beneficially (for example, in trust or under any NEC incentive plan) on that NEC Person's behalf",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "end of 31 December",
+   "end_anchor": "end of the trading day on which NEC's half-year financial results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "end of 30 June",
+   "end_anchor": "end of the trading day on which NEC's annual financial results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "four weeks prior to NEC's Annual General Meeting",
+   "end_anchor": "end of the day on which NEC's Annual General Meeting is held",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other period as a Closed Period from time to time (clause 4.1(b)(iv)); the imposition of such a period is not stated to be confidential, though an Authorising Officer's decision to withhold or withdraw consent to deal must be kept confidential (4.2(d)).",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "NEC Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2(g)(iv); 4.2",
+   "detail": "NEC Securities expressly includes derivatives referable to NEC shares or their value, with no venue limitation, so an OTC put/call is expressly within scope and is a dealing requiring Authorising Officer consent outside a Closed Period, and is barred during a Closed Period absent an exceptional-circumstances approval.",
+   "evidence": "any derivatives which are referable to shares in NEC or any other securities issued by NEC, or to the value of such shares or securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "NEC Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Absolute ban on protection arrangements over unvested NEC Securities.",
+   "evidence": "The entering into of all types of \"protection arrangements\" for any NEC Securities (or NEC products in the derivatives markets): is prohibited at any time in respect of any NEC Securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "NEC Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "The same absolute ban extends to vested NEC Securities that remain subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any NEC Securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "NEC Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "Once vested and free of a holding lock, protection arrangements (including hedges that limit economic risk or otherwise enable profiting from a price decrease) are permitted with Authorising Officer consent under 4.2.",
+   "evidence": "otherwise, requires consent under paragraph 4.2."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "NEC Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(a); 5.2(e)",
+   "detail": "Monetisation is not separately named, but the protection arrangements definition's catch-all ('otherwise enable a NEC Person to profit from a decrease in the market price') sweeps in a prepaid forward or similar monetisation with downside protection; banned outright while unvested.",
+   "evidence": "Otherwise enable a NEC Person to profit from a decrease in the market price of securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "NEC Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(b); 5.2(e)",
+   "detail": "A monetisation structure with a downside-protection feature is a protection arrangement and permitted with consent once vested and unlocked.",
+   "evidence": "otherwise, requires consent under paragraph 4.2."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "NEC Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1(b); 5.2(c)",
+   "detail": "Outright ban on short-selling under the no-speculative-trading clause, reinforced by the protection arrangements definition capturing short selling beyond the person's holding.",
+   "evidence": "short-selling of NEC Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "NEC Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "NEC Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1(a); 5.2",
+   "detail": "CFDs are named and banned only when short term or speculative; a collar-style CFD position that limits economic risk would instead be assessed as a protection arrangement under 5.2, permitted with consent once vested and unlocked.",
+   "evidence": "transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "NEC Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Absolute ban on entering a margin lending arrangement involving unvested or holding-locked NEC Securities.",
+   "evidence": "or enter into any margin lending arrangement involving NEC Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "NEC Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Margin lending arrangements involving vested, unlocked NEC Securities are permitted with Authorising Officer consent.",
+   "evidence": "Unless paragraph (a) applies, NEC Persons may, directly or indirectly ... enter into any margin lending arrangement involving NEC securities, with consent under paragraph 4.2."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "NEC Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Granting any form of security (charge, mortgage, pledge or otherwise) over unvested or holding-locked NEC Securities is banned outright, whether to secure the NEC Person's own obligation or a third party's.",
+   "evidence": "NEC Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any NEC Securities which are unvested or subject to a holding lock, to secure any obligation of that NEC Person or any third party."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "NEC Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Granting security over vested, unlocked NEC Securities to secure an obligation of the NEC Person or a third party is permitted with Authorising Officer consent.",
+   "evidence": "Unless paragraph (a) applies, NEC Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any NEC securities, to secure any obligation of that NEC Person or any third party ... with consent under paragraph 4.2."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "NEC Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "The ban on granting security or margin lending over unvested/holding-locked securities is broad enough to cover any secured financing in respect of those securities, for any obligation of the NEC Person or a third party.",
+   "evidence": "NEC Persons may not at any time, directly or indirectly, grant any form of security ... over any NEC Securities which are unvested or subject to a holding lock, to secure any obligation of that NEC Person or any third party; or enter into any margin lending arrangement involving NEC Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "NEC Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "A loan secured over vested, unrestricted NEC Securities (whether margin lending or any other secured financing, for the NEC Person's own or a third party's obligation) is expressly permitted with Authorising Officer consent.",
+   "evidence": "Unless paragraph (a) applies, NEC Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any NEC securities, to secure any obligation of that NEC Person or any third party; or enter into any margin lending arrangement involving NEC securities, with consent under paragraph 4.2."
+  },
+  {
+   "topic": "short_term",
+   "tier": "NEC Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Blanket ban on short-term or speculative trading, with no defined holding period; no clearance route is offered for this restriction (distinct from the Closed Period exceptional-circumstances process).",
+   "evidence": "Under no circumstances should NEC Persons engage in short-term or speculative trading in NEC Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Chair of the Audit and Risk Management Committee or, in his/her absence, the Chair of the Nomination and Remuneration Committee",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "after dealing with the NEC Securities",
+   "section": "4.2",
+   "evidence": "prior to dealing in NEC Securities outside a Closed Period ... notify the relevant person in paragraph 4.2(b) (the Authorising Officer) of their proposed dealing and obtain consent from the Authorising Officer."
+  },
+  {
+   "tier": "Other directors and Company Secretary",
+   "type": "approval",
+   "approver": "the chair of the Board or, in his/her absence, the Chair of the Audit and Risk Management Committee or the Chair of the Nomination and Remuneration Committee",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "after dealing with the NEC Securities",
+   "section": "4.2",
+   "evidence": "An Authorising Officer may give or withhold consent in his or her discretion and any such decision is final. A consent may be withdrawn if further information becomes available after consent is provided."
+  },
+  {
+   "tier": "Any other NEC Person",
+   "type": "approval",
+   "approver": "A Company Secretary of NEC or, in his/her absence, the Commercial Director and Group General Counsel, or the Chief Executive Officer",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "after dealing with the NEC Securities",
+   "section": "4.2",
+   "evidence": "Any decision to withhold or withdraw consent must be kept confidential."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "NEC Person",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should NEC Persons engage in short-term or speculative trading in NEC Securities. This prohibition includes short term direct dealing in NEC shares as well as: (a) transactions in the derivative markets ... and (b) short-selling of NEC Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Company Secretary (or, for directors, the Chair) or their delegate",
+   "evidence": "What constitutes \"exceptional circumstances\" will be assessed on a case-by-case basis within the absolute discretion of the Board, and may include, without limitation, severe financial hardship."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Company Secretary (or, for directors, the Chair) or their delegate",
+   "evidence": "or a requirement to comply with a court order or court enforceable undertaking."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade NEC Securities where the trading does not result in a change of beneficial interest in the securities."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire securities under any director or employee security plan or through the exercise of options or performance rights under an option or performance rights plan or acquire, or agree to acquire, options or performance rights under an option or performance rights plan. However, any dealing in those securities remains subject to this policy."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfer NEC Securities already held into a self-managed superannuation fund or other saving scheme in which the restricted person is a beneficiary."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire NEC's ordinary shares by conversion of securities giving a right of conversion to NEC's ordinary shares."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire NEC Securities under a bonus issue made to all holders of securities of the same class."
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept, a takeover offer."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in the securities of NEC) where the assets of the fund or other scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of NEC Securities that is the result of a secured lender exercising their rights under a loan or security agreement."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trade in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the restricted person."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "NEC Person granting security or entering margin lending over vested, unlocked NEC Securities: must obtain Authorising Officer consent under clause 4.2 before dealing; a secured lender's forced sale under clause 6(a)(viii) is exempt and needs no prior clearance, but the NEC Person must advise the Authorising Officer afterward (deadline unspecified)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Company Secretary (or, for directors, the Chair) or their delegate has absolute discretion to approve dealing during a Closed Period, or other otherwise-prohibited dealing, in exceptional circumstances such as severe financial hardship or a court order/enforceable undertaking (4.3); such approvals must be given by email, and any refusal or withdrawal of consent must be kept confidential (4.2(d)).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "protection arrangements catch-all",
+   "clause": "Otherwise enable a NEC Person to profit from a decrease in the market price of securities.",
+   "why_it_matters": "The purchased-put leg of a collar is squarely within this catch-all, ensuring a bank collar is treated as a 'protection arrangement' under 5.2 rather than escaping the policy through creative structuring."
+  },
+  {
+   "topic": "associates limited to Closed Periods",
+   "clause": "for the purposes of section 4 only, a spouse, dependent child, a close relative or a person acting in concert with any of the persons referred to in sub-paragraph (i) to (iii) above.",
+   "why_it_matters": "The hedging (5.2) and security/margin lending (5.3) restrictions apply only to the NEC Person, not their associates as extended for section 4; routing the collar or loan through a spouse or controlled entity would not itself trigger 5.2/5.3, though the underlying shares remain the NEC Person's."
+  },
+  {
+   "topic": "secured lender forced sale exemption",
+   "clause": "a disposal of NEC Securities that is the result of a secured lender exercising their rights under a loan or security agreement.",
+   "why_it_matters": "A bank's enforcement sale on default is an exempt dealing permitted at any time, including in a Closed Period, removing the enforcement-timing risk that other issuers' policies create by treating a lender's forced sale as a breach."
+  },
+  {
+   "topic": "vested/unlocked carve-in for financing and hedging",
+   "clause": "Unless paragraph (a) applies, NEC Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any NEC securities, to secure any obligation of that NEC Person or any third party; or enter into any margin lending arrangement involving NEC securities, with consent under paragraph 4.2.",
+   "why_it_matters": "Confirms a funded collar (loan secured on vested, unlocked shares) is expressly contemplated and permitted subject only to ordinary Authorising Officer consent, not an outright ban as under many peer policies."
+  }
+ ],
+ "summary": "A funded collar is expressly contemplated for NEC Securities that have vested and are free of a holding lock: clause 5.3(b) permits granting security over such shares to secure the NEC Person's or a third party's obligation (i.e. the bank loan) and entering into a margin lending arrangement, and clause 5.2(b) permits 'protection arrangements' (including instruments that limit economic risk or profit from a price decrease), in both cases subject only to prior consent from the applicable Authorising Officer under clause 4.2, confirmation of no Inside Information, and a post-trade confirmation. Dealing must fall outside a Closed Period (the half-year/year-end result periods and the four weeks before the AGM, plus any Board-specified addition) unless the Company Secretary or Chair grants an exceptional-circumstances approval for severe hardship or a court order. By contrast, unvested or holding-locked NEC Securities can never be pledged, margin-lent against, or hedged (clauses 5.3(a), 5.2(a)) — the collar can only be written over shares that have already vested and cleared any holding lock. If the bank later enforces its security and sells the shares on default, that disposal is an exempt dealing permitted even during a Closed Period (clause 6(a)(viii)), which materially de-risks the enforcement mechanics compared to policies that treat a lender's forced sale as a breach."
+}

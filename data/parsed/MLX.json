@@ -1,0 +1,423 @@
+{
+ "symbol": "MLX",
+ "company": "Metals X Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "31 January 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Staff",
+   "kind": "all_staff",
+   "description": "Directors, employees, consultants and contractors of Metals X and its related entities. Bound by the general insider trading ban, prohibited periods, and the excluded-trading and hardship exceptions; not subject to the standing preclearance, hedging, margin loan or non-discretionary trading plan rules that apply only to Senior Management.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Senior Management",
+   "kind": "kmp",
+   "description": "The Board, the Chief Executive Officer or any other senior executives, and the Company Secretary. Must obtain prior written approval from the Chairman (or two directors in his absence) before any trading, and separately before hedging their holding, entering margin loan/secured lending arrangements, or putting in place a non-discretionary trading plan.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Members of the Board; a subset of Senior Management distinguished by an additional obligation to notify the Company Secretary of securities held on appointment and of any change within 2 days.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Family member",
+   "kind": "associate",
+   "description": "Spouse or partner, parents or parents-in-law, children/stepchildren, and the spouses/partners of those people. Dealing by a family member during a prohibited period is only 'discouraged', not prohibited.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions or arrangements which operate to limit the economic risk of their security holding in the Company",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "four weeks prior to the release of the Metals X annual results",
+   "end_anchor": "24 hours after the release of the Metals X annual results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "four weeks prior to the release of the Metals X half-year results",
+   "end_anchor": "24 hours after the release of the Metals X half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "end of the relevant quarter",
+   "end_anchor": "announcement of Metals X quarterly results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may notify Staff of any other prohibited period when it is considering matters subject to ASX Listing Rule 3.1A; no confidentiality provision is stated. Trading is also barred, independent of any window, at any time Metals X is in possession of unpublished price sensitive information.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Senior Management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1; 3.3; 10.1",
+   "detail": "Securities are defined to include 'any financial products issued or created over or in respect of Metals X securities' with no venue limit, so an OTC put/call is a dealing; Senior Management must obtain the Chairman's (or two directors') prior written approval before any trading, not only during a prohibited period.",
+   "evidence": "Senior Management is required to obtain prior written approval from the Chairman, or in his absence, the approval of two directors prior to any trading being undertaken."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1",
+   "detail": "For Staff who are not Senior Management, no standing preclearance is required for a derivative dealing; it is only subject to the general prohibited-period and inside-information rules.",
+   "evidence": "securities are any listed or unlisted class of share, right, option, warrant, convertible note, bond, debenture, or any financial products issued or created over or in respect of Metals X securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Senior Management",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5(1)",
+   "detail": "Absolute ban at any time, not limited to prohibited periods, on hedging unvested entitlements under equity-based remuneration schemes.",
+   "evidence": "Senior management are prohibited from entering into transactions or arrangements which limit the economic risk of participating in unvested entitlements under any equity based remuneration schemes."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Senior Management",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5(2); 10",
+   "detail": "Hedging of a vested security holding requires prior written approval under the section 10 procedure (Chairman, or two directors in his absence).",
+   "evidence": "Senior management must not enter into transactions or arrangements which operate to limit the economic risk of their security holding in the Company without first obtaining prior written approval in accordance with the procedure set out in section 10."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Staff",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "For Staff generally (not limited to Senior Management), hedging financial products over unvested entitlements is banned only during a prohibited period; the policy does not separately address it outside a prohibited period for non-Senior-Management staff.",
+   "evidence": "The dealing in financial products issued or granted over or in respect of Metals X securities which have the effect of limiting the economic risk of participating in unvested entitlements is prohibited during a prohibited period."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Senior Management",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5(1)",
+   "detail": "Monetisation is not named, but a structure that limits economic risk of unvested entitlements is caught by the absolute hedging ban.",
+   "evidence": "Senior management are prohibited from entering into transactions or arrangements which limit the economic risk of participating in unvested entitlements under any equity based remuneration schemes."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Senior Management",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5(2); 10",
+   "detail": "A monetisation of vested shares that limits economic risk of the holding is caught by the hedging clearance requirement.",
+   "evidence": "must not enter into transactions or arrangements which operate to limit the economic risk of their security holding in the Company without first obtaining prior written approval"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Ordinary Staff monetisation of MLX securities is only a dealing in a financial product, subject to prohibited periods and the inside-information ban; no clearance is required.",
+   "evidence": "any financial products issued or created over or in respect of Metals X securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Senior Management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1; 3.3",
+   "detail": "CFDs are not named but fall within 'financial products issued or created over or in respect of Metals X securities'; Senior Management needs Chairman/two-director approval before dealing.",
+   "evidence": "any financial products issued or created over or in respect of Metals X securities"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1",
+   "detail": "For non-Senior-Management Staff, a CFD is only a dealing in a financial product subject to prohibited periods and the inside-information ban.",
+   "evidence": "any financial products issued or created over or in respect of Metals X securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Senior Management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 10",
+   "detail": "No vested/unvested distinction is drawn (unlike hedging in Section 5); Senior Management may enter a margin loan with prior written approval under section 10.",
+   "evidence": "Senior management must not enter into margin loan agreements or other secured lending arrangements in relation to Company Securities without first obtaining prior written approval in accordance with the procedure set out in section 10."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 6 is expressed to apply to Senior Management only; margin lending by other Staff is not addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Senior Management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 10",
+   "detail": "'Other secured lending arrangements in relation to Company Securities' extends to granting security over the shares; requires prior written approval under section 10.",
+   "evidence": "Senior management must not enter into margin loan agreements or other secured lending arrangements in relation to Company Securities without first obtaining prior written approval in accordance with the procedure set out in section 10."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not addressed for Staff outside Senior Management.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Senior Management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 10",
+   "detail": "A loan secured on Company Securities (margin loan or other secured lending arrangement) is expressly addressed and permitted with prior written approval; the funded collar's loan leg falls squarely within this clause.",
+   "evidence": "Senior management must not enter into margin loan agreements or other secured lending arrangements in relation to Company Securities without first obtaining prior written approval in accordance with the procedure set out in section 10."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not addressed for Staff outside Senior Management.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No short-term or speculative trading restriction is stated anywhere in the policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Senior Management",
+   "type": "approval",
+   "approver": "Chairman, or in his absence, two directors",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.3; 10.1",
+   "evidence": "Senior Management is required to obtain prior written approval from the Chairman, or in his absence, the approval of two directors prior to any trading being undertaken."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman, or in his absence, two directors",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 days of the transaction occurring",
+   "section": "10.2",
+   "evidence": "Directors of Metals X are required to notify the Company Secretary details of ... all changes in Metals X securities they hold directly or indirectly within 2 days of the transaction occurring."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": ""
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of securities where the beneficial ownership of the securities does not change, e.g. the transfer of securities already held into a superannuation fund where the Staff is a beneficiary"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise of an option or a right, or the conversion of a convertible security, where the final date to exercise the option or right, or convert the security, falls during a prohibited period"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or acceptance of, takeover offers"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the Company's security holders, such as a rights issue, security purchase plan, a dividend reinvestment plan or securities buy-back."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Board",
+   "evidence": "Staff, who are not in the possession of price sensitive information, may be given prior written clearance by the Board to sell or otherwise dispose of Metals X during a prohibited period, where the Staff is in severe financial difficulties or other exceptional circumstances determined by the Board."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Board",
+   "evidence": "such as required under a court order, in a bona fide family settlement, or some other overriding legal or regulatory requirement to do so."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Board may, in its discretion, give prior written clearance to Staff who are not in possession of price sensitive information to sell or dispose of securities during a prohibited period in cases of severe financial difficulties or other exceptional circumstances (court order, bona fide family settlement, or other overriding legal/regulatory requirement). Senior Management may also, under section 7, cancel a non-discretionary trading plan during a prohibited period only in exceptional circumstances with prior written approval.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "preclearance applies at all times",
+   "clause": "Senior Management is required to obtain prior written approval from the Chairman ... prior to any trading being undertaken.",
+   "why_it_matters": "Unlike policies that only require clearance inside a closed period, MLX requires the Chairman's (or two directors') written approval before every trade by Senior Management, so entry, roll, and unwind of a collar and its loan each need fresh clearance regardless of the calendar."
+  },
+  {
+   "topic": "non-discretionary trading plan",
+   "clause": "Senior management must not put in place a non-discretionary trading plan in respect of Company Securities without first obtaining prior written approval ... Senior management must not cancel any such trading plan during a Prohibited Period, unless the circumstances are exceptional and the procedure for prior written approval ... has been met.",
+   "why_it_matters": "If a collar's settlement or unwind mechanics are structured as a non-discretionary trading plan, separate approval is required, and it cannot be cancelled inside a closed period without exceptional-circumstances approval."
+  },
+  {
+   "topic": "family member trading only discouraged",
+   "clause": "Dealing in Metals X securities during a prohibited period by a family member is to be discouraged.",
+   "why_it_matters": "This is soft, non-binding language rather than a prohibition, so routing a collar or loan through a family member during a closed period is not itself a breach of this policy, though general insider trading law and reputational risk still apply."
+  },
+  {
+   "topic": "no holding-lock concept",
+   "clause": "(the policy distinguishes only 'unvested entitlements' from a general 'security holding'; it never refers to a holding lock)",
+   "why_it_matters": "Once shares vest, they appear to be treated as an ordinary security holding available for hedging or security with clearance, with no intermediate holding-locked state to navigate."
+  },
+  {
+   "topic": "policy is a summary only",
+   "clause": "This Policy only provides a summary of applicable legal and regulatory issues which are complex, and should therefore only be used as a general guide, not as legal advice.",
+   "why_it_matters": "The policy disclaims completeness, so a collar structure cleared under this policy still needs independent Corporations Act and market-manipulation analysis."
+  }
+ ],
+ "summary": "A funded collar over vested Metals X shares held by Senior Management (the Board, CEO/senior executives and the Company Secretary) is achievable, but sections 3.3/10.1 require prior written approval from the Chairman (or two directors in his absence) before any trade at any time, and both the hedging clause (section 5) and the margin loan/secured lending clause (section 6) separately require that same approval for the put/call legs and for the loan secured on the shares. Hedging of unvested entitlements under an equity incentive scheme is banned outright for Senior Management with no clearance route, so the collar and loan can only be written over vested holdings. Ordinary Staff face no comparable clearance requirement for either the derivatives or the financing leg, only the prohibited-period and inside-information restrictions, and family-member trading during a prohibited period is merely 'discouraged' rather than banned. Execution must avoid the annual, half-year and quarterly closed periods and any inside information, directors must report resulting holding changes to the Company Secretary within 2 days, and any plan-style unwind mechanism needs its own separate approval."
+}

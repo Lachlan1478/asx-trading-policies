@@ -1,0 +1,387 @@
+{
+ "symbol": "LIN",
+ "company": "Lindian Resources Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Applicable Persons",
+   "kind": "all_staff",
+   "description": "Directors, employees, advisers and consultants of LIN. Subject to the general Inside Information dealing prohibition; the general purpose statement says this tier should 'never engage in short term trading', though the substantive short-term trading rule (section 6) is expressed as applying only to key management personnel and their Related Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "key management personnel",
+   "kind": "kmp",
+   "description": "Has the meaning in AASB 124: directors, the company secretary, persons having authority and responsibility for planning, directing and controlling LIN's activities, and any other person notified by the Board from time to time. Subject to Closed Period/Prohibited Period trading bans, short-term trading ban, notification and pre-clearance requirements, the derivatives criteria in section 10, and the margin lending disclosure regime in section 9.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Related Persons",
+   "kind": "associate",
+   "description": "Spouses, de facto spouses, parents and children of Applicable Persons. Key management personnel must procure their Related Persons' compliance with clearance and notification obligations, and the short-term trading ban extends to them.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Subset of key management personnel with an additional duty to complete (or assist the company secretary to complete) an ASX Appendix 3X, 3Y or 3Z within three business days of appointment, a change of interest, or resignation.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "products which operate to limit economic risk in securities holdings in LIN",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "key management personnel"
+   ],
+   "start_anchor": "1 week before each date on which LIN gives its quarterly, half yearly or annual report to the ASX",
+   "end_anchor": "one business day after that date",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Additional periods imposed by the entity as soon as senior management is aware of a matter considered to be price sensitive (or which the Chairman or the MD deem to be price sensitive) form part of the 'Prohibited Period'. Confidentiality of these additional periods, or of refusal reasons, is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "key management personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10; 11",
+   "detail": "Only permitted where LIN is not the counterparty (i.e. a third party such as a bank), the securities are fully vested, the derivative matures outside a Prohibited Period, it is used for the narrow protective purpose in the fourth criterion, and it complies with all applicable laws; the section 11 notification rules (two days' advance notice, post-trade confirmation) apply.",
+   "evidence": "Key management personnel may only enter into transactions involving derivatives ... in respect of LIN securities ... if the following criteria are satisfied: the relevant securities are fully vested; the Derivative has a maturity date that falls outside a Prohibited Period; LIN is not a counterparty to the Derivative; the Derivative is used for the purposes of protecting the value of an asset supporting a loan taken out for the exercise price of options granted by LIN or to protect the value of the security in respect of tax liabilities that may become due and payable; and the Derivative transaction complies with all applicable laws."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "key management personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "10",
+   "detail": "The section 10 criteria require the underlying securities to be 'fully vested'; a derivative over unvested or holding-locked securities does not satisfy that precondition.",
+   "evidence": "the relevant securities are fully vested"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Applicable Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2",
+   "detail": "No clearance, notification or derivative-specific regime applies to Applicable Persons who are not key management personnel; a derivative over LIN securities is simply a 'security' under the general definition, so only the general Inside Information dealing prohibition applies.",
+   "evidence": "securities include shares, derivatives and other financial products that can be traded on a financial market including financial products issued or created over LIN securities by third parties"
+  },
+  {
+   "topic": "hedging",
+   "tier": "key management personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10",
+   "detail": "A hedge ('product which operates to limit economic risk') is only permitted as a Derivative meeting the section 10 criteria, and specifically only where used to protect the value of an asset supporting a loan for option exercise price, or to protect against tax liabilities — not for general liquidity or diversification purposes.",
+   "evidence": "products which operate to limit economic risk in securities holdings in LIN ... the Derivative is used for the purposes of protecting the value of an asset supporting a loan taken out for the exercise price of options granted by LIN or to protect the value of the security in respect of tax liabilities that may become due and payable"
+  },
+  {
+   "topic": "hedging",
+   "tier": "key management personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "10",
+   "detail": "Same fully-vested precondition as derivatives generally bars hedging of unvested or holding-locked securities.",
+   "evidence": "the relevant securities are fully vested"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; 10",
+   "detail": "Not named separately. A monetisation instrument (e.g. a prepaid forward) over LIN shares is a financial product created over LIN securities by a third party and so is itself a 'security'; if it meets the Corporations Act s761D derivative definition it is governed by the section 10 criteria (fully vested, non-LIN counterparty, narrow protective purpose, maturity outside Prohibited Periods).",
+   "evidence": "securities include shares, derivatives and other financial products that can be traded on a financial market including financial products issued or created over LIN securities by third parties"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not referred to anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not referred to anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "key management personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "10",
+   "detail": "Not named. A CFD referencing LIN shares is a 'derivative' as defined in s761D of the Corporations Act and so falls within section 10's Derivatives regime and its criteria.",
+   "evidence": "Key management personnel may only enter into transactions involving derivatives (as defined in section 761D of the Corporations Act) (Derivatives) in respect of LIN securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Permitted, subject to ensuring the arrangement's terms cannot require a dealing during a time when the individual is prohibited from dealing, and to disclosing the arrangement to the company secretary within ten days of entry (number of securities, disposal trigger events, and continuous-disclosure-relevant information including margin-call capacity), with ongoing updates required.",
+   "evidence": "Key management personnel should ensure that when arranging finance either for themselves or through their Related Persons, where securities in LIN are provided as collateral, such obligations do not conflict with their obligations under this policy."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Providing LIN securities as collateral for finance is expressly contemplated and permitted, subject to the section 9 disclosure and timing safeguards.",
+   "evidence": "where securities in LIN are provided as collateral, such obligations do not conflict with their obligations under this policy"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Not limited to margin loans; any finance arrangement secured over LIN securities is permitted subject to the section 9 disclosure and timing safeguards, and the Board may also seek information on encumbrances or margin loans under section 5.",
+   "evidence": "Key management personnel should ensure that when arranging finance either for themselves or through their Related Persons, where securities in LIN are provided as collateral, such obligations do not conflict with their obligations under this policy."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Applicable Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1",
+   "detail": "General purpose statement expressed to apply to all Applicable Persons, though the operative rule in section 6 narrows the substantive prohibition to key management personnel and their Related Persons.",
+   "evidence": "never engage in short term trading of LIN securities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Purchase and sale of the same securities within three months is prohibited at all times; the Board may exempt in exceptional circumstances (severe financial hardship, court order).",
+   "evidence": "key management personnel and their Related Persons are generally prohibited from short-term trading at all times. Short-term trading is a purchase and sale of the same securities within a three month period."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "key management personnel",
+   "type": "approval",
+   "approver": "Board (prior written clearance to deal during a Prohibited Period, exceptional circumstances only); company secretary receives standing two-day advance notice of all intended dealings at any time",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "company secretary",
+   "post_trade_deadline": "within two days of the dealing (confirmation of occurrence and price per security)",
+   "section": "8; 11",
+   "evidence": "key management personnel are required to notify LIN of all intended dealings in LIN securities ... two days before such intended dealings ... Following completion of the proposed dealing, the relevant member of key management personnel must provide confirmation to the company secretary that the dealing has occurred, and details of the price per security, within two days of the dealing. The Board may, in exceptional circumstances only, give prior written clearance to any member of key management personnel or their Related Persons to deal in LIN securities during a Prohibited Period."
+  },
+  {
+   "tier": "Directors",
+   "type": "notification",
+   "approver": "",
+   "form": "system",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "ASX (via the company secretary)",
+   "post_trade_deadline": "within three business days of the appointment, change of interest, or resignation",
+   "section": "11.2",
+   "evidence": "within three business days of: the director's appointment; a change to the director's interest in LIN securities; or the effective date of the director's resignation ... the director must either complete, or provide sufficient information for the company secretary to complete, either an Appendix 3X, 3Y or 3Z."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "key management personnel",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "purchase and sale of the same securities within the period",
+   "carve_outs": [
+    "Board exemption in exceptional circumstances (severe financial hardship or court order)"
+   ],
+   "evidence": "Short-term trading is a purchase and sale of the same securities within a three month period."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "Examples of exceptional circumstances include, but are not limited to: severe financial hardship; or court orders requiring the sale of the securities in question."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Board",
+   "evidence": "court orders requiring the sale of the securities in question."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposing of securities: ... as a result of a secured lender exercising their right under a margin lending arrangement"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "entering into a transaction where the beneficial interest in LIN securities will not change"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "investing in, or trading in units of, a fund or other scheme (other than a scheme investing only in LIN securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "exercising an option over LIN shares, exercising a right under an employee incentive scheme or converting a convertible security in LIN"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "being issued securities in LIN under: a rights issue; a dividend reinvestment plan; a security purchase plan; or an employee option plan, employee share acquisition scheme, executive share acquisition plan or similar arrangement"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "accepting (or undertaking to accept) an offer under a takeover bid, disposing of securities under a scheme of arrangement or agreeing to cancel options over unissued shares in LIN in conjunction with a change of control transaction"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposing of securities: under a buy back or capital reduction made available to most or all LIN security holders"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposing of entitlements under a renounceable pro rata rights issue"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transferring LIN securities to a superannuation fund or other saving scheme in which the Applicable Person or Related Person is a beneficiary"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "key management personnel; trigger: entering into a margin lending arrangement involving LIN securities; to: company secretary; deadline: within ten days, and subsequently on any change in circumstances relevant to LIN's continuous disclosure obligations"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "ASX Appendix 3X, 3Y or 3Z forms"
+ ],
+ "exemption_authority": "The Board may, in exceptional circumstances only (severe financial hardship or court order), give prior written clearance to deal during a Prohibited Period (section 8), and may on application exempt a key management personnel or Related Person from the short-term trading prohibition in exceptional circumstances (section 6).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "narrow derivative purpose gate",
+   "clause": "the Derivative is used for the purposes of protecting the value of an asset supporting a loan taken out for the exercise price of options granted by LIN or to protect the value of the security in respect of tax liabilities that may become due and payable",
+   "why_it_matters": "A funded collar sought for general liquidity or diversification would not literally satisfy this narrow purpose test; the structure would need to be framed (and evidenced) as protecting collateral value for an exercise-price loan or a tax liability to fit within the permitted use."
+  },
+  {
+   "topic": "LIN not counterparty",
+   "clause": "LIN is not a counterparty to the Derivative",
+   "why_it_matters": "This condition expressly contemplates (and requires) a third-party counterparty such as a bank, which is exactly the structure of an OTC funded collar."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "disposing of securities: ... as a result of a secured lender exercising their right under a margin lending arrangement [is excluded from the operation of this policy]",
+   "why_it_matters": "A bank's enforcement sale of the collared shares on default of the secured loan is entirely excluded from the Prohibited Period and clearance requirements, removing the main practical obstacle other companies' policies impose on lender enforcement."
+  },
+  {
+   "topic": "margin lending disclosure regime",
+   "clause": "Within ten days of a key management personnel or a Related Person entering into a margin lending arrangement involving LIN securities, the relevant key management personnel must provide the company secretary with the following information: the number of LIN securities that are subject to such arrangement; the trigger events for disposal of such securities; and any other information that may be relevant to LIN's continuous disclosure obligations, including the ability ... to meet any margin call.",
+   "why_it_matters": "No Board pre-approval is required to grant security over the shares for financing (only for dealing that must occur during a Prohibited Period); a post-entry disclosure regime is the only gate, which is materially easier to satisfy than an outright ban."
+  },
+  {
+   "topic": "purpose statement vs operative rule mismatch",
+   "clause": "never engage in short term trading of LIN securities [section 1, applying to all Applicable Persons] versus key management personnel and their Related Persons are generally prohibited from short-term trading at all times [section 6]",
+   "why_it_matters": "Worth confirming with the company secretary whether the short-term trading ban is intended to bind non-KMP Applicable Persons, since the only substantive, defined prohibition (three-month rule) is scoped to key management personnel."
+  }
+ ],
+ "summary": "A funded collar with a bank is workable for key management personnel under this policy, though only within a narrow purpose gate. Section 10 permits KMP to enter derivative transactions with a third party (LIN itself cannot be the counterparty) over fully vested LIN securities, provided the derivative matures outside a Prohibited Period and is used specifically to protect the value of an asset supporting a loan for option exercise price or against tax liabilities; a collar sought for general liquidity or diversification would need to be framed to fit that purpose. Margin lending or other secured financing using LIN securities as collateral is separately and expressly permitted for KMP (section 9), subject only to ensuring the loan terms cannot force a trade during a Prohibited Period and to a ten-day post-entry disclosure to the company secretary (security numbers, disposal triggers, margin-call capacity); critically, a secured lender's forced sale on enforcement is expressly excluded from the policy altogether. All KMP dealings otherwise require two days' advance notice to the company secretary and post-trade confirmation within two days, and any dealing occurring inside a Prohibited Period needs the Board's prior written clearance, granted only in exceptional circumstances such as severe hardship or a court order."
+}

@@ -1,0 +1,374 @@
+{
+ "symbol": "SLC",
+ "company": "Superloop Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Employees, contractors, directors of the Company, any other person who agrees to be bound by the policy from time to time, and the Relatives (spouse, de facto spouse, children and step-children) of such persons. All substantive restrictions (inside information, Restricted Periods, speculative trading/hedging ban) apply to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company; distinguished for post-trade notification (Appendix 3Y lodgement) and, if not the Chairperson, for Written Clearance approval by two directors.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairperson",
+   "kind": "director",
+   "description": "The Chairperson of the Board; distinguished only for Written Clearance approval, which must come from two non-executive directors, or a non-executive director and the CEO or CFO.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons, other than directors",
+   "kind": "restricted",
+   "description": "Restricted Persons who are not directors; distinguished for the 14-day post-trade notification rule to the Company Secretary and for Written Clearance approval by the CEO.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "engage in hedging arrangements, deal in derivatives or enter into other arrangements which limit the economic risk related to Superloop Securities (including, for example, the use of put and call options, contracts for differences and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Superloop Securities), or which limit the economic risk in connection with Superloop Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "one month prior to the announcement to the ASX of the Company's Appendix 4E Full Year Report or Appendix 4D Half Year Report",
+   "end_anchor": "that announcement",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "two weeks prior to the announcement to the ASX of the Company's Appendix C Quarterly Report",
+   "end_anchor": "that announcement",
+   "duration_days": 14
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "two weeks prior to the conclusion of the Company's annual general meeting",
+   "end_anchor": "conclusion of the annual general meeting",
+   "duration_days": 14
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "one week prior to the release by the Company to the ASX of a cleansing notice under sections 708A or 708AA of the Corporations Act",
+   "end_anchor": "release of the cleansing notice",
+   "duration_days": 7
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may declare 'any other period' during which Restricted Persons and Closely Connected People are prohibited from trading, which forms part of the defined 'Restricted Period' alongside the fixed Closed Periods. The policy does not state whether such a determination or its reasons are communicated confidentially.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Speculative Trading; Authorised Trading",
+   "detail": "Dealing in derivatives related to Superloop Securities is expressly banned as speculative trading unless Written Clearance has been obtained from the relevant Authorised Officer; clearance is available only on a lawful, non-speculative trade in exceptional circumstances.",
+   "evidence": "engage in hedging arrangements, deal in derivatives or enter into other arrangements which limit the economic risk related to Superloop Securities ... unless you have Written Clearance provided in the manner contemplated in this Policy"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Speculative Trading",
+   "detail": "Hedging arrangements and any other arrangement that limits the economic risk connected with Superloop Securities, including put and call options, are expressly banned unless Written Clearance is obtained; clearance requires the Authorised Officer to be satisfied the trade is lawful, not speculative, not unfair-looking, and justified by exceptional circumstances (e.g. hardship or a court order), which a routine hedge is unlikely to meet.",
+   "evidence": "engage in hedging arrangements, deal in derivatives or enter into other arrangements which limit the economic risk related to Superloop Securities (including, for example, the use of put and call options, contracts for differences and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Superloop Securities), or which limit the economic risk in connection with Superloop Securities unless you have Written Clearance provided in the manner contemplated in this Policy"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "Speculative Trading",
+   "detail": "Monetisation structures are not separately named but fall within the catch-all ban on 'other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Superloop Securities', requiring the same Written Clearance.",
+   "evidence": "or other arrangements which limit the economic risk related to Superloop Securities ... or which limit the economic risk in connection with Superloop Securities unless you have Written Clearance"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Speculative Trading",
+   "detail": "Standalone prohibition, listed separately from the hedging/derivatives bullet and not qualified by the Written Clearance carve-out attached to that bullet, on any arrangement designed to profit from a share price decrease.",
+   "evidence": "enter into any arrangement designed to profit from a decrease in the share price of Superloop."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Speculative Trading",
+   "detail": "Contracts for differences are expressly named as an example of a hedging/derivative arrangement requiring Written Clearance.",
+   "evidence": "including, for example, the use of put and call options, contracts for differences and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Superloop Securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No rule addresses entering into a margin loan or pledging Superloop Securities as collateral. The only related provision is an exclusion from the Policy's application for a secured lender's disposal of the pledged securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a mortgage, lien, charge or other security interest over Superloop Securities is not named as a trade and is not otherwise addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Which securities does this Policy apply to?",
+   "detail": "A secured lender's disposal of Superloop Securities under a loan agreement secured by those securities is expressly excluded from the Policy's application altogether, so it is not restricted by the Closed Period rules or the Written Clearance regime, though general insider trading law continues to apply to the Restricted Person independently.",
+   "evidence": "Disposal of Superloop Securities by a secured lender under a loan agreement secured by the Superloop Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Speculative Trading",
+   "detail": "Blanket ban on trading for short term or speculative gain, not defined by a specific holding period, LIFO basis, or numeric threshold.",
+   "evidence": "If you are a Restricted Person, you must not trade in Superloop Securities for short term or speculative gain."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chairperson",
+   "type": "approval",
+   "approver": "Two non-executive directors, or a non-executive director and the CEO or CFO",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Authorised Trading",
+   "evidence": "The Chairperson: Two non-executive directors or a non-executive director and the CEO or CFO."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Two directors",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary, so an Appendix 3Y or other prescribed form can be lodged with ASX",
+   "post_trade_deadline": "as soon as practicable",
+   "section": "Authorised Trading; Trading by directors",
+   "evidence": "The CEO, or a director other than the Chairperson: Two directors. ... If you are a director and trade in Superloop Securities, you must notify the Company Secretary as soon a practicable so that an Appendix 3Y or other prescribed form notifying ASX of the trade can be lodged."
+  },
+  {
+   "tier": "Restricted Persons, other than directors",
+   "type": "approval",
+   "approver": "CEO",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within fourteen days after each transaction",
+   "section": "Authorised Trading; Notification of trades",
+   "evidence": "Any other person: CEO. ... If you trade in Superloop Securities you must notify the Company Secretary of the details of all completed transactions within fourteen days after each transaction."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "you must not trade in Superloop Securities for short term or speculative gain"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Authorised Officer",
+   "evidence": "to realise cash in a time of exceptional financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Authorised Officer",
+   "evidence": "to comply with the requirement of a court order or enforceable undertaking"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Authorised Officer",
+   "evidence": "sought because delaying the trade would: cause exceptional financial hardship; be exceptionally detrimental to the person's family affairs; or be a breach of a court order."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "a transfer of Superloop Securities already held by you into a superannuation fund or other saving scheme in which you are a beneficiary"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the existing security holders in a company, such as a pro-rata rights issue, a security purchase plan, a dividend or distribution reinvestment plan; the shortfall arising from a sub-underwriting agreement or underwriting agreement under a pro-rata rights issue, and an equal access buy-back"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise of the option or right, or the conversion of the security, falls during a Restricted Period"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "trading in an exchange traded fund (ETF)"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "bona fide gifts of Superloop Securities to a Restricted Person by a third party or a transfer to a Restricted Person under a will"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers in Superloop Securities where the beneficial ownership does not change"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Superloop Securities where the Restricted Person is a trustee trading in the Superloop Securities, provided that the Restricted Person is not a beneficiary of the trust and any decisions to trade in the Superloop Securities are taken by the other trustees or by the investment managers independently of the Restricted Person"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "Disposal of Superloop Securities by a secured lender under a loan agreement secured by the Superloop Securities."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Written Clearance is given by an Authorised Officer whose identity depends on who is seeking it: for the Chairperson, two non-executive directors or a non-executive director and the CEO/CFO; for the CEO or a director other than the Chairperson, two directors; for any other Restricted Person, the CEO. Clearance can only be given if the proposed trade is lawful, not for speculative gain, not to take advantage of inside information, not likely to be seen as unfair by the public, press, shareholders or ASX, and exceptional circumstances exist (financial hardship, a court order, or exceptionally detrimental delay).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "exceptional circumstances test makes clearance hard",
+   "clause": "What constitutes an exceptional circumstance is a matter for the discretion of the Authorising Officer. However, exceptional circumstances may exist where the proposed trade is: to realise cash in a time of exceptional financial hardship; or to comply with the requirement of a court order or enforceable undertaking; or sought because delaying the trade would ...",
+   "why_it_matters": "A discretionary funded collar entered for portfolio risk management, rather than hardship or legal compulsion, does not obviously fit the listed exceptional circumstances, so Written Clearance for the hedge may be difficult to obtain even though the mechanism formally exists."
+  },
+  {
+   "topic": "profit-from-decline ban may be unwaivable",
+   "clause": "enter into any arrangement designed to profit from a decrease in the share price of Superloop.",
+   "why_it_matters": "This prohibition is listed separately from the hedging/derivatives bullet and is not expressly qualified by the Written Clearance carve-out attached to that bullet, creating a real risk that the purchased put leg of a collar is treated as an absolute, unwaivable prohibition."
+  },
+  {
+   "topic": "secured lender disposal wholly outside policy",
+   "clause": "Disposal of Superloop Securities by a secured lender under a loan agreement secured by the Superloop Securities.",
+   "why_it_matters": "A bank's enforcement sale of the collared shares under a properly secured loan sits entirely outside this Policy's application, so no Closed Period breach or Written Clearance is needed for that sale, though entering into the underlying secured loan itself is not separately addressed."
+  },
+  {
+   "topic": "inside information always overrides",
+   "clause": "WARNING: If you are in possession of inside information you must not trade in the Superloop Securities irrespective of whether it is not a Restricted Period.",
+   "why_it_matters": "Even a Written-Clearance-approved or policy-excluded collar transaction cannot proceed if the director or executive holds inside information at the relevant time."
+  },
+  {
+   "topic": "no vesting concepts",
+   "clause": "the exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme ... where the final date for the exercise ... falls during a Restricted Period",
+   "why_it_matters": "Beyond this narrow exercise carve-out, the policy does not distinguish unvested from vested holdings, so it provides no separate gating specific to a collar over already-vested shares."
+  }
+ ],
+ "summary": "A funded collar is very difficult, though not per se impossible, under this policy. The hedging/derivatives bullet expressly bans put and call options, CFDs and similar arrangements that limit economic risk 'unless you have Written Clearance', but clearance may only be given where the trade is lawful, non-speculative, not seen as unfair, and justified by exceptional circumstances such as financial hardship or a court order -- criteria a routine portfolio-hedging collar is unlikely to satisfy. A separate, seemingly unqualified prohibition bans any arrangement 'designed to profit from a decrease in the share price', which likely captures the put leg regardless of clearance. The loan secured on the collared shares is not itself addressed by the policy, and a secured lender's eventual enforcement sale is expressly excluded from the policy's application altogether. Any clearance obtained is void if the person holds inside information, and no Restricted Period dealing is possible without it. In practice, a funded collar would need Written Clearance from the applicable Authorised Officer (CEO, two directors, or two non-executive directors/NED-plus-CEO-or-CFO depending on tier) on genuinely exceptional grounds, executed outside a Restricted Period and free of inside information, with residual risk around the unwaivable profit-from-decline bullet."
+}
