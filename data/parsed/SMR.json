@@ -1,0 +1,171 @@
+{
+ "symbol": "SMR",
+ "company": "Stanmore Resources Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "16 December 2022",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors, employees and contractors",
+   "kind": "all_staff",
+   "description": "All Directors, employees and contractors of the Company; subject to the general insider trading prohibition, the short-term trading and short selling bans, but not the Blackout Period or Clearance Officer regime unless they are Restricted Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "All Directors and Key Management Personnel; any member of the Company's executive team; any employee or contractor in the finance, legal or strategic development team with early access to market sensitive information; any other employee or contractor designated by the Company Secretary and approved by the Managing Director and CEO; and any executive assistant to any of the above. Subject to the Blackout Period ban, the Clearance Officer approval regime, and Board approval for Funding Arrangements.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Connected Persons",
+   "kind": "associate",
+   "description": "Any spouse, defacto partner, child or dependent of, or any company or trust that can be controlled by, a Director, employee or contractor.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {"kind": "closed", "applies_to": ["Restricted Persons"], "start_anchor": "1 April", "end_anchor": "the later of 24 hours or the Business Day after the release of the March quarterly report to the ASX", "duration_days": null},
+  {"kind": "closed", "applies_to": ["Restricted Persons"], "start_anchor": "1 October", "end_anchor": "the later of 24 hours or the Business Day after the release of the September quarterly report to the ASX", "duration_days": null},
+  {"kind": "closed", "applies_to": ["Restricted Persons"], "start_anchor": "1 July", "end_anchor": "the later of 24 hours or the Business Day after the release of the 30 June ASX Appendix 4D (if applicable) and half year financial report to the ASX", "duration_days": null},
+  {"kind": "closed", "applies_to": ["Restricted Persons"], "start_anchor": "1 January", "end_anchor": "the later of 24 hours or the Business Day after the release of the 31 December ASX Appendix 4E (if applicable) and full year financial report to the ASX", "duration_days": null},
+  {"kind": "closed", "applies_to": ["Restricted Persons"], "start_anchor": "the release of information to the ASX which a reasonable person would expect to have a material effect on the price or value of the Company's securities", "end_anchor": "24 hours after the release of such information to the ASX", "duration_days": 1}
+ ],
+ "ad_hoc_blackout_authority": "The Directors may determine any other period to be a Blackout Period in their absolute discretion (clause 2.3(2)(e)); the policy does not address whether such a period is confidential.",
+ "rules": [
+  {"topic": "derivatives", "tier": "Restricted Persons", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "A derivative Funding Arrangement that limits risk exposure on unvested remuneration is banned outright.", "evidence": "Restricted Persons must not enter into Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration that has not vested, or has vested but remains subject to a restriction arrangement (including by holding lock)."},
+  {"topic": "derivatives", "tier": "Restricted Persons", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Same ban applies to vested remuneration still subject to a restriction arrangement or holding lock.", "evidence": "has vested but remains subject to a restriction arrangement (including by holding lock)"},
+  {"topic": "derivatives", "tier": "Restricted Persons", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "3.1(1)", "detail": "A derivative arrangement over vested, unrestricted securities is a Funding Arrangement requiring the Board's prior approval, including disclosure of the lender's unilateral sale rights and trigger events.", "evidence": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities (Funding Arrangements). Restricted Persons must provide the Board with the material terms of any proposed Funding Arrangements, including the right of the lender to sell unilaterally and any trigger events."},
+  {"topic": "hedging", "tier": "Restricted Persons", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Hedging is named as a Funding Arrangement type; banned outright over unvested remuneration.", "evidence": "Restricted Persons must not enter into Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration that has not vested, or has vested but remains subject to a restriction arrangement (including by holding lock)."},
+  {"topic": "hedging", "tier": "Restricted Persons", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Same ban while still holding-locked.", "evidence": "has vested but remains subject to a restriction arrangement (including by holding lock)"},
+  {"topic": "hedging", "tier": "Restricted Persons", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "3.1(1)", "detail": "Hedging vested unrestricted securities requires the Board's prior approval as a Funding Arrangement.", "evidence": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities (Funding Arrangements)."},
+  {"topic": "monetisation", "tier": "Restricted Persons", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "3.1(2)", "detail": "Monetisation is not named; a Funding Arrangement structure limiting risk exposure on unvested remuneration is caught and banned outright.", "evidence": "Restricted Persons must not enter into Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration that has not vested."},
+  {"topic": "monetisation", "tier": "Restricted Persons", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "3.1(2)", "detail": "Same ban while still holding-locked.", "evidence": "has vested but remains subject to a restriction arrangement (including by holding lock)"},
+  {"topic": "monetisation", "tier": "Restricted Persons", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "3.1(1)", "detail": "A monetisation-style Funding Arrangement over vested unrestricted securities needs the Board's prior approval.", "evidence": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities."},
+  {"topic": "short_selling", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.3", "detail": "Blanket ban on short selling for all Directors, employees and contractors, not limited by vesting state.", "evidence": "Directors, employees and contractors must not engage in short selling the Company's securities."},
+  {"topic": "stock_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "not_addressed", "mechanism": "none", "floor": "", "section": "", "detail": "Securities lending is not mentioned anywhere in the policy.", "evidence": ""},
+  {"topic": "cfd", "tier": "Restricted Persons", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "1.1(4); 2.5", "detail": "Contracts for difference are named as a 'security' covered by the policy; ordinary dealing in one by a Restricted Person needs Clearance to Deal, though a CFD used to limit risk exposure would instead need Board approval as a Funding Arrangement.", "evidence": "A reference in this Policy to \"securities\" includes: shares, options, warrants, exchange-traded options, contracts for difference, and any other instrument or derivative in respect of a company on issue from time to time."},
+  {"topic": "cfd", "tier": "Directors, employees and contractors", "security_state": "any", "venue": "any", "answer": "permitted", "mechanism": "express", "floor": "", "section": "1.1(4); 2.1", "detail": "For non-Restricted Persons, dealing in a CFD is permitted at any time absent Inside Information, with no formal clearance requirement.", "evidence": "Directors, employees and contractors of the Company must not buy or sell securities in the Company when: they are in possession of ... Inside Information"},
+  {"topic": "margin_lending", "tier": "Restricted Persons", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Margin lending is named as a Funding Arrangement type; banned outright over unvested remuneration.", "evidence": "Restricted Persons must not enter into Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration that has not vested, or has vested but remains subject to a restriction arrangement (including by holding lock)."},
+  {"topic": "margin_lending", "tier": "Restricted Persons", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Same ban while still holding-locked.", "evidence": "has vested but remains subject to a restriction arrangement (including by holding lock)"},
+  {"topic": "margin_lending", "tier": "Restricted Persons", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "3.1(1)", "detail": "Margin lending against vested unrestricted securities requires the Board's prior approval.", "evidence": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities (Funding Arrangements)."},
+  {"topic": "encumbrance", "tier": "Restricted Persons", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "'Any other secured financing arrangement' covers granting security generally; banned outright over unvested remuneration.", "evidence": "Restricted Persons must not enter into Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration that has not vested, or has vested but remains subject to a restriction arrangement (including by holding lock)."},
+  {"topic": "encumbrance", "tier": "Restricted Persons", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Same ban while still holding-locked.", "evidence": "has vested but remains subject to a restriction arrangement (including by holding lock)"},
+  {"topic": "encumbrance", "tier": "Restricted Persons", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "3.1(1)", "detail": "Granting security over vested unrestricted securities requires the Board's prior approval as a Funding Arrangement.", "evidence": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities."},
+  {"topic": "secured_financing", "tier": "Restricted Persons", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Any secured financing arrangement limiting risk exposure on unvested remuneration is banned outright.", "evidence": "Restricted Persons must not enter into Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration that has not vested, or has vested but remains subject to a restriction arrangement (including by holding lock)."},
+  {"topic": "secured_financing", "tier": "Restricted Persons", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.1(2)", "detail": "Same ban while still holding-locked.", "evidence": "has vested but remains subject to a restriction arrangement (including by holding lock)"},
+  {"topic": "secured_financing", "tier": "Restricted Persons", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "3.1(1)", "detail": "A loan secured on vested, unrestricted securities is a Funding Arrangement requiring the Board's prior approval, with material terms including the lender's unilateral sale rights and trigger events disclosed to the Board.", "evidence": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities (Funding Arrangements). Restricted Persons must provide the Board with the material terms of any proposed Funding Arrangements, including the right of the lender to sell unilaterally and any trigger events."},
+  {"topic": "short_term", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "3.2", "detail": "Short-term (less than 120 days) trading is generally prohibited, but a proposed sale within 120 days of acquisition may proceed with prior Clearance to Deal under the section 2.5 procedure, extending that procedure to all Directors, employees and contractors for this purpose.", "evidence": "Directors, employees and contractors must not engage in short-term (less than 120 days) trading of the Company's securities. Any proposed sale of the Company's securities less than 120 days after their acquisition must receive prior Clearance to Deal in accordance with the procedure set out in section 2.5."}
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Director, CEO or Company Secretary: the Chairperson. Chairperson: the Chairperson of the Audit & Risk Management Committee. Chairperson and CEO (combined roles): the Board. All other Restricted Persons: the Company Secretary.",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within three (3) business days of the cleared transaction being completed",
+   "section": "2.5",
+   "evidence": "A response to a request for Clearance to Deal must be given to the Applicant within 2 Business Days of the request being made. The decision of the Clearance Officer is final and binding and the reasons for a decision do not need to be given."
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "The Board",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (ongoing, for changes in circumstances relevant to continuous disclosure)",
+   "post_trade_deadline": "ongoing, as changes in circumstances arise",
+   "section": "3.1",
+   "evidence": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities (Funding Arrangements)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 4.0,
+   "basis": "from acquisition (120 days); prior Clearance to Deal available for an earlier sale",
+   "carve_outs": [],
+   "evidence": "Directors, employees and contractors must not engage in short-term (less than 120 days) trading of the Company's securities. Any proposed sale of the Company's securities less than 120 days after their acquisition must receive prior Clearance to Deal."
+  }
+ ],
+ "exceptions": [
+  {"kind": "no_change_beneficial_interest", "scope": "any_dealing", "approver": "", "evidence": "(beneficial holding) where the Dealing will not result in a change to the beneficial control of the Company's securities (i.e. transfer to a superannuation fund)"},
+  {"kind": "non_discretionary_plan", "scope": "any_dealing", "approver": "", "evidence": "(third parties) where the Dealing arises as a consequence of a third-party fund or scheme investing in the Company's securities at the discretion of a third party (i.e. a managed investment scheme or listed investment fund)"},
+  {"kind": "takeover", "scope": "any_dealing", "approver": "", "evidence": "(takeover) where the Dealing arises from a scheme of arrangement or acceptance of a takeover"},
+  {"kind": "dividend_plan", "scope": "any_dealing", "approver": "", "evidence": "(offers, security purchase, dividend reinvestment plans etc) where the Dealing arises under an offer to all retail shareholders of the Company, where the particular offer determines the timing and the structure of the offer has been approved by the Board (and includes the election to allow rights to lapse)"},
+  {"kind": "plan_dealing", "scope": "any_dealing", "approver": "", "evidence": "(incentive scheme) where the Dealing arises through an acquisition, cancellation or surrender of the Company's securities under an employee incentive scheme"},
+  {"kind": "secured_lender_sale", "scope": "sale_only", "approver": "", "evidence": "(lender disposal) where the Dealing arises through the disposal of the Company's securities by a lender exercising their rights under an approved Funding Arrangement"},
+  {"kind": "hardship", "scope": "any_dealing", "approver": "relevant Clearance Officer per the section 2.5 table", "evidence": "severe financial hardship"},
+  {"kind": "court_order", "scope": "any_dealing", "approver": "relevant Clearance Officer per the section 2.5 table", "evidence": "the existence of a court order or enforceable undertaking, or some other overriding legal or regulatory requirement"}
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "Restricted Persons must provide the Board with the material terms of any proposed Funding Arrangements, including the right of the lender to sell unilaterally and any trigger events.",
+  "financing_disclosure": [
+   "Restricted Persons: ongoing, once a Funding Arrangement is approved - must keep the Company Secretary informed of any change in circumstances relevant to the Company's continuous disclosure obligations, no fixed deadline (3.1(3)).",
+   "Restricted Persons: threshold of 5% or more of the Company's securities - the Board and Company Secretary must make appropriate market disclosure of the key terms of the Funding Arrangement (3.1(4))."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The relevant Clearance Officer (the Chairperson, the Chairperson of the Audit & Risk Management Committee, the Board, or the Company Secretary, per the table in section 2.5) may grant Clearance to Deal during a Blackout Period for severe financial hardship, a court order or enforceable undertaking, or other circumstances the Clearance Officer determines exceptional; the decision is final and binding and reasons need not be given.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Funding Arrangements defined term",
+   "clause": "Restricted Persons must obtain the Board's approval to enter into a margin lending, hedging, derivative or any other secured financing arrangement in relation to the Company's securities (Funding Arrangements). Restricted Persons must provide the Board with the material terms of any proposed Funding Arrangements, including the right of the lender to sell unilaterally and any trigger events.",
+   "why_it_matters": "A funded OTC collar (put, call and secured loan) is squarely a 'Funding Arrangement' requiring Board-level approval, not just the standard Clearance Officer sign-off, and the Board must be told upfront about the lender's unilateral sale rights and trigger events."
+  },
+  {
+   "topic": "unvested/holding-lock ban",
+   "clause": "Restricted Persons must not enter into Funding Arrangements that would have the effect of limiting their exposure to risk in relation to all or part of their remuneration that has not vested, or has vested but remains subject to a restriction arrangement (including by holding lock).",
+   "why_it_matters": "The collar and its financing can only reference shares that are fully vested and free of any holding lock or other restriction arrangement."
+  },
+  {
+   "topic": "5% disclosure threshold",
+   "clause": "where a Funding Arrangement of a Restricted Person involves 5% or more of the Company's securities, the Board and Company Secretary shall make appropriate disclosure to the market of any key terms of the Funding Arrangements.",
+   "why_it_matters": "A sufficiently large collar/loan over a Restricted Person's holding may trigger mandatory public disclosure of its key terms."
+  },
+  {
+   "topic": "lender enforcement carve-out conditional on prior approval",
+   "clause": "(lender disposal) where the Dealing arises through the disposal of the Company's securities by a lender exercising their rights under an approved Funding Arrangement",
+   "why_it_matters": "The bank's enforcement sale on default is only excluded from the Blackout Period restriction if the Funding Arrangement was properly Board-approved beforehand; an unapproved arrangement would not benefit from this carve-out."
+  },
+  {
+   "topic": "short-term sale clearance extends to all tiers",
+   "clause": "Any proposed sale of the Company's securities less than 120 days after their acquisition must receive prior Clearance to Deal in accordance with the procedure set out in section 2.5.",
+   "why_it_matters": "Unwinding or settling the collar by selling shares within 120 days of their vesting/acquisition requires Clearance to Deal even for personnel who are not otherwise Restricted Persons."
+  }
+ ],
+ "summary": "A funded OTC collar is achievable for a Restricted Person once the relevant shares have vested and are free of any restriction arrangement (including a holding lock): margin lending, hedging, derivative and secured financing arrangements are each expressly grouped as 'Funding Arrangements' requiring the Board's prior approval, with the Board to be given the lender's unilateral sale rights and any trigger events. Funding Arrangements that would limit risk exposure on remuneration that is unvested, or vested but still restricted, are banned outright, so the collar and its loan can only reference fully vested, unrestricted shares. Once approved, a lender's enforcement sale under the arrangement is an Excluded Dealing not subject to Blackout Period restrictions, but that protection depends on the Funding Arrangement having been properly Board-approved beforehand; the Restricted Person must also keep the Company Secretary informed of relevant changes in circumstances, and market disclosure of key terms is required if the arrangement covers 5% or more of the Company's securities. Short selling is banned outright for everyone, and any sale within 120 days of acquisition (relevant to an early unwind) needs prior Clearance to Deal under the ordinary section 2.5 process even outside a Blackout Period. Ordinary Dealing by Restricted Persons outside the Funding Arrangements regime still needs a separate Clearance to Deal from the applicable Clearance Officer, valid for 5 business days, with completion notified to the Company Secretary within 3 business days."
+}

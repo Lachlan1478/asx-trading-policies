@@ -1,0 +1,322 @@
+{
+ "symbol": "PPT",
+ "company": "Perpetual Limited",
+ "title": "Group Policy - Personal Trading in Perpetual Securities",
+ "date_approved": "27 August 2024",
+ "date_effective": "",
+ "date_lodged": "27 August 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company or of a Controlled Entity. Subject to Rules 1-3 without differentiation; Perpetual keeps a record of their holdings based on ASX notification and annual report information.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "KMP and Employees (including Executive-Directors)",
+   "kind": "other",
+   "description": "Key management personnel (as defined in AASB 124 and identified in Perpetual's annual report) and Employees (including contractors and non-permanent staff), plus Executive-Directors. Must obtain pre-approval for all trading via the Pre-trade Compliance System.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Non-executive Directors",
+   "kind": "director",
+   "description": "Do not have access to the Pre-trade Compliance System; must seek prior written approval for all transactions under the Attachment A procedure, and an approved but unexecuted trade may be vetoed by the Chairman of Perpetual Limited.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Connected Persons",
+   "kind": "associate",
+   "description": "Close family members (spouse/partner, dependent children) and any family trust or family company the Director, KMP or Employee (or their Closely Connected Persons) may control or have an interest in. Trades in their name count as the Personal Capacity of the Director/KMP/Employee where that person can control or influence the volume, price, value or timing of the trade.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a hedging arrangement aimed at limiting the economic risk of holding Perpetual Securities or at limiting exposure in relation to \"at risk\" remuneration",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "8am (Sydney time) on 30 June",
+   "end_anchor": "5pm (Sydney time) on the first full trading day following the announcement to the ASX of Perpetual's annual financial results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "8am (Sydney time) on 31 December",
+   "end_anchor": "5pm (Sydney time) on the first full trading day following the announcement to the ASX of Perpetual's half-yearly financial results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "8am (Sydney time) on the last day of the reporting quarter",
+   "end_anchor": "5pm (Sydney time) on the first full trading day following the announcement to the ASX of the Quarterly Business Update",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board of Perpetual reserves the right to impose any additional Prohibited Periods on an ad-hoc basis when it considers it prudent to do so; confidentiality of such additional periods is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Definitions (Perpetual Securities); Rule 4",
+   "detail": "Perpetual Securities is defined to include derivatives over any Securities, so trading a derivative is subject to the same Pre-trade Compliance System pre-approval (or Attachment A for Non-executive Directors), Prohibited Period ban and 12-month minimum holding rule as any other Security, unless it is a hedge or short sale, which are separately banned outright.",
+   "evidence": "Perpetual Securities means a share, a debenture, an option, a bond or any legal or equitable right or interest to acquire shares in the Company or any other security of the Company as defined in section 761A of the Corporations Act and includes derivatives over any Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 1(c)",
+   "detail": "Absolute ban on any hedging arrangement limiting the economic risk of holding Perpetual Securities or of at-risk remuneration, for Directors, KMP and Employees, with no vesting-state carve-out and no clearance or Board-approval route.",
+   "evidence": "as part of a hedging arrangement aimed at limiting the economic risk of holding Perpetual Securities or at limiting exposure in relation to \"at risk\" remuneration"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "Rule 1(c)",
+   "detail": "Monetisation is not named, but any structure (e.g. a prepaid forward) that limits the economic risk of holding Perpetual Securities falls within the Rule 1(c) hedging ban.",
+   "evidence": "as part of a hedging arrangement aimed at limiting the economic risk of holding Perpetual Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 1(b)",
+   "detail": "Outright ban on trading in Perpetual Securities as part of a short selling strategy.",
+   "evidence": "as part of a short selling strategy"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Perpetual Securities); Rule 1",
+   "detail": "CFDs are not named but fall within 'derivatives over any Securities'; a CFD used for hedging or short-selling purposes is banned under Rule 1(b)/(c), so in practice only a directional long CFD held 12+ months and not for speculative gain could be pre-approved.",
+   "evidence": "includes derivatives over any Securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 2",
+   "detail": "Absolute ban on entering into or otherwise facilitating margin loans over Perpetual Securities in a Personal Capacity, for Directors, KMP and Employees; no Board-approval override or exemption route is provided (contrast Rule 5's Exceptional Circumstances, which only concerns trading during a Prohibited Period).",
+   "evidence": "Directors, KMP and Employees must not enter into or otherwise facilitate margin loans over Perpetual Securities in a Personal Capacity."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Only margin loans are named; a charge, lien or pledge that is not a margin loan (or facilitating one) is not separately addressed, though it may be caught by the anti-circumvention clause if used to achieve the same economic result.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 2; Section 7",
+   "detail": "The margin loan ban extends to 'otherwise facilitat[ing]' such an arrangement, and Section 7 separately prohibits structuring arrangements to circumvent the policy, so a functionally equivalent secured financing structure is also barred.",
+   "evidence": "must not enter into or otherwise facilitate margin loans over Perpetual Securities ... must not structure arrangements or procure third parties to trade to circumvent the operation of this policy"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 1(a)",
+   "detail": "All positions must be held for a minimum of 12 months from acquisition; this does not apply to a disposal of Perpetual Securities after vesting or release from restriction under an incentive plan.",
+   "evidence": "for short term or speculative gain. All positions must be held for a minimum period of 12 months. This does not apply to a disposal of Perpetual Securities after vesting or release from restrictions under one of Perpetual's incentive plans"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "KMP and Employees (including Executive-Directors)",
+   "type": "preclearance_system",
+   "approver": "Pre-trade Compliance System",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Rule 4",
+   "evidence": "pre-approval of all trading in Perpetual Securities by KMP and Employees (including Executive-Directors) in a Personal Capacity must be requested via the Pre-trade Compliance System. ... Approvals will be valid for five business days following the day on which approval was granted, unless approval is granted within five days of the start of a Prohibited Period, in which case approval will expire concurrently with that commencement."
+  },
+  {
+   "tier": "Non-executive Directors",
+   "type": "approval",
+   "approver": "Chairman of Perpetual Limited (primary), Chairman of the Audit, Risk and Compliance Committee (in their absence)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Rule 4; Attachment A",
+   "evidence": "Where a Non-executive Director has been given approval for an intended trade, it may subsequently be necessary to veto trading where the trade has not yet been executed, for legal or perception reasons. ... this will be immediately communicated in writing to the individual(s) affected and should be kept strictly confidential by those persons."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 12,
+   "basis": "from acquisition",
+   "carve_outs": ["disposal of Perpetual Securities after vesting or release from restrictions under one of Perpetual's incentive plans"],
+   "evidence": "All positions must be held for a minimum period of 12 months. This does not apply to a disposal of Perpetual Securities after vesting or release from restrictions under one of Perpetual's incentive plans"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman of the Audit, Risk and Compliance Committee (or Chairman of the Board if the applicant is that Chairman)",
+   "evidence": "severe financial hardship – a person may be in severe financial hardship if they have a pressing financial commitment that cannot be satisfied otherwise than by selling Perpetual Securities and this is the only reasonable course of action available"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chairman of the Audit, Risk and Compliance Committee",
+   "evidence": "as required by law, an order of a Court or Court enforceable undertakings"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in Perpetual Securities, for example transfers of Perpetual Securities already held by a Director, KMP or Employee into a superannuation fund or other saving scheme in which the Director, KMP or Employee is a beneficiary, including where shares are released from a Director or Employee share trust following a restriction period"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most Perpetual Security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan, a scheme of arrangement and an equal access buy-back"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the vesting or exercise (but not the subsequent sale of Perpetual Securities following exercise) of a Company-issued option or a right under an employee incentive scheme"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Chairman of the Audit Risk and Compliance Committee",
+   "evidence": "trading under a predetermined investment or divestment trading plan for which prior written clearance from the Chairman of the Audit Risk and Compliance Committee has been obtained ... the trading plan does not permit the Director, KMP or Employee to exercise any influence or discretion over how, when, or whether to trade"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Perpetual Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Chairman of the Audit, Risk and Compliance Committee may, exercising the power sparingly and with caution, grant written approval to sell or dispose of (not acquire) Perpetual Securities during a Prohibited Period for severe financial hardship, legal/court requirement, or other circumstances they determine exceptional; escalates to the Chairman of the Board if the Committee Chairman is the applicant. This exemption route does not extend to lifting the Rule 1 hedging/short-selling/speculative-trading bans or the Rule 2 margin loan ban, which have no override.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute hedging ban",
+   "clause": "Directors, KMP and Employees must not trade in Perpetual Securities in a Personal Capacity ... as part of a hedging arrangement aimed at limiting the economic risk of holding Perpetual Securities or at limiting exposure in relation to \"at risk\" remuneration.",
+   "why_it_matters": "A purchased put and written call is precisely a hedging arrangement limiting economic risk, so both legs of the collar's option structure are prohibited outright with no clearance, Board or hardship override."
+  },
+  {
+   "topic": "absolute margin loan ban",
+   "clause": "Directors, KMP and Employees must not enter into or otherwise facilitate margin loans over Perpetual Securities in a Personal Capacity.",
+   "why_it_matters": "The loan leg secured on the collared shares cannot be structured as, or to facilitate, a margin loan; unlike some peer policies there is no Board-approval carve-out for this prohibition."
+  },
+  {
+   "topic": "anti-circumvention",
+   "clause": "They must not structure arrangements or procure third parties to trade to circumvent the operation of this policy.",
+   "why_it_matters": "Restructuring the collar or loan through a bank counterparty or wrapper to avoid the literal terms 'hedge' or 'margin loan' would still breach the policy's anti-avoidance clause."
+  },
+  {
+   "topic": "global application",
+   "clause": "For the avoidance of doubt, this policy applies globally. ... Employees of some Controlled Entities outside of Australia must ensure compliance with any additional clearance requirements or restrictions that apply to owning or trading in Perpetual Securities under the entity's Pre-trade Compliance Systems.",
+   "why_it_matters": "Offshore-based executives may face additional local restrictions layered on top of the absolute hedging and margin-loan bans."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Rule 1(c) bans any hedging arrangement aimed at limiting the economic risk of holding Perpetual Securities or at-risk remuneration, which squarely catches both the purchased put and written call, and Rule 2 separately and absolutely bans entering into or facilitating margin loans over Perpetual Securities, catching the secured loan leg. Neither prohibition carries a Board-approval, clearance or hardship exemption; the Section 5 'Exceptional Circumstances' process only allows selling (not acquiring) securities during a Prohibited Period, and does not lift Rules 1 or 2. A structure engineered to achieve the same economic outcome by another label would still breach the Section 7 anti-circumvention clause, which prohibits structuring arrangements or using third parties to circumvent the policy. Combined with the outright short-selling ban and 12-month minimum holding period, there is no pathway under this policy for the bank to offer this executive a funded OTC equity collar."
+}
