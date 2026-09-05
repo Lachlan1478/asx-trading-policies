@@ -1,0 +1,489 @@
+{
+ "symbol": "COH",
+ "company": "Cochlear Limited",
+ "title": "Trading Policy",
+ "date_approved": "14 February 2023 (Board); first approved 13 December 2010",
+ "date_effective": "14 February 2023",
+ "date_lodged": "17 February 2023",
+ "date_next_review": "Reviewed annually by the Company Secretary",
+ "tiers": [
+  {
+   "name": "Key Designated Person",
+   "kind": "kmp",
+   "description": "Any director of Cochlear (including the CEO and the Chair), any Band 1 employee, and any person designated as such in writing by the Company Secretary. Includes Key Management Personnel and other senior executives. Most restricted tier: may not Deal even during a Trading Window without a notice of 'no objection'.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Person",
+   "kind": "restricted",
+   "description": "Any Key Designated Person or any Band 2 employee; also any Cochlear Person while in receipt of a Controlled Securities Notice. May Deal freely during a Trading Window (unless also a Key Designated Person) but must not Deal in a Prohibited Period without an Exempt Dealing or an Exceptional Circumstances waiver.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Non Designated Person",
+   "kind": "all_staff",
+   "description": "Any Cochlear Person (director, officer or employee) who is not a Designated Person; most Cochlear Personnel. No window restriction and no clearance requirement, but a Non Designated Person who is a Plan Participant must not limit the economic risk of an unvested Plan Award.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associate",
+   "kind": "associate",
+   "description": "Spouse or child of a Cochlear Person, a child of the spouse, any family member who may be expected to influence or be influenced by the Cochlear Person, a company or entity the Cochlear Person Controls, and a trustee of any trust of which the Cochlear Person is a beneficiary. A Dealing or proposed Dealing by an Associate is deemed to be one by the Cochlear Person.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "an arrangement (with anyone) if the arrangement would have the effect of limiting the exposure of the Designated Person to risk relating to an element of the Designated Person's remuneration (including any Plan Award) that has not vested; and (in the Derivative definition) any other transactions or structures using financial products that operates or is intended to operate to limit the economic risk associated with holding a security",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "10am on the Trading Day immediately following the day Cochlear announces its half year or full year results to the ASX",
+   "end_anchor": "4pm on the day which is thirty (30) days later (or earlier if the Company Secretary ends the window by written notice)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "10am on the Trading Day immediately following the day of Cochlear's Annual General Meeting",
+   "end_anchor": "4pm on the day which is thirty (30) days later (or earlier if the Company Secretary ends the window by written notice)",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "any other period the Board designates as a Trading Window when satisfied the ASX is fully informed",
+   "end_anchor": "as designated by the Board",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Person",
+    "Key Designated Person"
+   ],
+   "start_anchor": "end of a Trading Window (however it ends, including early termination under Section 3.3)",
+   "end_anchor": "commencement of the next following Trading Window",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company Secretary may end a Trading Window immediately by notice in writing to Designated Persons, after consulting the Chair of the Board and the CEO but otherwise in his or her discretion (Section 3.3). Separately, the Company Secretary may issue a confidential Controlled Securities Notice restricting Dealing in another entity's securities; the recipient becomes a Designated Person and must not disclose the notice or the identity of the Controlled Securities.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Key Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5; 4.3; Appendix 1 (Derivative, Deal)",
+   "detail": "Derivatives over vested Cochlear Securities are expressly permitted, and 'Derivative' expressly includes caps and/or collars and any structure intended to limit economic risk, with no venue limitation, so an OTC put and call with a bank qualifies. Entry into a derivative is a Dealing, so a Key Designated Person needs a notice of 'no objection' from the Relevant Officer and must transact within a Trading Window; directors must disclose any Derivatives position to Cochlear.",
+   "evidence": "Subject to the Act and this Policy (including Sections 4.3, 4.5 and Section 9), the use of Derivatives in relation to vested Cochlear Securities is permitted."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5; 4.3",
+   "detail": "A Band 2 Designated Person who is not a Key Designated Person may enter a Derivative over vested Cochlear Securities during a Trading Window without any clearance; in a Prohibited Period the same Dealing requires an Exceptional Circumstances waiver.",
+   "evidence": "the use of Derivatives in relation to vested Cochlear Securities is permitted"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Absolute ban on any use of Derivatives in relation to unvested Cochlear Securities, extended to Associates. Securities issued subject to a holding lock are treated as unvested until the lock is released, so vested-but-locked shares cannot be collared either.",
+   "evidence": "Designated Persons must not use, nor allow to be used, any Derivatives in relation to unvested Cochlear Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Any Cochlear Security (including a Plan Award) issued subject to a holding lock is subject to the unvested restrictions notwithstanding vesting, until the lock is released. Cochlear states it does not ordinarily issue securities subject to a holding lock.",
+   "evidence": "any Cochlear Security (including where applicable any Plan Award) that is issued subject to a holding lock, shall (notwithstanding any vesting) be subject to the same restrictions under this Section 4.5 as unvested Cochlear Securities, until the holding lock is released."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Non Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Non Designated Persons are subject only to the insider trading prohibition and the applicable parts of the Policy; the only express derivative restriction on them concerns unvested Plan Awards. Trading Windows are a suggestion only.",
+   "evidence": "A Non Designated Person who is a Plan Participant must not enter into transactions or arrangements, including by way of Derivatives, which limit the economic risk of holding any Plan Award that has not vested."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Blanket prohibition on any arrangement with anyone that limits exposure to risk on unvested remuneration, including any Plan Award; the Designated Person must also procure that Associates do not enter such arrangements.",
+   "evidence": "A Designated Person must not enter (and must procure that none of his or her Associates enter) into an arrangement (with anyone) if the arrangement would have the effect of limiting the exposure of the Designated Person to risk relating to an element of the Designated Person's remuneration (including any Plan Award) that has not vested."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5; 4.3",
+   "detail": "Hedging of vested, unlocked securities is permitted because the ban is confined to unvested remuneration and holding-locked securities; as a Dealing it requires a notice of 'no objection' within a Trading Window, and directors must disclose the Derivatives position to Cochlear.",
+   "evidence": "Subject to the Act and this Policy (including Sections 4.3, 4.5 and Section 9), the use of Derivatives in relation to vested Cochlear Securities is permitted."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Non Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "A Non Designated Person who is a Plan Participant is barred from any transaction or arrangement, including Derivatives, limiting the economic risk of an unvested Plan Award.",
+   "evidence": "A Non Designated Person who is a Plan Participant must not enter into transactions or arrangements, including by way of Derivatives, which limit the economic risk of holding any Plan Award that has not vested."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Appendix 1 (Deal); 4.3",
+   "detail": "Monetisation is not named. A prepaid forward, collar-plus-loan or similar is caught as entry into a derivative, an agreement to dispose, or a transaction involving a change in beneficial interest, and so is a Dealing subject to the window and clearance regime. Not prohibited in substance for vested holdings.",
+   "evidence": "the entry into an agreement to do any of the things mentioned in (a) to (e) of this definition"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Outright ban on short selling Cochlear Securities for all Cochlear Personnel, with no clearance or waiver route stated. Short selling in third party securities is permitted subject to Controlled Securities.",
+   "evidence": "Cochlear Personnel must not engage in short selling or stock lending activities in relation to Cochlear Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9; 9.2",
+   "detail": "Outright ban on stock lending in Cochlear Securities for all Cochlear Personnel; the policy defines stock lending as a temporary transfer of a security to a borrower who must return an equivalent security.",
+   "evidence": "Cochlear Personnel must not engage in short selling or stock lending activities in relation to Cochlear Securities."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Appendix 1 (Derivative, Deal); 9",
+   "detail": "CFDs are not named but fall within Derivatives under section 761D of the Act and within the catch-all for structures limiting economic risk, so entry is a Dealing subject to windows and clearance. A short CFD would in substance breach the short selling ban.",
+   "evidence": "derivatives within the meaning of section 761D of the Act, such as options, forward contracts, swaps, futures, warrants and caps and/or collars"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Margin lending is expressly permitted subject to the ordinary Dealing regime: entry into a Margin Lending Arrangement is a Dealing, so it must occur in a Trading Window (with a 'no objection' notice for Key Designated Persons) or under a waiver. Directors' arrangements may be disclosed to the ASX and all Designated Persons must disclose details on request.",
+   "evidence": "Entering into a Margin Lending Arrangement is a Dealing for the purposes of this Policy. A Designated Person must comply with Section 4.3 of this Policy in relation to the entry into by the Designated Person of any Margin Lending Arrangement with respect to Cochlear Securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Appendix 1 (Deal)(d); 4.3",
+   "detail": "Using Cochlear Securities as collateral, or granting security over them, is expressly a Dealing rather than a prohibited act, so a pledge to a bank is permitted if made in a Trading Window with the required clearance.",
+   "evidence": "the use of Securities as collateral or security over Securities (including a Margin Lending Arrangement)"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Appendix 1 (Deal)(d); 4.4; 6(g)",
+   "detail": "There is no ban on secured financing. Any use of Securities as collateral is a Dealing requiring compliance with Section 4.3, and the policy contemplates secured lending by exempting a secured lender's involuntary enforcement sale provided the Policy was complied with at entry.",
+   "evidence": "An involuntary disposal of Securities that is the result of a secured lender exercising its rights, for example under a Margin Lending Arrangement (provided that this Policy was complied with (where it was required to be complied with) in relation to entry into the relevant secured lending arrangement)"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The policy does not expressly address pledging unvested Plan Awards or holding-locked securities as collateral. Section 4.5 bars only arrangements limiting economic risk of unvested remuneration, which a pledge alone does not obviously do.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "9",
+   "detail": "Section 9 is headed 'Short Term and Speculative Dealing' but imposes no holding period, no minimum tenor and no intention test; it contains only an exhortation to be long term holders, followed by the short selling and stock lending bans.",
+   "evidence": "Cochlear Personnel are encouraged to be long term holders of Cochlear Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Key Designated Person",
+   "type": "approval",
+   "approver": "Relevant Officer: Chair of the Audit & Risk Committee for the Chair of the Board; Chair of the Board for any other director (including the CEO) and the Company Secretary; Company Secretary for all other Cochlear Personnel (or delegate). Applications also emailed to application-to-trade@cochlear.com.",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (directors only), for all Dealings including Exempt Dealings that change Notifiable Interests",
+   "post_trade_deadline": "In time for Cochlear to notify the ASX within five (5) Trading Days of the change",
+   "section": "4.3; 4.8; 4.9; 4.10; 8",
+   "evidence": "a Key Designated Person must not Deal in Cochlear Securities during a Trading Window unless: the proposed Dealing is an Exempt Dealing; or the Key Designated Person has received a notice of \"no objection\" with regard to the proposed Dealing."
+  },
+  {
+   "tier": "Designated Person",
+   "type": "approval",
+   "approver": "Relevant Officer (Company Secretary or delegate for non-directors); waiver required only to Deal in a Prohibited Period on Exceptional Circumstances grounds",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.3; 4.7; 4.8; 4.9",
+   "evidence": "Where a waiver of the Policy is granted, the Designated Person must execute the proposed Dealing within five (5) Trading Days after (but not including) the day on which the waiver was granted."
+  },
+  {
+   "tier": "Non Designated Person",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.2; 5.3",
+   "evidence": "In order to mitigate the risks involved in relation to Cochlear Securities, Cochlear suggests that Non Designated Persons Deal in Cochlear Securities only during the Trading Windows."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Cochlear Personnel are encouraged to be long term holders of Cochlear Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Relevant Officer",
+   "evidence": "if a Designated Person is in severe financial hardship. A Designated Person may be in severe financial hardship if he or she has a pressing financial commitment that cannot be satisfied otherwise than by selling the Securities in question."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Relevant Officer",
+   "evidence": "if the Dealing is required by a court order, court enforceable undertaking(s) or otherwise by reason of applicable law or regulation"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Relevant Officer",
+   "evidence": "if other circumstances exist which the Relevant Officer accepts as being exceptional in nature. Designated Persons should note that this discretion will be exercised sparingly and with caution."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "A Dealing which results in no change to the beneficial ownership of the relevant Securities."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "An involuntary disposal of Securities that is the result of a secured lender exercising its rights, for example under a Margin Lending Arrangement (provided that this Policy was complied with (where it was required to be complied with) in relation to entry into the relevant secured lending arrangement)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An acquisition or disposal of Securities under a pre-determined investment or divestment plan where: the person did not enter into or amend the plan during a Prohibited Period; the plan does not permit the person to exercise any discretion over how, when, or whether to acquire or dispose of Securities"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "An acquisition of Securities under a security purchase plan or a dividend or distribution reinvestment plan where: the person did not commence or amend their participation in the plan during a Prohibited Period"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "A Dealing which is or results from the acceptance of: any takeover offer, scheme of arrangement or equal access buyback"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The acceptance of an offer of a Plan Award and the allocation, receipt of grant and vesting of any Cochlear Securities subsequent to that acceptance but not any other Dealing in relation to Cochlear Securities pursuant to or in connection with the Plan"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "A transfer of Securities between a person and an Associate of the person"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors: Margin Lending Arrangements relevant to Cochlear Securities may be disclosed by Cochlear to the ASX where required (e.g. by the Listing Rules); no fixed deadline stated",
+   "Directors: must disclose to Cochlear any Derivatives position relating to Cochlear Securities; deadline unspecified",
+   "Designated Persons (including Key Designated Persons): must disclose to Cochlear details of current Margin Lending Arrangements and current Derivatives positions relating to Cochlear Securities, on request by Cochlear",
+   "Directors: Cochlear will disclose the grant of any waiver in connection with a Dealing where required by the Listing Rules",
+   "Directors: all Dealings (including Exempt Dealings) changing Notifiable Interests must be confirmed to the Company Secretary in time for ASX notification within five (5) Trading Days"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Cochlear Executive Incentive Plan Rules",
+  "Cochlear Employee Share Plan (ESP) terms"
+ ],
+ "exemption_authority": "The Relevant Officer (Chair of Audit & Risk Committee for the Board Chair; Board Chair for directors, the CEO and the Company Secretary; Company Secretary or delegate for everyone else) may grant a waiver of the Policy on Exceptional Circumstances grounds (severe financial hardship, court order or law, or other circumstances accepted as exceptional, exercised sparingly). Decisions are final and binding, may be given or withheld without reasons, and may be withdrawn if new information or a change of circumstances arises.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "collars named in the derivative definition",
+   "clause": "Derivative includes: derivatives within the meaning of section 761D of the Act, such as options, forward contracts, swaps, futures, warrants and caps and/or collars.",
+   "why_it_matters": "The policy expressly contemplates collars as a recognised instrument and, over vested unlocked shares, permits them, so the derivative legs are squarely within the permitted category rather than an unaddressed structure."
+  },
+  {
+   "topic": "collateral is a dealing, not a prohibition",
+   "clause": "Deal or Dealing includes ... the use of Securities as collateral or security over Securities (including a Margin Lending Arrangement).",
+   "why_it_matters": "The secured loan leg is permitted but must itself be timed inside a Trading Window and, for a Key Designated Person, covered by a notice of 'no objection'; the pledge and the option legs should be cleared together."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "An involuntary disposal of Securities that is the result of a secured lender exercising its rights, for example under a Margin Lending Arrangement (provided that this Policy was complied with ... in relation to entry into the relevant secured lending arrangement), is an Exempt Dealing.",
+   "why_it_matters": "The bank may enforce its security or close out the collar in a Prohibited Period without putting the executive in breach, provided the facility was properly cleared at inception - a materially better enforcement position than most ASX policies."
+  },
+  {
+   "topic": "holding lock equals unvested",
+   "clause": "any Cochlear Security (including where applicable any Plan Award) that is issued subject to a holding lock shall (notwithstanding any vesting) be subject to the same restrictions under this Section 4.5 as unvested Cochlear Securities, until the holding lock is released.",
+   "why_it_matters": "Only vested shares free of any holding lock may be collared, so the bank must diligence the lock status of each parcel and not merely its vesting."
+  },
+  {
+   "topic": "no objection expires with the window",
+   "clause": "Where a notice of \"no objection\" is given, the Key Designated Person must execute the proposed Dealing before the end of the Trading Window during which the notice of \"no objection\" was given.",
+   "why_it_matters": "Pricing, documentation and settlement of the collar and the loan must all complete inside a 30 day window that the Company Secretary can terminate early at any time."
+  },
+  {
+   "topic": "clearance withdrawal",
+   "clause": "Cochlear may by notice in writing to a Designated Person withdraw a notice of \"no objection\" or waiver of this Policy if, subsequent to the grant, new information becomes available or there is a change in circumstances. Upon withdrawal ... the relevant Designated Person must not carry out any Dealings ... that remain unexecuted at the time.",
+   "why_it_matters": "The bank should treat clearance as revocable up to execution and avoid staged or delayed closings that could be caught by a withdrawal."
+  },
+  {
+   "topic": "early window termination",
+   "clause": "The Company Secretary may end a Trading Window immediately by notice in writing to Designated Persons.",
+   "why_it_matters": "Unwinds, rolls, resets and top-ups of the collar can be blocked without warning, so the documentation should allow cash settlement or lender-side action that falls within the secured lender exemption."
+  },
+  {
+   "topic": "unvested hedging ban extends to associates",
+   "clause": "A Designated Person must not enter (and must procure that none of his or her Associates enter) into an arrangement (with anyone) if the arrangement would have the effect of limiting the exposure of the Designated Person to risk relating to an element of the Designated Person's remuneration (including any Plan Award) that has not vested.",
+   "why_it_matters": "The structure cannot be routed through a spouse, controlled company or family trust to hedge unvested awards, and the 'with anyone' wording captures OTC arrangements with a bank."
+  },
+  {
+   "topic": "disclosure of derivative and financing positions",
+   "clause": "Directors of Cochlear must disclose to Cochlear any Derivatives position relating to Cochlear Securities. If requested by Cochlear, a Designated Person must disclose to Cochlear details of their current Derivatives positions [and] Margin Lending Arrangements relating to Cochlear Securities.",
+   "why_it_matters": "Both the collar and the secured loan are disclosable to the company and potentially to the ASX, so confidentiality of the trade terms cannot be assured."
+  },
+  {
+   "topic": "short selling and stock lending bans",
+   "clause": "Cochlear Personnel must not engage in short selling or stock lending activities in relation to Cochlear Securities.",
+   "why_it_matters": "The executive must deliver or pledge shares they own outright and cannot lend stock to the bank to support its hedge, so the bank must hedge its own delta in the market."
+  }
+ ],
+ "summary": "A funded collar is workable at Cochlear and this is one of the more permissive ASX policies for the structure. Section 4.5 expressly permits the use of Derivatives, a term defined to include caps and collars, in relation to vested Cochlear Securities, and the Dealing definition treats the use of securities as collateral and entry into a Margin Lending Arrangement as permitted Dealings rather than prohibited acts, so both the option legs and the secured loan are available. The conditions are that the shares are vested and free of any holding lock (holding-locked shares are treated as unvested and cannot be hedged), that the whole transaction is executed within a Trading Window - the 30 days after half or full year results or after the AGM - and that a Key Designated Person, which includes every director and Band 1 executive, first obtains a written notice of 'no objection' from the Relevant Officer, who responds within about 48 hours, can refuse without reasons and can withdraw the notice before execution. Enforcement risk is unusually well handled: an involuntary disposal by a secured lender exercising its rights is an Exempt Dealing provided the Policy was complied with when the facility was entered into, so a margin call or close-out in a Prohibited Period does not breach the Policy. The main constraints are timing (the Company Secretary may end a Trading Window without notice, and the no objection notice lapses at the end of the window), the short selling and stock lending bans, and mandatory disclosure of derivative and margin lending positions to Cochlear and potentially to the ASX."
+}

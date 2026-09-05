@@ -1,0 +1,396 @@
+{
+ "symbol": "ARG",
+ "company": "Argo Investments Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "13 December 2024",
+ "date_lodged": "13 December 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "all_staff",
+   "description": "Non-executive Directors, the Managing Director, executives and employees. All substantive rules apply to this single tier: prohibited periods, prior email approval to trade in Argo securities, the ban on hedging unvested securities, the notification requirement for loan collateral arrangements and immediate post-trade reporting.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Non-executive Directors",
+   "kind": "director",
+   "description": "Non-executive Directors. Distinguished only in respect of trading in Other Securities (non-Argo listed securities), where they need no prior consent unless they believe there may be a conflict with Argo's securities orders; all Argo securities rules apply to them as Designated Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "employees",
+   "kind": "all_staff",
+   "description": "Employees, including executives. Distinguished only in respect of Other Securities, for which they must obtain prior email approval from the Managing Director, Senior Investment Officer and Company Secretary group. They must verify compliance with the Policy annually.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Connected Persons",
+   "kind": "associate",
+   "description": "Close family members of Designated Persons such as a spouse, minor children and any family company or trust that the Designated Person controls or has an interest in. Designated Persons must take all reasonable steps to ensure they also comply with the Policy.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "a transaction or arrangement to limit the economic risk of their Argo security holding",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "close of business on the last business day of the Company's half financial year",
+   "end_anchor": "and including the day the half year results are announced to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Persons"
+   ],
+   "start_anchor": "close of business on the last business day of the Company's full financial year",
+   "end_anchor": "and including the day the full year results are announced to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may from time to time impose additional prohibited periods, for example when it is considering matters within the ASX Listing Rule 3.1A exceptions such as incomplete confidential negotiations, or when it has orders in the market for its own securities under an on-market buy-back or an employee incentive scheme. The Company Secretary advises Designated Persons when an additional prohibited period is imposed; the Policy does not state that the fact or reason is confidential. The Company Secretary will also notify Directors by email if the Company becomes unable to trade in another company's securities.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2 (Trade or trading); 6; 7",
+   "detail": "Trading expressly extends to options and other derivatives over securities and to agreements to do so, and section 6 requires anyone entering a transaction or arrangement to limit the economic risk of their Argo holding to obtain approval in the same way as for a direct trade. So a put and call over vested Argo shares needs email approval from the Chairman, Managing Director and Company Secretary group, must fall outside prohibited periods and must be reported immediately after execution. No venue limitation, so an OTC structure is covered.",
+   "evidence": "Trade or trading includes not only buying or selling securities, but also extends to subscribing for new securities, trading in options or other derivatives over securities, and includes entering an agreement to do any of these things."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "A derivative that hedges unvested Argo securities, such as performance rights under the executive incentive share scheme, is prohibited outright with no approval route.",
+   "evidence": "The Company prohibits hedging of unvested Argo securities, such as performance rights awarded under an executive incentive share scheme."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3; 6",
+   "detail": "One of the three headline prohibitions in the Policy. No approval, hardship or exceptional circumstances route is offered for hedging unvested securities.",
+   "evidence": "Designated Persons must not enter hedging arrangements in relation to unvested Argo securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 7",
+   "detail": "Hedging of vested holdings is permitted, expressly on the same approval footing as a direct trade in the underlying: prior email approval from the approval group (any one member may grant it), valid five trading days unless withdrawn, outside prohibited periods, with immediate post-trade reporting to the Company Secretary.",
+   "evidence": "Designated Persons seeking to enter a transaction or arrangement to limit the economic risk of their Argo security holding must obtain approval in the same way as if they traded in the underlying securities directly."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6; 2 (Trade or trading)",
+   "detail": "Monetisation is not named. A prepaid forward, collar-plus-loan or similar structure is a transaction or arrangement to limit the economic risk of the holding and is also trading in a derivative or an agreement to sell, so it requires the same approval as a direct trade; if it involves Argo securities as collateral, the separate section 6 loan notification also applies.",
+   "evidence": "Designated Persons seeking to enter a transaction or arrangement to limit the economic risk of their Argo security holding must obtain approval in the same way as if they traded in the underlying securities directly."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is nowhere mentioned in the Policy and there is no speculative trading prohibition; a short sale would simply be a trade requiring approval and falling outside prohibited periods.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned and is not within the definition of Trade or trading; the exclusion for transactions where the beneficial interest does not change would arguably cover it.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2 (Trade or trading)",
+   "detail": "CFDs are not named but are derivatives over securities and so within the definition of trading, requiring prior email approval and observance of prohibited periods; if used to limit economic risk of an Argo holding the section 6 hedging rule also applies, and over unvested securities it would be prohibited.",
+   "evidence": "trading in options or other derivatives over securities, and includes entering an agreement to do any of these things."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6 (Security for loan facility)",
+   "detail": "Margin lending is not named as such, but the Policy regulates any arrangement under which Argo securities are held as collateral for a loan facility. It is not prohibited and no approval is required: the Designated Person must notify by email the approval group of the Chairman, Chair of the Audit & Risk Committee, Managing Director and Company Secretary so the Board can assess materiality and, if required, disclose key terms to the market.",
+   "evidence": "If a Designated Person wishes to enter an arrangement where Argo securities are held as collateral for a loan facility, they must notify by email the approval group comprising the Chairman, Chair of the Audit & Risk Committee, Managing Director and Company Secretary"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6 (Security for loan facility)",
+   "detail": "Granting security over Argo securities is not within the definition of trading and is not prohibited; the only requirement is prior email notification to the four-member approval group, with possible market disclosure of the key terms. The Policy does not state that the notification must precede the grant beyond the words 'wishes to enter'.",
+   "evidence": "in order that the Board can ascertain whether the arrangement is material, and if required, the Company will disclose the key terms of the arrangement to the market pursuant to the ASX continuous disclosure requirements."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6 (Security for loan facility); 10",
+   "detail": "Any loan facility collateralised by Argo securities is permitted on notification, with no approval requirement, no security-state limitation and no prohibition. The Policy also contemplates enforcement: a disposal of securities by a secured lender under a loan agreement secured by Argo securities is excluded from the Policy altogether, so a forced sale in a prohibited period is not a breach.",
+   "evidence": "Disposal of securities by a secured lender under a loan agreement secured by Argo securities or by the securities of other companies"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "There is no minimum holding period, no short-term trading ban and no speculative trading prohibition anywhere in the Policy; the only timing constraints are the prohibited periods and the five trading day validity of an approval.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "the approval group comprising the Chairman, Managing Director and Company Secretary; requests must be emailed to the entire group and any one of them may grant approval. For exceptional circumstances requests the group also includes the Chair of the Audit & Risk Committee.",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "immediately",
+   "section": "7; 8",
+   "evidence": "Approvals to trade will remain valid for five trading days unless withdrawn during that period. Any trades resulting from approval must be immediately reported by the Designated Person to the Company Secretary."
+  },
+  {
+   "tier": "Non-executive Directors",
+   "type": "approval",
+   "approver": "for Argo securities, the Chairman, Managing Director and Company Secretary approval group; for Other Securities, no prior consent is required unless a potential conflict with Argo's orders is suspected, in which case the Managing Director, Senior Investment Officer or Company Secretary must be contacted",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "immediately",
+   "section": "7; 9",
+   "evidence": "As Non-executive Directors are not involved in day-to-day portfolio investment decisions, they are not required to seek consent prior to undertaking personal trading in Other Securities unless they believe there may be a potential conflict with Argo's securities orders"
+  },
+  {
+   "tier": "employees",
+   "type": "approval",
+   "approver": "for Argo securities, the Chairman, Managing Director and Company Secretary approval group; for Other Securities, the approval group comprising the Managing Director, Senior Investment Officer and Company Secretary, any one of whom may grant approval",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "immediately",
+   "section": "7; 9",
+   "evidence": "Prior to trading in Other Securities, employees must request and receive approval by email from the approval group comprising the Managing Director, Senior Investment Officer and Company Secretary."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": ""
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "approval group comprising the Chairman, Chair of Audit & Risk Committee, Managing Director and Company Secretary",
+   "evidence": "A Designated Person (who is not in possession of Inside Information) may request and be given clearance to sell (but not purchase) Argo securities in circumstances otherwise prohibited by this Policy, if they are in Severe Financial Difficulty or other exceptional circumstances apply."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "approval group comprising the Chairman, Chair of Audit & Risk Committee, Managing Director and Company Secretary",
+   "evidence": "A circumstance will be considered exceptional if the Designated Person is required by a court order to transfer or sell Argo securities, or there is some other overriding legal requirement for them to do so."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "Disposal of securities by a secured lender under a loan agreement secured by Argo securities or by the securities of other companies"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Transactions where the beneficial interest in the relevant securities does not change"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An investment in, or trading in units of, a fund, scheme or other arrangement where the assets of the fund or scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "The acceptance of a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "Board approval of the plan that determines the timing and structure of the offer",
+   "evidence": "Accepting an offer or invitation made to all or some of the security holders, such as a rights issue, a share purchase plan, a dividend reinvestment plan, an equal access share buy-back or an employee share plan, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Vesting and exercise of an option or right as a result of meeting performance hurdles under a Company executive incentive share scheme (but not the sale of shares following the exercise of the option or right)"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Transactions conducted between a Designated Person and their spouse, civil partner, child, step-child, or other close family member"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Designated Persons; on wishing to enter an arrangement where Argo securities are held as collateral for a loan facility; by email to the approval group comprising the Chairman, Chair of the Audit & Risk Committee, Managing Director and Company Secretary; before entering the arrangement (s6)",
+   "Designated Persons; where the Board assesses the collateral arrangement as material; publicly to the market, key terms disclosed by the Company; as required by ASX continuous disclosure (s6)",
+   "Designated Persons; after any approved trade, including an approved hedge; to the Company Secretary; immediately (s7, s8)"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Argo executive incentive share scheme"
+ ],
+ "exemption_authority": "Section 8: the approval group of the Chairman, Chair of the Audit & Risk Committee, Managing Director and Company Secretary may clear a Designated Person who holds no Inside Information to sell (but not purchase) Argo securities in circumstances otherwise prohibited, on grounds of Severe Financial Difficulty or other exceptional circumstances, with particulars supplied; the Company may have to notify the existence of exceptional circumstances to the ASX. There is no exemption power over the ban on hedging unvested securities.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "loan collateral is notification only",
+   "clause": "If a Designated Person wishes to enter an arrangement where Argo securities are held as collateral for a loan facility, they must notify by email the approval group comprising the Chairman, Chair of the Audit & Risk Committee, Managing Director and Company Secretary.",
+   "why_it_matters": "The loan leg of a funded collar needs only notification, not consent, which is materially easier than the approval regimes in most ASX policies."
+  },
+  {
+   "topic": "market disclosure of loan terms",
+   "clause": "in order that the Board can ascertain whether the arrangement is material, and if required, the Company will disclose the key terms of the arrangement to the market pursuant to the ASX continuous disclosure requirements.",
+   "why_it_matters": "The key commercial terms of the facility, potentially including LVR and trigger levels, may be published to the market, so confidentiality cannot be assured to the borrower or the bank."
+  },
+  {
+   "topic": "lender enforcement excluded",
+   "clause": "This Policy does not apply to Designated Persons in the following circumstances: ... Disposal of securities by a secured lender under a loan agreement secured by Argo securities or by the securities of other companies",
+   "why_it_matters": "An enforcement or margin call sale by the bank is outside the Policy entirely, so it can occur in a prohibited period without breach and needs no clearance."
+  },
+  {
+   "topic": "hedging approval mirrors underlying trade",
+   "clause": "Designated Persons seeking to enter a transaction or arrangement to limit the economic risk of their Argo security holding must obtain approval in the same way as if they traded in the underlying securities directly.",
+   "why_it_matters": "The derivative legs need email approval from the Chairman, Managing Director and Company Secretary group and must be executed within five trading days and outside prohibited periods."
+  },
+  {
+   "topic": "unvested hedging ban",
+   "clause": "The Company prohibits hedging of unvested Argo securities, such as performance rights awarded under an executive incentive share scheme.",
+   "why_it_matters": "Only vested holdings may be collared, and unvested performance rights cannot be counted towards the collared parcel."
+  },
+  {
+   "topic": "any group member may approve",
+   "clause": "All approval requests are to be emailed to the entire approval group, with any one of the group able to grant approval.",
+   "why_it_matters": "Clearance is administratively quick, but approval can also be withdrawn within the five trading day window, creating execution risk before pricing."
+  },
+  {
+   "topic": "buy-back and incentive scheme blackouts",
+   "clause": "The Company may from time to time impose additional periods when trading is prohibited, such as ... If it has orders in the market for its own securities due to the activation of an on-market share buy-back or pursuant to any of the Company's employee incentive schemes.",
+   "why_it_matters": "As an LIC that regularly buys back its own shares, Argo can impose additional prohibited periods at short notice, so collar entry, roll and physical settlement dates need flexibility."
+  },
+  {
+   "topic": "closely connected persons",
+   "clause": "Designated Persons must take all reasonable steps to ensure that their Closely Connected Persons also comply with this Policy.",
+   "why_it_matters": "A collar or facility booked through a family trust or controlled company is subject to the same approval and notification obligations."
+  },
+  {
+   "topic": "exceptional circumstances relief is sale only",
+   "clause": "may request and be given clearance to sell (but not purchase) Argo securities in circumstances otherwise prohibited by this Policy",
+   "why_it_matters": "During a prohibited period the executive can be cleared to sell but not to buy, so a collar unwind requiring a repurchase leg or a cash-settled buy-back of the put cannot rely on hardship relief."
+  }
+ ],
+ "summary": "A funded collar is workable for an Argo Designated Person over vested shares and this is one of the more permissive policies for the financing leg. The put and call are trading in derivatives over securities and, as an arrangement limiting the economic risk of the holding, need the same approval as a direct trade: an email request to the Chairman, Managing Director and Company Secretary, any one of whom may approve, valid for five trading days unless withdrawn, executed outside the two annual results blackouts and any additional prohibited period, with immediate post-trade report to the Company Secretary. The loan secured on the collared shares is not prohibited and requires only email notification to a four-member group including the Chair of the Audit & Risk Committee, though the Board may treat it as material and disclose its key terms to the market. Enforcement is protected: a disposal by a secured lender under a loan agreement secured by Argo securities is excluded from the Policy entirely, so a margin call or default sale in a prohibited period is not a breach and needs no clearance. The only hard prohibition is hedging unvested Argo securities such as unvested performance rights, so the collared parcel must be limited to vested holdings."
+}

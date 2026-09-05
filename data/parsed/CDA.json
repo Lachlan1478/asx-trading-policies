@@ -1,0 +1,461 @@
+{
+ "symbol": "CDA",
+ "company": "Codan Limited",
+ "title": "Share Trading Policy (Amended)",
+ "date_approved": "Approved by the Board; reviewed regularly, no fixed cycle stated",
+ "date_effective": "20 May 2015",
+ "date_lodged": "21 May 2015",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "designated officers",
+   "kind": "kmp",
+   "description": "Directors, officers and executives of Codan Limited (and any family member or associate over whom they have influence). Only this tier must obtain prior written approval before dealing, under the section 11 protocol.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "senior managers",
+   "kind": "restricted",
+   "description": "Employees designated as senior managers and other employees who are likely to receive price-sensitive information in the course of their jobs. Bound by the blackout periods, the speculative dealing ban and the hedging ban, and must obtain prior approval before granting a lender rights over their Codan securities, but are not designated officers and so need no general pre-clearance to deal.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Codan employees",
+   "kind": "all_staff",
+   "description": "All employees of Codan Limited and its subsidiaries. Subject to the insider trading law and, under section 7, to the prohibition on hedging unvested options or performance rights and vested securities that remain subject to a trading restriction.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "closely-related parties",
+   "kind": "associate",
+   "description": "Immediate family members and associates (including companies and trusts) over whom the director, officer, executive or senior manager has influence. Expressly named alongside the principal in the blackout, speculative dealing, hedging, lender-rights approval and exceptional circumstances provisions.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions which would have the effect of limiting their exposure to risk relating to an unvested option or performance rights, or to a vested security which remains subject to a trading restriction",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "designated officers",
+    "senior managers",
+    "closely-related parties"
+   ],
+   "start_anchor": "1 January",
+   "end_anchor": "close of trading on the next ASX trading day after the half-year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "designated officers",
+    "senior managers",
+    "closely-related parties"
+   ],
+   "start_anchor": "1 July",
+   "end_anchor": "close of trading on the next ASX trading day after the full-year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "designated officers",
+    "senior managers",
+    "closely-related parties"
+   ],
+   "start_anchor": "commencement of any additional blackout period imposed by the Codan Board from time to time",
+   "end_anchor": "as determined by the Codan Board",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Codan Board may impose additional blackout periods from time to time. The fact that a blackout period is in place is to be treated as confidential information, although the Company's intranet provides daily information on whether or not a blackout period is in place.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "designated officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "11; 18.1; 18.2",
+   "detail": "There is no express derivatives rule. Derivatives are within the definition of Securities, and Dealing covers acquiring them and making or offering to make an agreement with respect to acquiring or disposing of Securities or whose purpose is to secure a profit or gain in relation to the Securities. A designated officer therefore needs prior written approval under the section 11 protocol and cannot transact during a blackout period.",
+   "evidence": "\"Securities\" include shares of any class, notes, options, bonds, derivatives, ADRs, managed investments and superannuation products and any other financial product able to be traded on a financial market."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "senior managers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "10; 11",
+   "detail": "Senior managers are bound by the blackout periods but are not designated officers, so no prior written approval is required for a derivative over vested unrestricted securities outside a blackout period.",
+   "evidence": "the following persons are considered to be designated officers: Directors, officers and executives of Codan Limited (and any family member or associate over whom they have influence)."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Codan employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Any transaction, including a derivative, that limits exposure to risk relating to an unvested option or performance right is prohibited for all Codan employees and their closely-related parties.",
+   "evidence": "Codan employees and closely-related parties are prohibited from entering into transactions which would have the effect of limiting their exposure to risk relating to an unvested option or performance rights, or to a vested security which remains subject to a trading restriction."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Codan employees",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "The section 7 ban extends beyond unvested awards to any vested security that remains subject to a trading restriction, so shares released from performance conditions but still restricted cannot be collared.",
+   "evidence": "or to a vested security which remains subject to a trading restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Codan employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Express hedging prohibition covering unvested options and performance rights, applying to all Codan employees and their closely-related parties with no approval or exemption route.",
+   "evidence": "Codan employees and closely-related parties are prohibited from entering into transactions which would have the effect of limiting their exposure to risk relating to an unvested option or performance rights"
+  },
+  {
+   "topic": "hedging",
+   "tier": "designated officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 11",
+   "detail": "The section 7 hedging ban is confined to unvested options and performance rights and to vested securities still subject to a trading restriction, so hedging a vested unrestricted holding is not prohibited. As a Dealing it requires prior written approval under section 11 and must occur outside a blackout period.",
+   "evidence": "prohibited from entering into transactions which would have the effect of limiting their exposure to risk relating to an unvested option or performance rights, or to a vested security which remains subject to a trading restriction."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "designated officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "18.2; 11",
+   "detail": "Monetisation is not named. The second limb of the Dealing definition catches any agreement whose purpose is to secure a profit or gain to a party in relation to the Securities, so a prepaid forward, collar or similar monetisation is a Dealing needing prior written approval, valid for five business days, outside a blackout period.",
+   "evidence": "make or offer to make, or induce or attempt to induce a person to make or to offer to make, an agreement ... the purpose or purported purpose of which is to secure a profit or gain to a person who acquires, disposes of, subscribes for or underwrites the Securities or to any of the parties to the agreement in relation to the Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy. The nearest provision is the section 6 ban on short-term or speculative trading, which is framed as an intention test at the time of purchase.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and is not within the Dealing definition, which is limited to acquiring, disposing of, subscribing for or underwriting Securities and agreements with respect to those acts or to securing a profit or gain.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "designated officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "18.1; 18.2; 6",
+   "detail": "CFDs are not named but are derivatives and so Securities; acquiring one is a Dealing requiring prior written approval for designated officers. A CFD would in practice contravene the section 6 ban on short-term or speculative trading.",
+   "evidence": "Under no circumstances should Company directors, officers, executives, senior managers or closely-related parties engage in short-term or speculative trading in the Company's securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "designated officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "Margin lending is expressly contemplated and permitted, subject to prior approval via the Chief Financial Officer and Company Secretary before entering into the arrangement. A disposal resulting from the secured lender exercising its rights is then outside the Policy.",
+   "evidence": "where a disposal of securities of the Company occurs as a result of a secured lender exercising their rights, for example under a margin lending arrangement (please note that prior approval must be obtained, via the Chief Financial Officer and Company Secretary, before entering into an agreement which provides a lender with rights over a director's, officer's, executive's, senior manager's or closely-related party's interests in the Company's securities)"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "designated officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "Granting a lender rights over an interest in Codan securities is permitted with prior approval via the Chief Financial Officer and Company Secretary. The requirement is drafted broadly as any agreement providing a lender with rights over securities interests, not only a margin loan, and extends to senior managers and closely-related parties.",
+   "evidence": "prior approval must be obtained, via the Chief Financial Officer and Company Secretary, before entering into an agreement which provides a lender with rights over a director's, officer's, executive's, senior manager's or closely-related party's interests in the Company's securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "senior managers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "The lender-rights approval requirement expressly names senior managers as well as directors, officers, executives and closely-related parties, so the approval gate applies even though senior managers need no general dealing approval.",
+   "evidence": "before entering into an agreement which provides a lender with rights over a director's, officer's, executive's, senior manager's or closely-related party's interests in the Company's securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "designated officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "There is no ban on secured financing. Any agreement giving a lender rights over Codan securities requires prior approval via the Chief Financial Officer and Company Secretary, and once approved the lender's enforcement disposal falls outside the Policy, including during a blackout period.",
+   "evidence": "please note that prior approval must be obtained, via the Chief Financial Officer and Company Secretary, before entering into an agreement which provides a lender with rights over a director's ... interests in the Company's securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Codan employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The policy does not address whether unvested options, performance rights or restricted securities may be given as collateral; section 7 bans only transactions limiting exposure to risk on those holdings.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Directors, officers, executives, senior managers and closely-related parties must not engage in short-term or speculative trading. The guiding principle is an intention test: at the time of purchase the person should not intend to resell within 12 months with the aim of realising a capital gain. No carve-outs are stated and no approval route is offered.",
+   "evidence": "Under no circumstances should Company directors, officers, executives, senior managers or closely-related parties engage in short-term or speculative trading in the Company's securities. Whilst it is impractical to provide a precise definition of what is short-term or speculative trading, the guiding principle should be that at the time of purchase the person should not intend to resell the securities within 12 months with the aim of realising a capital gain."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "designated officers",
+   "type": "approval",
+   "approver": "For the Chairman: the Chairman of the Board Audit, Risk & Compliance Committee (or in his absence any other member of that Committee). For a Director or the Company Secretary: the Chairman of the Board (or in his absence the Chairman of the Board Audit, Risk & Compliance Committee). For an Executive: the Chief Executive Officer (or in his absence the Company Secretary). For an agreement giving a lender rights over securities: the Chief Financial Officer and Company Secretary.",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "The Company (directors must notify the Company of any trading in the Company's securities, and notify the market of a substantial shareholding above five per cent or any change in it)",
+   "post_trade_deadline": "unspecified",
+   "section": "4; 11; 12",
+   "evidence": "Any designated officer who proposes dealing in Company securities must, before the dealing occurs, obtain approval in writing in accordance with the following protocol ... Unless otherwise stated, an approval to undertake the proposed dealing will be valid for five business days."
+  },
+  {
+   "tier": "senior managers",
+   "type": "none",
+   "approver": "Chief Financial Officer and Company Secretary, but only for an agreement giving a lender rights over the person's interests in Company securities and for exceptional circumstances clearance",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "11; 12; 13",
+   "evidence": "For the purposes of this Policy, the following persons are considered to be designated officers: Directors, officers and executives of Codan Limited (and any family member or associate over whom they have influence)."
+  },
+  {
+   "tier": "Codan employees",
+   "type": "not_addressed",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4",
+   "evidence": "Every Company employee has an individual responsibility to ensure that he or she complies with the law relating to insider trading and with this Policy."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "intention",
+   "months": 12,
+   "basis": "from purchase; intention at the time of purchase not to resell within 12 months with the aim of realising a capital gain",
+   "carve_outs": [],
+   "evidence": "the guiding principle should be that at the time of purchase the person should not intend to resell the securities within 12 months with the aim of realising a capital gain."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where the trading results in no change in beneficial interest in the securities, for example transfers of securities already held into a superannuation fund"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where trading occurs via investments in a fund or other scheme (other than a scheme only investing in the securities of the Company) where the investment decisions are exercised by a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where the director, officer, executive, senior manager or closely-related party has no control or influence with respect to trading decisions, for example where the director ... is a trustee of a trust which trades in the securities of the Company"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "Board (approval of the plan determining timing and structure of the offer)",
+   "evidence": "where the trading occurs under an offer to all or most of the security holders of the Company, for example during a takeover offer, or under an offer or invitation made to all or most of the security holders, such as a bonus issue, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "Chief Financial Officer and Company Secretary (prior approval of the lender-rights agreement)",
+   "evidence": "where a disposal of securities of the Company occurs as a result of a secured lender exercising their rights, for example under a margin lending arrangement (please note that prior approval must be obtained, via the Chief Financial Officer and Company Secretary, before entering into an agreement which provides a lender with rights over a director's, officer's, executive's, senior manager's or closely-related party's interests in the Company's securities)"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or a right, or the conversion of a convertible security, under an employee incentive scheme"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the acquisition of shares by a trustee company for the purpose of satisfying the Company's obligations upon the exercise of qualifying options or performance rights granted under an employee incentive scheme"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chief Financial Officer and Company Secretary, who may approve or in certain circumstances will seek approval from the Chief Executive Officer and/or the Board",
+   "evidence": "where the director, officer, executive, senior manager or closely-related party is in severe financial hardship, for example if he or she has a pressing financial commitment that cannot be satisfied otherwise than by selling the securities of the Company"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chief Financial Officer and Company Secretary, escalating to the Chief Executive Officer and/or the Board",
+   "evidence": "where the director, officer, executive, senior manager or closely-related party is required by a court order, or there are court enforceable undertakings, for example, in a bona fide family settlement, to transfer or sell the securities or there is some other overriding legal or regulatory requirement to do so."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors, officers, executives, senior managers and closely-related parties: prior approval via the Chief Financial Officer and Company Secretary at inception, before entering into any agreement providing a lender with rights over their interests in the Company's securities",
+   "Directors: must notify the Company of any trading in the Company's securities, and notify the market of a substantial shareholding (more than five per cent) or any change in that shareholding; no deadline stated"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Codan Employee Share Plan",
+  "Codan Performance Rights Plan",
+  "ASX Listing Rules 12.9 - 12.12",
+  "ASX Guidance Note 27"
+ ],
+ "exemption_authority": "In exceptional circumstances (severe financial hardship, or a court order, court enforceable undertaking or other overriding legal or regulatory requirement), a person not in possession of inside information may be given prior written clearance to sell or otherwise dispose of Company securities during a prohibited period. Approval is sought from the Chief Financial Officer and Company Secretary, who may approve or in certain circumstances will escalate to the Chief Executive Officer and/or the Board. The clearance, which may be given by email, must specify how many days are available for trading.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "lender rights need CFO and Company Secretary approval",
+   "clause": "prior approval must be obtained, via the Chief Financial Officer and Company Secretary, before entering into an agreement which provides a lender with rights over a director's, officer's, executive's, senior manager's or closely-related party's interests in the Company's securities",
+   "why_it_matters": "The security package for the loan leg is permitted but is gated by a specific approval from the CFO and Company Secretary that is separate from the ordinary section 11 dealing approval, and it is drafted broadly enough to catch any lender rights over the shares, not just a margin loan."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "where a disposal of securities of the Company occurs as a result of a secured lender exercising their rights, for example under a margin lending arrangement [the trading is not subject to this Policy]",
+   "why_it_matters": "Once the facility is approved, the bank can enforce its security or close out the collar even during a blackout period without the executive breaching the Policy."
+  },
+  {
+   "topic": "twelve month speculative trading ban",
+   "clause": "the guiding principle should be that at the time of purchase the person should not intend to resell the securities within 12 months with the aim of realising a capital gain.",
+   "why_it_matters": "This is an unusually long horizon; a collar with a tenor under twelve months, or one with early unwind triggers, risks being characterised as short-term or speculative trading, which is banned outright with no approval route."
+  },
+  {
+   "topic": "hedging ban reaches restricted vested shares",
+   "clause": "Codan employees and closely-related parties are prohibited from entering into transactions which would have the effect of limiting their exposure to risk relating to an unvested option or performance rights, or to a vested security which remains subject to a trading restriction.",
+   "why_it_matters": "Only fully vested shares free of any trading restriction can be collared, and the ban binds every employee and their closely-related parties with no approval or exceptional circumstances route."
+  },
+  {
+   "topic": "dealing catches profit-seeking agreements",
+   "clause": "\"Dealing\" means ... make or offer to make ... an agreement ... the purpose or purported purpose of which is to secure a profit or gain to a person who acquires, disposes of, subscribes for or underwrites the Securities or to any of the parties to the agreement in relation to the Securities.",
+   "why_it_matters": "This second limb sweeps an OTC collar and any associated monetisation agreement into the definition of Dealing, so a designated officer must obtain written approval before signing and cannot sign during a blackout period."
+  },
+  {
+   "topic": "confidential blackouts",
+   "clause": "The fact that a blackout period is in place should be treated as confidential information.",
+   "why_it_matters": "The executive may not be able to explain to the bank why signing, resetting or unwinding must be deferred, although the Company intranet reports daily whether a blackout is in place."
+  },
+  {
+   "topic": "five business day approval window",
+   "clause": "Unless otherwise stated, an approval to undertake the proposed dealing will be valid for five business days.",
+   "why_it_matters": "Pricing, documentation and execution of both the collar and the loan must be completed within five business days of approval unless a longer period is specified in the approval itself."
+  },
+  {
+   "topic": "senior managers are not designated officers",
+   "clause": "For the purposes of this Policy, the following persons are considered to be designated officers: Directors, officers and executives of Codan Limited (and any family member or associate over whom they have influence).",
+   "why_it_matters": "Senior managers face the blackout periods, the hedging ban and the lender-rights approval requirement but no general dealing pre-approval, so the clearance package differs by tier."
+  },
+  {
+   "topic": "director disclosure",
+   "clause": "the Company's directors must: notify the Company of any trading in the Company's securities; and notify the market of a substantial shareholding (more than five per cent) or any change(s) in that shareholding.",
+   "why_it_matters": "A director's collar and the associated pledge will be reportable to the Company and, for substantial holders, may require market disclosure of the change in interest."
+  }
+ ],
+ "summary": "A funded collar is feasible at Codan over fully vested shares that carry no trading restriction. The policy contains no ban on derivatives, monetisation or secured financing; the section 7 hedging prohibition bites only on unvested options and performance rights and on vested securities still subject to a trading restriction, so a collar over unrestricted vested shares is left to the general dealing regime. Two approvals are needed: the derivative and any associated dealing require prior written approval under the section 11 protocol (Board Chairman for directors, CEO for executives, Audit Risk & Compliance Committee Chairman for the Chairman), valid for five business days, and the security over the shares separately requires prior approval via the Chief Financial Officer and Company Secretary before entering into any agreement giving a lender rights over the securities. Enforcement risk is well covered, because a disposal resulting from a secured lender exercising its rights is expressly outside the Policy, so a close-out during a blackout does not breach it. The principal constraints are the blackout periods from 1 January and 1 July until the day after the half and full year results plus any confidential Board-imposed blackout, and the unusually long section 6 speculative dealing rule, which suggests a tenor of more than twelve months and no early-realisation intent."
+}

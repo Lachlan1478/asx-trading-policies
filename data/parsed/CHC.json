@@ -1,0 +1,464 @@
+{
+ "symbol": "CHC",
+ "company": "Charter Hall Group (Charter Hall Limited and Charter Hall Property Trust)",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "Reviewed as required but at least annually by the Group Company Secretary, and periodically by the Directors",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "A director of any of the Charter Hall Group entities. Subject to the Trading Windows, the hedging and margin loan prohibitions, consent from the respective Chair for every Dealing (the $20,000 no-consent exception does not apply to Directors), notification to the Company Secretary within two business days, and ASX disclosure within five business days of settlement.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "An employee of Charter Hall, and contractors required to comply with Charter Hall's policies and procedures (for example long-term temporary staff). Subject to the same substantive prohibitions; consent comes from the Managing Director & Group CEO, and is not required for a single transaction not exceeding $20,000 provided the trade is notified in Resolver.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The chairperson of Charter Hall Limited and each of the named responsible entities, or in his or her absence their Deputy. Obtains consent to Deal from their fellow Independent Directors.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Family members",
+   "kind": "associate",
+   "description": "Spouse, de-facto spouse, children, siblings, parents and those who live in the same dwelling. The insider trading prohibition expressly extends to Dealings through nominees, agents, family members, a company or a trust.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any type of transaction or arrangement that would hedge the exposure to movements in the price of unvested Securities or those which remain subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Directors",
+    "Employees"
+   ],
+   "start_anchor": "the day after the announcement of the Charter Hall Group's half year results",
+   "end_anchor": "31 May (inclusive)",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Directors",
+    "Employees"
+   ],
+   "start_anchor": "the day after the announcement of the Charter Hall Group's annual results",
+   "end_anchor": "30 November (inclusive)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Directors",
+    "Employees"
+   ],
+   "start_anchor": "five business days prior to the announcement of the CLW / CQE March and September quarter distributions (and any listed Fund which has a quarterly distribution)",
+   "end_anchor": "the day of the announcement of that quarter distribution",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Directors",
+    "Employees"
+   ],
+   "start_anchor": "1 June (units in an unlisted retail fund)",
+   "end_anchor": "the business day after the striking of the 30 June unit price",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Directors",
+    "Employees"
+   ],
+   "start_anchor": "1 December (units in an unlisted retail fund)",
+   "end_anchor": "the business day after the striking of the 31 December unit price",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Charter Hall may declare additional trading windows or trading blackouts in Securities at any time at its absolute discretion and without prior notice if considered necessary. Trading Windows otherwise operate automatically, and the Group Company Secretary notifies Directors and Employees by email when a Trading Window starts or closes. Consent may also be refused, without reasons, when management accounts are available at a time other than during a Trading Window.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4; 3.7.1",
+   "detail": "Directional asymmetry is the key feature: a derivative position over vested securities, or securities held outside an incentive scheme, may only be bought, only during a Trading Window and only with the Chair's consent, while selling (writing) a derivative position is prohibited outright. A purchased put is therefore available; the written call leg of a collar is not. OTC instruments are squarely within the definition of Securities, which covers swaps, contracts for differences, options and other derivatives over or related to the performance of Charter Hall securities, and interests created over those securities by third parties.",
+   "evidence": "In relation to vested Securities (held within a Group employee incentive scheme) or Securities held outside such a scheme: 1. you can only buy a derivative position during a trading window, and 2. you cannot sell a derivative position."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4; 3.7.1; 3.8",
+   "detail": "Same buy-only rule for exchange-traded options and warrants, which are within the definition of Securities. An Employee needs the Managing Director & Group CEO's consent unless the transaction is a single Dealing not exceeding $20,000, and every trade must be raised in Resolver regardless.",
+   "evidence": "you can only buy a derivative position during a trading window, and 2. you cannot sell a derivative position."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "Any transaction or arrangement hedging exposure to the price of unvested Securities, or Securities subject to a holding lock, is banned outright; no consent, window or special circumstances route is available.",
+   "evidence": "You cannot enter, or seek to enter any type of transaction or arrangement that would hedge the exposure to movements in the price of unvested Securities or those which remain subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "Absolute ban on hedging unvested Securities, expressed to catch even seeking to enter such an arrangement. Applies equally to Directors and Employees and to Dealings through nominees, family members, companies or trusts.",
+   "evidence": "Hedging of Securities is not allowed. You cannot enter, or seek to enter any type of transaction or arrangement that would hedge the exposure to movements in the price of unvested Securities or those which remain subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "Securities that remain subject to a holding lock are treated exactly like unvested Securities, so vested but locked incentive securities cannot be hedged or collared until the lock is released.",
+   "evidence": "any type of transaction or arrangement that would hedge the exposure to movements in the price of unvested Securities or those which remain subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4; 3.7.1",
+   "detail": "Hedging vested Securities and Securities held outside an incentive scheme is permitted only within three constraints: the position may only be bought and never sold, it may only be bought during a Trading Window (with consent from the respective Chair for Directors or the Managing Director & Group CEO for Employees), and the arrangement must remain in the holder's own control rather than a third party's. A protective put therefore qualifies; a collar, which requires writing a call and typically places control of settlement and enforcement with the bank, does not.",
+   "evidence": "The only hedging arrangements allowed is when they are in your control, rather than the control of any third party. In taking out such approved positions, you must adhere to this Policy at all times."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2.4; 2.5",
+   "detail": "Monetisation is not named. Every mechanism by which it is achieved is blocked: a collar or prepaid forward requires selling a derivative position, which is prohibited; a share-backed facility is a margin loan arrangement in respect of Securities, which is prohibited; and the hedge would be in the control of a third party rather than the holder.",
+   "evidence": "you cannot sell a derivative position. The only hedging arrangements allowed is when they are in your control, rather than the control of any third party."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1; 2.3; 2.4",
+   "detail": "Short selling of the stapled securities is not named. A synthetic short is expressly caught because it requires selling a derivative position. An outright physical short would also be inconsistent with the stated purpose of encouraging long term holding and with the four-week rule against selling recently acquired Securities, but the policy contains no express prohibition.",
+   "evidence": "you cannot sell a derivative position."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending or borrowing is nowhere mentioned, and the Dealing definition (buying and selling, exercising or executing financial instruments, agreeing to buy or sell, procuring, communicating) does not capture a stock loan unless it involves a sale.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Glossary (Securities); 2.4",
+   "detail": "Contracts for differences are expressly listed as Securities, so they are governed by the derivative position rule: a long CFD may be bought during a Trading Window with consent, while a short CFD is a sold derivative position and is prohibited. A CFD closed out within four weeks would also breach the short-term trading rule.",
+   "evidence": "Securities: Stapled securities, shares, quoted (i.e. listed) units, debt securities and other financial instruments, issued by Charter Hall or any interest created over those securities by third parties, structured financial products, swaps, future contracts, contracts for differences, options, warrants, depositary receipts or other derivatives over or related to the performance of those securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.5",
+   "detail": "Outright ban on entering, or seeking to enter, any type of margin loan arrangement in respect of Securities, whether the Securities stand alone or form part of a wider investment portfolio. No consent, hardship or special circumstances route is offered, and the ban is not limited by vesting state or tier.",
+   "evidence": "You are not allowed to enter into, or seek to enter into, any type of margin loan arrangement in respect of Securities, whether on a stand-alone basis or as part of an investment portfolio."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge, lien or pledge over Charter Hall Securities is not mentioned and is not within the Dealing definition. It is regulated only indirectly: if the security supports a margin loan arrangement it is prohibited by 2.5, and a third party holding enforcement rights over the securities would take the hedge outside the holder's own control contrary to 2.4.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2.5",
+   "detail": "The policy names only margin loans, not secured financing generally. However the ban is drafted as 'any type of margin loan arrangement in respect of Securities', which on its natural reading captures a bank facility secured on Charter Hall Securities with loan-to-value maintenance, the structure used to fund a collar. A fixed-term facility secured on the securities with no margining is not expressly addressed, but would still require the holder to cede control of the hedged securities to a third party contrary to 2.4.",
+   "evidence": "You are not allowed to enter into, or seek to enter into, any type of margin loan arrangement in respect of Securities, whether on a stand-alone basis or as part of an investment portfolio."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.3; 3.8",
+   "detail": "Selling Securities within four weeks of the date of acquisition is prohibited, subject only to the Employee Security Plans carve-out. Separately, Employees may not use the $20,000 no-consent concession to run up Dealings exceeding $20,000 within a 30-day period without consent; breaches are investigated by Risk and Compliance from the Resolver records.",
+   "evidence": "Short-term trading of Securities (i.e., selling Securities within a four-week period from the date of acquisition) is not allowed, except in the circumstances outlined under 'Employee Security Plans'."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "the respective Chair",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (who reports Director Dealings to the ASX where applicable); allotments under a DRP must also be notified",
+   "post_trade_deadline": "as soon as reasonably practicable and within at least two business days of the Dealing; ASX disclosure within five business days from the Dealing being settled or completed",
+   "section": "3.7.1; 3.7.2; 3.7.3",
+   "evidence": "Directors must advise the Company Secretary of all Dealings as soon as reasonably practicable and within at least two business days of the Dealing"
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "fellow Independent Directors",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as reasonably practicable and within at least two business days of the Dealing",
+   "section": "3.7.1",
+   "evidence": "3. for the Chair: from their fellow Independent Directors."
+  },
+  {
+   "tier": "Employees",
+   "type": "approval",
+   "approver": "Managing Director & Group CEO; no consent needed for a single transaction not exceeding $20,000, but a trading request must still be raised in Resolver",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Resolver (records reviewed by Risk and Compliance)",
+   "post_trade_deadline": "all proposed trades to be notified via Resolver; notification of intention to trade must be made first where the $20,000 exception is relied on",
+   "section": "3.7.1; 3.7.2; 3.8",
+   "evidence": "Once you have obtained consent, the proposed Dealing should be completed within 5 business day (otherwise you will need a new consent)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Directors",
+   "type": "holding_period",
+   "months": 1,
+   "basis": "four weeks from the date of acquisition; applies to sales only",
+   "carve_outs": [
+    "the circumstances outlined under 'Employee Security Plans'"
+   ],
+   "evidence": "Short-term trading of Securities (i.e., selling Securities within a four-week period from the date of acquisition) is not allowed, except in the circumstances outlined under 'Employee Security Plans'."
+  },
+  {
+   "tier": "Employees",
+   "type": "holding_period",
+   "months": 1,
+   "basis": "four weeks from the date of acquisition; separately, Dealings aggregating over $20,000 within a 30-day period require consent",
+   "carve_outs": [
+    "the circumstances outlined under 'Employee Security Plans'"
+   ],
+   "evidence": "Any Dealings which would result in you having Dealings over $20,000 within a 30-day period are not permitted without consent."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Directors and Employees invited to participate, may make applications for, and acquire, Securities pursuant to any employee security plan, irrespective of any Trading Window that may be in effect. There are no prior notifications or approvals required in this instance."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Any acquisitions of new Securities by virtue of the routine operation of the DRP do not require consent or notification. However, Directors are required to notify the Company Secretary upon allotment of any DRP Securities."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "If you are an existing holder you can participate in a SPP, UPP or Rights Offer to the extent of your full entitlement irrespective of a Trading Window."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "The restrictions in this Policy do not prevent you from accepting a takeover bid or from selling Securities under a scheme of arrangement in respect of Charter Hall."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Company Secretary submits the request to the Managing Director & Group CEO or Chair",
+   "evidence": "You can apply to the Company Secretary to Deal at a time outside a Trading Window in the following circumstances: a) to comply with the requirements of a court order or regulatory requirement to sell Securities"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Company Secretary submits the request to the Managing Director & Group CEO or Chair; notice of the completed Dealing to the Company Secretary and Head of Risk & Compliance",
+   "evidence": "severe financial hardship for a material financial commitment which cannot be satisfied other than by the disposal of Securities; or c) any other circumstances which is considered to be a special circumstance."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "consent may be required; must be transacted during an open window, but no new consent is needed for the transfer itself",
+   "evidence": "New consent is not required for transfers from the Employee Securities Plan to a broker account (but must be transacted during an open window)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "If a trade is set to trigger at a set price and has not been completed within the 5 business days a new consent will need to be obtained. If the trade has not happened and the window is closing, this trade must be cancelled by the end of business day of the close of a trading window.",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "yes",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Charter Hall employee security plan rules (source of vesting, holding locks and the short-term trading carve-out)",
+  "Resolver (the system in which Employees raise trading requests and in which Dealings are recorded and reviewed by Risk and Compliance)"
+ ],
+ "exemption_authority": "Special Circumstances under 3.9: a Director or Employee may apply to the Company Secretary to Deal outside a Trading Window to comply with a court order or regulatory requirement to sell, for severe financial hardship where a material financial commitment cannot be satisfied other than by disposal, or in any other circumstance considered special. The Company Secretary submits the request to the Managing Director & Group CEO or Chair and notifies the decision; the Dealing must be completed within five business days and notice given to the Company Secretary and Head of Risk & Compliance at the same time. The power is directed at disposals outside a window and carries no authority to waive the hedging, derivative-selling or margin loan prohibitions. No reason need be given for the grant or refusal of consent.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "no selling of derivative positions",
+   "clause": "In relation to vested Securities (held within a Group employee incentive scheme) or Securities held outside such a scheme: 1. you can only buy a derivative position during a trading window, and 2. you cannot sell a derivative position.",
+   "why_it_matters": "This single clause defeats a collar: the written call is a sold derivative position and is prohibited outright, even over fully vested securities, while the purchased put on its own would be permissible in a window with consent."
+  },
+  {
+   "topic": "hedge must stay in your control",
+   "clause": "The only hedging arrangements allowed is when they are in your control, rather than the control of any third party.",
+   "why_it_matters": "A bank-documented OTC structure with dealer election rights, early termination triggers or enforcement over the shares places control with a third party, so even a put-only hedge must be structured so the executive retains control."
+  },
+  {
+   "topic": "margin loan ban",
+   "clause": "You are not allowed to enter into, or seek to enter into, any type of margin loan arrangement in respect of Securities, whether on a stand-alone basis or as part of an investment portfolio.",
+   "why_it_matters": "The funded leg is blocked: 'any type of margin loan arrangement' naturally covers a share-backed facility with loan-to-value maintenance, and the prohibition extends to merely seeking to enter one."
+  },
+  {
+   "topic": "no general secured financing clause",
+   "clause": "Section 2.5 addresses margin loans only; the policy contains no prohibition on secured financing generally and no clause making the grant of a security interest a Dealing.",
+   "why_it_matters": "A term loan secured on Charter Hall Securities without margining sits in a genuine gap in the drafting, but it would still fall foul of the control requirement in 2.4 and should be cleared with the Company Secretary rather than assumed permissible."
+  },
+  {
+   "topic": "unvested and locked securities",
+   "clause": "You cannot enter, or seek to enter any type of transaction or arrangement that would hedge the exposure to movements in the price of unvested Securities or those which remain subject to a holding lock.",
+   "why_it_matters": "Any collateral pool must exclude unvested awards and vested securities still under a holding lock; the prohibition bites on attempting the arrangement, not just completing it."
+  },
+  {
+   "topic": "four-week holding period",
+   "clause": "Short-term trading of Securities (i.e., selling Securities within a four-week period from the date of acquisition) is not allowed.",
+   "why_it_matters": "Securities delivered or acquired in connection with a structure cannot be sold for four weeks, which constrains delivery mechanics and any unwind that involves selling recently acquired securities."
+  },
+  {
+   "topic": "price-triggered orders",
+   "clause": "If a trade is set to trigger at a set price and has not been completed within the 5 business days a new consent will need to be obtained. If the trade has not happened and the window is closing, this trade must be cancelled by the end of business day of the close of a trading window.",
+   "why_it_matters": "Contingent or price-triggered execution cannot survive a window close, so knock-in or barrier features that execute automatically are incompatible with the consent regime."
+  },
+  {
+   "topic": "narrow trading windows",
+   "clause": "Trading Windows to Deal in Securities are as follows: 1. for the period beginning the day after the announcement of the Charter Hall Group's half year results until and including 31 May; and 2. for the period beginning the day after the announcement of the Charter Hall Group's annual results until and including 30 November.",
+   "why_it_matters": "Only two windows a year, each ending on a fixed calendar date, so any entry, roll or unwind must be scheduled well before 31 May or 30 November."
+  },
+  {
+   "topic": "discretionary blackouts without notice",
+   "clause": "Charter Hall may declare additional trading windows or trading blackouts in Securities at any time at its absolute discretion and without prior notice if considered necessary.",
+   "why_it_matters": "A window can be closed without warning, and consent may be withheld without reasons whenever management accounts are available outside a window, so execution certainty is low."
+  },
+  {
+   "topic": "consent refused without reasons",
+   "clause": "Consent will not be given if there is any possibility that this Policy could be breached by the Dealing. Consent may not be given when management accounts are available at a time other than during a Trading Window. Furthermore, no reason is required to be given for the grant or refusal of consent to Deal in Securities.",
+   "why_it_matters": "The 'any possibility' standard is deliberately conservative, so an approver is likely to refuse a structure whose compliance is arguable, and there is no appeal or reasons."
+  },
+  {
+   "topic": "third-party derivatives are Securities",
+   "clause": "Securities: ... any interest created over those securities by third parties, structured financial products, swaps, future contracts, contracts for differences, options, warrants, depositary receipts or other derivatives over or related to the performance of those securities.",
+   "why_it_matters": "A bank-created OTC option or swap over Charter Hall securities is itself a Security, so every leg is a Dealing subject to windows, consent and the notification regime."
+  },
+  {
+   "topic": "director disclosure",
+   "clause": "Charter Hall must disclose any purchase or sale of listed Securities by any one of its Directors to the ASX within 5 business days from the Dealing being settled/completed.",
+   "why_it_matters": "Any permitted derivative purchase by a director becomes public within five business days of settlement, so the structure cannot be kept confidential."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 2.4 permits a hedge over vested, unlocked securities only in one direction: a derivative position may be bought during a Trading Window with consent, but 'you cannot sell a derivative position', so the written call leg of a collar is prohibited outright, and the further requirement that any permitted hedging arrangement be 'in your control, rather than the control of any third party' is incompatible with a bank-documented structure carrying dealer election and enforcement rights. Section 2.5 separately bans entering, or seeking to enter, any type of margin loan arrangement in respect of Securities, which on its natural reading covers a facility secured on the collared securities; there is no general secured financing clause, so a non-margining term loan is not expressly addressed but would still offend the control requirement. Hedging is prohibited absolutely for unvested Securities and for vested Securities still subject to a holding lock. What remains available is an unfunded protective put over fully vested, unlocked holdings, bought inside one of the two annual Trading Windows (from the day after half year results to 31 May, and from the day after annual results to 30 November), with consent from the respective Chair for a Director, executed within five business days, notified to the Company Secretary within two business days and disclosed to the ASX within five business days of settlement."
+}
