@@ -1,0 +1,360 @@
+{
+ "symbol": "GLF",
+ "company": "Equity Trustees Limited (Responsible Entity)",
+ "title": "Listed Investment Trusts Trading Policy",
+ "date_approved": "",
+ "date_effective": "28 May 2024",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "EQT Persons",
+   "kind": "restricted",
+   "description": "Directors, key management personnel, and all employees of EQTHL and/or any of its wholly or majority owned companies including the Responsible Entity, and contractors and consultants who may come into possession of Inside Information. Must obtain prior written clearance to trade, and restricted from short-term trading, hedging, margin lending and security arrangements over Units absent clearance.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Responsible Entity's Directors",
+   "kind": "director",
+   "description": "Subset of EQT Persons who are directors of the Responsible Entity; carry a specific post-trade disclosure duty to the Company Secretary within 2 business days so the trade can be lodged with the ASX.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "LIT Partners",
+   "kind": "other",
+   "description": "Persons or entities engaged or contracted with the Responsible Entity to manage and/or administer a LIT. Trade under their own trading policy agreed with the Responsible Entity (which must meet minimum Black-out Period standards), but are also named alongside EQT Persons in the restricted-trading clause requiring prior clearance for hedging, margin lending and short-term trading.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "LIT Persons",
+   "kind": "other",
+   "description": "Directors, employees, contractors and consultants of a LIT Partner or other related account as defined by that LIT Partner's own trading policy.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A spouse, partner or child of an EQT Person, or any other person the EQT Person may be expected to control or have significant influence over, including other immediate family members, business partners, companies or other entities or trusts.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "hedging or other financial arrangements which operate to limit the economic risk associated with holding LIT Units",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 July",
+   "end_anchor": "one (1) hour after the Responsible Entity releases the next estimated NTA or NAV of the Fund",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 January",
+   "end_anchor": "one (1) hour after the Responsible Entity releases the next estimated NTA or NAV of the Fund",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "the earlier of 28 calendar days before (if known) or the day the decision is made to proceed with a PDS, prospectus or similar disclosure document",
+   "end_anchor": "the next full business day after the document is lodged by the Responsible Entity with the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "28 calendar days before a general meeting of unitholders",
+   "end_anchor": "the next full business day after the general meeting",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["EQT Persons"],
+   "start_anchor": "the date the Responsible Entity makes the decision to buy-back units in a LIT",
+   "end_anchor": "the next full business day after the buy-back has been completed",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Responsible Entity may specify 'any other period' as a Black-out Period. If the quarterly/half-year, annual, and PDS/prospectus Black-out Periods coincide, the PDS/prospectus period governs. Confidentiality of the reason for an ad hoc period is not directly addressed, though clearance refusals and withdrawals must be kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.ii",
+   "detail": "An OTC put/call referencing LIT Units is a 'financial arrangement which operates to limit the economic risk associated with holding LIT Units' and is expressly named; it is not banned outright but requires prior written clearance under the Trading Request Procedure. There is no employee equity plan under this policy, so no vesting-based distinction applies.",
+   "evidence": "may not enter into hedging or other financial arrangements which operate to limit the economic risk associated with holding LIT Units, unless prior clearance to trade has been approved in accordance with the Trading Request Procedure"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.ii",
+   "detail": "Hedging arrangements over LIT Units are expressly named and permitted only with prior written clearance via the Trading Request Procedure.",
+   "evidence": "may not enter into hedging or other financial arrangements which operate to limit the economic risk associated with holding LIT Units, unless prior clearance to trade has been approved in accordance with the Trading Request Procedure"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.ii",
+   "detail": "Monetisation is not named, but a structure that reduces economic risk of holding Units (e.g. a prepaid forward) falls within 'other financial arrangements which operate to limit the economic risk' and so requires the same prior clearance.",
+   "evidence": "or other financial arrangements which operate to limit the economic risk associated with holding LIT Units, unless prior clearance to trade has been approved"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named; the closest concept is the short-term/speculative trading ban, which addresses holding period, not short sales.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.ii",
+   "detail": "CFDs are not named, but a CFD referencing LIT Units would be a financial arrangement operating to limit or create economic risk in relation to holding Units, and so is caught by the same clearance requirement.",
+   "evidence": "or other financial arrangements which operate to limit the economic risk associated with holding LIT Units, unless prior clearance to trade has been approved"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.iii",
+   "detail": "Margin lending against LIT Units is expressly named and not banned outright, but requires prior written clearance via the Trading Request Procedure.",
+   "evidence": "may not enter into margin lending or any other arrangements where any form of security is granted over the Units, unless prior clearance to trade has been approved in accordance with the Trading Request Procedure."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.iii",
+   "detail": "Granting any form of security over Units is expressly named and requires prior written clearance; not addressed is whether the encumbrance is exempt if it does not change beneficial ownership.",
+   "evidence": "may not enter into margin lending or any other arrangements where any form of security is granted over the Units, unless prior clearance to trade has been approved in accordance with the Trading Request Procedure."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.iii",
+   "detail": "Any secured financing arrangement over Units, margin lending or otherwise, is expressly captured and requires prior written clearance under the Trading Request Procedure; not banned outright.",
+   "evidence": "may not enter into margin lending or any other arrangements where any form of security is granted over the Units, unless prior clearance to trade has been approved in accordance with the Trading Request Procedure."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.i",
+   "detail": "Trading in or out of Units on market within three months of acquisition is banned unless prior written clearance is obtained via the Trading Request Procedure.",
+   "evidence": "may not engage in short-term or speculative trading in a LIT's Units, i.e. trading in or out of the Units on market within three (3) months of acquiring them, unless written prior clearance to trade has been approved in accordance with the Trading Request Procedure."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "EQT Persons",
+   "type": "preclearance_system",
+   "approver": "Company Secretary of the Responsible Entity",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "",
+   "section": "5",
+   "evidence": "A clearance to trade can be given, withdrawn, or refused without a reason being given. The decision is final and binding. Any clearance refusal or withdrawal must be kept confidential by the person who sought clearance, and may not be disclosed to anyone. A clearance to trade is valid for five (5) business days."
+  },
+  {
+   "tier": "LIT Partners",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary of the Responsible Entity",
+   "post_trade_deadline": "within 7 days of execution of the transaction, or as otherwise agreed in writing with the Responsible Entity",
+   "section": "2",
+   "evidence": "LIT Partners must disclose to the Company Secretary of the Responsible Entity any transaction undertaken in a LIT Unit by a LIT Person within 7 days of execution of the transaction, or as otherwise agreed in writing with the Responsible Entity."
+  },
+  {
+   "tier": "Responsible Entity's Directors",
+   "type": "notification",
+   "approver": "",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two (2) business days of any trade",
+   "section": "9",
+   "evidence": "Within two (2) business days of any trade, the Responsible Entity's directors must provide written confirmation to the Company Secretary of the nature, price and quantity of Units traded, to ensure that the requisite information is lodged with the ASX within the prescribed reporting time."
+  },
+  {
+   "tier": "Connected Persons",
+   "type": "approval",
+   "approver": "Company Secretary, applied for via the sponsoring EQT Person, LIT Person or LIT Partner",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "10",
+   "evidence": "a Connected Person must seek clearance through their EQT Person, LIT Person or LIT Partner in accordance with the Trading Request Procedure prior to trading in Units."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "on market, from acquisition",
+   "carve_outs": ["written prior clearance approved via the Trading Request Procedure"],
+   "evidence": "trading in or out of the Units on market within three (3) months of acquiring them, unless written prior clearance to trade has been approved in accordance with the Trading Request Procedure."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Company Secretary in consultation with the Responsible Entity's Chair (or the EQTHL Board Risk Committee Chair if the proposed trading is by the Chair)",
+   "evidence": "severe financial hardship, where EQT Persons, LIT Persons, or LIT Partners have pressing financial commitments that cannot be satisfied otherwise than by selling Units"
+  },
+  {
+   "kind": "court_order",
+   "scope": "unclear",
+   "approver": "Company Secretary in consultation with the Responsible Entity's Chair (or the EQTHL Board Risk Committee Chair if the proposed trading is by the Chair)",
+   "evidence": "requirements under a court order or court enforceable undertakings or other legal or regulatory requirements"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Those that do not result in a change to the beneficial interest in the Units (such as transferring Units already held personally into a superannuation fund), and where prior written notification has been given to the Company Secretary"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Units under the LIT's distribution reinvestment plan, excluding an election to vary participation."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Company Secretary, in consultation with the Responsible Entity's Chair (or the EQTHL Board Risk Committee Chair where the Chair proposes to trade), may permit trading in Exceptional Circumstances (severe financial hardship, court order or other legal/regulatory requirement, or other circumstances the Chair determines). Irrespective of any clearance given, trading while in possession of Inside Information remains absolutely prohibited.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "clearance is unreviewable and confidential",
+   "clause": "A clearance to trade can be given, withdrawn, or refused without a reason being given. The decision is final and binding. Any clearance refusal or withdrawal must be kept confidential by the person who sought clearance, and may not be disclosed to anyone.",
+   "why_it_matters": "Even though both collar legs and the loan are only subject to clearance (not an outright ban), the Company Secretary's decision cannot be reasoned, appealed, or discussed once refused, so a bank should plan for the possibility of an unexplained rejection with no recourse."
+  },
+  {
+   "topic": "both collar legs and the loan are separately gated",
+   "clause": "may not enter into hedging or other financial arrangements which operate to limit the economic risk associated with holding LIT Units, unless prior clearance ... may not enter into margin lending or any other arrangements where any form of security is granted over the Units, unless prior clearance to trade has been approved",
+   "why_it_matters": "The derivative hedge and the secured loan are each independently subject to the same five-business-day clearance, so both must be documented, cleared and executed within that narrow window for the structure to close."
+  },
+  {
+   "topic": "Connected Persons must clear through sponsor",
+   "clause": "a Connected Person must seek clearance through their EQT Person, LIT Person or LIT Partner in accordance with the Trading Request Procedure prior to trading in Units.",
+   "why_it_matters": "A family trust or related entity cannot independently apply for clearance to enter the collar or grant security; the application must run through the individual's own EQT/LIT Person channel."
+  },
+  {
+   "topic": "broad insider trading scope across vehicles",
+   "clause": "For the avoidance of doubt, all forms of insider trading in relation to the Units of any entity or vehicle are prohibited.",
+   "why_it_matters": "Suggests the Responsible Entity treats economic exposure obtained via any vehicle -- potentially including a bank's OTC derivative book -- as within the insider trading prohibition, reinforcing that clearance and inside-information checks apply regardless of how the collar is structured."
+  },
+  {
+   "topic": "LIT Partner regime ambiguity",
+   "clause": "LIT Partners and LIT Persons may trade in a LIT's Units provided ... the trade has been executed in accordance with the LIT Partner's trading policy, procedures and/or controls which have been agreed with the Responsible Entity [yet section 6 separately names LIT Partners as needing the Responsible Entity's own Trading Request Procedure clearance for hedging, margin lending and short-term trading].",
+   "why_it_matters": "It is unclear whether an external LIT Partner seeking a funded collar over its own LIT Unit holding applies to its own internal compliance function or to the Responsible Entity's Company Secretary; written confirmation of the applicable regime should be obtained before relying on either clearance."
+  },
+  {
+   "topic": "buy-back blackout",
+   "clause": "EQT Persons who have knowledge of the buy-back and are involved in the day to day management of the buy-back, are subject to a further Black-out Period commencing from the date the Responsible Entity makes the decision to buy-back the units in a LIT, to the next full business day after the buy-back has been completed.",
+   "why_it_matters": "An unscheduled buy-back-related blackout for informed EQT Persons could freeze collar entry, unwind or roll for a period whose length tracks the buy-back timetable rather than the standard quarterly/annual calendar."
+  }
+ ],
+ "summary": "A funded collar is not banned outright under this policy but is doubly gated by clearance: both the hedging arrangement (the purchased put and written call) and the secured loan (margin lending or any arrangement granting security over the Units) are expressly named as requiring prior written clearance from the Company Secretary under the Trading Request Procedure, each valid for only five business days once granted and revocable or refusable without reasons given. There is no employee equity plan under this policy (it governs listed trust Units generally), so there is no unvested/vested distinction -- the clearance and Black-out Period rules apply uniformly to whatever Units are held. Entry, unwind or roll of the collar must fall outside the several Black-out Periods (around NTA/NAV releases, PDS/prospectus lodgement, unitholder meetings, and buy-backs) and while the individual holds no Inside Information, and must not amount to trading in or out of Units within three months of acquisition absent separate clearance. Family trusts or related entities (Connected Persons) cannot apply independently and must route any clearance request through the sponsoring EQT Person, LIT Person or LIT Partner. Directors of the Responsible Entity additionally face a two-business-day post-trade disclosure duty to the Company Secretary for ASX reporting purposes."
+}
