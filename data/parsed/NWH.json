@@ -1,0 +1,363 @@
+{
+ "symbol": "NWH",
+ "company": "NRW Holdings Limited",
+ "title": "Corporate Governance Policy – Securities Trading",
+ "date_approved": "",
+ "date_effective": "20 December 2010",
+ "date_lodged": "20 December 2010",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors, employees and consultants",
+   "kind": "all_staff",
+   "description": "Base population to whom the policy applies (clause 13.1); subject to the insider trading dealing ban (clause 4) and the Board's absolute discretion to prohibit dealing at any time.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and employees",
+   "kind": "other",
+   "description": "Directors and employees only, excluding consultants; the sole population subject to the No Hedging ban (clause 10) and the margin lending/encumbrance disclosure obligation (clause 11).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Key management personnel",
+   "kind": "kmp",
+   "description": "As defined in the ASX Listing Rules and Schedule 1 (named directors and executives, all subsidiary board members, direct reports to the Managing Director, other Board-designated executives, and any person tendering for Company projects). Subject to the short-term dealing ban, Restricted Periods, prior written clearance for dealing, and immediate notification of dealings to the Company Secretary.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Company directors; distinguished for the Company's ASX notifiable-interest disclosure obligation and the directors' own agreement to notify changes in interests.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Relatives, entities controlled by, and entities acted in concert with, a director, employee or consultant. A director, employee or consultant must take reasonable steps to ensure an associate does not deal in contravention of the policy.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Consultants",
+   "kind": "other",
+   "description": "Company consultants; part of the base \"directors, employees and consultants\" population but expressly excluded from the No Hedging ban (clause 10) and the margin lending/encumbrance disclosure obligation (clause 11), which apply only to directors and employees.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "transactions in associated products which operate to limit the economic risk of security holdings in the Company",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Key management personnel"],
+   "start_anchor": "release of Price Sensitive Information to the ASX",
+   "end_anchor": "2 hours after release",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Key management personnel"],
+   "start_anchor": "1 month prior to the issue of a prospectus",
+   "end_anchor": "issue of the prospectus",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Key management personnel"],
+   "start_anchor": "balance date for the Company's annual or half-yearly results",
+   "end_anchor": "second trading day after the results have been released to ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may designate any other Restricted Period (clause 6.1(4)) and separately has absolute discretion to prohibit directors, employees and consultants from dealing in securities of the Company at any time (clause 13.3). Confidentiality of such a direction is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "14.1(2)(d); 8",
+   "detail": "\"Securities\" is defined to include only products traded on ASX, but \"deal in securities\" separately includes \"trading in financial products issued or created over securities of the Company\" with no venue limit, so an OTC derivative referencing NWH shares is still caught. Outside a Restricted Period, KMP need only notify the designated officer of an intention to deal and receive a no-impediment response; if the instrument also limits economic risk, the absolute No Hedging ban in clause 10 applies instead for any director or employee.",
+   "evidence": "deal in securities includes: ... trading in financial products issued or created over securities of the Company"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10",
+   "detail": "Absolute, unconditional ban expressed to override the rest of the policy (\"notwithstanding any other part of this policy\"). No clearance route, no vesting-state distinction, and no exceptional-circumstances carve-out (the hardship/court-order relief in clause 7 covers ordinary and short-term dealing during Restricted Periods only, not hedging). Applies to directors and employees but not consultants.",
+   "evidence": "Notwithstanding any other part of this policy, directors and employees of the Company must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Consultants",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "14.1(2)(e)",
+   "detail": "Consultants are not covered by the clause 10 ban, which by its terms applies only to directors and employees. For a consultant, a hedge is caught only as a \"deal in securities\" under limb (e) of the definition, restricted while in possession of Price Sensitive Information and, if the consultant is designated KMP under Schedule 1, by the KMP clearance and Restricted Period rules.",
+   "evidence": "directors and employees of the Company must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "10",
+   "detail": "Monetisation is not named, but a monetisation transaction (e.g. a prepaid forward) operates to limit the economic risk of the holding and so falls within the clause 10 No Hedging ban for any director or employee.",
+   "evidence": "transactions in associated products which operate to limit the economic risk of security holdings in the Company"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "14.1(2)(d)",
+   "detail": "CFDs are not named but are a financial product created over Company securities, caught by the same \"deal in securities\" limb as other derivatives; would additionally be an absolute-prohibited hedge if used to limit economic risk of a holding by a director or employee.",
+   "evidence": "deal in securities includes: ... trading in financial products issued or created over securities of the Company"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11",
+   "detail": "No prior approval is required; the individual must disclose the details of the Security Arrangement (number of securities, trigger points, and any unilateral right of the lender or security holder to sell) to the Relevant Officers, who notify the Company Secretary, upon entering into it and on any subsequent change. The arrangement remains subject to the policy's other dealing prohibitions, including the No Hedging ban.",
+   "evidence": "any directors or employees of the Company who enter into margin lending arrangement or otherwise encumber their securities of the Company (Security Arrangements) is required to provide details of those Security Arrangements to the Relevant Officers (who will notify the Company secretary) upon entering into, and on any change occurring to, the Security Arrangements."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11",
+   "detail": "\"Otherwise encumber their securities\" expressly extends the same notification-only regime beyond margin loans to any charge, lien or pledge.",
+   "evidence": "any directors or employees of the Company who enter into margin lending arrangement or otherwise encumber their securities of the Company (Security Arrangements) is required to provide details of those Security Arrangements to the Relevant Officers"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11",
+   "detail": "Not limited to margin loans; any secured financing arrangement over NWH securities is a \"Security Arrangement\" requiring disclosure of its terms on entry and on any change, but no prior approval.",
+   "evidence": "any directors or employees of the Company who enter into margin lending arrangement or otherwise encumber their securities of the Company (Security Arrangements) is required to provide details of those Security Arrangements to the Relevant Officers (who will notify the Company secretary) upon entering into, and on any change occurring to, the Security Arrangements."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Key management personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5",
+   "detail": "Acquisition and disposal within 6 months of each other is banned for KMP, with prior written clearance available in exceptional circumstances (financial hardship or court order). The exercise (not subsequent sale) of an employee incentive option or right is excluded from the policy generally.",
+   "evidence": "Key management personnel of the Company must not at any time engage in short-term dealing in securities of the Company. Short-term dealing is considered to be dealing where the acquisition and disposal of securities occurs within 6 month of each other."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Key management personnel",
+   "type": "approval",
+   "approver": "Designated officer: Managing Director (or Chair of the Audit and Risk Management Committee in their absence) for the Chairman; the Chairman for the Managing Director; the Chairman or Managing Director (or Company Secretary in their absence) for other KMP",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "immediately after acquiring or disposing of a relevant interest",
+   "section": "6; 7; 8; 9.3",
+   "evidence": "Key management personnel of the Company must not deal in securities at any time outside of the Restricted Period unless they have contacted the designated officer in writing (email is acceptable) and notified them of their intention to do so and the designated officer indicates in writing (email is acceptable) that there is no impediment to them doing so."
+  },
+  {
+   "tier": "Directors",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company (for ASX notifiable-interest disclosure) and Company Secretary",
+   "post_trade_deadline": "within 5 business days (Company's ASX Listing Rule disclosure); immediately (notice to Company Secretary under clause 9.3)",
+   "section": "9",
+   "evidence": "The ASX Listing Rules require the Company to notify ASX of dealings in notifiable interests in securities of the Company by Directors within 5 business days."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Key management personnel",
+   "type": "buy_sell_window",
+   "months": 6,
+   "basis": "acquisition to disposal",
+   "carve_outs": [
+    "exercise (but not the sale of securities following exercise) of an option or right under an employee incentive scheme, or the conversion of a convertible security"
+   ],
+   "evidence": "Short-term dealing is considered to be dealing where the acquisition and disposal of securities occurs within 6 month of each other."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Designated officer",
+   "evidence": "financial hardship which cannot be satisfied otherwise than by dealing in securities of the Company"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Designated officer",
+   "evidence": "a court order directing the dealing in securities of the Company"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of securities of the Company already held in a superannuation fund or other saving scheme in which the restricted person is a beneficiary and where the investments are made at the discretion of a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or dealing in units of, a fund or other scheme (other than a scheme only investing in securities of the Company) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trading in securities of the Company by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the restricted person"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealing under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities of the Company following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors and employees: trigger = inception and any change to a Security Arrangement (margin lending or other encumbrance); to = Relevant Officers, who notify the Company Secretary; deadline = upon entering into, and on any change occurring to, the Security Arrangement; must include number of securities, any trigger points, and the lender's or security holder's unilateral sale rights (clause 11)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "ASX Companies Update of 29 February 2008 (margin lending disclosure guidance referenced in clause 11.1)"
+ ],
+ "exemption_authority": "The designated officer (Managing Director, Chairman, or Chair of the Audit and Risk Management Committee depending on role) may grant prior written clearance, valid no more than 5 trading days, for dealing during a Restricted Period or for short-term dealing, only for financial hardship or a court order (clause 7). This relief does not extend to the No Hedging ban in clause 10. Separately, the Board has absolute discretion to prohibit any director, employee or consultant from dealing at any time (clause 13.3), with no corresponding exemption route from a Board-imposed block.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute hedging override",
+   "clause": "Notwithstanding any other part of this policy, directors and employees of the Company must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company.",
+   "why_it_matters": "This is drafted to override every other provision of the policy, including the exceptional-circumstances relief available elsewhere, so there is no route by which a director or employee could obtain clearance for a collar under any circumstances."
+  },
+  {
+   "topic": "consultants carve-out",
+   "clause": "directors and employees of the Company must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company (clause 10.1); any directors or employees ... (clause 11.1)",
+   "why_it_matters": "Both the hedging ban and the margin lending/encumbrance disclosure obligation are drafted to apply only to directors and employees, not consultants, though this is not a realistic structuring option for a director or executive engaged in an employment or directorship capacity."
+  },
+  {
+   "topic": "narrow securities definition, broad deal definition",
+   "clause": "securities includes shares in the Company, options over those shares and any other financial products of the Company traded on ASX; deal in securities includes ... trading in financial products issued or created over securities of the Company ... entering into transactions in financial products which operate to limit the economic risk of security holdings",
+   "why_it_matters": "Although \"securities\" itself is limited to products traded on ASX, the operative dealing and hedging limbs are not venue-limited, so an OTC put and call struck with a bank is still caught by the policy even though it would not itself qualify as a \"security\" under this policy's own definition."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "If any secured financing arrangement were ever entered into, a lender's enforcement sale would be excluded from the policy's dealing prohibitions and would not need fresh clearance, though this does not cure the separate, absolute ban on entering the hedge itself."
+  },
+  {
+   "topic": "dated policy",
+   "clause": "Dated 20 December 2010",
+   "why_it_matters": "This policy predates common ASX guidance-note updates on hedging and margin lending; NRW Holdings may have adopted a more recent version, which should be checked before relying on this analysis."
+  }
+ ],
+ "summary": "A funded collar is not possible for NWH directors or employees under this policy. Clause 10 imposes an absolute, expressly overriding (\"notwithstanding any other part of this policy\") ban on directors and employees entering into any transaction in associated products that operates to limit the economic risk of their NWH shareholding - a purchased put and written call collar is squarely such a transaction - and there is no clearance route, vesting-state carve-out, or exceptional-circumstances relief available for it; the hardship/court-order relief in clause 7 covers only ordinary and short-term dealing during Restricted Periods, not hedging. The financing leg alone would otherwise be workable: entering a margin loan or otherwise encumbering NWH securities requires only disclosure of the arrangement's terms (number of securities, trigger points, and any unilateral lender sale right) to the Relevant Officers/Company Secretary on entry or variation, not prior approval, and a lender's enforcement sale is expressly excluded from the policy's operation. Because the hedge is banned outright for any director or employee, however, the financing leg cannot be paired with a collar in this structure. Consultants are excluded from both the hedging ban and the disclosure obligation, but this is not a realistic route for a director or executive. This is a 2010 policy and NRW Holdings may since have adopted an updated version that should be checked before relying on this conclusion."
+}

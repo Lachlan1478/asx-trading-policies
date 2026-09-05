@@ -1,0 +1,465 @@
+{
+ "symbol": "EBO",
+ "company": "EBOS Group Limited",
+ "title": "EBOS Securities Trading Policy",
+ "date_approved": "November 2025",
+ "date_effective": "27 November 2025",
+ "date_lodged": "27 November 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All Directors and Employees (including Senior Managers) of EBOS and its subsidiaries; the base population to whom the Policy applies. Subject to the Information Insider ban, the tipping/manipulation rules, the general short selling ban, and the general margin lending ban, but not to Blackout Periods, the consent-to-trade requirement, the strict short-term trading ban or the hedging ban, which bind Restricted Persons only.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors, Senior Managers, ELT members, ELT direct reports, legal and company secretariat Employees, any individual nominated by the CEO, anyone with authority over EBOS's activities, and any Employee EBOS knows possesses or has access to Material Information. Subject to Blackout Periods, the Rule 3 consent-to-trade regime, the strict short-term trading ban, and the Rule 8 hedging ban on unvested/locked entitlements; the margin lending ban expressly extends to their Associates.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "A director of EBOS Group Limited; distinguished for the Rule 19 consent chain (Chair's consent, or the Board's) and for NZX/ASX disclosure of trades within 5 trading days.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Senior Managers",
+   "kind": "kmp",
+   "description": "A person who is not a director but occupies a position allowing significant influence over EBOS's management or administration (e.g. CEO, CFO). Distinguished for NZX/ASX trade disclosure timing under Rule 16.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "CEO",
+   "kind": "kmp",
+   "description": "The Chief Executive Officer; distinguished under Rule 18 as requiring the Chair's consent (in place of self-administering the consent regime), continuing for 6 months after ceasing to hold the office.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished under Rule 19 as requiring the consent of the Chair of the Audit & Risk Committee, or the Board at a meeting.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons' Associates",
+   "kind": "associate",
+   "description": "A Restricted Person's spouse or domestic partner, dependents, any associate, a person controlled by or acting on the Restricted Person's direction or recommendation, and any company or trust the Restricted Person has a controlling interest in. Directors and Employees are responsible for these persons' actions, and the margin lending ban expressly extends to them.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "hedging arrangements (whether through the use of derivatives or otherwise) to limit exposure in relation to unvested entitlements or vested entitlements that remain subject to any holding lock or other trading restriction; any transaction (including any hedging or derivative transaction) which will limit that person's economic risk in relation to such shares, options or rights",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 January",
+   "end_anchor": "close of trading on the business day after EBOS's half yearly results are announced to NZX and ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 July",
+   "end_anchor": "close of trading on the business day after EBOS's annual results are announced to NZX and ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any extension to a closed period and any additional period. Confidentiality of such an extension is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Definitions (EBOS Securities, Trade); Rule 3",
+   "detail": "\"EBOS Securities\" expressly includes any derivative products issued over or in respect of EBOS securities, with no venue limit, and acquiring one is a \"Trade\". For vested, unrestricted holdings this is not separately banned, only subject to the standing Rule 3 consent-to-trade regime.",
+   "evidence": "EBOS Securities means: ... (d) any derivative products issued over or in respect of EBOS securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 8",
+   "detail": "A derivative transaction limiting economic risk in relation to unvested equity incentive holdings is expressly and absolutely banned, with no clearance route.",
+   "evidence": "A Restricted Person must not enter into any transaction (including any hedging or derivative transaction) which will limit that person's economic risk in relation to such unvested shares, options or rights or vested entitlements that are subject to a holding lock or other trading restriction."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 8",
+   "detail": "Same absolute ban extends to vested entitlements that remain subject to a holding lock or other trading restriction.",
+   "evidence": "A Restricted Person must not enter into any transaction (including any hedging or derivative transaction) which will limit that person's economic risk in relation to such unvested shares, options or rights or vested entitlements that are subject to a holding lock or other trading restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 8",
+   "detail": "Absolute ban, no clearance route, limited to unvested shares, options or rights under employee incentive schemes where performance hurdles or other conditions have not been met.",
+   "evidence": "Restricted Persons must not enter into hedging arrangements (whether through the use of derivatives or otherwise) to limit their exposure in relation to unvested entitlements ... This includes unvested shares, options or rights issued or acquired under any employee incentive schemes where performance hurdles have not yet been achieved or other conditions have not yet been met."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 8",
+   "detail": "Absolute ban on hedging vested entitlements still subject to a holding lock or other trading restriction, with no clearance route.",
+   "evidence": "Restricted Persons must not enter into hedging arrangements (whether through the use of derivatives or otherwise) to limit their exposure in relation to ... vested entitlements that remain subject to any holding lock or other trading restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Rule 3; Definitions (EBOS Securities, Trade)",
+   "detail": "Rule 8's hedging ban, by its title and text, is confined to unvested entitlements and vested entitlements subject to a holding lock or other trading restriction. Hedging ordinary vested, unrestricted shares is not named and is caught only because entering a derivative (itself an EBOS Security) is a \"Trade\" requiring the standing CEO consent under Rule 3.",
+   "evidence": "If you are a Restricted Person you may only trade in EBOS Securities after submitting a Request for Consent form (which may be amended from time to time) and that form is approved."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "none",
+   "floor": "",
+   "section": "Rule 8",
+   "detail": "Rule 8 by its terms binds \"Restricted Persons\" only; an Employee who is not a Restricted Person has no hedging restriction or consent requirement under this Policy, subject always to the underlying insider trading law.",
+   "evidence": "Restricted Persons must not enter into hedging arrangements (whether through the use of derivatives or otherwise) to limit their exposure in relation to unvested entitlements or vested entitlements that remain subject to any holding lock or other trading restriction."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Trade); Rule 3",
+   "detail": "Monetisation is not named. Disposing of, or agreeing to dispose of, EBOS Securities is a \"Trade\" needing CEO consent for vested unrestricted holdings; a monetisation transaction over unvested or locked entitlements that limits economic risk would instead fall within Rule 8's absolute ban.",
+   "evidence": "\"Trade\" means to acquire or dispose of EBOS Securities, or agree to do so, whether as principal or agent."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 6",
+   "detail": "Universal ban, not limited to Restricted Persons.",
+   "evidence": "You must not short sell EBOS Securities. Short selling involves selling shares and hoping their price will drop so you can buy them back cheaper and make a profit."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "Definitions (EBOS Securities)",
+   "detail": "CFDs are not named but are a derivative product in respect of EBOS Securities, so treated the same as other derivatives: needing consent for vested unrestricted holdings, absolutely banned for unvested or holding-locked entitlements under Rule 8.",
+   "evidence": "EBOS Securities means: ... (d) any derivative products issued over or in respect of EBOS securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 7",
+   "detail": "Absolute, unconditional ban with no consent or clearance route, extending expressly to Restricted Persons' Associates. Covers entering a margin loan, transferring shares into an existing margin loan account, and selling to satisfy a margin call (except where the holder has no control over the sale).",
+   "evidence": "You must not have margin lending arrangements in relation to EBOS Securities as the terms may require EBOS Securities to be sold during a Blackout Period or when you possess Material Information."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 7",
+   "detail": "Using EBOS Securities as security against repayment of a loan is expressly prohibited, not limited to formal margin loan products, and extends to Restricted Persons' Associates.",
+   "evidence": "Restricted Persons must not enter into or continue with any margin loan arrangements to fund the acquisition of EBOS Securities or in relation to which EBOS Securities may be used as a security against repayment of the loan. This restriction extends to Restricted Persons' Associates."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 7",
+   "detail": "Any arrangement in which EBOS Securities are used as security for a loan is banned outright, not limited to margin lenders specifically, with no exemption authority.",
+   "evidence": "Restricted Persons must not enter into or continue with any margin loan arrangements to fund the acquisition of EBOS Securities or in relation to which EBOS Securities may be used as a security against repayment of the loan."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "none",
+   "floor": "",
+   "section": "Rule 5",
+   "detail": "For Employees who are not Restricted Persons, buying and selling within 3 months is only advisory guidance (\"should not\"), not a binding prohibition.",
+   "evidence": "You should not buy and sell EBOS Securities over a period of three months or less (short term trading). It might give rise to allegations of insider trading particularly if short term trading is done on a regular basis or in large amounts."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Rule 5",
+   "detail": "Binding ban on short-term trading (buy and sell within 3 months) for Restricted Persons, with a CEO-approved exceptional-circumstances carve-out.",
+   "evidence": "No Restricted Persons may engage in short term trading unless there are exceptional circumstances discussed with and approved in writing by the CEO."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "CEO",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Rule 3; Rule 4",
+   "evidence": "If you are a Restricted Person you may only trade in EBOS Securities after submitting a Request for Consent form ... and that form is approved. ... The consent (once obtained) remains valid for a period of 10 days."
+  },
+  {
+   "tier": "CEO",
+   "type": "approval",
+   "approver": "Chair",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Rule 18",
+   "evidence": "If the CEO proposes to make any Trade, unless an Exception applies, the consent of the Chair must be obtained ... This rule will continue to apply for a period of 6 months after the CEO has ceased to hold that office."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair (or the Board, if consent is sought at a Board meeting)",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "NZX and ASX",
+   "post_trade_deadline": "within 5 trading days",
+   "section": "Rule 19; Rule 16",
+   "evidence": "Where a Director proposes to make any Trade (including where that Director considers exceptional circumstances apply), unless an Exception applies, the prior written consent of the Chair shall be required."
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "Chair of the Audit & Risk Committee (or the Board, if consent is sought at a Board meeting)",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "NZX and ASX",
+   "post_trade_deadline": "within 5 trading days",
+   "section": "Rule 19; Rule 16",
+   "evidence": "Where the Chair proposes to make any Trade (including where the Chair considers exceptional circumstances apply), unless an Exception applies, the prior written consent of the Chair of the Audit & Risk Committee shall be required."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buy and sell",
+   "carve_outs": [
+    "exceptional circumstances discussed with and approved in writing by the CEO"
+   ],
+   "evidence": "No Restricted Persons may engage in short term trading unless there are exceptional circumstances discussed with and approved in writing by the CEO."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "CEO (Chair for CEO/Director/Chair trades)",
+   "evidence": "severe financial hardship where the Restricted Person has a pressing financial commitment that cannot be satisfied otherwise than by selling EBOS Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "CEO (Chair for CEO/Director/Chair trades)",
+   "evidence": "compulsion by court order, court enforceable undertakings or other legal requirement"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the acquisition of EBOS Securities through a dividend reinvestment plan; the acquisition of EBOS Securities as a result of a pro rata rights issue offer made to you; the acquisition of EBOS Securities through a share purchase plan made available to all eligible shareholders"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "applying for, or acquiring, EBOS Securities as a participant in an employee incentive scheme"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "acquisitions or disposals of securities by inheritance or gift"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "CEO (Request for Consent to Fixed Trading Plan)",
+   "evidence": "with the prior written approval of EBOS to the establishment of a non-discretionary trading plan (Fixed Trading Plan) ... where the Restricted Person did not enter into the plan during a black-out period, the plan does not permit the Restricted Person to exercise any influence or discretion in relation to trading under the plan once the plan has begun and the plan cannot be cancelled before the expiry of the fixed period of the plan"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of EBOS Securities under an equal access buy-back, takeover offer or scheme of arrangement or the disposal of rights acquired under a rights issue"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "CEO (Request for Consent form still required)",
+   "evidence": "trading in EBOS Securities that is required by statutory enactment; the acquisition of EBOS Securities under an underwriting or sub-underwriting agreement; trading that is undertaken on behalf of another person and the trading took place on that other person's specific instructions"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "CEO (Request for Consent form still required)",
+   "evidence": "trading that results from a takeover offer under the New Zealand Takeovers Code; entering into an agreement to acquire or dispose of EBOS Securities at a fixed price under a future takeover offer that complies with the New Zealand Takeovers Code"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors: trigger = any Trade; to = NZX and ASX; deadline = within 5 trading days (Rule 16).",
+   "Senior Managers: trigger = any Trade; to = NZX (also disclosed to ASX); deadline = 20 working days after the acquisition or disposal for specified acquisition types (employee share purchase scheme, dividend reinvestment plan, share top-up plan, Part 15 Companies Act 1993 arrangement, or a prescribed acquisition/disposal), otherwise 5 trading days after the Trade (Rule 16)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "New Zealand Financial Markets Conduct Act 2013",
+  "Australian Corporations Act 2001 (Cth)",
+  "NZX Listing Rules",
+  "ASX Listing Rules"
+ ],
+ "exemption_authority": "The Board of EBOS may approve updates, amendments to, and exemptions to this Policy from time to time. Within the Policy, the CEO (or the Chair for the CEO's, a Director's or the Chair's own trades, or the Chair of the Audit & Risk Committee for the Chair's trades) may grant, in their sole and absolute discretion, prior written consent to trade during a Blackout Period for severe financial hardship or legal/court compulsion; such approval is automatically deemed withdrawn if the person becomes an Information Insider before completing the trade.",
+ "jurisdiction_overlays": [
+  "New Zealand Financial Markets Conduct Act 2013 and NZX Listing Rules, applied alongside the Australian Corporations Act 2001 and ASX Listing Rules given EBOS's dual NZX/ASX listing"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute margin lending / secured financing ban",
+   "clause": "You must not have margin lending arrangements in relation to EBOS Securities ... Restricted Persons must not enter into or continue with any margin loan arrangements to fund the acquisition of EBOS Securities or in relation to which EBOS Securities may be used as a security against repayment of the loan. This restriction extends to Restricted Persons' Associates.",
+   "why_it_matters": "This is an unconditional, no-clearance ban on using EBOS Securities as loan security, so the financing leg of a bank-funded collar cannot be implemented under this policy for any tier, vesting state, or associate structure."
+  },
+  {
+   "topic": "hedging ban scoped to unvested/locked entitlements",
+   "clause": "Rule 8 No hedging on unvested entitlements: Restricted Persons must not enter into hedging arrangements ... to limit their exposure in relation to unvested entitlements or vested entitlements that remain subject to any holding lock or other trading restriction.",
+   "why_it_matters": "The hedging ban does not reach ordinary vested, unrestricted EBOS shares, so the derivative legs of a collar (put and call) over such shares are not themselves prohibited and can proceed with CEO/Chair consent, unlike the financing leg."
+  },
+  {
+   "topic": "consent lapses on Material Information",
+   "clause": "A consent is automatically deemed to be withdrawn if you become aware of Material Information prior to trading and, in that event, you must not trade.",
+   "why_it_matters": "A cleared collar must be executed within the 10-day consent validity and can become unexecutable if Material Information arises before completion, requiring a fresh Request for Consent."
+  },
+  {
+   "topic": "senior self-approval chains",
+   "clause": "Rule 18 Chief Executive Officer trading ... Rule 19 Director trading ... Where the Chair proposes to make any Trade ... the prior written consent of the Chair of the Audit & Risk Committee shall be required.",
+   "why_it_matters": "For a collar involving the CEO, a Director or the Chair, the consent chain escalates to a different, more senior approver, which must be factored into execution timelines and confidentiality of the request."
+  },
+  {
+   "topic": "margin call sale carve-out",
+   "clause": "selling EBOS Securities to satisfy a call under a margin loan except where the holder of EBOS Securities has no control over the sale",
+   "why_it_matters": "Even if a secured facility existed in breach of Rule 7, a forced sale the holder has no control over is treated as outside the banned activity, but the underlying margin lending or security arrangement is prohibited from inception regardless."
+  },
+  {
+   "topic": "dual market disclosure",
+   "clause": "Trading in EBOS Securities by a Director must be advised to NZX and ASX within 5 trading days ... All Trades in EBOS Securities by a Senior Manager must be disclosed to NZX (and will also be disclosed to ASX) within [5 trading days, or 20 working days for specified acquisitions].",
+   "why_it_matters": "Entry into, and unwind of, the collar's derivative legs by a Director or Senior Manager each trigger separate NZX and ASX disclosure obligations with different timeframes depending on the trade type."
+  }
+ ],
+ "summary": "A funded collar (a loan secured on the collared shares) is not possible under this policy: Rule 7 imposes an absolute, unconditional ban on margin lending and any arrangement in which EBOS Securities are used as security for a loan, extending to Restricted Persons' Associates, with no consent or clearance route. The unfunded derivative legs are, however, structurally available over vested, unrestricted EBOS shares: Rule 8's hedging ban is expressly confined to unvested entitlements and vested entitlements still subject to a holding lock or trading restriction, so a Restricted Person may enter a put/call collar over ordinary vested unrestricted shares (a derivative over EBOS shares is itself an \"EBOS Security\" and its acquisition a \"Trade\") subject to the standing Rule 3 consent regime: prior written CEO approval (Chair approval for the CEO, Directors and the Chair), consent valid for 10 days, refusal kept confidential, and execution outside the two Blackout Periods and the 3-month short-term trading restriction. Consent automatically lapses if Material Information arises before the trade completes, and Directors' and Senior Managers' dealings trigger separate NZX/ASX disclosure within 5 trading days (up to 20 working days for specified acquisition types). In short: the hedge can be structured with consent, but the loan cannot be secured on the shares under this policy as drafted."
+}

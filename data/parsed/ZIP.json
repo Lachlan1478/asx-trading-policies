@@ -1,0 +1,370 @@
+{
+ "symbol": "ZIP",
+ "company": "Zip Co Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "29 November 2023",
+ "date_effective": "",
+ "date_lodged": "5 December 2023",
+ "date_next_review": "2024",
+ "tiers": [
+  {
+   "name": "Zip Personnel",
+   "kind": "all_staff",
+   "description": "All employees and directors of Zip and its related companies (Group); consultants, contractors or other service providers the Board deems included; immediate family members of Directors, Officers, the Group Executive Team and other senior executives; and companies, trusts and entities over which such persons have control or to which they are closely connected. Prohibited Period trading restrictions, the insider trading prohibitions, and the hedging (7.1/8.1), secured financing (8.2) and non-discretionary trading plan (8.3) approval requirements apply to this whole tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors, Officers and members of the Group Executive Team; Zip Personnel at job grade Manager Level 5/Professional Level 6 or above; and other Zip Personnel individually advised by an Approving Officer that they are likely to become aware of inside information. Must obtain prior written approval to trade Zip Securities at all times, including during Trading Periods.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors, Officers and members of the Group Executive Team",
+   "kind": "kmp",
+   "description": "Subset of Designated Persons with continuous holding-disclosure duties and responsibility for ensuring their immediate family members and other closely related parties/associates trade only when they themselves would be permitted to, and for seeking approval before any such associate trades.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Immediate family members, other closely related parties, and companies/trusts/entities controlled by Directors, Officers or Group Executive Team members. Already swept into the definition of Zip Personnel and may only trade when the related Director, Officer or GET member would themselves be permitted to trade.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions or arrangements which operate to limit the economic risk of their security holding (including holdings of securities which are unvested or subject to a holding lock or other escrow) in Zip",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "31 December each year",
+   "end_anchor": "commencement of trade of securities on the ASX on the second ASX trading day following the announcement of Zip's half-year results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "30 June each year",
+   "end_anchor": "commencement of trade of securities on the ASX on the second ASX trading day following the announcement of Zip's full-year results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "30 September each year",
+   "end_anchor": "commencement of trade of securities on the ASX on the second trading day following the announcement of Zip's Q1 quarterly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "31 March each year",
+   "end_anchor": "commencement of trade of securities on the ASX on the second trading day following the announcement of Zip's Q3 quarterly results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board of Zip, in its sole discretion, may impose additional Prohibited Periods applying to all Zip Personnel or to Designated Persons only. 'The Board or Company Secretary may not necessarily be in a position to explain why or for how long the prohibition will be in place.'",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "8.1",
+   "detail": "OTC derivatives are not named. A put/call structure with a bank operates to limit the economic risk of the shareholding and so falls within clause 8.1's blanket prior-written-approval requirement, which applies to every Zip Personnel member regardless of tier or vesting state.",
+   "evidence": "Zip Personnel must not enter transactions or arrangements which operate to limit the economic risk of their security holding (including holdings of securities which are unvested or subject to a holding lock or other escrow) in Zip without first seeking and obtaining prior written approval from the Approving Officer."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.2",
+   "detail": "Designated Persons must obtain prior written approval to trade Zip Securities at all times, including Trading Periods; the broad 'dealing' concept (2.1, 2.3), which covers options and other rights, extends this approval gate to any derivative.",
+   "evidence": "During all periods (including Trading Periods), a Designated Person may only trade Zip Securities with prior written approval."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Zip Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "Absolute ban, with no approval route, on hedging unvested entitlements under any equity-based remuneration scheme. This sits alongside clause 8.1, which purports to allow approval for hedging holdings that are 'unvested or subject to a holding lock' generally; the two provisions are in tension and 7.1's unqualified prohibition should be treated as controlling for unvested scheme entitlements.",
+   "evidence": "Zip Personnel are prohibited from entering transactions or arrangements which limit the economic risk of participating in unvested entitlements under any equity based remuneration schemes."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Zip Personnel",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Hedging of holdings subject to a holding lock or other escrow is expressly contemplated and permitted with prior written approval from the Approving Officer.",
+   "evidence": "Zip Personnel must not enter transactions or arrangements which operate to limit the economic risk of their security holding (including holdings of securities which are unvested or subject to a holding lock or other escrow) in Zip without first seeking and obtaining prior written approval from the Approving Officer."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Zip Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Hedging of any security holding, including fully vested and unrestricted shares, requires prior written approval from the Approving Officer.",
+   "evidence": "Zip Personnel must not enter transactions or arrangements which operate to limit the economic risk of their security holding ... in Zip without first seeking and obtaining prior written approval from the Approving Officer."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.3(b); 8.1",
+   "detail": "Monetisation is not named. A prepaid forward or similar is a dealing as an 'agreement to ... dispose of securities' and, to the extent it limits economic exposure, is also caught by clause 8.1's approval requirement.",
+   "evidence": "entering into an agreement to apply for, acquire or dispose of securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "8.1",
+   "detail": "CFDs are not named. One referencing Zip shares would operate to limit the economic risk of a holding and so requires the same prior written approval as any other hedging arrangement.",
+   "evidence": "Zip Personnel must not enter transactions or arrangements which operate to limit the economic risk of their security holding ... in Zip without first seeking and obtaining prior written approval from the Approving Officer."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "Margin loans are named as an example of a prohibited-without-approval arrangement; permitted only with prior written approval from the Approving Officer.",
+   "evidence": "Zip Personnel must not enter into agreements with lenders with rights over their interests in Zip securities (such as margin loans or other secured financing arrangements) without first seeking and obtaining prior written approval from the Approving Officer."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "Granting a lender rights over an interest in Zip securities is expressly covered and requires prior written approval; not framed as a 'dealing'.",
+   "evidence": "Zip Personnel must not enter into agreements with lenders with rights over their interests in Zip securities (such as margin loans or other secured financing arrangements) without first seeking and obtaining prior written approval from the Approving Officer."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "Any secured financing arrangement in respect of Zip securities is expressly covered and permitted with prior written approval; unlike a blanket ban, the Approving Officer has an approval route (exercised in their absolute discretion).",
+   "evidence": "or other secured financing arrangements) without first seeking and obtaining prior written approval from the Approving Officer."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Zip Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "3.4",
+   "detail": "No holding period, intention test or short-swing rule is defined. Clause 3.4 states only a non-binding guiding principle discouraging active trading.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Chairperson (Directors, Officers or Group Executive Team members); Chair of the Audit and Risk Committee (for the Chairperson); Company Secretary, an Executive Director, or the Chief Financial Officer (for all other Designated Persons)",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4; Securities Trading Notification Form",
+   "evidence": "During all periods (including Trading Periods), a Designated Person may only trade Zip Securities with prior written approval. ... I understand that approval, if granted, will be valid for 7 business days ... A response from the Approving Officer will be communicated within 2 business days following receipt of this Share Trading Notification Form."
+  },
+  {
+   "tier": "Zip Personnel",
+   "type": "approval",
+   "approver": "Chairperson (Directors, Officers or Group Executive Team members); Chair of the Audit and Risk Committee (for the Chairperson); Company Secretary, an Executive Director, or the Chief Financial Officer (for all other Zip Personnel)",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8.1; 8.2; 8.3",
+   "evidence": "Zip Personnel must not enter transactions or arrangements which operate to limit the economic risk of their security holding ... without first seeking and obtaining prior written approval from the Approving Officer. ... The Approving Officer has absolute discretion ... may revoke their approval at any time."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "As a guiding principle, Zip Personnel are discouraged from actively trading in Zip securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Approving Officer",
+   "evidence": "What constitutes 'exceptional circumstances' will be assessed by the Approving Officer on a case by case basis and without limitation may include severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Approving Officer",
+   "evidence": "or a requirement to comply with a court order or other legal obligation."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealings in the Zip's securities which do not result in a change to the beneficial interest of the securities;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Acceptance of a takeover offer;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Trading under an offer made to all or most shareholders (e.g. a Share Purchase Plan)."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "Approving Officer",
+   "evidence": "special permission for exercise/conversion is required to be obtained from the Approving Officer if the application of this Policy would otherwise prevent exercise/conversion of those convertible securities."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Zip Personnel: before entering into any agreement with a lender that has rights over their interests in Zip securities (e.g. a margin loan or other secured financing arrangement), to the Approving Officer, via prior written approval; no fixed deadline stated beyond 'before'."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Approving Officer may permit trading during a Prohibited Period in 'exceptional circumstances' assessed in their absolute discretion (severe financial hardship or a court order/legal obligation given as examples); the Board may also determine that exceptional circumstances apply to a group of Zip Personnel. No exemption exists from the hedging ban on unvested scheme entitlements (7.1).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "confidential ad hoc blackout",
+   "clause": "Any other time as determined by the Board of Zip in its sole discretion. ... The Board or Company Secretary may not necessarily be in a position to explain why or for how long the prohibition will be in place.",
+   "why_it_matters": "An undisclosed Board-imposed blackout can block collar entry, unwind or roll at any time with no explanation given to the executive or the bank."
+  },
+  {
+   "topic": "unvested hedging ban vs. holding-lock approval route",
+   "clause": "7.1 prohibits hedging 'unvested entitlements under any equity based remuneration scheme' outright, while 8.1 allows hedging of holdings 'unvested or subject to a holding lock or other escrow' with prior approval.",
+   "why_it_matters": "A collar cannot be written over unvested scheme entitlements at all; it should be confined to shares that have already vested (whether still holding-locked or fully unrestricted), where 8.1's approval route applies."
+  },
+  {
+   "topic": "secured financing is approvable, not banned",
+   "clause": "Zip Personnel must not enter into agreements with lenders with rights over their interests in Zip securities ... without first seeking and obtaining prior written approval from the Approving Officer.",
+   "why_it_matters": "Unlike an outright ban, the loan leg of a funded collar secured on the shares is structurally available subject to case-by-case, unreviewable and confidential Approving Officer sign-off."
+  },
+  {
+   "topic": "absolute, unreviewable approval discretion",
+   "clause": "The Approving Officer has absolute discretion in considering an application ... is not obliged to provide reasons ... and may revoke their approval at any time. If a request is not approved or an approval revoked, that fact must be kept confidential.",
+   "why_it_matters": "Both legs of the collar (hedge and loan) can be refused or revoked without reasons and without notice, so the bank should not assume durability of an initial approval."
+  },
+  {
+   "topic": "short approval validity window",
+   "clause": "I understand that approval, if granted, will be valid for 7 business days, on the condition that I do not come into possession of price sensitive information before the transaction occurs.",
+   "why_it_matters": "Pricing and execution of the collar and loan must occur within 7 business days of clearance or fresh approval must be sought."
+  },
+  {
+   "topic": "associates already Zip Personnel",
+   "clause": "Zip Personnel ... (c) immediate family members of all Directors ... Officers ... the Group Executive Team and other senior executives ... and (d) companies, trusts and entities over which such Directors, Officers, Group Executive Team members or their immediate family members have control, or otherwise are closely connected to.",
+   "why_it_matters": "A family trust or holding vehicle used to warehouse the collared shares or take the loan is itself Zip Personnel and fully subject to the Policy; it is not a way to route around the approval requirements."
+  },
+  {
+   "topic": "guiding principle against active trading",
+   "clause": "As a guiding principle, Zip Personnel are discouraged from actively trading in Zip securities.",
+   "why_it_matters": "While not a binding rule, this soft discouragement may inform the Approving Officer's discretion when asked to approve a collar with frequent rolls or adjustments."
+  }
+ ],
+ "summary": "A funded collar over vested Zip shares is structurally available but fully discretionary. Both the derivative legs (put and call, caught as a hedging arrangement under clause 8.1) and the secured loan (clause 8.2) require prior written approval from an Approving Officer (the Chairperson for Directors/Officers/GET, or the Company Secretary/CFO/Executive Director for other Zip Personnel), executed outside the four annual Prohibited Periods and any confidential Board-imposed blackout, and while the executive holds no inside information. Hedging of unvested entitlements under an equity-based remuneration scheme is absolutely prohibited by clause 7.1 with no approval route, so the collar must be confined to shares that have already vested. Approval, once granted, is valid for only 7 business days and may be refused or revoked at the Approving Officer's absolute and unreviewable discretion, kept confidential if declined, so timing and durability are real execution risks. Family trusts or entities controlled by the executive do not escape these requirements, as they are themselves defined as Zip Personnel."
+}

@@ -1,0 +1,489 @@
+{
+ "symbol": "MTS",
+ "company": "Metcash Limited",
+ "title": "Metcash Securities Trading Policy",
+ "date_approved": "24 February 2023",
+ "date_effective": "1 March 2023",
+ "date_lodged": "1 March 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Team Members",
+   "kind": "all_staff",
+   "description": "All directors, employees, contractors and consultants of Metcash. Subject to the insider trading ban, the Front Page Test, the short-term/speculative dealing and short-selling bans, and the hedging/derivative ban on unvested or holding-locked incentive plan Securities.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors, GLT and Specified Management",
+   "kind": "restricted",
+   "description": "Directors, the Group Leadership Team and Specified Managers collectively; subject to Closed Periods (1 October/1 April to results announcement, plus Board-specified periods) and the prior written approval regime for dealing during a prohibited period.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of Metcash Limited; approved by the Chair (or the Chair of the Audit, Risk and Compliance Committee for the Chair's own dealings); must advise the Company Secretary of margin call loan financing and notify the Company Secretary promptly after any trade.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "GLT",
+   "kind": "kmp",
+   "description": "Group Leadership Team (the Group CEO and determined direct reports); approved by the Chair; must advise the Company Secretary of margin call loan financing (register maintained), but no express post-trade notification duty is stated (unlike Directors).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Specified Management",
+   "kind": "restricted",
+   "description": "Persons likely to have access to material information by virtue of role, including subsidiary directors/company secretaries, General Manager level and above, direct support staff of Directors/GLT, and Finance, Risk and Assurance, Legal, Corporate Affairs and Investor Relations staff. Approved by the Group CEO; no margin loan register obligation is stated for this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A family member who may influence or be influenced by a Director, GLT member or Specified Manager (spouse, partner, children, partner's children, dependants), and a company or other entity the Director, GLT member or Specified Manager can control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "no",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "a hedging or other derivative transaction in connection with Securities: (a) acquired under any executive or employee incentive plan prior to vesting; or (b) whilst they are subject to a holding lock or restriction on dealing under the terms of any executive or employee incentive plan",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Directors, GLT and Specified Management"
+   ],
+   "start_anchor": "1 October",
+   "end_anchor": "10am (Sydney time) on the next trading day following the ASX announcement of the half year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Directors, GLT and Specified Management"
+   ],
+   "start_anchor": "1 April",
+   "end_anchor": "10am (Sydney time) on the next trading day following the ASX announcement of the preliminary full year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may restrict Directors, GLT members and Specified Managers from dealing during any other period if, in its opinion, information available to them could affect the price or value of Securities (e.g. around a market-sensitive announcement); not stated to be confidential, though a refused or revoked approval must be kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Team Members",
+   "security_state": "unvested",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Ban on hedging or other derivative transactions in connection with Securities acquired under an incentive plan prior to vesting.",
+   "evidence": "Team Members must not enter into a hedging or other derivative transaction in connection with Securities: (a) acquired under any executive or employee incentive plan prior to vesting"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Team Members",
+   "security_state": "vested_locked",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Ban extends to incentive plan Securities that have vested but remain subject to a holding lock or dealing restriction.",
+   "evidence": "whilst they are subject to a holding lock or restriction on dealing under the terms of any executive or employee incentive plan."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Team Members",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1.3 (Securities); 6.1",
+   "detail": "'Securities' is defined as Metcash shares, options, notes, performance rights, debentures and other securities on issue or granted by Metcash; a third-party (e.g. bank-written) OTC derivative is not itself 'Securities'. Section 6.1's hedging/derivative ban is expressly limited to unvested or holding-locked incentive plan Securities, so an OTC put/call over fully vested, unrestricted shares is not reached by the deal-in-Securities regime (Closed Periods, approval) or by section 6.1.",
+   "evidence": "Securities means all Metcash shares, options, notes, performance rights, debentures and other securities on issue or granted from time to time"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Team Members",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Hedging or other derivative transactions in connection with Securities acquired under an incentive plan prior to vesting are banned to protect the alignment intended by performance/time hurdles.",
+   "evidence": "Team Members must not enter into a hedging or other derivative transaction in connection with Securities: (a) acquired under any executive or employee incentive plan prior to vesting"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Team Members",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Ban extends to incentive plan Securities vested but still subject to a holding lock or dealing restriction.",
+   "evidence": "whilst they are subject to a holding lock or restriction on dealing under the terms of any executive or employee incentive plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Team Members",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Section 6.1 is the only hedging provision and applies only to unvested or holding-locked incentive plan Securities; hedging fully vested, unrestricted shares (whether plan-sourced or on-market) is not addressed or restricted.",
+   "evidence": "Team Members must not enter into a hedging or other derivative transaction in connection with Securities: (a) acquired under any executive or employee incentive plan prior to vesting; or (b) whilst they are subject to a holding lock or restriction on dealing"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Team Members",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Monetisation is not named; a forward sale or similar structure eliminating economic exposure is an 'other derivative transaction' caught by the section 6.1 ban for unvested incentive Securities.",
+   "evidence": "Team Members must not enter into a hedging or other derivative transaction in connection with Securities: (a) acquired under any executive or employee incentive plan prior to vesting"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Team Members",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Same reasoning applies to incentive plan Securities that have vested but remain subject to a holding lock.",
+   "evidence": "whilst they are subject to a holding lock or restriction on dealing under the terms of any executive or employee incentive plan."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Team Members",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1.3 (Securities); 6.1",
+   "detail": "A monetisation structure with a third-party bank is not 'Securities' as defined, and section 6.1 does not reach fully vested, unrestricted holdings, so it is not addressed by the policy's substantive restrictions.",
+   "evidence": "Securities means all Metcash shares, options, notes, performance rights, debentures and other securities on issue or granted from time to time"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Team Members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4(b)",
+   "detail": "Outright ban on short-selling Securities, defined as borrowing and selling with intent to buy back at a lower price.",
+   "evidence": "short-sell Securities, which involves borrowing the Securities and selling them in the hope that you will be able to buy the Securities back at a lower price at some point in the future to make a profit."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending by a Team Member is not named anywhere in the policy; only a secured lender's own enforcement rights are mentioned.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Team Members",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1.3 (Securities)",
+   "detail": "CFDs are not named. Like other third-party financial products, a CFD is not 'Securities' as defined, so it is not reached by the Closed Period, approval or short-term dealing rules; ordinary insider trading and Front Page Test obligations still apply.",
+   "evidence": "Securities means all Metcash shares, options, notes, performance rights, debentures and other securities on issue or granted from time to time"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Margin call loans financing acquisitions of Securities are permitted provided the arrangement is advised to the Company Secretary for a register; the Company Secretary must also advise the Chair of any lender intention to sell.",
+   "evidence": "Directors and members of the GLT who finance acquisitions of Securities by margin call loans must advise the Company Secretary of these arrangements who must maintain a register of these arrangements and provide a copy to the Board on any change (addition or deletion) to the register."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "GLT",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Same register/disclosure obligation as Directors.",
+   "evidence": "Directors and members of the GLT who finance acquisitions of Securities by margin call loans must advise the Company Secretary of these arrangements who must maintain a register of these arrangements"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Specified Management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The margin loan disclosure/register obligation in section 6.2 is stated only for Directors and GLT members, not for Specified Management or other Team Members.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Granting security is not named as such, but a margin loan (a form of encumbrance) must be registered, and the policy separately preserves the existing obligation to notify the Company Secretary of any change in beneficial ownership, which a security interest may trigger.",
+   "evidence": "This Policy in no way alters the obligation of Directors and GLT members to notify the Company Secretary of any change in the beneficial ownership of Securities held by them."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "GLT",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Same beneficial ownership change notification obligation as Directors.",
+   "evidence": "This Policy in no way alters the obligation of Directors and GLT members to notify the Company Secretary of any change in the beneficial ownership of Securities held by them."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Only margin call loans that finance acquisitions of Securities are expressly addressed; it is unclear whether the register/disclosure obligation extends to a loan secured on already-held vested shares that does not finance a new acquisition.",
+   "evidence": "Directors and members of the GLT who finance acquisitions of Securities by margin call loans must advise the Company Secretary of these arrangements"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "GLT",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Same scope and ambiguity as for Directors.",
+   "evidence": "Directors and members of the GLT who finance acquisitions of Securities by margin call loans must advise the Company Secretary of these arrangements"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Specified Management",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No secured financing provision applies to Specified Management or other Team Members.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Team Members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4(a)",
+   "detail": "Ban on speculative or short-term dealing, defined to include buying and selling on market within 3 months; selling incentive plan Securities within 3 months of vesting/exercise is expressly carved out.",
+   "evidence": "deal in Securities on a speculative or short-term trading basis, which includes buying and selling Securities on market within a 3 month period, and entering into other short-term dealings."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of Metcash Limited (Chair of the Audit, Risk and Compliance Committee approves the Chair's own dealings)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "4.1-4.10",
+   "evidence": "A Director, GLT member or Specified Manager who wishes to deal in Securities during a prohibited period referred to in section 3.1 must request the approval of: (a) the Chair of Metcash Limited (in the case of Directors/GLT) ... Following any trade, Directors must promptly notify the Company Secretary, ideally by close of business on the day of the trade."
+  },
+  {
+   "tier": "GLT",
+   "type": "approval",
+   "approver": "Chair of Metcash Limited",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.1-4.9",
+   "evidence": "A Director, GLT member or Specified Manager who wishes to deal in Securities during a prohibited period referred to in section 3.1 must request the approval of: (a) the Chair of Metcash Limited (in the case of Directors/GLT)"
+  },
+  {
+   "tier": "Specified Management",
+   "type": "approval",
+   "approver": "Group CEO",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.1-4.9",
+   "evidence": "the Group CEO (in the case of Specified Managers), (each of the above, an Approver). ... If a request is approved, the approved dealing must occur within 5 business days following approval (or such other time specified in the approval)"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Team Members",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and selling on market",
+   "carve_outs": [
+    "selling Securities received following the vesting or exercise of entitlements under an executive or employee incentive plan within 3 months of the vesting or exercise date is not a short-term dealing"
+   ],
+   "evidence": "deal in Securities on a speculative or short-term trading basis, which includes buying and selling Securities on market within a 3 month period, and entering into other short-term dealings."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chair of Metcash Limited / Chair of the Audit, Risk and Compliance Committee / Group CEO (as applicable)",
+   "evidence": "is in severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "specific_dealing",
+   "approver": "Chair of Metcash Limited / Chair of the Audit, Risk and Compliance Committee / Group CEO (as applicable)",
+   "evidence": "is required under a court order or undertaking to dispose of the Securities or is required to do so as part of a family settlement."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "participation in an executive or employee incentive plan operated by Metcash. However, where Securities granted under an executive or employee incentive plan cease to be held under the terms of that plan (e.g. when shares are issued on vesting of performance rights), any dealings in those Securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Securities through a dividend reinvestment plan"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Team Member did not enter into the plan or amend the plan during a blackout period, the plan does not permit the Team Member to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a blackout period, other than in exceptional circumstances"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the Securities (for example, transfers of Securities already held into a superannuation fund or trust of which the Team Member is a beneficiary)"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors and GLT members: on entering a margin call loan that finances acquisition of Securities, disclosed to the Company Secretary, who maintains a register provided to the Board on any addition or deletion",
+   "Directors and GLT members: on becoming aware of a lender's intention to sell Securities to satisfy a margin loan, disclosed to the Company Secretary, who advises the Chair"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Only for dealing during a prohibited period (section 3.1): the Chair of Metcash Limited (Directors/GLT), the Chair of the Audit, Risk and Compliance Committee (for the Chair's own dealings) or the Group CEO (Specified Managers) may grant approval only in exceptional circumstances (severe financial hardship, court order/undertaking or family settlement) and only if the applicant holds no inside information. The Approver need not give reasons, may impose conditions, and may revoke approval at any time without reason; any refusal or revocation must be kept confidential. No exemption authority is stated for the section 6.1 hedging/derivative ban.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "'Securities' excludes third-party derivatives",
+   "clause": "Securities means all Metcash shares, options, notes, performance rights, debentures and other securities on issue or granted from time to time",
+   "why_it_matters": "Because 'Securities' is limited to instruments Metcash itself issues or grants, a bank-written OTC put or call is not 'Securities' under this policy; over vested, unrestricted shares such a derivative falls outside the Closed Period, approval and short-term dealing rules entirely, since section 6.1's hedging/derivative ban is the only provision reaching derivatives and it is expressly confined to unvested or holding-locked incentive securities."
+  },
+  {
+   "topic": "hedging ban limited to incentive-plan securities",
+   "clause": "Team Members must not enter into a hedging or other derivative transaction in connection with Securities: (a) acquired under any executive or employee incentive plan prior to vesting; or (b) whilst they are subject to a holding lock or restriction on dealing under the terms of any executive or employee incentive plan.",
+   "why_it_matters": "The ban does not reach ordinary on-market vested shares, or plan shares once vesting and any holding lock have ended, so a collar over such shares is not prohibited by this clause."
+  },
+  {
+   "topic": "margin loan disclosure limited to acquisition financing, Directors/GLT only",
+   "clause": "Directors and members of the GLT who finance acquisitions of Securities by margin call loans must advise the Company Secretary of these arrangements",
+   "why_it_matters": "The disclosure/register obligation is worded around financing new acquisitions and applies only to Directors and GLT, not Specified Management or other Team Members; it is unclear whether a loan secured on already-held vested shares (rather than financing a purchase) triggers the same obligation, so the bank should seek voluntary disclosure or Board sign-off for certainty."
+  },
+  {
+   "topic": "lender enforcement exempted",
+   "clause": "a disposal of Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "If the bank ever enforces its security and sells the collared shares, that sale is excluded from the short-term dealing, Closed Period and outside-period rules, though it remains subject to the insider trading law generally."
+  },
+  {
+   "topic": "confidential refusal/revocation, discretionary conditions",
+   "clause": "The Approver may request more information from the applicant, grant the request, refuse the request or impose conditions on the dealing. ... If a request is not approved or an approval is revoked, that fact must be kept confidential.",
+   "why_it_matters": "Even where a dealing does require approval (e.g. a collar entered while shares remain locked, or during a prohibited period), the Approver can impose bespoke conditions on the collar's terms and can revoke a granted approval at any time without reason."
+  }
+ ],
+ "summary": "A funded collar over fully vested, unrestricted Metcash shares appears largely unrestricted by this policy: 'Securities' is defined narrowly as Metcash's own shares, options, notes, performance rights and debentures, so a bank-written OTC put and call are not 'Securities' and fall outside the Closed Period, approval and short-term dealing rules; the only hedging/derivative prohibition (section 6.1) is expressly confined to Securities that are unvested or still subject to a holding lock under an incentive plan. The loan leg is also workable: Directors and GLT members who finance acquisitions of Securities by margin call loans need only advise the Company Secretary for a register (with the Chair told of any lender intention to sell) rather than seek approval, though it is unclear whether this notification duty extends to a loan secured on already-vested shares rather than financing a purchase, and it does not extend to Specified Management at all. If the shares remain subject to a holding lock, or dealing occurs within a Closed Period (1 October to half-year results; 1 April to full-year results) or another Board-specified restricted period, prior written approval from the Chair (or the Group CEO for Specified Managers) is required, and is discretionary, conditional and revocable without reason. A secured lender's enforcement sale is expressly excluded from the short-term dealing and Closed Period rules. Overall, once shares are vested and unrestricted, this policy permits a funded collar with only light-touch disclosure, making it comparatively more accommodating than policies with a broader dealing/derivatives definition."
+}
