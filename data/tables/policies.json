@@ -14767,6 +14767,644 @@
   ],
   "summary": "A funded collar is not possible for a South32 director, KMP or Lead Team member. Section 6.9 imposes a flat, approval-free ban on four things a funded collar requires: trading derivative products issued over or in respect of South32 securities, entering hedging arrangements that limit exposure to those securities, entering margin lending or other secured financing arrangements in respect of them, and dealing on a short-term (three month) basis; the bans are not confined to unvested or plan securities and extend to spouses, controlled companies and trusts through the PCA definition. The only relief mechanisms are sale-only approvals in exceptional circumstances during a closed period and the open-ended section 8.2 power for the relevant approver to determine that the Policy does not apply to other types of dealings, which is illustrated only by routine Guidance Note 27 exclusions and should not be relied on without a board-level waiver. Below Lead Team level the position differs sharply: section 6.9 does not apply to ordinary Employees or notified Restricted Employees, for whom the option and loan legs are simply dealings requiring, at most, prior approval from the CEO or Company Secretary outside a closed period. Any transaction that were approved must be executed within two business days and, for KMP and their PCAs, notified to Company Secretariat by close of business on the day of dealing and on to ASX, LSE, JSE and the UK FCA."
  },
+ "CPU": {
+  "symbol": "CPU",
+  "company": "Computershare Limited",
+  "title": "Securities Trading Policy",
+  "date_approved": "11 June 2015",
+  "date_effective": "11 June 2015",
+  "date_lodged": "17 June 2015",
+  "date_next_review": "",
+  "tiers": [
+   {
+    "name": "Computershare Person",
+    "kind": "all_staff",
+    "description": "Any director, officer or employee of, or Contractor to, Computershare Limited or a member of the Computershare Group. This tier is bound only by Section C, the insider trading prohibition; the Prohibited Periods, Dealing Windows, clearance procedure, hedging ban, short-selling ban and secured lending notification in Section D apply only to Designated Persons.",
+    "includes_associates": "no"
+   },
+   {
+    "name": "Designated Person",
+    "kind": "restricted",
+    "description": "Each person listed in Schedule 1 (all Directors including the CEO, Company Secretaries, CFO, CIO, Group Treasurer, Group Investor Relations Manager, Group Financial Controller, Group Business Controller, Group Taxation Director, President Global Capital Markets, Group Head of Audit, Group Information Security and Risk Officer, Regional CEOs and Regional CFOs, Group Head of Communications, and other persons nominated by the Group CEO or Group CFO) plus any other person who is key management personnel of the Group within AASB 124. Subject to all Section D requirements.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Director",
+    "kind": "director",
+    "description": "A director of Computershare, including the CEO. A Designated Person with two extra obligations: prior notice of any Dealing in a Dealing Window to the CEO (or the Company Secretary in the CEO's absence), and written advice of every Deal to the Company Secretary within two business days for ASX Listing Rule 3.19A lodgement.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Connected Person",
+    "kind": "associate",
+    "description": "In relation to a Designated Person: their partner and the dependants of the Designated Person or their partner; a company or other entity of which the Designated Person is a director; a trustee where the beneficiaries of the trust include the Designated Person; and any other entity which the Designated Person has an ability to control. The Designated Person must make them aware of the Policy, of the Prohibited Periods, of the clearance procedures and of the duty to notify the Designated Person immediately after any Dealing.",
+    "includes_associates": "not_addressed"
+   }
+  ],
+  "definitions": {
+   "dealing_covers_derivatives": "yes",
+   "dealing_covers_agreements_to_deal": "yes",
+   "dealing_covers_encumbrance": "no",
+   "dealing_covers_stock_lending": "not_addressed",
+   "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+   "securities_include_otc_derivatives": "yes",
+   "hedging_definition": "any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities (or a vested incentive award or grant of such Securities that are still subject to disposal restrictions) made by Computershare to the Designated Person, irrespective of the outcome under that incentive award or grant",
+   "substance_over_form": "not_addressed"
+  },
+  "windows": [
+   {
+    "kind": "open",
+    "applies_to": [
+     "Designated Person",
+     "Director"
+    ],
+    "start_anchor": "10.00am (AEST) on the ASX trading day after the date on which Computershare's half-year financial results are released to the ASX",
+    "end_anchor": "four weeks later",
+    "duration_days": 28
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Designated Person",
+     "Director"
+    ],
+    "start_anchor": "10.00am (AEST) on the ASX trading day after the date on which Computershare's full-year financial results are released to the ASX",
+    "end_anchor": "four weeks later",
+    "duration_days": 28
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Designated Person",
+     "Director"
+    ],
+    "start_anchor": "10.00am (AEST) on the ASX trading day after the date on which Computershare's annual general meeting is held",
+    "end_anchor": "four weeks later",
+    "duration_days": 28
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Designated Person",
+     "Director"
+    ],
+    "start_anchor": "the date Computershare has a current prospectus or other form of disclosure document on issue under which persons may subscribe for Securities",
+    "end_anchor": "while that disclosure document remains on issue",
+    "duration_days": null
+   },
+   {
+    "kind": "closed",
+    "applies_to": [
+     "Designated Person",
+     "Director"
+    ],
+    "start_anchor": "12.01am (AEST) on 15 December",
+    "end_anchor": "10.00am on the ASX trading day after the date on which Computershare's half-year financial results are released to the ASX",
+    "duration_days": null
+   },
+   {
+    "kind": "closed",
+    "applies_to": [
+     "Designated Person",
+     "Director"
+    ],
+    "start_anchor": "12.01am (AEST) on 15 June",
+    "end_anchor": "10.00am on the ASX trading day after the date on which Computershare's full-year financial results are released to the ASX",
+    "duration_days": null
+   }
+  ],
+  "ad_hoc_blackout_authority": "The Board may designate any other period as a Prohibited Period from time to time; it must be notified to each Designated Person, so it is not confidential as against them. The Policy does not say whether such a designation is announced to the market.",
+  "rules": [
+   {
+    "topic": "derivatives",
+    "tier": "Designated Person",
+    "security_state": "vested_unrestricted",
+    "venue": "otc",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "B (Derivatives); D.2; D.5",
+    "detail": "Derivatives are defined by reference to section 761D of the Corporations Act and the definition expressly names collars, with no exchange-traded limitation. Section D.5 expressly permits Derivatives over Securities that have fully vested and are free of disposal restrictions. Entering a Derivative is a Deal, so clearance from the Nominated Director is required even inside a Dealing Window, and outside a Dealing Window clearance is required under D.3; entry during a Prohibited Period is barred.",
+    "evidence": "once any applicable Computershare Securities have vested, such that any Computershare imposed time and performance hurdles have been satisfied (and any disposal restrictions on vested Securities have been lifted), Derivatives may be used in relation to those Securities, in which case the use of those Derivatives must comply with the insider trading laws and this Policy."
+   },
+   {
+    "topic": "derivatives",
+    "tier": "Designated Person",
+    "security_state": "unvested",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.5",
+    "detail": "Any arrangement or agreement, including a Derivative, that may limit the economic risk related to an unvested incentive award or grant is banned outright, irrespective of the outcome under the award. No clearance route is offered.",
+    "evidence": "A Designated Person must not enter into any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities"
+   },
+   {
+    "topic": "derivatives",
+    "tier": "Designated Person",
+    "security_state": "vested_locked",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.5",
+    "detail": "The ban extends to vested incentive awards or grants that remain subject to Computershare-imposed disposal restrictions; only once those restrictions are lifted may Derivatives be used.",
+    "evidence": "(or a vested incentive award or grant of such Securities that are still subject to disposal restrictions) made by Computershare to the Designated Person, irrespective of the outcome under that incentive award or grant."
+   },
+   {
+    "topic": "derivatives",
+    "tier": "Computershare Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted",
+    "mechanism": "express",
+    "floor": "",
+    "section": "C.1; D",
+    "detail": "The Section D requirements, including the clearance procedure and the hedging ban, apply only to Designated Persons. An officer or employee who is not a Designated Person is bound only by the insider trading prohibition.",
+    "evidence": "this Policy imposes obligations beyond those imposed by the law on each Designated Person with respect to Dealing in Computershare Securities, as described in more detail in Section D below."
+   },
+   {
+    "topic": "hedging",
+    "tier": "Designated Person",
+    "security_state": "vested_unrestricted",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.5",
+    "detail": "The hedging prohibition is deliberately limited to unvested awards and vested awards still subject to disposal restrictions. Once hurdles are satisfied and disposal restrictions are lifted, Derivatives may be used over those Securities, subject to the insider trading laws, the Prohibited Periods and the D.4 clearance procedure. Shares acquired otherwise than under an incentive award are not caught by D.5 at all.",
+    "evidence": "However, once any applicable Computershare Securities have vested ... Derivatives may be used in relation to those Securities, in which case the use of those Derivatives must comply with the insider trading laws and this Policy."
+   },
+   {
+    "topic": "hedging",
+    "tier": "Designated Person",
+    "security_state": "unvested",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.5",
+    "detail": "Outright ban on any arrangement limiting economic risk on an unvested incentive award or grant.",
+    "evidence": "A Designated Person must not enter into any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities ... irrespective of the outcome under that incentive award or grant."
+   },
+   {
+    "topic": "hedging",
+    "tier": "Designated Person",
+    "security_state": "vested_locked",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.5",
+    "detail": "Vested awards still subject to Computershare-imposed disposal restrictions cannot be hedged.",
+    "evidence": "(or a vested incentive award or grant of such Securities that are still subject to disposal restrictions)"
+   },
+   {
+    "topic": "hedging",
+    "tier": "Computershare Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Section D.5 binds only Designated Persons; the Policy is silent on hedging by other Computershare People.",
+    "evidence": ""
+   },
+   {
+    "topic": "monetisation",
+    "tier": "Designated Person",
+    "security_state": "vested_unrestricted",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "B (Deal, Derivatives); D.2-D.4",
+    "detail": "Monetisation is not named as such, but a prepaid forward, collar or similar structure is the entry into a Derivative in relation to Securities, or an agreement to dispose of Securities, and so is a Deal requiring clearance from the Nominated Director. Over fully vested unrestricted Securities there is no substantive bar; the loan leg is separately addressed by D.11 rather than prohibited.",
+    "evidence": "Deal means, in relation to Securities: ... (c) the entry into a Derivative in relation to the Securities; (d) the entry into an agreement to do any of the above"
+   },
+   {
+    "topic": "monetisation",
+    "tier": "Designated Person",
+    "security_state": "unvested",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "via_hedging_definition",
+    "floor": "",
+    "section": "D.5",
+    "detail": "A monetisation over unvested or still-restricted award Securities is an arrangement limiting economic risk on that award and is caught by the D.5 ban.",
+    "evidence": "A Designated Person must not enter into any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities"
+   },
+   {
+    "topic": "short_selling",
+    "tier": "Designated Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.10",
+    "detail": "Absolute ban at any time, including within a Dealing Window, on entering an arrangement to short sell Computershare Securities. A covered collar over shares actually held is not a short sale, but a cash-settled structure over shares the executive does not own would be exposed to this clause.",
+    "evidence": "A Designated Person must not enter into an arrangement to short sell Computershare Securities at any time."
+   },
+   {
+    "topic": "short_selling",
+    "tier": "Computershare Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "The short selling ban in D.10 applies only to Designated Persons.",
+    "evidence": ""
+   },
+   {
+    "topic": "stock_lending",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Securities lending or stock borrowing is not named anywhere in the Policy and does not appear in the definition of Deal.",
+    "evidence": ""
+   },
+   {
+    "topic": "cfd",
+    "tier": "Designated Person",
+    "security_state": "vested_unrestricted",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "B (Deal, Derivatives); D.2",
+    "detail": "CFDs are not named. A CFD is a Derivative within section 761D, so entering one in relation to Computershare Securities is a Deal requiring clearance; a short CFD would separately breach the D.10 short selling ban, and any CFD over unvested or restricted award Securities would breach D.5.",
+    "evidence": "Subject to Section D.5 of this Policy, if a Designated Person intends to Deal in a Derivative over Computershare Securities during a Dealing Window then the Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4."
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "Designated Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "express",
+    "floor": "",
+    "section": "B (Deal); D.11; F",
+    "detail": "Margin lending is expressly contemplated and not prohibited. Entering the arrangement is not itself listed as a Deal; only a disposal resulting from the secured lender exercising its rights is. The only affirmative obligation is D.11: immediate notice to the Nominated Director once the lender demands payment and there is a risk the demand cannot be met without disposing of Computershare Securities. Giving that notice is the precondition to the forced sale being an exempt Dealing.",
+    "evidence": "A Designated Person must inform the relevant Nominated Director immediately if all of the following circumstances apply: the Designated Person holds Computershare Securities that have been provided as security in relation to a lending arrangement; circumstances have arisen in which the secured lender demands payment under the lending arrangement; and there is a risk that the demand will not be able to be satisfied without the disposal of Computershare Securities."
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "Computershare Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "D.11 applies only to Designated Persons.",
+    "evidence": ""
+   },
+   {
+    "topic": "encumbrance",
+    "tier": "Designated Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted",
+    "mechanism": "implied",
+    "floor": "",
+    "section": "B (Deal); D.11",
+    "detail": "Granting security, a charge or a pledge over Computershare Securities is not listed in the definition of Deal and is not prohibited. The Policy assumes Designated Persons may hold Securities provided as security under a lending arrangement and regulates only the distress scenario. No prior clearance or disclosure at inception is required by the Policy.",
+    "evidence": "the Designated Person holds Computershare Securities that have been provided as security in relation to a lending arrangement"
+   },
+   {
+    "topic": "encumbrance",
+    "tier": "Designated Person",
+    "security_state": "unvested",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "The Policy does not say whether unvested or restricted incentive Securities may be pledged; D.5 addresses only arrangements limiting economic risk, and plan rules are outside this document.",
+    "evidence": ""
+   },
+   {
+    "topic": "secured_financing",
+    "tier": "Designated Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.11; F",
+    "detail": "There is no prohibition on secured financing of any kind. Secured lending arrangements over Computershare Securities are expressly contemplated, subject only to the conditional D.11 notice to the Nominated Director on a demand that risks forcing a sale, and an involuntary disposal by the lender is an exempt Dealing provided that notice was given beforehand.",
+    "evidence": "an involuntary disposal of Computershare Securities that results from a lender exercising its rights under a secured lending arrangement provided that the Designated Person had, before the disposal, informed the Nominated Director of the risk of the disposal in accordance with Section D.11 of this Policy;"
+   },
+   {
+    "topic": "secured_financing",
+    "tier": "Computershare Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Section D does not apply to Computershare People who are not Designated Persons; nothing in the Policy restricts their secured financing.",
+    "evidence": ""
+   },
+   {
+    "topic": "short_term",
+    "tier": "Designated Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "D.9",
+    "detail": "There is no holding period or short-term trading ban. A Designated Person is only encouraged to be a long-term holder and must obtain D.4 clearance to buy and sell within the same Dealing Window; clearance is not required where the dealing is the vesting or exercise of plan options or rights and the sale of the underlying Securities in the same Dealing Window.",
+    "evidence": "a Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4 if they intend to buy and sell Computershare Securities within the same Dealing Window."
+   },
+   {
+    "topic": "short_term",
+    "tier": "Computershare Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "D.9",
+    "detail": "Only hortatory encouragement to be a long-term holder; no rule.",
+    "evidence": "Each director, officer and employee of the Computershare Group is encouraged to be a long-term holder of Computershare Securities."
+   },
+   {
+    "topic": "derivatives",
+    "tier": "Connected Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "implied",
+    "floor": "",
+    "section": "D.6; D.7",
+    "detail": "Connected Persons (partner, dependants, entities of which the Designated Person is a director, trusts benefiting the Designated Person, and entities the Designated Person can control) must be told of the Prohibited Periods, must observe the clearance procedures through the Designated Person, and must notify the Designated Person immediately after any Dealing. The Policy imposes this indirectly, through the Designated Person's duty to take reasonable steps.",
+    "evidence": "to observe the clearance procedures in this Policy by giving the Designated Person the information necessary for them to lodge the relevant information in respect of the Connected Person's Dealings"
+   },
+   {
+    "topic": "hedging",
+    "tier": "Connected Person",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "D.5 is drafted as an obligation of the Designated Person over awards made to that person; it is not expressly extended to Connected Persons, although a Designated Person could not do indirectly what D.5 forbids.",
+    "evidence": ""
+   }
+  ],
+  "clearance": [
+   {
+    "tier": "Designated Person",
+    "type": "approval",
+    "approver": "Nominated Director: Chairman of the Risk and Audit Committee for the Chairman of the Board; Chairman of the Board for a Director and for the CEO; the CEO for any other Designated Person",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": 2,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "express",
+    "post_trade_to": "",
+    "post_trade_deadline": "",
+    "section": "D.2, D.3, D.4, D.9",
+    "evidence": "A response to a request for clearance to Deal must be given to a Designated Person in writing (by email or otherwise) within two business days of the receipt of the request. A Designated Person who receives clearance to Deal from the Nominated Director in accordance with this procedure must Deal as soon as possible after receiving the Nominated Director's response"
+   },
+   {
+    "tier": "Director",
+    "type": "notification",
+    "approver": "CEO (or in his or her absence the Company Secretary) receives prior notice of Dealings in a Dealing Window; the Chairman of the Board is the Nominated Director for clearances, and the Chairman of the Risk and Audit Committee for the Chairman of the Board",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": 2,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "express",
+    "post_trade_to": "Company Secretary, who lodges the Appendix 3Y with ASX under Listing Rule 3.19A and discloses whether clearance was granted to Deal during a Prohibited Period",
+    "post_trade_deadline": "as soon as possible after the Dealing is transacted and in any event within two business days; ASX lodgement within five business days",
+    "section": "D.2, D.4, D.8",
+    "evidence": "A written advice (by email or otherwise) of any Deal in Computershare Securities by a Director must be provided to the Company Secretary as soon as possible after the Dealing is transacted and, in any event, within two business days after the Dealing is transacted."
+   },
+   {
+    "tier": "Computershare Person",
+    "type": "none",
+    "approver": "",
+    "form": "unspecified",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "not_addressed",
+    "post_trade_to": "",
+    "post_trade_deadline": "",
+    "section": "C.1",
+    "evidence": "It is the personal responsibility of each Computershare Person to ensure that they comply with the insider trading laws."
+   },
+   {
+    "tier": "Connected Person",
+    "type": "approval",
+    "approver": "Nominated Director, via the Designated Person",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": 2,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "implied",
+    "post_trade_to": "the Designated Person",
+    "post_trade_deadline": "immediately after any Dealing in Computershare's Securities has been transacted",
+    "section": "D.6",
+    "evidence": "to notify them immediately after any Dealing in Computershare's Securities has been transacted."
+   }
+  ],
+  "short_term": [
+   {
+    "tier": "Designated Person",
+    "type": "buy_sell_window",
+    "months": null,
+    "basis": "buying and selling within the same Dealing Window",
+    "carve_outs": [
+     "Dealing relating to the vesting or exercise of options over, or rights to, Computershare Securities under an employee equity incentive plan and the subsequent sale of some or all of the underlying Securities within the same Dealing Window"
+    ],
+    "evidence": "a Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4 if they intend to buy and sell Computershare Securities within the same Dealing Window."
+   },
+   {
+    "tier": "Computershare Person",
+    "type": "not_addressed",
+    "months": null,
+    "basis": "",
+    "carve_outs": [],
+    "evidence": "Each director, officer and employee of the Computershare Group is encouraged to be a long-term holder of Computershare Securities."
+   }
+  ],
+  "exceptions": [
+   {
+    "kind": "hardship",
+    "scope": "sale_only",
+    "approver": "Nominated Director, in his or her sole discretion",
+    "evidence": "a Designated Person may apply for, and be granted, clearance to sell or otherwise dispose of (but not purchase) Computershare Securities during a Prohibited Period where they: are in severe financial hardship or other exceptional circumstances apply"
+   },
+   {
+    "kind": "court_order",
+    "scope": "sale_only",
+    "approver": "Nominated Director",
+    "evidence": "where the Designated Person is compelled by court order, or otherwise by an overriding legal or regulatory requirement, to sell or otherwise dispose of the relevant Computershare Securities."
+   },
+   {
+    "kind": "secured_lender_sale",
+    "scope": "sale_only",
+    "approver": "no approval required, but prior notice to the Nominated Director under D.11 is a condition",
+    "evidence": "an involuntary disposal of Computershare Securities that results from a lender exercising its rights under a secured lending arrangement provided that the Designated Person had, before the disposal, informed the Nominated Director of the risk of the disposal in accordance with Section D.11 of this Policy;"
+   },
+   {
+    "kind": "no_change_beneficial_interest",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "a Dealing by a Designated Person with an associated person whose interest in the Securities is to be treated by virtue of the Corporations Act as the Designated Person's interest such that there is no change in the beneficial interest in the Computershare Securities."
+   },
+   {
+    "kind": "non_discretionary_plan",
+    "scope": "acquisition_only",
+    "approver": "",
+    "evidence": "During a Prohibited Period, a Designated Person (or a trustee on behalf of the Designated Person) may acquire Computershare Securities under a non-discretionary trading plan (\"Trading Plan\") which has been established under, or in relation to, an employee equity incentive plan"
+   },
+   {
+    "kind": "plan_dealing",
+    "scope": "specific_dealing",
+    "approver": "Nominated Director for exercises and subsequent sales",
+    "evidence": "Where a Designated Person applies or subscribes for, is granted or acquires Securities (except Securities acquired on the exercise of Securities ...) under an employee equity incentive plan at a time that falls outside a Prohibited Period, the Designated Person is not required to seek clearance of those Dealings under Section D."
+   },
+   {
+    "kind": "dividend_plan",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "undertakings, elections or trading under an offer or an invitation which has been made to all or most shareholders, including a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back where the document that determines the timing and structure of the offer has been approved by the Board;"
+   },
+   {
+    "kind": "takeover",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "undertakings to accept, or the acceptance of, a takeover offer that has been publicly made for Computershare;"
+   },
+   {
+    "kind": "other",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "transfers of Computershare Securities held in a superannuation fund or other saving scheme in which the Designated Person is a beneficiary;"
+   },
+   {
+    "kind": "other",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "a Dealing by a Designated Person where there is a transfer of Computershare Securities into a charitable foundation and the Designated Person retains a relevant interest in the Computershare Securities;"
+   },
+   {
+    "kind": "non_discretionary_plan",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Computershare Securities) where the assets of the fund or other scheme are invested at the discretion of a third party;"
+   }
+  ],
+  "financing": {
+   "secured_financing_scope": "not_addressed",
+   "unvested_as_collateral": "not_addressed",
+   "transfer_into_margin_account_is_dealing": "not_addressed",
+   "forced_sale_in_closed_period": "excluded_dealing",
+   "margin_call_sale_needs_clearance": "no",
+   "price_trigger_guidance": "No price or loan-to-value trigger is specified. The trigger for notification is event-based: the lender has demanded payment and there is a risk that the demand cannot be satisfied without disposing of Computershare Securities.",
+   "financing_disclosure": [
+    "Designated Person; on the lender demanding payment where there is a risk it cannot be met without disposing of Computershare Securities (not at inception, and not annually); the relevant Nominated Director; immediately",
+    "Director; any Deal (including entry into a Derivative); the Company Secretary, then ASX under Listing Rule 3.19A; within two business days of the Dealing, ASX lodgement within five business days, disclosing whether clearance was granted to Deal during a Prohibited Period"
+   ],
+   "transfer_to_custodian_is_dealing": "not_addressed",
+   "minimum_shareholding_requirement": "No minimum shareholding requirement. Section D.9 only encourages each director, officer and employee to be a long-term holder of Computershare Securities."
+  },
+  "external_documents": [
+   "Computershare Deferred Long Term Incentive Plan and other employee equity incentive plan rules (referred to but not set out; disposal restrictions on vested awards are determined under those rules)",
+   "Schedule 1 list of Designated Persons, as extended by persons nominated by the Group CEO or Group CFO from time to time",
+   "ASX Listing Rule 3.19A notification"
+  ],
+  "exemption_authority": "The Nominated Director has sole discretion to grant clearance to sell (but not purchase) during a Prohibited Period on severe financial hardship or other exceptional circumstances, and must be satisfied the disposal is the only reasonable course of action. The Board may determine exceptional circumstances permitting cancellation of a Trading Plan during a Prohibited Period, and only the Board may amend the Policy. There is no general power to waive the D.5 hedging ban or the D.10 short selling ban.",
+  "jurisdiction_overlays": [
+   "The Policy expressly does not deal with foreign law, while noting that foreign insider trading laws may apply to directors, officers and employees residing outside Australia"
+  ],
+  "bespoke_clauses": [
+   {
+    "topic": "derivatives expressly include collars",
+    "clause": "Derivatives has the meaning given in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars.",
+    "why_it_matters": "The instrument the bank proposes is named in the Policy's own definitions, so there is no ambiguity that a collar is within scope and, over fully vested unrestricted Securities, within what D.5 permits."
+   },
+   {
+    "topic": "hedging ban is vesting-limited",
+    "clause": "once any applicable Computershare Securities have vested, such that any Computershare imposed time and performance hurdles have been satisfied (and any disposal restrictions on vested Securities have been lifted), Derivatives may be used in relation to those Securities",
+    "why_it_matters": "This is an express permission, not merely silence, so a collar over fully vested and unrestricted shares is contemplated by the Policy; the bank should obtain confirmation from the Company Secretary that all plan disposal restrictions on the specific parcel have lapsed."
+   },
+   {
+    "topic": "secured lending permitted with a distress-only notice",
+    "clause": "A Designated Person must inform the relevant Nominated Director immediately if all of the following circumstances apply: the Designated Person holds Computershare Securities that have been provided as security in relation to a lending arrangement; circumstances have arisen in which the secured lender demands payment ...; and there is a risk that the demand will not be able to be satisfied without the disposal of Computershare Securities.",
+    "why_it_matters": "There is no prohibition on the loan leg and no inception or annual disclosure, but the executive must give the Nominated Director immediate notice once the bank demands payment in circumstances where shares may have to be sold, and the facility documents should oblige the bank to alert the borrower in time for that notice."
+   },
+   {
+    "topic": "forced sale is an exempt dealing",
+    "clause": "an involuntary disposal of Computershare Securities that results from a lender exercising its rights under a secured lending arrangement provided that the Designated Person had, before the disposal, informed the Nominated Director of the risk of the disposal in accordance with Section D.11",
+    "why_it_matters": "Unusually favourable for a funded structure: lender enforcement, including during a Prohibited Period, is carved out of the Section D requirements entirely, but the carve-out is conditional on the D.11 notice having been given first, so a sudden enforcement without notice would put the executive in breach."
+   },
+   {
+    "topic": "clearance required even in an open window for derivatives",
+    "clause": "Subject to Section D.5 of this Policy, if a Designated Person intends to Deal in a Derivative over Computershare Securities during a Dealing Window then the Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4.",
+    "why_it_matters": "Ordinary share trades in a Dealing Window need no clearance, but every derivative leg does, so entry, roll, restrike, partial unwind and physical settlement of the collar each require a separate written clearance."
+   },
+   {
+    "topic": "no fixed clearance validity, deal as soon as possible",
+    "clause": "A Designated Person who receives clearance to Deal from the Nominated Director in accordance with this procedure must Deal as soon as possible after receiving the Nominated Director's response",
+    "why_it_matters": "There is no stated number of days for which a clearance remains valid, but the obligation to deal 'as soon as possible' means the collar should be pre-negotiated and priced so it can be executed immediately on clearance."
+   },
+   {
+    "topic": "clearance is not approval",
+    "clause": "If clearance to Deal is granted that clearance is not an approval of the proposed Dealing. Each Designated Person remains personally responsible for any decision to Deal and for their compliance with the insider trading laws and this Policy.",
+    "why_it_matters": "Clearance gives the bank no comfort that the company has blessed the structure, so the bank cannot rely on it as a representation of policy compliance and should take its own compliance representations from the executive."
+   },
+   {
+    "topic": "narrow open windows",
+    "clause": "Dealing Window means: the four week period from ... the ASX trading day after the date on which Computershare's half-year financial results are released ... full-year financial results are released ... the annual general meeting is held",
+    "why_it_matters": "This is an open-window policy: for most of the year a Designated Person is outside both a Dealing Window and a Prohibited Period and needs specific clearance under D.3, so scheduling collar entry and any unwind inside one of the three four-week windows is the low-friction path."
+   },
+   {
+    "topic": "Board may add prohibited periods",
+    "clause": "and any other period that may be designated as a prohibited period by the Board from time to time and notified to each Designated Person.",
+    "why_it_matters": "An ad hoc Prohibited Period can block collar entry or a voluntary unwind at short notice, though it must be notified to the Designated Person, so the executive will know."
+   },
+   {
+    "topic": "short selling ban is absolute",
+    "clause": "A Designated Person must not enter into an arrangement to short sell Computershare Securities at any time.",
+    "why_it_matters": "The collar must be fully covered by shares the executive actually holds; an overhedge, or a cash-settled structure over notional shares in excess of the holding, would breach D.10 even inside a Dealing Window."
+   },
+   {
+    "topic": "connected persons and controlled entities",
+    "clause": "Connected Person means, in relation to a Designated Person: (a) the Designated Person's partner and dependants ...; (b) a company or other entity of which the Designated Person is a director; (c) a trustee where the beneficiaries of the trust include the Designated Person; and (d) any other entity which the Designated Person has an ability to control.",
+    "why_it_matters": "A collar written by a family trust or controlled company is treated as within the Policy, so the same clearance and notification path applies wherever the collateral shares are held."
+   },
+   {
+    "topic": "director disclosure of the derivative",
+    "clause": "In accordance with ASX Listing Rule 3.19A, the Company Secretary will lodge with the ASX the necessary notification of the change in the Director's interest in Computershare Securities within five business days after the Dealing is transacted.",
+    "why_it_matters": "A Director's collar is a Deal in Securities, so it becomes publicly disclosed via Appendix 3Y within five business days, and the bank should expect the structure to be visible to the market."
+   }
+  ],
+  "summary": "A funded collar is achievable for a Computershare Designated Person over fully vested Securities, and this is one of the most permissive policies in the set. Section D.5 bans hedging only of unvested incentive awards and vested awards still subject to disposal restrictions, and then expressly states that once hurdles are satisfied and disposal restrictions lifted, Derivatives may be used, with the definition of Derivatives naming collars outright. There is no prohibition on margin lending or secured financing: the loan leg is unregulated at inception, the only obligation being immediate notice to the Nominated Director once the lender demands payment in circumstances where Computershare Securities may have to be sold, and an involuntary disposal by the lender is then an exempt Dealing even in a Prohibited Period. Conditions are that every derivative leg needs prior written clearance from the Nominated Director (the Chairman of the Board for Directors, the CEO for other Designated Persons, responded to within two business days and dealt on as soon as possible), that entry falls outside the 15 June and 15 December Prohibited Periods and ideally inside one of the three four-week Dealing Windows, that the structure is fully covered by shares held so as not to offend the absolute short selling ban, and that a Director's dealing will be disclosed to the ASX within five business days."
+ },
  "FPH": {
   "symbol": "FPH",
   "company": "Fisher & Paykel Healthcare Corporation Limited",
@@ -16880,6 +17518,562 @@
   ],
   "summary": "A funded collar is possible under this policy, which is a short 2011 insider-trading document with no substantive prohibitions on hedging, derivatives, margin lending or secured financing. Both collar legs are PME Securities because the definition expressly captures equity swaps, hedges and exchange-traded or over-the-counter options, cash-settled or not, so entering, rolling, unwinding and settling the collar are each Dealings that require prior written notice of intention to the Company Secretary, a written confirmation of no Inside Information, and advice from the Company Secretary that there is no known reason to preclude the Dealing, with execution inside 7 days. Dealings must fall within one of the three 30-day Trading Windows after the full-year results, half-year results and AGM, outside the two four-week Blackout Periods and any ad hoc Blackout the Board or Chairman declares, and the Chairman may shorten a window or bar an individual; out-of-window execution needs the Chairman's (or for the Chairman, the Board's) approval on exceptional circumstances such as severe financial hardship, subject to any conditions including disclosure. The secured loan is not itself a Dealing and is not prohibited, but full details of any margin lending or other security arrangement affecting the shares must be reported in writing to the Company Secretary after the Dealing, and directors must also meet their notifiable interest obligations and their letter agreement with the company. The main residual risks are the narrow dealing calendar with no forced-sale carve-out, and the rules of the Pro Medicus Share and Option Plans, which are incorporated by reference and may impose hedging or encumbrance restrictions on plan shares that this policy does not."
  },
+ "IAG": {
+  "symbol": "IAG",
+  "company": "Insurance Australia Group Limited",
+  "title": "Group Security Trading Policy",
+  "date_approved": "30 November 2023 (IAG Board, version 2)",
+  "date_effective": "30 November 2023",
+  "date_lodged": "1 December 2023",
+  "date_next_review": "30 November 2025",
+  "tiers": [
+   {
+    "name": "Directors, Employees & Contractors",
+    "kind": "all_staff",
+    "description": "The IAG Group, IAG Board, Subsidiary Non-Executive Directors, Employees and Contractors, at all times including during leave or a career break. Subject only to the Inside Information prohibition and the front page test; no Trading Window, consent, short-term trading or margin lending restriction applies to this tier unless the person is also a Specified Person.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Specified Persons",
+    "kind": "restricted",
+    "description": "Persons likely to come into contact with or have access to key financial, operational or strategic price-sensitive information: Non-Executive Directors of a Specified Board (IAG, Insurance Australia Limited, IAG New Zealand Limited, Insurance Manufacturers of Australia), the GCEO, GLT members, all direct reports to the GLT, and Company Secretaries of a Specified Board, plus other senior management roles the Group General Counsel & Company Secretary determines (reviewed every 6 months). Subject to Trading Windows, prior consent, the three-month short-term trading ban and the margin lending and collateral prohibition.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Non-Executive Directors of a Specified Board",
+    "kind": "director",
+    "description": "A sub-set of Specified Persons distinguished only for the consent route and for post-trade obligations: consent from a more senior approver, plus a confirmation of trade to the Group Company Secretary within 1 business day so an ASX Appendix 3Y can be lodged within 5 business days.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "IAG Board Chair",
+    "kind": "other",
+    "description": "The IAG Board Chair, who approves out-of-window Exceptional Circumstances requests and in-window trading by other Non-Executive Directors, the GCEO and the Group General Counsel & Company Secretary; the Chair's own requests go to the IAG Board Audit Committee Chair.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Closely Related Parties",
+    "kind": "associate",
+    "description": "Closely Related Party as defined in section 9 of the Corporations Act (spouse, dependants, certain other family members, companies and trusts controlled by the person). The Policy applies directly to them, and Specified Persons must take reasonable steps to ensure their compliance.",
+    "includes_associates": "not_addressed"
+   }
+  ],
+  "definitions": {
+   "dealing_covers_derivatives": "yes",
+   "dealing_covers_agreements_to_deal": "yes",
+   "dealing_covers_encumbrance": "no",
+   "dealing_covers_stock_lending": "not_addressed",
+   "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+   "securities_include_otc_derivatives": "yes",
+   "hedging_definition": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding IAG Securities.",
+   "substance_over_form": "not_addressed"
+  },
+  "windows": [
+   {
+    "kind": "open",
+    "applies_to": [
+     "Specified Persons"
+    ],
+    "start_anchor": "one ASX Trading Day after the half year results announcement",
+    "end_anchor": "typically 20 business days later, as notified by e-mail",
+    "duration_days": 20
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Specified Persons"
+    ],
+    "start_anchor": "one ASX Trading Day after the final results announcement",
+    "end_anchor": "typically 20 business days later, as notified by e-mail",
+    "duration_days": 20
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Specified Persons"
+    ],
+    "start_anchor": "one ASX Trading Day after the annual general meeting",
+    "end_anchor": "typically 20 business days later, as notified by e-mail",
+    "duration_days": 20
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Specified Persons"
+    ],
+    "start_anchor": "additional Trading Windows designated by the Board at its discretion (e.g. following the issue of a prospectus or in a period of enhanced disclosure)",
+    "end_anchor": "as designated by the Board",
+    "duration_days": null
+   }
+  ],
+  "ad_hoc_blackout_authority": "The IAG Board may vary, suspend or terminate Trading Windows arrangements, conditionally or unconditionally, at any time; Specified Persons are notified of windows by e-mail and must not assume a window is open in the absence of notification. The Board approves the opening of Trading Windows. Separately, approvers may refuse consent or impose conditions at any time without giving reasons, and a refusal must be kept confidential.",
+  "rules": [
+   {
+    "topic": "derivatives",
+    "tier": "Specified Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "9-10, 14; Definitions (Securities, Dealing in/Trading in IAG Securities)",
+    "detail": "No standalone derivatives rule. Securities expressly include financial products such as warrants, options, contracts for difference and other derivatives relating to, or which operate to limit, leverage or increase the economic risk in holding, IAG securities, whether or not created by IAG or a third party, so there is no venue or issuer limit. Applying for, acquiring or disposing of such a product, or entering into an agreement to do so, is a Dealing and needs a Trading Consent Request approved in a Trading Window, no Inside Information, and satisfaction of the front page test.",
+    "evidence": "financial products (such as warrants, options, performance rights, contracts for difference and other derivatives) relating to, or which operate to limit, leverage or increase the economic risk in holding, those securities ... whether or not the securities or the financial products are issued or created by IAG Group or third parties."
+   },
+   {
+    "topic": "derivatives",
+    "tier": "Directors, Employees & Contractors",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "6-8",
+    "detail": "For those who are not Specified Persons the only constraints on dealing in an IAG derivative are the Inside Information prohibition and the front page test; there is no Trading Window, consent or record-keeping requirement, and the margin lending prohibition in clause 34 does not reach them.",
+    "evidence": "This Policy prohibits you and your Closely Related Parties from Dealing in IAG Securities where you or they are in possession of Inside Information."
+   },
+   {
+    "topic": "hedging",
+    "tier": "all",
+    "security_state": "unvested",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "31-32",
+    "detail": "Absolute, unqualified ban on hedging plan securities before vesting; it applies to any participant in an IAG employee, executive or director equity plan, not only Specified Persons, and extends to Closely Related Parties of Specified Persons. Hedging is defined broadly as any arrangement operating to limit economic risk associated with holding IAG Securities, so a purchased put over unvested rights is caught. No approval route exists.",
+    "evidence": "IAG Securities acquired under an employee, executive or director equity plan operated by IAG by any participant must never be hedged prior to vesting. This requirement also extends to Closely Related Parties of Specified Persons."
+   },
+   {
+    "topic": "hedging",
+    "tier": "all",
+    "security_state": "vested_locked",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "31, 33",
+    "detail": "Vested shares that remain subject to a holding lock or a restriction on dealing under an IAG plan may never be hedged. This is a separate, absolute prohibition from the pre-vesting ban and again has no consent or exception route, so disposal restriction periods must have fully expired before any collar is placed over plan shares.",
+    "evidence": "IAG securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan operated by IAG."
+   },
+   {
+    "topic": "hedging",
+    "tier": "Specified Persons",
+    "security_state": "vested_unrestricted",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "9-10, 31; Definitions (Securities)",
+    "detail": "The hedging prohibition is confined to plan securities that are unvested or under a holding lock, so hedging fully vested unrestricted shares (or shares acquired on market) is not banned. It is, however, a Dealing in Securities because instruments that operate to limit economic risk are themselves Securities, so it needs prior consent, a Trading Window, no Inside Information and satisfaction of the front page test, and any funding leg secured on the shares would separately breach clause 34.",
+    "evidence": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding IAG Securities."
+   },
+   {
+    "topic": "hedging",
+    "tier": "Directors, Employees & Contractors",
+    "security_state": "vested_unrestricted",
+    "venue": "any",
+    "answer": "permitted",
+    "mechanism": "express",
+    "floor": "",
+    "section": "31-33",
+    "detail": "For a plan participant who is not a Specified Person, hedging vested, unlocked IAG securities is not prohibited and no consent or window applies; only the Inside Information prohibition and the front page test bite.",
+    "evidence": "IAG securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan operated by IAG."
+   },
+   {
+    "topic": "monetisation",
+    "tier": "Specified Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "34",
+    "detail": "Monetisation, prepaid forwards and collar-plus-loan structures are not named, but any monetisation that uses IAG Securities as collateral, including a loan secured on collared shares, is caught by the blanket prohibition on using IAG Securities as collateral in any financial transaction. A monetisation with no collateral element (for example a cash-settled hedge over vested unrestricted shares with an unsecured loan) is only a Dealing requiring consent in a Trading Window.",
+    "evidence": "Specified Persons and their Closely Related Parties must not use IAG Securities as collateral in any financial transaction"
+   },
+   {
+    "topic": "short_selling",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Short selling is not mentioned anywhere in the Policy and is not listed in the Dealing definition; only the Inside Information prohibition, the front page test and, for Specified Persons, the window, consent and three-month short-term trading rules would apply to any sale.",
+    "evidence": ""
+   },
+   {
+    "topic": "stock_lending",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Securities lending is not named and is not within the Dealing definition (apply for, acquire or dispose of, or agree to do so). Depending on structure it could be characterised as a disposal, and a lend that secures a financing would be caught by the clause 34 collateral prohibition, but the Policy is silent.",
+    "evidence": ""
+   },
+   {
+    "topic": "cfd",
+    "tier": "Specified Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "30; Definitions (Securities)",
+    "detail": "Contracts for difference are expressly named as a category of Securities rather than in a prohibition, so dealing in one is a Dealing requiring consent within a Trading Window. In practice the three-month short-term trading ban in clause 30 and the front page test would defeat most CFD positions.",
+    "evidence": "financial products (such as warrants, options, performance rights, contracts for difference and other derivatives) relating to, or which operate to limit, leverage or increase the economic risk in holding, those securities"
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "Specified Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "34",
+    "detail": "Entering a margin lending arrangement in respect of IAG Securities, and transferring IAG Securities into an existing margin loan account, are both expressly prohibited for Specified Persons and their Closely Related Parties. This prohibition was added by the 30 November 2023 amendment. There is no vesting-state carve-out, no grandfathering language for pre-existing arrangements, and no approval or exemption route.",
+    "evidence": "Specified Persons and their Closely Related Parties must not use IAG Securities as collateral in any financial transaction, including by: a. entering into a margin lending arrangement in respect of IAG Securities; or b. transferring IAG Securities into an existing margin loan account."
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "Directors, Employees & Contractors",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Clause 34 is located in the 'Other Restrictions' section that applies to Specified Persons and their Closely Related Parties only; the Policy imposes no margin lending restriction on other Directors, Employees or Contractors.",
+    "evidence": ""
+   },
+   {
+    "topic": "encumbrance",
+    "tier": "Specified Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "34",
+    "detail": "Granting security is not itself within the Dealing definition, but clause 34 prohibits the use of IAG Securities as collateral in any financial transaction, which captures a mortgage, charge, pledge or security interest over IAG shares given to any financier, not just a margin lender. The two limbs that follow are expressly non-exhaustive examples.",
+    "evidence": "must not use IAG Securities as collateral in any financial transaction, including by:"
+   },
+   {
+    "topic": "encumbrance",
+    "tier": "Directors, Employees & Contractors",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "No encumbrance restriction applies to Directors, Employees or Contractors who are not Specified Persons, and granting security is not a Dealing under the definition.",
+    "evidence": ""
+   },
+   {
+    "topic": "secured_financing",
+    "tier": "Specified Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "34",
+    "detail": "The prohibition is drafted at the level of collateral in 'any financial transaction', so it is broader than margin lending and covers a bank loan secured on collared shares, a limited recourse loan, a securities-backed lending facility and a prepaid forward supported by a share pledge. No approver may consent to it; the Exceptional Circumstances route in clauses 19 to 23 relieves only the Trading Window requirement, not clause 34.",
+    "evidence": "Specified Persons and their Closely Related Parties must not use IAG Securities as collateral in any financial transaction"
+   },
+   {
+    "topic": "secured_financing",
+    "tier": "Directors, Employees & Contractors",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "The Policy says nothing about secured financing by Directors, Employees or Contractors who are not Specified Persons.",
+    "evidence": ""
+   },
+   {
+    "topic": "short_term",
+    "tier": "Specified Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "30",
+    "detail": "A flat three-month gap is required between a purchase and a sale of any IAG Securities by a Specified Person or their Closely Related Party. No carve-outs are stated for plan vesting, DRP acquisitions or exercise of rights, although the clause 27 exclusions take those dealings outside the Policy generally. Because derivatives are Securities, a collar with a tenor or unwind inside three months of any acquisition is exposed to this ban.",
+    "evidence": "Specified Persons and their Closely Related Parties must not deal in IAG Securities on a short-term trading basis, being a period of three months between purchase and sale of any IAG Securities."
+   },
+   {
+    "topic": "short_term",
+    "tier": "Directors, Employees & Contractors",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "The no-speculative-trading rule is confined to Specified Persons and their Closely Related Parties.",
+    "evidence": ""
+   }
+  ],
+  "clearance": [
+   {
+    "tier": "Specified Persons",
+    "type": "approval",
+    "approver": "Group General Counsel & Company Secretary (including a delegate or alternate) for Specified Persons other than Non-Executive Directors of a Specified Board, the GCEO and the Group General Counsel & Company Secretary",
+    "form": "written",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Company Secretariat Office (record of every trade by the person and their Closely Related Parties, including supporting materials, made available on request; confirmation of trade required where consent was given to deal outside a Trading Window)",
+    "post_trade_deadline": "1 business day after execution for out-of-window trades; otherwise on request",
+    "section": "10, 14-18, 24, 26",
+    "evidence": "Specified Persons must submit a Trading Consent Request requesting consent to a proposed Dealing in IAG Securities per the e-mail issued at the start of each Trading Window (which is to be emailed to trading@iag.com.au) ... Consents to trade ... will be effective for 5 business days (but no later than the last day of the Trading Window), unless a different timeframe is specified in the consent provided."
+   },
+   {
+    "tier": "Non-Executive Directors of a Specified Board",
+    "type": "approval",
+    "approver": "GCEO and Group General Counsel & Company Secretary under the clause 14 table; the roles table at clause 36 instead assigns approval of trading by other Non-Executive Directors, the GCEO and the Group General Counsel & Company Secretary to the IAG Board Chair",
+    "form": "written",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Group Company Secretary (confirmation of trade so an ASX Appendix 3Y can be completed and lodged with the ASX within 5 business days)",
+    "post_trade_deadline": "1 business day after execution of the trade",
+    "section": "14, 25, 36",
+    "evidence": "IAG Directors who undertake a Dealing in IAG Securities following consent must provide the Group Company Secretary within 1 business day of the execution of the trade a confirmation of trade so that an ASX Appendix 3Y can be completed and lodged with the ASX within 5 business days after the change has occurred."
+   },
+   {
+    "tier": "IAG Board Chair",
+    "type": "approval",
+    "approver": "IAG Board Audit Committee Chair (and, if the IAG Board Chair is unavailable to approve others' requests, the Audit Committee Chair steps in; requests from the Audit Committee Chair are approved by the IAG Board Risk Committee Chair)",
+    "form": "written",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Group Company Secretary (confirmation of trade for the ASX Appendix 3Y)",
+    "post_trade_deadline": "1 business day after execution of the trade",
+    "section": "14, 18, 20, 25",
+    "evidence": "IAG Board Chair | IAG Board Audit Committee Chair"
+   },
+   {
+    "tier": "Directors, Employees & Contractors",
+    "type": "none",
+    "approver": "",
+    "form": "unspecified",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "not_addressed",
+    "post_trade_to": "",
+    "post_trade_deadline": "",
+    "section": "6-8, 9",
+    "evidence": "Specified Persons and their Closely Related Parties may only deal in IAG Securities during a Trading Window, and only if they are not in possession of Inside Information and the trade would satisfy the front page test."
+   }
+  ],
+  "short_term": [
+   {
+    "tier": "Specified Persons",
+    "type": "buy_sell_window",
+    "months": 3,
+    "basis": "three months between purchase and sale of any IAG Securities",
+    "carve_outs": [],
+    "evidence": "Specified Persons and their Closely Related Parties must not deal in IAG Securities on a short-term trading basis, being a period of three months between purchase and sale of any IAG Securities."
+   },
+   {
+    "tier": "Directors, Employees & Contractors",
+    "type": "not_addressed",
+    "months": null,
+    "basis": "",
+    "carve_outs": [],
+    "evidence": ""
+   }
+  ],
+  "exceptions": [
+   {
+    "kind": "hardship",
+    "scope": "any_dealing",
+    "approver": "IAG Board Chair (IAG Board Audit Committee Chair for a request by the IAG Board Chair)",
+    "evidence": "Exceptional Circumstances includes but is not limited to: a. Severe financial hardship; ... The IAG Board Chair ... may consent to a Specified Person Dealing in IAG Securities outside a Trading Window if: a. in the opinion of the IAG Board Chair, Exceptional Circumstances have been evidenced, and the proposed trade in IAG Securities is the most reasonable course of action available in the circumstances"
+   },
+   {
+    "kind": "court_order",
+    "scope": "any_dealing",
+    "approver": "IAG Board Chair (IAG Board Audit Committee Chair for the Chair)",
+    "evidence": "Compulsion by court order or court enforceable undertaking (for example, a bona fide family settlement);"
+   },
+   {
+    "kind": "other",
+    "scope": "any_dealing",
+    "approver": "IAG Board Chair",
+    "evidence": "Some other overriding legal or regulatory requirement to transfer or accept transfer of Securities; or d. Such other circumstance determined by the Chair."
+   },
+   {
+    "kind": "non_discretionary_plan",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "indirect or incidental Trading in IAG Securities that occurs as a consequence of a Specified Person dealing in units or shares of a managed investment scheme, listed investment company, exchange traded fund, or similar investment vehicle managed by a third party that happens to hold IAG Securities as part of its portfolio and where the Specified Person is not in a position to influence the portfolio investments;"
+   },
+   {
+    "kind": "dividend_plan",
+    "scope": "acquisition_only",
+    "approver": "",
+    "evidence": "acquiring IAG ordinary shares under IAG's Dividend Reinvestment Plan where the Specified Person has made a standing election to reinvest dividends (and where they do not have Inside Information);"
+   },
+   {
+    "kind": "plan_dealing",
+    "scope": "specific_dealing",
+    "approver": "",
+    "evidence": "participation in an Employee, executive or IAG Director equity plan operated by IAG, including where Specified Persons are issued IAG Securities or exercise their rights to acquire IAG Securities under an IAG Director or Employee share, share right or other equity plan, however once IAG Securities are issued or transferred to Specified Persons or cease to be held under the terms of the relevant plan, they or their Closely Related Parties may only Deal in the relevant IAG Securities in accordance with this Policy;"
+   },
+   {
+    "kind": "no_change_beneficial_interest",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "the transfer of holdings between an indirect or direct holding where the overall beneficial interest of the holder in IAG Securities does not change;"
+   },
+   {
+    "kind": "other",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "Trading in IAG Securities by a Specified Person in his or her capacity as trustee of an IAG share or share right plan;"
+   },
+   {
+    "kind": "takeover",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "acquisitions or disposals made pursuant to a takeover offer, scheme of arrangement, equal access buyback or pro-rata issue; and"
+   },
+   {
+    "kind": "other",
+    "scope": "specific_dealing",
+    "approver": "an Approver (for transfers to a Closely Related Party); none required for a transfer to the person's own self-managed superannuation fund",
+    "evidence": "transfers of IAG Securities between a Specified Person and their Closely Related Party in respect of which consent has been provided by an Approver or by a Specified Person to his or her self-managed superannuation fund (i.e. where there is equal information between that Specified Person and the trustee of the fund)."
+   }
+  ],
+  "financing": {
+   "secured_financing_scope": "any_secured_financing",
+   "unvested_as_collateral": "prohibited",
+   "transfer_into_margin_account_is_dealing": "not_addressed",
+   "forced_sale_in_closed_period": "not_addressed",
+   "margin_call_sale_needs_clearance": "not_addressed",
+   "price_trigger_guidance": "Dealings involving conditional orders (for example a specified minimum sell or maximum purchase price, or a stop-loss instruction) must be both placed and executed during a Trading Window; ordinary on-market orders at market price may be placed until market close on the last day of a Trading Window.",
+   "financing_disclosure": [],
+   "transfer_to_custodian_is_dealing": "not_addressed",
+   "minimum_shareholding_requirement": "Mandatory Holdings is defined as the minimum holding of IAG ordinary shares required to be attained by IAG Directors and by the GCEO and GLT in accordance with IAG's Mandatory Shareholding Requirement Policy, which is listed as a related document. The definition is not tied to any operative clause of this Policy, and the Policy is silent on whether hedged or encumbered shares count toward the requirement."
+  },
+  "external_documents": [
+   "IAG Code of Ethics & Conduct",
+   "Group Continuous Disclosure Policy",
+   "Group Fit and Proper Policy",
+   "Mandatory Shareholding Requirement",
+   "Group Remuneration Policy",
+   "Terms and conditions of employment contracts and Non-Executive Directors' letters of appointment",
+   "Trading Consent Request form",
+   "Exceptional Circumstances Trading Consent Request form",
+   "IAG Securities Dealing Report",
+   "Rules of IAG employee, executive and director equity plans (holding locks and dealing restrictions)",
+   "IAG Policy intranet page list of Specified Persons"
+  ],
+  "exemption_authority": "The IAG Board Chair (the IAG Board Audit Committee Chair where the request is from the Chair) may consent to a Specified Person Dealing outside a Trading Window in Exceptional Circumstances, on evidence, if the trade is the most reasonable course of action available and the person holds no Inside Information and satisfies the front page test; the trade must be completed within 5 business days unless otherwise specified. That relief goes only to the Trading Window requirement. No officer has power to waive the hedging prohibitions in clauses 32 and 33, the margin lending and collateral prohibition in clause 34 or the three-month short-term trading ban in clause 30; only the IAG Board can change the Policy itself (the Group General Counsel & Company Secretary may make minor administrative changes and approve changes to the Specified Persons list).",
+  "jurisdiction_overlays": [
+   "New Zealand: IAG is listed on the NZX and the Financial Markets Conduct Act 2013 insider trading regime applies alongside the Australian Corporations Act 2001",
+   "Australia: ASX Listing Rule 12.10 and Guidance Note 27; Appendix 3Y director notifications"
+  ],
+  "bespoke_clauses": [
+   {
+    "topic": "collateral ban",
+    "clause": "Specified Persons and their Closely Related Parties must not use IAG Securities as collateral in any financial transaction, including by: a. entering into a margin lending arrangement in respect of IAG Securities; or b. transferring IAG Securities into an existing margin loan account.",
+    "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is squarely prohibited for every Specified Person and their Closely Related Parties, with no approval or exceptional-circumstances route, so the structure cannot be offered to this population as designed."
+   },
+   {
+    "topic": "collateral ban breadth",
+    "clause": "The prohibition is on collateral in 'any financial transaction'; the margin lending and margin account limbs are introduced by 'including by', so they are examples rather than the limit.",
+    "why_it_matters": "Recharacterising the facility as a securities-backed loan, a limited recourse loan or a pledged prepaid forward does not escape clause 34."
+   },
+   {
+    "topic": "hedging instruments are Securities",
+    "clause": "Securities means ... financial products (such as warrants, options, performance rights, contracts for difference and other derivatives) relating to, or which operate to limit, leverage or increase the economic risk in holding, those securities ... whether or not the securities or the financial products are issued or created by IAG Group or third parties.",
+    "why_it_matters": "Both collar legs written by a bank are themselves IAG Securities, so entry, roll, exercise, unwind and settlement are each separate Dealings requiring their own consent within a Trading Window."
+   },
+   {
+    "topic": "absolute plan hedging ban",
+    "clause": "IAG Securities acquired under an employee, executive or director equity plan operated by IAG by any participant must never be hedged prior to vesting ... IAG securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan.",
+    "why_it_matters": "Even an unfunded collar can only be placed over plan shares that have vested and are free of any holding lock, and the ban reaches Closely Related Parties so a family trust holding cannot be used."
+   },
+   {
+    "topic": "conditional orders",
+    "clause": "Dealings involving conditional orders must be placed and executed during a Trading Window (e.g., a specified, minimum sell or maximum purchase price or a stop-loss instruction).",
+    "why_it_matters": "Any price-triggered feature of a collar - a knock-in or knock-out barrier, automatic unwind or stop-loss - must both trigger and complete inside a Trading Window, which is impractical for a multi-year structure."
+   },
+   {
+    "topic": "front page test",
+    "clause": "Where consent is required for a trade under this Policy, consent will not be granted where the approver does not consider that the trade would satisfy the front page test. This decision of the approver is final.",
+    "why_it_matters": "A collar over an executive's shareholding is precisely the kind of trade that may be judged to look inappropriate on the front page, and the approver's refusal is final, unreasoned and confidential."
+   },
+   {
+    "topic": "consent revocation",
+    "clause": "Consent may be withdrawn if new information is revealed or there is a change in circumstances, and that decision to refuse consent is final and binding on the Specified Person seeking consent and must be kept confidential.",
+    "why_it_matters": "A bank cannot rely on consent surviving to signing or settlement, and the executive cannot explain a withdrawal to the counterparty because it must be kept confidential."
+   },
+   {
+    "topic": "consent life",
+    "clause": "Consents to trade ... will be effective for 5 business days (but no later than the last day of the Trading Window), unless a different timeframe is specified in the consent provided.",
+    "why_it_matters": "Pricing and execution of the derivative legs must complete within 5 business days and before the window closes, so documentation must be fully negotiated before consent is sought."
+   },
+   {
+    "topic": "three-month rule",
+    "clause": "Specified Persons and their Closely Related Parties must not deal in IAG Securities on a short-term trading basis, being a period of three months between purchase and sale of any IAG Securities.",
+    "why_it_matters": "Because derivatives are Securities with no stated carve-outs, a collar's purchased put and written call and any unwind must be spaced more than three months from related purchases and sales."
+   },
+   {
+    "topic": "window instability",
+    "clause": "Specified Persons must not assume that a Trading Window is open in the absence of notification, as the IAG Board may vary, suspend or terminate (conditionally or unconditionally) Trading Windows arrangements at any time.",
+    "why_it_matters": "Execution and unwind dates cannot be committed in advance, since the Board can close a window at any time and the only relief is a discretionary Exceptional Circumstances consent."
+   },
+   {
+    "topic": "approver inconsistency",
+    "clause": "Clause 14's table routes consent requests from Non-Executive Directors of a Specified Board (excluding the IAG Board Chair) to the 'GCEO and Group General Counsel & Company Secretary', while the clause 36 roles table gives the IAG Board Chair responsibility to approve trading by other Non-Executive Directors, the GCEO and the Group General Counsel & Company Secretary.",
+    "why_it_matters": "For a director-level collar the correct approver is ambiguous on the face of the Policy, so the bank should require evidence of consent from both the Chair and the Group General Counsel & Company Secretary."
+   },
+   {
+    "topic": "no forced sale relief",
+    "clause": "The Policy is silent on forced sales, margin calls, lender enforcement and pre-existing financing arrangements; there is no grandfathering wording accompanying the clause 34 prohibition added in the 30 November 2023 amendment.",
+    "why_it_matters": "There is no carve-out permitting a secured lender to sell during a closed period, and no stated transition for legacy secured facilities, so any existing arrangement is exposed."
+   },
+   {
+    "topic": "mandatory shareholding",
+    "clause": "Mandatory Holdings means the minimum holding of IAG ordinary shares required to be attained by IAG Directors and by the GCEO and GLT, in accordance with IAG's Mandatory Shareholding Requirement Policy.",
+    "why_it_matters": "The separate Mandatory Shareholding Requirement Policy may require an unhedged minimum holding and must be diligenced, as this Policy neither operationalises nor excludes hedged shares."
+   },
+   {
+    "topic": "director disclosure",
+    "clause": "IAG Directors who undertake a Dealing in IAG Securities following consent must provide the Group Company Secretary within 1 business day of the execution of the trade a confirmation of trade so that an ASX Appendix 3Y can be completed and lodged with the ASX within 5 business days.",
+    "why_it_matters": "A director's collar would become publicly disclosed on an Appendix 3Y within days of execution, which feeds back into the front page test at the consent stage."
+   }
+  ],
+  "summary": "A funded collar is not possible for IAG Specified Persons, the population that includes the directors and executives a bank would target. Clause 34, added by the 30 November 2023 amendment, prohibits Specified Persons and their Closely Related Parties from using IAG Securities as collateral in any financial transaction, with margin lending and transfers into a margin account given only as examples, and no approver has power to waive it. The derivative legs alone are also constrained: instruments that limit economic risk are themselves IAG Securities, so entry, roll and unwind each require a Trading Consent Request approved by the Group General Counsel & Company Secretary (or, for Non-Executive Directors, the more senior approver route), inside one of the three roughly 20 business day Trading Windows, valid for only 5 business days, subject to the front page test whose refusal is final and confidential, and subject to the three-month short-term trading ban. Plan shares can never be hedged before vesting or while under a holding lock, so only fully vested unrestricted shares are candidates, and any price-triggered or conditional feature must be both placed and executed within a window. A collar could in principle be offered on an unsecured basis over vested unrestricted shares, and Directors, Employees and Contractors who are not Specified Persons are not caught by clauses 30 or 34 at all, but for the target population the funded structure is barred."
+ },
  "PLS": {
   "symbol": "PLS",
   "company": "Pilbara Minerals Limited",
@@ -18720,5 +19914,476 @@
    }
   ],
   "summary": "A funded collar is realistically achievable under this policy, which is markedly more permissive than most ASX policies on the financing leg. There is no prohibition on margin lending, secured financing, pledging or encumbering Lynas securities, granting security is not within the definition of Deal In Securities, and paragraph 8.1(6) expressly excludes from the policy a disposal resulting from a secured lender exercising its rights, so the bank's enforcement sale would not put the executive in breach even in a closed period. The derivative legs are the constraint: a put and call over Lynas shares are financial products created over the Company's securities and cannot be traded during prohibited periods (14.1), and since 7.3 makes every period a closed period except the three weeks following results, the AGM or a prospectus, entry, roll, unwind and settlement must each be timed into one of those narrow windows and preceded by written confirmation of no impediment from the Chairman (directors) or Secretary (employees). The 13.2 hedging ban reaches only employee options before vesting, so vested shares may be collared, but the undefined at all times ban on short-term trading in 13.1 argues for a long tenor and for clearing the structure explicitly. Out-of-window relief under 9.2 covers only a sale of securities, not derivative dealings, so no exceptional-circumstances route exists for an emergency unwind, and directors should expect the position to surface through immediate notification to the company secretary and an Appendix 3Y."
+ },
+ "XRO": {
+  "symbol": "XRO",
+  "company": "Xero Limited",
+  "title": "Share Trading Policy",
+  "date_approved": "Approved by the Board effective 1 August 2024",
+  "date_effective": "1 August 2024",
+  "date_lodged": "1 August 2024",
+  "date_next_review": "Reviewed periodically by the Board; no date stated",
+  "tiers": [
+   {
+    "name": "directors, employees, contractors, consultants and other personnel",
+    "kind": "all_staff",
+    "description": "Everyone the policy applies to: a director or employee of Xero or its subsidiaries, or a contractor, consultant or other personnel who has agreed to comply with Xero's policies. All substantive prohibitions (derivatives and protection arrangements, short-term and speculative dealing, short selling) and the clearance requirements for margin lending, secured financing, grants of security and stock lending apply to this tier without differentiation.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Designated Persons",
+    "kind": "restricted",
+    "description": "A director or the CEO of Xero; a direct report of the CEO or someone who reports to a person who reports directly to the CEO; a person on the list of Designated Persons maintained by the Company Secretary team; or anyone notified that they are subject to trading restrictions. Must request clearance to deal at all times, not only in Closed Periods.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Chair",
+    "kind": "director",
+    "description": "The Chair of the Board; a Designated Person distinguished only by the clearance approver (Chair of the Audit and Risk Management Committee and Company Secretary).",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Director, CEO or CFO",
+    "kind": "director",
+    "description": "Directors other than the Chair, the CEO and the CFO; Designated Persons distinguished by their clearance approver (Chair and Company Secretary) and, for directors, by a post-dealing notification duty to the Company Secretary.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Company Secretary",
+    "kind": "kmp",
+    "description": "The Company Secretary; a Designated Person whose own clearance comes from the Chair and CEO.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "All other Designated Persons",
+    "kind": "restricted",
+    "description": "Designated Persons other than the Chair, directors, CEO, CFO and Company Secretary; clearance from the Company Secretary or delegate.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Connected Persons",
+    "kind": "associate",
+    "description": "Close family members who are likely to act, or do act, on your instructions or advice about the purchase or sale of securities (spouse, partner, minor children or other dependants, and your partner's minor children or dependants); a company or trust controlled by you or your close family members or your family trust; and a family trust of which you are a trustee, beneficiary or director of the trustee company.",
+    "includes_associates": "not_addressed"
+   }
+  ],
+  "definitions": {
+   "dealing_covers_derivatives": "yes",
+   "dealing_covers_agreements_to_deal": "yes",
+   "dealing_covers_encumbrance": "yes",
+   "dealing_covers_stock_lending": "yes",
+   "dealing_covers_change_of_beneficial_ownership": "yes",
+   "securities_include_otc_derivatives": "no",
+   "hedging_definition": "any other financial product that operates to limit the economic risk associated with Xero Securities; and an arrangement or transaction that is designed or intended to hedge (or otherwise limit) your economic exposure to unvested or restricted Xero Securities (e.g. unvested employee share plan shares); or otherwise enables you to profit from a decrease in the market price of Xero Securities.",
+   "substance_over_form": "yes"
+  },
+  "windows": [
+   {
+    "kind": "closed",
+    "applies_to": [
+     "all"
+    ],
+    "start_anchor": "close of trade on the ASX on 31 March each year, or if that date is not a trading day, the last trading day before that day",
+    "end_anchor": "10.00am Sydney time on the next trading day after Xero's full-year financial results are released to the ASX (usually early/mid May)",
+    "duration_days": null
+   },
+   {
+    "kind": "closed",
+    "applies_to": [
+     "all"
+    ],
+    "start_anchor": "close of trade on 30 September each year, or if that date is not a trading day, the last trading day before that day",
+    "end_anchor": "10.00am Sydney time on the next trading day after Xero's half-year financial results are released to the ASX (usually early/mid November)",
+    "duration_days": null
+   },
+   {
+    "kind": "closed",
+    "applies_to": [
+     "all"
+    ],
+    "start_anchor": "any other period that the Board sets from time to time",
+    "end_anchor": "as set by the Board",
+    "duration_days": null
+   }
+  ],
+  "ad_hoc_blackout_authority": "The Board may set 'any other period' as a Xero Closed Period from time to time. The policy does not say whether such a period is announced or kept confidential, and clearance refusals must be kept confidential by the applicant.",
+  "rules": [
+   {
+    "topic": "derivatives",
+    "tier": "all",
+    "security_state": "vested_unrestricted",
+    "venue": "otc",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No derivatives or protection arrangements)",
+    "detail": "Flat ban on derivative-market transactions in products based on Xero Securities, expressly extended to OTC products and to caps and collars, with no vesting or venue carve-out. Approval may be applied for only 'in exceptional circumstances'; the ordinary clearance route in section 6 is not available for a derivative.",
+    "evidence": "You must not engage in transactions in the derivative markets involving products based on Xero Securities. This includes OTC products, depository receipts, contracts for difference, forward contracts, swaps, futures, warrants, exchange-traded options, caps and collars and any other financial product that operates to limit the economic risk associated with Xero Securities."
+   },
+   {
+    "topic": "derivatives",
+    "tier": "all",
+    "security_state": "unvested",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No derivatives or protection arrangements)",
+    "detail": "Absolute ban over unvested Xero Securities: the exceptional-circumstances approval route that exists for other derivative transactions is expressly closed for unvested securities.",
+    "evidence": "You may apply for approval to enter into one of these transactions in exceptional circumstances. Approval will not be given in relation to unvested Xero Securities."
+   },
+   {
+    "topic": "hedging",
+    "tier": "all",
+    "security_state": "unvested",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No derivatives or protection arrangements)",
+    "detail": "Express ban on any arrangement or transaction designed or intended to hedge or otherwise limit economic exposure to unvested or restricted Xero Securities, with approval expressly unavailable.",
+    "evidence": "You must not enter into an arrangement or transaction that: is designed or intended to hedge (or otherwise limit) your economic exposure to unvested or restricted Xero Securities (e.g. unvested employee share plan shares)"
+   },
+   {
+    "topic": "hedging",
+    "tier": "all",
+    "security_state": "vested_locked",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No derivatives or protection arrangements)",
+    "detail": "'Restricted' Xero Securities are treated alongside unvested securities in the hedging ban, so vested shares still subject to a plan restriction or holding lock cannot be hedged. The policy does not say whether the 'approval will not be given' carve-out extends to restricted (as opposed to unvested) securities.",
+    "evidence": "is designed or intended to hedge (or otherwise limit) your economic exposure to unvested or restricted Xero Securities (e.g. unvested employee share plan shares)"
+   },
+   {
+    "topic": "hedging",
+    "tier": "all",
+    "security_state": "vested_unrestricted",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No derivatives or protection arrangements)",
+    "detail": "Hedging vested unrestricted shares is caught twice: by the catch-all in the derivatives sentence ('any other financial product that operates to limit the economic risk associated with Xero Securities', which is not limited to unvested holdings) and by the ban on arrangements that enable you to profit from a decrease in the market price. Exceptional-circumstances approval is theoretically available for vested holdings.",
+    "evidence": "You must not enter into an arrangement or transaction that: ... otherwise enables you to profit from a decrease in the market price of Xero Securities."
+   },
+   {
+    "topic": "monetisation",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No derivatives or protection arrangements); 3",
+    "detail": "Monetisation is not named as such, but forward contracts and swaps are expressly listed in the banned derivative products, so a prepaid forward or share swap is prohibited. A monetisation structured as a loan secured on Xero Securities is instead permitted with clearance under the secured financing paragraph.",
+    "evidence": "This includes OTC products, depository receipts, contracts for difference, forward contracts, swaps, futures, warrants, exchange-traded options, caps and collars"
+   },
+   {
+    "topic": "short_selling",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No short term or speculative dealings)",
+    "detail": "Short selling is expressly included in the ban on short-term or speculative dealing, subject only to the exceptional-circumstances clearance route. Defined as borrowing and selling securities hoping to buy them back at a lower price.",
+    "evidence": "You must not deal in Xero Securities on a short term or speculative basis (including short selling), except in exceptional circumstances and with prior clearance to deal (see section 6)."
+   },
+   {
+    "topic": "stock_lending",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (Clearance required for any grant of security over Xero Securities, margin lending arrangements or stock lending)",
+    "detail": "Stock lending is expressly permitted subject to prior clearance under the section 6 process, whether or not the person is a Designated Person. No conditions or price triggers are prescribed.",
+    "evidence": "Whether or not you are a Designated Person, you must seek clearance (in accordance with the process in section 6) before you: ... enter into a transaction that amounts to stock lending of your Xero Securities."
+   },
+   {
+    "topic": "cfd",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No derivatives or protection arrangements)",
+    "detail": "Contracts for difference are named in the list of prohibited derivative-market products.",
+    "evidence": "This includes OTC products, depository receipts, contracts for difference, forward contracts, swaps, futures, warrants, exchange-traded options, caps and collars"
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "6; 8 (Clearance required for any grant of security over Xero Securities, margin lending arrangements or stock lending)",
+    "detail": "Margin loans are permitted with prior clearance for everyone, Designated Person or not. Transferring existing Xero Securities into an existing margin loan account is expressly caught as a separate clearance trigger.",
+    "evidence": "you must seek clearance (in accordance with the process in section 6) before you: enter into a margin loan or other secured financing arrangements (including transferring Xero Securities into an existing margin loan account)"
+   },
+   {
+    "topic": "encumbrance",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (Clearance required for any grant of security over Xero Securities, margin lending arrangements or stock lending)",
+    "detail": "Granting a security or rights over Xero Securities is permitted subject to prior clearance; the wording 'or rights' is wider than a formal charge and would capture a bank's control or set-off rights over collared shares. It is also a dealing under section 3 as a creation of an interest in Xero Securities.",
+    "evidence": "grant a security or rights over your Xero Securities"
+   },
+   {
+    "topic": "secured_financing",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "6; 8 (Clearance required for any grant of security over Xero Securities, margin lending arrangements or stock lending)",
+    "detail": "Secured financing is not banned. Any margin loan 'or other secured financing arrangement' requires prior clearance through the section 6 process, and section 6 confirms that even non-Designated Persons must obtain clearance for it. The policy imposes no vesting restriction on collateral and no ongoing disclosure obligation.",
+    "evidence": "you will need to seek clearance to deal in Xero Securities if you want to deal during a Xero Closed Period (in exceptional circumstances), enter into a margin loan or other secured financing arrangement, or grant a security or rights over your Xero Securities."
+   },
+   {
+    "topic": "short_term",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "8 (No short term or speculative dealings)",
+    "detail": "Buy-sell window test: buying and selling listed securities within a 6 month period is short term dealing and is prohibited except in exceptional circumstances with prior clearance. Selling within 6 months of acquisition through vesting or exercise under an employee equity plan is carved out.",
+    "evidence": "Short term dealing is the buying and selling of listed securities within a 6 month period. This can be a key indicator of insider trading, particularly if undertaken on a regular basis or in large amounts."
+   }
+  ],
+  "clearance": [
+   {
+    "tier": "Chair",
+    "type": "approval",
+    "approver": "Chair of the Audit and Risk Management Committee and Company Secretary or their respective delegates",
+    "form": "system",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "express",
+    "post_trade_to": "",
+    "post_trade_deadline": "",
+    "section": "6",
+    "evidence": "Chair | Chair of the Audit and Risk Management Committee and Company Secretary or their respective delegates"
+   },
+   {
+    "tier": "Director, CEO or CFO",
+    "type": "approval",
+    "approver": "Chair and Company Secretary or their respective delegates",
+    "form": "system",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "express",
+    "post_trade_to": "Company Secretary (directors only)",
+    "post_trade_deadline": "promptly, ideally by close of business on the day of any dealing",
+    "section": "6",
+    "evidence": "If you are a director, you must promptly notify the Company Secretary (ideally by close of business on the day of any dealing) that you have entered into a dealing in Xero Securities."
+   },
+   {
+    "tier": "Company Secretary",
+    "type": "approval",
+    "approver": "Chair and CEO or their respective delegates",
+    "form": "system",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "express",
+    "post_trade_to": "",
+    "post_trade_deadline": "",
+    "section": "6",
+    "evidence": "Company Secretary | Chair and CEO or their respective delegates"
+   },
+   {
+    "tier": "All other Designated Persons",
+    "type": "approval",
+    "approver": "Company Secretary or delegate",
+    "form": "system",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "express",
+    "post_trade_to": "",
+    "post_trade_deadline": "",
+    "section": "6",
+    "evidence": "Designated Persons need to request clearance to deal in Xero Securities at all times. ... After receiving dealing clearance, you must complete your dealing within 5 business days of the confirmation (or as specified in the confirmation), otherwise the approval is no longer effective and fresh approval must be sought."
+   },
+   {
+    "tier": "directors, employees, contractors, consultants and other personnel",
+    "type": "approval",
+    "approver": "Company Secretary (or their delegate) at tradingclearance@xero.com",
+    "form": "written",
+    "validity_days": 5,
+    "response_sla_days": null,
+    "revocable": "yes",
+    "conditions_allowed": "yes",
+    "refusal_confidential": "yes",
+    "covers_derivatives": "express",
+    "post_trade_to": "",
+    "post_trade_deadline": "",
+    "section": "6; 8",
+    "evidence": "If you are not a Designated Person you do not require clearance to deal in Xero Securities (within the terms of this policy) outside Xero Closed Periods. However, you will need to seek clearance to deal in Xero Securities if you want to deal during a Xero Closed Period (in exceptional circumstances), enter into a margin loan or other secured financing arrangement, or grant a security or rights over your Xero Securities."
+   }
+  ],
+  "short_term": [
+   {
+    "tier": "all",
+    "type": "buy_sell_window",
+    "months": 6,
+    "basis": "buying and selling within a 6 month period",
+    "carve_outs": [
+     "Selling Xero Securities within 6 months after they have been acquired through the vesting or exercise of a Xero Security granted under an employee equity plan",
+     "exceptional circumstances with prior clearance to deal"
+    ],
+    "evidence": "Selling Xero Securities within 6 months after they have been acquired through the vesting or exercise of a Xero Security granted under an employee equity plan is not regarded as a short term dealing under this policy."
+   }
+  ],
+  "exceptions": [
+   {
+    "kind": "hardship",
+    "scope": "any_dealing",
+    "approver": "Company Secretary (or their delegate), or for Designated Persons the approvers in the section 6 table",
+    "evidence": "Exceptional circumstances are rare, and may include severe financial hardship, a requirement to comply with a court order or court enforceable undertaking, and any other circumstance warranted in the individual situation."
+   },
+   {
+    "kind": "court_order",
+    "scope": "any_dealing",
+    "approver": "Company Secretary (or their delegate)",
+    "evidence": "a requirement to comply with a court order or court enforceable undertaking"
+   },
+   {
+    "kind": "non_discretionary_plan",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "trade under a pre-approved non-discretionary trading plan, where you did not have inside information when you entered into the plan, did not enter into the plan or amend the plan during a Closed Period, the plan does not permit you to exercise any influence or discretion in relation to trading under the plan, and the plan cannot be cancelled during a Closed Period other than in exceptional circumstances"
+   },
+   {
+    "kind": "no_change_beneficial_interest",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "deal in Xero Securities if there is no effective change to the beneficial interest in the securities (for example, transfers of Xero Securities already held into a superannuation fund or trust of which you are a beneficiary)"
+   },
+   {
+    "kind": "takeover",
+    "scope": "sale_only",
+    "approver": "",
+    "evidence": "dispose of Xero Securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+   },
+   {
+    "kind": "plan_dealing",
+    "scope": "acquisition_only",
+    "approver": "",
+    "evidence": "acquire Xero Securities under an employee equity plan (this exception applies to allocation or vesting but does not apply to selling Xero shares on market to cover tax or to cover the exercise price, exercising options or any subsequent dealings)"
+   },
+   {
+    "kind": "dividend_plan",
+    "scope": "acquisition_only",
+    "approver": "",
+    "evidence": "acquire Xero Securities under any dividend reinvestment plan operated by Xero"
+   },
+   {
+    "kind": "other",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "deal in a publicly offered diversified fund or scheme (but not a scheme of which Xero Securities are a significant portion) where the assets of the fund or other scheme are invested at the discretion of a third party (e.g. an index fund)"
+   }
+  ],
+  "financing": {
+   "secured_financing_scope": "any_secured_financing",
+   "unvested_as_collateral": "not_addressed",
+   "transfer_into_margin_account_is_dealing": "yes",
+   "forced_sale_in_closed_period": "not_addressed",
+   "margin_call_sale_needs_clearance": "not_addressed",
+   "price_trigger_guidance": "",
+   "financing_disclosure": [],
+   "transfer_to_custodian_is_dealing": "no",
+   "minimum_shareholding_requirement": ""
+  },
+  "external_documents": [
+   "List of Designated Persons maintained by the Company Secretary team",
+   "Xero Whistleblower Policy",
+   "Shareworks clearance request system"
+  ],
+  "exemption_authority": "The Company Secretary (or delegate), and for Designated Persons the approvers in the section 6 table, may grant clearance to deal in exceptional circumstances (severe financial hardship, court order or court enforceable undertaking, 'any other circumstance warranted in the individual situation'), including during a Closed Period. The same exceptional-circumstances route is the only way to obtain approval for a derivative or protection arrangement, but approval will not be given in relation to unvested Xero Securities.",
+  "jurisdiction_overlays": [
+   "New Zealand insider trading law (Xero is a New Zealand incorporated company listed on the ASX)",
+   "Australian insider trading law",
+   "ASX Listing Rule 12.10 and director disclosure obligations under the ASX Listing Rules"
+  ],
+  "bespoke_clauses": [
+   {
+    "topic": "collars named expressly",
+    "clause": "You must not engage in transactions in the derivative markets involving products based on Xero Securities. This includes OTC products ... caps and collars and any other financial product that operates to limit the economic risk associated with Xero Securities.",
+    "why_it_matters": "This is one of the few ASX policies that names 'collars' and 'OTC products' expressly, so the derivative legs of a funded collar are prohibited on their face rather than merely caught by a definition."
+   },
+   {
+    "topic": "exceptional circumstances as the only derivatives gate",
+    "clause": "You may apply for approval to enter into one of these transactions in exceptional circumstances. Approval will not be given in relation to unvested Xero Securities.",
+    "why_it_matters": "A collar over vested shares is not absolutely barred, but it can only proceed through an exceptional-circumstances application (severe hardship, court order or similar), which a commercial monetisation is unlikely to satisfy."
+   },
+   {
+    "topic": "financing leg permitted with clearance",
+    "clause": "Whether or not you are a Designated Person, you must seek clearance ... before you: enter into a margin loan or other secured financing arrangements (including transferring Xero Securities into an existing margin loan account); grant a security or rights over your Xero Securities.",
+    "why_it_matters": "The loan and security legs of a funded collar are permitted with clearance, so the structure fails only on the derivative legs; a plain secured loan against Xero shares without a hedge is available."
+   },
+   {
+    "topic": "profit from a price decrease",
+    "clause": "You must not enter into an arrangement or transaction that ... otherwise enables you to profit from a decrease in the market price of Xero Securities.",
+    "why_it_matters": "This limb is not restricted to unvested holdings and independently catches the purchased put in a collar over fully vested shares."
+   },
+   {
+    "topic": "substance over form",
+    "clause": "Xero takes a 'substance over form' approach and has regard to the intent and spirit of this policy when applying and enforcing it.",
+    "why_it_matters": "Structuring around the derivatives ban (for example a non-recourse loan with an economically equivalent payoff, or a hedge booked at a Connected Person entity) will be assessed on its economic substance."
+   },
+   {
+    "topic": "front page test",
+    "clause": "Where clearance is required to deal under this policy, approval will not be granted where the dealing would not meet the Front Page Test.",
+    "why_it_matters": "Even the permitted secured financing leg can be refused on reputational grounds alone, without reasons being given."
+   },
+   {
+    "topic": "clearance withdrawal",
+    "clause": "They may also decide to impose conditions on the dealing or withdraw the clearance at any time. If your clearance is not approved or is withdrawn, you must keep this fact confidential. Clearance is automatically deemed to be withdrawn if you become aware of Inside Information prior to dealing.",
+    "why_it_matters": "A bank cannot rely on a granted clearance surviving to signing or drawdown; it can be withdrawn at any time or lapse automatically, and the executive cannot explain why."
+   },
+   {
+    "topic": "connected persons",
+    "clause": "Your Connected Persons should only deal in Xero Securities in circumstances where you yourself would be permitted to do so. Where clearance requirements would apply to your dealing, you must comply with those requirements on behalf of your Connected Persons.",
+    "why_it_matters": "Booking the collar or the loan in a family trust or controlled company does not avoid the derivatives ban or the clearance obligation."
+   },
+   {
+    "topic": "six month buy-sell window",
+    "clause": "Short term dealing is the buying and selling of listed securities within a 6 month period.",
+    "why_it_matters": "A collar with a tenor under six months, or one whose entry and physical settlement fall within six months, risks characterisation as short-term dealing on top of the derivatives ban."
+   },
+   {
+    "topic": "no venue limitation and no vesting limitation on the derivatives ban",
+    "clause": "any other financial product that operates to limit the economic risk associated with Xero Securities",
+    "why_it_matters": "Unlike venue-limited bans elsewhere, this catch-all covers OTC bank-written puts and calls over on-market as well as plan-sourced shares."
+   }
+  ],
+  "summary": "A funded collar is effectively not possible under this policy. The financing legs are workable: a margin loan or other secured financing arrangement, a grant of security or rights over Xero Securities, and stock lending are all permitted with prior clearance under section 6, for Designated Persons and non-Designated Persons alike, with no restriction on using vested shares as collateral and no ongoing financier disclosure regime. The derivative legs, however, are expressly prohibited: section 8 bans transactions in the derivative markets involving products based on Xero Securities and specifically names OTC products, forward contracts, swaps and 'caps and collars', together with any other product that limits economic risk or enables the holder to profit from a price decrease, and that catch-all is not limited to unvested holdings. The only route is an application for approval in exceptional circumstances (severe financial hardship, court order or a comparable individual circumstance), which cannot be given at all over unvested Xero Securities and would rarely be granted for a commercial monetisation; any approval must also pass the Front Page Test, can be conditioned or withdrawn at any time, and must be exercised within 5 business days. Even if approved, the trade would have to fall outside the 31 March and 30 September Closed Periods and any Board-set period, avoid the six-month short-term dealing window, and be notified to the Company Secretary on the day if the holder is a director."
  }
 }

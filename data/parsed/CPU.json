@@ -1,0 +1,638 @@
+{
+ "symbol": "CPU",
+ "company": "Computershare Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "11 June 2015",
+ "date_effective": "11 June 2015",
+ "date_lodged": "17 June 2015",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Computershare Person",
+   "kind": "all_staff",
+   "description": "Any director, officer or employee of, or Contractor to, Computershare Limited or a member of the Computershare Group. This tier is bound only by Section C, the insider trading prohibition; the Prohibited Periods, Dealing Windows, clearance procedure, hedging ban, short-selling ban and secured lending notification in Section D apply only to Designated Persons.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Designated Person",
+   "kind": "restricted",
+   "description": "Each person listed in Schedule 1 (all Directors including the CEO, Company Secretaries, CFO, CIO, Group Treasurer, Group Investor Relations Manager, Group Financial Controller, Group Business Controller, Group Taxation Director, President Global Capital Markets, Group Head of Audit, Group Information Security and Risk Officer, Regional CEOs and Regional CFOs, Group Head of Communications, and other persons nominated by the Group CEO or Group CFO) plus any other person who is key management personnel of the Group within AASB 124. Subject to all Section D requirements.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director",
+   "kind": "director",
+   "description": "A director of Computershare, including the CEO. A Designated Person with two extra obligations: prior notice of any Dealing in a Dealing Window to the CEO (or the Company Secretary in the CEO's absence), and written advice of every Deal to the Company Secretary within two business days for ASX Listing Rule 3.19A lodgement.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Person",
+   "kind": "associate",
+   "description": "In relation to a Designated Person: their partner and the dependants of the Designated Person or their partner; a company or other entity of which the Designated Person is a director; a trustee where the beneficiaries of the trust include the Designated Person; and any other entity which the Designated Person has an ability to control. The Designated Person must make them aware of the Policy, of the Prohibited Periods, of the clearance procedures and of the duty to notify the Designated Person immediately after any Dealing.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities (or a vested incentive award or grant of such Securities that are still subject to disposal restrictions) made by Computershare to the Designated Person, irrespective of the outcome under that incentive award or grant",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Person",
+    "Director"
+   ],
+   "start_anchor": "10.00am (AEST) on the ASX trading day after the date on which Computershare's half-year financial results are released to the ASX",
+   "end_anchor": "four weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Person",
+    "Director"
+   ],
+   "start_anchor": "10.00am (AEST) on the ASX trading day after the date on which Computershare's full-year financial results are released to the ASX",
+   "end_anchor": "four weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Person",
+    "Director"
+   ],
+   "start_anchor": "10.00am (AEST) on the ASX trading day after the date on which Computershare's annual general meeting is held",
+   "end_anchor": "four weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Designated Person",
+    "Director"
+   ],
+   "start_anchor": "the date Computershare has a current prospectus or other form of disclosure document on issue under which persons may subscribe for Securities",
+   "end_anchor": "while that disclosure document remains on issue",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Person",
+    "Director"
+   ],
+   "start_anchor": "12.01am (AEST) on 15 December",
+   "end_anchor": "10.00am on the ASX trading day after the date on which Computershare's half-year financial results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Designated Person",
+    "Director"
+   ],
+   "start_anchor": "12.01am (AEST) on 15 June",
+   "end_anchor": "10.00am on the ASX trading day after the date on which Computershare's full-year financial results are released to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may designate any other period as a Prohibited Period from time to time; it must be notified to each Designated Person, so it is not confidential as against them. The Policy does not say whether such a designation is announced to the market.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "B (Derivatives); D.2; D.5",
+   "detail": "Derivatives are defined by reference to section 761D of the Corporations Act and the definition expressly names collars, with no exchange-traded limitation. Section D.5 expressly permits Derivatives over Securities that have fully vested and are free of disposal restrictions. Entering a Derivative is a Deal, so clearance from the Nominated Director is required even inside a Dealing Window, and outside a Dealing Window clearance is required under D.3; entry during a Prohibited Period is barred.",
+   "evidence": "once any applicable Computershare Securities have vested, such that any Computershare imposed time and performance hurdles have been satisfied (and any disposal restrictions on vested Securities have been lifted), Derivatives may be used in relation to those Securities, in which case the use of those Derivatives must comply with the insider trading laws and this Policy."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.5",
+   "detail": "Any arrangement or agreement, including a Derivative, that may limit the economic risk related to an unvested incentive award or grant is banned outright, irrespective of the outcome under the award. No clearance route is offered.",
+   "evidence": "A Designated Person must not enter into any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.5",
+   "detail": "The ban extends to vested incentive awards or grants that remain subject to Computershare-imposed disposal restrictions; only once those restrictions are lifted may Derivatives be used.",
+   "evidence": "(or a vested incentive award or grant of such Securities that are still subject to disposal restrictions) made by Computershare to the Designated Person, irrespective of the outcome under that incentive award or grant."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Computershare Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "C.1; D",
+   "detail": "The Section D requirements, including the clearance procedure and the hedging ban, apply only to Designated Persons. An officer or employee who is not a Designated Person is bound only by the insider trading prohibition.",
+   "evidence": "this Policy imposes obligations beyond those imposed by the law on each Designated Person with respect to Dealing in Computershare Securities, as described in more detail in Section D below."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.5",
+   "detail": "The hedging prohibition is deliberately limited to unvested awards and vested awards still subject to disposal restrictions. Once hurdles are satisfied and disposal restrictions are lifted, Derivatives may be used over those Securities, subject to the insider trading laws, the Prohibited Periods and the D.4 clearance procedure. Shares acquired otherwise than under an incentive award are not caught by D.5 at all.",
+   "evidence": "However, once any applicable Computershare Securities have vested ... Derivatives may be used in relation to those Securities, in which case the use of those Derivatives must comply with the insider trading laws and this Policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.5",
+   "detail": "Outright ban on any arrangement limiting economic risk on an unvested incentive award or grant.",
+   "evidence": "A Designated Person must not enter into any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities ... irrespective of the outcome under that incentive award or grant."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.5",
+   "detail": "Vested awards still subject to Computershare-imposed disposal restrictions cannot be hedged.",
+   "evidence": "(or a vested incentive award or grant of such Securities that are still subject to disposal restrictions)"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Computershare Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section D.5 binds only Designated Persons; the Policy is silent on hedging by other Computershare People.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "B (Deal, Derivatives); D.2-D.4",
+   "detail": "Monetisation is not named as such, but a prepaid forward, collar or similar structure is the entry into a Derivative in relation to Securities, or an agreement to dispose of Securities, and so is a Deal requiring clearance from the Nominated Director. Over fully vested unrestricted Securities there is no substantive bar; the loan leg is separately addressed by D.11 rather than prohibited.",
+   "evidence": "Deal means, in relation to Securities: ... (c) the entry into a Derivative in relation to the Securities; (d) the entry into an agreement to do any of the above"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "D.5",
+   "detail": "A monetisation over unvested or still-restricted award Securities is an arrangement limiting economic risk on that award and is caught by the D.5 ban.",
+   "evidence": "A Designated Person must not enter into any arrangement or agreement (including any Derivative) under which the Designated Person may limit the economic risk related to an unvested incentive award or grant of Computershare Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.10",
+   "detail": "Absolute ban at any time, including within a Dealing Window, on entering an arrangement to short sell Computershare Securities. A covered collar over shares actually held is not a short sale, but a cash-settled structure over shares the executive does not own would be exposed to this clause.",
+   "evidence": "A Designated Person must not enter into an arrangement to short sell Computershare Securities at any time."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Computershare Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The short selling ban in D.10 applies only to Designated Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending or stock borrowing is not named anywhere in the Policy and does not appear in the definition of Deal.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "B (Deal, Derivatives); D.2",
+   "detail": "CFDs are not named. A CFD is a Derivative within section 761D, so entering one in relation to Computershare Securities is a Deal requiring clearance; a short CFD would separately breach the D.10 short selling ban, and any CFD over unvested or restricted award Securities would breach D.5.",
+   "evidence": "Subject to Section D.5 of this Policy, if a Designated Person intends to Deal in a Derivative over Computershare Securities during a Dealing Window then the Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "B (Deal); D.11; F",
+   "detail": "Margin lending is expressly contemplated and not prohibited. Entering the arrangement is not itself listed as a Deal; only a disposal resulting from the secured lender exercising its rights is. The only affirmative obligation is D.11: immediate notice to the Nominated Director once the lender demands payment and there is a risk the demand cannot be met without disposing of Computershare Securities. Giving that notice is the precondition to the forced sale being an exempt Dealing.",
+   "evidence": "A Designated Person must inform the relevant Nominated Director immediately if all of the following circumstances apply: the Designated Person holds Computershare Securities that have been provided as security in relation to a lending arrangement; circumstances have arisen in which the secured lender demands payment under the lending arrangement; and there is a risk that the demand will not be able to be satisfied without the disposal of Computershare Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Computershare Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "D.11 applies only to Designated Persons.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "B (Deal); D.11",
+   "detail": "Granting security, a charge or a pledge over Computershare Securities is not listed in the definition of Deal and is not prohibited. The Policy assumes Designated Persons may hold Securities provided as security under a lending arrangement and regulates only the distress scenario. No prior clearance or disclosure at inception is required by the Policy.",
+   "evidence": "the Designated Person holds Computershare Securities that have been provided as security in relation to a lending arrangement"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The Policy does not say whether unvested or restricted incentive Securities may be pledged; D.5 addresses only arrangements limiting economic risk, and plan rules are outside this document.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.11; F",
+   "detail": "There is no prohibition on secured financing of any kind. Secured lending arrangements over Computershare Securities are expressly contemplated, subject only to the conditional D.11 notice to the Nominated Director on a demand that risks forcing a sale, and an involuntary disposal by the lender is an exempt Dealing provided that notice was given beforehand.",
+   "evidence": "an involuntary disposal of Computershare Securities that results from a lender exercising its rights under a secured lending arrangement provided that the Designated Person had, before the disposal, informed the Nominated Director of the risk of the disposal in accordance with Section D.11 of this Policy;"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Computershare Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section D does not apply to Computershare People who are not Designated Persons; nothing in the Policy restricts their secured financing.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "D.9",
+   "detail": "There is no holding period or short-term trading ban. A Designated Person is only encouraged to be a long-term holder and must obtain D.4 clearance to buy and sell within the same Dealing Window; clearance is not required where the dealing is the vesting or exercise of plan options or rights and the sale of the underlying Securities in the same Dealing Window.",
+   "evidence": "a Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4 if they intend to buy and sell Computershare Securities within the same Dealing Window."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Computershare Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "D.9",
+   "detail": "Only hortatory encouragement to be a long-term holder; no rule.",
+   "evidence": "Each director, officer and employee of the Computershare Group is encouraged to be a long-term holder of Computershare Securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Connected Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "D.6; D.7",
+   "detail": "Connected Persons (partner, dependants, entities of which the Designated Person is a director, trusts benefiting the Designated Person, and entities the Designated Person can control) must be told of the Prohibited Periods, must observe the clearance procedures through the Designated Person, and must notify the Designated Person immediately after any Dealing. The Policy imposes this indirectly, through the Designated Person's duty to take reasonable steps.",
+   "evidence": "to observe the clearance procedures in this Policy by giving the Designated Person the information necessary for them to lodge the relevant information in respect of the Connected Person's Dealings"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Connected Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "D.5 is drafted as an obligation of the Designated Person over awards made to that person; it is not expressly extended to Connected Persons, although a Designated Person could not do indirectly what D.5 forbids.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Person",
+   "type": "approval",
+   "approver": "Nominated Director: Chairman of the Risk and Audit Committee for the Chairman of the Board; Chairman of the Board for a Director and for the CEO; the CEO for any other Designated Person",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "D.2, D.3, D.4, D.9",
+   "evidence": "A response to a request for clearance to Deal must be given to a Designated Person in writing (by email or otherwise) within two business days of the receipt of the request. A Designated Person who receives clearance to Deal from the Nominated Director in accordance with this procedure must Deal as soon as possible after receiving the Nominated Director's response"
+  },
+  {
+   "tier": "Director",
+   "type": "notification",
+   "approver": "CEO (or in his or her absence the Company Secretary) receives prior notice of Dealings in a Dealing Window; the Chairman of the Board is the Nominated Director for clearances, and the Chairman of the Risk and Audit Committee for the Chairman of the Board",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary, who lodges the Appendix 3Y with ASX under Listing Rule 3.19A and discloses whether clearance was granted to Deal during a Prohibited Period",
+   "post_trade_deadline": "as soon as possible after the Dealing is transacted and in any event within two business days; ASX lodgement within five business days",
+   "section": "D.2, D.4, D.8",
+   "evidence": "A written advice (by email or otherwise) of any Deal in Computershare Securities by a Director must be provided to the Company Secretary as soon as possible after the Dealing is transacted and, in any event, within two business days after the Dealing is transacted."
+  },
+  {
+   "tier": "Computershare Person",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "C.1",
+   "evidence": "It is the personal responsibility of each Computershare Person to ensure that they comply with the insider trading laws."
+  },
+  {
+   "tier": "Connected Person",
+   "type": "approval",
+   "approver": "Nominated Director, via the Designated Person",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "the Designated Person",
+   "post_trade_deadline": "immediately after any Dealing in Computershare's Securities has been transacted",
+   "section": "D.6",
+   "evidence": "to notify them immediately after any Dealing in Computershare's Securities has been transacted."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Person",
+   "type": "buy_sell_window",
+   "months": null,
+   "basis": "buying and selling within the same Dealing Window",
+   "carve_outs": [
+    "Dealing relating to the vesting or exercise of options over, or rights to, Computershare Securities under an employee equity incentive plan and the subsequent sale of some or all of the underlying Securities within the same Dealing Window"
+   ],
+   "evidence": "a Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4 if they intend to buy and sell Computershare Securities within the same Dealing Window."
+  },
+  {
+   "tier": "Computershare Person",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Each director, officer and employee of the Computershare Group is encouraged to be a long-term holder of Computershare Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Nominated Director, in his or her sole discretion",
+   "evidence": "a Designated Person may apply for, and be granted, clearance to sell or otherwise dispose of (but not purchase) Computershare Securities during a Prohibited Period where they: are in severe financial hardship or other exceptional circumstances apply"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Nominated Director",
+   "evidence": "where the Designated Person is compelled by court order, or otherwise by an overriding legal or regulatory requirement, to sell or otherwise dispose of the relevant Computershare Securities."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "no approval required, but prior notice to the Nominated Director under D.11 is a condition",
+   "evidence": "an involuntary disposal of Computershare Securities that results from a lender exercising its rights under a secured lending arrangement provided that the Designated Person had, before the disposal, informed the Nominated Director of the risk of the disposal in accordance with Section D.11 of this Policy;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "a Dealing by a Designated Person with an associated person whose interest in the Securities is to be treated by virtue of the Corporations Act as the Designated Person's interest such that there is no change in the beneficial interest in the Computershare Securities."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "During a Prohibited Period, a Designated Person (or a trustee on behalf of the Designated Person) may acquire Computershare Securities under a non-discretionary trading plan (\"Trading Plan\") which has been established under, or in relation to, an employee equity incentive plan"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "Nominated Director for exercises and subsequent sales",
+   "evidence": "Where a Designated Person applies or subscribes for, is granted or acquires Securities (except Securities acquired on the exercise of Securities ...) under an employee equity incentive plan at a time that falls outside a Prohibited Period, the Designated Person is not required to seek clearance of those Dealings under Section D."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings, elections or trading under an offer or an invitation which has been made to all or most shareholders, including a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back where the document that determines the timing and structure of the offer has been approved by the Board;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer that has been publicly made for Computershare;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of Computershare Securities held in a superannuation fund or other saving scheme in which the Designated Person is a beneficiary;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "a Dealing by a Designated Person where there is a transfer of Computershare Securities into a charitable foundation and the Designated Person retains a relevant interest in the Computershare Securities;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Computershare Securities) where the assets of the fund or other scheme are invested at the discretion of a third party;"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "No price or loan-to-value trigger is specified. The trigger for notification is event-based: the lender has demanded payment and there is a risk that the demand cannot be satisfied without disposing of Computershare Securities.",
+  "financing_disclosure": [
+   "Designated Person; on the lender demanding payment where there is a risk it cannot be met without disposing of Computershare Securities (not at inception, and not annually); the relevant Nominated Director; immediately",
+   "Director; any Deal (including entry into a Derivative); the Company Secretary, then ASX under Listing Rule 3.19A; within two business days of the Dealing, ASX lodgement within five business days, disclosing whether clearance was granted to Deal during a Prohibited Period"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "No minimum shareholding requirement. Section D.9 only encourages each director, officer and employee to be a long-term holder of Computershare Securities."
+ },
+ "external_documents": [
+  "Computershare Deferred Long Term Incentive Plan and other employee equity incentive plan rules (referred to but not set out; disposal restrictions on vested awards are determined under those rules)",
+  "Schedule 1 list of Designated Persons, as extended by persons nominated by the Group CEO or Group CFO from time to time",
+  "ASX Listing Rule 3.19A notification"
+ ],
+ "exemption_authority": "The Nominated Director has sole discretion to grant clearance to sell (but not purchase) during a Prohibited Period on severe financial hardship or other exceptional circumstances, and must be satisfied the disposal is the only reasonable course of action. The Board may determine exceptional circumstances permitting cancellation of a Trading Plan during a Prohibited Period, and only the Board may amend the Policy. There is no general power to waive the D.5 hedging ban or the D.10 short selling ban.",
+ "jurisdiction_overlays": [
+  "The Policy expressly does not deal with foreign law, while noting that foreign insider trading laws may apply to directors, officers and employees residing outside Australia"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "derivatives expressly include collars",
+   "clause": "Derivatives has the meaning given in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars.",
+   "why_it_matters": "The instrument the bank proposes is named in the Policy's own definitions, so there is no ambiguity that a collar is within scope and, over fully vested unrestricted Securities, within what D.5 permits."
+  },
+  {
+   "topic": "hedging ban is vesting-limited",
+   "clause": "once any applicable Computershare Securities have vested, such that any Computershare imposed time and performance hurdles have been satisfied (and any disposal restrictions on vested Securities have been lifted), Derivatives may be used in relation to those Securities",
+   "why_it_matters": "This is an express permission, not merely silence, so a collar over fully vested and unrestricted shares is contemplated by the Policy; the bank should obtain confirmation from the Company Secretary that all plan disposal restrictions on the specific parcel have lapsed."
+  },
+  {
+   "topic": "secured lending permitted with a distress-only notice",
+   "clause": "A Designated Person must inform the relevant Nominated Director immediately if all of the following circumstances apply: the Designated Person holds Computershare Securities that have been provided as security in relation to a lending arrangement; circumstances have arisen in which the secured lender demands payment ...; and there is a risk that the demand will not be able to be satisfied without the disposal of Computershare Securities.",
+   "why_it_matters": "There is no prohibition on the loan leg and no inception or annual disclosure, but the executive must give the Nominated Director immediate notice once the bank demands payment in circumstances where shares may have to be sold, and the facility documents should oblige the bank to alert the borrower in time for that notice."
+  },
+  {
+   "topic": "forced sale is an exempt dealing",
+   "clause": "an involuntary disposal of Computershare Securities that results from a lender exercising its rights under a secured lending arrangement provided that the Designated Person had, before the disposal, informed the Nominated Director of the risk of the disposal in accordance with Section D.11",
+   "why_it_matters": "Unusually favourable for a funded structure: lender enforcement, including during a Prohibited Period, is carved out of the Section D requirements entirely, but the carve-out is conditional on the D.11 notice having been given first, so a sudden enforcement without notice would put the executive in breach."
+  },
+  {
+   "topic": "clearance required even in an open window for derivatives",
+   "clause": "Subject to Section D.5 of this Policy, if a Designated Person intends to Deal in a Derivative over Computershare Securities during a Dealing Window then the Designated Person must obtain clearance to Deal in accordance with the procedure set out in Section D.4.",
+   "why_it_matters": "Ordinary share trades in a Dealing Window need no clearance, but every derivative leg does, so entry, roll, restrike, partial unwind and physical settlement of the collar each require a separate written clearance."
+  },
+  {
+   "topic": "no fixed clearance validity, deal as soon as possible",
+   "clause": "A Designated Person who receives clearance to Deal from the Nominated Director in accordance with this procedure must Deal as soon as possible after receiving the Nominated Director's response",
+   "why_it_matters": "There is no stated number of days for which a clearance remains valid, but the obligation to deal 'as soon as possible' means the collar should be pre-negotiated and priced so it can be executed immediately on clearance."
+  },
+  {
+   "topic": "clearance is not approval",
+   "clause": "If clearance to Deal is granted that clearance is not an approval of the proposed Dealing. Each Designated Person remains personally responsible for any decision to Deal and for their compliance with the insider trading laws and this Policy.",
+   "why_it_matters": "Clearance gives the bank no comfort that the company has blessed the structure, so the bank cannot rely on it as a representation of policy compliance and should take its own compliance representations from the executive."
+  },
+  {
+   "topic": "narrow open windows",
+   "clause": "Dealing Window means: the four week period from ... the ASX trading day after the date on which Computershare's half-year financial results are released ... full-year financial results are released ... the annual general meeting is held",
+   "why_it_matters": "This is an open-window policy: for most of the year a Designated Person is outside both a Dealing Window and a Prohibited Period and needs specific clearance under D.3, so scheduling collar entry and any unwind inside one of the three four-week windows is the low-friction path."
+  },
+  {
+   "topic": "Board may add prohibited periods",
+   "clause": "and any other period that may be designated as a prohibited period by the Board from time to time and notified to each Designated Person.",
+   "why_it_matters": "An ad hoc Prohibited Period can block collar entry or a voluntary unwind at short notice, though it must be notified to the Designated Person, so the executive will know."
+  },
+  {
+   "topic": "short selling ban is absolute",
+   "clause": "A Designated Person must not enter into an arrangement to short sell Computershare Securities at any time.",
+   "why_it_matters": "The collar must be fully covered by shares the executive actually holds; an overhedge, or a cash-settled structure over notional shares in excess of the holding, would breach D.10 even inside a Dealing Window."
+  },
+  {
+   "topic": "connected persons and controlled entities",
+   "clause": "Connected Person means, in relation to a Designated Person: (a) the Designated Person's partner and dependants ...; (b) a company or other entity of which the Designated Person is a director; (c) a trustee where the beneficiaries of the trust include the Designated Person; and (d) any other entity which the Designated Person has an ability to control.",
+   "why_it_matters": "A collar written by a family trust or controlled company is treated as within the Policy, so the same clearance and notification path applies wherever the collateral shares are held."
+  },
+  {
+   "topic": "director disclosure of the derivative",
+   "clause": "In accordance with ASX Listing Rule 3.19A, the Company Secretary will lodge with the ASX the necessary notification of the change in the Director's interest in Computershare Securities within five business days after the Dealing is transacted.",
+   "why_it_matters": "A Director's collar is a Deal in Securities, so it becomes publicly disclosed via Appendix 3Y within five business days, and the bank should expect the structure to be visible to the market."
+  }
+ ],
+ "summary": "A funded collar is achievable for a Computershare Designated Person over fully vested Securities, and this is one of the most permissive policies in the set. Section D.5 bans hedging only of unvested incentive awards and vested awards still subject to disposal restrictions, and then expressly states that once hurdles are satisfied and disposal restrictions lifted, Derivatives may be used, with the definition of Derivatives naming collars outright. There is no prohibition on margin lending or secured financing: the loan leg is unregulated at inception, the only obligation being immediate notice to the Nominated Director once the lender demands payment in circumstances where Computershare Securities may have to be sold, and an involuntary disposal by the lender is then an exempt Dealing even in a Prohibited Period. Conditions are that every derivative leg needs prior written clearance from the Nominated Director (the Chairman of the Board for Directors, the CEO for other Designated Persons, responded to within two business days and dealt on as soon as possible), that entry falls outside the 15 June and 15 December Prohibited Periods and ideally inside one of the three four-week Dealing Windows, that the structure is fully covered by shares held so as not to offend the absolute short selling ban, and that a Director's dealing will be disclosed to the ASX within five business days."
+}
