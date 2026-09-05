@@ -1,0 +1,328 @@
+{
+ "symbol": "GQG",
+ "company": "GQG Partners Inc.",
+ "title": "Securities Dealing Policy",
+ "date_approved": "16 August 2023",
+ "date_effective": "17 August 2023",
+ "date_lodged": "24 August 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "GQG Personnel",
+   "kind": "all_staff",
+   "description": "All Directors of the Company, Supervised Persons as defined in the GQG Partners LLC Code of Ethics, Group employees and other individuals designated by the Chief Compliance Officer (CCO) or General Counsel. All substantive restrictions (no dealing on Inside Information, no short-term/speculative dealing, no derivatives dealing, hedging/monetisation ban, blackout periods, preclearance requirement, margin lending approval) apply without differentiation.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Company Directors; distinguished only for post-trade confirmation of trades to the CCO and for escalation of their own approval requests to the Chair of the Risk Committee (or Chair of the Audit Committee for the Chair of the Risk Committee).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "Persons holding Covered Accounts as defined in GQG's Code of Ethics: anyone with a direct or indirect interest in, or direct or indirect control over purchases or sales in, an account able to trade covered securities, including an immediate family member living in the same household. GQG Personnel must ensure Connected Persons only deal as the GQG Person themselves would be permitted to.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any arrangements that operate to limit the economic risk associated with holding the Company's securities",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading on the ASX on 24 December each year",
+   "end_anchor": "day following the announcement to ASX of the full-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading on the ASX on 23 June each year",
+   "end_anchor": "day following the announcement to ASX of the half-year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The CCO, in consultation with the CEO and/or CFO as appropriate, may specify any other blackout period from time to time. Confidentiality of ad hoc blackouts themselves is not addressed, but a related refusal or revocation of approval must be kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "Blanket ban on dealing in derivatives linked to the value of the Company's securities, with no venue limitation, so it catches an OTC put and call with a bank. The only carve-out is derivatives issued as part of an employee compensation plan, which does not extend to a bank-structured collar.",
+   "evidence": "GQG Personnel must not deal in derivatives linked to the value of the Company's securities, unless issued as part of an employee compensation plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Outright ban on hedging and similar arrangements over Company securities, with no distinction between vested and unvested holdings and no clearance route.",
+   "evidence": "GQG Personnel are prohibited from engaging in hedging, monetization transactions or similar arrangements involving Company securities. Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding the Company's securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Monetisation is named expressly and banned in the same sentence as hedging, with no security-state or approval carve-out.",
+   "evidence": "GQG Personnel are prohibited from engaging in hedging, monetization transactions or similar arrangements involving Company securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "Short selling is named as an example of prohibited speculative dealing.",
+   "evidence": "GQG Personnel must not deal in the Company's securities on a speculative basis, including short-selling. Short selling involves borrowing and selling securities in the hope that they can be bought back at a lower price in the future to close out the short position at a profit."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending by a holder is not named and is not listed among the acts treated as a deal.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.3",
+   "detail": "CFDs are not named, but a CFD is a derivative linked to the value of the Company's securities and so falls within the general derivatives ban.",
+   "evidence": "GQG Personnel must not deal in derivatives linked to the value of the Company's securities, unless issued as part of an employee compensation plan."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Entering into a margin lending arrangement over Company securities, or transferring Company securities into an existing margin loan account, needs prior approval under the section 4.4 process. Approval can be made conditional, including on the circumstances in which securities may be sold to satisfy a margin call.",
+   "evidence": "Approval must be obtained in accordance with the procedure set out in section 4.4 for any: entering into a margin lending arrangement in respect of the Company's securities; and transferring securities in the Company into an existing margin loan account."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Granting security is only addressed in the specific context of a margin lending arrangement, which needs approval. A charge, lien or pledge outside a margin loan (e.g. to a bank under a bespoke collar financing) is not separately named.",
+   "evidence": "Approval must be obtained in accordance with the procedure set out in section 4.4 for any: entering into a margin lending arrangement in respect of the Company's securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Only margin lending arrangements are addressed as secured financing; there is no broader ban on other secured financing in respect of Company securities.",
+   "evidence": "Approval must be obtained in accordance with the procedure set out in section 4.4 for any: entering into a margin lending arrangement in respect of the Company's securities; and transferring securities in the Company into an existing margin loan account."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "Ban on buying and selling on market within a 3 month period, and on arranging the financial equivalent of short-term or speculative dealing. Selling equity-plan securities within 3 months of vesting is expressly carved out.",
+   "evidence": "GQG Personnel must not deal in the Company's securities on a short-term trading basis. Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "GQG Personnel",
+   "type": "approval",
+   "approver": "CCO or the CCO's designee (via the Company's trade pre-clearance system where used), escalating to the CEO for direct reports of the CEO or certain senior executives",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.3; 4.4",
+   "evidence": "During any period that is not a trading blackout period under section 4.1, all GQG Personnel must, prior to any proposed dealing, seek approval for the proposed dealing in the Company's securities."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "CCO/designee, with further approval from the Chair of the Risk Committee (or the Chair of the Audit Committee in the case of the Chair of the Risk Committee)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "CCO",
+   "post_trade_deadline": "ideally by close of business on the day of the trade, and in any event within 2 business days",
+   "section": "4.4; 4.6",
+   "evidence": "Following any trade, Directors must promptly notify the CCO, in writing, ideally by close of business on the day the trade is entered into, and in any event within 2 business days, of the details of the trade."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "on market, from acquisition",
+   "carve_outs": [
+    "selling securities received on vesting of entitlements under a Company equity plan within 3 months of the vesting date"
+   ],
+   "evidence": "GQG Personnel must not deal in the Company's securities on a short-term trading basis. Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "CCO (or CEO/Chair of the Risk Committee/Chair of the Audit Committee per section 4.4 escalation)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "CCO (or CEO/Chair of the Risk Committee/Chair of the Audit Committee per section 4.4 escalation)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "participation in a Company equity plan operated by the Company, including the exercise of stock option awards and any \"net settlement\" transaction between the Company and a GQG Person ... any sales of Company securities into the public markets shall fall outside of the exclusion"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan; acquisition of Company securities through a security purchase plan available to all retail securityholders; acquisition of Company securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Company securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Company securities already held into a superannuation fund or trust of which the Employee is a beneficiary)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "CCO (pre-approval of the plan)",
+   "evidence": "trading under a non-discretionary trading plan that is pre-approved by the CCO, where the Employee did not enter into the plan or amend the plan during a blackout period, the plan does not permit the Employee to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a blackout period"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors: trigger = any trade (including transactions under a margin facility); to = CCO in writing; deadline = ideally close of business on the trade date, and in any event within 2 business days (section 4.6)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "GQG Partners LLC Code of Ethics (defines Supervised Persons and Covered Accounts)",
+  "GQG's Disclosure Policy"
+ ],
+ "exemption_authority": "CCO (escalating to CEO, Chair of the Risk Committee or Chair of the Audit Committee depending on seniority) may approve dealing during a blackout period in exceptional circumstances (severe financial hardship or compulsion by court order) if satisfied the dealing is the most reasonable course of action and will not violate securities laws; refusal or revocation must be kept confidential and approval may be conditional.",
+ "jurisdiction_overlays": [
+  "U.S. Securities Exchange Act of 1934, Rule 10b-5 and related U.S. insider trading statutes"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "always-on preclearance",
+   "clause": "During any period that is not a trading blackout period under section 4.1, all GQG Personnel must, prior to any proposed dealing, seek approval for the proposed dealing in the Company's securities.",
+   "why_it_matters": "Unlike a typical open/closed trading window model, GQG Personnel need prior CCO approval for every dealing at any time of year, so a collar's entry, unwind or roll always needs fresh clearance rather than only during closed periods."
+  },
+  {
+   "topic": "no vesting carve-out for hedging or monetisation",
+   "clause": "GQG Personnel are prohibited from engaging in hedging, monetization transactions or similar arrangements involving Company securities.",
+   "why_it_matters": "The ban is not limited to unvested or restricted holdings, so even a collar entirely over long-held, unrestricted vested shares is expressly prohibited, with no clearance route at all."
+  },
+  {
+   "topic": "front page test",
+   "clause": "Where any approval is required for a dealing under this Policy, approval will not be granted where, in the judgment of the CCO, the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "Even the margin-lending leg, which is otherwise approvable, is subject to a discretionary reputational veto that a bank-structured, security-backed facility could well fail regardless of legal compliance."
+  },
+  {
+   "topic": "conditions on margin call sales",
+   "clause": "The Company may, at its discretion, make any approval granted in accordance with section 4.5(a) conditional upon such terms and conditions as the Company sees fit (for example, with regard to the circumstances in which the Company's securities may be sold to satisfy a margin call).",
+   "why_it_matters": "If a secured loan were ever approved, GQG can impose its own conditions on when the lender may sell on a margin call, constraining a bank's standard enforcement rights over collared shares."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "A lender's enforcement sale is excluded from the short-term dealing, blackout and preclearance rules, but this does not cure the separate, unconditional ban on entering the hedge itself."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "GQG Personnel must take appropriate steps to ensure that their \"Connected Persons\" only deal in securities in circumstances where the GQG Person to whom they are connected would be permitted to deal under this Policy.",
+   "why_it_matters": "Structuring the collar or loan through a family member's account or a related entity does not escape the hedging and derivatives bans."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 3.4 imposes an unconditional, blanket ban on 'hedging, monetization transactions or similar arrangements' over Company securities, expressly including any arrangement that limits the economic risk of holding them, with no carve-out for vested or unrestricted shares and no clearance route. Section 3.3 separately bans dealing in any derivative linked to the value of the Company's securities other than those issued under an employee compensation plan, which independently catches an OTC put and call. Even the financing leg alone is constrained: a margin lending arrangement or transfer into a margin account needs prior CCO (and sometimes Board-committee) approval, is subject to a discretionary 'Front Page Test', and every dealing outside a blackout period requires fresh prior clearance regardless of the calendar. There is no exceptional-circumstances relief for entering a hedge (only for a sale in hardship or under court order), so a bank-funded equity collar cannot be implemented under this policy as drafted."
+}
