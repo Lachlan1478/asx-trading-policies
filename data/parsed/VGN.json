@@ -1,0 +1,352 @@
+{
+ "symbol": "VGN",
+ "company": "Virgin Australia Holdings Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "16 May 2025",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Team Member",
+   "kind": "all_staff",
+   "description": "Employees, officers, directors, consultants and contractors of Virgin Australia, as well as their Connected Members. Baseline rule: trade only in Trading Windows, never with Inside Information, no short-term trading.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors and senior executives (GLT level and above); employees reporting directly to an ELT member or with access to ELT email/document folders; and anyone the CEO designates in writing. Must obtain written Authorising Officer approval before any trade, at all times (whether or not a Trading Window is open), and must take steps to ensure Connected Members comply.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Board member",
+   "kind": "director",
+   "description": "Subset of Designated Persons. Must notify the Company as soon as possible (no more than two days) after Dealing so the Company can notify the ASX within five business days.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Members",
+   "kind": "associate",
+   "description": "A Team Member's spouse/partner/cohabitee, children/stepchildren and dependants (including those of a spouse/partner), other influencing/influenced family members, a controlled body corporate, a trust of which they are trustee and beneficiary, and a self-managed superannuation fund of which they are a beneficiary.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Entering into transactions which limit the economic risk of any Company Securities holdings (e.g. hedging arrangements).",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "announcement of the half year financial results",
+   "end_anchor": "four weeks after announcement of the half year financial results",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "announcement of the full year financial results",
+   "end_anchor": "four weeks after announcement of the full year financial results",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "the Company's AGM",
+   "end_anchor": "four weeks after the Company's AGM",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2; 10 (Securities, Deal/Dealing)",
+   "detail": "Securities is expressly defined to include derivatives such as forward contracts, swaps, warrants, futures, and caps and collars, and any other transaction in financial products that operates to limit the economic risk associated with holding the securities. Section 8.2 separately and absolutely prohibits entering into transactions that limit that economic risk or enable a person to profit from a price decrease - exactly what a purchased put/written call collar does.",
+   "evidence": "derivatives (including forward contracts, swaps, warrants, futures, caps and collars and any other transaction in financial products that operates to limit the economic risk associated with holding the securities). Entering into transactions which limit the economic risk of any Company Securities holdings (e.g. hedging arrangements)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2; 8.3",
+   "detail": "Absolute ban on any transaction limiting the economic risk of a Company Securities holding, for all Team Members and their Connected Members, with no vesting-state carve-out and no clearance route. Designated Persons must also take reasonable steps to prevent their Connected Members entering into hedging arrangements.",
+   "evidence": "Entering into transactions which limit the economic risk of any Company Securities holdings (e.g. hedging arrangements)."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "8.2; 10 (Securities)",
+   "detail": "Monetisation is not named, but a structure such as a prepaid forward falls within the Securities definition's sweep of 'any other transaction in financial products that operates to limit the economic risk associated with holding the securities' and so is caught by the 8.2 prohibition.",
+   "evidence": "any other transaction in financial products that operates to limit the economic risk associated with holding the securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "Short selling beyond a person's actual holding is banned, as is any broader arrangement enabling a person to profit from a decrease in the market price of Company Securities.",
+   "evidence": "\"Short selling\" of Company Securities beyond a person's holding of Company Securities. Arrangements that enable a person to profit from a decrease in the market price of Company Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Team Member",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.1; 10 (Deal/Dealing)",
+   "detail": "Securities lending is not named. It is only caught, if at all, as 'any other transaction involving ... a change in beneficial ownership of the securities' within the Deal/Dealing definition, in which case a non-Designated Team Member need only trade within an open Trading Window without Inside Information; no separate approval is required.",
+   "evidence": "the engagement in any other transaction involving a beneficial interest or a change in beneficial ownership of the securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.2; 10 (Deal/Dealing)",
+   "detail": "As for other Dealings, a Designated Person must obtain prior written Authorising Officer approval before a securities lending transaction, at all times, whether or not a Trading Window is open.",
+   "evidence": "Designated Persons must not Deal in the Company's Securities until written approval has been given by the relevant Authorising Officer. This obligation operates at all times (whether the Trading Window is open or not)."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Team Member",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "10 (Securities, Deal/Dealing)",
+   "detail": "A CFD is not named but is a derivative financial product caught by the Securities and Deal/Dealing definitions; a non-Designated Team Member may trade one within an open Trading Window without Inside Information, unless it operates to limit economic risk or profit from a price fall, in which case it is separately banned under 8.2.",
+   "evidence": "the entry into a derivative in relation to the securities"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.2; 10 (Securities, Deal/Dealing)",
+   "detail": "Requires prior written Authorising Officer approval at all times; a CFD used to hedge economic risk or profit from a price fall is separately and absolutely banned under 8.2 regardless of approval.",
+   "evidence": "Designated Persons must not Deal in the Company's Securities until written approval has been given by the relevant Authorising Officer."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "Margin lending is listed among prohibited arrangements, but the parenthetical carves out a prior-approval pathway specifically for Designated Persons; no approver or process is separately specified beyond the general Authorising Officer framework in 6.2.",
+   "evidence": "Entering into margin lending arrangements involving Company Securities (for Designated Persons) without prior approval."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Team Member",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "No approval pathway is provided for non-Designated Team Members, so margin lending falls within the general prohibition on protection arrangements and margin lending.",
+   "evidence": "The following arrangements are prohibited: ... Entering into margin lending arrangements involving Company Securities (for Designated Persons) without prior approval."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "Absolute ban on granting any form of security over any Company Securities, for all Team Members including Designated Persons, with no stated exception or approval route - in tension with the conditional approval available for margin lending itself.",
+   "evidence": "Granting any form of security over any Company Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.2",
+   "detail": "Any financing secured by a charge over the Company's Securities necessarily involves 'granting any form of security', which is banned outright with no carve-out, even though a margin loan itself may be approvable for Designated Persons.",
+   "evidence": "Granting any form of security over any Company Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1",
+   "detail": "No Dealing in the same Company Securities within any six-month period, except for financial hardship situations and employee incentive scheme vesting/exercise.",
+   "evidence": "Team Members cannot engage in short-term trading of the Company's Securities. This means that Team Members must not Deal in the same Company Securities within any six-month period."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Chair of the Board is approved by the Chair of ARSCC; the CEO, other Directors, ELT and the Company Secretary are approved by the Chair of the Board (or Chair of ARSCC in their absence); any other Designated Person is approved by the Company Secretary.",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "the day after the Dealing has settled (or a decision is made not to Deal)",
+   "section": "6.2",
+   "evidence": "Designated Persons must not Deal in the Company's Securities until written approval has been given by the relevant Authorising Officer. This obligation operates at all times (whether the Trading Window is open or not). If permission is granted, the transaction must be initiated within five trading days and completed without delay."
+  },
+  {
+   "tier": "Team Member",
+   "type": "approval",
+   "approver": "Company Secretary (or relevant Authorising Officer)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "7.1",
+   "evidence": "If a Team Member wishes to sell or otherwise dispose of the Company's Securities when a Trading Window is not operating, that person must obtain the prior written consent of the relevant Authorising Officer."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "any six-month period",
+   "carve_outs": ["financial hardship situations", "vesting or exercise of options or rights under an employee incentive scheme"],
+   "evidence": "Team Members must not Deal in the same Company Securities within any six-month period. Limited exceptions to this prohibition apply to financial hardship situations and employee incentive schemes."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "relevant Authorising Officer (absolute discretion, case-by-case)",
+   "evidence": "The Team Member must demonstrate to the satisfaction of the Authorising Officer that they are in severe financial hardship or that their circumstances are otherwise exceptional and that the proposed sale or disposal of the Securities is the only reasonable course of action available."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "relevant Authorising Officer",
+   "evidence": "Examples of exceptional circumstances justifying consent may include Dealing if required by a court order, or there are court enforceable undertakings in a bona fide family settlement, to transfer or sell the Securities or there is some other overriding legal or regulatory requirement to do so."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the insider trading prohibition does not apply to Team Members acquiring the Company's Securities under any Board approved employee share or option plans. However, the prohibition will apply to any subsequent disposal of shares acquired under such plans."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Where the trade would result in no change in beneficial interest in the Company's Securities."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "Undertakings to accept, or the acceptance of, a takeover offer."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading under an offer or invitation made to all or most of the Company's Security holders, such as a rights issue or a share buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "An investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the Company's Securities) where assets of the fund or other scheme are invested at the discretion of a third party."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Code of Conduct", "Stakeholder Communication Policy", "Continuous Disclosure Policy"],
+ "exemption_authority": "The relevant Authorising Officer may, at absolute discretion and case-by-case, grant written consent for a Team Member to sell or dispose of Securities outside a Trading Window for severe financial hardship or other exceptional circumstances (court order, family settlement, other legal/regulatory requirement); consent will not be given if the person holds Inside Information. No exemption route is stated for the section 8.2 bans on hedging, short selling, profit-from-decrease arrangements or granting security, other than the conditional prior-approval carve-out for Designated Persons' margin lending.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "caps and collars named",
+   "clause": "Securities ... includes ... derivatives (including forward contracts, swaps, warrants, futures, caps and collars and any other transaction in financial products that operates to limit the economic risk associated with holding the securities)",
+   "why_it_matters": "The policy's own Securities definition expressly names 'collars' as a derivative that limits economic risk, so the exact structure the bank would offer is captured by name and squarely triggers the section 8.2 hedging prohibition."
+  },
+  {
+   "topic": "encumbrance ban vs conditional margin loan approval",
+   "clause": "Granting any form of security over any Company Securities. ... Entering into margin lending arrangements involving Company Securities (for Designated Persons) without prior approval.",
+   "why_it_matters": "There is an internal tension: margin lending may be approved for Designated Persons, but granting security over the shares - which a margin loan or the bank's loan would typically require - is separately and absolutely banned with no stated exception, so it is unclear how any approved loan could actually be secured on the shares."
+  },
+  {
+   "topic": "profit from price decrease",
+   "clause": "Arrangements that enable a person to profit from a decrease in the market price of Company Securities.",
+   "why_it_matters": "Independently of the hedging and short-selling bans, this separately catches the purchased-put leg of a collar even if it were not characterised as 'hedging'."
+  },
+  {
+   "topic": "policy amendment disclosure",
+   "clause": "If Virgin Australia makes a material change to this trading policy, the amended trading policy will be provided to the ASX for release to the market within five business days of the material changes taking effect.",
+   "why_it_matters": "Any bespoke carve-out negotiated to permit a collar program would require a material policy amendment that must be publicly released to the ASX within five business days, so it cannot be arranged confidentially."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 8.2 expressly and absolutely prohibits entering into transactions that limit the economic risk of a Company Securities holding or that enable a person to profit from a price decrease, and the Securities definition itself names 'caps and collars' as exactly this kind of derivative, so both the purchased put and the overall collar structure are banned outright with no clearance or hardship exception. Granting any form of security over the shares is separately and absolutely prohibited, which would block the bank's loan from being secured on the collared parcel, notwithstanding that margin lending itself carries a conditional prior-approval pathway for Designated Persons. Any dealing that were nonetheless attempted would still need to fall within a four-week Trading Window following half-year results, full-year results or the AGM (or be approved as a hardship/exceptional-circumstances sale only) and, for Designated Persons, would separately require prior written Authorising Officer approval at all times. Given the explicit bans on collar-type derivatives, profit-from-decrease arrangements and share encumbrances, this policy leaves no pathway for a director or executive to enter a funded OTC equity collar."
+}

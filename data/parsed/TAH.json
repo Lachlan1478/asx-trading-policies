@@ -1,0 +1,581 @@
+{
+ "symbol": "TAH",
+ "company": "Tabcorp Holdings Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "11 May 2020",
+ "date_lodged": "12 May 2020",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Tabcorp Directors. Subject to Blackout Periods, prior written approval to deal (Chairman, or Chairman of the Audit Committee if the Chairman is dealing), short-term dealing and short-selling prohibitions, margin lending/security interest prohibitions, Minimum Shareholding Policy compliance, and post-trade notification within two business days.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Employees",
+   "kind": "restricted",
+   "description": "Executives reporting directly to the MD & CEO (ELT members), team members reporting directly to ELT members, and any other team member determined by the Board, Chairman or MD & CEO to be a Restricted Employee. Subject to the same Blackout Period, approval, short-term dealing, short-selling, and margin lending/security interest prohibitions as Directors.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "team members",
+   "kind": "all_staff",
+   "description": "All Directors, employees and contractors of Tabcorp. Subject only to the general prohibition on dealing while in possession of inside information; no prior-approval regime, Blackout Period, short-term dealing or margin lending prohibition applies to this tier unless the person is also a Director or Restricted Employee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Plan participants",
+   "kind": "plan_participant",
+   "description": "Team members participating in any of Tabcorp's employee or executive equity or incentive plans. Restricted from hedging or entering a derivative arrangement in respect of restricted shares and unvested performance options or rights granted under those plans.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Any person or entity which might in the circumstances be reasonably associated with Tabcorp or any of its Directors or team members, such as spouses, dependent children, family trusts, family companies, or joint venture partners.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "1 January",
+   "end_anchor": "End of the day Tabcorp releases its half yearly results (inclusive)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "1 July",
+   "end_anchor": "End of the day Tabcorp releases its full year results (inclusive)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "1 October",
+   "end_anchor": "End of the day of Tabcorp's Annual General Meeting (inclusive)",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Tabcorp Board or Chairman may impose 'Other Periods' at their absolute discretion and without prior notice; the policy does not state whether such a period is disclosed or kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Plan participants",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on hedging and derivatives",
+   "detail": "Absolute ban on derivative arrangements over restricted shares and unvested performance options or rights granted under Tabcorp's equity or incentive plans.",
+   "evidence": "must not enter into a derivative arrangement in respect of restricted shares and unvested performance options or rights granted under these plans."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Key definitions; Directors and Restricted Employees need approval to deal",
+   "detail": "No express derivatives rule for Directors outside the plan-securities ban. Creating a hedge or other financial interest over securities is a dealing; Securities expressly includes derivatives (equity swaps, CFDs, futures, ETO/OTC options), so an OTC put/call requires prior written approval from the Chairman, is barred in Blackout Periods, and lapses if inside information is later held.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Key definitions; Directors and Restricted Employees need approval to deal",
+   "detail": "Same dealing-definition catch as Directors; approver is the Company Secretary or MD & CEO (and the Chairman for ELT members).",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "General restriction on dealing while in possession of inside information",
+   "detail": "No approval regime applies to this tier; a derivative dealing is only barred while the person holds inside information or during a company-notified restriction.",
+   "evidence": "Team members must not: deal in any Tabcorp securities (or arrange for others to deal on their behalf) if they are in possession of inside information"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Plan participants",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on hedging and derivatives",
+   "detail": "Absolute ban on hedging the value of restricted shares and unvested performance options or rights.",
+   "evidence": "restricted from hedging the value of restricted shares and unvested performance options or rights"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Key definitions; Directors and Restricted Employees need approval to deal",
+   "detail": "Hedging of vested, unrestricted shares is not named; it is caught only as a dealing (creating a hedge or other financial interest) requiring prior written approval.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Key definitions; Directors and Restricted Employees need approval to deal",
+   "detail": "Same dealing-definition catch as Directors.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "team members",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "General restriction on dealing while in possession of inside information",
+   "detail": "No approval regime; only barred while holding inside information.",
+   "evidence": "Team members must not: deal in any Tabcorp securities (or arrange for others to deal on their behalf) if they are in possession of inside information"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Key definitions (dealings covered); Directors and Restricted Employees need approval to deal",
+   "detail": "Monetisation (e.g. a prepaid forward) is not named. It falls within 'any other transfer or creation of an interest in securities' and 'agreeing ... to do any of the above', so prior written approval is required.",
+   "evidence": "any other transfer or creation of an interest in securities, whether directly, or by arranging for someone else to undertake the dealing on your behalf"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Key definitions (dealings covered); Directors and Restricted Employees need approval to deal",
+   "detail": "Same dealing-definition catch as Directors.",
+   "evidence": "any other transfer or creation of an interest in securities, whether directly, or by arranging for someone else to undertake the dealing on your behalf"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "General restriction on dealing while in possession of inside information",
+   "detail": "No approval regime; only barred while holding inside information.",
+   "evidence": "Team members must not: deal in any Tabcorp securities (or arrange for others to deal on their behalf) if they are in possession of inside information"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on short selling and short term dealing",
+   "detail": "Outright ban, extending to associates.",
+   "evidence": "Directors and Restricted Employees must not, and must ensure their associates do not, engage in short selling of Tabcorp securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on short selling and short term dealing",
+   "detail": "Same outright ban as Directors, extending to associates.",
+   "evidence": "Directors and Restricted Employees must not, and must ensure their associates do not, engage in short selling of Tabcorp securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The express short-selling ban is limited to Directors, Restricted Employees and their associates; not extended to other team members.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and is not listed among the dealings covered by the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Key definitions (What are securities?)",
+   "detail": "Contracts for difference are expressly named within the Securities definition, so ordinary dealing rules (prior written approval, Blackout Periods) apply.",
+   "evidence": "including equity swaps, contracts for difference, futures, hedges and exchange-traded or over-the-counter options"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Key definitions (What are securities?)",
+   "detail": "Same treatment as Directors.",
+   "evidence": "including equity swaps, contracts for difference, futures, hedges and exchange-traded or over-the-counter options"
+  },
+  {
+   "topic": "cfd",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Key definitions (What are securities?); General restriction on dealing while in possession of inside information",
+   "detail": "CFDs are named securities but no approval regime applies outside Directors/Restricted Employees; only the inside-information prohibition applies.",
+   "evidence": "including equity swaps, contracts for difference, futures, hedges and exchange-traded or over-the-counter options"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on margin lending and other security interests",
+   "detail": "Absolute ban on margin loans or similar funding arrangements to acquire Tabcorp securities, extending to associates.",
+   "evidence": "must not, and must ensure their associates do not, enter into a margin loan or similar funding arrangement to acquire any Tabcorp securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on margin lending and other security interests",
+   "detail": "Same absolute ban as Directors.",
+   "evidence": "must not, and must ensure their associates do not, enter into a margin loan or similar funding arrangement to acquire any Tabcorp securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Key definitions (dealings covered)",
+   "detail": "Margin loan is named in the general dealing definition, so it is a dealing for this tier, but the express prohibition and any approval requirement apply only to Directors and Restricted Employees.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on margin lending and other security interests",
+   "detail": "Unqualified ban on granting any lender rights over Tabcorp securities, not limited to acquisition financing.",
+   "evidence": "or grant lenders any rights over their Tabcorp securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on margin lending and other security interests",
+   "detail": "Same unqualified ban as Directors.",
+   "evidence": "or grant lenders any rights over their Tabcorp securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Key definitions (dealings covered)",
+   "detail": "Creating a security interest is a dealing for this tier, but the express ban on granting lender rights is limited to Directors and Restricted Employees; general team members are only bound by the inside-information prohibition.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on margin lending and other security interests",
+   "detail": "The ban on granting lenders any rights over Tabcorp securities is not limited to margin loans or to acquisition purpose, so it appears to catch any secured financing over already-held (vested) shares, with no exemption authority stated.",
+   "evidence": "enter into a margin loan or similar funding arrangement to acquire any Tabcorp securities, or grant lenders any rights over their Tabcorp securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on margin lending and other security interests",
+   "detail": "Same unqualified ban as Directors.",
+   "evidence": "enter into a margin loan or similar funding arrangement to acquire any Tabcorp securities, or grant lenders any rights over their Tabcorp securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Key definitions (dealings covered)",
+   "detail": "Creating a security interest is a dealing for this tier, but the express secured-financing ban applies only to Directors and Restricted Employees.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on short selling and short term dealing",
+   "detail": "Six-month buy/sell rule from acquisition, extending to associates; relief only in exceptional circumstances with prior written approval, not a general clearance route.",
+   "evidence": "must not, and must ensure their associates do not, buy and sell Tabcorp securities on a short term basis (that is, within a six month period of acquisition), except in exceptional circumstances and where prior written approval is sought and obtained"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Prohibition on short selling and short term dealing",
+   "detail": "Same six-month rule as Directors.",
+   "evidence": "must not, and must ensure their associates do not, buy and sell Tabcorp securities on a short term basis (that is, within a six month period of acquisition), except in exceptional circumstances and where prior written approval is sought and obtained"
+  },
+  {
+   "topic": "short_term",
+   "tier": "team members",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The six-month rule is limited to Directors, Restricted Employees and their associates.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "The Chairman (Chairman of the Audit Committee if the dealer is the Chairman)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (notification of changes to relevant notifiable interests)",
+   "post_trade_deadline": "as soon as possible and no more than two business days after the change occurs",
+   "section": "Directors and Restricted Employees need approval to deal; Confirmation required by Directors and their associates",
+   "evidence": "Any trading that is the subject of approval must be executed within five business days of the receipt of the written approval (unless the approval is withdrawn). Directors are required to notify the Company Secretary of any changes to their relevant notifiable interests in Tabcorp securities as soon as possible and no more than two business days after the change occurs"
+  },
+  {
+   "tier": "Restricted Employees",
+   "type": "approval",
+   "approver": "Company Secretary or MD & CEO (ELT members also require the Chairman)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Directors and Restricted Employees need approval to deal",
+   "evidence": "Any approval to deal can be given, withdrawn, refused or made subject to certain conditions by the applicable approver in their absolute discretion without giving reasons."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Directors",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "buy and sell Tabcorp securities on a short term basis (that is, within a six month period of acquisition), except in exceptional circumstances and where prior written approval is sought and obtained in accordance with this policy"
+  },
+  {
+   "tier": "Restricted Employees",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "buy and sell Tabcorp securities on a short term basis (that is, within a six month period of acquisition), except in exceptional circumstances and where prior written approval is sought and obtained in accordance with this policy"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman (Directors); Company Secretary or MD & CEO (Restricted Employees)",
+   "evidence": "severe financial hardship such as a pressing financial commitment that cannot be satisfied otherwise than by selling the relevant securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chairman (Directors); Company Secretary or MD & CEO (Restricted Employees)",
+   "evidence": "a court order, court enforceable undertaking, or other legal or regulatory requirement requiring a sale of securities."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "investments by a fund or other scheme (such as an independent superannuation fund) where the investment decision is at the discretion of a third party."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no change in the underlying beneficial interest in the securities (for example, transfer from one personal shareholding to another personal shareholding)"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities arising from the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an allocation of securities under a share purchase plan or dividend reinvestment plan provided the participant did not commence or amend their participation in the plan during a Blackout Period"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of securities under a Director, executive or employee equity or incentive plan;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of securities pursuant to an offer made to all eligible holders of securities of the same class (for example, a bonus issue, rights issue or buy-back)"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "Referenced by cross-reference to the Non Executive Director Shareholding Policy and Executive Shareholding Policy; approval to deal may be refused if the applicant is not, or would not remain, compliant with the applicable Minimum Shareholding Policy. Silent on whether hedged or collared shares are excluded from the calculation."
+ },
+ "external_documents": ["Non Executive Director Shareholding Policy", "Executive Shareholding Policy"],
+ "exemption_authority": "The applicable approver (Chairman for Directors; Company Secretary or MD & CEO for Restricted Employees) may permit dealing in a Blackout Period or on a short-term basis only in exceptional circumstances (severe financial hardship or a court order) and only where the trade is the only reasonable course of action available; refusal or withdrawal must be kept confidential by the applicant.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing scope",
+   "clause": "Directors and Restricted Employees must not, and must ensure their associates do not, enter into a margin loan or similar funding arrangement to acquire any Tabcorp securities, or grant lenders any rights over their Tabcorp securities.",
+   "why_it_matters": "The unqualified ban on granting a lender any rights over Tabcorp securities is not limited to acquisition financing, so it appears to catch a bank's security interest over already-vested, collared shares and blocks the loan leg outright for Directors and Restricted Employees."
+  },
+  {
+   "topic": "5-business-day execution window",
+   "clause": "Any trading that is the subject of approval must be executed within five business days of the receipt of the written approval (unless the approval is withdrawn).",
+   "why_it_matters": "Both derivative legs of a cleared collar must be priced and executed within five business days of approval, a tight window for negotiating bank documentation."
+  },
+  {
+   "topic": "confidential refusal",
+   "clause": "If approval is withdrawn or refused, the person seeking the approval must keep that information confidential and not disclose it to anyone.",
+   "why_it_matters": "A bank structuring the collar may never be told why clearance was refused, complicating any attempt to restructure around a refusal."
+  },
+  {
+   "topic": "minimum shareholding interaction",
+   "clause": "An application for approval to deal in Tabcorp securities may be refused where the applicant is not, or as a result of the proposed dealing will not be, in compliance with the applicable Minimum Shareholding Policy.",
+   "why_it_matters": "If exercise of the written call could cause a disposal that breaches the director's or executive's Minimum Shareholding Policy, approval for the collar could be refused up front."
+  },
+  {
+   "topic": "no forced-sale carve-out",
+   "clause": "The policy contains no exception permitting a lender's forced sale of securities during a Blackout Period.",
+   "why_it_matters": "Absent an express carve-out, enforcement or physical settlement by the bank during a Blackout Period is not clearly excused, so unwind mechanics would need to be timed to open windows."
+  }
+ ],
+ "summary": "A funded collar is not achievable for Directors or Restricted Employees under this policy, even though the derivative legs alone would be approvable. The put and call are 'dealings' under the broad definition (creating a hedge or other financial interest) and so require prior written approval from the Chairman (Directors) or the Company Secretary/MD & CEO (Restricted Employees), execution within five business days of approval, and avoidance of the half-year, full-year, AGM and any ad hoc Blackout Periods and of inside information. The loan leg fails outright: the policy separately and unconditionally prohibits Directors and Restricted Employees (and their associates) from granting a lender any rights over their Tabcorp securities, a ban that is not limited to acquisition financing and has no exemption authority or clearance route. Only unvested performance rights/options and restricted plan shares are absolutely barred from any hedge or derivative; vested, unrestricted shares are otherwise only subject to the general dealing/approval regime. General 'team members' outside these two tiers face no approval regime and no secured-financing ban, but they also have no unvested equity incentives typically at stake and are an unlikely collar counterparty. Refusals of approval are confidential and approval can also be refused for non-compliance with the separate Minimum Shareholding Policies."
+}

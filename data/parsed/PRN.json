@@ -1,0 +1,392 @@
+{
+ "symbol": "PRN",
+ "company": "Perenti Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "2 December 2024",
+ "date_effective": "6 January 2025",
+ "date_lodged": "9 January 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Personnel",
+   "kind": "all_staff",
+   "description": "All directors and employees of Perenti and its subsidiaries (the Group). Subject to the base insider trading prohibition and the general restriction on dealing while in possession of Inside Information.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors (including the Managing Director and CEO), the CFO, other members of the Group Executive, employees in Vice President/Head of/General Manager roles, employees involved in preparing half-year and full-year results, persons who possess Inside Information, other persons advised by the Company Secretary/Chief Corporate Services Officer/CFO that they are restricted, and persons temporarily restricted due to knowledge of a potential project or transaction. Subject to blackout periods, prior clearance, short-term dealing, margin lending and hedging restrictions.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "For each member of Personnel: a family member who may be expected to influence or be influenced by that person (spouse, partner, children and dependents, plus children and dependents of a spouse or partner), and a company or other entity which that person (or such a family member) has an ability to control or has an interest in.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into any transaction in financial products that operates to limit the economic risk associated with holding Perenti securities (whether vested or unvested)",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 January of each year",
+   "end_anchor": "the trading day following the announcement of the half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 July of each year",
+   "end_anchor": "the trading day following the announcement of the preliminary annual results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other period as a blackout period from time to time. The policy does not address whether the existence of such an additional blackout period is disclosed confidentially.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.1 (definition of deal); 5",
+   "detail": "'Deal' expressly includes 'creating a hedge, security interest, margin loan or other financial interest over or in relation to securities', and 'securities' expressly includes derivatives such as equity swaps, futures, hedges, CFDs and exchange-traded or OTC options. Any such derivative dealing therefore requires prior written clearance from the applicable Approving Officer under Section 5, outside blackout periods (or with exceptional-circumstances approval) and without Inside Information.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities; ... any derivatives of those securities, including equity swaps, futures, hedges, contracts for difference and exchange‐traded or over‐the‐counter options, whether settled by cash or otherwise."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(b)",
+   "detail": "Absolute ban on hedging Perenti securities acquired under an equity plan prior to vesting.",
+   "evidence": "Perenti securities acquired under an employee, executive or director equity plan operated by Perenti must never be hedged prior to vesting"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(c)",
+   "detail": "Securities subject to a holding lock or dealing restriction under an equity plan must never be hedged, even once vested.",
+   "evidence": "Perenti securities that are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan operated by Perenti must never be hedged"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3(d)",
+   "detail": "Hedging of vested and unrestricted Perenti securities is expressly permitted, provided the hedge transaction is treated as a dealing under the Policy and the Section 5 approvals and notifications are made on that basis; must not be entered into, renewed, altered or closed out while in possession of Inside Information.",
+   "evidence": "Restricted Persons and their Connected Persons are permitted to hedge their vested and unrestricted Perenti securities provided that the hedge transaction is treated as a dealing in Perenti securities for the purposes of this Policy, and the relevant approvals and notifications required under Section 5 are made on that basis."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1 (definition of deal); 5",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure over vested, unrestricted securities would be caught as 'creating ... other financial interest over or in relation to securities' and requires the standard Section 5 clearance.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.3(b)",
+   "detail": "A monetisation structure over unvested securities would limit economic risk on holding those securities and so falls within the absolute pre-vesting hedging ban.",
+   "evidence": "Perenti securities acquired under an employee, executive or director equity plan operated by Perenti must never be hedged prior to vesting"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Short selling is named as an example of prohibited short-term dealing.",
+   "evidence": "Short‐term trading includes buying and selling securities on market within a three month period, and entering into other short‐term dealings (for example, forward contracts or short selling)."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named in the definition of dealing or elsewhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.1 (definition of securities); 5",
+   "detail": "Contracts for difference are expressly listed within the definition of securities/derivatives, so dealing in a CFD over Perenti securities requires the standard Section 5 clearance and is subject to the same blackout, hedging and short-term rules.",
+   "evidence": "any derivatives of those securities, including equity swaps, futures, hedges, contracts for difference and exchange‐traded or over‐the‐counter options, whether settled by cash or otherwise."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Entering into a margin lending arrangement, transferring securities into an existing margin loan account, or selling securities to satisfy a margin call, all require Section 5 approval; Perenti may make the approval conditional, for example on the circumstances in which securities may be sold to satisfy a margin call.",
+   "evidence": "Restricted Persons and their Connected Persons must obtain approval in accordance with the procedure set out in Section 5 for any proposed dealing in Perenti securities in connection with a margin lending arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.1 (definition of deal); 5",
+   "detail": "Creating a security interest over or in relation to Perenti securities is expressly part of the definition of dealing, and so requires the standard Section 5 clearance; it is not prohibited outright.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.1; 6.2",
+   "detail": "A loan secured on Perenti securities (whether or not styled a margin loan) is caught by the 'security interest ... or other financial interest' limb of the dealing definition and requires Section 5 approval to enter into; Perenti can attach conditions to the approval, including around forced sale to meet a call.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "No buying and selling of securities on market within a three month period, and no other short-term dealings such as forward contracts or short selling; carve-out for disposals shortly after vesting or issue under an equity plan.",
+   "evidence": "Restricted Persons and their Connected Persons must not deal in Perenti securities on a short‐term trading basis. Short‐term trading includes buying and selling securities on market within a three month period, and entering into other short‐term dealings (for example, forward contracts or short selling)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors (including the Managing Director and CEO but excluding the Perenti Chair)",
+   "type": "approval",
+   "approver": "Perenti Chair",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "5.2; 5.3; 5.4; Annexure A",
+   "evidence": "Where approval is obtained under this Section 5.2, the Restricted Person will be notified in writing ... The duration of the approval will be five clear trading days."
+  },
+  {
+   "tier": "Perenti Chair",
+   "type": "approval",
+   "approver": "Chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "5.2; 5.3; 5.4; Annexure A",
+   "evidence": "clearance can be given or refused at the discretion of the Approving Officer, without giving reasons ... if clearance to deal is refused, the Restricted Persons seeking the clearance must keep that information confidential"
+  },
+  {
+   "tier": "Members of the Group Executive Committee",
+   "type": "approval",
+   "approver": "Perenti Chair",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "5.2; 5.3; 5.4; Annexure A",
+   "evidence": "Where approval is obtained under this Section 5.2, the Restricted Person will be notified in writing ... The duration of the approval will be five clear trading days."
+  },
+  {
+   "tier": "Other Restricted Persons not mentioned above",
+   "type": "approval",
+   "approver": "Chief Corporate Services Officer or any other delegate nominated by the Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "5.2; 5.3; 5.4; Annexure A",
+   "evidence": "Other Restricted Persons not mentioned above: Chief Corporate Services Officer or any other delegate nominated by the Board from time to time"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "on-market buying and selling within the period",
+   "carve_outs": [
+    "disposals of Perenti securities within a short period of time after vesting or issue of those securities under a Perenti employee, executive or director equity plan"
+   ],
+   "evidence": "Short‐term trading includes buying and selling securities on market within a three month period, and entering into other short‐term dealings (for example, forward contracts or short selling). This prohibition does not apply to disposals of Perenti securities within a short period of time after vesting or issue of those securities under a Perenti employee, executive or director equity plan."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by Perenti. However, where securities in Perenti granted under an employee, executive or director equity plan cease to be held under the terms of that plan (for example, on vesting or exercise, as applicable), any dealings in those securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "a disposal of Perenti securities arising from the acceptance of a takeover offer, scheme of arrangement or equal access buy‐back"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Perenti securities under a dividend reinvestment plan. However, the Restricted Person or their Connected Person must not enter into, amend their participation in or withdraw from the plan during a blackout period, other than in exceptional circumstances with approval"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Perenti securities already held by Restricted Persons or their Connected Person into a superannuation fund or trust of which the Restricted Person or their Connected Person is a beneficiary)"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of Perenti securities between a Restricted Person and their Connected Persons, in respect of which prior written clearance has been provided in accordance with the procedures set out in this Policy"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre‐approved non‐discretionary trading plan for which prior written clearance has been provided ... the plan does not permit the Restricted Person or their Connected Person to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a blackout period, other than in exceptional circumstances"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "indirect and incidental trading that occurs as a consequence of a Restricted Person or their Connected Person dealing in securities issued by a managed investment scheme, listed investment company, exchange‐traded fund or similar investment vehicle that is managed by a third party and that happens to hold as part of its portfolio Perenti securities"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Perenti securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement (where that arrangement has been entered into in accordance with this Policy)"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Applicable Approving Officer",
+   "evidence": "Exceptional circumstances include matters such as severe financial hardship or compulsion by court order."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Restricted Persons; entering into a margin lending arrangement, transferring securities into an existing margin loan account, or selling to satisfy a margin call; to the Approving Officer via the Company Secretary; prior to the dealing under Section 5's approval process."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The relevant Approving Officer (Perenti Chair, Audit & Risk Committee Chair, or Chief Corporate Services Officer/Board delegate, as applicable) may grant clearance to deal during a blackout period in exceptional circumstances such as severe financial hardship or compulsion by court order, only with sufficient evidence that the dealing is the most reasonable course of action, and after consulting management or the Board where appropriate; no person may approve their own request or one relating to their own Connected Persons.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Front Page Test",
+   "clause": "Where any approval is required for a dealing under this Policy, approval will not be granted where the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "Even a collar structure that literally complies with every rule can still be refused clearance if the Approving Officer judges it would look bad publicly, adding a discretionary reputational filter on top of the mechanical requirements."
+  },
+  {
+   "topic": "conditional margin call approval",
+   "clause": "Perenti may, at its discretion, make any approval granted in accordance with Section 6.2(a) conditional upon such terms and conditions as Perenti sees fit (for example, with regard to the circumstances in which Perenti securities may be sold to satisfy a margin call).",
+   "why_it_matters": "Perenti can constrain when and how the bank may force-sell the collared shares on a margin call or collar trigger, so the loan facility's default/enforcement terms may need Perenti's sign-off, not just the initial financing approval."
+  },
+  {
+   "topic": "hedging of vested unrestricted shares expressly permitted",
+   "clause": "Restricted Persons and their Connected Persons are permitted to hedge their vested and unrestricted Perenti securities provided that the hedge transaction is treated as a dealing in Perenti securities for the purposes of this Policy, and the relevant approvals and notifications required under Section 5 are made on that basis.",
+   "why_it_matters": "This is an unusually explicit endorsement of hedging (including, by extension, a collar) once shares are vested and unrestricted, provided it goes through the ordinary approval and notification process like any other trade."
+  },
+  {
+   "topic": "lender-exercise exclusion requires policy-compliant financing",
+   "clause": "a disposal of Perenti securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement (where that arrangement has been entered into in accordance with this Policy)",
+   "why_it_matters": "For the bank's enforcement sale to be excluded from blackout-period restrictions, the underlying loan facility must itself have been approved under Section 6.2/Section 5 when it was entered into; an unapproved financing arrangement would not benefit from this carve-out."
+  },
+  {
+   "topic": "refusal confidentiality",
+   "clause": "if clearance to deal is refused, the Restricted Persons seeking the clearance must keep that information confidential and not disclose it to anyone (other than its Connected Persons where relevant, and the Restricted Persons must ensure that the information is kept confidential).",
+   "why_it_matters": "If the collar clearance is refused, the executive cannot tell the bank or advisers why, which may complicate renegotiating deal timing or terms."
+  }
+ ],
+ "summary": "A funded collar is achievable under this policy, but only over vested and unrestricted Perenti securities; hedging vested, unrestricted holdings is expressly permitted under Section 6.3(d), provided the hedge is treated as a dealing and cleared through the ordinary Section 5 process (Perenti Chair for directors and Group Executive Committee members, the Audit & Risk Committee Chair for the Perenti Chair, and the CCSO or a Board delegate for other Restricted Persons), each clearance valid for five clear trading days and unavailable while holding Inside Information. Hedging is banned outright over securities that have not yet vested or remain subject to a holding lock. The loan leg is a dealing via the 'security interest ... or other financial interest' limb of the dealing definition and specifically as a margin lending arrangement under Section 6.2, both requiring Section 5 approval to enter into, with Perenti able to impose conditions on how and when the collared shares may be sold to meet a call or on enforcement. A secured lender's enforcement sale on default is excluded from blackout-period restrictions provided the financing arrangement itself was approved when it was entered into, but approval for any leg can still be refused under the discretionary 'Front Page Test' even where the letter of the policy is satisfied."
+}
