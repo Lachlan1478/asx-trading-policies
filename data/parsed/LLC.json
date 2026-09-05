@@ -1,0 +1,382 @@
+{
+ "symbol": "LLC",
+ "company": "Lend Lease Corporation Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "10 November 2010",
+ "date_effective": "10 November 2010",
+ "date_lodged": "22 December 2010",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors and Designated Executives",
+   "kind": "kmp",
+   "description": "All Directors of Lend Lease Corporation Limited and Lend Lease Responsible Entity Limited, together with Designated Executives (members of the Executive Management Team, Company Secretaries and other key management personnel as defined in AASB 124). Subject to the most restrictive 6-week trading window, the margin loan ban, and disclosure of trades to the ASX (Directors).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Employees of the Lend Lease group of companies who are not Directors or Designated Executives. Subject to a different (closed-period style) trading restriction and the general insider trading and entitlement-hedging notification rules.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A family company in which the person's partner, children or family trust are securityholders (where the person is a director, securityholder or adviser); family trusts where the person is a trustee, beneficiary, director of a trustee or adviser; or family members likely to act on the person's instructions or advice regarding securities. Excludes entities the person cannot control, direct or advise.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions or arrangements that operate to limit the economic risk of vested (or unvested) entitlements to Lend Lease securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Designated Executives"],
+   "start_anchor": "third business day after the announcement of the annual results, the half year results, or the Annual General Meeting",
+   "end_anchor": "6 weeks after the start anchor",
+   "duration_days": 42
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Employees"],
+   "start_anchor": "close of the financial year, or half year",
+   "end_anchor": "at least the next business day after the announcement of Lend Lease's results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Not addressed; the policy does not describe a mechanism for the Board or any officer to impose an additional trading blackout beyond the stated window periods.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Designated Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Scope of the policy - What does \"securities\" mean?; When can I trade in Lend Lease securities?",
+   "detail": "'Securities' expressly includes derivatives (including warrants and options), so ordinary derivative dealing is subject to the same 6-week trading window and no-Inside-Information rule as any other dealing. There is no formal pre-clearance system for ordinary trades; Directors and Designated Executives 'should' (not must) notify the General Counsel or Company Secretary prior to dealing.",
+   "evidence": "derivatives (including warrants and options); ... Directors and Designated Executives should notify the General Counsel or Company Secretary prior to any dealing."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Designated Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Transactions that limit the economic risk of entitlements to Lend Lease securities",
+   "detail": "Absolute ban on entering into transactions or arrangements that operate to limit the economic risk of unvested entitlements to Lend Lease securities.",
+   "evidence": "Directors, Designated Executives and Employees must not enter into transactions or arrangements that operate to limit the economic risk of unvested entitlements to Lend Lease securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Designated Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Transactions that limit the economic risk of entitlements to Lend Lease securities",
+   "detail": "Hedging of vested entitlements is permitted, but only if the General Counsel or Company Secretary is notified before entering into the transaction and the transaction is entered into during the prescribed (window) trading periods.",
+   "evidence": "Directors, Designated Executives and Employees must notify the General Counsel or Company Secretary prior to entering into transactions or arrangements that operate to limit the economic risk of vested entitlements to Lend Lease securities. Transactions or arrangements must only be entered into during the prescribed trading periods."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Transactions that limit the economic risk of entitlements to Lend Lease securities",
+   "detail": "The unvested-entitlement hedging ban applies equally to Employees.",
+   "evidence": "Directors, Designated Executives and Employees must not enter into transactions or arrangements that operate to limit the economic risk of unvested entitlements to Lend Lease securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Transactions that limit the economic risk of entitlements to Lend Lease securities",
+   "detail": "Employees may hedge vested entitlements provided they notify the General Counsel or Company Secretary beforehand and the transaction occurs during the prescribed trading periods (the Employee closed-period window, not the Directors/Designated Executives window).",
+   "evidence": "Directors, Designated Executives and Employees must notify the General Counsel or Company Secretary prior to entering into transactions or arrangements that operate to limit the economic risk of vested entitlements to Lend Lease securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Designated Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "Transactions that limit the economic risk of entitlements to Lend Lease securities",
+   "detail": "Monetisation is not named, but a prepaid forward or similar structure limits economic risk of the underlying holding and so falls within the vested-entitlement hedging notification rule, requiring prior notification and execution within a prescribed trading period.",
+   "evidence": "Directors, Designated Executives and Employees must notify the General Counsel or Company Secretary prior to entering into transactions or arrangements that operate to limit the economic risk of vested entitlements to Lend Lease securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Designated Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "Transactions that limit the economic risk of entitlements to Lend Lease securities",
+   "detail": "A monetisation structure over unvested entitlements limits their economic risk and so falls within the absolute ban.",
+   "evidence": "Directors, Designated Executives and Employees must not enter into transactions or arrangements that operate to limit the economic risk of unvested entitlements to Lend Lease securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and Designated Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Scope of the policy - What does \"securities\" mean?",
+   "detail": "CFDs are not named but would fall within 'derivatives' or 'any other financial products that are able to be traded on a financial market', and so are subject only to the general window-period and no-Inside-Information rules (no formal clearance system).",
+   "evidence": "derivatives (including warrants and options); ... any other financial products that are able to be traded on a financial market."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and Designated Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Margin Loan Arrangements",
+   "detail": "Outright ban on Directors or Designated Executives entering into a margin loan arrangement in respect of Lend Lease securities, with no stated carve-out or approval route. Employees are not mentioned in this clause.",
+   "evidence": "No Director or Designated Executive may enter into a margin loan arrangement in respect of Lend Lease securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The margin loan ban is expressed only in respect of Directors and Designated Executives; the policy is silent on margin lending by other Employees.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors and Designated Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Beyond the specific margin loan ban, granting a general security interest, charge or pledge over Lend Lease securities is not named or otherwise addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors and Designated Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Margin Loan Arrangements",
+   "detail": "The only secured financing rule in the policy is the margin loan ban, drafted narrowly as 'margin loan arrangement'; it is unclear whether a bank loan secured on shares that is not styled as a margin loan would fall within this ban, as the policy does not address secured financing more broadly.",
+   "evidence": "No Director or Designated Executive may enter into a margin loan arrangement in respect of Lend Lease securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No secured financing or margin loan rule is stated for Employees.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period or short-term/speculative dealing rule beyond the trading window timing restrictions is stated.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors and Designated Executives",
+   "type": "notification",
+   "approver": "General Counsel or Company Secretary",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (Directors: for ASX disclosure)",
+   "post_trade_deadline": "within 3 days of each trade (Directors)",
+   "section": "When can I trade in Lend Lease securities?",
+   "evidence": "Directors and Designated Executives should notify the General Counsel or Company Secretary prior to any dealing. ... Directors must provide details of any trade to the Company Secretary for disclosure to the ASX within 3 days of each trade."
+  },
+  {
+   "tier": "Directors and Designated Executives",
+   "type": "approval",
+   "approver": "General Counsel or Company Secretary",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Exceptions to the policy - Exceptional circumstances",
+   "evidence": "If a Director, Designated Executive or employee wishes to trade outside the trading windows due to exceptional circumstances, he or she must obtain the prior written approval of the General Counsel or Company Secretary."
+  },
+  {
+   "tier": "Employees",
+   "type": "notification",
+   "approver": "General Counsel or Company Secretary",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Transactions that limit the economic risk of entitlements to Lend Lease securities",
+   "evidence": "Directors, Designated Executives and Employees must notify the General Counsel or Company Secretary prior to entering into transactions or arrangements that operate to limit the economic risk of vested entitlements to Lend Lease securities."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "General Counsel or Company Secretary",
+   "evidence": "a person may be in severe financial hardship if he or she has a pressing financial commitment that cannot be satisfied otherwise than by selling Lend Lease securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "General Counsel or Company Secretary",
+   "evidence": "a court order, court enforceable undertakings, or other legal or regulatory requirement requiring a sale of Lend Lease securities may be an exceptional circumstance, for example, a bona fide family settlement"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of Lend Lease securities already held into a superannuation fund in which the restricted person is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment or trading in units of a diversified fund where the assets of the fund are invested at the discretion of the third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the board"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the receipt of benefits under applicable Lend Lease employee benefit schemes. However, the following restrictions apply: ... the subsequent disposal of Lend Lease securities acquired under an employee benefit scheme is subject to the prohibitions outlined above."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The General Counsel or Company Secretary may grant prior written approval to trade outside the trading windows in exceptional circumstances such as severe financial hardship or a court order/legal requirement; no criteria or discretion limits beyond the listed examples are given.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "outright margin loan ban for Directors/Designated Executives",
+   "clause": "No Director or Designated Executive may enter into a margin loan arrangement in respect of Lend Lease securities.",
+   "why_it_matters": "If a bank loan secured on the collared shares is characterised as a margin loan arrangement, it is banned outright for this tier with no exemption route stated; the policy's silence on non-margin-loan secured financing leaves the classification of a bespoke collar loan untested."
+  },
+  {
+   "topic": "hedging of vested entitlements confined to prescribed trading periods",
+   "clause": "Transactions or arrangements must only be entered into during the prescribed trading periods.",
+   "why_it_matters": "Even where hedging of vested entitlements is permitted with notification, execution is confined to the narrow 6-week windows following results announcements and the AGM (for Directors/Designated Executives) or the Employee closed-period window, materially constraining when the collar can be struck."
+  },
+  {
+   "topic": "no secured-lender enforcement carve-out",
+   "clause": "The following circumstances are not subject to the trading restrictions in this policy: [superannuation transfers, diversified fund investment, takeover acceptance, pro-rata offers, employee benefit scheme receipt] (no exception for a secured lender exercising enforcement rights is listed).",
+   "why_it_matters": "Unlike more modern policies, there is no stated exception allowing a lender to force-sell pledged shares outside a trading window, so enforcement of the collar's security outside a window is not clearly protected from breaching the policy."
+  },
+  {
+   "topic": "notification, not formal approval, for ordinary dealing",
+   "clause": "Directors and Designated Executives should notify the General Counsel or Company Secretary prior to any dealing.",
+   "why_it_matters": "There is no formal pre-clearance/approval system (with refusal rights, conditions or validity periods) for ordinary trades in this 2010-era policy, only an advisory notification, which may not satisfy a bank's diligence expectations for a company-sanctioned clearance process."
+  }
+ ],
+ "summary": "A funded collar faces material constraints under this dated (2010) policy. Hedging of vested entitlements is permitted for Directors, Designated Executives and Employees, but only with prior notification to the General Counsel or Company Secretary and only when entered into during the narrow prescribed trading windows (a 6-week window after results/AGM for Directors and Designated Executives, or the equivalent period for Employees); hedging of unvested entitlements is banned outright. The loan leg is problematic for Directors and Designated Executives because margin loan arrangements in respect of Lend Lease securities are prohibited outright with no exemption route, and it is unclear whether a bespoke bank loan secured on the collared shares would be treated as falling within that ban; the policy does not address non-margin-loan secured financing at all, and is silent on margin lending for other Employees. There is no exception permitting a secured lender to force-sell shares outside a trading window, which increases enforcement risk. Given the ambiguity around the margin loan ban's scope and the absence of a formal clearance/approval architecture for ordinary trades, structuring a funded collar for a Director or Designated Executive would require bespoke legal advice on characterisation of the financing, while the position for other Employees is comparatively more open but still governed by narrow timing windows."
+}
