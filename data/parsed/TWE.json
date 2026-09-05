@@ -1,0 +1,549 @@
+{
+ "symbol": "TWE",
+ "company": "Treasury Wine Estates Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "21 April 2022",
+ "date_lodged": "21 April 2022",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "TWE People",
+   "kind": "all_staff",
+   "description": "All Directors of the Company and TWE employees. Bound by the insider trading prohibition, company-imposed dealing bans, the Front Page Test, the short-term and speculative dealing ban and the hedging prohibitions, but not by blackout periods or the approval requirement.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors, members of the Executive Leadership Team, the Global Leadership Group, the Group Finance Team, the Corporate Strategy and M&A Team, the Investor Relations Team, Executive Assistants, and Nominated Persons advised by the Chief Sustainability and External Affairs Officer. Subject in addition to blackout periods, prior approval for every dealing and responsibility for Connected Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company. A subset of Restricted Persons; clearance from the Chairman and the Chief Executive Officer, post-trade notification obligation, and the section 5.5 ban on margin loans to acquire Company securities.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman of the Board",
+   "kind": "director",
+   "description": "The Chairman, distinguished only for clearance: approval from the Chairman of the Audit & Risk Committee or of the Human Resources Committee, and the Chief Executive Officer.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chief Executive Officer",
+   "kind": "kmp",
+   "description": "The CEO, distinguished only for clearance: approval from the Chairman and the Chairman of the Audit & Risk Committee or of the Human Resources Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "ELT",
+   "kind": "kmp",
+   "description": "Members of the Executive Leadership Team. Restricted Persons who additionally must notify the Chief Sustainability and External Affairs Officer of any derivative or hedging arrangement over Company securities other than unvested or locked plan securities, and who may not enter margin loans to acquire Company securities.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A family member who may be expected to influence or be influenced by the Restricted Person (spouse, partner, children, partner's children, dependants) and any company or other entity the Restricted Person has an ability to control. Restricted Persons must ensure Connected Persons deal only where the Restricted Person could deal.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding the Company's securities.",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "close of trading on the ASX on 30 June each year",
+   "end_anchor": "the day following the announcement to ASX of the full-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "close of trading on the ASX on 31 December each year",
+   "end_anchor": "the day following the announcement to ASX of the half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "two weeks prior to the Company's Annual General Meeting",
+   "end_anchor": "close of trading on the ASX on the day of the Annual General Meeting",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify 'any other period' as a blackout period for Restricted Persons (5.1). Separately, under 4.1 the Company may notify TWE People that they must not deal, either for a specified period or until further notice; the policy does not say whether either is announced or confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 5.2",
+   "detail": "Derivatives are not named as a category requiring approval, but 'deal' includes entering into an agreement to buy or sell securities and exercising options over securities, so a physically settled OTC put and written call over Company shares is a dealing requiring prior approval and is barred in blackout periods. No venue limitation appears anywhere in the policy, and the Company applies a substance over form approach.",
+   "evidence": "buy or sell securities in a company, or enter in an agreement to buy or sell securities, or exercise options over securities, or otherwise apply for, acquire or dispose of securities (deal)"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "ELT",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Derivatives over Company securities other than unvested or locked plan securities are expressly contemplated for ELT members and require notification to the Chief Sustainability and External Affairs Officer. Because ELT members are also Restricted Persons, this notification is in addition to, not instead of, the section 5.2 prior approval requirement.",
+   "evidence": "In addition, members of the ELT must notify the Chief Sustainability and External Affairs Officer if they enter into a derivative or hedging arrangement over any other Company securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "TWE People",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "4; 5",
+   "detail": "Employees who are not Restricted Persons need no approval and are not subject to blackout periods; a derivative over vested unrestricted Company shares is constrained only by the insider trading prohibition, any company-imposed dealing ban, the Front Page Test and the short-term or speculative dealing ban.",
+   "evidence": "Certain parts of this Policy apply only to Restricted Persons"
+  },
+  {
+   "topic": "hedging",
+   "tier": "TWE People",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Absolute ban, with no approval or exceptional-circumstances route, on hedging securities acquired under any employee, executive or Director equity plan before vesting. Applies to every TWE Person, not only Restricted Persons.",
+   "evidence": "Company securities acquired under an employee, executive or Director equity plan operated by the Company must never be hedged prior to vesting."
+  },
+  {
+   "topic": "hedging",
+   "tier": "TWE People",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Vested plan securities that remain subject to a holding lock or a dealing restriction under the plan terms may never be hedged. The plan rules that create those locks are not part of the policy, so the collarable pool depends on external plan documents.",
+   "evidence": "Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or Director equity plan operated by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4; 5.2",
+   "detail": "Hedging of Company securities that are not unvested and not subject to a holding lock is expressly contemplated rather than banned. For a Restricted Person it is a dealing requiring prior approval under 5.2, outside blackout periods, and must satisfy the Front Page Test.",
+   "evidence": "In addition, members of the ELT must notify the Chief Sustainability and External Affairs Officer if they enter into a derivative or hedging arrangement over any other Company securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "ELT",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "ELT members must notify the Chief Sustainability and External Affairs Officer of a hedging arrangement over vested unrestricted Company securities. No deadline, form or content is specified for the notification, and it sits on top of the 5.2 approval requirement.",
+   "evidence": "members of the ELT must notify the Chief Sustainability and External Affairs Officer if they enter into a derivative or hedging arrangement over any other Company securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "TWE People",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "The hedging prohibitions are confined to unvested and locked plan securities; hedging other Company securities is left permitted, with a notification duty imposed only on ELT members and an approval duty only on Restricted Persons.",
+   "evidence": "Company securities acquired under an employee, executive or Director equity plan operated by the Company must never be hedged prior to vesting."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4.3; 5.2",
+   "detail": "Monetisation is not named. A prepaid forward, collar-plus-loan or similar structure is an agreement to sell securities and so a dealing requiring prior approval. It is also an arrangement that limits economic risk, so the 4.4 hedging bans apply to the underlying shares, and section 4.3 gives 'forward contracts' as an example of prohibited short-term dealing.",
+   "evidence": "Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings (for example, forward contracts)."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "TWE People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3",
+   "detail": "Short selling is banned outright for all TWE People as a species of speculative dealing, and is defined as borrowing and selling securities to buy them back lower. There is no approval or exceptional-circumstances route.",
+   "evidence": "TWE People must not deal in the Company's securities on a speculative basis, including short-selling."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "TWE People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not regulated. Borrowing securities is mentioned only in the descriptive definition of short selling, and lending out Company shares is neither named nor caught by the definition of dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "TWE People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "4.3",
+   "detail": "CFDs are not named. A CFD over Company securities would be dealing on a speculative basis and, if short, would fall within the short-selling ban; a Restricted Person would in any event need approval that could not be given if the Front Page Test failed.",
+   "evidence": "TWE People must not deal in the Company's securities on a speculative basis, including short-selling."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "The ban is purpose-limited: it catches only margin loans or similar funding arrangements entered into to acquire Company securities. A loan whose proceeds are not applied to acquire Company securities is outside the words of 5.5, even if Company securities secure it.",
+   "evidence": "No Director or member of the ELT may enter into a margin loan or similar funding arrangement to acquire any Company securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "ELT",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Same purpose-limited ban as for Directors. It does not extend to other Restricted Persons or to other TWE People.",
+   "evidence": "No Director or member of the ELT may enter into a margin loan or similar funding arrangement to acquire any Company securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "TWE People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 5.5 binds only Directors and ELT members. Margin lending by other Restricted Persons and other employees is not restricted, and section 6(f) assumes margin lending arrangements over Company securities may exist.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "TWE People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge, mortgage or pledge over Company securities is nowhere named, is not within the definition of dealing (which is limited to acquiring, disposing and agreeing to acquire or dispose), and produces no change in beneficial interest. There is no disclosure obligation for encumbered shares.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "TWE People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5.5; 6(f)",
+   "detail": "There is no general secured financing prohibition. The only funding restriction is the Director and ELT ban on margin loans or similar arrangements to acquire Company securities, and section 6(f) expressly contemplates a secured lender holding and enforcing over Company securities. A loan secured on already-held vested shares is therefore not prohibited.",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "TWE People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3",
+   "detail": "A buy-sell window test of three months, extended by an open-ended prohibition on 'other short term dealings' with forward contracts given as the example. Selling shares within three months of vesting under an equity plan is carved out. This is the clause most likely to be read against a short-dated or forward-settled collar.",
+   "evidence": "TWE People must not deal in the Company's securities on a short-term trading basis. Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings (for example, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman; and Chief Executive Officer",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Chief Sustainability and External Affairs Officer",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "5.2; 5.4; 5.6",
+   "evidence": "Following receipt of approval to deal, the approved dealing must occur as soon as possible, and no later than 3 business days following approval (or such other time specified in the approval), otherwise the approval is no longer effective and fresh approval must be sought. Following any trade, Directors must promptly notify the Chief Sustainability and External Affairs Officer"
+  },
+  {
+   "tier": "Chairman of the Board",
+   "type": "approval",
+   "approver": "Chairman of the Audit & Risk Committee or Chairman of the Human Resources Committee; and Chief Executive Officer",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Chief Sustainability and External Affairs Officer",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "5.4; 5.6",
+   "evidence": "Chairman of the Board | Chairman of the Audit & Risk Committee or Chairman of the Human Resources Committee; and Chief Executive Officer"
+  },
+  {
+   "tier": "Chief Executive Officer",
+   "type": "approval",
+   "approver": "Chairman; and Chairman of the Audit & Risk Committee or Chairman of the Human Resources Committee",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.4",
+   "evidence": "Chief Executive Officer | Chairman; and Chairman of the Audit & Risk Committee or Chairman of the Human Resources Committee"
+  },
+  {
+   "tier": "ELT",
+   "type": "approval",
+   "approver": "Chief Executive Officer; and Chief Sustainability and External Affairs Officer",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Chief Sustainability and External Affairs Officer (notification of any derivative or hedging arrangement)",
+   "post_trade_deadline": "unspecified",
+   "section": "4.4; 5.4",
+   "evidence": "Member of the ELT | Chief Executive Officer; and Chief Sustainability and External Affairs Officer"
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Chief Sustainability and External Affairs Officer (all Restricted Persons other than Directors, the Chairman, the CEO and ELT members)",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.2; 5.4",
+   "evidence": "Requests for approval under sections 5.2 or 5.3 should be submitted to the Chief Sustainability and External Affairs Officer, who will forward it to the relevant person designated in the table below. ... The approver is not obliged to provide reasons for any aspect of their decision, and may revoke their approval at any time."
+  },
+  {
+   "tier": "TWE People",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "2; 5.2",
+   "evidence": "Restricted Persons require approval before any dealing in the Company's securities and must also take steps in relation to dealings by their Connected Persons."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "TWE People",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and selling on market within a 3 month period; also catches 'other short term dealings (for example, forward contracts)'",
+   "carve_outs": [
+    "Selling shares received on vesting of entitlements under an employee, executive or Director equity plan within 3 months of the vesting date",
+    "Participation in an employee, executive or Director equity plan (section 6(a))",
+    "Dividend reinvestment plan, share purchase plan, rights issue acquisitions and disposals into a takeover, scheme or equal access buy-back (section 6(b))",
+    "Dealings with no effective change in beneficial interest (section 6(c))",
+    "Pre-approved non-discretionary trading plans (section 6(d))",
+    "Incidental trading through a third party managed fund, LIC or ETF (section 6(e))",
+    "A disposal resulting from a secured lender exercising its rights (section 6(f))"
+   ],
+   "evidence": "Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings (for example, forward contracts). Selling shares received on vesting of entitlements under an employee, executive or Director equity plan within 3 months of the vesting date is not a short-term dealing."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "The approver designated in the section 5.4 table, on application submitted through the Chief Sustainability and External Affairs Officer",
+   "evidence": "If a Restricted Person needs to deal in securities during a blackout period due to exceptional circumstances and is not in possession of any Inside Information, then, they may apply for approval to deal. Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "The approver designated in the section 5.4 table",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "participation in an employee, executive or Director equity plan operated by the Company. However, where securities in the Company granted under an employee, executive or Director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan; acquisition of Company securities through a share purchase plan available to all retail shareholders; acquisition of Company securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Company securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Company securities already held into a superannuation fund or trust of which the TWE Person is a beneficiary);"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the TWE Person did not enter into the plan or amend the plan during a blackout period, the plan does not permit the TWE Person to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a blackout period, other than in exceptional circumstances;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental trading that occurs as a consequence of a TWE Person dealing in securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed independently by a third party"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "no",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Employee, executive and Director equity plan rules (which set the vesting conditions, holding locks and dealing restrictions that determine which shares may be hedged)"
+ ],
+ "exemption_authority": "Only the section 5.3 exceptional circumstances route: a Restricted Person may apply, through the Chief Sustainability and External Affairs Officer, for approval to deal in a blackout period on evidence of severe financial hardship or court compulsion, and approval is given by the section 5.4 approver. There is no power to waive the section 4.4 hedging bans, the section 4.3 short-term and speculative dealing ban or the section 5.5 margin loan ban.",
+ "jurisdiction_overlays": [
+  "Dealing and insider trading laws of any other country in which the Company's securities are listed or sold (section 7)"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "purpose-limited margin loan ban",
+   "clause": "No Director or member of the ELT may enter into a margin loan or similar funding arrangement to acquire any Company securities.",
+   "why_it_matters": "The only funding prohibition bites on borrowing used to acquire Company shares, so a loan secured on shares the executive already owns, drawn to fund something else, is outside the ban on its literal terms, though a bank should expect the substance over form clause to be raised if the facility is characterised as a share-funding arrangement."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "Sections 4.3, 5.1 and 5.2 of this Policy do not apply to ... a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement.",
+   "why_it_matters": "Enforcement by the bank over the collared shares, including in a blackout period, is an excluded dealing needing no approval, which removes the enforcement risk that defeats a funded collar under most other ASX policies."
+  },
+  {
+   "topic": "forward contracts as short-term dealing",
+   "clause": "Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings (for example, forward contracts).",
+   "why_it_matters": "Forwards are singled out as the example of a prohibited short term dealing, so a collar should have a tenor comfortably beyond three months and avoid a forward-sale characterisation or early termination triggers."
+  },
+  {
+   "topic": "holding locks external",
+   "clause": "Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or Director equity plan operated by the Company.",
+   "why_it_matters": "The collarable pool is defined by plan documents outside the policy, so the bank must confirm from the plan rules and the register that the specific parcel is vested and lock-free."
+  },
+  {
+   "topic": "substance over form and Front Page Test",
+   "clause": "The Company will take a substance over form approach and will have regard to the intent and spirit of this Policy when applying and enforcing it. ... Where any approval is required for a dealing under this Policy, approval will not be granted where the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "Approval for a collar can be refused purely on perception grounds even where no rule is broken, and a structure that looks like a disguised sale or a disguised margin loan can be treated as one."
+  },
+  {
+   "topic": "revocable approval, 3 business days",
+   "clause": "The approver is not obliged to provide reasons for any aspect of their decision, and may revoke their approval at any time. ... the approved dealing must occur as soon as possible, and no later than 3 business days following approval.",
+   "why_it_matters": "Pricing, documentation and execution of both collar legs must complete inside three business days of approval, and the approval can be withdrawn up to signing without reasons."
+  },
+  {
+   "topic": "Connected Persons",
+   "clause": "Restricted Persons must take appropriate steps to ensure that their Connected Persons only deal in securities in circumstances where the Restricted Person to whom they are connected would be permitted to deal under this Policy.",
+   "why_it_matters": "Holding the shares through a controlled company or family trust does not avoid the approval requirement or the hedging bans."
+  },
+  {
+   "topic": "company-imposed dealing ban",
+   "clause": "TWE People must not deal in the Company's securities if ... the Company has notified TWE People that they must not deal in securities (either for a specified period, or until the Company gives further notice).",
+   "why_it_matters": "An open-ended company notice can block entry, roll or unwind of a collar at any time, and it binds all employees, not just Restricted Persons."
+  },
+  {
+   "topic": "no approval tier",
+   "clause": "Certain parts of this Policy apply only to Restricted Persons.",
+   "why_it_matters": "Blackout periods and prior approval do not apply to employees outside the Restricted Persons list, so for them a collar over vested unrestricted shares needs no company consent at all."
+  }
+ ],
+ "summary": "A funded collar is realistically possible for a TWE director or executive over vested shares that are free of any plan holding lock. Both derivative legs are a dealing, so a Restricted Person needs prior written approval from the section 5.4 approvers (Chairman and CEO for a Director), obtained outside the 30 June, 31 December and pre-AGM blackout periods, executed within three business days, revocable at will and refusable on Front Page Test grounds alone; an ELT member must also notify the Chief Sustainability and External Affairs Officer of the hedge, and a Director must report the trade the same day. The loan leg is the unusual strength of this policy: there is no general secured financing or encumbrance prohibition, section 5.5 bans only margin loans or similar arrangements entered into to acquire Company securities, and section 6(f) expressly treats a secured lender's enforcement sale as an excluded dealing, so bank enforcement even in a blackout period is contemplated. The principal risks are the section 4.3 short-term dealing ban, which gives forward contracts as its example and argues for a tenor well beyond three months and against forward-sale characterisation, and the substance over form clause, under which a collar-plus-loan could be recast as a margin-style share funding arrangement. Shares that are unvested or subject to a plan holding lock can never form part of the collared parcel, and no hardship or exemption power can waive that."
+}
