@@ -1,0 +1,453 @@
+{
+ "symbol": "DXS",
+ "company": "Dexus (Dexus Funds Management Limited as Responsible Entity)",
+ "title": "Securities Trading (including Inside Information)",
+ "date_approved": "29 September 2021 (version 7.1, DXFM Board)",
+ "date_effective": "",
+ "date_lodged": "8 October 2021",
+ "date_next_review": "reviewed at least annually",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "The collective defined term: Directors of Dexus entities, all Employees of Dexus (including Key Management Personnel), contractors and temporary employees, and Associates of the above, 'All referred to collectively as Employee/s'. Every substantive prohibition (trading windows, 30-day short-term gain, margin lending, hedging of un-vested securities) applies to this tier without differentiation; the tiers below are distinguished only in the Business Approval Table.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman",
+   "kind": "director",
+   "description": "Chair of the Board; approval required from an Independent Director and the General Counsel.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Independent Director",
+   "kind": "director",
+   "description": "Independent Directors of Dexus entities; approval required from the Chairman (or in his absence another Independent Director) and the General Counsel.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chief Executive Officer",
+   "kind": "kmp",
+   "description": "CEO; approval required from the Chairman (or in his absence an Independent Director) and the General Counsel. The CEO also identifies additional trading windows and can cancel windows.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Executive General Manager (including KMP)",
+   "kind": "kmp",
+   "description": "Executive General Managers, expressly including Key Management Personnel; approval required from the CEO and the Head of Governance.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employee",
+   "kind": "all_staff",
+   "description": "Residual row of the Business Approval Table: staff below EGM level; approval required from the relevant EGM (or in absence another EGM) and the Head of Governance.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Immediate family members, and people or entities (including SMSFs) over which the Employee may exert influence in investment decisions. Associates are brought within the collective defined term 'Employee/s' and are named in the Business Approval Table as 'Person (including Associates)'.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "entering into a transaction or arrangement for the purpose of hedging exposure to movements in the price of un-vested securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "the day after half yearly and yearly results are announced to the market",
+   "end_anchor": "28 days after that day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "the day after the AGM",
+   "end_anchor": "14 days after that day",
+   "duration_days": 14
+  }
+ ],
+ "ad_hoc_blackout_authority": "The CEO may cancel any trading window at any time, effective immediately on notification, and notification is communicated to all Employees (so cancellation itself is not confidential). The CEO in consultation with the Chair may also identify additional trading windows, and may in exceptional circumstances restrict trading by Listed Securities Funds. Restrictions on trading in other financial products may also be imposed and notified to relevant Employees. Separately, the reasons for refusing an individual approval may be withheld and the Employee must keep the refusal confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The Policy never mentions derivatives, options, futures or synthetic positions, and there is no defined term 'Dealing' beyond the insider trading gloss ('apply for, acquire, dispose of or enter into an agreement to do so' in respect of the relevant financial product). Section 10 requires approval for 'All trades by Employees in listed and unlisted financial products managed by Dexus' - an OTC put or call written by a bank is not a product managed by Dexus, so it is doubtful the approval machinery reaches it at all. The safe reading for a bank is that the put and call legs are unregulated by the express words but would be tested against the Media Test and, for un-vested securities, the hedging ban.",
+   "evidence": ""
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7",
+   "detail": "A put/call collar over un-vested securities is a 'transaction or arrangement for the purpose of hedging exposure to movements in the price of un-vested securities' and is therefore banned outright, with no approval route.",
+   "evidence": "Employees must not undertake the following types of personal trading activity: ... entering into a transaction or arrangement for the purpose of hedging exposure to movements in the price of un-vested securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Absolute ban on any transaction or arrangement whose purpose is hedging price exposure to un-vested securities. No exemption, hardship route or approval route is offered for this prohibition.",
+   "evidence": "entering into a transaction or arrangement for the purpose of hedging exposure to movements in the price of un-vested securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "7",
+   "detail": "The hedging prohibition is expressly limited to un-vested securities; the Policy is silent on hedging vested holdings. Section 8 states that once securities cease to be held under the terms of an equity plan, 'any dealings in those securities must only occur in accordance with this Policy', which brings vested plan shares back under the trading-window and approval regime but adds no hedging ban.",
+   "evidence": ""
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 8",
+   "detail": "Where securities have vested but remain held under the terms of the Dexus equity plan, section 8 keeps the plan holding outside the Policy; where they cease to be held under the plan they are treated as vested. The Policy draws only the vested/un-vested line, so shares still subject to a plan holding lock that have not vested remain caught by the un-vested hedging ban.",
+   "evidence": "where securities granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Prepaid forwards, exchangeable notes, zero-cost collars and similar monetisation structures are not named. Any structure that is in substance a sale of Dexus securities would need to occur inside a trading window with prior approval; any structure involving borrowing against the securities risks being characterised as 'margin lending activities' under section 7.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the Policy. A short position would in practice be constrained by the 30-day short-term gain prohibition and the Media Test.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and there is no dealing definition that would sweep it in.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Contracts for difference are not named. A CFD over Dexus securities would in practice be caught by the 30-day short-term gain prohibition and by the general ban on trading that may cause a conflict or the appearance of conflict.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Trading in Dexus securities as part of margin lending activities is one of the listed prohibited personal trading activities, applying to Directors, all Employees, contractors and Associates, and to vested as well as un-vested holdings. There is no approval route: the section 9 hardship exemption relieves only the trading-window restriction and the section 11 approval table only authorises trades.",
+   "evidence": "Employees must not undertake the following types of personal trading activity: ... trading in Dexus securities as part of margin lending activities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a mortgage, charge, lien or pledge over Dexus securities is not named and there is no dealing definition that treats an encumbrance as a dealing. Only encumbrance in the course of 'margin lending activities' is caught.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "7",
+   "detail": "There is no general prohibition on secured financing in respect of Dexus securities; the only financing prohibition is the margin lending limb. Whether a bank loan secured on the collared securities is 'margin lending activities' is undefined in the Policy - the term is not defined and, given that the ban attaches to 'trading in Dexus securities as part of' such activities, a lender should treat a loan collateralised by Dexus securities with mark-to-market or enforcement rights as within the intended reach.",
+   "evidence": "trading in Dexus securities as part of margin lending activities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Trading for short term gain is prohibited and defined mechanically as a purchase and sale within 30 days. No carve-outs are stated for plan securities, although section 8 removes participation in Dexus equity plans from the Policy entirely.",
+   "evidence": "trading in Dexus securities for short term gain (defined as a purchase and sale within 30 days)"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "An Independent Director; and General Counsel",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Compliance team (copy of contract notes or transaction advices)",
+   "post_trade_deadline": "once they have been executed",
+   "section": "10; 11; 12",
+   "evidence": "All trades by Employees in listed and unlisted financial products managed by Dexus require prior approval in accordance with the Business Approval Table set out below. ... Where approval is granted, the trade must be executed within 5 business days."
+  },
+  {
+   "tier": "Independent Director",
+   "type": "approval",
+   "approver": "Chairman (during absence, another Independent Director); and General Counsel",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Compliance team (copy of contract notes or transaction advices)",
+   "post_trade_deadline": "once they have been executed",
+   "section": "10; 11; 12",
+   "evidence": "A clearance to trade may be withdrawn if circumstances change. The Employee will be contacted directly in this situation and must keep this fact confidential."
+  },
+  {
+   "tier": "Chief Executive Officer",
+   "type": "approval",
+   "approver": "Chairman (during absence an Independent Director); and General Counsel",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Compliance team (copy of contract notes or transaction advices)",
+   "post_trade_deadline": "once they have been executed",
+   "section": "10; 11; 12",
+   "evidence": "There may be circumstances when this approval is not granted. Reasons for this may be withheld. Where approval is withheld, the Employee is to keep that fact confidential and not disclose it to anyone."
+  },
+  {
+   "tier": "Executive General Manager (including KMP)",
+   "type": "approval",
+   "approver": "CEO; and Head of Governance",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Compliance team (copy of contract notes or transaction advices)",
+   "post_trade_deadline": "once they have been executed",
+   "section": "10; 11; 12",
+   "evidence": "Should an Employee wish to trade in Dexus securities during a trading window, request to trade can be made in the Dexus Compliance tracking system."
+  },
+  {
+   "tier": "Employee",
+   "type": "approval",
+   "approver": "Relevant EGM (during absence, another EGM); and Head of Governance",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Compliance team (copy of contract notes or transaction advices)",
+   "post_trade_deadline": "once they have been executed",
+   "section": "10; 11; 12",
+   "evidence": "Employees requesting to trade in Dexus securities during a trading window will be required to confirm that the request is in compliance with this Policy at the time the trade is executed."
+  },
+  {
+   "tier": "Associates",
+   "type": "approval",
+   "approver": "The approver for the related Employee under the Business Approval Table (the table is headed 'Person (including Associates)')",
+   "form": "system",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Compliance team (copy of contract notes or transaction advices)",
+   "post_trade_deadline": "once they have been executed",
+   "section": "11",
+   "evidence": "Person (including Associates)"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 1.0,
+   "basis": "purchase and sale within 30 days",
+   "carve_outs": [],
+   "evidence": "trading in Dexus securities for short term gain (defined as a purchase and sale within 30 days)"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Referred to the Head of Governance; approval from the CEO and/or Company Secretary",
+   "evidence": "Trading in financial products outside the trading windows may be granted in situations of severe financial hardship provided the Employee is not in possession of Inside Information. The request will need to be referred to the Head of Governance and approval sought from the CEO and/or Company Secretary prior to placing the order to sell."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by Dexus (subject to insider trading provisions in the Corporation Act)"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Dexus securities through a distribution reinvestment plan; acquisition of Dexus securities through a security purchase plan available to all retail securityholders; acquisition of Dexus securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Dexus securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Dexus securities already held into a superannuation fund or trust of which the Employee is a beneficiary)"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "CEO in consultation with the Chair may impose a restriction",
+   "evidence": "This Policy does not apply to any fund that currently or in the future is established to trade in listed securities (Listed Securities Funds)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Business Approval Table delegations approved by the General Counsel",
+  "Dexus Compliance tracking system (request-to-trade workflow)"
+ ],
+ "exemption_authority": "Section 9: the CEO and/or Company Secretary, on referral through the Head of Governance, may permit trading outside the trading windows in situations of severe financial hardship, on evidence that the dealing is the most reasonable course of action; the trade must be executed within 5 business days of written notification. The exemption relieves only the trading-window restriction and is framed around an 'order to sell'; it does not authorise margin lending or hedging of un-vested securities.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "closed-by-default windows",
+   "clause": "trading in Dexus securities by any Employee is permitted during the following periods ... 28 days commencing the day after half yearly and yearly results are announced to the market; 14 days commencing the day after the AGM. Trading outside these periods is prohibited.",
+   "why_it_matters": "Dexus runs an open-window model with only about 70 trading days a year available, so collar entry, any roll and any physical settlement or unwind must each be scheduled inside a narrow window and separately approved."
+  },
+  {
+   "topic": "window cancellation",
+   "clause": "Trading windows can be cancelled at any time, as notified by the CEO. Such closure will become effective immediately on notification.",
+   "why_it_matters": "A window can close between pricing and execution of the collar, so trade documentation should not commit the executive to deal on a fixed future date."
+  },
+  {
+   "topic": "clearance withdrawal",
+   "clause": "A clearance to trade may be withdrawn if circumstances change. The Employee will be contacted directly in this situation and must keep this fact confidential.",
+   "why_it_matters": "Approval for the collar is revocable up to execution and the executive cannot tell the bank why, so the bank must accept unexplained withdrawal of the trade within the 5-business-day validity period."
+  },
+  {
+   "topic": "margin lending ban",
+   "clause": "Employees must not undertake the following types of personal trading activity: ... trading in Dexus securities as part of margin lending activities",
+   "why_it_matters": "The loan leg of a funded collar secured on Dexus securities is at serious risk of being characterised as margin lending activity, which is prohibited outright with no approval or hardship route."
+  },
+  {
+   "topic": "Media Test veto",
+   "clause": "Where any approval is required for a dealing under this Policy, approval will not be granted where the dealing would not satisfy the Media Test.",
+   "why_it_matters": "Even where the black-letter prohibitions do not bite, approvers have an express reputational veto over a director hedging or borrowing against Dexus securities, and no reasons need be given."
+  },
+  {
+   "topic": "conflict of interest limb",
+   "clause": "Employees must not undertake ... trading that may cause a conflict (or appearance of conflict) of interest with Dexus or its clients.",
+   "why_it_matters": "A written call over Dexus securities held by a Dexus funds-management executive could be treated as an appearance of conflict independently of the hedging and margin lending limbs."
+  },
+  {
+   "topic": "stapled and managed vehicles",
+   "clause": "reference to Dexus Securities includes reference to Dexus (ASX:DXS), Dexus Industria REIT (ASX:ADI) and Dexus Convenience Retail REIT (ASX:DXC).",
+   "why_it_matters": "The Policy reaches the two managed REITs as well as DXS, so a collar over any of the three is caught by the same windows, approvals and margin lending ban."
+  },
+  {
+   "topic": "no derivatives definition",
+   "clause": "All trades by Employees in listed and unlisted financial products managed by Dexus require prior approval in accordance with the Business Approval Table.",
+   "why_it_matters": "The approval trigger is drafted around products managed by Dexus rather than derivatives referencing them, leaving it unclear whether an OTC put and call with a bank needs approval at all; a bank should require the executive to seek approval anyway and obtain written confirmation."
+  },
+  {
+   "topic": "post-trade documentation",
+   "clause": "The Compliance team must be provided with a copy of contract notes or transaction advices of approved trades once they have been executed.",
+   "why_it_matters": "Confirmations for the collar legs would have to be handed to Dexus Compliance, so the structure cannot be kept confidential from the issuer."
+  }
+ ],
+ "summary": "A funded collar is at best doubtful for a Dexus director or executive and is likely blocked on the funding leg. The derivative legs over vested securities are not expressly regulated - the Policy names no derivatives, short selling, CFDs, stock lending or encumbrance, and the hedging prohibition is confined to un-vested securities - but any trade in Dexus securities must be pre-approved under the Business Approval Table, executed within 5 business days, and confined to the two open windows (28 days after half and full year results, 14 days after the AGM), with approval refusable without reasons under the Media Test and withdrawable up to execution. The loan leg is the problem: section 7 prohibits 'trading in Dexus securities as part of margin lending activities' for every Director, Employee and Associate, with no approval, hardship or exemption route, and a bank loan secured on the collared securities with enforcement rights is squarely within the mischief that limb addresses. Nothing in the Policy addresses forced sales by a secured lender, disclosure of financing arrangements, or a minimum shareholding, so the practical position is that Dexus consent would have to be sought in writing on the specific structure. Tenor should also exceed 30 days to avoid the short-term gain prohibition, and the collar must not extend to any un-vested plan securities."
+}
