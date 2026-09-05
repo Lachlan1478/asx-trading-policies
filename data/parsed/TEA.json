@@ -1,0 +1,199 @@
+{
+ "symbol": "TEA",
+ "company": "Tasmea Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "26 August 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors of the Company; any person who by their role or otherwise becomes aware of Inside Information by having access to confidential material such as board papers or periodic disclosure materials; and, for those persons, their spouse or children under 18, a trust of which they or family are trustee/beneficiary, and a company they or their family control.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel (KMP)",
+   "kind": "kmp",
+   "description": "Directors, Executives, CEO/GM of subsidiaries, finance team members and their respective associates; distinguished for the tiered written approval procedure that applies to margin lending arrangements.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "employees, consultants or contractors",
+   "kind": "all_staff",
+   "description": "Employees, consultants or contractors who are not Designated Persons; may Deal at any time provided they do not hold Inside Information, with no formal approval or Black-out Period restriction stated.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouse or children under 18 of a Designated Person, a trust of which the Designated Person, family members or a family-controlled company is trustee or beneficiary, or a company controlled by the Designated Person or their family; deemed Designated Persons themselves.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any other transaction in financial products or hedging arrangement or other arrangement which operates to limit (in any way) the economic risk associated with holding the relevant securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "two weeks prior to the release of the Company's half-year results",
+   "end_anchor": "24 hours after the release of the Company's half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "two weeks prior to the release of the Company's full-year results",
+   "end_anchor": "24 hours after the release of the Company's full-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "21 calendar days before the Annual General Meeting",
+   "end_anchor": "the date of the Annual General Meeting",
+   "duration_days": 21
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Chairperson, in consultation with the Company Secretary, may determine any other period to be a Black-out Period from time to time (clause 3.2(a)(iv)); the policy does not address whether such additional periods are confidential.",
+ "rules": [
+  {"topic": "derivatives", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "6.2(a)", "detail": "Derivatives (a defined term expressly including collars) are banned outright over unvested equity instruments, including performance share rights.", "evidence": "The Company prohibits the use of Derivatives in relation to unvested equity instruments, including performance share rights, and vested Company Securities that are subject to disposal restrictions (such as a 'Holding Lock')."},
+  {"topic": "derivatives", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "6.2(a)", "detail": "Same ban extends to vested securities still subject to a Holding Lock.", "evidence": "The Company prohibits the use of Derivatives in relation to unvested equity instruments ... and vested Company Securities that are subject to disposal restrictions (such as a 'Holding Lock')."},
+  {"topic": "derivatives", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "6.2(b)", "detail": "Once vested and free of disposal restrictions, Derivatives may be used with prior approval of the Chairperson (or the Board, for the Chairperson).", "evidence": "Derivatives may, subject to the approval of the Chairperson (or in relation to the Chairperson, subject to approval of the Board) and subject to compliance with the law and the other provisions of this Policy, be used in relation to vested positions which are not subject to disposal restrictions."},
+  {"topic": "hedging", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(a); 12 (Derivatives definition)", "detail": "Hedging arrangements fall within the 'Derivatives' definition's catch-all for anything limiting economic risk, so the 6.2(a) ban over unvested equity applies.", "evidence": "any other transaction in financial products or hedging arrangement or other arrangement which operates to limit (in any way) the economic risk associated with holding the relevant securities."},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(a)", "detail": "Same ban applies while subject to a Holding Lock.", "evidence": "The Company prohibits the use of Derivatives in relation to ... vested Company Securities that are subject to disposal restrictions (such as a 'Holding Lock')."},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(b)", "detail": "Hedging of vested, unrestricted securities requires prior Chairperson (or Board) approval.", "evidence": "Derivatives may, subject to the approval of the Chairperson ... be used in relation to vested positions which are not subject to disposal restrictions."},
+  {"topic": "monetisation", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(a); 12 (Derivatives definition)", "detail": "Monetisation is not named; a structure limiting economic risk of unvested holdings falls within the Derivatives definition and is banned outright.", "evidence": "any other transaction in financial products or hedging arrangement or other arrangement which operates to limit (in any way) the economic risk associated with holding the relevant securities."},
+  {"topic": "monetisation", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(a)", "detail": "Same ban while subject to a Holding Lock.", "evidence": "vested Company Securities that are subject to disposal restrictions (such as a 'Holding Lock')."},
+  {"topic": "monetisation", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(b)", "detail": "A monetisation structure over vested unrestricted shares is caught as a Derivative and needs Chairperson (or Board) approval.", "evidence": "Derivatives may, subject to the approval of the Chairperson ... be used in relation to vested positions which are not subject to disposal restrictions."},
+  {"topic": "cfd", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(a); 12 (Derivatives definition)", "detail": "CFDs are not named, but fall within the broad Derivatives definition (financial products limiting economic risk) and are banned outright over unvested equity.", "evidence": "any other transaction in financial products or hedging arrangement or other arrangement which operates to limit (in any way) the economic risk associated with holding the relevant securities."},
+  {"topic": "cfd", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(a)", "detail": "Same ban while subject to a Holding Lock.", "evidence": "vested Company Securities that are subject to disposal restrictions (such as a 'Holding Lock')."},
+  {"topic": "cfd", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "6.2(b)", "detail": "A CFD over vested unrestricted shares requires Chairperson (or Board) approval as a Derivative.", "evidence": "Derivatives may, subject to the approval of the Chairperson ... be used in relation to vested positions which are not subject to disposal restrictions."},
+  {"topic": "short_selling", "tier": "Designated Persons", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_dealing_definition", "floor": "", "section": "5.1(a); 12 (Dealing definition)", "detail": "Short selling is not named; it is caught only because Dealing extends to disposing of, or entering agreements to dispose of, securities, so it requires the general prior written approval.", "evidence": "Any Designated Person (other than the Chairperson) wishing to Deal in Company Securities must obtain the prior written approval of the Chairperson or the Board before doing so."},
+  {"topic": "short_selling", "tier": "employees, consultants or contractors", "security_state": "any", "venue": "any", "answer": "permitted", "mechanism": "via_dealing_definition", "floor": "", "section": "3.3", "detail": "For this tier, dealing (including a disposal transaction) is permitted at any time absent Inside Information, with no approval requirement stated.", "evidence": "An employee, consultant or contractor (who is not a Designated Person) may, at any time, Deal in Company Securities if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information."},
+  {"topic": "stock_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "not_addressed", "mechanism": "none", "floor": "", "section": "", "detail": "Securities lending is not mentioned anywhere in the policy.", "evidence": ""},
+  {"topic": "margin_lending", "tier": "Key Management Personnel (KMP)", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "7(a),(b)", "detail": "Entering, transferring shares into, or selling under a margin lending arrangement is expressly permitted with tiered prior written approval, not limited by vesting state.", "evidence": "Any dealing in Company Securities by Key Management Personnel pursuant to a margin lending arrangement must be conducted in accordance with this Policy. Such dealings include, but are not limited to: entering into a margin lending arrangement in respect of Company Securities."},
+  {"topic": "encumbrance", "tier": "Key Management Personnel (KMP)", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_dealing_definition", "floor": "", "section": "7; 12 (Margin Loan definition)", "detail": "Granting security is not named generically, but a Margin Loan is defined as borrowing 'using existing investments as security', so encumbering shares for a loan is treated the same as margin lending and needs approval.", "evidence": "Margin Loan means any lending or similar arrangement allowing a person to borrow money to invest in securities using existing investments as security."},
+  {"topic": "secured_financing", "tier": "Key Management Personnel (KMP)", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "7; 12 (Margin Loan definition)", "detail": "The Margin Loan definition extends to 'any lending or similar arrangement' secured on existing holdings, not just formal margin loans, and section 7 requires the same tiered written approval for any such arrangement.", "evidence": "Any dealing in Company Securities by Key Management Personnel pursuant to a margin lending arrangement must be conducted in accordance with this Policy."},
+  {"topic": "short_term", "tier": "all", "security_state": "any", "venue": "any", "answer": "not_addressed", "mechanism": "none", "floor": "", "section": "", "detail": "No short-term or speculative trading restriction, and no minimum holding period, is stated anywhere in the policy.", "evidence": ""}
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "The Chairperson or the Board (for a Designated Person other than the Chairperson); the Board (for the Chairperson)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within five business days of the Dealing occurring",
+   "section": "5.1-5.3; 6.2(b)",
+   "evidence": "Any Designated Person (other than the Chairperson) wishing to Deal in Company Securities must obtain the prior written approval of the Chairperson or the Board before doing so. ... any Designated Person who Deals in Company Securities must notify the Company Secretary in writing of the details of the transaction within five business days of the Dealing occurring."
+  },
+  {
+   "tier": "Key Management Personnel (KMP)",
+   "type": "approval",
+   "approver": "Chairperson approved by the Managing Director and the Company Secretary; Managing Director approved by the Chairperson and the Company Secretary; other KMP approved by both the Chairperson and the Managing Director",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "7(b)",
+   "evidence": "The Chairperson of the Board must inform and receive written approval from the Managing Director and the Company Secretary; The Managing Director must inform and receive written approval from the Chairperson and the Company Secretary; and Any other Key Management Personnel must inform and receive written approval from both the Chairperson and the Managing Director."
+  },
+  {
+   "tier": "employees, consultants or contractors",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.3",
+   "evidence": "An employee, consultant or contractor (who is not a Designated Person) may, at any time, Deal in Company Securities if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {"kind": "other", "scope": "specific_dealing", "approver": "", "evidence": "transfer Company Securities already held into a superannuation fund or other saving scheme in which the Designated Person is a beneficiary"},
+  {"kind": "non_discretionary_plan", "scope": "any_dealing", "approver": "", "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or scheme are invested at the discretion of a third party"},
+  {"kind": "takeover", "scope": "any_dealing", "approver": "", "evidence": "undertake to accept, or accept, a takeover offer"},
+  {"kind": "dividend_plan", "scope": "any_dealing", "approver": "", "evidence": "participate in an offer or invitation made to all or most security holders, including a rights issue, equal access buy-back, security purchase plan or dividend or distribution reinvestment plan, where the timing and structure of the offer or invitation has been approved by the Board."},
+  {"kind": "plan_dealing", "scope": "acquisition_only", "approver": "", "evidence": "exercise (but not Deal with the securities following exercise) an option or right under an employee incentive scheme where the final date for the exercise of the option or right falls during a Black-out Period"},
+  {"kind": "plan_dealing", "scope": "acquisition_only", "approver": "", "evidence": "acquire (but not Deal with the securities following acquisition) Company shares by conversion of financial instruments giving rights to conversion to shares ... where the final date for the conversion of the security falls during a Black-out Period"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "acquire Company securities under a bonus issue made to all holders of securities of the same class"},
+  {"kind": "dividend_plan", "scope": "acquisition_only", "approver": "", "evidence": "acquire Company securities under a dividend reinvestment, or top-up plan that is available to all holders of securities of the same class"},
+  {"kind": "plan_dealing", "scope": "acquisition_only", "approver": "", "evidence": "acquire, or agree to acquire or exercise options under a Company employee share plan"},
+  {"kind": "other", "scope": "specific_dealing", "approver": "", "evidence": "withdraw ordinary shares in the Company held on behalf of the Designated Person in an employee share plan where the withdrawal is permitted by the rules of that plan"},
+  {"kind": "plan_dealing", "scope": "acquisition_only", "approver": "", "evidence": "acquire ordinary shares in the Company as a result of the exercise of options held under an employee share scheme"},
+  {"kind": "other", "scope": "any_dealing", "approver": "", "evidence": "where the Designated Person is a trustee, trade in the securities of the Company by that trust, provided the Designated Person is not a beneficiary of the trust and any decision to trade during a Black-out Period is taken by the other trustees or by the investment managers independently of the Designated Person."},
+  {"kind": "hardship", "scope": "sale_only", "approver": "Chairperson (Approval Officer), or the Board where the applicant is the Chairperson", "evidence": "the Designated Person is in severe financial hardship and a pressing financial commitment cannot be satisfied otherwise than by disposing of Company Securities"},
+  {"kind": "court_order", "scope": "sale_only", "approver": "Chairperson (Approval Officer), or the Board where the applicant is the Chairperson", "evidence": "the Designated Person is required by a court order, or there are court enforceability undertakings, to transfer or dispose of Company Securities or there is some other overriding legal regulatory requirement for them to do so"}
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "clearance_required",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": ["Key Management Personnel: on approval to enter a margin lending arrangement, the Company may (where appropriate or required by law) disclose the fact and nature of the arrangement to the ASX; no fixed deadline is stated."],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chairperson (as 'Approval Officer', or the Board where the Chairperson is the applicant) may grant written Disposal Consent to dispose of or transfer (but not acquire or otherwise Deal with) securities during a Black-out Period, for severe financial hardship or a court order/legal requirement, on terms and for a duration the Approval Officer considers reasonable, and must notify the Board of any consent granted.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "collar named as a derivative",
+   "clause": "derivatives within the meaning given in section 761D of the Corporations Act (such as options, forward contracts, swaps, futures, warrants, caps and collars)",
+   "why_it_matters": "The policy's own Derivatives definition expressly lists 'collars', so a bank equity collar is unambiguously within the section 6.2 regime: banned unvested or holding-locked, permitted with Chairperson/Board approval once vested and unrestricted."
+  },
+  {
+   "topic": "margin lending approval scope and recent amendment",
+   "clause": "This update introduces a formal approval process for any margin lending arrangements involving Company Securities by Key Management Personnel (KMP) ... These changes provide flexibility that will enable the Founders to hold their Tasmea shares given their confidence in the unique business model ... and potentially deal with the consequences of the proposed taxation changes to Superannuation Laws.",
+   "why_it_matters": "The August 2025 amendment was adopted specifically to let KMP/Founders borrow against their shares, evidencing Board willingness to approve secured financing (the loan leg of a funded collar) for KMP, subject to the tiered approval procedure."
+  },
+  {
+   "topic": "ASX disclosure of margin lending",
+   "clause": "Where approval is given for entry into a margin lending arrangement, the Company may, where appropriate or required by law, disclose to the ASX the fact and nature of the margin lending arrangement.",
+   "why_it_matters": "The bank and executive should expect the secured loan (and by extension a funded collar) to potentially be publicly disclosed."
+  },
+  {
+   "topic": "derivatives tier ambiguity",
+   "clause": "Derivatives may, subject to the approval of the Chairperson ... be used in relation to vested positions which are not subject to disposal restrictions.",
+   "why_it_matters": "Unlike sections 3-5, section 6.2 is not expressly limited to Designated Persons, while non-Designated employees/consultants/contractors are otherwise free to deal absent Inside Information (3.3); conservatively, Chairperson approval for the derivative leg should be sought regardless of tier."
+  },
+  {
+   "topic": "incomplete order in blackout",
+   "clause": "Buy or sell orders for Company Securities which are placed but not completed outside of a Black-out Period are subject to the following restrictions once the Black-out Period commences: the order must be completed within five trading days otherwise it will lapse; and the order cannot be varied.",
+   "why_it_matters": "Relevant to timing the unwind, roll or physical settlement of a collar leg that straddles the start of a Black-out Period."
+  }
+ ],
+ "summary": "A funded OTC collar is achievable under Tasmea's policy: its own definition of 'Derivatives' expressly includes 'collars', and while use of Derivatives is banned outright over unvested equity and vested securities still subject to a Holding Lock, it is expressly permitted over vested, unrestricted holdings with the prior written approval of the Chairperson (or the Board, if the Chairperson is the trader). The loan leg is separately regulated as a 'margin lending arrangement' (a term defined broadly enough to cover any borrowing secured on existing shares) and, for Key Management Personnel, requires tiered written approval; the Board only introduced this KMP margin-lending approval regime in August 2025 specifically to give the Founders financing flexibility. Both approvals must be obtained outside Black-out Periods, require the person not to hold Inside Information, and the Company may disclose the arrangement to the ASX. It is unclear whether the section 6.2 derivatives-approval requirement extends to employees, consultants or contractors who are not Designated Persons, since that section (unlike the surrounding ones) is not expressly limited to Designated Persons; the conservative reading is that Chairperson approval should be sought regardless of tier. There is no minimum shareholding requirement and no short-term dealing restriction, and a margin-call sale during a Black-out Period still requires the same prior written approval rather than being automatically excluded."
+}
