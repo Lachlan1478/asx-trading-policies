@@ -1,0 +1,442 @@
+{
+ "symbol": "DMP",
+ "company": "Domino's Pizza Enterprises Limited",
+ "title": "Board Policy 06/05: Securities Dealing",
+ "date_approved": "",
+ "date_effective": "3 February 2026",
+ "date_lodged": "4 February 2026",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "all",
+   "kind": "all_staff",
+   "description": "Designated Persons, franchisees and all other executives and employees of the Company and its subsidiaries, and each of their Associates. Subject to the general Insider Trading prohibition, Trading Window/Closed Period rules, the hedging consent requirement and the exempt dealings list.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Global Leadership Team, Finance Team, Restricted Persons, and any of their Associates. Subject to additional pre-dealing notification (cannot deal earlier than 9.00am on the second business day after notifying the Company Secretary) and a post-dealing certificate.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Global Leadership Team or Finance Team",
+   "kind": "kmp",
+   "description": "The Directors, Company Secretary, Key Management Personnel and other senior executives on the global leadership team, and the CFO and his/her direct reports. Subject to the clause 7 Secured Lending Arrangement approval and disclosure regime, at any time, in a Closed Period or a Trading Window.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Persons or a class of persons determined by the Board or Managing Director as possibly in possession of Inside Information for a given period; while so declared they are treated as a Designated Person.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Has the meaning in sections 11-17 of the Corporations Act. Persons covered by the policy must not Deal through an Associate where they would have been prohibited from Dealing themselves, and must procure their Associates' compliance.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "enter into transactions (whether through the use of derivatives or otherwise) which limit the economic risk of participating in the Company's equity based remuneration scheme",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "day after the release to ASX of the annual results",
+   "end_anchor": "6 weeks after that day",
+   "duration_days": 42
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "day after the release to ASX of the half-yearly results",
+   "end_anchor": "6 weeks after that day",
+   "duration_days": 42
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "day after the end of the AGM",
+   "end_anchor": "3 weeks after that day",
+   "duration_days": 21
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "the Company has a prospectus open",
+   "end_anchor": "the prospectus ceases to be open",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "end of a Trading Window",
+   "end_anchor": "start of the next Trading Window",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company reserves the right to impose a restriction on Dealing during any period (6.2(c)). Not stated whether such additional restrictions are announced or kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4.4(a); 6.2; 6.3",
+   "detail": "Company Securities include derivatives created over them by third parties, and Dealing includes acquiring, disposing of, or agreeing to do either. Permitted within a Trading Window subject to no Inside Information, no short-term/speculative gain, and (for Designated Persons) T-2 business day pre-notification; otherwise a Closed Period Dealing requiring approval.",
+   "evidence": "Company Securities means securities issued by the Company and includes ordinary shares, preference shares, debentures, convertible notes and options as well as derivatives created over those securities by third parties (such as warrants)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.8",
+   "detail": "Any transaction, derivative or otherwise, that limits the economic risk of participating in the Company's equity-based remuneration scheme requires the Chairman's prior written consent; no defined process, validity period or carve-out.",
+   "evidence": "Persons to whom this policy applies must not, without prior written consent of the Chairman, enter into transactions (whether through the use of derivatives or otherwise) which limit the economic risk of participating in the Company's equity based remuneration scheme."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4(a); 6.2; 6.3",
+   "detail": "Hedging of vested, unrestricted shares is not named separately from clause 6.8's remuneration-scheme wording. As a derivative created over Company Securities, it falls within the general Dealing/Trading Window/Closed Period regime.",
+   "evidence": "Company Securities means securities issued by the Company and includes ... derivatives created over those securities by third parties (such as warrants)."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4(a)",
+   "detail": "Monetisation is not named. As an agreement to dispose of Company Securities or a derivative created over them, it is a Dealing subject to the Trading Window/Closed Period regime; if it also grants security over the shares it is additionally a Secured Lending Arrangement under clause 7.",
+   "evidence": "(trades) any proposal to apply for, acquire or dispose of any security or to enter into any agreement to do those things"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling as a technique is not named; the policy's 'short term or speculative gain' language addresses holding period/motive, not selling securities the person does not hold.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 4.4(a)",
+   "detail": "CFDs are not named; as derivatives created over Company Securities they are Company Securities and Dealing in them follows the general Trading Window/Closed Period regime, subject to the ban on speculative dealing.",
+   "evidence": "Company Securities means securities issued by the Company and includes ... derivatives created over those securities by third parties (such as warrants)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2(a)(vi); 6.3(a)(ii)",
+   "detail": "Any person covered by the policy dealing via a Secured Lending Arrangement (which includes margin lending) within a Trading Window or Closed Period needs approval given in accordance with clause 7.",
+   "evidence": "if the Dealing involves a Secured Lending Arrangement – approval has been given in accordance with clause 7"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Global Leadership Team or Finance Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "A GLT or Finance Team member must not at any time, in a Closed Period or a Trading Window, enter or propose to enter a margin lending arrangement, or deal to give effect to one (e.g. transfer shares into an existing margin loan account), without the Responsible Person's prior written approval, which may be conditional and is revocable.",
+   "evidence": "A member of the Global Leadership Team or Finance Team must not at any time, whether in a Closed Period or a Trading Window: (i) enter, or propose to enter, into a Secured Lending Arrangement involving Company Securities; or (ii) Deal with Company Securities for the purpose of giving effect to a Secured Lending Arrangement such as transferring Company Securities into an existing margin loan account ... without the prior written approval of the Responsible Person."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2(a)(vi); 6.3(a)(ii)",
+   "detail": "Granting security over Company Securities is a Secured Lending Arrangement; any covered person dealing via one within a Trading Window or Closed Period needs clause 7 approval.",
+   "evidence": "Secured Lending Arrangement means any arrangement involving the use of Company Securities as collateral or security for any indebtedness or other obligation, including without limitation a margin lending or other secured arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Global Leadership Team or Finance Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "A GLT or Finance Team member must not at any time grant security over Company Securities without the Responsible Person's prior written approval, which may be conditional and is revocable before the dealing occurs.",
+   "evidence": "A member of the Global Leadership Team or Finance Team must not at any time, whether in a Closed Period or a Trading Window: (i) enter, or propose to enter, into a Secured Lending Arrangement involving Company Securities ... without the prior written approval of the Responsible Person."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2(a)(vi); 6.3(a)(ii)",
+   "detail": "A Secured Lending Arrangement covers 'any indebtedness or other obligation' secured on Company Securities, not just margin loans - this squarely covers a bank loan secured on collared shares. Any covered person needs clause 7 approval when dealing via such an arrangement.",
+   "evidence": "any arrangement involving the use of Company Securities as collateral or security for any indebtedness or other obligation, including without limitation a margin lending or other secured arrangement"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Global Leadership Team or Finance Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1; 7.2",
+   "detail": "A GLT or Finance Team member must not at any time enter a secured financing arrangement over Company Securities without the Responsible Person's prior written approval, and must disclose the arrangement's size, Loan to Value Ratio and trigger points at inception and on any material change.",
+   "evidence": "A member of the Global Leadership Team or Finance Team must not at any time, whether in a Closed Period or a Trading Window: (i) enter, or propose to enter, into a Secured Lending Arrangement involving Company Securities ... without the prior written approval of the Responsible Person."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2(a)(v); 6.5(a)(ii)(C)",
+   "detail": "Dealing must not be for short-term or speculative gain; Designated Persons must certify this after every Dealing. No defined holding period.",
+   "evidence": "the Dealing is not for short term or speculative gain"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "The Chairman, or the ARC Chairman if the Dealing involves the Chairman or the Chairman is unavailable",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (signed certificate)",
+   "post_trade_deadline": "12.00 midday Brisbane time on the next business day after the Dealing",
+   "section": "6.3; 6.4; 6.5",
+   "evidence": "Permission will be given for such Dealing but only after a written request for approval is provided ... If approval is given, the Dealing must be completed by 5.00pm Brisbane time on the second business day after the approval."
+  },
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "The Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.3",
+   "evidence": "in the case of others – they have obtained the approval of the Company Secretary."
+  },
+  {
+   "tier": "Global Leadership Team or Finance Team",
+   "type": "approval",
+   "approver": "The Responsible Person (Chairman, or ARC Chairman if the Dealing involves the Chairman or the Chairman is unavailable)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Responsible Person (ongoing Secured Lending Arrangement disclosure)",
+   "post_trade_deadline": "immediately upon any material change; provided with the approval request at inception",
+   "section": "7.1; 7.2",
+   "evidence": "The decision to give or refuse approval is entirely within the discretion of the Responsible Person who may give or refuse approval or give approval subject to such conditions as the Responsible Person thinks fit ... Any approval given may be revoked in writing, prior to the Dealing taking place."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "the Dealing is not for short term or speculative gain"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(Pro-rata issue) an acquisition of Company Securities under a pro-rata rights issue or a disposal of rights acquired under a pro-rata rights issue"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "(dividend reinvestment plan (DRP) or security purchase plan (SPP)) an acquisition of Company Securities under a DRP or SPP"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(employee incentive scheme) the acquisition, forfeiture, lapse or cancellation of any Company Securities under an employee incentive scheme operated by the Company"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "(deceased estate) an off-market transaction in Company Securities arising from the administration of a deceased estate"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "(legal requirement) the acquisition of Company Securities pursuant to a requirement imposed by the Act"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(third party investments) indirect Dealings in Company Securities that arise because of a Dealing in securities issued by a listed investment company, managed investment scheme, exchange-traded fund or similar investment vehicle that is managed by a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(acting as trustee) Dealings by a trustee in Company Securities held by a trust, provided that neither the trustee or their Associates are beneficiaries of the trust, and any decision to deal during a Closed Period is taken by another trustee or a third person independently"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(no change in beneficial owner) an off-market transaction in Company Securities, where there is no effective change in the beneficial owner (such as a transfer to a family trust or a self-managed superannuation fund)"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "(involuntary disposal under a margin loan) a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin loan or other Secured Lending Agreement"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairman, ARC Chairman, or Company Secretary (per clause 6.3(a))",
+   "evidence": "in cases of hardship where it can be shown that securities are to be sold to realise cash in a time of need"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "Chairman, ARC Chairman, or Company Secretary (per clause 6.3(a))",
+   "evidence": "where securities are transferred from one member of a family or trust to another when to delay the transaction to the next permitted period would be detrimental to the family's affairs"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Global Leadership Team/Finance Team: at inception (with the approval request) and immediately on any material change - to the Responsible Person - number of Company Securities, Loan to Value Ratio, trigger points and alerts received.",
+   "Company (not the individual): may publicly disclose the terms and nature of any margin loan or Secured Lending Arrangement to which a director is a party, and the terms/circumstances of any call made or likely to be made - trigger and timing not specified."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chairman (or ARC Chairman) or Company Secretary may approve Closed Period Dealing in exceptional circumstances such as hardship or a detrimental family/trust delay, but between 30 June and the final results announcement and between 31 December and the interim results announcement, approval will only be given in exceptional circumstances; refusals are final, binding and need no reason.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Secured Lending Arrangement scope",
+   "clause": "Secured Lending Arrangement means any arrangement involving the use of Company Securities as collateral or security for any indebtedness or other obligation, including without limitation a margin lending or other secured arrangement.",
+   "why_it_matters": "A bank loan secured on the collared shares is squarely a Secured Lending Arrangement, triggering clause 7 approval for a GLT/Finance Team member and clause 6.2/6.3 approval for anyone else."
+  },
+  {
+   "topic": "margin call self-sufficiency expectation",
+   "clause": "Global Leadership Team and Finance Team members are expected to have sufficient resources to meet a margin call by any means other than the sale of Company Securities ... they must take immediate steps to rearrange their affairs to prevent this from occurring.",
+   "why_it_matters": "The Company expects the loan (and by extension the collar's financing leg) to be structured with enough headroom that a margin call never forces a sale of the collared shares, which should inform the LVR/put strike chosen."
+  },
+  {
+   "topic": "public disclosure of financing terms",
+   "clause": "The Company may publicly disclose the terms and nature of any margin loan or Secured Lending Arrangement to which a Company director is a party, and the terms and circumstances of any call made or likely to be made under those arrangements.",
+   "why_it_matters": "A director's funded collar could be publicly disclosed by the Company at its own discretion, including its loan-to-value ratio and any margin call, independent of the director's own ASX notification obligations."
+  },
+  {
+   "topic": "Large Dealings cap",
+   "clause": "Persons to whom this policy applies must not sell more than 2% of the total issued share capital worth of securities in any 6 month period without obtaining approval from the Chairman ... as to the form and timing of the sale and the management of its public disclosure.",
+   "why_it_matters": "Unwind or settlement of a large collar involving delivery/sale of more than 2% of issued capital in a 6-month window needs separate Chairman/Board sign-off on timing and disclosure, on top of ordinary Trading Window and Secured Lending clearance."
+  },
+  {
+   "topic": "revocable approval",
+   "clause": "Any approval given may be revoked in writing, prior to the Dealing taking place, if ... new information comes to light in relation to the Secured Lending Arrangement ... or any other relevant event or circumstance, as determined by the Board.",
+   "why_it_matters": "Approval to enter the collar's loan leg is not final until the dealing occurs and can be pulled by the Board on a broad discretionary trigger."
+  },
+  {
+   "topic": "inside information overrides approval",
+   "clause": "If a person comes into possession of Inside Information after receiving an approval to Deal, they must not Deal despite having received the approval.",
+   "why_it_matters": "Execution of a cleared collar (or its unwind) must be re-checked against Inside Information at the moment of trade, not just at the time approval was granted."
+  },
+  {
+   "topic": "narrower pre-results blackout",
+   "clause": "Approval will only be given under exceptional circumstances where the Dealing would occur in the period between 30 June and the announcement to ASX of final results for the year and between 31 December and the announcement to ASX of the interim results for the half-year.",
+   "why_it_matters": "Collar entry, unwind or roll timed in the weeks immediately before annual or half-year results faces a materially harder approval bar than an ordinary Closed Period dealing."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted shares is workable but multi-gated: the derivative legs are a Dealing in Company Securities (which expressly include third-party-created derivatives) and, if within a Trading Window, need only no Inside Information and no short-term/speculative purpose (plus Designated Person pre-notification); outside a Trading Window they need Chairman or Company Secretary approval, harder to obtain in the weeks before results. The loan leg is a Secured Lending Arrangement, permitted with the Responsible Person's (Chairman/ARC Chairman) prior written approval at any time for Global Leadership Team and Finance Team members, or via the same clause 7 route for other covered persons dealing under one, and carries ongoing disclosure of loan size, LVR and trigger points; that approval is revocable before completion and any approved terms may be publicly disclosed by the Company. A lender's forced sale on a margin call is an exempt dealing not requiring fresh clearance, but the Company expects GLT/Finance Team members to avoid needing one at all. Hedging of unvested equity incentive holdings needs separate Chairman consent under clause 6.8, and unwinding a large enough position (over 2% of issued capital in six months) needs additional Chairman/Board approval on timing and disclosure. Overall, a funded collar is achievable over vested, unrestricted shares with layered board-level clearances at entry, and it must be re-cleared if the executive later holds Inside Information."
+}

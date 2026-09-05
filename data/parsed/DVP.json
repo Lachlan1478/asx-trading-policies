@@ -1,0 +1,336 @@
+{
+ "symbol": "DVP",
+ "company": "Ventnor Resources Ltd (now Develop Global Limited)",
+ "title": "Security Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company. Subject to the black-out periods, the Board Pack/Directors' Meeting exclusion, the hedging prohibition on unvested equity incentive entitlements, and ASX relevant-interest notification obligations. The Chairman clears Directors to deal (via the Managing Director or Company Secretary for the Chairman himself).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "employees",
+   "kind": "all_staff",
+   "description": "Employees of the Company, including executives participating in an equity-based executive incentive plan. Subject to the same black-out periods, approval process and hedging prohibition on unvested entitlements as Directors, cleared via the Chairman (or Managing Director in his absence).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "contractors",
+   "kind": "other",
+   "description": "Contractors employed by the Company, informed of the policy on appointment and required to adhere to it while contracted; breach may lead to termination of contract arrangements. Subject to the same black-out periods and approval process as Directors and employees.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any transaction which would have the effect of hedging or otherwise transferring to any other person the risk of any fluctuation in the value of any unvested entitlement in the Company's securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "14 days prior to the release of annual, half yearly or quarterly results",
+   "end_anchor": "at least 2 days after the relevant release",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "14 days prior to the Annual General Meeting",
+   "end_anchor": "the Annual General Meeting",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors", "employees"],
+   "start_anchor": "receipt of the Board Pack",
+   "end_anchor": "the Directors' Meeting",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Chairman will generally not allow dealing 'as a matter of course' if there is price sensitive information not yet disclosed because of an ASX Listing Rule exception; not expressed to be confidential and not a separately named blackout so much as a restatement of the underlying insider trading prohibition.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Meaning of Securities; Approval Process",
+   "detail": "'Securities' expressly covers 'derivatives related to the Company's shares, whether issued by the company or not', so an OTC put/call over vested shares is squarely within scope and subject to the ordinary approval process (self-certify no inside information; notify Chairman/Managing Director of intention to deal; no impediment indicated) and black-out timing.",
+   "evidence": "The rules covers shares in the Company, derivatives related to the Company's shares, whether issued by the company or not and to any traded company options."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors",
+   "security_state": "unvested",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Hedging unvested entitlements",
+   "detail": "Directors and executives participating in an equity-based incentive plan are banned from any transaction hedging or transferring the value-fluctuation risk of unvested entitlements; this bans a put/call collar over unvested plan securities specifically.",
+   "evidence": "Directors, and executives participating in an equity-based executive incentive plan, are prohibited from entering into any transaction which would have the effect of hedging or otherwise transferring to any other person the risk of any fluctuation in the value of any unvested entitlement in the Company's securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Hedging unvested entitlements",
+   "detail": "Absolute ban on hedging or otherwise transferring the value-fluctuation risk of unvested equity incentive entitlements, to preserve alignment with performance hurdles.",
+   "evidence": "Transactions which \"hedge\" the value of entitlements could distort the proper functioning of these hurdles and reduce the intended alignment with shareholder interests."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Hedging unvested entitlements",
+   "detail": "Directors may hedge securities held outside an equity-based performance plan, or once plan securities have vested, provided the transaction occurs outside black-out periods and otherwise complies with the policy (i.e. the ordinary approval process).",
+   "evidence": "Notwithstanding the restriction imposed by paragraph (b) above, Directors may enter into hedging transactions in respect of the Company securities held by them outside any equity based performance plan or once the securities have been vested."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Meaning of Securities",
+   "detail": "Monetisation is not named, but a prepaid forward or similar structure would be a derivative related to the Company's shares and so within 'Securities', requiring the ordinary approval process and black-out compliance.",
+   "evidence": "The rules covers shares in the Company, derivatives related to the Company's shares, whether issued by the company or not and to any traded company options."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named; the only trading-style restriction is the short-term trading ban.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Meaning of Securities",
+   "detail": "CFDs are not named but are 'derivatives related to the Company's shares' and so within 'Securities', subject to approval and black-out timing; a CFD would also likely be caught by the short-term trading ban if held briefly.",
+   "evidence": "The rules covers shares in the Company, derivatives related to the Company's shares, whether issued by the company or not."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No margin lending or secured financing provision anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, charge, lien or pledge is not addressed and not listed as a dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No secured financing or collateral provision anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Guidelines for Trading in the Company's Securities",
+   "detail": "Absolute, undefined ban on short-term trading at any time; no stated period, basis or carve-out.",
+   "evidence": "Directors, employees and contractors must not at any time engage in short-term trading in securities of the Company."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman (or, for the Chairman himself, the Managing Director or Company Secretary)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (ASX relevant-interest notification)",
+   "post_trade_deadline": "immediately on acquiring or disposing of a relevant interest (to meet the 5-day ASX notification requirement)",
+   "section": "Approval Process; ASX Notification by Directors",
+   "evidence": "they have contacted the Chairman or in his absence, the Managing Director and notified them of their intention to do so and the Chairman or Managing Director indicates that there is no impediment to them doing so."
+  },
+  {
+   "tier": "employees",
+   "type": "approval",
+   "approver": "Chairman (or Managing Director in his absence)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Approval Process",
+   "evidence": "they have contacted the Chairman or in his absence, the Managing Director and notified them of their intention to do so and the Chairman or Managing Director indicates that there is no impediment to them doing so."
+  },
+  {
+   "tier": "contractors",
+   "type": "approval",
+   "approver": "Chairman (or Managing Director in his absence)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Approval Process",
+   "evidence": "Directors, employees and contractors can deal in securities of the Company in the following circumstances"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Directors, employees and contractors must not at any time engage in short-term trading in securities of the Company."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairman",
+   "evidence": "In specific circumstances however, such as financial hardship, the Chairman may waive the requirement of a Directors, employees and contractors to deal in securities outside blackout periods on the condition that the Directors, employees and contractors can demonstrate to him that they are not in possession of any price sensitive information that is not generally available to the public."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "This policy does not apply to trading which does not result in a change in beneficial control of the Company's shares eg. transferring a personal holding of the Company's shares to a superannuation fund."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "It does not apply to any issue of securities by the Company pursuant to a prospectus or like disclosure under the Corporations Law, or under employee share and option plans."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Chairman may waive the requirement to deal only within permitted windows, for financial hardship or similar, conditioned on the person demonstrating to him that they hold no undisclosed price sensitive information.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "broad securities/derivatives definition",
+   "clause": "The rules covers shares in the Company, derivatives related to the Company's shares, whether issued by the company or not and to any traded company options.",
+   "why_it_matters": "This is an express, venue-agnostic sweep that catches an OTC put and call written by a bank ('whether issued by the company or not'), so the collar's derivative legs are within-policy and only need ordinary Chairman clearance and black-out compliance, not a separate carve-out."
+  },
+  {
+   "topic": "unvested hedging ban with vested carve-out",
+   "clause": "Directors may enter into hedging transactions in respect of the Company securities held by them outside any equity based performance plan or once the securities have been vested.",
+   "why_it_matters": "The prohibition is confined to unvested plan entitlements; once shares vest, a funded collar over them is expressly not caught by the hedging ban, only by the general approval/black-out regime."
+  },
+  {
+   "topic": "no financing provisions",
+   "clause": "The policy contains no reference to margin lending, secured financing, encumbrance or stock lending.",
+   "why_it_matters": "A loan secured on the collared shares is not addressed at all, so it is not prohibited, but the bank also gets no policy-based comfort (e.g. forced-sale carve-out or financing disclosure duty) if the executive defaults during a black-out period."
+  },
+  {
+   "topic": "undefined short-term trading ban",
+   "clause": "Directors, employees and contractors must not at any time engage in short-term trading in securities of the Company.",
+   "why_it_matters": "With no stated holding period, a short-dated or early-unwound collar risks being characterised as short-term trading; tenor and structuring should avoid any appearance of short-term speculation."
+  },
+  {
+   "topic": "associates and family arrangements",
+   "clause": "The prohibition extends to dealings by anyone, including Directors' and employees' nominees, agents or other associates, such as family members, family trusts and family companies.",
+   "why_it_matters": "Structuring the collar or loan through a related trust or entity does not avoid the approval process or black-out timing restrictions."
+  },
+  {
+   "topic": "board pack blackout",
+   "clause": "Directors and executives are also excluded from dealing in securities within the period from receipt of the Board Pack and the Directors' Meeting.",
+   "why_it_matters": "This recurring short blackout window (in addition to the 14-day results and AGM windows) further narrows the calendar available to enter, unwind or roll the collar."
+  }
+ ],
+ "summary": "A funded OTC equity collar over vested shares looks achievable under this policy for Directors and employees, since 'Securities' expressly includes derivatives related to the Company's shares 'whether issued by the company or not', bringing an OTC put/call squarely within the ordinary approval process (self-certification of no inside information plus Chairman/Managing Director notification) rather than any outright ban. The hedging prohibition is confined to unvested equity-incentive entitlements; Directors are expressly permitted to hedge shares held outside a performance plan or once vested, provided this occurs outside black-out periods (14 days before results/AGM, and the Board Pack-to-Board Meeting window) and complies with the policy generally. The loan leg secured on the collared shares is not addressed anywhere in the policy, so it is neither prohibited nor subject to any disclosure or forced-sale carve-out, leaving the bank without policy-based protection if enforcement is needed during a black-out period. An undefined, absolute ban on short-term trading counsels a longer-dated structure, and any dealing must still avoid periods when the individual holds undisclosed price-sensitive information. Overall: permitted with Chairman clearance and black-out timing discipline for vested shares; unvested plan entitlements cannot be collared at all."
+}

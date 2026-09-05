@@ -1,0 +1,409 @@
+{
+ "symbol": "BPT",
+ "company": "Beach Energy Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "26 March 2018",
+ "date_effective": "26 March 2018",
+ "date_lodged": "29 March 2018",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Beach People",
+   "kind": "all_staff",
+   "description": "All directors, officers, employees and people working as contractors or consultants of Beach and the companies in the group. Subject to the insider trading prohibition, Closed Periods, short-term dealing prohibition, and the hedging ban on unvested or holding-locked equity plan entitlements; may deal (other than Designated Persons) after notifying their manager in writing and confirming no prohibition applies.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "A Beach Person who is a director, the CEO, each executive, all direct reports to a director, the CEO or an executive (including executive assistants), and any other employee the CEO deems in writing to be a Designated Person. Must obtain prior written approval before dealing rather than merely notifying, and directors must confirm dealings to the Company Secretary within two business days.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of Beach, a subset of Designated Persons distinguished by their approver (Chairman and Company Secretary, or the CEO and Company Secretary if the director is the Chairman) and the post-trade confirmation obligation to the Company Secretary within two business days.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions which limit the economic risk of participating in unvested entitlements, such as unvested options or vested entitlements that remain subject to a holding lock, under a Beach equity based executive or employee incentive plan",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "immediately after the end of Beach's half financial year",
+   "end_anchor": "the day after the lodgement of Beach's half year financial results with the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "immediately after the end of Beach's full financial year",
+   "end_anchor": "the day after the lodgement of Beach's full year financial results with ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "one week prior to the lodgement of Beach's quarterly reports with the ASX",
+   "end_anchor": "the day after each lodgement with ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Chief Executive Officer, in consultation with the Company Secretary, may impose (and lift) a prohibition on dealing on Beach People or a group of them due to certain activity or knowledge within Beach. It may not be generally advised to Beach People to protect confidentiality, so a person wanting to deal may not be told why or for how long the prohibition will last.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8 (Definitions); 4",
+   "detail": "'Dealing' expressly includes creating a derivative over securities, and Securities includes derivatives and OTC-created financial products with no venue limit. An OTC put/call therefore requires prior written approval before dealing, is barred in Closed Periods, and lapses if inside information is held.",
+   "evidence": "'dealing' in securities means buying or selling securities or any other form of dealing or arrangement including subscribing for securities, creating a derivative over securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Beach People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8 (Definitions); 4",
+   "detail": "For Beach People who are not Designated Persons, creating a derivative is a dealing requiring only prior written notification to their manager and confirmation that no prohibition applies, not full approval.",
+   "evidence": "Beach People, other than Designated Persons may deal in Beach securities: ... They have notified their manager in writing of the type of dealing they intend undertaking; and Confirmed that there is no prohibition that applies to them, before the dealing takes place."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Beach People",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3",
+   "detail": "Absolute ban on transactions limiting the economic risk of unvested equity plan entitlements, applying to all Beach People, not only Designated Persons.",
+   "evidence": "Entering into transactions which limit the economic risk of participating in unvested entitlements, such as unvested options or vested entitlements that remain subject to a holding lock, under a Beach equity based executive or employee incentive plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Beach People",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3",
+   "detail": "The hedging ban is expressly extended to vested entitlements that remain subject to a holding lock, not only unvested entitlements.",
+   "evidence": "Entering into transactions which limit the economic risk of participating in unvested entitlements, such as unvested options or vested entitlements that remain subject to a holding lock, under a Beach equity based executive or employee incentive plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 (Definitions); 4",
+   "detail": "Hedging of vested, unrestricted (not holding-locked) shares is not named; it is caught only as a dealing ('any other form of dealing or arrangement') requiring prior written approval.",
+   "evidence": "'dealing' in securities means buying or selling securities or any other form of dealing or arrangement including subscribing for securities, creating a derivative over securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Beach People",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 (Definitions); 4",
+   "detail": "Caught only as a dealing; non-Designated Beach People need only notify their manager and confirm no prohibition applies.",
+   "evidence": "Beach People, other than Designated Persons may deal in Beach securities: ... They have notified their manager in writing of the type of dealing they intend undertaking"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 (Definitions); 4",
+   "detail": "Monetisation is not named. It falls within 'any other form of dealing or arrangement' and so requires prior written approval before dealing.",
+   "evidence": "'dealing' in securities means buying or selling securities or any other form of dealing or arrangement including subscribing for securities, creating a derivative over securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Beach People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 (Definitions); 4",
+   "detail": "Caught only as a dealing; non-Designated Beach People need only notify their manager.",
+   "evidence": "'dealing' in securities means buying or selling securities or any other form of dealing or arrangement including subscribing for securities, creating a derivative over securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 (Definitions)",
+   "detail": "CFDs are not named but are 'financial products relating to a company's securities such as derivatives', so ordinary dealing rules and prior approval apply.",
+   "evidence": "'securities' include any type of shares (including ordinary and preference), options, debentures and notes and financial products relating to a company's securities such as derivatives, exchange traded options and warrants issued or created by the company or third parties."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Beach People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 (Definitions)",
+   "detail": "Same treatment as Designated Persons but only manager notification is required.",
+   "evidence": "'securities' include any type of shares (including ordinary and preference), options, debentures and notes and financial products relating to a company's securities such as derivatives, exchange traded options and warrants issued or created by the company or third parties."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Margin lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Security interests, charges or liens over Beach securities are not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Secured financing arrangements are not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3",
+   "detail": "Short-term dealing is listed as a Closed Period category applying to all Beach People, but no holding period or threshold is defined anywhere in the policy.",
+   "evidence": "Where the dealing would be regarded as 'short term dealing';"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Beach People",
+   "type": "notification",
+   "approver": "Manager",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4",
+   "evidence": "Beach People, other than Designated Persons may deal in Beach securities: ... They have notified their manager in writing of the type of dealing they intend undertaking; and Confirmed that there is no prohibition that applies to them, before the dealing takes place."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman and Company Secretary (or, if the director is the Chairman, the Chief Executive Officer and Company Secretary)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 business days after the dealing",
+   "section": "4",
+   "evidence": "Where they are a director, they have requested in writing prior approval (which may be by email) of an intention to deal from the Chairman and Company Secretary or if the director is the Chairman, then to the Chief Executive Officer and Company Secretary ... If the Designated Person is a director and subsequently deals in Beach's securities, they must confirm the dealing and relevant details of the dealing in writing to the Company Secretary within 2 business days after the dealing"
+  },
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Chairman, Chief Executive Officer or Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4",
+   "evidence": "Where the Designated Person is not a director, they have requested in writing prior approval (which may be by email or using another method of notice on Beach's intranet specifically designed for this purpose) of an intention to deal from the Chairman, the Chief Executive Officer or the Company Secretary and have confirmed that there is no prohibition that applies to them before the dealing takes place;"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Where the dealing would be regarded as 'short term dealing';"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairman (director applicant) or Company Secretary in consultation with the CEO (any other applicant)",
+   "evidence": "A person is experiencing severe financial hardship or other exceptional circumstances; and Prior written permission (with such conditions as are relevant) is obtained from the Chairman, if the applicant is a director, or the Company Secretary (in consultation with the Chief Executive Officer) for any other request."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Chairman (director applicant) or Company Secretary in consultation with the CEO (any other applicant)",
+   "evidence": "or other exceptional circumstances"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "An undertaking to accept, or the acceptance of a takeover offer;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealings under an offer or invitation made to all or most of the shareholders of Beach, such as a rights issue, a security purchase plan or a dividend or distribution reinvestment plan or an equal access buyback;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "A dealing where the beneficial interest in the security does not change;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An investment in, or a trading in units of a fund or arrangement, other than a fund only investing in securities in Beach, where the assets of the fund are invested at the discretion of a third party;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "The cancellation, lapsing or surrender of an option or right under an equity based executive or employee incentive plan;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "The exercise (but not the sale on exercise) of an option or a right under an equity based executive or employee incentive plan, or the conversion of a convertible security, where the final date for exercise or conversion of the security, falls during a prohibited period and Beach has been in an exceptionally long prohibited period and the person could not reasonably have been expected to exercise it at time when he or she is free to do so."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Continuous Disclosure Policy"],
+ "exemption_authority": "The Chairman (for a director applicant) or the Company Secretary in consultation with the CEO (for any other Beach Person) may give prior written permission, with such conditions as are relevant, to deal during a Closed Period or other prohibited period, on evidence of severe financial hardship or other exceptional circumstances, provided the applicant does not possess inside information.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "no financing provisions",
+   "clause": "The policy contains no reference anywhere to margin lending, security interests, charges, liens or other secured financing arrangements.",
+   "why_it_matters": "The loan leg of a funded collar secured against Beach shares is not addressed at all by this Share Trading Policy, so it is neither prohibited nor conditioned by it, though general law and any separate corporate policy could still apply."
+  },
+  {
+   "topic": "hedging ban covers holding-locked vested entitlements",
+   "clause": "Entering into transactions which limit the economic risk of participating in unvested entitlements, such as unvested options or vested entitlements that remain subject to a holding lock, under a Beach equity based executive or employee incentive plan.",
+   "why_it_matters": "The hedging ban extends beyond unvested awards to vested shares still subject to a holding lock, so a collar can only be written once shares are both vested and released from any holding lock."
+  },
+  {
+   "topic": "undefined short-term dealing",
+   "clause": "Where the dealing would be regarded as 'short term dealing';",
+   "why_it_matters": "No holding period or months threshold is defined, creating uncertainty over how soon after vesting a multi-month collar (or its unwind) could be entered without being characterised as short-term dealing."
+  },
+  {
+   "topic": "confidential CEO blackout",
+   "clause": "The prohibition may not be generally advised to Beach People to protect confidentiality so a Beach Person wanting to deal in Beach securities may not be told why or for how long the prohibition will last.",
+   "why_it_matters": "An undisclosed CEO-imposed blackout could block entry, unwind or settlement of a collar at any time without warning or explanation."
+  },
+  {
+   "topic": "5-business-day execution window",
+   "clause": "Any dealing in Beach securities must occur within five business days after notification (or permission being granted for a Designated Person) and must be consistent with the notification.",
+   "why_it_matters": "Both collar legs must be priced and executed within five business days of notification or approval, a tight window for arranging bank documentation."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted Beach shares is structurally possible for Designated Persons (directors, the CEO, executives and their direct reports), because 'dealing' is expressly defined to include 'creating a derivative over securities' and the express hedging ban applies only to unvested entitlements or vested entitlements still subject to a holding lock. The derivative legs require prior written approval from the Chairman and Company Secretary (or the CEO and Company Secretary if the dealer is the Chairman), execution within five business days of approval, and must avoid the half-year, full-year and quarterly Closed Periods, any undisclosed CEO-imposed prohibition, short-term dealing (an undefined term), and inside information. Strikingly, the policy contains no provision at all on margin lending, security interests or secured financing, so the loan leg secured against the collared shares is not addressed, restricted or conditioned by this Share Trading Policy. Non-Designated Beach People face a lighter regime of manager notification rather than approval for the same dealings. Overall, the derivative legs are approvable once shares are vested and unlocked and the loan is simply outside this policy's scope, but the undefined short-term dealing prohibition and the confidential ad hoc blackout power both create execution-timing risk for the bank."
+}
