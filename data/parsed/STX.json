@@ -1,0 +1,386 @@
+{
+ "symbol": "STX",
+ "company": "Strike Energy Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "4 September 2020",
+ "date_effective": "4 September 2020",
+ "date_lodged": "4 September 2020",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Strike personnel",
+   "kind": "all_staff",
+   "description": "Key management personnel (including Directors, officers, senior executives) and employees of the Company and its controlled or associated entities, and in certain circumstances Associated persons. All substantive prohibitions (short-term/speculative trading, short selling, hedging of unvested options, margin loans/secured borrowing) apply uniformly to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company; distinguished for clearance approver (the Chair, or in the Chair's absence the Managing Director), for the exceptional-circumstances sale approval (Chair and one other non-executive Director), and for the Director's own statutory duty to notify ASX of dealings within 14 days under s205G.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Managing Director",
+   "kind": "kmp",
+   "description": "The Managing Director; distinguished only for clearance approver (the Chair, or in the Chair's absence the Chair of the Audit and Risk Committee).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished only for clearance approver (the Chair of the Audit and Risk Committee).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associated persons",
+   "kind": "associate",
+   "description": "Contractors, consultants, advisors or key suppliers that by virtue of their role or relationship with the Company have access to information that has or could reasonably be deemed to be Inside Information; grouped with employees for clearance approval routing.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any transaction (e.g. a derivative) which would have the effect of hedging or otherwise transferring the risk of fluctuation in value of any options issued to them under any Company employee option plan prior to vesting of the options",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "end of the quarter",
+   "end_anchor": "the day the quarterly report, half year results, full year results or the AGM (whichever is applicable) is released/held, plus a further wait of at least 1 full Business Day after that release or meeting",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may impose (and vary) an additional Prohibited Period from time to time, notified to Strike personnel including by email; the policy does not state such a prohibition is kept confidential, in contrast to the confidentiality required of a refused clearance request.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1(4),(7); 5.2",
+   "detail": "No express OTC derivatives rule. Securities is defined to include derivatives with no venue limitation, so acquiring, disposing of, or agreeing to acquire or dispose of a put or call is a Dealing requiring prior written approval and is barred while holding Inside Information, during a Closed trading period, or during a Board-imposed Prohibited Period.",
+   "evidence": "Securities include shares, debentures, options to acquire shares or debentures, and derivatives;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.2",
+   "detail": "Absolute ban on any transaction (the policy gives a derivative as the example) that hedges or transfers the risk of fluctuation in value of options issued under a Company employee option plan before those options vest.",
+   "evidence": "Strike personnel must not at any time enter into any transaction (e.g. a derivative) which would have the effect of hedging or otherwise transferring the risk of fluctuation in value of any options issued to them under any Company employee option plan prior to vesting of the options."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1(4),(7); 5.2",
+   "detail": "Once options have vested, or for ordinary shares generally, hedging is not separately named or restricted; a hedging derivative is itself a Security, so acquiring or entering an agreement to acquire it is a Dealing requiring the ordinary prior written approval.",
+   "evidence": "Deal in Securities means apply for, acquire or dispose of Securities in the relevant entity, or enter into an agreement to apply for, or acquire, or dispose of any such Securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1(4),(7); 5.2",
+   "detail": "Monetisation structures (e.g. a prepaid forward) are not named. Entering an agreement to dispose of Securities, or acquiring a derivative Security, is a Dealing requiring prior written approval; any monetisation that also takes security over the shares additionally triggers the 12.3 margin/secured-borrowing approval.",
+   "evidence": "enter into an agreement to apply for, or acquire, or dispose of any such Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.1",
+   "detail": "Outright ban on short selling of Company Securities, with no clearance carve-out.",
+   "evidence": "Strike personnel must not at any time engage in short-term or speculative trading in, or short selling of, Securities of the Company."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy and is not listed in the Dealing definition or the Excluded Dealings.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1(7); 5.2; 12.1",
+   "detail": "CFDs are not named. As a derivative in respect of Securities, a CFD is itself a Security, so dealing in one requires the ordinary prior written approval; a CFD used speculatively also falls within the absolute ban on short-term or speculative trading.",
+   "evidence": "Strike personnel must not at any time engage in short-term or speculative trading in, or short selling of, Securities of the Company."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3",
+   "detail": "A margin loan is barred only where there is a risk Company Securities will be traded under the loan's terms, unless the Chair (or, in his or her absence, the Chair of the Audit and Risk Committee) has given prior approval after being provided the number of Securities, the trigger points and the lender's right of sale.",
+   "evidence": "Strike personnel must not enter into any margin loan (or other borrowing that uses Securities as security) where there is a risk that Company Securities will be traded pursuant to the terms of the loan, unless the person has the prior approval of the Chair (or in his or her absence the Chair of the Audit and Risk Committee)."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3",
+   "detail": "Granting security is not captured by the Dealing definition; it is addressed only as part of the margin-loan/secured-borrowing clause, which permits using Securities as collateral for any borrowing carrying a risk of forced trading provided the Chair approves it in advance.",
+   "evidence": "Strike personnel must not enter into any margin loan (or other borrowing that uses Securities as security) where there is a risk that Company Securities will be traded pursuant to the terms of the loan, unless the person has the prior approval of the Chair (or in his or her absence the Chair of the Audit and Risk Committee)."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.3",
+   "detail": "The prohibition extends to 'other borrowing that uses Securities as security', not just margin loans, so any secured financing carrying a risk of forced trading needs prior Chair approval; no blanket ban exists.",
+   "evidence": "Strike personnel must not enter into any margin loan (or other borrowing that uses Securities as security) where there is a risk that Company Securities will be traded pursuant to the terms of the loan, unless the person has the prior approval of the Chair (or in his or her absence the Chair of the Audit and Risk Committee)."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.1",
+   "detail": "Blanket ban on short-term or speculative trading, undefined by any holding period; the Excluded Dealings in section 7 (e.g. takeover acceptance, DRP/SPP/rights issue, option exercise) are excluded from the whole policy and so would not be caught.",
+   "evidence": "Strike personnel must not at any time engage in short-term or speculative trading in, or short selling of, Securities of the Company."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "the Chair, or in his or her absence the Managing Director",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (2 Business Days, as KMP) and ASX (Director's own s205G obligation, satisfied via the Company's Appendix 3Y lodgement)",
+   "post_trade_deadline": "2 Business Days to Company Secretary; Company lodges with ASX within 5 Business Days (Listing Rules 3.19A/3.19B)",
+   "section": "5.2-5.6; 9; 10.1",
+   "evidence": "in the case of a Director or their associates (including spouses and de facto spouses or the Director's parents or children), the Chair, or in his or her absence, the Managing Director;"
+  },
+  {
+   "tier": "Managing Director",
+   "type": "approval",
+   "approver": "the Chair, or in his or her absence the Chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (as key management personnel)",
+   "post_trade_deadline": "2 Business Days",
+   "section": "5.2-5.6; 10.1",
+   "evidence": "in the case of the Managing Director, the Chair or, in his or her absence, the Chair of the Audit and Risk Committee;"
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "the Chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (as key management personnel)",
+   "post_trade_deadline": "2 Business Days",
+   "section": "5.2-5.6; 10.1",
+   "evidence": "in the case of the Chair, the Chair of the Audit and Risk Committee."
+  },
+  {
+   "tier": "Employees or Associated persons",
+   "type": "approval",
+   "approver": "the Managing Director, or in his or her absence the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary, if the individual is key management personnel",
+   "post_trade_deadline": "2 Business Days (KMP only)",
+   "section": "5.2-5.6; 10.1",
+   "evidence": "in the case of employees or Associated persons, the Managing Director or in his or her absence, the Company Secretary;"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Strike personnel must not at any time engage in short-term or speculative trading in, or short selling of, Securities of the Company."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers which result in no change in the beneficial interest in the Securities;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the Company's Securities) where the assets of the fund or other scheme are invested at the discretion of a third party;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where Strike personnel are a trustee, trading in the Company's Securities by that trust provided the individual impacted by this policy is not a beneficiary of the trust and any decision to Deal in Securities during a prohibited period is taken by the other trustees or by the investment managers independently of this individual;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer or scheme of arrangement;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the Security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board;"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Securities that is the result of a secured lender exercising its rights;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, Securities the subject of a current prospectus or other form of disclosure document the Company has issued;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise (but not sale of Securities following exercise) of an option or a right under an employee incentive share scheme, or the conversion of a convertible security;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "as approved under the ordinary clearance procedure (paragraph 5)",
+   "evidence": "trading under a non-discretionary trading plan for which prior clearance has been provided in accordance with procedures set out in the trading policy and where ... the trading plan does not permit Strike personnel to exercise any influence or discretion over how, when or whether to Deal in Securities"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "the Chair and at least one other non-executive Director",
+   "evidence": "In exceptional circumstances where disposal of Securities is the only reasonable course of action available, approval may be given by the Chair and at least one other non-executive Director for Strike personnel to sell (but not to purchase) Securities of the Company during a Prohibited Period."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "the Chair and at least one other non-executive Director",
+   "evidence": "a requirement to Deal in Securities to satisfy an overriding legal or regulatory obligation (e.g. a court ordered settlement)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "A request for approval must provide details of the margin loan including the number of Securities involved, the trigger points, the right of the lender to sell the Securities and any other material details (and any other details required by the Chair).",
+  "financing_disclosure": [
+   "Strike personnel (all tiers): at inception, before entering any margin loan or other secured borrowing carrying a risk of forced trading, to the Chair (or Chair of the Audit and Risk Committee in the Chair's absence), providing number of Securities, trigger points, lender's right of sale and other material details; approval required before entering the arrangement."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Continuous Disclosure Policy",
+  "Request to trade in securities of the company (form)"
+ ],
+ "exemption_authority": "The Chair and at least one other non-executive Director may approve a sale (not a purchase) during a Prohibited Period in exceptional circumstances such as severe financial hardship or an overriding legal/regulatory obligation (e.g. a court-ordered settlement). The Chair alone (or the Chair of the Audit and Risk Committee in the Chair's absence) may separately approve a margin loan or other secured borrowing that carries a risk of forced trading. Ordinary clearance to Deal is otherwise a matter of the Company's full discretion, refusable without reasons.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "forced sale exemption",
+   "clause": "a disposal of Securities that is the result of a secured lender exercising its rights",
+   "why_it_matters": "Unlike policies that treat a lender's forced sale as a breach, STX expressly excludes it from the operation of the whole policy, so a bank enforcing security over the collared shares (including in a Closed Period) does not put the executive in breach."
+  },
+  {
+   "topic": "trigger point disclosure",
+   "clause": "A request for approval must provide details of the margin loan including the number of Securities involved, the trigger points, the right of the lender to sell the Securities and any other material details (and any other details required by the Chair).",
+   "why_it_matters": "The Chair will require full economic terms of the bank's loan and enforcement rights before approving it, so the collar and loan documentation must be finalised and disclosed up-front rather than approved in outline."
+  },
+  {
+   "topic": "post-announcement quiet period",
+   "clause": "For other announcements (not specified above), Strike personnel are required to wait at least 4 trading hours before dealing in Securities ... so that the market has had time to absorb this information.",
+   "why_it_matters": "Even outside the quarterly Closed trading periods, entry into or unwind of the collar must be timed to sit at least 4 trading hours after any market announcement."
+  },
+  {
+   "topic": "sale-only hardship relief",
+   "clause": "approval may be given by the Chair and at least one other non-executive Director for Strike personnel to sell (but not to purchase) Securities of the Company during a Prohibited Period",
+   "why_it_matters": "If the collar needs unwinding for hardship reasons inside a Prohibited Period, only a sale of the underlying shares (not a new derivative purchase) could qualify for this narrow relief."
+  },
+  {
+   "topic": "clearance lapse on new information",
+   "clause": "Strike personnel must not Deal in Securities if they come into possession of Inside Information after obtaining approval. ... The Company may also withdraw approval if it receives new information or there is a change in circumstances after approval is given.",
+   "why_it_matters": "A cleared collar must be signed within the 5-business-day validity window and can be revoked by the Company at any time before execution if circumstances change."
+  }
+ ],
+ "summary": "A funded collar is achievable, but the loan leg secured on the shares needs case-by-case sign-off: section 12.3 does not ban margin loans or other secured borrowing outright, only where there is a risk Company Securities will be traded under the loan's terms, and even then the Chair (or Audit and Risk Committee Chair) can approve it after being given the share number, trigger points and the lender's right of sale. The put and call are not named but, because Securities is defined to include derivatives with no venue restriction, entering them is an ordinary Dealing needing prior written approval (Managing Director for employees, Chair for Directors), valid for 5 business days and unavailable during a quarterly/half-year/full-year/AGM Closed trading period, a Board-imposed Prohibited Period, or while holding Inside Information. Hedging is only expressly banned for options before they vest, so a collar over already-vested shares avoids that specific prohibition. If the bank later enforces its security and sells the shares, that disposal is an Excluded Dealing under the policy and not a breach, even if it occurs in a Closed Period, which meaningfully de-risks the lender's enforcement position. Overall: proceed on the basis of prior Chair approval of the secured loan terms and ordinary trading clearance for the derivative legs, executed outside Closed/Prohibited Periods."
+}

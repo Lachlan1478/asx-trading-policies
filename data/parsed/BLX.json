@@ -1,0 +1,321 @@
+{
+ "symbol": "BLX",
+ "company": "Beacon Lighting Group Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Officer",
+   "kind": "kmp",
+   "description": "A director or person engaged in the management of the Group, whether as a Team Member or consultant, as determined by the Company from time to time and maintained on a list by the Company Secretary. Subject to closed/open trading periods and prior written clearance.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Team Member",
+   "kind": "all_staff",
+   "description": "An employee of the Group who is not a Designated Officer; may deal at any time provided they do not possess inside information, with no clearance requirement except for margin lending above 1% of issued capital.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Associate",
+   "kind": "associate",
+   "description": "A spouse or child of the person, a child of the person's spouse, a dependant of the person or spouse, another family member able to influence or be influenced by the person, or a company or family trust the person controls.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any schemes or arrangements that protect the value of shares, options or performance rights allocated under the Company's incentive schemes prior to them becoming fully vested",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Designated Officer"],
+   "start_anchor": "3 days after close of trading on the business day after the Company announces its half-yearly results to ASX",
+   "end_anchor": "end of the 4-week period beginning at the start anchor",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Designated Officer"],
+   "start_anchor": "3 days after close of trading on the business day after the Company announces its full year results to ASX",
+   "end_anchor": "end of the 4-week period beginning at the start anchor",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Designated Officer"],
+   "start_anchor": "3 days after close of trading on the business day after the Company holds its annual general meeting",
+   "end_anchor": "end of the 4-week period beginning at the start anchor",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2 (Company Securities); 5; 7; 8",
+   "detail": "No standalone derivatives rule. Company Securities is defined to include derivatives and other financial products relating to Company securities whether created by the Company, Group or third parties, so an OTC put/call is a Company Security; dealing in it requires the same prior written clearance and open-window timing as any other dealing.",
+   "evidence": "Company Securities include shares, options, debentures, convertible notes, interests and rights in the Company or Group and other financial products relating to securities issued by the Company or Group (such as warrants and derivatives) whether or not these are created by the Company, Group or third parties."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Officer",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15",
+   "detail": "Absolute prohibition on hedging shares, options or performance rights allocated under incentive schemes before they are fully vested; breach also forfeits the grant.",
+   "evidence": "Designated Officers are prohibited under this Policy from entering into any schemes or arrangements that protect the value of shares, options or performance rights allocated under the Company's incentive schemes prior to them becoming fully vested."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Officer",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5; 7; 8",
+   "detail": "Hedging is only named as a prohibition for unvested grants; once vested, a hedge over Company Securities is not separately addressed and falls back to being an ordinary dealing (a derivative/option in respect of Company Securities) requiring prior written clearance and an open trading window.",
+   "evidence": "granting, accepting, acquiring, disposing, exercising or discharging an option or other right or obligation to acquire or dispose of securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5; 8",
+   "detail": "Monetisation is not named. A prepaid forward or similar arrangement is an agreement to dispose of securities and so a dealing requiring the same clearance and open-window timing.",
+   "evidence": "entering into an agreement to apply for, acquire or dispose of, securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy and is not listed as an example of dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere and is not listed as an example of dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2 (Company Securities); 8",
+   "detail": "CFDs are not named. A CFD is an 'other financial product relating to securities' and so a Company Security; entering into one is a dealing requiring clearance, and would also be caught by the 3-month speculative dealing ban if short-dated.",
+   "evidence": "other financial products relating to securities issued by the Company or Group (such as warrants and derivatives)"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16.1",
+   "detail": "A Designated Officer may include Company Securities in a margin loan portfolio, or otherwise deal pursuant to a margin lending arrangement, only with prior consent of an Approving Officer, who may impose conditions at the Company's discretion.",
+   "evidence": "A Designated Officer may not include his or her Company Securities in a margin loan portfolio or otherwise deal in Company Securities pursuant to a margin lending arrangement without first obtaining consent from an Approving Officer."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Team Member",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "16.2",
+   "detail": "A Team Member needs Managing Director consent for margin lending only if the value of the Company Securities involved exceeds 1% of issued capital; below that threshold no consent is required.",
+   "evidence": "A Team Member may not include his or her Company Securities in a margin loan portfolio or otherwise deal in Company Securities pursuant to a margin lending arrangement if the value of the securities is more than 1% of the issued capital of the Company, without first obtaining consent from the Managing Director."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "General grants of security, charges, liens or pledges over Company Securities outside a margin loan portfolio are not named and are not caught by the dealing definition, which does not mention encumbrance.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "16.1",
+   "detail": "The policy has no general 'secured financing' prohibition; only margin lending arrangements are addressed, requiring Approving Officer consent. It is unclear whether a bank loan secured by pledge of the collared shares but not styled a 'margin loan' would be treated as within this clause by analogy.",
+   "evidence": "or otherwise deal in Company Securities pursuant to a margin lending arrangement without first obtaining consent from an Approving Officer"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "14",
+   "detail": "Dealing on considerations of a short-term nature (3 months or less) or for speculative purposes is prohibited for both Designated Officers and Team Members; no carve-outs stated.",
+   "evidence": "A Designated Officer or Team Member may not deal in Company Securities on considerations of a short term nature (being a period of 3 months or less) or for speculative purposes."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Officer",
+   "type": "approval",
+   "approver": "Approving Officer: CEO (or nominee) for non-director Designated Officers; Chairperson of the Board (or nominee) for directors other than the Chair; Chairperson of the Audit Committee (or nominee) for the Chair",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": 3,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary, if requested (copy of trading confirmations)",
+   "post_trade_deadline": "",
+   "section": "8",
+   "evidence": "Before dealing in Company Securities, a Designated Officer must first inform the Approving Officer and obtain written clearance for the dealing in question. ... Such requests will be responded to by email, usually within 72 hours. ... Dealings in Company Securities must be completed within 1 week of clearance being granted."
+  },
+  {
+   "tier": "Team Member",
+   "type": "approval",
+   "approver": "Managing Director (only where margin lending involves Company Securities worth more than 1% of issued capital)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "16.2",
+   "evidence": "without first obtaining consent from the Managing Director. The Company may, at its discretion, make any consent granted conditional upon such terms and conditions as it sees fit."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "intention",
+   "months": 3,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "A Designated Officer or Team Member may not deal in Company Securities on considerations of a short term nature (being a period of 3 months or less) or for speculative purposes."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Approving Officer",
+   "evidence": "The Approving Officer may give clearance for a Designated Officer to sell (but not buy) Company Securities in exceptional circumstances where the Designated Officer would otherwise not be able to do so under this policy. For example, if the Designated Officer has a pressing financial commitment that cannot otherwise be satisfied."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that do not result in a change to the beneficial interest in Company Securities."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisitions of Company Securities through a dividend reinvestment plan, Team Member share plan, share purchase plan available to all retail shareholders, rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the acceptance of a takeover offer"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Approving Officer may grant sell-only clearance in exceptional circumstances such as a pressing financial commitment, applying caution, but never while inside information exists. No other exemption or waiver mechanism is stated.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "inverted window structure",
+   "clause": "a Designated Officer may only deal in Company Securities ... during the following periods ... Periods other than those stipulated in paragraph 7.1b are closed periods when clearance to deal will generally not be given",
+   "why_it_matters": "The policy is structured as a whitelist of three narrow 4-week open windows (post half-year results, post full-year results, post AGM) rather than a blacklist, so a collar's entry, roll and unwind must all be scheduled inside these windows or a Board-declared additional period."
+  },
+  {
+   "topic": "forfeiture on breach",
+   "clause": "Any breach of this prohibition will also constitute a breach of the conditions of grant and would result in the forfeiture of the relevant shares, options or performance rights.",
+   "why_it_matters": "Hedging unvested equity does not merely breach the policy but automatically forfeits the grant, so a collar must not be written until full vesting is confirmed."
+  },
+  {
+   "topic": "margin lending consent discretion",
+   "clause": "The Company may, at its discretion, make any consent granted conditional upon such terms and conditions as it sees fit.",
+   "why_it_matters": "The Approving Officer can attach bespoke conditions (e.g. LVR caps, lender identity, disclosure) to consent for the loan leg of a funded collar, so terms should be pre-cleared with the Company before documentation is finalised."
+  },
+  {
+   "topic": "no secured financing catch-all",
+   "clause": "otherwise deal in Company Securities pursuant to a margin lending arrangement",
+   "why_it_matters": "Unlike policies with a broad 'any secured financing arrangement' prohibition, this policy only reaches arrangements fitting 'margin lending', leaving genuine ambiguity as to whether a collar-secured bank loan needs consent at all, though prudent practice is to seek it by analogy."
+  },
+  {
+   "topic": "1% threshold for Team Members",
+   "clause": "if the value of the securities is more than 1% of the issued capital of the Company",
+   "why_it_matters": "Only relevant if the collar counterparty is a senior Team Member rather than a Designated Officer; below the 1% threshold no consent is required at all for margin/secured lending."
+  }
+ ],
+ "summary": "A funded collar over vested Beacon Lighting shares is workable for a Designated Officer (director or senior manager), since hedging is only expressly banned while the shares, options or performance rights remain unvested; once vested, the put/call legs are simply a dealing in Company Securities requiring prior written clearance from the applicable Approving Officer and must be executed within one week of that clearance, inside one of the three narrow 4-week open trading windows (post half-year results, post full-year results, or post AGM) or another Board-approved period. The loan leg is addressed only through the margin lending provision, which requires the Approving Officer's prior consent (which may be made conditional), but the policy has no broader 'secured financing' prohibition, so it is unclear whether a collar loan not styled as a margin loan strictly falls within it; seeking consent by analogy is prudent. No clearance can be given while inside information exists, and the arrangement must not be entered with a short-term or speculative intent within 3 months. The policy is silent on forced sales, margin calls, unvested shares as collateral, or any financing disclosure obligations, leaving those risks uncovered by the policy itself."
+}

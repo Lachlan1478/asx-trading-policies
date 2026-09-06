@@ -1,0 +1,387 @@
+{
+ "symbol": "IEL",
+ "company": "IDP Education Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "8 December 2021",
+ "date_effective": "",
+ "date_lodged": "16 December 2021",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Company Personnel",
+   "kind": "all_staff",
+   "description": "Each director, officer and employee of a Company Group Member, and each contractor and consultant whose terms of engagement apply this Policy to them. Subject to the insider trading prohibition, the section 7 short-term trading ban and the section 8 hedging ban on unvested incentive-scheme entitlements.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Officers",
+   "kind": "kmp",
+   "description": "Each director, the CEO, the CFO, the Company Secretary, any Company Person designated as Key Management Personnel, and any other Company Person designated by the CFO or Company Secretary. Subject to Blackout Periods, the section 6 approval regime, the section 9 margin loan ban, ASX substantial-holding notification and (for Directors) ASX Listing Rule 3.19A/3.19B notification.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "In relation to a Designated Officer: an immediate family member; a company, trust or other entity (including a superannuation fund) controlled by the Designated Officer or an immediate family member; and the trustee of a trust or fiduciary arrangement of which the Designated Officer or family member is a beneficiary.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "no",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "any transaction or arrangement, including by way of derivatives, hedges or similar financial products, which limit the economic risk of holding unvested entitlements in Company Securities allocated under a Company incentive scheme",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Officers"],
+   "start_anchor": "end of the relevant half year and financial year",
+   "end_anchor": "opening of trading on ASX on the first business day after the day of release of the Company's half-yearly results and preliminary final results (as applicable)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Officers"],
+   "start_anchor": "two weeks prior to the annual general meeting of the Company",
+   "end_anchor": "the annual general meeting of the Company",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Chairman or the Company Secretary may advise that any other period is a Blackout Period. If approval to deal is refused during such a period, the relevant Designated Officer and their Connected Persons must keep that fact confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Company Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Any transaction or arrangement including by way of derivatives that limits the economic risk of holding unvested incentive-scheme entitlements is banned outright, for all Company Personnel, not just Designated Officers.",
+   "evidence": "Company Personnel are prohibited from entering into any transaction or arrangement, including by way of derivatives, hedges or similar financial products, which limit the economic risk of holding unvested entitlements in Company Securities allocated under a Company incentive scheme."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6; 4; 11",
+   "detail": "Section 8 is limited to unvested incentive-scheme entitlements, so it does not itself restrict a derivative over vested shares. 'Securities' is defined by reference to Corporations Act securities (shares, units, options, rights) and may not clearly extend to an OTC product like a bank collar, but entering such an agreement is arguably 'entering into or closing out ... any agreement' (deal), triggering the ordinary Blackout Period and discretionary approval regime for Designated Officers.",
+   "evidence": "deal includes: ... entering into or closing out; or the entry into any agreement to do any of the above things."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Company Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Absolute ban on hedging unvested Company incentive scheme entitlements, applying to all Company Personnel.",
+   "evidence": "Company Personnel are prohibited from entering into any transaction or arrangement, including by way of derivatives, hedges or similar financial products, which limit the economic risk of holding unvested entitlements in Company Securities allocated under a Company incentive scheme."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Company Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "8",
+   "detail": "Section 8 is expressly scoped to unvested incentive-scheme entitlements; hedging of already-vested Company Securities is not restricted by this clause for Company Personnel who are not Designated Officers.",
+   "evidence": "which limit the economic risk of holding unvested entitlements in Company Securities allocated under a Company incentive scheme"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6; 4",
+   "detail": "Designated Officers hedging vested shares are not caught by section 8 but remain subject to the ordinary Blackout Period and discretionary approval regime for any dealing.",
+   "evidence": "deal includes: ... entering into or closing out; or the entry into any agreement to do any of the above things."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Company Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "8",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure over unvested entitlements limits economic risk and is banned as hedging.",
+   "evidence": "which limit the economic risk of holding unvested entitlements in Company Securities allocated under a Company incentive scheme"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6; 11",
+   "detail": "A monetisation agreement over vested shares is an 'agreement to do any of the above things' (deal), requiring the standard discretionary approval and Blackout Period compliance.",
+   "evidence": "deal includes: ... the entry into any agreement to do any of the above things."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named or referenced anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named or referenced anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Company Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "8",
+   "detail": "CFDs are not named but are a 'similar financial product' that limits economic risk; banned over unvested incentive-scheme entitlements.",
+   "evidence": "derivatives, hedges or similar financial products, which limit the economic risk of holding unvested entitlements"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6; 11",
+   "detail": "A CFD over vested shares is an agreement caught by the broad 'deal' definition, requiring the ordinary approval and Blackout Period compliance for Designated Officers.",
+   "evidence": "deal includes: ... the entry into any agreement to do any of the above things."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Absolute ban, framed functionally around any arrangement giving a third party the right to require a sale of Company Securities, of which a margin loan is only an example. No vesting-state carve-out, and no clearance or exemption route stated. Extends to Connected Persons. Not expressed to apply to non-Designated Company Personnel.",
+   "evidence": "Designated Officers are prohibited from entering into arrangements giving a third party the right to require them to sell Company Securities (eg, margin loans). This prohibition extends to a Designated Officer's Connected Persons."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Granting a third party any right to require a sale of Company Securities (the effect of standard secured-lending enforcement or margin-call rights) is banned outright, not just formal margin loans.",
+   "evidence": "arrangements giving a third party the right to require them to sell Company Securities (eg, margin loans)"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "The ban covers any arrangement giving a third party the right to require a sale, which is broader than formal secured financing and would capture a bank loan secured on the shares with customary enforcement rights, with no exemption authority.",
+   "evidence": "Designated Officers are prohibited from entering into arrangements giving a third party the right to require them to sell Company Securities (eg, margin loans). This prohibition extends to a Designated Officer's Connected Persons."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "Company Personnel (and entities controlled by or associated with them) must not buy and sell, or sell and buy, Company Securities within three months, or arrange to do so, without prior permission (approver unspecified). Vesting/exercise of incentive scheme options or rights and subsequent sale at any time is carved out.",
+   "evidence": "Company Personnel (and entities controlled by, or associated with, Company Personnel) must not buy and sell (or sell and buy) Company Securities within a three month period, or enter into any arrangement to do so without prior permission."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Officers",
+   "type": "approval",
+   "approver": "Company Secretary, after consultation with the Chairman (or a Board member, consulting the Company Secretary or Chairman, if either has a conflict or is the one dealing)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": 7,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.1-5.3",
+   "evidence": "Permission must be given in writing by the Company Secretary, after consultation with the Chairman ... The Company Secretary must provide the written response to the relevant Designated Officer within seven days of receiving all required information."
+  },
+  {
+   "tier": "Designated Officers",
+   "type": "approval",
+   "approver": "Chairman (for Directors, CEO, CFO and Company Secretary); Chair of the Audit and Risk Committee (for the Chairman); CEO (for Global Leadership Team members); Company Secretary (for other Designated Officers)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "the person who endorsed the transaction and the Company Secretary",
+   "post_trade_deadline": "within two business days of the dealing",
+   "section": "6.1",
+   "evidence": "Following approval, Designated Officers (or their relevant Connected Persons) must undertake the proposed dealing within five business days or as otherwise notified by the person providing such approval ... Designated Officers must confirm any such dealings with the person who endorsed the transaction and the Company Secretary within two business days of the dealing."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Company Personnel",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "",
+   "carve_outs": [
+    "vesting or exercise of options over or rights to Company Securities under an employee equity incentive scheme and the subsequent sale of the underlying Company shares at any time thereafter"
+   ],
+   "evidence": "Company Personnel (and entities controlled by, or associated with, Company Personnel) must not buy and sell (or sell and buy) Company Securities within a three month period, or enter into any arrangement to do so without prior permission."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where the trade would result in no change in beneficial interest in the Company's Securities (eg, Securities in the Company already held in the Company Person's superannuation fund in which that Company Person is a beneficiary are transferred to that Company Person, or vice versa)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Securities of the Company) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where the Company Person is a trustee, trading in Company Securities by that trust provided that: the Company Person is not a beneficiary of the trust; and any decision to trade during a Blackout Period is taken by the other trustees or by the investment managers independently"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "participating in an offer or invitation made to all or most of the Company's Security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back plan"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of Securities following exercise) of an option or a right under an employee incentive scheme of the Company, or the conversion of a convertible security, where the final date for the exercise of the option or right, or the conversion of the security, falls during a Blackout Period"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Company Secretary, after consultation with the Chairman",
+   "evidence": "financial hardship where the individual has a binding financial commitment that cannot be satisfied unless they sell or otherwise dispose of Company Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Company Secretary, after consultation with the Chairman",
+   "evidence": "the issuing or enforcement of a court order or other means of legal, statutory or regulatory enforcement where the individual is required to transfer or sell the Securities of the Company"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Company Secretary or Chairman",
+   "evidence": "any other circumstance deemed by the Company Secretary or Chairman as an exceptional circumstance"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "During a Blackout Period, the Company Secretary (after consulting the Chairman, or a Board member if either has a conflict) may permit a Designated Officer to sell (not acquire) in cases of severe financial hardship, a court order or other legal requirement, or another circumstance the Company Secretary or Chairman deems exceptional; permission is granted or withheld at absolute discretion without reasons, is confidential if refused, and can be withdrawn. Outside Blackout Periods, ordinary dealing approval is likewise discretionary and reason-free. Section 9's ban on arrangements giving a third party a forced-sale right over Designated Officers' Company Securities has no stated exemption route.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "margin loan defined broadly",
+   "clause": "Designated Officers are prohibited from entering into arrangements giving a third party the right to require them to sell Company Securities (eg, margin loans).",
+   "why_it_matters": "The ban is framed functionally around any arrangement giving a third party a forced-sale right, not just formally labelled margin loans, so a bank loan secured on the collared shares with standard enforcement or margin-call rights would likely be caught outright for Designated Officers, with no clearance or exemption route."
+  },
+  {
+   "topic": "OTC derivative scope gap",
+   "clause": "Securities includes shares, units, options, rights and other interests considered to be securities for the purposes of the Australian Corporations Act.",
+   "why_it_matters": "The defined term 'Securities' may not clearly extend to an OTC put/call referencing the shares; outside the section 8 unvested-incentive-scheme hedging ban, the Policy does not expressly regulate derivatives over vested shares, though a Designated Officer would still be expected to seek approval under the general 'deal' definition and Blackout Period regime."
+  },
+  {
+   "topic": "approval discretion and confidentiality",
+   "clause": "approval is to be granted or withheld as a matter of absolute discretion and without reason ... if approval is refused, the relevant Designated Officer (and their Connected Persons) must keep that information confidential.",
+   "why_it_matters": "Approval for the derivative or dealing leg of a collar can be refused without reasons, must be kept confidential if refused, and can be withdrawn even after being granted if circumstances change."
+  },
+  {
+   "topic": "5-day execution window",
+   "clause": "Following approval, Designated Officers (or their relevant Connected Persons) must undertake the proposed dealing within five business days or as otherwise notified by the person providing such approval.",
+   "why_it_matters": "A cleared collar trade must be executed within five business days of approval or a fresh approval is required, tightening the window available to lock in pricing."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "Connected Person means ... an immediate family member ... a company, trust or other entity ... controlled by the Designated Officer ... [or] the trustee of a trust ... of which the Designated Officer ... is a beneficiary.",
+   "why_it_matters": "Routing the collar or loan through a family member, family trust or controlled entity does not avoid the Blackout Period, approval or margin-loan prohibitions, which extend expressly to Connected Persons."
+  },
+  {
+   "topic": "substantial holding notification",
+   "clause": "If a Designated Officer obtains a substantial shareholding in the Company's Securities by virtue of any dealing (more than 5% of the Company's issued capital), the Designated Officer must also notify the ASX within two business days of the change.",
+   "why_it_matters": "Unwinding or settling a large collar position that moves a Designated Officer across the 5% substantial-holder threshold triggers a separate ASX notification obligation."
+  }
+ ],
+ "summary": "A funded collar faces a significant obstacle, and some genuine ambiguity, under this policy. Section 9 bans Designated Officers (directors, CEO, CFO, Company Secretary, KMP and other designated persons, and their Connected Persons) from entering into any arrangement giving a third party the right to require them to sell Company Securities, expressly citing margin loans as an example; a bank loan secured on the collared shares with customary enforcement or margin-call rights would likely fall within this functional ban, which has no stated clearance or exemption route. The derivative overlay is less clear-cut: section 8's hedging ban reaches only unvested entitlements under a Company incentive scheme, leaving hedging of already-vested shares unregulated by that clause, though a Designated Officer entering a derivative agreement is arguably making a 'deal' under the Policy's broad definition and so would still need discretionary, reason-free approval from the Chairman, CEO or Company Secretary (depending on seniority) and must stay outside Blackout Periods (half-year/full-year results, the two weeks before the AGM, and any ad hoc period) and periods of possessing Inside Information. Even where approval is obtained, the trade must be executed within five business days and reported within two business days, and Connected Persons are equally bound. Overall, the loan leg of a funded collar appears prohibited for Designated Officers under section 9, which is likely fatal to the structure even though the derivative legs, once vested, could in principle be cleared through the ordinary discretionary approval process."
+}

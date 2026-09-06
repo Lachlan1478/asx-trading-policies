@@ -1,0 +1,393 @@
+{
+ "symbol": "KGL",
+ "company": "Kentor Gold Limited",
+ "title": "Policy for Securities Trading",
+ "date_approved": "",
+ "date_effective": "December 2010",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Representatives",
+   "kind": "all_staff",
+   "description": "All directors, employees, contractors as determined by the Managing Director, and other representatives determined by the Managing Director. Subject to the Closed Period ban, the UPSI ban, and the ban on short-term/speculative trading; no advance notice or clearance is required for ordinary dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director",
+   "kind": "director",
+   "description": "Any director of the Company or of a subsidiary or parent undertaking. In addition to the general Representative rules, must give 2 business days' advance notice of intent to trade to the Chairman and notify the Company Secretary within 2 business days of any purchase or sale for ASX reporting.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Identified Employee",
+   "kind": "kmp",
+   "description": "The Chief Financial Officer, the Company Secretary, all first line reports to the Managing Director, and any other employee or contractor nominated by the Managing Director. Must give 2 business days' advance notice of intent to trade to the Managing Director.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "a transaction that is designed to limit the economic risk of a holding in unvested Kentor Gold Limited Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "one month prior to the announcement of the Company's annual results",
+   "end_anchor": "release of the announcement of the Company's annual results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "one month prior to the release of the Company's half year report",
+   "end_anchor": "release of the Company's half-yearly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "end of each quarter not covered by the annual or half-year Closed Periods",
+   "end_anchor": "release of the Company's quarterly report as a mining entity",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Appendix 1 (Dealing); 2.1; 2.2",
+   "detail": "No express derivatives clause. 'Dealing' expressly includes the grant, acceptance, acquisition or disposal of any option (call or put) or other right to acquire or dispose of securities, so an OTC put/call over KGL shares is a Dealing. For Representatives generally this is permitted outside Closed Periods and while free of Unpublished Price-sensitive Information, with no clearance step required.",
+   "evidence": "'Dealing' includes any sale or purchase of, or agreement to sell or purchase, any securities and the grant, acceptance, acquisition, disposal of any option (whether for the call, or put, or both) or other right or obligations, present or future, conditional or unconditional, to acquire or dispose of securities, or any interest in securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Director",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 3.1",
+   "detail": "Directors must give 2 business days' advance written notice of intent to trade (including creating or disposing of options) to the Chairman with a copy to the Company Secretary; trading may proceed even without a response once 2 business days have elapsed, so this is a notice rather than an approval gate.",
+   "evidence": "Directors are to provide notice to the Chairman with a copy to the Company Secretary. ... If no response is given within two business days, the person giving the notice does not have to wait until a response is given before trading."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Identified Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 3.1",
+   "detail": "Identified Employees must give 2 business days' advance written notice of intent to trade to the Managing Director with a copy to the Company Secretary, on the same non-blocking basis as Directors.",
+   "evidence": "Identified Employees are to provide notice to the Managing Director with a copy to the Company Secretary."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.14",
+   "detail": "Absolute ban on any transaction designed to limit the economic risk of a holding in unvested KGL securities, applying to Directors and Employees.",
+   "evidence": "Directors and Employees may not enter into a transaction that is designed to limit the economic risk of a holding in unvested Kentor Gold Limited Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.14; Appendix 1 (Dealing)",
+   "detail": "The hedging ban is expressly confined to 'unvested' securities. Once vested, an economic-risk-limiting derivative is not named as hedging and is caught only as an ordinary Dealing (via the option/right limb of the Dealing definition), so it is permitted outside Closed Periods/UPSI, with notice required only from Directors/Identified Employees.",
+   "evidence": "Directors and Employees may not enter into a transaction that is designed to limit the economic risk of a holding in unvested Kentor Gold Limited Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Appendix 1 (Dealing)",
+   "detail": "Not named. A prepaid forward or similar monetisation would be an 'agreement to sell' or grant of a right in respect of securities and so a Dealing; permitted outside Closed Periods/UPSI with no clearance step for general Representatives (advance notice only for Directors/Identified Employees).",
+   "evidence": "'Dealing' includes any sale or purchase of, or agreement to sell or purchase, any securities and the grant, acceptance, acquisition, disposal of any option ... or other right or obligations ... to acquire or dispose of securities, or any interest in securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy and is not listed within the Dealing definition; only short-term/speculative trading (a different concept) is addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere and is not listed within the Dealing definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Appendix 1 (Dealing); 2.4",
+   "detail": "CFDs are not named. A CFD would be an 'other right or obligation ... to acquire or dispose of securities, or any interest in securities' and so a Dealing; it would also likely be caught by the ban on short-term or speculative trading given its typical use.",
+   "evidence": "A Representative of the Company must not engage in short-term trading of the Company's securities for speculative gain"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.6",
+   "detail": "Margin loans to finance the purchase of securities or the exercise price of options are not prohibited. The policy only warns that a margin call forcing a sale while the Representative holds Unpublished Price-sensitive Information would itself breach insider trading laws, and confirms that a lender's forced sale on default under a mortgage/charge does not breach insider trading laws.",
+   "evidence": "Where the purchase of securities or exercise price of options is being provided by a margin loan or other form of lending arrangement then there may be a risk that the Representative may need to sell shares to avoid providing additional capital or security to the lender in the event of a decrease in the value of the shares."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.6",
+   "detail": "Providing Company shares as security by way of mortgage or charge to a lender is expressly contemplated and not prohibited, and granting such security is not itself listed as a Dealing. A forced sale by the lender under that mortgage/charge on default is expressly stated not to breach insider trading laws, but the carve-out does not extend to the Policy's own Closed Period ban.",
+   "evidence": "In the instance where Company shares are provided to a lender as security by way of mortgage or charge, a sale that occurs under that mortgage or charge as a consequence of default would not breach insider trading laws."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "2.6",
+   "detail": "There is no general prohibition or disclosure requirement for secured financing. Clause 2.6 only flags the insider-trading risk of a forced sale under a margin loan or mortgage while holding UPSI; it does not restrict entry into, or require notice of, such arrangements.",
+   "evidence": "Caution regarding margin loans to finance securities. Where the purchase of securities or exercise price of options is being provided by a margin loan or other form of lending arrangement then there may be a risk that the Representative may need to sell shares"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.4",
+   "detail": "Ban on short-term trading for speculative gain, with a narrow carve-out for selling shares shortly after option exercise, itself still subject to the Closed Period and UPSI bans. No specific holding period is defined.",
+   "evidence": "A Representative of the Company must not engage in short-term trading of the Company's securities for speculative gain, except for the exercise of options where the shares will be sold shortly thereafter."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Director",
+   "type": "notification",
+   "approver": "Chairman (or, in his absence, an alternate director designated by the Chairman; Chairman of the Audit Committee if the Chairman himself is trading)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (price and quantity, for ASX notification)",
+   "post_trade_deadline": "2 business days (section 4)",
+   "section": "3; 3.1; 4",
+   "evidence": "Directors are to provide notice to the Chairman with a copy to the Company Secretary. ... Any response shall be provided to the Director or Identified Employee as soon as possible but at least within two business days of receipt of the notice ... Unless otherwise stated, any notice given under this section will automatically expire after five (5) business days."
+  },
+  {
+   "tier": "Identified Employee",
+   "type": "notification",
+   "approver": "Managing Director (or, in his absence, the Chairman or the Chairman's designated alternate)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3; 3.1",
+   "evidence": "Identified Employees are to provide notice to the Managing Director with a copy to the Company Secretary."
+  },
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Chairman (or, in his absence, a director designated by the Chairman)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "2.7",
+   "evidence": "In exceptional circumstances where it is the only reasonable course of action available to a Representative, clearance may be given for the Representative to sell (but not to purchase) securities when he/she would otherwise be prohibited from doing so."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": ["exercise of options where the shares will be sold shortly thereafter (still subject to Closed Period and UPSI bans)"],
+   "evidence": "A Representative of the Company must not engage in short-term trading of the Company's securities for speculative gain, except for the exercise of options where the shares will be sold shortly thereafter."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman, or in his absence a director designated by the Chairman",
+   "evidence": "Exceptional Circumstances means severe financial hardship or other circumstances considered to be exceptional ... clearance may be given for the Representative to sell (but not to purchase) securities when he/she would otherwise be prohibited from doing so."
+  },
+  {
+   "kind": "court_order",
+   "scope": "specific_dealing",
+   "approver": "Chairman, or in his absence a director designated by the Chairman",
+   "evidence": "a court order or court enforcable undertakings in a bona fide family settlement to transfer Conquest Securities, some other overriding legal or regulatory requirement to transfer Conquest Securities"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "In the instance where Company shares are provided to a lender as security by way of mortgage or charge, a sale that occurs under that mortgage or charge as a consequence of default would not breach insider trading laws."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "A Representative may enter into a discretionary personal equity plan or deal in units of an authorised unit trust without regard to the provisions of this Policy."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Company securities under a dividend reinvestment, or top-up plan that is available to all holders of securities of the same class"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept a takeover offer"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers for no consideration by a Representative other than transfers where the Representative retains a beneficial interest in the securities."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire, or agree to acquire or exercise options under a Company Share Option Plan"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Chairman (or his designated alternate director) may give sale-only clearance in Exceptional Circumstances under 2.7; the Chairman/alternate or Managing Director respond to advance-trade notices under 3.1 but this is informational, not a waiver. There is no express Board-level waiver of the Closed Period ban generally.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "margin loan insider-trading risk",
+   "clause": "Were this to occur at a time when the person possessed inside information then the sale of Company shares would be a breach of insider trading laws, even though the person's decision to sell was not influenced by the inside information that the person possessed and the person may not have made a profit on the sale.",
+   "why_it_matters": "A margin call or lender demand under the collar loan that forces a sale while the executive holds inside information breaches insider trading law regardless of intent, so any secured loan needs standstill/cure mechanics that avoid forced sales while UPSI could exist."
+  },
+  {
+   "topic": "forced sale on default",
+   "clause": "In the instance where Company shares are provided to a lender as security by way of mortgage or charge, a sale that occurs under that mortgage or charge as a consequence of default would not breach insider trading laws.",
+   "why_it_matters": "This only excuses the lender's enforcement sale from insider trading law, not from the Policy's own Closed Period dealing ban, so enforcement during a Closed Period could still be a Policy breach even though it is not a market-abuse offence."
+  },
+  {
+   "topic": "hedging ban limited to unvested",
+   "clause": "Directors and Employees may not enter into a transaction that is designed to limit the economic risk of a holding in unvested Kentor Gold Limited Securities.",
+   "why_it_matters": "The hedging prohibition does not reach vested shares, so a collar over vested holdings is not caught by the express hedging ban and falls back only to the general Dealing/Closed Period/notice regime."
+  },
+  {
+   "topic": "sale-only exceptional clearance",
+   "clause": "clearance may be given for the Representative to sell (but not to purchase) securities when he/she would otherwise be prohibited from doing so.",
+   "why_it_matters": "If unwinding or settling the collar during a Closed Period requires the executive to sell or deliver shares, hardship clearance is theoretically available, but any purchase-side step (e.g. buying back a leg) cannot be cleared this way."
+  },
+  {
+   "topic": "non-blocking notice regime",
+   "clause": "If no response is given within two business days, the person giving the notice does not have to wait until a response is given before trading.",
+   "why_it_matters": "Directors' and Identified Employees' notice obligation is a soft timing mechanic rather than a hard preclearance gate, giving more execution certainty for structuring collar entry/exit dates than a discretionary approval system."
+  },
+  {
+   "topic": "notice expiry",
+   "clause": "Unless otherwise stated, any notice given under this section will automatically expire after five (5) business days.",
+   "why_it_matters": "A collar trade notified by a Director or Identified Employee must be executed within 5 business days or the notice must be renewed, constraining execution timing with the bank's dealer."
+  },
+  {
+   "topic": "associates and trusts",
+   "clause": "A Representative must seek to prohibit ... any dealing in securities of the Company during a Closed Period or at a time when the Representative is in possession of Unpublished Price-sensitive Information by or on behalf of any person associated with him (including the Representative's family, nominee companies, companies and family trusts)",
+   "why_it_matters": "Routing the collar or its loan through a family trust or investment vehicle does not escape the Closed Period/UPSI restrictions; the Representative must procure the associate's compliance."
+  },
+  {
+   "topic": "quarterly closed periods",
+   "clause": "the periods commencing from the end of each quarter not covered under (a) or (b) above and ending on release of the Company's quarterly report as a mining entity.",
+   "why_it_matters": "As a mining exploration entity, KGL has up to four Closed Periods a year (annual, half-year, and two quarterly), narrowing the open windows available for collar entry, roll or unwind."
+  },
+  {
+   "topic": "possible boilerplate error",
+   "clause": "a court order or court enforcable undertakings in a bona fide family settlement to transfer Conquest Securities",
+   "why_it_matters": "The reference to 'Conquest Securities' appears to be an uncorrected artifact from a template drawn from another company's policy, creating interpretive uncertainty about the scope of the exceptional-circumstances clearance."
+  }
+ ],
+ "summary": "A funded collar is achievable over vested KGL shares but with weak procedural cover. Derivatives, monetisation and hedging of vested holdings are caught only as ordinary 'Dealing' via the broad option/agreement-to-deal definition, so they are permitted outside Closed Periods and while free of Unpublished Price-sensitive Information; Directors and Identified Employees add only a non-blocking 2-business-day advance notice to the Chairman or Managing Director, which lapses after 5 business days. The hedging prohibition in clause 2.14 applies solely to unvested securities, so a collar over vested shares escapes it entirely. Margin lending and encumbering shares by mortgage or charge are not prohibited, and a lender's forced sale on default is expressly excused from insider trading liability, though that carve-out does not extend to the Policy's own Closed Period ban, so enforcement timing still needs care. There is no secured-financing disclosure regime, minimum shareholding requirement, or exemption authority beyond a sale-only hardship clearance from the Chairman, so structuring should avoid Closed Periods and ensure the notice/ASX-disclosure timelines are met."
+}

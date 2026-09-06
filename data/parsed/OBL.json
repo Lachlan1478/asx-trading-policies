@@ -1,0 +1,422 @@
+{
+ "symbol": "OBL",
+ "company": "Omni Bridgeway Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "24 July 2026",
+ "date_lodged": "30 July 2026",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Manager",
+   "kind": "kmp",
+   "description": "A Restricted Person who is a member of Key Management Personnel or otherwise determined by the Board to be a Manager, including any holder of the office of Director, CEO, Executive Director, Group CFO, CIO, Head of Pricing and Structuring, or Group General Counsel and Company Secretary, or an Associate of any of those persons. May Deal only during defined Open Periods rather than outside Closed Periods.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Person",
+   "kind": "restricted",
+   "description": "Every Director, all Employees of any Group member, contractors/consultants/workers/interns as determined by the Company Secretary, and any Associate of such a person. May Deal at any time other than the Closed Periods (unless also a Manager, in which case only during Open Periods).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The Director elected chair of the Board; distinguished from other Directors only for clearance, where the Designated Officer is the Managing Director and Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director (other than chairperson)",
+   "kind": "director",
+   "description": "Directors other than the Chair; distinguished only for clearance, where the Designated Officer is the Chair and Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associate",
+   "kind": "associate",
+   "description": "Immediate Family Members (spouse, de facto partner, parent, and any child under 18) of a Restricted Person, and any company, trust or other entity controlled by the Restricted Person or their Immediate Family Members.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "no",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Manager"],
+   "start_anchor": "first Trading Day after the date of the Company's annual general meeting",
+   "end_anchor": "4 weeks after that Trading Day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Manager"],
+   "start_anchor": "first Trading Day after release of the Company's half-yearly results",
+   "end_anchor": "6 weeks after that Trading Day",
+   "duration_days": 42
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Manager"],
+   "start_anchor": "first Trading Day after release of the Company's preliminary final and final results to ASX",
+   "end_anchor": "6 weeks after that Trading Day",
+   "duration_days": 42
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Manager"],
+   "start_anchor": "first Trading Day after release of the Company's quarterly Investment Portfolio Report as at 31 March",
+   "end_anchor": "4 weeks after that Trading Day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Manager"],
+   "start_anchor": "first Trading Day after release of a disclosure document offering securities in the Company",
+   "end_anchor": "4 weeks after that Trading Day",
+   "duration_days": 28
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Person"],
+   "start_anchor": "1 January",
+   "end_anchor": "two weeks after release of the Company's half-yearly results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Person"],
+   "start_anchor": "30 June",
+   "end_anchor": "two weeks after release of the Company's annual financial results to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board, or its delegate (the Chair of the Board and the Chair of the Audit & Risk Committee), may determine additional Open Periods for Managers (3.1(f)) and additional Closed Periods for other Restricted Persons (3.2(c)). The Policy does not state whether such determinations are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9 (Security, Deal); 3.4",
+   "detail": "No express derivatives rule. Security is defined to include securities issued by third parties over the Company's securities, such as derivatives, with no venue limit, so an OTC put/call is a Security and dealing in it is a Deal requiring prior written clearance and compliance with the Open/Closed Period regime.",
+   "evidence": "means shares or debt securities or any other securities issued by the Company or by third parties over such securities of the Company, such as derivatives"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "'Hedging' and 'limiting economic risk' are not used anywhere in the Policy, and there is no separate hedging rule for vested or unvested incentive securities; only the general margin lending/encumbrance/lending-arrangement controls and the general Dealing/clearance regime could incidentally capture a collar.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9 (Deal, Security); 3.4",
+   "detail": "Monetisation is not named. A prepaid forward or similar arrangement disposing of the economic exposure to Company Securities falls within 'disposing' or 'converting' a Security (which includes derivatives), making it a Dealing requiring pre-dealing clearance; if it grants security over the shares it is also caught by 2.2.",
+   "evidence": "means any transaction associated with subscribing for, buying, selling, transferring, disposing or converting a Security"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named or defined anywhere in the Policy (only trading 'in and out' of Securities of a Short-Term Nature is addressed). A short sale sourced by borrowing OBL shares would separately engage the 2.2(c) restriction on lending arrangements.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2(c)",
+   "detail": "Restricted Persons must not engage in any lending arrangements in respect of Company Securities without the prior written consent of a Designated Officer; this is consent-based, not an absolute ban, despite sitting under the 'prohibited at all times' heading.",
+   "evidence": "Restricted Persons must not, without the prior written consent of a Designated Officer: ... (c) engage in any lending arrangements in respect of the Company's Securities."
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9 (Security, Deal); 3.4",
+   "detail": "CFDs are not named. A CFD is a financial product created over the Company's Securities and so falls within the Security definition (which extends to derivatives), making entry into one a Dealing requiring clearance; a short-dated CFD would also usually be caught by the six-month Short-Term Nature ban.",
+   "evidence": "means shares or debt securities or any other securities issued by the Company or by third parties over such securities of the Company, such as derivatives"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2(a)",
+   "detail": "Restricted Persons must not enter into margin loan arrangements in relation to a Dealing in Company Securities without the prior written consent of a Designated Officer.",
+   "evidence": "enter into any margin loan arrangements in relation to a Dealing in the Company's Securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2(b)",
+   "detail": "Using Company Securities as collateral in any financial transaction, or granting or permitting to exist any encumbrance over them (including in connection with margin loans), requires the prior written consent of a Designated Officer.",
+   "evidence": "use the Company's Securities as collateral in any financial transactions, or grant or permit to exist any encumbrance over the Company's Securities, including in connection with margin loan arrangements"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2",
+   "detail": "Section 2.2 operates as a single consent-based secured financing regime covering margin loans, collateral/encumbrance and lending arrangements over Company Securities: none is banned outright, but all require prior written Designated Officer consent, and the Policy states no criteria constraining that discretion.",
+   "evidence": "Restricted Persons must not, without the prior written consent of a Designated Officer: (a) enter into any margin loan arrangements in relation to a Dealing in the Company's Securities; (b) use the Company's Securities as collateral in any financial transactions, or grant or permit to exist any encumbrance over the Company's Securities, including in connection with margin loan arrangements; or (c) engage in any lending arrangements in respect of the Company's Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.3(a)(i); 9 (Short-Term Nature)",
+   "detail": "Absolute, consent-free ban on Dealing of a 'Short-Term Nature', defined as trading in and out of Securities within six months (or such other period as the Board determines).",
+   "evidence": "a Restricted Person must not: (a) Deal in the Company's Securities: (i) where the Dealing is of a Short-Term Nature"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "Managing Director and Company Secretary",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary or delegate",
+   "post_trade_deadline": "within 1 Business Day of the Dealing",
+   "section": "3.4; 3.5; 9 (Designated Officer)",
+   "evidence": "Approvals once granted are valid for ten (10) Trading Days, unless otherwise notified by the applicable Designated Officer"
+  },
+  {
+   "tier": "Director (other than chairperson)",
+   "type": "approval",
+   "approver": "Chair and Company Secretary",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary or delegate",
+   "post_trade_deadline": "within 1 Business Day of the Dealing",
+   "section": "3.4; 3.5; 9 (Designated Officer)",
+   "evidence": "have received an approval from the relevant Designated Officer in writing (including email or notification via the Company's online portal) which may attach conditions to any clearance"
+  },
+  {
+   "tier": "Restricted Person",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary or delegate",
+   "post_trade_deadline": "within 1 Business Day of the Dealing",
+   "section": "3.4; 3.5; 9 (Designated Officer)",
+   "evidence": "A Restricted Person must notify the Company Secretary or delegate where that Restricted Person Deals in the Company's Securities within one (1) Business Day of such Dealing having taken place."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 6,
+   "basis": "or such other period as the Board may determine",
+   "carve_outs": [],
+   "evidence": "means to deal in a manner which involves trading in and out of Securities in a short time frame being six months or such other period as the Board may determine"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Designated Officer",
+   "evidence": "he or she has a pressing financial commitment that cannot be satisfied otherwise than by selling or disposing of the relevant Company Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Designated Officer",
+   "evidence": "a court order; a court enforceable undertaking; or some other overriding legal or regulatory requirement for the Restricted Person to do so"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Designated Officer",
+   "evidence": "any other circumstances the Designated Officer deems to be exceptional circumstances ... if the Designated Officer is satisfied that the proposed Dealing is the only reasonable course of action available"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of the Company's Securities by a Restricted Person into a superannuation fund or other saving scheme in which the Restricted Person is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the Company's Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Restricted Person is a trustee, trading in the Company's Securities by that trust provided the Restricted Person is not a beneficiary of the trust and any decision to trade during a Restricted Period is taken by the other trustees or by the investment managers independently of the Restricted Person"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer for the Company"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "accepting an offer or invitation made by the Company to all or most of its security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not any subsequent sale) of an option or a right under an employee incentive scheme ... where the Restricted Person could not reasonably have been expected to exercise it at a time when free to do so"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "vesting (but not any subsequent sale) of the Company's Securities as a result of performance hurdles being met or the Company's Securities being released from a holding lock"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the forfeiture, lapse, cancellation or surrender of any Company Securities under any employee incentive scheme"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings between a Restricted Person and a member of their immediate family"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "a Dealing which results in no change in the beneficial interest in the Company's Securities"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an off-market transaction in any Company Securities where no or only nominal consideration is given or received by a Restricted Person in respect of the relevant transaction"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "yes",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Omni Bridgeway Management (USA) LLC securities trading rules (applicable to certain employees as a SEC-registered investment adviser)"
+ ],
+ "exemption_authority": "A Designated Officer may grant Prior Written Clearance to sell or otherwise dispose of Company Securities during a Restricted Period for severe financial hardship or other exceptional circumstances (court order, enforceable undertaking, overriding legal/regulatory requirement, or any other circumstance the Designated Officer deems exceptional), on an application lodged at least 5 Business Days ahead and answered within 2 Business Days, provided the sale is the only reasonable course of action available. There is no equivalent exemption from the Short-Term Nature ban or from the section 2.2 consent requirement for margin loans, encumbrance and lending arrangements, which are separately gated on ordinary Designated Officer consent rather than a hardship-style waiver.",
+ "jurisdiction_overlays": [
+  "US: additional securities trading rules imposed on certain employees by Omni Bridgeway Management (USA) LLC as a SEC-registered investment adviser"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing consent",
+   "clause": "Restricted Persons must not, without the prior written consent of a Designated Officer: (a) enter into any margin loan arrangements ...; (b) use the Company's Securities as collateral ... or grant or permit to exist any encumbrance ...; or (c) engage in any lending arrangements in respect of the Company's Securities.",
+   "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is not banned outright but needs prior written Designated Officer consent, with no stated criteria constraining refusal, so the bank's security interest is contingent on discretionary approval rather than a policy right."
+  },
+  {
+   "topic": "transfer is a dealing",
+   "clause": "Deal means any transaction associated with subscribing for, buying, selling, transferring, disposing or converting a Security.",
+   "why_it_matters": "Moving the collared shares into a custodian, margin or pledge account is itself a Dealing (a 'transfer'), requiring the same prior clearance as the derivative and loan legs and subject to the Open/Closed Period timing restrictions."
+  },
+  {
+   "topic": "Manager open-period timing",
+   "clause": "A Manager may only Deal in the Company's Securities during the following 'Open Periods' [post-AGM, post-half-year, post-final results, post-31 March quarterly report, post-disclosure document, or Board-determined].",
+   "why_it_matters": "For Directors and senior executives (the most likely collar counterparties), collar entry, unwind, roll or restructuring is confined to a handful of 4-6 week windows a year rather than any time outside a blackout, materially constraining execution timing."
+  },
+  {
+   "topic": "clearance validity",
+   "clause": "Approvals once granted are valid for ten (10) Trading Days, unless otherwise notified by the applicable Designated Officer.",
+   "why_it_matters": "Pricing and execution of the collar and loan documentation must be completed within the 10 Trading Day clearance window or fresh clearance must be sought."
+  },
+  {
+   "topic": "second breach termination",
+   "clause": "if the Restricted Person is a Director they will resign immediately from the Board ... or if the Restricted Person is an Employee they will resign immediately from the Company ... without any claim ... other than for unpaid but due fees or salary.",
+   "why_it_matters": "A second failure to obtain clearance for the collar, loan or any transfer step carries automatic forced resignation/termination, so execution and documentation discipline around this Policy's consent steps is a material counterparty risk for the bank."
+  },
+  {
+   "topic": "Litigation Event Contract ban",
+   "clause": "a Restricted Person must not directly or indirectly, enter into, trade in, acquire, dispose of, vary or otherwise deal in any Litigation Event Contract ... regardless of whether the relevant litigation ... involves the Company.",
+   "why_it_matters": "This absolute, non-waivable ban is confined to contracts referencing litigation outcomes, not price-referenced equity derivatives, so a standard OBL-share collar is not itself a Litigation Event Contract, but it shows the Board is willing to hard-ban derivative-like products outright with no consent route."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted OBL shares is workable in structure but gated entirely on discretionary written consent, not as of right. The put and call legs are Dealings (Security expressly extends to third-party derivatives with no venue limit) requiring prior written clearance from the applicable Designated Officer (Managing Director and Company Secretary for the Chair; Chair and Company Secretary for other Directors; Company Secretary for other Restricted Persons), valid for only 10 Trading Days, and executable only within a Manager's Open Periods or, for other Restricted Persons, outside the two annual Closed Periods, with no Inside Information held. The loan leg, secured by a charge over the collared shares, falls within section 2.2's consent (not prohibition) regime for margin loans, collateral and encumbrances, and any transfer of the pledged shares into a custodian or margin account is itself a Dealing needing the same clearance. The six-month Short-Term Nature ban is an absolute, consent-free prohibition, so collar tenor should exceed six months. Because approval is discretionary with no stated criteria and a second policy breach triggers mandatory resignation or termination, the bank should treat Designated Officer consent as a condition precedent rather than a formality."
+}
