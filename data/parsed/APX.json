@@ -1,0 +1,363 @@
+{
+ "symbol": "APX",
+ "company": "Appen Limited",
+ "title": "Securities Dealing Policy",
+ "date_approved": "18 August 2016",
+ "date_effective": "26 August 2016",
+ "date_lodged": "26 August 2016",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors, employees and contractors",
+   "kind": "all_staff",
+   "description": "All directors, employees and contractors of the group. Subject to the general insider trading prohibition, the Restricted Securities List, and the duty to take reasonable steps regarding associates' dealing; Prohibited Periods (clause 7) also expressly bind 'employees' generally, not only Designated Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "All directors, officers and other key management personnel, plus any other person designated by the Board, CEO or Company Secretary. Subject to no short-term dealing, Prohibited Periods, prior written clearance via Schedule A, no hedging, the margin lending ban, and post-trade notification.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Company Secretary",
+   "kind": "other",
+   "description": "Distinguished only for clearance: notification officer is the Chair.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors or key management personnel (other than the Company Secretary)",
+   "kind": "kmp",
+   "description": "Distinguished only for clearance: notification officer is the CEO or Chief Financial Officer, and the Chair or the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "Distinguished only for clearance: notification officer is another non-executive director and the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Relatives of a Director, employee or contractor, entities they control, and entities they act in concert with. Each Director, employee and contractor must take reasonable steps to ensure an associate does not deal in contravention of this policy where the dealing could be attributed to them.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "transactions in associated products which operate to limit the economic risk of security holdings in the Company",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "employees"],
+   "start_anchor": "day after Appen's half year end, being 1 July",
+   "end_anchor": "4.00pm AEST on the day Appen's half yearly results are announced to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "employees"],
+   "start_anchor": "day after the financial year end, being 1 January",
+   "end_anchor": "4.00pm AEST on the day Appen's annual results are announced to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons", "employees"],
+   "start_anchor": "two weeks prior to the Annual General Meeting (AGM)",
+   "end_anchor": "4.00pm AEST on the business day after the AGM is held",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify extensions to the closed periods and any additional Prohibited Periods (clause 7.2(d)); the policy does not state whether these are kept confidential. The Chief Financial Officer emails Designated Persons and employees detailing the beginning and end of each Prohibited Period (clause 7.4).",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.1(1)(d); 9",
+   "detail": "The 'securities' definition itself is limited to financial products traded on ASX, but 'dealing in securities' separately and without venue limitation includes trading in financial products issued or created over Company securities, so an OTC put/call is a dealing requiring Schedule A clearance from the Notification Officer and is barred in Prohibited Periods.",
+   "evidence": "dealing in securities includes: ... (d) trading in financial products issued or created over securities of the Company"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11.1",
+   "detail": "Absolute ban, expressed to override every other part of the policy, with no vesting-state distinction and no clearance route; the clause 8 exceptional-circumstances clearance covers only Prohibited Period dealing and short-term dealing, not hedging.",
+   "evidence": "Notwithstanding any other part of this policy, Designated Persons must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "11.1",
+   "detail": "Monetisation is not named, but a prepaid forward or similar arrangement that operates to limit the economic risk of a security holding falls within the absolute clause 11.1 ban.",
+   "evidence": "Notwithstanding any other part of this policy, Designated Persons must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy, unlike the express bans typical of more recent ASX trading policies; only 'short-term dealing' (acquisition and disposal within 6 months) is addressed, which is a different concept.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "11.1",
+   "detail": "CFDs are not named, but a CFD referencing Appen shares used by a Designated Person to manage exposure on an existing holding operates to limit the economic risk of that holding and is caught by the absolute clause 11.1 ban; a CFD unconnected to the person's own holding would instead be an ordinary dealing requiring clause 9 clearance.",
+   "evidence": "Notwithstanding any other part of this policy, Designated Persons must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.1",
+   "detail": "Outright ban on margin lending arrangements, justified on the basis that their terms may force a sale outside a Trading Window or while holding Inside Information; no clearance or exemption route is stated.",
+   "evidence": "Designated Persons are not permitted to enter into margin lending arrangements in relation to Appen Securities. This is on the grounds that the terms may require Appen Securities to be sold outside a Trading Window or when the Designated Person possesses Inside Information."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.2",
+   "detail": "Clause 12.2 expressly carves out other secured funding arrangements (i.e. arrangements other than 'margin lending') using Appen Securities as security from the clause 12 restriction; the dealing definition does not otherwise capture granting security. Designated Persons are advised only to consult the Company Secretary if uncertain how an arrangement should be classified.",
+   "evidence": "This restriction does not extend to other funding arrangements where Appen Securities may be included as security. Designated Persons should consult the Company Secretary if they are uncertain as to whether an arrangement should be classified as a margin lending arrangement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12.1; 12.2",
+   "detail": "Only 'margin lending arrangements' are banned; secured financing arrangements of a different character (e.g. a bespoke bank loan secured on the shares) are expressly not restricted by clause 12, though a forced sale under any such arrangement remains excluded from the policy under clause 14.3(6) regardless of characterisation.",
+   "evidence": "This restriction does not extend to other funding arrangements where Appen Securities may be included as security."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Absolute ban on short-term dealing, defined as acquisition and disposal within 6 months of each other, subject to an exceptional-circumstances clearance route under clause 8 (unlike the hedging ban).",
+   "evidence": "Designated Persons must not at any time engage in short-term dealing in securities of the Company. Short-term dealing is considered to be dealing where the acquisition and disposal of securities occurs within 6 months of each other."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Company Secretary",
+   "type": "approval",
+   "approver": "the Chair",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (confirm completion); Chair notified as notification officer",
+   "post_trade_deadline": "immediately after dealing",
+   "section": "2.1(6)(a); 9; 10; Schedule A",
+   "evidence": "notification officer means: (a) in the case of the Company secretary, the Chair;"
+  },
+  {
+   "tier": "Directors or key management personnel (other than the Company Secretary)",
+   "type": "approval",
+   "approver": "the CEO or Chief Financial Officer, and the Chair or the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary; ASX notified within 3 business days for Directors",
+   "post_trade_deadline": "immediately after dealing (Directors, clause 10.2); immediately after acquiring or disposing of a relevant interest (other Designated Persons, clause 10.3)",
+   "section": "2.1(6)(b); 9; 10; Schedule A",
+   "evidence": "in the case of Directors or key management personnel of the group other than the Company Secretary, the CEO or Chief Financial Officer, and Chair or the Company Secretary"
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "another non-executive director and the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary; ASX notified within 3 business days",
+   "post_trade_deadline": "immediately after dealing",
+   "section": "2.1(6)(c); 9; 10; Schedule A",
+   "evidence": "in the case of the Chair, another non-executive director and the Company Secretary."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "between acquisition and disposal of the same securities",
+   "carve_outs": ["exceptional circumstances (financial hardship or court order) with prior written clearance under clause 8"],
+   "evidence": "Short-term dealing is considered to be dealing where the acquisition and disposal of securities occurs within 6 months of each other."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of securities of the Company already held in a superannuation fund or other saving scheme in which the restricted person is a beneficiary and where the investments are made at the discretion of a third party;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or dealing in units of, a fund or other scheme (other than a scheme only investing in securities of the Company) where the assets of the fund or other scheme are invested at the discretion of a third party;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trading in securities of the Company by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the restricted person;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board (approves the timing and structure of the offer)",
+   "evidence": "dealing under an offer or invitation made to all or most of the security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement; and"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities of the Company following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Notification Officer",
+   "evidence": "financial hardship which cannot be satisfied otherwise than by dealing in securities of the Company; or"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Notification Officer",
+   "evidence": "a court order directing the dealing in securities of the Company."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "Margin lending is banned because its terms may compel a sale of Appen Securities outside a Trading Window or while the Designated Person holds Inside Information.",
+  "financing_disclosure": [
+   "Designated Persons: at each dealing approval request, the Schedule A form asks whether the trade involves entering into a margin loan / similar funding arrangement."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Notification Officer may grant prior written clearance for dealing during a Prohibited Period, or for short-term dealing, in exceptional circumstances (financial hardship, or a court order) under clause 8, valid for no more than 5 trading days from the date of consent. The clause 11.1 hedging ban applies 'notwithstanding any other part of this policy' and has no stated exemption route, and the clause 12.1 margin lending ban likewise has none.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban overrides the whole policy",
+   "clause": "Notwithstanding any other part of this policy, Designated Persons must not at any time enter into transactions in associated products which operate to limit the economic risk of security holdings in the Company.",
+   "why_it_matters": "The put/call hedge legs of a collar cannot be entered into under any circumstance, including the exceptional-circumstances clearance in clause 8, because clause 11.1 is drafted to prevail over every other provision of the policy."
+  },
+  {
+   "topic": "secured financing carve-out",
+   "clause": "This restriction does not extend to other funding arrangements where Appen Securities may be included as security.",
+   "why_it_matters": "Unusually, only 'margin lending arrangements' are banned; a bespoke bank loan secured on the collared shares that is not characterised as a margin loan is not itself restricted by this policy, so the loan leg of a structure is comparatively unconstrained even though the hedge leg is banned outright."
+  },
+  {
+   "topic": "forced sale wholly excluded",
+   "clause": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "Unlike policies that merely except forced sales from blackout periods, this exclusion removes such a disposal from the operation of the whole policy, so a lender's enforcement sale is not a breach regardless of timing."
+  },
+  {
+   "topic": "narrow 'securities' definition vs broad 'dealing' definition",
+   "clause": "securities includes shares in the Company, options over those shares and any other financial products of the Company traded on ASX ... dealing in securities includes ... trading in financial products issued or created over securities of the Company ... entering into transactions in financial products which operate to limit the economic risk of security holdings.",
+   "why_it_matters": "Although 'Securities' is defined to exclude OTC products (traded-on-ASX only), the separate 'dealing' definition catches OTC derivatives and hedges without a venue limit, so an OTC collar cannot escape the policy by pointing to the narrower securities definition."
+  },
+  {
+   "topic": "associates and concert parties",
+   "clause": "\"Associates\" include your relatives, entities that you control and entities you are acting in concert with.",
+   "why_it_matters": "A Director cannot structure the collar or loan through a relative or a controlled or concert-party entity to avoid the clause 11.1 hedging ban, since they must take reasonable steps to prevent an associate's contravention that could be attributed to them."
+  }
+ ],
+ "summary": "A funded collar cannot include the hedge legs: clause 11.1 imposes an absolute ban - expressed to apply 'notwithstanding any other part of this policy' - on Designated Persons entering into any transaction in an associated product that operates to limit the economic risk of their Appen shareholding, with no carve-out and no available exemption (the clause 8 exceptional-circumstances clearance covers only Prohibited Period and short-term dealing, not hedging). The loan leg is comparatively favourable, however: clause 12.1 bans only 'margin lending arrangements' specifically, and clause 12.2 expressly states this restriction does not extend to other funding arrangements where Appen Securities are included as security, so a bespoke secured loan distinct from a margin loan is not itself prohibited (though the Company Secretary should be consulted on characterisation). Because the put/call hedge is unconditionally banned, a true funded collar cannot be implemented even though the secured-loan structure alone would not breach the policy. A forced sale by a secured lender exercising its rights is wholly excluded from the policy's operation, so enforcement of that loan is not itself a breach regardless of timing, but any residual dealing must still clear the relevant Notification Officer and avoid the half-year, full-year and AGM Prohibited Periods."
+}

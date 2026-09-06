@@ -1,0 +1,364 @@
+{
+ "symbol": "HCH",
+ "company": "Hot Chili Limited",
+ "title": "Securities Dealing Policy",
+ "date_approved": "30 December 2010",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "all_staff",
+   "description": "All directors, executives and employees of Hot Chili Limited and its subsidiaries. Subject to the insider trading prohibition and the general 'deal' concept (which covers agreements, and transactions that limit economic risk of a holding), and must not procure or encourage another person to trade while holding inside information.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "A director, executive or senior manager of the Company, or such other person who is 'key management personnel' within the meaning of AASB 124. Subject to Closed Periods, prior approval of the Chairman (or Board/Managing Director), and pre- and post-trade notification to the Company Secretary.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Chairman",
+   "kind": "director",
+   "description": "The Chairman of the Board; distinguished only for approval routing (the Board or the next most senior director must approve the Chairman's own dealing) and notification to the Company Secretary.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Employees other than Key Management Personnel",
+   "kind": "all_staff",
+   "description": "Employees of the Company who are not Key Management Personnel. May deal at any time, including during what would otherwise be a Closed Period, provided they notify the Company Secretary before and after trading and hold no inside information.",
+   "includes_associates": "no"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into agreements or transactions which operate to limit the economic risk of a person's holdings in Company Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Key Management Personnel"],
+   "start_anchor": "two weeks before release by the Company of a quarterly activities report to ASX",
+   "end_anchor": "24 hours after release by the Company of a quarterly activities report to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Key Management Personnel"],
+   "start_anchor": "two weeks before release by the Company of its half yearly results announcement to ASX",
+   "end_anchor": "24 hours after release by the Company of its half yearly results announcement to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Key Management Personnel"],
+   "start_anchor": "two weeks before release by the Company of its yearly results announcement to ASX",
+   "end_anchor": "24 hours after release by the Company of its yearly results announcement to ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3(c); 17",
+   "detail": "'Company Securities' expressly includes 'derivatives and other financial products issued by third parties', so an OTC put/call over Company shares is itself a Company Security. Key Management Personnel must not deal in Company Securities at any time without the prior approval of the Chairman (or Board/Managing Director), must notify the Company Secretary before and after, and must not deal during a Closed Period absent exceptional circumstances.",
+   "evidence": "derivatives and other financial products issued by third parties in relation to the Company's shares, debentures and options."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees other than Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3(c); 20",
+   "detail": "The same 'Company Securities' definition (including third-party derivatives) applies, but non-KMP employees may deal at any time, without approval or Closed Period restriction, provided they notify the Company Secretary before and after and hold no inside information.",
+   "evidence": "Employees who are not Key Management Personnel may deal in Company Securities at any time provided the Employee notifies the Company Secretary before commencing the transaction and, after the transaction has occurred, provides confirmation of the trading."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4(c); 17",
+   "detail": "Hedging is defined directly into 'dealing': entering into an arrangement that limits the economic risk of a holding is itself a deal, requiring the same Chairman/Board/Managing Director approval and Company Secretary notification as any other dealing by Key Management Personnel. The policy has no equity incentive plan or holding-lock concept, so there is no separate vesting-based hedging ban.",
+   "evidence": "entering into agreements or transactions which operate to limit the economic risk of a person's holdings in Company Securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees other than Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4(c); 20",
+   "detail": "Hedging is a 'deal' for non-KMP employees too, but only requires pre- and post-trade notification to the Company Secretary, with no approval or Closed Period restriction.",
+   "evidence": "entering into agreements or transactions which operate to limit the economic risk of a person's holdings in Company Securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4(a),(c)",
+   "detail": "A prepaid forward or similar monetisation is not named, but is caught either as an agreement to sell Company Securities or as a transaction limiting the economic risk of the holding; treated as an ordinary dealing subject to the Chairman/Board/Managing Director approval regime for Key Management Personnel or the notification-only regime for other employees.",
+   "evidence": "entering into agreements or transactions which operate to limit the economic risk of a person's holdings in Company Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4(a)",
+   "detail": "Short selling is not named. Selling Company Securities is a 'deal' under the general definition regardless of whether the seller holds the securities at the time, so it is subject to the same approval (Key Management Personnel) or notification (other employees) regime as any sale.",
+   "evidence": "subscribing for, purchasing or selling Company Securities or entering into an agreement to do any of those things"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and does not fit any limb of the 'deal' definition (subscribe/purchase/sell, procure another to trade, or limit economic risk of a holding).",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3(c)",
+   "detail": "CFDs are not named but fall within 'other financial products issued by third parties in relation to the Company's shares', making a CFD itself a Company Security whose acquisition is a deal, subject to the Key Management Personnel approval regime or non-KMP notification regime.",
+   "evidence": "derivatives and other financial products issued by third parties in relation to the Company's shares, debentures and options."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Margin lending is not mentioned anywhere in the Policy and does not fit any limb of the 'deal' definition (pledging securities does not itself limit the economic risk of the holding).",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge or a lien over Company Securities is not addressed and is not captured by the 'deal' definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No provision of any kind addresses secured financing arrangements in respect of Company Securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period, short-term dealing ban or speculative-trading restriction appears anywhere in the Policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Key Management Personnel",
+   "type": "approval",
+   "approver": "Chairman, or in his absence, the Board or the Managing Director",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "",
+   "section": "17",
+   "evidence": "Key management personnel must not deal in Company Securities at any time without the prior approval of the Chairman or, in his absence, the Board or the Managing Director. Key Management Personnel must also notify the Company Secretary of their intention to trade and provide the Company Secretary with subsequent confirmation of the trading that has occurred."
+  },
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "Board or the next most senior director",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "",
+   "section": "18",
+   "evidence": "The Chairman must not deal in Company Securities without the prior approval of the Board or the next most senior director. The Chairman must notify the Company Secretary of his intention to trade and provide the Company Secretary with subsequent confirmation of the trading that has occurred."
+  },
+  {
+   "tier": "Employees other than Key Management Personnel",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "after the transaction has occurred",
+   "section": "20",
+   "evidence": "Employees who are not Key Management Personnel may deal in Company Securities at any time provided the Employee notifies the Company Secretary before commencing the transaction and, after the transaction has occurred, provides confirmation of the trading."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire ordinary shares in the Company by conversion of securities giving a right of conversion to ordinary shares (but may not sell all or any of the shares received upon exercise of the options other than in accordance with this Policy)"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Company Securities under a bonus issue made to all holders of securities of the same class"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Company Securities under a dividend reinvestment plan, a rights issue or a share purchase plan that is available to all holders of securities of the same class"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire, or agree to acquire, options under a Company share option plan; and exercise options acquired under a Company share option plan (but may not sell all or any of the shares received upon exercise of the options other than in accordance with this Policy)"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfer Company Securities already held into a superannuation fund or other saving scheme in which the Designated Person is a beneficiary, subject to ensuring the transfer does not contravene the laws prohibiting insider trading"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade unit of, a fund or other scheme where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "accept a takeover offer"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairman, or in his absence, the Board or the Managing Director",
+   "evidence": "severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chairman, or in his absence, the Board or the Managing Director",
+   "evidence": "in order to comply an undertaking given to, or an order by, a court"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "During a Closed Period, the Chairman (or in his absence, the Board or Managing Director) may give prior written approval for dealing by Key Management Personnel in exceptional circumstances: severe financial hardship, compliance with a court order or undertaking, or such other exceptional circumstances as the approver determines.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "third-party derivatives are Company Securities",
+   "clause": "derivatives and other financial products issued by third parties in relation to the Company's shares, debentures and options.",
+   "why_it_matters": "An OTC put and call written by a bank are expressly 'Company Securities' under the policy's own definition, so a funded collar's option legs are unambiguously regulated as ordinary dealings rather than falling into a definitional gap."
+  },
+  {
+   "topic": "hedging folded into dealing, no vesting concept",
+   "clause": "entering into agreements or transactions which operate to limit the economic risk of a person's holdings in Company Securities",
+   "why_it_matters": "There is no separate hedging ban and no vesting- or holding-lock-based prohibition, since the policy has no equity incentive plan restriction concept at all; a collar is simply an ordinary deal requiring Chairman/Board/Managing Director approval (Key Management Personnel) or notification (other employees)."
+  },
+  {
+   "topic": "no financing restriction",
+   "clause": "The Policy contains no clause addressing margin loans, security arrangements, encumbrance or secured financing anywhere in its text.",
+   "why_it_matters": "This 2010-era policy is silent on margin lending, pledges, charges or any other secured financing; the loan leg of a funded collar is not restricted, approved or even contemplated, which is unusually favourable but also means there is no established approval process or disclosure condition the bank can rely on."
+  },
+  {
+   "topic": "no short-term dealing rule",
+   "clause": "The Policy contains no clause restricting short-term or speculative trading and no minimum-holding-period provision.",
+   "why_it_matters": "There is no tenor constraint on the collar or its unwind analogous to the 3-month rules common in more modern policies."
+  },
+  {
+   "topic": "non-KMP unrestricted",
+   "clause": "Employees who are not Key Management Personnel may deal in Company Securities at any time provided the Employee notifies the Company Secretary before commencing the transaction",
+   "why_it_matters": "Only directors, executives, senior managers and AASB 124 KMP face the approval and Closed Period regime; the likely audience for a bank-funded collar sits within this tier and so faces the fuller regime."
+  }
+ ],
+ "summary": "A funded collar appears achievable under this bare-bones 2010 policy, which is unusually silent on financing. 'Company Securities' expressly extends to 'derivatives and other financial products issued by third parties', so an OTC put and call written by a bank are squarely regulated as an ordinary 'deal'; hedging is folded into the dealing definition ('transactions which operate to limit the economic risk of a person's holdings') with no separate ban and no vesting- or holding-lock-based restriction, since the policy has no equity incentive plan concept. For Key Management Personnel (directors, executives, senior managers and AASB 124 KMP), entering the collar requires prior approval from the Chairman (or the Board/Managing Director in his absence) plus pre- and post-trade notification to the Company Secretary, and cannot occur during the three Closed Periods (two weeks before and 24 hours after quarterly, half-year and full-year ASX releases) absent hardship, court-order or other exceptional-circumstances approval. Critically, the policy contains no provision at all on margin lending, security arrangements, encumbrance or secured financing, so the loan leg secured on the collared shares is not restricted, though the bank should confirm current unwritten practice with the Company Secretary rather than rely on this silence indefinitely. There is also no short-term dealing or minimum-holding rule constraining tenor."
+}

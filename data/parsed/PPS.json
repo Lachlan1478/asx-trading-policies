@@ -1,0 +1,343 @@
+{
+ "symbol": "PPS",
+ "company": "Praemium Limited",
+ "title": "Dealing in Company Securities, Misuse of Price Sensitive Information & Insider Trading Policy (Australia)",
+ "date_approved": "31 December 2010",
+ "date_effective": "31 December 2010",
+ "date_lodged": "",
+ "date_next_review": "June 2011",
+ "tiers": [
+  {
+   "name": "PPS Staff",
+   "kind": "all_staff",
+   "description": "Executive and non-executive directors and staff members of Praemium Limited and its Australian-incorporated subsidiaries. All must submit a written request to the Company Secretary and obtain written clearance before every trade, whether or not a Closed Period is in force.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors and Key Management Personnel",
+   "kind": "kmp",
+   "description": "Directors of Praemium and each wholly-owned subsidiary, and members of the Senior Executive Team (Key Management Personnel). Subject to four Closed Periods (rather than two for other Staff), Chairman approval for closed-period trading exceptions, and (as 'senior staff members / designated officers') an outright ban on hedging both vested and unvested PPS holdings.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associated Parties",
+   "kind": "associate",
+   "description": "Spouse, de facto partner, children under 18, self-managed superannuation funds, and any company or trust controlled by a Director/KMP or a family member; Directors and KMP must ensure their Associated Parties comply with this policy.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions in financial products which operate to limit the economic risk of both vested or unvested holdings in the PPS securities including, without limitation, any hedging or similar arrangement in respect of unvested entitlements or restricted entitlements held or granted under any equity based remuneration scheme",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Key Management Personnel"],
+   "start_anchor": "first trading day in July",
+   "end_anchor": "date on which the PPS Group Preliminary Final Results are released (usually August)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Key Management Personnel"],
+   "start_anchor": "first trading day in January",
+   "end_anchor": "date on which the PPS Group half year results are released (usually February)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Key Management Personnel"],
+   "start_anchor": "date the Company's Notice of AGM is dispatched (usually October)",
+   "end_anchor": "conclusion of the AGM (usually November)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Key Management Personnel"],
+   "start_anchor": "last day of each Calendar Quarter",
+   "end_anchor": "date the Company releases its quarterly cash flow report to the Market",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["PPS Staff"],
+   "start_anchor": "close of business on 31 December",
+   "end_anchor": "opening of the ASX on the first trading day after PPS's half-year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["PPS Staff"],
+   "start_anchor": "close of business on 30 June",
+   "end_anchor": "opening of the ASX on the first trading day after MSL's preliminary half year results are released to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may impose trading bans at any time if it considers that, as a consequence of undisclosed circumstances, there is a risk of inappropriate trading; the existence of a trading ban outside a Closed Period need not be published generally, so it can be confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2; 3.1(a)",
+   "detail": "No named derivatives rule, but 'other related financial products of the Group' is caught by the Prohibited Activities/Closed Period restrictions on 'Dealings in PPS securities or other related financial products', and every trade by every Director or Staff member requires prior written clearance from the Company Secretary or Chairman regardless of whether a Closed Period is in force.",
+   "evidence": "all staff who wish to trade must submit a request in writing to the Company Secretary prior to trading in PPS Securities ... No instructions may be provided to any broker until clearance is given in writing ... by the Company Secretary or the Chairman."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.3",
+   "detail": "Senior staff members/designated officers (read as Directors and KMP) are banned from any transaction in financial products limiting the economic risk of BOTH vested and unvested PPS holdings, not merely unvested entitlements; no clearance route is provided for this ban.",
+   "evidence": "senior staff members / designated officers of the Company will be prohibited from entering into transactions in financial products which operate to limit the economic risk of both vested or unvested holdings in the PPS securities including, without limitation, any hedging or similar arrangement in respect of unvested entitlements or restricted entitlements held or granted under any equity based remuneration scheme."
+  },
+  {
+   "topic": "hedging",
+   "tier": "PPS Staff",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.1",
+   "detail": "Non-senior staff must seek the Company Secretary's permission before hedging unvested entitlements; the Company Secretary weighs seniority and the staff member's access to commercial strategy information.",
+   "evidence": "Any member of staff who is considering participating directly with hedging or similar strategies designed to limit share price risk for unvested entitlements involving PPS securities must firstly seek permission from the PPS Company Secretary."
+  },
+  {
+   "topic": "hedging",
+   "tier": "PPS Staff",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2",
+   "detail": "No express hedging ban over vested, unrestricted holdings for non-senior staff; a hedge is simply a dealing needing the universal prior written clearance.",
+   "evidence": "all staff who wish to trade must submit a request in writing to the Company Secretary prior to trading in PPS Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.1(b)(i); 1.2",
+   "detail": "Monetisation is not named; entering an agreement to sell securities is caught by the insider trading concept of dealing and, in any case, needs the universal prior written clearance before any trade.",
+   "evidence": "Subscribes for, buys, or sells (or enters into an agreement to subscribe for, buy, or sell) securities in the company."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.5(a)(i); 3.1(a)",
+   "detail": "CFDs are not named but fall within 'other related financial products of the Group', which are caught by the same Closed Period/clearance regime as PPS securities.",
+   "evidence": "must not, at any time, directly or indirectly, buy or sell PPS Shares, or deal in any other related financial products of the Group when in possession of unpublished information."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Margin lending is not named or addressed anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge, lien or pledge over PPS securities is not addressed anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Secured financing arrangements over PPS securities are not addressed anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Ban on short term trading (buying/selling within a short period with a view to profit or loss avoidance rather than long-term holding); no numeric period given.",
+   "evidence": "Group directors and staff of Praemium locate in Australia must not engage in short term trading of PPS securities. For example, buying or selling PPS shares within a short period of time with the view of realising a profit or minimising a loss as opposed to holding the shares as a long term investment."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "PPS Staff",
+   "type": "approval",
+   "approver": "Company Secretary (or the Chairman)",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.2",
+   "evidence": "all staff who wish to trade must submit a request in writing to the Company Secretary prior to trading in PPS Securities ... Even if approval is given for trading over a period of time (which shall not be any longer than 10 Trading Days), if that approval is withdrawn any instructions which have not been fulfilled must be immediately withdrawn."
+  },
+  {
+   "tier": "Directors and Key Management Personnel",
+   "type": "approval",
+   "approver": "Chairman",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1(e)",
+   "evidence": "A Trade in PPS Securities for which prior written approval of the Chairman (in relation to Key Management Personnel and their Associated Parties) ... has been obtained. ... Approval, if granted, will be valid for a period of 10 trading days."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Group directors and staff of Praemium locate in Australia must not engage in short term trading of PPS securities. For example, buying or selling PPS shares within a short period of time with the view of realising a profit or minimising a loss as opposed to holding the shares as a long term investment."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealings which Results in No Change to the Beneficial Interest in the Securities."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Participation in an EIS (including the allocation of options, performance rights and the issuing of shares pursuant an EIS) is not prohibited during a Closed Period, but the rules do apply in respect of any subsequent trading of Securities to which Staff become entitled under those plans."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealings under an offer or invitation made to all or most PPS Security Holders such as a share purchase plan or a rights issue."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "Dealings on the acceptance of a takeover offer."
+  },
+  {
+   "kind": "hardship",
+   "scope": "unclear",
+   "approver": "Chairman (for Key Management Personnel and their Associated Parties); Company Secretary (for other PPS Staff)",
+   "evidence": "Approval may be granted in circumstances in which the relevant PPS Staff is in severe financial hardship or other circumstances deemed by the Chairman to be exceptional."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Dealing in Company Securities, Misuse of Price Sensitive Information & Insider Trading Procedure (Australia)"],
+ "exemption_authority": "Chairman decides what is 'exceptional' for Key Management Personnel and their Associated Parties; Company Secretary decides for other PPS Staff. There is no exemption authority over the section 9.3 ban on senior staff/designated officers hedging vested or unvested holdings.",
+ "jurisdiction_overlays": ["UK subsidiary staff may follow their own locally-adapted procedures, provided consistent with this policy"],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban covers vested holdings",
+   "clause": "senior staff members / designated officers of the Company will be prohibited from entering into transactions in financial products which operate to limit the economic risk of both vested or unvested holdings in the PPS securities.",
+   "why_it_matters": "Unlike most peer policies, this expressly bans Directors and KMP from any transaction limiting the economic risk of already-vested, unrestricted holdings, not just unvested entitlements, so the put/call legs of a collar are prohibited outright for this tier regardless of vesting status."
+  },
+  {
+   "topic": "always-on pre-clearance",
+   "clause": "As a minimum requirement, whether or not a Closed Period ... or Trading Ban is in place, all staff who wish to trade must submit a request in writing to the Company Secretary prior to trading in PPS Securities.",
+   "why_it_matters": "Every trade by every Director or Staff member needs prior written clearance valid for at most 10 trading days, so even where hedging is not separately banned, both entry and unwind of a collar leg must be freshly cleared and executed within a short window."
+  },
+  {
+   "topic": "confidential ad hoc trading bans",
+   "clause": "The existence of a trading ban outside a Closed Period need not be published generally.",
+   "why_it_matters": "The Board can impose an undisclosed trading ban at any time, creating timing risk that a cleared collar transaction could become unexecutable without public notice."
+  },
+  {
+   "topic": "no secured financing provisions",
+   "clause": "(not addressed anywhere in the policy)",
+   "why_it_matters": "The policy is silent on margin lending, encumbrance and secured financing, so a bank loan secured on the collared shares faces no policy-specific procedural barrier beyond the general trading clearance and short-term-trading ban."
+  }
+ ],
+ "summary": "A funded collar is effectively unavailable for Praemium's Directors and Key Management Personnel. Section 9.3 expressly bans 'senior staff members/designated officers' from any financial-product transaction limiting the economic risk of both vested and unvested PPS holdings, including any hedging or similar arrangement, which directly prohibits the purchased put and written call legs of a collar regardless of vesting, with no clearance or exemption route provided. For non-senior staff, hedging unvested entitlements needs the Company Secretary's permission, and hedging vested, unrestricted holdings is only caught as an ordinary dealing subject to the universal rule that every trade by every Director or Staff member (Closed Period or not) needs prior written clearance from the Company Secretary or Chairman, valid for at most 10 trading days. The policy is silent on margin lending, encumbrance and secured financing, so a loan secured on the collared shares faces no policy-specific barrier, though it remains subject to the general clearance requirement and the outright short-term-trading ban. The Board may also impose an undisclosed trading ban at any time, adding timing uncertainty for any structure that could otherwise proceed."
+}
