@@ -1,0 +1,424 @@
+{
+ "symbol": "CHN",
+ "company": "Chalice Mining Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "24 August 2023",
+ "date_effective": "24 August 2023",
+ "date_lodged": "24 August 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Any person with authority and responsibility for planning, directing and controlling Company activities including directors (Key Management Personnel), employees of the Group, and contractors nominated by the Group as covered. All substantive prohibitions (blackout periods, insider trading, hedging, margin loans/secured lending, stock lending, short-term/speculative trading, short selling) apply uniformly to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees and Contractors",
+   "kind": "all_staff",
+   "description": "Restricted Persons who are employees or contractors; distinguished only for clearance approver (Managing Director, or Company Secretary in the MD's absence).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director or Officer",
+   "kind": "kmp",
+   "description": "A Restricted Person who is a director or officer (other than the Managing Director or the Chair); distinguished for clearance approver (the Chair, or Chair of the Audit Committee in the Chair's absence) and, if a director, for the section 15 holding-change notification.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Managing Director",
+   "kind": "kmp",
+   "description": "The Managing Director (or equivalent); distinguished for clearance approver (the Chair, or Chair of the Audit Committee in the Chair's absence).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished for clearance approver (the Chair of the Audit Committee).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Person",
+   "kind": "associate",
+   "description": "A spouse or partner, child or step-child under 18, an unlisted body corporate the Restricted Person controls or is a director of, a trust (including an SMSF) of which the Restricted Person is trustee and a beneficiary, or any other person over whom the Restricted Person has significant influence or control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions or arrangements which operate to limit the economic risk of their security holding in the Company",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "5 trading days before release of the Company's half-year financial accounts",
+   "end_anchor": "24 hours after release of the Company's half-year financial accounts",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "5 trading days before release of the Company's annual financial accounts",
+   "end_anchor": "24 hours after release of the Company's annual financial accounts",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "5 trading days before release of the Company's quarterly reports",
+   "end_anchor": "24 hours after release of the Company's quarterly reports",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "release of a material announcement",
+   "end_anchor": "24 hours after release of the material announcement",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board (or its delegate) may impose an 'Additional Period' from time to time, for example while the Company is considering matters requiring disclosure but for Listing Rule 3.1A. Restricted Persons must not disclose to anyone that an Additional Period is in effect.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4; 8",
+   "detail": "No standalone derivatives-trading rule. 'Company Securities' expressly includes derivatives (cash or physically settled, exchange-traded or OTC), and 'trade' means to apply for, acquire, dispose of, or agree to do so; trading a derivative over Company Securities is therefore a trade requiring prior written clearance under section 8 at any time, and is barred during a Prohibited Period absent exceptional-circumstances clearance.",
+   "evidence": "derivatives of any of the above (including equity swaps, futures, hedges and exchange-traded or over-the-counter options) whether settled by cash or otherwise, (Company Securities)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "13",
+   "detail": "Hedging of a vested security holding is expressly named and permitted with prior written clearance from the Approving Officer. Shares still subject to ASX or voluntary escrow remain further restricted by the escrow terms (section 11) even once vested.",
+   "evidence": "Restricted Persons must not enter into transactions or arrangements which operate to limit the economic risk of their security holding in the Company without first obtaining prior written clearance from the appropriate Approving Officer."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "13",
+   "detail": "Absolute ban, with no clearance route, on hedging unvested entitlements under any equity-based remuneration scheme.",
+   "evidence": "Restricted Persons are prohibited from entering into transactions or arrangements which limit the economic risk of participating in unvested entitlements under any equity-based remuneration schemes."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "13",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure operates to limit the economic risk of the holding and so falls within the hedging clause, requiring prior written clearance for vested holdings.",
+   "evidence": "transactions or arrangements which operate to limit the economic risk of their security holding in the Company"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "13",
+   "detail": "Monetising unvested entitlements would limit the economic risk of participating in them and is caught by the absolute unvested hedging ban.",
+   "evidence": "Restricted Persons are prohibited from entering into transactions or arrangements which limit the economic risk of participating in unvested entitlements under any equity-based remuneration schemes."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10",
+   "detail": "Outright ban with no clearance route.",
+   "evidence": "Restricted persons are not permitted to engage in short selling of Company Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "Stock lending, or any similar arrangement giving a lender or other third party a right to sell or compel the sale of all or part of the Restricted Person's Chalice securities, is prohibited outright with no clearance route.",
+   "evidence": "stock lending or any other arrangements involving Chalice securities where the lender or other third party is granted a right to sell, or compel the sale of all or part of any Chalice’s securities is prohibited."
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4; 8",
+   "detail": "CFDs are not named but are akin to the 'equity swaps' listed within the Company Securities definition, so trading one over Company Securities is a trade requiring prior written clearance; a short CFD would also engage the short-selling ban.",
+   "evidence": "derivatives of any of the above (including equity swaps, futures, hedges and exchange-traded or over-the-counter options)"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "Margin loan agreements are expressly named and permitted subject to prior written clearance from the Approving Officer, but see the stock-lending clause in the same section which prohibits arrangements granting the lender a right to sell or compel sale of the securities.",
+   "evidence": "Restricted Persons must not enter into margin loan agreements or other secured lending arrangements in relation to Company Securities without first obtaining prior written clearance from the appropriate Approving Officer."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "Granting security is not addressed as a standalone concept; it is only regulated as an incident of a 'secured lending arrangement', which requires prior written clearance. A charge unconnected to financing is not addressed.",
+   "evidence": "Restricted Persons must not enter into margin loan agreements or other secured lending arrangements in relation to Company Securities without first obtaining prior written clearance from the appropriate Approving Officer."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12",
+   "detail": "Any secured lending arrangement in relation to Company Securities, not limited to margin loans, requires prior written clearance from the Approving Officer. The immediately following sentence prohibits any arrangement granting the lender a right to sell or compel sale of the securities, creating a live tension with financing structures that rely on that right.",
+   "evidence": "Restricted Persons must not enter into margin loan agreements or other secured lending arrangements in relation to Company Securities without first obtaining prior written clearance from the appropriate Approving Officer."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10",
+   "detail": "General ban on short-term or speculative trading with no numeric holding period defined and no clearance route named.",
+   "evidence": "Restricted Persons must not engage in short term or speculative trading of Company Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Employees and Contractors",
+   "type": "approval",
+   "approver": "Managing Director (or equivalent), or in his/her absence, the Company Secretary",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (for the register of clearances)",
+   "post_trade_deadline": "unspecified",
+   "section": "8",
+   "evidence": "in the case of employees and contractors, the Managing Director (or equivalent) or in his/her absence, the Company Secretary"
+  },
+  {
+   "tier": "Director or Officer",
+   "type": "approval",
+   "approver": "the Chair, or in his/her absence, the Chair of the Audit Committee",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (clearance register; and change of relevant interest if a director)",
+   "post_trade_deadline": "3 business days (for a director's change of relevant interest, section 15)",
+   "section": "8; 15",
+   "evidence": "in the case of a director or officer, the Chair or in his/her absence, the Chair of the Audit Committee"
+  },
+  {
+   "tier": "Managing Director",
+   "type": "approval",
+   "approver": "the Chair, or in his/her absence, the Chair of the Audit Committee",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (clearance register; and change of relevant interest under section 15)",
+   "post_trade_deadline": "3 business days",
+   "section": "8; 15",
+   "evidence": "in case of the Managing Director (or equivalent), the Chair or, in his/her absence, the Chair of the Audit Committee"
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "the Chair of the Audit Committee",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (clearance register; and change of relevant interest under section 15)",
+   "post_trade_deadline": "3 business days",
+   "section": "8; 15",
+   "evidence": "in the case of the Chair, the Chair of the Audit Committee"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Restricted Persons must not engage in short term or speculative trading of Company Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Approving Officer",
+   "evidence": "where the person is in severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Approving Officer",
+   "evidence": "A circumstance may be considered exceptional if the person in question is required by a court order or a court enforceable undertaking to transfer or sell, or accept a transfer of, the Company Securities or there is some other overriding legal or regulatory requirement for him or her to do so."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Company Securities arising from a scheme of arrangement"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Approving Officer",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided ... where: (a) the Restricted Person did not enter into the plan or amend the plan during a Prohibited Period; and (b) the trading plan does not permit the Restricted Person to exercise any influence or discretion over how, when, or whether to trade"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the application for, and acquisition under that application of, Company Securities by employees of the Company or the Group under a scheme established solely or primarily for the benefit of the employees"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the acquisition of shares by automatic conversion of Company Securities giving a right to conversion to shares (but not the sale of Company Securities following exercise or conversion)"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Approving Officer (Chair, Chair of the Audit Committee, or Managing Director/Company Secretary depending on the Restricted Person's role) may grant written clearance to trade during a Prohibited Period for severe financial hardship or other circumstances the Approving Officer deems exceptional, in their absolute discretion; any refusal is final and binding and the Restricted Person must keep the refusal confidential.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured lending vs right-to-sell conflict",
+   "clause": "In addition, stock lending or any other arrangements involving Chalice securities where the lender or other third party is granted a right to sell, or compel the sale of all or part of any Chalice’s securities is prohibited.",
+   "why_it_matters": "A bank's standard security documentation for a funded collar's loan leg typically grants the lender a right to sell the pledged shares on default; read literally next to the section 12 permission for 'margin loan agreements or other secured lending arrangements' with clearance, this sentence creates real doubt whether the Approving Officer can lawfully clear a facility that gives the bank an enforcement right of sale."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "If the loan is validly cleared, the bank's enforcement sale of the collared shares on default is excluded from the trading policy altogether (not a breach even in a blackout period), though the tension in section 12 above must still be resolved before that facility can be put in place."
+  },
+  {
+   "topic": "front page test",
+   "clause": "If the market was aware of all the current circumstances, could the proposed dealing be perceived by the market as taking advantage of my position in an inappropriate way? ... approval will not be granted where the dealing would not satisfy the ‘front page’ test.",
+   "why_it_matters": "Even where a funded collar and its financing are otherwise permissible, the Approving Officer can refuse clearance purely on optics grounds, adding a discretionary layer beyond the structured tests."
+  },
+  {
+   "topic": "clearance required at all times",
+   "clause": "Restricted Persons must not trade in Company Securities at any time ... unless the Restricted Person first obtains prior written clearance",
+   "why_it_matters": "Unlike policies that require clearance only in closed periods, every leg of the collar (entry, adjustment, unwind) needs a fresh written clearance from the Approving Officer regardless of when it occurs."
+  },
+  {
+   "topic": "clearance validity and revocability",
+   "clause": "Any written clearance granted under this policy will be valid for the period of 3 business days ... Written clearance can be withdrawn by the Approving Officer at any time prior to the order for dealing being lodged or otherwise authorised, if new information comes to light or there is a change in circumstances.",
+   "why_it_matters": "The bank and executive must be ready to execute each collar leg within a 3 business day window, and a cleared trade can still be pulled before execution if circumstances change."
+  },
+  {
+   "topic": "escrow overlay",
+   "clause": "Any Restricted Person who holds Company Securities subject to binding restrictions on transfer (either as ASX restricted securities or through voluntary escrow arrangements) must comply with the terms of any applicable escrow arrangements.",
+   "why_it_matters": "Shares still under ASX or voluntary escrow cannot be pledged, hedged, or otherwise dealt with for a collar until the escrow ends, regardless of vesting status."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "Where this policy requires a Restricted Person to do an act or thing, the relevant Restricted Person must do that act or thing, or procure that the act or thing is done, in respect of the Connected Person.",
+   "why_it_matters": "Structuring the loan or derivative through a spouse, controlled company, or family trust does not avoid the clearance requirement or the section 12 right-to-sell restriction."
+  }
+ ],
+ "summary": "A funded collar is conditionally possible, but only over vested, non-escrowed shares and only with prior written clearance from the relevant Approving Officer for each leg, obtained at any time (not just in closed periods) and valid for just 3 business days. Hedging and monetisation of vested holdings are expressly permitted with clearance, and margin loans or other secured lending arrangements are also expressly permitted with clearance, but section 12 separately prohibits any arrangement giving the lender a right to sell or compel sale of the securities, which is standard in a bank's security package and creates a real conflict the Approving Officer would need to resolve before clearing the loan leg. If the loan is validly cleared, the bank's enforcement sale on default is excluded from the policy and not a breach even during a blackout period. Unvested entitlements cannot be hedged, monetised, or used as collateral at all. Clearance can be revoked before execution if circumstances change, and refusal is at the Approving Officer's absolute discretion including on 'front page' optics grounds."
+}

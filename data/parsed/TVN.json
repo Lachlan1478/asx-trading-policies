@@ -1,0 +1,537 @@
+{
+ "symbol": "TVN",
+ "company": "Tivan Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "20 March 2023",
+ "date_effective": "20 March 2023",
+ "date_lodged": "20 March 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "An employee of the Group, including all Directors and Senior Management, plus a company or trust controlled by a Director or Senior Manager and their spouse, child, close relative (if acting in concert) or financially dependent person. Subject to the general insider trading prohibition (clause 3).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Tivan Person",
+   "kind": "restricted",
+   "description": "All Directors and Senior Management, persons who work closely with them or in the finance/strategy team, IT staff with access to sensitive materials, other employees who may possess market sensitive information, and any other person the Board designates in writing; also includes a controlled company or trust and (for clause 4 purposes only) a spouse, child, close relative or financially dependent/acting-in-concert person. This is the population subject to Blackout Periods, protection-arrangement, margin lending/security and notification rules.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board or Chief Executive Officer",
+   "kind": "kmp",
+   "description": "The Chair of the Board or the Chief Executive Officer, distinguished only for the identity of their Authorising Officer (an Independent Director) when seeking consent to deal.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Directors, Company Secretary and Key Management Personnel",
+   "kind": "kmp",
+   "description": "Directors other than the Chair, the Company Secretary, and any other Key Management Personnel; distinguished only for the identity of their Authorising Officer (the Chair, or in his/her absence an Independent Director).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Any other Tivan Person",
+   "kind": "restricted",
+   "description": "Tivan Persons other than the Chair/CEO or other directors, Company Secretary and KMP; distinguished only for the identity of their Authorising Officer (the Company Secretary, or in his/her absence the CEO).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Independent Director",
+   "kind": "director",
+   "description": "A non-executive director of the Company; appears only as the Authorising Officer for the Chair's or CEO's dealings.",
+   "includes_associates": "no"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "operate to limit the economic risk of any Tivan Person's security holding (e.g. hedging arrangements) including Tivan's securities held beneficially (for example, in trust or under an incentive plan) on that Tivan Person's behalf",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Tivan Person"],
+   "start_anchor": "close of the ASX trading day on 31 December each year",
+   "end_anchor": "10:00am (Sydney time) on the ASX trading day following the day on which Tivan's half-yearly results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Tivan Person"],
+   "start_anchor": "close of the ASX trading day on 30 June each year",
+   "end_anchor": "10:00am (Sydney time) of the ASX trading day following the day on which Tivan's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Tivan Person"],
+   "start_anchor": "close of trading on ASX at the end of each calendar quarter (March, June, September, December)",
+   "end_anchor": "10:00am (Sydney time) on the ASX trading day following the announcement of Tivan's quarterly reports to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Tivan Person"],
+   "start_anchor": "close of the ASX trading day two weeks prior to the date of Tivan's AGM",
+   "end_anchor": "10:00am (Sydney time) on the ASX trading day following the date of the AGM",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Tivan Person"],
+   "start_anchor": "as specified by the Board from time to time",
+   "end_anchor": "as specified by the Board from time to time",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Tivan may impose, without notice and in its sole and absolute discretion, additional restrictions on trading in Tivan's securities by any or all Tivan Persons (and other Employees), even where the proposed trade would otherwise be outside a Blackout Period. Any restriction communicated under this power must be kept strictly confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Tivan Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1(a); 4.1(b); 4.3; 5.1",
+   "detail": "Securities is defined to include options and other securities, and 'financial products or securities' cannot be dealt in during a Blackout Period. Non-speculative derivatives dealing that is not a protection arrangement is a Dealing requiring Authorising Officer consent and must occur outside a Blackout Period; short-term or speculative derivatives dealing is banned outright under 5.1.",
+   "evidence": "During Blackout Periods Company Persons must not deal in any of Tivan's financial products or securities, or in any securities related to them."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Tivan Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Protection arrangements, expressly including hedging arrangements that limit the economic risk of a holding, are prohibited outright over unvested Tivan securities.",
+   "evidence": "The entering into of all types of \"protection arrangements\" for any Tivan securities (or Tivan products in the derivatives markets): (a) is prohibited at any time in respect of any Tivan securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Tivan Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "The same outright ban on protection/hedging arrangements applies to vested securities that remain subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any Tivan securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Tivan Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "Once vested and free of any holding lock, hedging arrangements (an expressly named example of a protection arrangement) may be entered into with the Authorising Officer's consent under clause 4.3.",
+   "evidence": "otherwise, requires consent under clause 4.3. ... operate to limit the economic risk of any Tivan Person's security holding (e.g. hedging arrangements)"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Tivan Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Monetisation is not named, but any transaction that would 'otherwise enable a Tivan Person to profit from a decrease in the market price of securities' is a protection arrangement, banned outright over unvested securities.",
+   "evidence": "is prohibited at any time in respect of any Tivan securities which are unvested or subject to a holding lock ... otherwise enable a Tivan Person to profit from a decrease in the market price of securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Tivan Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "The same protection-arrangement ban applies while a holding lock is in place, even after vesting.",
+   "evidence": "is prohibited at any time in respect of any Tivan securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Tivan Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "Once vested and unrestricted, a monetisation structure caught by the protection-arrangement definition (e.g. a collar) may proceed with the Authorising Officer's consent under clause 4.3.",
+   "evidence": "otherwise, requires consent under clause 4.3."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Tivan Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Short selling beyond the person's holding is a protection arrangement, banned outright while the relevant securities are unvested.",
+   "evidence": "amount to \"short selling\" of securities beyond the Tivan Person's holding of securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Tivan Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "The same ban applies while a holding lock is in place.",
+   "evidence": "is prohibited at any time in respect of any Tivan securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Tivan Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "Short selling beyond the holding, once the relevant securities are vested and unrestricted, requires the Authorising Officer's consent rather than being banned outright.",
+   "evidence": "otherwise, requires consent under clause 4.3."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Tivan Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Tivan Person",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1; 4.3",
+   "detail": "CFDs are named as an example of derivative-market transactions; short-term or speculative CFD trading is banned outright, but non-speculative CFD dealing is a Dealing requiring Authorising Officer consent (and is a protection arrangement, subject to 5.2, if it limits risk or enables profit from a price fall).",
+   "evidence": "transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Tivan Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Margin lending arrangements involving unvested Tivan securities are banned outright.",
+   "evidence": "Tivan Persons may not at any time, directly or indirectly ... enter into any margin lending arrangement involving Tivan securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Tivan Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "The same ban applies to securities subject to a holding lock.",
+   "evidence": "Tivan Persons may not at any time, directly or indirectly, grant any form of security ... over any Tivan securities which are unvested or subject to a holding lock ... or enter into any margin lending arrangement involving Tivan securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Tivan Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Once vested and unrestricted, a margin lending arrangement may be entered into with the Authorising Officer's consent under clause 4.3.",
+   "evidence": "Unless clause 5.3(a) applies, Tivan Persons may, directly or indirectly ... enter into any margin lending arrangement involving Tivan securities, with consent under clause 4.3."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Tivan Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Granting any form of security (charge, mortgage, pledge or otherwise) over unvested Tivan securities, to secure any obligation of the Tivan Person or a third party, is banned outright.",
+   "evidence": "Tivan Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Tivan securities which are unvested or subject to a holding lock, to secure any obligation of that Tivan Person or any third party"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Tivan Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "The same ban applies while a holding lock is in place.",
+   "evidence": "or subject to a holding lock, to secure any obligation of that Tivan Person or any third party"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Tivan Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Once vested and unrestricted, granting security over Tivan securities to secure any obligation is permitted with the Authorising Officer's consent under clause 4.3.",
+   "evidence": "Unless clause 5.3(a) applies, Tivan Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any of Tivan's securities, to secure any obligation of that Tivan Person or any third party ... with consent under clause 4.3."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Tivan Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "The ban covers granting security 'to secure any obligation of that Tivan Person or any third party', not merely margin loans, so any secured financing over unvested Tivan securities is banned outright.",
+   "evidence": "grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Tivan securities which are unvested or subject to a holding lock, to secure any obligation of that Tivan Person or any third party or enter into any margin lending arrangement involving Tivan securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Tivan Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "The same broad secured-financing ban applies while a holding lock is in place.",
+   "evidence": "or subject to a holding lock, to secure any obligation of that Tivan Person or any third party"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Tivan Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Once vested and unrestricted, any secured financing arrangement (not just margin lending) over Tivan securities may proceed with the Authorising Officer's consent under clause 4.3 - this is the operative gateway for a bank loan secured on the collared shares.",
+   "evidence": "Unless clause 5.3(a) applies, Tivan Persons may, directly or indirectly, grant any form of security ... over any of Tivan's securities, to secure any obligation of that Tivan Person or any third party or enter into any margin lending arrangement involving Tivan securities, with consent under clause 4.3."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Tivan Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "No fixed period; an absolute ban on short-term or speculative trading, including short-term direct dealing and short-term/speculative derivative transactions.",
+   "evidence": "Under no circumstances should Tivan Persons engage in short-term or speculative trading in Tivan securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board or Chief Executive Officer",
+   "type": "preclearance_system",
+   "approver": "An Independent Director",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "unspecified",
+   "section": "4.3; 4.4",
+   "evidence": "prior to dealing in Tivan securities outside a Blackout Period or where clause 5 requires the person to obtain a consent under clause 4.3, notify the relevant person in clause 4.3(c) (the Authorising Officer) of their proposed dealing and obtain consent from the Authorising Officer"
+  },
+  {
+   "tier": "Other Directors, Company Secretary and Key Management Personnel",
+   "type": "preclearance_system",
+   "approver": "The Chair of the Board or, in his/her absence an Independent Director",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "unspecified",
+   "section": "4.3; 4.4",
+   "evidence": "Other directors, Company Secretary and any other Key Management Personnel: The Chair of the Board or, in his/her absence an Independent Director."
+  },
+  {
+   "tier": "Any other Tivan Person",
+   "type": "preclearance_system",
+   "approver": "The Company Secretary or, in his/her absence, the Chief Executive Officer",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "unspecified",
+   "section": "4.3; 4.4",
+   "evidence": "Any other Tivan Person: The Company Secretary or, in his/her absence, the Chief Executive Officer."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Tivan Person",
+   "type": "intention",
+   "months": null,
+   "basis": "no fixed period; blanket ban on short-term or speculative trading, including in derivatives",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should Tivan Persons engage in short-term or speculative trading in Tivan securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade in Tivan's securities where the trading does not result in a change of beneficial interest in the securities"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire securities under any director or employee security plan or through the exercise of options or performance rights under an option or performance rights plan or acquire, or agree to acquire, options or performance rights under an option or performance rights plan. However, any dealing in those securities remains subject to this policy"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfer Tivan securities already held into a self-managed superannuation fund or other saving scheme in which the restricted person is a beneficiary"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Tivan's ordinary shares by conversion of securities giving a right of conversion to Tivan's ordinary shares"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Tivan's securities under a bonus issue made to all holders of securities of the same class"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept, a takeover offer"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in the securities of Tivan) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Tivan securities that is the result of a secured lender exercising their rights under a loan or security agreement"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trade in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a Blackout Period is taken by the other trustees or by the investment managers independently of the restricted person"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer",
+   "evidence": "What constitutes \"exceptional circumstances\" will be assessed on a case-by-case basis within the absolute discretion of the Authorising Officer, and may include, without limitation, severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer",
+   "evidence": "or a requirement to comply with a court order or court enforceable undertaking."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "In exceptional circumstances (including, without limitation, severe financial hardship or a court order/enforceable undertaking) the Authorising Officer may, in absolute discretion and without giving reasons, approve dealing in Tivan securities during a Blackout Period or other dealing otherwise prohibited by the policy (clause 4.4); such clearance can be withdrawn if new information emerges or circumstances change, is final and binding, and must be kept strictly confidential. Separately, the Board (clause 4.2) may impose additional, confidential ad hoc trading restrictions at its sole and absolute discretion at any time, even outside a Blackout Period.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "vesting/lock gateway",
+   "clause": "is prohibited at any time in respect of any Tivan securities which are unvested or subject to a holding lock; and (b) otherwise, requires consent under clause 4.3.",
+   "why_it_matters": "Once the executive's shares are vested and free of any holding lock, both the derivative legs and the secured loan of a funded collar move from an absolute ban to a clearance-based regime, making the structure achievable in principle post-vesting."
+  },
+  {
+   "topic": "secured lender forced-sale carve-out",
+   "clause": "a disposal of Tivan securities that is the result of a secured lender exercising their rights under a loan or security agreement",
+   "why_it_matters": "The bank's enforcement sale of the collared shares on default is expressly excluded from the policy altogether, so it is not a breach and is not blocked by a Blackout Period or the notification regime - a materially more collar-friendly enforcement position than policies that treat lender enforcement as a breach."
+  },
+  {
+   "topic": "broad protection-arrangement sweep",
+   "clause": "For the avoidance of doubt and without limiting the generality of this policy, entering into protection arrangements includes entering into transactions which: (a) amount to \"short selling\" ...; (b) operate to limit the economic risk ...; or (c) otherwise enable a Tivan Person to profit from a decrease in the market price of securities.",
+   "why_it_matters": "The definition is purposive and would clearly catch a purchased put and written call as a collar, regardless of how the bank documents or labels the trade."
+  },
+  {
+   "topic": "confidential ad hoc restrictions",
+   "clause": "Tivan may impose, without notice and in its sole and absolute discretion, additional restrictions on trading in Tivan's securities ... Any restriction communicated ... must be kept strictly confidential.",
+   "why_it_matters": "Entry, unwind or roll of the collar can be blocked at any time by an undisclosed restriction, creating timing risk the bank cannot see coming or verify."
+  },
+  {
+   "topic": "clearance revocable and voided by later inside information",
+   "clause": "can be withdrawn (if clearance has been given) if new information comes to light or there is a change in circumstances ... If a Tivan Person comes into possession of Inside Information after receiving a clearance to trade, they must not trade despite having received the clearance.",
+   "why_it_matters": "A cleared collar trade or its financing can become unexecutable between approval and execution/settlement if inside information arises or the Authorising Officer withdraws consent."
+  }
+ ],
+ "summary": "A funded collar is achievable under this policy once the executive's shares are vested and free of any holding lock, but not before. Clause 5.2 bans all 'protection arrangements' (expressly including hedging, short selling beyond holding, and profiting from a price fall - covering a put/call collar) outright while shares are unvested or holding-locked, and clause 5.3 imposes the same absolute ban on granting security or margin lending over such shares; once vested and unrestricted, both the derivative legs and a secured loan may proceed with the consent of the Authorising Officer (an Independent Director, the Chair, or the Company Secretary/CEO depending on the requester's role) obtained before dealing and outside a Blackout Period, with a post-trade confirmation required. Notably, clause 6(a)(viii) excludes from the policy altogether 'a disposal of Tivan securities that is the result of a secured lender exercising their rights under a loan or security agreement', so the bank's enforcement sale on default is not itself a breach. Constraints that remain even post-vesting include the quarterly/half-year/full-year/AGM Blackout Periods (with Exceptional Circumstances relief available only in the Authorising Officer's absolute discretion), the Board's power to impose confidential ad hoc restrictions at any time, and the fact that a clearance can be withdrawn or voided if inside information arises before completion."
+}

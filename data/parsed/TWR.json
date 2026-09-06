@@ -1,0 +1,348 @@
+{
+ "symbol": "TWR",
+ "company": "TOWER Limited",
+ "title": "Insider Trading and Market Manipulation Policy",
+ "date_approved": "",
+ "date_effective": "August 2010",
+ "date_lodged": "16 December 2010",
+ "date_next_review": "August 2011",
+ "tiers": [
+  {
+   "name": "All Staff",
+   "kind": "all_staff",
+   "description": "All executive and non-executive directors, officers, employees, consultants and contractors of TOWER and its subsidiaries; subject to the fundamental insider trading and market manipulation prohibitions but not the additional clause 3-4 restrictions unless also a Restricted Person.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors (executive or non-executive) or other officers; members of the Group Executive; direct reports to a Group Executive member; employees of TOWER Asset Management (TAM); employees with access to the TAM dealing room; employees holding executive options under the TOWER Limited Executive Share Option Plan (NZ); and anyone else designated by the Group Managing Director. Subject to blackout periods, trading windows, an absolute hedging ban, and a prior consent regime.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Subset of Restricted Persons distinguished for consent approval (Chairman of the Board approves director and Group CFO trades; any other director approves the Chairman's trades) and for unconditional post-trade reporting of all acquisitions and disposals.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouse or partner, immediate family members living in the Restricted Person's home or materially supported by them, a company or trust the Restricted Person controls or influences, a trust of which they are a beneficiary (unless a third party has exclusive discretionary control), and anyone else over whom the Restricted Person has investment control or influence.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "transactions in relation to associated products of TOWER Securities which operate to limit the economic risk of their TOWER Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 March",
+   "end_anchor": "date of announcement of TOWER's half yearly results to the NZX and ASX (usually late May), inclusive",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 August",
+   "end_anchor": "date of announcement of TOWER's yearly results to the NZX and ASX (usually late November), inclusive",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "day after announcement of TOWER's yearly results to the NZX and ASX (usually late November)",
+   "end_anchor": "28 February",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "day after announcement of TOWER's half year results to the NZX and ASX (usually late May)",
+   "end_anchor": "31 July",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Group Managing Director may designate additional persons as Restricted Persons from time to time (3.1(g)), but no separate ad hoc blackout-imposition power is stated; only the two fixed blackout periods and the general 'if in doubt, don't' rule (no dealing while holding Material Information) apply.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.1 (TOWER Securities); 3.2; 3.3; 4.1",
+   "detail": "'TOWER Securities' expressly includes listed derivatives (structured financial products, swaps, CFDs, spread bets, options, warrants, depositary receipts, futures) created by third parties over TOWER's ordinary shares. Restricted Persons must obtain prior written consent using the Request for Consent to Trade in Listed Securities Form, trade only within the open trading window, and avoid blackout periods.",
+   "evidence": "any other listed securities of TOWER or its subsidiaries, and any listed derivatives (including structured financial products, swaps, contracts for differences, spread bets, options, warrants, depositary receipts or futures contracts listed on an authorised futures exchange) created by third parties over TOWER's ordinary shares from time to time."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "2.1 (TOWER Securities)",
+   "detail": "The definitions of 'TOWER Securities' and 'Restricted Securities' are expressly limited to listed derivatives. An unlisted, bespoke OTC put or call written by a bank is not itself a TOWER Security or Restricted Security, so it falls outside the blackout, trading window and consent regime on a literal reading, although it would still be caught as an 'associated product' under the separate absolute hedging ban in clause 3.4 and by the general insider trading prohibition.",
+   "evidence": ""
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4",
+   "detail": "Absolute, unconditional ban on Restricted Persons entering into transactions in associated products of TOWER Securities that operate to limit the economic risk of their TOWER Securities holdings. No carve-out for vested versus unvested holdings and, unlike the blackout period (3.2), no hardship or Chairman exemption is provided.",
+   "evidence": "Restricted Persons are prohibited from entering into transactions in relation to associated products of TOWER Securities which operate to limit the economic risk of their TOWER Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "All Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The hedging ban in 3.4 applies only to Restricted Persons; staff outside that category are not subject to any express hedging restriction beyond the general insider trading and market manipulation prohibitions.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.1 (trade); 4.1",
+   "detail": "Monetisation structures are not named. 'Trade' is defined broadly to include buying or selling Restricted Securities or agreeing to do so, which would catch a forward sale of listed TOWER shares and require prior consent; an OTC monetisation structured without a sale of a listed instrument would instead fall into the same definitional gap as other OTC derivatives.",
+   "evidence": "\"trade\" includes buying or selling Restricted Securities, or agreeing to do so, whether as principal or agent and similarly includes an \"intention to trade\"."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.1 (TOWER Securities)",
+   "detail": "Contracts for differences are expressly listed as a form of listed derivative within 'TOWER Securities', so an exchange-traded CFD is subject to the consent, blackout and trading-window regime; an OTC CFD used to limit economic risk of a TOWER Securities holding would instead be caught by the absolute hedging ban in 3.4.",
+   "evidence": "any listed derivatives (including structured financial products, swaps, contracts for differences, spread bets, options, warrants, depositary receipts or futures contracts listed on an authorised futures exchange)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No provision addresses margin lending or borrowing secured against TOWER Securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or other security interest over TOWER Securities is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The policy is silent on secured financing of any kind against TOWER Securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "General ban on buying and selling Restricted Securities within 3 months of the last opposite transaction, unless exceptional circumstances are discussed with and approved by the Company Secretary and Compliance Manager.",
+   "evidence": "You should not engage in short term trading (the buying or selling of Restricted Securities within a 3 month period of your last such opposite transaction), unless there are exceptional circumstances discussed with and approved by the Company Secretary and Compliance Manager."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4(b)",
+   "detail": "As a condition of granting consent to trade, the applicant must not intend to sell the TOWER Securities within 6 months of purchase; consent will not be given otherwise.",
+   "evidence": "the applicant does not intend to sell the TOWER Securities within 6 months of when they are purchased."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Group Managing Director (or Chairman of the Board for the trades listed in clause 4.2)",
+   "form": "written",
+   "validity_days": 15,
+   "response_sla_days": 5,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary and Compliance Manager",
+   "post_trade_deadline": "promptly following completion of the trade",
+   "section": "4.1; 4.4; 4.5; 5.4",
+   "evidence": "Before trading in TOWER Securities, at any time, Restricted Persons must seek consent using the Request for Consent to Trade in Listed Securities Form ... If granted, trading consent is only valid for a period of 15 trading days after notification of approval. Trading consent is automatically deemed to be withdrawn if the person becomes aware of Material Information prior to trading."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman of the Board (approves director and Group CFO trades, trades of more than 20,000 TOWER Securities, or trades valued at NZ$25,000 or more; any other TOWER director approves the Chairman's own trades)",
+   "form": "written",
+   "validity_days": 15,
+   "response_sla_days": 5,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary and Compliance Manager",
+   "post_trade_deadline": "without exception, including date, price and volume, for NZX/ASX reporting",
+   "section": "4.2; 5.4",
+   "evidence": "an acquisition or disposal of Restricted Securities by a TOWER Limited director or the Group Chief Financial Officer; or an acquisition or disposal of more than (20,000) TOWER Securities; or an acquisition or disposal involving TOWER Securities valued at NZ($25,000) or more ... All proposed trades in TOWER Securities by the Chairman of the Board must be approved by any other TOWER director."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "from the last opposite transaction",
+   "carve_outs": ["exceptional circumstances approved by the Company Secretary and Compliance Manager"],
+   "evidence": "the buying or selling of Restricted Securities within a 3 month period of your last such opposite transaction, unless there are exceptional circumstances discussed with and approved by the Company Secretary and Compliance Manager."
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "intention",
+   "months": 6,
+   "basis": "from purchase",
+   "carve_outs": [],
+   "evidence": "the applicant does not intend to sell the TOWER Securities within 6 months of when they are purchased."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "involuntary acquisitions or disposals such as by gift or inheritance"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisitions through an issue of new shares on the exercise of options, under a rights issue, or a dividend reinvestment plan, equity incentive plan or share plan including the TOWER Limited Executive Share Option Plan (NZ)."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairman of TOWER's board of directors",
+   "evidence": "unless the Chairman of TOWER's board of directors provides a specific exemption. An exemption will ordinarily only be granted in situations of financial hardship and only in the event that the Restricted Person is not in possession of Material Information."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Personal Pre-Trade Authorisation form (TOWER intranet, for TAM employees and those with TAM dealing room access)"],
+ "exemption_authority": "The Chairman of TOWER's board may grant a specific exemption from the blackout period, ordinarily only for financial hardship and only if the Restricted Person holds no Material Information (3.2). The Company Secretary and Compliance Manager may approve exceptional circumstances to permit short-term trading outside the general 3-month rule (5.5). No exemption authority is provided for the absolute hedging ban in clause 3.4.",
+ "jurisdiction_overlays": ["New Zealand Securities Markets Act 1988", "Securities Markets (Disclosure of Relevant Interests by Directors and Officers) Regulations 2003 (NZ)", "Corporations Act 2001 (Cth)", "NZX Listing Rules"],
+ "bespoke_clauses": [
+  {
+   "topic": "OTC derivatives outside defined terms",
+   "clause": "\"TOWER Securities\" means ... any other listed securities of TOWER or its subsidiaries, and any listed derivatives ... created by third parties over TOWER's ordinary shares.",
+   "why_it_matters": "An OTC collar written bilaterally by a bank is arguably not a 'TOWER Security' or 'Restricted Security' under these defined, listed-only terms, so the blackout, trading-window and consent regime may not apply to it on a literal reading; the bank should not rely on this gap, however, given the separate absolute hedging ban and overriding insider trading law."
+  },
+  {
+   "topic": "absolute hedging ban",
+   "clause": "Restricted Persons are prohibited from entering into transactions in relation to associated products of TOWER Securities which operate to limit the economic risk of their TOWER Securities.",
+   "why_it_matters": "This clause is broader than the listed-only definitions and squarely catches an OTC collar; it bars the structure outright for directors and executives with no consent process or hardship exemption analogous to the blackout waiver."
+  },
+  {
+   "topic": "financing not addressed",
+   "clause": "The policy contains no provision on margin lending, secured financing, encumbrance, or borrowing against TOWER Securities.",
+   "why_it_matters": "A share-secured loan is not itself prohibited by this document, but the absolute hedging ban already defeats the collar structure for Restricted Persons regardless of financing terms."
+  },
+  {
+   "topic": "6-month no-sale condition",
+   "clause": "the applicant does not intend to sell the TOWER Securities within 6 months of when they are purchased.",
+   "why_it_matters": "Even where hedging were permitted, consent to acquire shares is refused unless the holder intends to retain them for 6 months, constraining any short-dated collar unwind on newly purchased shares."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "Restricted Persons should ensure that any Restricted Securities trading which is prohibited by this policy is not undertaken by their spouse or partner, immediate family members ... a company or trust over which the Restricted Person has influence or control.",
+   "why_it_matters": "Routing the collar or its financing through a family trust or controlled entity does not escape the hedging ban, which the Restricted Person must also police against connected persons."
+  }
+ ],
+ "summary": "A funded collar is not available to directors or executives under this policy, because all such persons are 'Restricted Persons' and clause 3.4 imposes an absolute, unconditional ban on entering into transactions in associated products that operate to limit the economic risk of their TOWER Securities, with no consent process, exemption or hardship waiver analogous to the one available for the blackout period. Although the policy's defined terms ('TOWER Securities', 'Restricted Securities') are curiously limited to listed instruments, meaning an OTC put/call is not literally caught by the blackout, trading-window or consent regime, clause 3.4's hedging ban is drafted more broadly to catch 'associated products' regardless of listing status, so it still applies. The policy is entirely silent on margin lending, secured financing and encumbrance, so the loan leg is not independently prohibited, but this is academic given the outright hedging ban. Even setting hedging aside, any purchase of shares by a Restricted Person is conditioned on no intention to sell within 6 months, and a general 3-month short-term trading rule applies policy-wide absent Company Secretary approval. A bank should treat this policy as a hard block on a funded collar for TOWER directors and executives unless the company amends clause 3.4 or grants a bespoke waiver, which the clause's own drafting does not contemplate."
+}

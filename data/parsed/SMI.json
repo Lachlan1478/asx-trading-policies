@@ -1,0 +1,392 @@
+{
+ "symbol": "SMI",
+ "company": "Santana Minerals Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Officers",
+   "kind": "all_staff",
+   "description": "All Directors and employees of the Company and their spouses, children and related private entities, as well as contractors, consultants, advisers and auditors of the Company.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Employees",
+   "kind": "restricted",
+   "description": "Directors, Executive Management, and other key management personnel as determined by the Chairman and Company Secretary from time to time; subject to Prohibited Periods and the written acknowledgement requirement before dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Subset of Designated Officers distinguished for notification of relevant interest changes to the Company Secretary (for ASX Listing Rule 3.19A reporting) and for the clearance approval chain (Chairman approves Directors; Managing Director approves the Chairman).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouses, children and related private entities of Designated Officers; associates of Restricted Employees are themselves subject to the same Prohibited Period restrictions, which the Restricted Employee is personally responsible for ensuring compliance with.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "no",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "hedging arrangements (including, for example, the use of put and call options or other derivative instruments) over unvested securities issued pursuant to any employee option plan",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Employees"],
+   "start_anchor": "end of the financial quarter",
+   "end_anchor": "day after the release date of the quarterly report to ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may at its discretion declare a Prohibited Period for a specified period, such as where the Company is considering matters subject to continuous disclosure exceptions, or prior to announcing a significant matter to ASX. Current Prohibited Periods may be varied and ad-hoc blackout periods declared by the Board and circulated, with appropriate notice, to all Restricted Employees. Confidentiality of the existence of a blackout is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "8.1",
+   "detail": "The written acknowledgement gate is expressly limited to 'securities (i.e. shares or options) in the Company, its subsidiaries or related companies'. A third-party (e.g. bank-written) OTC or exchange-traded put or call over Company shares is not itself within this narrow definition and so is not expressly brought within the written acknowledgement or Prohibited Period regime, other than to the extent it is used as a hedge under the separate hedging prohibition in section 9.",
+   "evidence": "subscribe for, purchase or sell, or enter into an agreement to subscribe for, purchase or sell, any securities (i.e. shares or options) in the Company, its subsidiaries or related companies."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.1",
+   "detail": "Absolute ban on Directors and employees engaging in hedging arrangements, including put and call options or other derivative instruments, over unvested securities issued pursuant to any employee option plan.",
+   "evidence": "Directors and employees must not engage in hedging arrangements (including, for example, the use of put and call options or other derivative instruments) over unvested securities issued pursuant to any employee option plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.1",
+   "detail": "Hedging over vested securities is expressly permitted provided it complies with the Policy, i.e. the written acknowledgement process for Restricted Employees (or notification for other Designated Officers) and avoidance of Prohibited Periods. The Policy does not separately address vested-but-locked holdings.",
+   "evidence": "any hedging over vested securities must comply with this Policy."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1; 10.3; 11.1",
+   "detail": "Monetisation structures are not named. The written acknowledgement requirement covers entering into an agreement to purchase or sell Company shares or options, which would sweep in a prepaid forward or similar monetisation of vested shares, subject to the same clearance and notification requirements as an ordinary sale.",
+   "evidence": "or enter into an agreement to subscribe for, purchase or sell, any securities (i.e. shares or options) in the Company, its subsidiaries or related companies."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Short selling is not named. As a sale of Company shares it would literally fall within the written acknowledgement requirement to 'sell ... any securities', but the Policy gives no guidance on borrowing or settlement mechanics for a short sale.",
+   "evidence": "subscribe for, purchase or sell, or enter into an agreement to subscribe for, purchase or sell, any securities (i.e. shares or options) in the Company."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy and is not captured by the written acknowledgement requirement (subscribe, purchase, sell or agree to do so).",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "CFDs are not named and are not 'securities (i.e. shares or options)' for the purposes of the written acknowledgement requirement. A CFD used to hedge a Company shareholding would instead be caught by the hedging prohibition in section 9 if it limits economic risk of an unvested holding.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No provision addresses margin lending or borrowing secured against Company securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or other security interest over Company securities is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The policy is silent on secured financing of any kind against Company securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Directors and employees are directed not to engage in short-term or speculative trading, framed as encouragement of a long-term investment attitude rather than a defined holding period; no specific number of months or basis is stated.",
+   "evidence": "The Company encourages Directors and employees to adopt a long-term attitude to their investment in the Company's securities. Consequently, Directors and employees should not engage in short-term or speculative trading of the Company's securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Employees",
+   "type": "approval",
+   "approver": "Chairman (Directors or their associates); Managing Director (the Chairman or his associate); Company Secretary, Managing Director or Chairman (employees, officers or their associates)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8.1; Annexure A",
+   "evidence": "all Restricted Employees must apply for written acknowledgement ... to gain authority to, whether in their own capacity or as an agent for another, subscribe for, purchase or sell, or enter into an agreement to subscribe for, purchase or sell, any securities ... Permission given on the basis that the transaction is completed by no later than close of business on: ..."
+  },
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Chairman, or in his absence, the Board or the Managing Director",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "12.1; 12.2",
+   "evidence": "clearance may be given for them to sell (but not to purchase) Company securities when they would otherwise be prohibited from doing so but not while there exists any matter which constitutes Inside Information ... Where clearance is given the Designated Officer must trade within 7 days of receiving clearance."
+  },
+  {
+   "tier": "Directors",
+   "type": "notification",
+   "approver": "Chairman (or the Managing Director, if the Chairman is the one dealing)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as possible after the change, and in any event allowing ASX notification within 5 business days",
+   "section": "10.1; 10.2; 10.3",
+   "evidence": "Prior to trading in (either buying or selling) the Company's securities, Directors must notify the Chairman (or in the case of the Chairman he must notify the Managing Director) of their intention to trade and confirm that they are not in possession of any unpublished price sensitive information."
+  },
+  {
+   "tier": "Designated Officers",
+   "type": "notification",
+   "approver": "Chairman, Managing Director or Company Secretary",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "11.1",
+   "evidence": "Prior to trading in (either buying or selling) the Company's securities, employees must notify the Chairman, the Managing Director or the Company Secretary of their intention to trade and confirm that they are not in possession of any unpublished price sensitive information."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Directors and employees should not engage in short-term or speculative trading of the Company's securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "subscribe for securities offered under a disclosure document (e.g. a prospectus)."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire the Company's ordinary shares by conversion of securities giving a right of conversion to ordinary shares."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire the Company securities under a bonus issue, rights issue or other offer made to all holders of securities of the same class."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire the Company securities under a dividend reinvestment, or top-up plan, that is available to all holders of securities of the same class."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire the Company securities under a Company sponsored share plan where such securities are purchased by an independent trustee and on an agreed period purchase basis."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire, or agree to acquire, options under a Company share option plan."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire, or agree to acquire, rights under a Company performance share plan."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "exercise options acquired under a Company share option plan (but may not sell all or part of the shares received upon exercise of the options other than in accordance with this Policy and the insider trading provisions)."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "deal where the beneficial interest in the relevant security does not change."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "accept a takeover offer."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman, or in his absence, the Board or the Managing Director",
+   "evidence": "severe financial hardship."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "in order to comply an undertaking given to, or an order by, a court."
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Chairman, or in his absence, the Board or the Managing Director",
+   "evidence": "such other exceptional circumstances as may from time to time be determined by the Chairman, or in his absence, the Board or the Managing Director."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chairman, or in his absence the Board or the Managing Director, may grant clearance for a Designated Officer to sell (but not purchase) Company securities in exceptional circumstances (severe financial hardship, a court order or undertaking, or other exceptional circumstances) even when otherwise prohibited from dealing, provided there is no Inside Information; the trade must complete within 7 days of clearance (s12). No exemption authority is provided for the hedging ban on unvested securities in section 9.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "narrow securities definition",
+   "clause": "any securities (i.e. shares or options) in the Company, its subsidiaries or related companies.",
+   "why_it_matters": "The written acknowledgement/clearance gate, and by extension the Prohibited Period regime, textually applies only to shares or options; a bank-written OTC put or call is not itself a 'security' requiring written acknowledgement under section 8, though it is still caught by the absolute hedging ban in section 9 if it operates to hedge Company securities."
+  },
+  {
+   "topic": "hedging permitted on vested shares",
+   "clause": "any hedging over vested securities must comply with this Policy.",
+   "why_it_matters": "Unlike policies with a blanket hedging ban, SMI expressly permits hedging of vested shares (subject to the written acknowledgement process and Prohibited Periods), so a collar over vested, unrestricted shares is not banned outright."
+  },
+  {
+   "topic": "financing not addressed",
+   "clause": "The policy contains no provision on margin lending, secured financing, encumbrance, or borrowing against Company securities.",
+   "why_it_matters": "The loan leg of a funded collar is not independently restricted by this document."
+  },
+  {
+   "topic": "associates' personal responsibility",
+   "clause": "All Restricted Employees have a personal responsibility to ensure that his or her associates comply with the same respective restrictions as apply to them.",
+   "why_it_matters": "Routing the collar or its financing through a spouse or related private entity does not escape the Prohibited Period or hedging restrictions."
+  },
+  {
+   "topic": "cashless exercise sales caught",
+   "clause": "The Policy does apply, however, to any sale of Company Securities acquired on the exercise of options, including sales as part of a broker-assisted cashless exercise of an option, or any other market sale for the purpose of generating the cash needed to pay the exercise price of an option.",
+   "why_it_matters": "Sales of shares around option exercise (which may coincide with collar entry or unwind) remain subject to the written acknowledgement and Prohibited Period regime even though the exercise itself is typically exempt."
+  },
+  {
+   "topic": "exceptional clearance is sale-only",
+   "clause": "clearance may be given for them to sell (but not to purchase) Company securities when they would otherwise be prohibited from doing so.",
+   "why_it_matters": "A hardship-based clearance could permit unwinding (selling) collared shares during a Prohibited Period, but could not be used to buy back shares, limiting how a distressed collar unwind involving a repurchase could be executed."
+  }
+ ],
+ "summary": "A funded collar appears possible for vested, unrestricted shares held by directors and executives, because section 9.1 expressly permits hedging of vested securities subject to compliance with the Policy, and the loan leg is not addressed at all (no margin lending, secured financing or encumbrance provisions). Restricted Employees must obtain written acknowledgement from the Chairman, Managing Director or Company Secretary (depending on the applicant's role) before entering the put and call, and the transaction must be completed by the date specified on the acknowledgement; other Designated Officers need only notify and self-certify no Inside Information before trading. Hedging over unvested securities issued under an employee option plan is banned outright with no exemption route, so the collar cannot be written over unvested holdings. Entry and unwind must avoid the Prohibited Period running from the end of each financial quarter to the day after the quarterly report is released to ASX, and any ad hoc blackout the Board declares; a hardship-based clearance to sell (but not buy) during a Prohibited Period is available but time-limited to 7 days. Because the written acknowledgement regime and 'securities' definition are drafted narrowly around shares and options, the bank and executive should not assume the OTC derivative legs themselves are exempt from scrutiny, and should apply for acknowledgement as if dealing in the underlying shares."
+}

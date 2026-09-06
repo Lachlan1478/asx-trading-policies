@@ -1,0 +1,507 @@
+{
+ "symbol": "ACL",
+ "company": "Australian Clinical Labs Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "2 December 2021",
+ "date_effective": "7 December 2021",
+ "date_lodged": "7 December 2021",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "ACL Person",
+   "kind": "restricted",
+   "description": "All Directors and Senior Management (each non-executive director, Managing Director and Group CEO, CFO, Company Secretary) plus additional persons designated by the Board and listed in Appendix A (State CEOs, COO, CMO, CIO, GM SunDoctors, GM Commercial, Head of Investor Relations, Medical Director, CEO direct reports, Legal Counsel, Finance team members, EAs to a Director or State CEO), plus any company or trust controlled by such a person.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "Distinguished only for clearance: seeks consent from the chair of the Audit Committee.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Other directors, Company Secretary and the Chief Financial Officer",
+   "kind": "kmp",
+   "description": "Distinguished only for clearance: seeks consent from the chair of the Board or, in their absence, the chair of the Audit Committee.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Any other ACL Person",
+   "kind": "restricted",
+   "description": "Distinguished only for clearance: seeks consent from the Company Secretary or, in their absence, the Chief Executive Officer.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "For the purposes of section 4 (Blackout Periods/notifications) only, ACL Person also includes a spouse (including de facto), child, close relative, or a person financially dependent on or acting in concert with a Director/Senior Management person.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Operate to limit the economic risk of any ACL Person's security holding (e.g. hedging arrangements) including ACL's securities held beneficially (for example, in trust or under any ACL incentive plan) on that ACL Person's behalf",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["ACL Person"],
+   "start_anchor": "close of the ASX trading day on 30 November each year",
+   "end_anchor": "10:00am AEDT on the ASX trading day following the day on which the Company's half yearly results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["ACL Person"],
+   "start_anchor": "close of the ASX trading day on 31 May each year",
+   "end_anchor": "10:00am AEST on the ASX trading day following the day on which the Company's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["ACL Person"],
+   "start_anchor": "close of the ASX trading day two weeks prior to the date of the Company's AGM",
+   "end_anchor": "10:00am AEDT on the ASX trading day following the date of the Company's AGM",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other Blackout Period from time to time; the policy does not state whether such additional periods are kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "ACL Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1(a); 4; 5.1",
+   "detail": "Options and other derivative instruments over ACL securities are 'securities' for Blackout Period and consent purposes. Dealing is prohibited during a Blackout Period (absent a 4.3 exceptional-circumstances approval) and otherwise requires prior consent under 4.2; short-term or speculative derivative dealing is banned outright regardless of timing.",
+   "evidence": "prohibits the trading in shares, options, debentures (including convertible notes) and other securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "ACL Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Absolute ban on any 'protection arrangement' (including hedging arrangements that limit economic risk) over unvested ACL securities; no consent pathway exists.",
+   "evidence": "The entering into of all types of \"protection arrangements\" for any ACL securities (or ACL products in the derivatives markets) ... is prohibited at any time in respect of any ACL securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "ACL Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "The same absolute ban applies while vested shares remain subject to a holding lock, grouped with unvested shares in the same prohibition.",
+   "evidence": "is prohibited at any time in respect of any ACL securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "ACL Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "Once vested and free of any holding lock, a protection arrangement (hedge) requires compliance with the 4.2 consent process with the applicable Authorising Officer.",
+   "evidence": "otherwise, requires compliance with paragraph 4.2"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "ACL Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "Monetisation is not named, but a structure enabling profit from a price fall or limiting economic risk falls within 'protection arrangements' and is banned outright while unvested or holding-locked.",
+   "evidence": "Otherwise enable an ACL Person to profit from a decrease in the market price of securities"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "ACL Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "A monetisation structure caught as a protection arrangement over vested, unlocked securities requires compliance with 4.2.",
+   "evidence": "otherwise, requires compliance with paragraph 4.2"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "ACL Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(a)(c)",
+   "detail": "Short selling beyond the ACL Person's holding is expressly listed as a protection arrangement, banned outright while unvested or holding-locked.",
+   "evidence": "Amount to \"short selling\" of securities beyond the ACL Person's holding of securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "ACL Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2(b)(c)",
+   "detail": "Short selling beyond holding, once shares are vested and unlocked, requires compliance with 4.2.",
+   "evidence": "otherwise, requires compliance with paragraph 4.2"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "ACL Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "ACL Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "CFDs are expressly named as an example of derivative-market transactions; short-term or speculative CFD dealing in ACL securities is banned outright regardless of vesting.",
+   "evidence": "transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative"
+  },
+  {
+   "topic": "cfd",
+   "tier": "ACL Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(a)",
+   "detail": "A non-speculative CFD used to limit economic risk (a protection arrangement) is separately banned while unvested or holding-locked.",
+   "evidence": "(or ACL products in the derivatives markets) ... is prohibited at any time in respect of any ACL securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "cfd",
+   "tier": "ACL Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.2(b)",
+   "detail": "A non-speculative CFD protection arrangement over vested, unlocked ACL securities requires compliance with 4.2.",
+   "evidence": "otherwise, requires compliance with paragraph 4.2"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "ACL Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Margin lending arrangements involving unvested or holding-locked ACL securities are banned outright.",
+   "evidence": "or enter into any margin lending arrangement involving ACL securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "ACL Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Same outright ban applies while vested shares remain subject to a holding lock.",
+   "evidence": "ACL Persons may not at any time, directly or indirectly, grant any form of security ... over any ACL securities which are unvested or subject to a holding lock ... or enter into any margin lending arrangement involving ACL securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "ACL Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Margin lending over vested, unlocked ACL securities is permitted after complying with the 4.2 consent process.",
+   "evidence": "ACL Persons may, directly or indirectly, ... enter into any margin lending arrangement involving ACL securities, after complying with paragraph 4.2"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "ACL Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Granting any form of security (charge, mortgage, pledge or otherwise) over unvested ACL securities to secure any obligation of the ACL Person or a third party is banned outright.",
+   "evidence": "ACL Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any ACL securities which are unvested or subject to a holding lock, to secure any obligation of that ACL Person or any third party"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "ACL Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Same outright ban applies while vested shares remain subject to a holding lock.",
+   "evidence": "over any ACL securities which are unvested or subject to a holding lock, to secure any obligation of that ACL Person or any third party"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "ACL Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Granting security over vested, unlocked ACL securities to secure any obligation of the ACL Person or a third party is permitted after complying with the 4.2 consent process (the bank's loan security for a funded collar falls here).",
+   "evidence": "ACL Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any ACL securities, to secure any obligation of that ACL Person or any third party ... after complying with paragraph 4.2"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "ACL Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "The security-grant prohibition is not limited to margin loans; it bars any secured financing (security for any obligation of the person or a third party) over unvested ACL securities.",
+   "evidence": "grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any ACL securities which are unvested or subject to a holding lock, to secure any obligation of that ACL Person or any third party"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "ACL Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(a)",
+   "detail": "Same outright ban applies while vested shares remain subject to a holding lock.",
+   "evidence": "over any ACL securities which are unvested or subject to a holding lock, to secure any obligation of that ACL Person or any third party"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "ACL Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3(b)",
+   "detail": "Any secured financing arrangement over vested, unlocked ACL securities is permitted after complying with the 4.2 consent process with the applicable Authorising Officer.",
+   "evidence": "Unless paragraph (a) applies, ACL Persons may, directly or indirectly, grant any form of security ... after complying with paragraph 4.2"
+  },
+  {
+   "topic": "short_term",
+   "tier": "ACL Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Outright ban on short-term or speculative trading in ACL securities, including short-term direct dealing and derivative-market transactions, irrespective of Blackout Period or consent.",
+   "evidence": "Under no circumstances should ACL Persons engage in short-term or speculative trading in ACL securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Chair of the Audit Committee",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "",
+   "section": "4.2",
+   "evidence": "prior to dealing in ACL securities outside a Blackout Period the person must notify the relevant person in paragraph 4.2(c) (the Authorising Officer) and the Company Secretary, by email, of their proposed dealing and obtain consent to trade from the Authorising Officer"
+  },
+  {
+   "tier": "Other directors, Company Secretary and the Chief Financial Officer",
+   "type": "approval",
+   "approver": "Chair of the Board or, in their absence, the chair of the Audit Committee",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "",
+   "section": "4.2",
+   "evidence": "The chair of the Board or, in his/her absence, the chair of the Audit Committee."
+  },
+  {
+   "tier": "Any other ACL Person",
+   "type": "approval",
+   "approver": "Company Secretary or, in their absence, the Chief Executive Officer",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "",
+   "section": "4.2",
+   "evidence": "The Company Secretary or, in his/her absence, the Chief Executive Officer."
+  },
+  {
+   "tier": "ACL Person",
+   "type": "approval",
+   "approver": "Authorising Officer, in the absolute discretion of the Board",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.3",
+   "evidence": "In exceptional circumstances the Authorising Officer has discretion to approve dealings in ACL securities during a Blackout Period, or other dealings that would otherwise be prohibited by this policy. ... must be provided by electronic delivery via email."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "ACL Person",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should ACL Persons engage in short-term or speculative trading in ACL securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer, in the absolute discretion of the Board",
+   "evidence": "may include, without limitation, severe financial hardship or a requirement to comply with a court order or court enforceable undertaking"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer, in the absolute discretion of the Board",
+   "evidence": "or a requirement to comply with a court order or court enforceable undertaking"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade ACL securities where the trading does not result in a change of beneficial interest in the securities"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire securities under any director or employee security plan or through the exercise of options or performance rights under an option or performance rights plan"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of ACL securities that is the result of a secured lender exercising their rights under a loan or security agreement"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in the securities of ACL) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "trade under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trade in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "ACL Person; trigger: inception, before entering into any secured financing or margin lending arrangement over vested, non-holding-locked ACL securities; to: the applicable Authorising Officer (and the Company Secretary) under 4.2; deadline: prior to entering the arrangement."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Board, in its absolute discretion, acting through the Authorising Officer for exceptional-circumstances approvals under 4.3",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "self-authorisation bar",
+   "clause": "For the avoidance of doubt, the ACL Person seeking authorisation cannot be their own Authorising Officer.",
+   "why_it_matters": "The bank must identify the correct independent Authorising Officer for the specific director/executive entering the collar; the Chair of the Board, for instance, cannot approve their own collar and must go to the Audit Committee chair."
+  },
+  {
+   "topic": "dual notification",
+   "clause": "prior to dealing in ACL securities outside a Blackout Period the person must notify the relevant person in paragraph 4.2(c) (the Authorising Officer) and the Company Secretary, by email, of their proposed dealing and obtain consent to trade from the Authorising Officer",
+   "why_it_matters": "Both the Authorising Officer and the Company Secretary must be notified before the collar is entered into, adding an extra notification step compared to policies with a single approver."
+  },
+  {
+   "topic": "secured lender step-in exemption",
+   "clause": "a disposal of ACL securities that is the result of a secured lender exercising their rights under a loan or security agreement",
+   "why_it_matters": "Gives the bank confidence that if it enforces its security and sells the collared shares, that disposal is an exempted dealing under the policy (only after-the-fact notice to the Authorising Officer is required), not a breach or a dealing needing fresh consent."
+  }
+ ],
+ "summary": "A funded OTC equity collar is not possible over unvested ACL shares or vested shares still subject to a holding lock: section 5.2 bans all 'protection arrangements' (hedging, short selling beyond holding, anything limiting economic risk or profiting from a price fall) and section 5.3 bans granting any security or margin lending over such shares, with no consent pathway. Once the shares are vested and free of any holding lock, the same collar and loan-security package is permitted, but dealing must occur outside a Blackout Period (or under a 4.3 exceptional-circumstances approval) and requires prior consent from an independent Authorising Officer under 4.2 (who cannot be the ACL Person themselves), notification to the Company Secretary, a confirmation of no Inside Information, and a post-trade confirmation. The approver differs by seniority (Audit Committee chair, Board chair, or Company Secretary/CEO) but all ACL Persons follow the same substantive rules. If the bank later needs to enforce its security and sell the shares, that sale is an exempted dealing requiring only after-the-fact notice, not fresh clearance. No minimum shareholding requirement is referenced."
+}
