@@ -20,7 +20,11 @@ Collects the securities trading policy of the largest ASX-listed companies and e
 | `data/tables/collar.csv` | company x tier | Rule-derived collar status (available, clearance required, notification required, blocked, blocked below floor, unclear) and funded-collar status, with blockers |
 | `data/tables/bespoke.csv` | clause | Tagged collar-relevant clauses outside the schema, with why they matter |
 
-`data/parsed_v1/` holds the first-pass flat extractions of six policies under the earlier schema.
+| `data/tables/qa.csv` | issue | Cross-checks from `extract.py --qa`: schema validity, topic coverage, tier names used in rules but not declared, evidence quotes not found in the source text (expected for scanned PDFs), and parsed company name not matching the manifest (usually a rename, occasionally a reused ASX code) |
+
+`data/skipped.txt` lists lodgements that turned out not to be a trading policy (date-change notices, cover letters pointing to a website, a responsible entity's staff policy) and other provenance notes. `data/parsed_v1/` holds the first-pass flat extractions of six policies under the earlier schema.
+
+Provenance caveats worth knowing before relying on a row: the lodged copy can be years old (about 55 policies date from 2010 to 2012); some codes have been reused by a different company since lodgement (SKS resolves to an Energy Developments policy); renamed companies appear under their old name in the document; and listed trusts often lodge their responsible entity's staff policy rather than a director policy (QRI, KKC, MOT, OPH, GLF, MA1).
 
 ## Usage
 
@@ -32,6 +36,7 @@ uv run python extract.py                      # data/parsed/*.json, data/results
 uv run python extract.py --symbols CBA BHP    # subset
 uv run python extract.py --report-only        # rebuild tables from existing JSON
 uv run python extract.py --validate CBA BHP   # check hand-written or edited JSON
+uv run python extract.py --qa                 # cross-checks -> data/tables/qa.csv
 uv run python watch.py --dry-run --all        # list new lodgements since last run (all companies)
 uv run python watch.py                        # pull in updates for tracked companies, then re-run extract.py
 ```

@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pymupdf
 
-from schema import Policy
+from schema import Policy, Topic
 
 DATA = Path(__file__).parent / "data"
 MODEL = "claude-opus-5"
@@ -127,6 +127,47 @@ Definitions_fields = ["dealing_covers_derivatives", "dealing_covers_agreements_t
                       "dealing_covers_change_of_beneficial_ownership", "securities_include_otc_derivatives", "substance_over_form"]
 
 
+def qa(rows):
+    """Cross-checks: schema validity, all topics covered, tier names consistent, evidence quotes found in the source, company name matches the manifest."""
+    import re
+    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    stop = {"limited", "ltd", "group", "holdings", "corporation", "the", "trust", "fund", "reit", "plc", "inc", "nl", "australia", "australian"}
+    issues = []
+    for row in rows:
+        sym = row["symbol"]
+        path = DATA / "parsed" / f"{sym}.json"
+        if not path.exists():
+            continue
+        try:
+            p = Policy.model_validate_json(path.read_text())
+        except Exception as e:
+            issues.append((sym, "invalid", str(e)[:120]))
+            continue
+        topics = {r.topic for r in p.rules}
+        missing = set(Topic.__args__) - topics
+        if missing:
+            issues.append((sym, "topics_missing", ",".join(sorted(missing))))
+        names = {t.name for t in p.tiers} | {"all"}
+        bad = {r.tier for r in p.rules if r.tier not in names} | {c.tier for c in p.clearance if c.tier not in names}
+        if bad:
+            issues.append((sym, "tier_unknown", " | ".join(sorted(bad))[:120]))
+        text = norm((DATA / "text" / f"{sym}.txt").read_text()) if (DATA / "text" / f"{sym}.txt").exists() else ""
+        if len(text) > 2000:
+            unfound = [r.evidence[:60] for r in p.rules if r.evidence and norm(r.evidence) not in text]
+            if len(unfound) > max(2, len(p.rules) // 3):
+                issues.append((sym, "evidence_unfound", f"{len(unfound)}/{len(p.rules)} quotes not in text"))
+        a, b = set(norm(row["name"]).split()) - stop, set(norm(p.company).split()) - stop
+        if a and b and not (a & b):
+            issues.append((sym, "company_mismatch", f"manifest={row['name']} | parsed={p.company[:60]}"))
+    with open(DATA / "tables" / "qa.csv", "w", newline="") as fh:
+        w = csv.writer(fh)
+        w.writerow(["symbol", "check", "detail"])
+        w.writerows(issues)
+    for i in issues:
+        print(*i, sep="\t")
+    print(f"{len(issues)} issues -> data/tables/qa.csv", file=sys.stderr)
+
+
 def validate(symbols):
     ok = True
     for s in symbols:
@@ -146,6 +187,7 @@ def main():
     p.add_argument("--force", action="store_true", help="re-extract even if a parsed JSON exists")
     p.add_argument("--report-only", action="store_true")
     p.add_argument("--validate", nargs="+", metavar="SYM", help="validate data/parsed/SYM.json against the schema and exit")
+    p.add_argument("--qa", action="store_true", help="run cross-checks over all parsed JSON and write data/tables/qa.csv")
     args = p.parse_args()
     if args.validate:
         validate(args.validate)
@@ -153,6 +195,8 @@ def main():
     rows = [r for r in csv.DictReader(open(DATA / "policies.csv")) if r["status"] == "ok"]
     if args.symbols:
         rows = [r for r in rows if r["symbol"] in args.symbols]
+    if args.qa:
+        return qa(rows)
     if not args.report_only:
         with ThreadPoolExecutor(args.workers) as ex:
             list(ex.map(lambda r: process(r, args.force), rows))
