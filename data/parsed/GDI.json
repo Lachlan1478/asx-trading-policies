@@ -1,0 +1,354 @@
+{
+ "symbol": "GDI",
+ "company": "GDI Property Group",
+ "title": "Securities Trading Policy",
+ "date_approved": "24 July 2015",
+ "date_effective": "24 July 2015",
+ "date_lodged": "30 July 2015",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Personnel",
+   "kind": "all_staff",
+   "description": "All directors, officers, employees, contractors, consultants and other persons that act on behalf of GDI Property Group. Subject to the insider trading law and the outright prohibitions in clause 1.8 (derivatives, CFDs, short-selling), but not to Closed Periods or prior approval unless also a Restricted Person.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors; nominated executives (KMP - direct reports to the Managing Director, and those persons' direct reports); employees who may be privy to inside information placed on the Restricted Persons Register; any person registered as an Authorised Representative under the AFSL; and any associate (section 92 Corporations Act) of the above, including spouse, de facto, family members, controlled trusts and companies or third parties contemplating dealing on the person's behalf.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "directors",
+   "kind": "director",
+   "description": "Restricted Persons who are directors; distinguished only for clearance (Chairman is the Authoriser).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "the Chairman",
+   "kind": "director",
+   "description": "The Chairman, whose own dealing requests are authorised by the Chairman of the Audit and Risk Compliance Committee rather than the Chairman.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "employees",
+   "kind": "kmp",
+   "description": "Nominated executives, employees on the Restricted Persons Register, and Authorised Representatives; distinguished only for clearance (Managing Director or Company Secretary is the Authoriser).",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "transactions with GDI Property Group Securities (or any derivative thereof) in associated products which limit the economic risk of any unvested entitlements under any equity-based remuneration schemes",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "end of the relevant financial year (30 June)",
+   "end_anchor": "24 hours following release of Full Year results to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "end of the relevant half year (31 December)",
+   "end_anchor": "24 hours following release of Half Year results to ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "GDI Property Group may determine Additional Closed Periods, including when considering matters subject to ASX Listing Rule 3.1A, or in the period prior to a corporate event such as the AGM or the issue of a disclosure document. Additional Closed Periods are notified to Restricted Persons (and to Personnel if applicable); communications are carefully managed to maintain confidentiality.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.8.1",
+   "detail": "Blanket, unconditional ban on all Personnel trading in any derivative product over GDI Securities, expressly naming warrants, exchange-traded and over-the-counter options, and CFDs, with no vesting carve-out and no approval route.",
+   "evidence": "trading in derivative products over GDI Property Group Securities, including warrants, exchange-traded and over-the-counter options, and contracts for difference"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.7.2",
+   "detail": "Separate, narrower anti-hedging clause bans transactions in GDI Securities or any derivative of them, in associated products, that limit the economic risk of unvested entitlements under equity-based remuneration schemes; Restricted Persons must consult the Chairman if unsure whether a transaction would do this.",
+   "evidence": "Restricted Persons are not permitted to enter into transactions with GDI Property Group Securities (or any derivative thereof) in associated products which limit the economic risk of any unvested entitlements under any equity-based remuneration schemes awarded under any equity-based remuneration scheme currently in operation or which will be offered by the Company in the future."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "1.8.1",
+   "detail": "Hedging of vested shares is not separately named, but any instrument that would hedge them (option, CFD or other derivative) is caught by the blanket ban on derivative products over GDI Securities, so the effect is the same as for unvested entitlements.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.8.1",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure is a 'derivative product' over GDI Securities and so falls within the blanket ban, regardless of vesting state.",
+   "evidence": "trading in derivative products over GDI Property Group Securities, including warrants, exchange-traded and over-the-counter options, and contracts for difference"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.8.1",
+   "detail": "Outright ban on borrowing and selling GDI Securities with intent to buy back at a lower price.",
+   "evidence": "short-selling - the borrowing and sale of GDI Property Group Securities with the intention of purchasing the securities at a later date at a lower price, thus closing out the short position at a profit."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Lending out one's own GDI Securities is not addressed; only borrowing securities from someone else (as part of short-selling) is mentioned.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.8.1",
+   "detail": "Contracts for difference are expressly named among the prohibited derivative products.",
+   "evidence": "trading in derivative products over GDI Property Group Securities, including warrants, exchange-traded and over-the-counter options, and contracts for difference"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.7.1",
+   "detail": "Restricted Persons must not enter agreements giving lenders rights over their GDI Securities (e.g. a margin loan) without prior approval under section 1.4, and must disclose the existence and terms of a proposed (or amended) margin loan to the Company Secretary before it commences and obtain written authorisation from the Managing Director or Company Secretary before entering into it. The Policy itself flags the conflict risk if a margin call forces a sale while the person holds inside information.",
+   "evidence": "Without prior approval in the manner set out in section 1.4, Restricted Persons must not enter into agreements that provide lenders with rights over their interests in GDI Property Group Securities (e.g. for the disposal of GDI Property Group Securities that is the result of a secured lender exercising their rights under a margin lending agreement)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "1.7.1",
+   "detail": "Clause 1.7.1 is addressed to Restricted Persons only; the Policy is silent on non-restricted Personnel entering margin loans.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.7.1",
+   "detail": "Granting a lender rights over one's interest in GDI Securities (an encumbrance) is expressly regulated and requires prior approval under section 1.4 plus disclosure of terms to the Company Secretary and written authorisation from the Managing Director or Company Secretary.",
+   "evidence": "Restricted Persons must not enter into agreements that provide lenders with rights over their interests in GDI Property Group Securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.7.1",
+   "detail": "The clause is not limited to margin loans strictly so called ('e.g.'); any secured financing arrangement giving a lender rights over the securities requires prior approval, disclosure and written authorisation.",
+   "evidence": "Restricted Persons must not enter into agreements that provide lenders with rights over their interests in GDI Property Group Securities (e.g. for the disposal of GDI Property Group Securities that is the result of a secured lender exercising their rights under a margin lending agreement)."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period or short-term dealing restriction is imposed; the Policy only aspirationally encourages long-term holding, which is not framed as a binding rule.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "directors",
+   "type": "approval",
+   "approver": "Chairman",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.4",
+   "evidence": "a Restricted Person must not deal in GDI Property Group Securities without: completing the GDI Property Group Securities Trading Form ... and obtaining written authority to trade. ... Chairman - for the directors ... permission to deal may be withdrawn if new information arises, or if there is a change in circumstances."
+  },
+  {
+   "tier": "the Chairman",
+   "type": "approval",
+   "approver": "Chairman of the Audit and Risk Compliance Committee",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.4",
+   "evidence": "Chairman of the Audit and Risk Compliance Committee - for the Chairman"
+  },
+  {
+   "tier": "employees",
+   "type": "approval",
+   "approver": "Managing Director or Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.4",
+   "evidence": "Managing Director or Company Secretary - for employees ... a Restricted Person must effect the instructions to deal within 2 days of receiving permission, and the dealing must be executed within that period"
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Authoriser",
+   "evidence": "A Restricted Person, who is not in possession of inside information in relation to GDI Property Group, may be given prior written clearance to sell or otherwise dispose of GDI Property Group Securities during a Closed Period where the Restricted Person is in severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Authoriser",
+   "evidence": "if the person is required by a court order, or there are court enforceable undertakings, for example, bona fide family settlement or other overriding legal or regulatory requirements, the transfer or sale of the securities may be considered an exceptional circumstance."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading units of, a fund or other scheme (other than a scheme only investing in GDI Property Group's Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Restricted Person is a trustee, trading in GDI Property Group Securities by that trust, provided the Restricted Person is not a beneficiary of the trust and any decision to trade during a Closed Period is taken by the other trustees or by the investment managers independently of the Restricted Person"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Authoriser",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided in accordance with procedures set out in this policy and where: the Restricted Person did not enter into the plan or amend the plan during a Closed Period; and the trading plan does not permit Restricted Persons to exercise any influence or discretion over how, when, or whether to trade."
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all shareholders, such as, a rights issue or share purchase plan, where the plan that determines the timing and structure of the offer has been approved by the Board"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of GDI Property Group Securities already held into a superannuation fund or other saving scheme in which the member of Personnel is a beneficiary"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Restricted Persons: prior to commencement of a proposed margin loan (or amendment of an existing one), disclose its existence and terms to the Company Secretary, and obtain written authorisation from the Managing Director or Company Secretary before entering into it."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Continuous Disclosure Policy (referenced for materiality guidance)"],
+ "exemption_authority": "The applicable Authoriser (Chairman for directors; Chairman of the Audit and Risk Compliance Committee for the Chairman; Managing Director or Company Secretary for nominated executives, Restricted Persons Register employees and Authorised Representatives) may grant prior written clearance to sell or otherwise dispose of GDI Securities during a Closed Period in cases of severe financial hardship or other exceptional circumstances where the sale is the only reasonable course of action. A refusal is final and binding, and the person seeking permission (not the Company) must keep the refusal confidential.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "blanket derivatives and CFD ban",
+   "clause": "Personnel are prohibited from participating in or entering into any of the following under this policy: trading in derivative products over GDI Property Group Securities, including warrants, exchange-traded and over-the-counter options, and contracts for difference.",
+   "why_it_matters": "This is an absolute, unconditional ban with no vesting carve-out and no approval route, so both the purchased put and the written call legs of an OTC collar are prohibited outright for every person the Policy covers."
+  },
+  {
+   "topic": "margin lending conflict warning",
+   "clause": "Margin lending poses special risks to the compliance by Restricted Persons with this policy, particularly where the terms of the margin lending arrangements may place the Restricted Person in a position of conflict with their obligations under this policy and/or with the insider trading laws (for example, if a call is made under the arrangements, which results in GDI Property Group Securities being sold while the Restricted Person possesses inside information).",
+   "why_it_matters": "Even if the derivatives ban did not already block the collar, the Policy itself flags that a lender's forced sale on a margin call while the executive holds inside information would breach both the Policy and insider trading law, with no stated carve-out for enforcement sales."
+  },
+  {
+   "topic": "GDI Securities scope",
+   "clause": "GDI Property Group Securities include the stapled securities comprising a share in GDI Property Group Limited and a unit in GDI Property Group Trust trading on the ASX under the code 'GDI' and any performance rights issued pursuant to the GDI Property Group Performance Rights Plan.",
+   "why_it_matters": "The stapled structure and performance rights plan define exactly what 'securities' the derivatives, margin lending and short-selling prohibitions attach to; a collar over the stapled security is squarely within scope."
+  },
+  {
+   "topic": "individual must keep refusal confidential",
+   "clause": "A refusal to grant permission to deal is final and binding on the person seeking the permission. If permission is refused, the person must keep that information confidential and not disclose it to anyone, to ensure that GDI Property Group manages its disclosure obligations.",
+   "why_it_matters": "Unusually, the confidentiality duty on a refusal is imposed on the individual rather than just the Company, which would constrain how an executive could explain a declined clearance request to the bank."
+  }
+ ],
+ "summary": "A funded collar is not available under this Policy. Clause 1.8.1 imposes a blanket, unconditional prohibition on all Personnel trading in any derivative product over GDI Securities, expressly naming exchange-traded and over-the-counter options and contracts for difference, with no distinction by vesting state, tier or approval route, so both the purchased put and the written call legs are banned outright. The loan leg is separately regulated rather than banned: Restricted Persons may enter a margin loan or similar secured financing arrangement over their GDI Securities only after disclosing its existence and terms to the Company Secretary and obtaining prior written authorisation from the Managing Director or Company Secretary, and the Policy itself flags the compliance risk of a lender's forced sale occurring while the person holds inside information. Because the derivative legs cannot be executed at all, the availability of secured financing for the loan leg is academic. There is no exemption authority, hardship relief or trading-plan carve-out that reaches derivatives (relief under clause 1.6 is limited to selling or disposing of existing holdings), so this Policy would need to be varied by the Board before a funded collar could be offered."
+}

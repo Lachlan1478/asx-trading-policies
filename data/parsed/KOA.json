@@ -1,0 +1,439 @@
+{
+ "symbol": "KOA",
+ "company": "The Koala Company Ltd",
+ "title": "Securities Trading Policy",
+ "date_approved": "13 February 2026",
+ "date_effective": "13 February 2026",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors and Senior Management",
+   "kind": "kmp",
+   "description": "Each director of Koala (and its Related Bodies Corporate), the CEO, the CFO and Company Secretary of Koala, Key Management Personnel, and persons the Board decides from time to time.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "kmp",
+   "description": "Subset of Directors and Senior Management distinguished only for the identity of the Authorising Officer, who for the Chair is the chair of the Audit and Risk Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Koala Person",
+   "kind": "restricted",
+   "description": "All Directors and Senior Management; a company or trust they control; for section 6 only, a spouse, child, close relative, financially dependent person or person acting in concert with a Director or Senior Management; contractors, secondees and consultants; and any other person designated a Koala Person by the Board in writing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A spouse (including de facto spouse), child (including step-child or adopted child), close relative, or person financially dependent on or acting in concert with a Director or Senior Management; included as a Koala Person for section 6 (notification and consent) purposes only.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "operate to limit the economic risk of any Koala Person's security holding (e.g. hedging arrangements) including Koala securities held beneficially (for example, in trust or under any Koala incentive plan) on Koala Person's behalf",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Koala Person"],
+   "start_anchor": "close of the ASX trading day on 31 December each year",
+   "end_anchor": "10:00am AEDT on the ASX trading day following the day on which the Company's half yearly results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Koala Person"],
+   "start_anchor": "close of the ASX trading day on 30 June each year",
+   "end_anchor": "10:00am AEST on the ASX trading day following the day on which the Company's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Koala Person"],
+   "start_anchor": "close of the ASX trading day two weeks prior to the date of the Company's AGM",
+   "end_anchor": "10:00am Sydney time on the ASX trading day following the date of the Company's AGM",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify additional Blackout Periods from time to time. A Koala Person refused clearance must keep that refusal confidential; the Policy does not separately state that additional Blackout Periods are themselves confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Koala Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6",
+   "detail": "Blackout Periods expressly extend beyond securities to 'financial products'. Outside a Blackout Period, dealing in Koala securities or related financial products requires prior notification and written consent from the Authorising Officer under section 6.",
+   "evidence": "During Blackout Periods Koala Persons must not Deal in any of the Company's financial products or securities, or in any securities related to them."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Koala Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No protection arrangements)",
+   "detail": "Absolute ban on protection arrangements (including hedging) over unvested Koala securities; no clearance route.",
+   "evidence": "The entering into of all types of 'protection arrangements' for any Koala securities (or Koala products in the derivatives markets): is prohibited at any time in respect of any Koala securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Koala Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No protection arrangements)",
+   "detail": "The same absolute ban extends to vested securities still subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any Koala securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Koala Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 6",
+   "detail": "Hedging (a 'protection arrangement' that operates to limit economic risk) of vested, unrestricted securities is permitted with prior written consent from the Authorising Officer under section 6.",
+   "evidence": "otherwise, requires consent under paragraph 6."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The Policy does not separately address monetisation structures beyond protection arrangements and general Dealing consent.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Koala Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No protection arrangements)",
+   "detail": "Short selling beyond a Koala Person's holding is expressly named as a protection arrangement, prohibited absolutely over unvested securities.",
+   "evidence": "entering into protection arrangements includes entering into transactions which: amount to \"short selling\" of securities beyond the Koala Person's holding of securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Koala Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 6",
+   "detail": "Short selling beyond holding over vested, unrestricted securities is a protection arrangement permitted only with section 6 consent; a covered sale of shares actually held is an ordinary Dealing subject to the same consent regime.",
+   "evidence": "otherwise, requires consent under paragraph 6."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No provision addresses lending Koala securities to a third party.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Koala Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No speculative trading; No protection arrangements)",
+   "detail": "A CFD over unvested Koala securities is banned both as a protection arrangement and, if short-term or speculative in nature, under the separate speculative trading ban.",
+   "evidence": "transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Koala Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 6",
+   "detail": "A CFD or similar derivative over vested, unrestricted securities is a protection arrangement requiring section 6 consent, unless it is itself short-term or speculative trading, which is banned outright regardless of vesting or consent.",
+   "evidence": "otherwise, requires consent under paragraph 6."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Koala Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No granting of security ... or margin lending)",
+   "detail": "Absolute ban on entering a margin lending arrangement involving Koala securities that are unvested or subject to a holding lock.",
+   "evidence": "Koala Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Koala securities which are unvested or subject to a holding lock, to secure any obligation of that Koala Person or any third party or enter into any margin lending arrangement involving Koala securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Koala Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 6",
+   "detail": "A margin lending arrangement involving vested, unrestricted Koala securities is expressly permitted with prior consent under section 6.",
+   "evidence": "Koala Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Koala securities, to secure any obligation of that Koala Person or any third party or enter into any margin lending arrangement involving Koala securities, with consent under section 6."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Koala Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No granting of security ...)",
+   "detail": "Absolute ban on granting any charge, mortgage, pledge or other security over Koala securities that are unvested or subject to a holding lock, to secure any obligation of the Koala Person or a third party.",
+   "evidence": "Koala Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Koala securities which are unvested or subject to a holding lock, to secure any obligation of that Koala Person or any third party."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Koala Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 6",
+   "detail": "Granting a charge, mortgage or pledge over vested, unrestricted Koala securities (e.g. as collateral for a bank loan) is expressly permitted with prior consent under section 6.",
+   "evidence": "Koala Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Koala securities, to secure any obligation of that Koala Person or any third party ... with consent under section 6."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Koala Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No granting of security ...)",
+   "detail": "The security-granting ban is not limited to margin loans: it covers any form of security securing any obligation of the Koala Person or a third party, over unvested or holding-locked Koala securities.",
+   "evidence": "Koala Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Koala securities which are unvested or subject to a holding lock, to secure any obligation of that Koala Person or any third party."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Koala Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7; 6",
+   "detail": "Any secured financing arrangement (not only a margin loan) over vested, unrestricted Koala securities is expressly permitted with prior consent under section 6, covering a bank loan secured on the collared shares.",
+   "evidence": "Koala Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Koala securities, to secure any obligation of that Koala Person or any third party or enter into any margin lending arrangement involving Koala securities, with consent under section 6."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7 (No speculative trading)",
+   "detail": "Absolute, undefined-period ban on short-term or speculative trading, extending to short-term or speculative transactions in exchange-traded options, warrants, CFDs and similar instruments.",
+   "evidence": "Under no circumstances should Koala Persons engage in short-term or speculative trading in Koala securities. This prohibition includes short term direct Dealing in Koala securities as well as transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "The chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "within 3 business days of Dealing",
+   "section": "6",
+   "evidence": "Chair of the Board | The chair of the Audit and Risk Committee. ... Authorising Officers have absolute discretion to give or refuse clearance to a proposed Dealing and to withdraw clearance if new information comes to light."
+  },
+  {
+   "tier": "Directors and Senior Management",
+   "type": "approval",
+   "approver": "The chair of the Board or, in his/her absence, the chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "within 3 business days of Dealing",
+   "section": "6",
+   "evidence": "Other directors, Company Secretary and any other Key Management Personnel | The chair of the Board or, in his/her absence, the chair of the Audit and Risk Committee."
+  },
+  {
+   "tier": "Koala Person",
+   "type": "approval",
+   "approver": "The Company Secretary or, in his/her absence, the chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "within 3 business days of Dealing",
+   "section": "6",
+   "evidence": "Any other Koala Person | The Company Secretary or, in his/her absence, the chair of the Audit and Risk Committee. ... A clearance to trade is valid for 5 business days."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should Koala Persons engage in short-term or speculative trading in Koala securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade Koala securities where the trading does not result in a change of beneficial interest in the securities"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire securities under any director or employee security plan or through the exercise of options or performance rights under an option or performance rights plan or acquire, or agree to acquire, options or performance rights under an option or performance rights plan."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfer Koala securities already held into a self-managed superannuation fund or other saving scheme in which the restricted person is a beneficiary"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Koala's ordinary shares by conversion of securities giving a right of conversion to Koala's ordinary shares"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Koala's securities under a bonus issue made to all holders of securities of the same class"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept, a takeover offer"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in the securities of Koala) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Koala securities that is the result of a secured lender exercising their rights under a loan or security agreement"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trade in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the restricted person"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "In Exceptional Circumstances (severe financial hardship, compulsion by court order or enforceable undertaking, another overriding legal or regulatory requirement, Koala issuing a prospectus/cleansing notice/other announcement during a Blackout Period, or any other circumstance the Board Chair or Chair of the Audit and Risk Committee deems exceptional), the Authorising Officer has discretion to approve Dealing during a Blackout Period or otherwise-prohibited Dealing. Approval must be given by email and notification requirements still apply; what is 'exceptional' is assessed case-by-case in the Board's absolute discretion.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "protection arrangements sweep",
+   "clause": "entering into protection arrangements includes entering into transactions which: amount to \"short selling\" ...; operate to limit the economic risk of any Koala Person's security holding (e.g. hedging arrangements) ...; or otherwise enable a Koala Person to profit from a decrease in the market price of securities.",
+   "why_it_matters": "This single, deliberately broad definition captures both legs of a collar (the purchased put profits from a price decrease; the structure as a whole limits economic risk), regardless of how the bank labels or documents the transaction."
+  },
+  {
+   "topic": "security over vested shares permitted with consent",
+   "clause": "Koala Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Koala securities, to secure any obligation of that Koala Person or any third party or enter into any margin lending arrangement involving Koala securities, with consent under section 6.",
+   "why_it_matters": "Unlike policies that ban all secured financing outright, Koala expressly permits granting security and margin lending over vested, unrestricted shares with prior consent, making the loan leg of a funded collar structurally available."
+  },
+  {
+   "topic": "forced-sale exemption needs no prior clearance",
+   "clause": "Koala Persons may at any time: ... a disposal of Koala securities that is the result of a secured lender exercising their rights under a loan or security agreement",
+   "why_it_matters": "This is a true 'at any time' exemption from the Blackout Period restrictions requiring only post-hoc advice to the Authorising Officer, so a lender's enforcement sale under the collar loan is not itself blocked by Blackout Period timing, unlike several peer policies."
+  },
+  {
+   "topic": "cannot self-authorise",
+   "clause": "the Koala Person seeking authorisation cannot be their own Authorising Officer",
+   "why_it_matters": "For the Chair of the Board or a senior executive, clearance is pushed to a genuinely independent officer (e.g. the Chair of the Audit and Risk Committee), relevant to sequencing sign-off for the collar."
+  },
+  {
+   "topic": "substance-over-form catch-all",
+   "clause": "otherwise enable a Koala Person to profit from a decrease in the market price of securities",
+   "why_it_matters": "This open-ended formulation means any bespoke or unconventional collar structure will still be characterised as a protection arrangement by its economic substance, so it cannot be engineered around the vesting-based prohibition or the consent regime."
+  }
+ ],
+ "summary": "A funded collar is achievable for Koala Persons over vested, unrestricted shares. Section 7's broad 'protection arrangements' definition expressly captures hedging, short selling beyond a holding, and any arrangement enabling a profit from a price decrease - squarely covering a collar's put and call legs - and is prohibited outright only where the securities are unvested or subject to a holding lock; over vested, unrestricted shares it is permitted with prior written consent from the appropriate Authorising Officer under section 6, valid for 5 business days, with a transaction confirmation due within 3 business days of dealing. The loan leg is equally accommodated: Koala expressly permits granting any form of security (charge, mortgage or pledge) or entering a margin lending arrangement over vested, unrestricted shares with the same section 6 consent, though both are absolutely prohibited if the shares are unvested or holding-locked. Entry and unwind must avoid the half-year, full-year and AGM Blackout Periods (absent Exceptional Circumstances approval) and the undefined but absolute short-term/speculative trading ban. Helpfully, a secured lender's enforcement sale is an exemption available 'at any time' requiring only post-hoc notice to the Authorising Officer, so the bank's ability to enforce the collar loan is not itself blocked by a Blackout Period."
+}

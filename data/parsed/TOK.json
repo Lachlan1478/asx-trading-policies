@@ -1,0 +1,496 @@
+{
+ "symbol": "TOK",
+ "company": "Tolu Minerals Limited",
+ "title": "Corporate Governance Charter, Section 9 - Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "9 November 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors, the Company Secretary, Key Management Personnel, any Employee/contractor/consultant providing managerial or administrative services, any person the Managing Director or CEO specifies, and any Related Person/Related Entity/Associate of those persons (who is itself a Restricted Person). All substantive prohibitions (inside trading, short-term dealing, short selling, unvested hedging) apply uniformly to this tier; for clearance purposes the label also denotes those who are not Directors, the Chairperson, the Managing Director/CEO or the Company Secretary, who clear via a designated Director or the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors other than the Chairperson or Managing Director/CEO; distinguished for their own clearance chain (notify Chairperson/designated Director and Company Secretary) and for the statutory obligation to notify ASX of dealings within 5 Business Days (s250G, LR3.19A).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairperson",
+   "kind": "other",
+   "description": "Distinguished only for clearance: must notify the Managing Director/CEO (or, if unavailable, a senior independent Director, Board committee, or nominated officer) and the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Managing Director or Chief Executive Officer",
+   "kind": "other",
+   "description": "Distinguished only for clearance: must notify the Chairperson (or fallback) and the Company Secretary; also empowered to designate additional Restricted Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Company Secretary",
+   "kind": "other",
+   "description": "Distinguished only for clearance: must notify the Chairperson and obtain clearance from the Chairperson (or nominee); otherwise administers the clearance process, ASX announcements and record-keeping.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "Subset of Restricted Persons subject to the Corporations Act's statutory ban on hedging arrangements over unvested, or vested-but-holding-locked, remuneration (clause 9.16); their closely related parties are covered by the same statutory prohibition.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Related Person, Related Entity or Associate of a Restricted Person; deemed a Restricted Person in its own right under limb (c) of the definition. The primary Restricted Person must also take reasonable steps to prevent, and must notify a Clearance Officer of, an Associate's dealing during a Prohibited Period (9.9).",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "no",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "no",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "an arrangement if the arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the members remuneration that has not vested or has vested but remains subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "5 Business Days before the planned date for release of the quarterly report for the quarters ending 31 March and 30 September",
+   "end_anchor": "Business Day after release of that quarterly report to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "10 Business Days before the planned date for release of the 30 June quarterly report",
+   "end_anchor": "Business Day after release of the 30 June Appendix 4E and full year financial report to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "10 Business Days before the planned date for release of the 31 December quarterly report",
+   "end_anchor": "Business Day after release of the 31 December Appendix 4D and half year financial report to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "release of information to the ASX which a reasonable person would expect to have a Material Effect on the price or value of the Company's Securities",
+   "end_anchor": "Business Day after the release of such information to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Directors may, in their absolute discretion, determine any other period to be a Blackout Period (Blackout Period definition, paragraph (e)). Confidentiality of that determination itself is not addressed, though a refusal of clearance to deal during any Prohibited Period is confidential between the Company and the person requesting clearance.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "9.20; 9.21 (Securities)",
+   "detail": "Securities is defined narrowly to shares, debentures, interests in them, options to acquire by way of issue, and rights under a rights issue; Dealing is limited to applying for, acquiring or disposing of Securities (or agreements to do so) or procuring another to do so. A third-party OTC derivative referencing the Company's shares (e.g. a purchased put or written call with a bank) is not itself 'Securities' and, unless it involves an agreement to acquire or dispose of the underlying shares on settlement, is not caught by the Dealing definition or clearance regime.",
+   "evidence": "Securities means: (a) shares; (b) debentures; (c) legal or equitable interests in a security covered by paragraph (a) or paragraph (b) above; (d) options to acquire, by way of issue, a security covered by paragraph (a) or paragraph (b) above."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.16",
+   "detail": "KMP and their closely related parties must not deal in a way that infringes the Corporations Act prohibition on hedging arrangements limiting exposure to unvested equity remuneration.",
+   "evidence": "Key Management Personnel of the Company and their closely related parties should not Deal in Securities in the Company which may infringe this prohibition under the Corporations Act."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.16",
+   "detail": "The statutory prohibition referenced in 9.16 extends to remuneration that 'has vested but remains subject to a holding lock', so KMP hedging (e.g. a collar) is barred while a holding lock applies even after vesting.",
+   "evidence": "The Corporations Act prohibits Key Management Personnel and a closely related party of Key Management Personnel from entering into an arrangement if the arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the members remuneration that has not vested or has vested but remains subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.16",
+   "detail": "Any Restricted Person (not only KMP) is barred from hedging transactions limiting exposure to unvested equity remuneration; unlike the KMP limb, this is not stated to extend to vested-but-locked entitlements.",
+   "evidence": "nor should any other Restricted Person enter into hedging transactions to limit his or her exposure in respect of any unvested entitlement to Securities he or she receives under any equity based remuneration scheme of the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Clause 9.16 only restrains hedging of unvested entitlements (or, for KMP, vested-but-locked remuneration). Once vested and unrestricted, hedging via an OTC derivative is not itself a Dealing (see 'derivatives' topic), so it falls outside the express hedging prohibition and the clearance regime, subject to the general insider trading, short-term dealing and short-selling clauses.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.20(b); 9.4",
+   "detail": "Monetisation (e.g. a prepaid forward sale) is not named. Entering an agreement to dispose of Securities is itself a Dealing requiring prior clearance under 9.4, and is barred outright during Prohibited Periods for short-term dealing, short selling, hedging, or while holding Inside Information (9.3(b)).",
+   "evidence": "entering into an agreement to apply for, acquire or dispose of Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.15; 9.3(b)",
+   "detail": "Absolute ban on short selling; clearance or Excluded Dealing status cannot override it (9.3(b) expressly preserves the short-selling ban notwithstanding any clearance).",
+   "evidence": "A Restricted Person must not Deal in any Securities of the Company where the Dealing involves the short selling of Securities in the Company."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the Policy and is not listed among Excluded Dealings or within the Dealing definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "CFDs are not named. A CFD is a cash-settled contract referencing the Company's share price and is not itself 'Securities' as narrowly defined, nor does entering one involve applying for, acquiring or disposing of Securities, so it falls outside the Dealing and clearance regime.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.13",
+   "detail": "Permitted without pre-clearance to deal (entering the financing itself is not defined as a Dealing), but must be disclosed to a Clearance Officer at inception; the Board/Company Secretary must further disclose to the market where Listing Rule 3.1 requires or where the Funding Arrangement covers 5% or more of the Company's shares.",
+   "evidence": "A Restricted Person may enter into a margin loan or similar funding arrangement in respect of any Company Securities (Funding Arrangements) but must disclose the existence, nature and terms of the Funding Arrangements to a Clearance Officer who will notify the Board."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.13",
+   "detail": "Granting security over Company Securities is not separately named but falls within the broad 'margin loan or similar funding arrangement' language of 9.13; it is not defined as a Dealing so does not require pre-clearance, but must be disclosed to a Clearance Officer and, where thresholds are met, to the market.",
+   "evidence": "or enter into any other secured financing arrangements"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.13",
+   "detail": "Broad disclosure-only regime for any margin loan or similar funding arrangement secured over Company Securities; no prohibition, no clearance requirement, and no distinction by vesting state.",
+   "evidence": "A Restricted Person may enter into a margin loan or similar funding arrangement in respect of any Company Securities (Funding Arrangements) but must disclose the existence, nature and terms of the Funding Arrangements to a Clearance Officer who will notify the Board."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.14",
+   "detail": "Absolute two-month bar on trading in and out of Securities; no carve-out is stated for shares or options acquired under an equity incentive scheme, and 9.3(b) preserves this ban notwithstanding any clearance or Excluded Dealing status.",
+   "evidence": "A Restricted Person must not Deal in any Securities of the Company where the Dealing involves the short-term trading of Securities in the Company, being instances where trading in and out of Securities occurs within a period of less than two months."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "designated Director or the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9.4(a)",
+   "evidence": "All Restricted Persons (except those who are Directors, the Chief Executive Officer or the Company Secretary) must not Deal in any Securities of the Company (unless the Dealing is an Excluded Dealing) without first notifying the Company Secretary and a Director designated by the Board for this purpose and receiving clearance to Deal from the designated Director or the Company Secretary."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairperson (or designated Director), or the Company Secretary on their behalf",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "immediately after dealing; ASX must be notified within 5 Business Days of the Dealing",
+   "section": "9.4(b); 9.10(a)",
+   "evidence": "A Director ... must not Deal in any Securities of the Company (unless the Dealing is an Excluded Dealing) without first notifying the Chairperson (or a Director designated by the Board for this purpose) and the Company Secretary and receiving clearance to Deal from the Chairperson."
+  },
+  {
+   "tier": "Chairperson",
+   "type": "approval",
+   "approver": "Managing Director or CEO (or Company Secretary on their behalf), or if unavailable a senior independent Director, Board committee, or nominated officer",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9.4(c)",
+   "evidence": "The Chairperson must not Deal in any Securities of the Company (unless the Dealing is an Excluded Dealing) without first notifying the Managing Director (or Chief Executive Officer) and the Company Secretary and receiving clearance to Deal from the Managing Director (or Chief Executive Officer)."
+  },
+  {
+   "tier": "Managing Director or Chief Executive Officer",
+   "type": "approval",
+   "approver": "Chairperson (or Company Secretary on their behalf), or if unavailable a senior independent Director, Board committee, or nominated officer",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9.4(d)",
+   "evidence": "The Managing Director (or Chief Executive Officer) must not Deal in any Securities of the Company (unless the Dealing is an Excluded Dealing) without first notifying the Chairperson and the Company Secretary and receiving clearance to Deal from the Chairperson."
+  },
+  {
+   "tier": "Company Secretary",
+   "type": "approval",
+   "approver": "Chairperson (or nominated officer), or if unavailable a senior independent Director, Board committee, or nominated officer",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9.4(f)",
+   "evidence": "The Company Secretary must not Deal in any Securities of the Company (unless the Dealing is an Excluded Dealing) without first notifying the Chairperson and receiving clearance to Deal from the Chairperson."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 2,
+   "basis": "trading in and out of Securities within the period",
+   "carve_outs": [],
+   "evidence": "A Restricted Person must not Deal in any Securities of the Company where the Dealing involves the short-term trading of Securities in the Company, being instances where trading in and out of Securities occurs within a period of less than two months."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Clearance Officer designated by the Board",
+   "evidence": "Clearance may be given for such a person to sell (but not purchase) Securities of the Company when that person would otherwise be prohibited by this Policy from doing so."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Clearance Officer designated by the Board",
+   "evidence": "A circumstance will be considered exceptional if the person in question is required by a court order to transfer or sell the Securities of the Company or there is some other overriding legal requirement to do so."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealing where the beneficial interest in the relevant Security does not change."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of Securities in the Company between a Restricted Person and someone closely related to the Restricted Person (such as a spouse, minor child, family company, family trust or superannuation fund) ... in respect of which prior clearance has been provided."
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "trading in the Company's Securities by that trust provided any decision to trade during a Blackout Period is taken by the other trustees or investment manager independently of the Restricted Person."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise of an option or right under an incentive scheme or the conversion of a convertible security, where the final date for the exercise or conversion falls during a Blackout Period and the Restricted Person could not reasonably have been expected to exercise or convert the Security at a time when it was entitled to."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "bona fide gifts to a Restricted Person by a third party."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Securities arising from the acceptance of a takeover offer, scheme of arrangement or equal access buy-back."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "a disposal of rights acquired or an acquisition of Securities in the Company under a pro rata issue."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Securities in the Company under a security purchase plan or a dividend or distribution reinvestment plan where: the Restricted Person did not commence or amend their participation in the plan during a Blackout Period."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the obtaining by a Director of a share qualification."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "acquiring Securities in the Company under an employee incentive scheme or the cancellation or surrender of an option or other right under an employee incentive scheme."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an acquisition or disposal of Securities in the Company under a pre-determined investment or divestment plan for which prior clearance has been provided ... and where ... the plan does not permit the Restricted Person to exercise any discretion over how, when, or whether to acquire or dispose of Securities."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental trading that occurs as a consequence of a Restricted Person dealing in Securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "an involuntary disposal of Securities in the Company that results from a margin lender or financier exercising its rights under the arrangement."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "all: trigger = inception of a margin loan or similar Funding Arrangement; to a Clearance Officer, who notifies the Board; deadline not specified.",
+   "all: trigger = Funding Arrangement requiring disclosure under Listing Rule 3.1, or involving 5% or more of the Company's shares; to the market via the Board and Company Secretary; deadline not specified."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Clearance Officer designated by the Board may permit a sale (not purchase) during a Prohibited Period if the Restricted Person, who holds no Inside Information, is in severe financial difficulty or other exceptional circumstances (e.g. a court order or overriding legal requirement); the Company should consult ASX early if the Listing Rules require (9.5, 9.6).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "funding arrangement permitted",
+   "clause": "A Restricted Person may enter into a margin loan or similar funding arrangement in respect of any Company Securities (Funding Arrangements) but must disclose the existence, nature and terms of the Funding Arrangements to a Clearance Officer who will notify the Board.",
+   "why_it_matters": "The secured loan leg of a funded collar is expressly permitted, not banned, provided it is disclosed to a Clearance Officer at inception."
+  },
+  {
+   "topic": "5% market disclosure trigger",
+   "clause": "where a Restricted Person's Funding Arrangement involves 5% or more of the Company's shares, the Board and Company Secretary will make appropriate disclosure to the market of any key terms of the Funding Arrangements.",
+   "why_it_matters": "A collar loan sized at 5% or more of Tolu's issued shares triggers public disclosure of its key terms, which the executive and bank should factor into deal size and confidentiality."
+  },
+  {
+   "topic": "forced sale excluded dealing",
+   "clause": "an involuntary disposal of Securities in the Company that results from a margin lender or financier exercising its rights under the arrangement.",
+   "why_it_matters": "A lender's enforcement sale on default is treated as an Excluded Dealing not requiring fresh clearance, though 9.3(b)'s insider-trading, short-selling, short-term and hedging bars still apply to it."
+  },
+  {
+   "topic": "narrow Securities/Dealing definition",
+   "clause": "Securities means: (a) shares; (b) debentures; (c) legal or equitable interests ...; (d) options to acquire, by way of issue ...; and (e) rights ... under a rights issue.",
+   "why_it_matters": "Because OTC derivatives and CFDs fall outside 'Securities', the put and call legs of a funded collar likely sit outside the clearance/blackout regime entirely, though physical settlement transferring the underlying shares would itself be a Dealing requiring clearance."
+  },
+  {
+   "topic": "KMP statutory hedging overlay",
+   "clause": "The Corporations Act prohibits Key Management Personnel and a closely related party of Key Management Personnel from entering into an arrangement if the arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the members remuneration that has not vested or has vested but remains subject to a holding lock.",
+   "why_it_matters": "For KMP the ban on hedging unvested or vested-but-holding-locked remuneration derives from statute, not just policy, so writing a collar before the lock lifts risks liability beyond a mere policy breach."
+  },
+  {
+   "topic": "two-month short-term ban",
+   "clause": "trading in and out of Securities occurs within a period of less than two months.",
+   "why_it_matters": "Any unwind or replacement dealing within two months of the shares' acquisition breaches the short-term trading ban, so collar tenor and early-termination mechanics must respect this minimum."
+  },
+  {
+   "topic": "exceptional-circumstances sale-only relief",
+   "clause": "Clearance may be given for such a person to sell (but not purchase) Securities of the Company when that person would otherwise be prohibited by this Policy from doing so.",
+   "why_it_matters": "Hardship or court-order relief only ever permits a sale, never an acquisition, during a Prohibited Period, limiting its use to unwind scenarios and not to establishing new collar positions."
+  },
+  {
+   "topic": "associates deemed Restricted Persons",
+   "clause": "any Related Person or Related Entity (or an Associate of a Related Person or Related Entity) of a person referred in paragraphs (a)(1) and (b) above.",
+   "why_it_matters": "Structuring the collar or loan through a spouse, family trust or controlled entity does not avoid the regime, as such an Associate is itself a Restricted Person under the Policy."
+  }
+ ],
+ "summary": "A funded collar is achievable in stages under this policy. Entering the OTC put and call themselves likely sits outside the Dealing definition, since 'Securities' is defined narrowly to shares, debentures and options/rights issued by the Company rather than third-party derivatives, so the derivative legs are not obviously subject to clearance or blackout timing except via clause 9.16, which bars Key Management Personnel from hedging unvested or vested-but-holding-locked remuneration and bars any other Restricted Person from hedging unvested entitlements; the underlying shares must therefore be vested and (for KMP) no longer holding-locked. The loan secured on those shares is expressly permitted under clause 9.13 as a 'Funding Arrangement', subject only to disclosure of its existence, nature and terms to a Clearance Officer (who notifies the Board), with market disclosure of key terms if it triggers Listing Rule 3.1 or covers 5% or more of Tolu's shares. Any agreement that ultimately disposes of shares (e.g. on physical settlement) is a Dealing requiring prior written clearance (2-business-day turnaround, execution within 5 business days) and cannot occur during a scheduled quarterly Blackout Period, while holding Inside Information, or within two months of acquiring the shares, though a lender's enforcement sale on default is an Excluded Dealing. The collar and loan should not be routed through a spouse, trust or controlled entity to avoid the regime, as such Associates are themselves Restricted Persons under the policy."
+}
