@@ -1,0 +1,441 @@
+{
+ "symbol": "MM1",
+ "company": "Midas Minerals Ltd",
+ "title": "Securities Trading Policy",
+ "date_approved": "19 November 2024",
+ "date_effective": "19 November 2024",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors; Key Management Personnel (including the CEO, CFO and Company Secretary) and their direct reports; any other person with authority and responsibility for planning, directing and controlling the Company's activities; and any other person the Board designates in writing. Subject to Black-out Periods, ad-hoc restrictions, prior written approval to Deal, post-trade notification, and the no-speculative-trading/protection-arrangement/margin loan prohibitions in clause 7.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "A Designated Person who is a Director (other than the Chair); distinguished for approval, which must come from the Chair, and may seek Disposal Consent from the Board as an alternative to the Chair.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "A Designated Person distinguished only for approval: the Chair must obtain the prior written approval of the Board before Dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Non-Director Designated Persons",
+   "kind": "kmp",
+   "description": "Designated Persons other than Directors (e.g. KMP and other persons with authority over the Company's activities); distinguished only for approval, which may be given by the Chair or an Executive Director.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouse (including de facto) or children under 18, a person financially dependent on or acting in concert with a Designated Person, and a trust or company controlled by or in which a Designated Person or close family members have an interest. Deemed to be Designated Persons themselves and so subject to the full Policy.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "employees, consultants or contractors (other than a Designated Person)",
+   "kind": "all_staff",
+   "description": "May Deal at any time provided they do not possess Inside Information. Not subject to Black-out Periods, ad-hoc restrictions, prior approval, protection-arrangement or margin loan prohibitions, which are confined to Designated Persons.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "operate to limit the economic risk of any Designated Person's security holding (e.g. hedging arrangements) including Company Securities held beneficially (for example, in trust or under an incentive plan) on that Designated Person's behalf",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "7 days before the end of April, July, October and January",
+   "end_anchor": "the business day after release of the Company's relevant quarterly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "two weeks prior to release of the Company's half-year results",
+   "end_anchor": "24 hours after release of the Company's half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "two weeks prior to release of the Company's full-year results",
+   "end_anchor": "24 hours after release of the Company's full-year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Chair, in consultation with the Company Secretary, may determine any other period to be a Black-out Period from time to time. Separately, the Company may impose, without notice and in its sole and absolute discretion, additional restrictions on Dealing by any or all Designated Persons, even outside a Black-out Period; any restriction communicated under this clause must be kept strictly confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "14 (Company Securities); 3.1; 6.1",
+   "detail": "Unlike some comparable policies, this Policy contains no standalone Derivatives clause. Company Securities is defined to include 'derivatives ... linked in any way to the underlying price of shares', so an OTC put/call is a Company Security and dealing in it needs the ordinary clause 6 prior written approval and must respect Black-out Periods, unless it separately falls within the 'protection arrangements' ban in 7.3 (see hedging).",
+   "evidence": "Company Securities includes shares, options, warrants, derivatives and interests in shares (including vested options and vested performance share rights) linked in any way to the underlying price of shares in the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.3(a)",
+   "detail": "All 'protection arrangements' (defined to include hedging arrangements that limit economic risk, short selling beyond one's holding, and arrangements enabling profit from a price fall) are banned at any time over unvested Company Securities.",
+   "evidence": "The entering into of all types of 'protection arrangements' for any Company Securities: (a) is prohibited at any time in respect of any Company Securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.3(a)",
+   "detail": "Same outright protection-arrangement ban extends to vested Company Securities still subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any Company Securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.3(b); 6",
+   "detail": "Protection arrangements over vested, holding-lock-free Company Securities are permitted only with clause 6 prior written approval.",
+   "evidence": "otherwise, requires approval under clause 6."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "14 (Deal); 7.3(c); 6",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure is a Dealing (agreement to dispose of securities) and falls within 'protection arrangements' as a transaction that could enable profit from a price decrease or otherwise limit economic risk, so it needs clause 6 approval and is banned outright over unvested or holding-locked shares.",
+   "evidence": "otherwise enable a Designated Person to profit from a decrease in the market price of securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "7.3(a)",
+   "detail": "A monetisation structure over unvested or holding-locked shares is caught by the outright protection-arrangement ban.",
+   "evidence": "is prohibited at any time in respect of any Company Securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.3; 6",
+   "detail": "Short selling of Company Securities beyond the Designated Person's holding is expressly listed as a form of protection arrangement, so it is banned outright over unvested/holding-locked shares (7.3(a)) and otherwise requires clause 6 approval.",
+   "evidence": "entering into protection arrangements includes entering into transactions which: (a) amount to 'short selling' of Company Securities beyond the Designated Person's securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere and is not listed within the Dealing, Company Securities or protection arrangement definitions.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.2",
+   "detail": "CFDs are named expressly and banned only to the extent short-term or speculative; a non-speculative CFD is instead governed by the general Company Securities dealing/protection arrangement regime.",
+   "evidence": "This prohibition includes short term direct dealing in Company Securities as well as transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4",
+   "detail": "Outright ban on entering a Margin Loan or similar funding arrangement to acquire Company Securities, and on using Company Securities as security for a Margin Loan or similar funding arrangement, with no clearance route and no vesting-state carve-out.",
+   "evidence": "Designated Persons may not: (a) enter into a Margin Loan or similar funding arrangement to acquire any Company Securities; or (b) use Company Securities as security for a Margin Loan or similar funding arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4(b)",
+   "detail": "Using Company Securities as security is banned only insofar as it secures a 'Margin Loan or similar funding arrangement' (defined as borrowing to invest in securities using existing investments as security); an encumbrance unconnected to any borrowing is not addressed.",
+   "evidence": "use Company Securities as security for a Margin Loan or similar funding arrangement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4(b); 14 (Margin Loan)",
+   "detail": "Margin Loan is defined broadly as 'any lending or similar arrangement allowing a person to borrow money to invest in securities using existing investments as security'; the 'or similar funding arrangement' wording in 7.4(b) is not limited to margin-lender products and, on its natural reading, extends to a bank loan secured on the Designated Person's Company Securities.",
+   "evidence": "Margin Loan ... means any lending or similar arrangement allowing a person to borrow money to invest in securities using existing investments as security."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.2",
+   "detail": "General ban on short-term or speculative trading, undefined by a fixed holding period.",
+   "evidence": "Under no circumstances should Designated Persons engage in short-term or speculative trading in Company Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Non-Director Designated Persons",
+   "type": "approval",
+   "approver": "Chair or an Executive Director",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within five business days of the Dealing",
+   "section": "6.1(a); 6.3",
+   "evidence": "Any Designated Person (other than a Director) wishing to Deal in Company Securities must obtain the prior written approval of the Chair or an Executive Director before doing so."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "the Chair",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within five business days of the Dealing",
+   "section": "6.1(b); 6.3",
+   "evidence": "In the case of a Director, prior written approval to Deal in Company Securities must be obtained from the Chair."
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "the Board",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within five business days of the Dealing",
+   "section": "6.1(b)",
+   "evidence": "If the Chair wishes to Deal in Company Securities, the Chair must obtain the prior written approval of the Board before doing so."
+  },
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Chair (Approval Officer), or the Board if the Designated Person is a Director",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.2",
+   "evidence": "can be withdrawn (if clearance has been given) if new information comes to light or there is a change in circumstances ... may be made in the Approval Officer's or Board's absolute discretion, without giving any reasons ... must be kept strictly confidential by the Designated Person and not disclosed to any other person (unless otherwise required by law or the ASX Listing Rules)."
+  },
+  {
+   "tier": "employees, consultants or contractors (other than a Designated Person)",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.3",
+   "evidence": "An employee, consultant or contractor (who is not a Designated Person) may, at any time, Deal in Company Securities if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should Designated Persons engage in short-term or speculative trading in Company Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chair (Approval Officer), or the Board if the Designated Person is a Director",
+   "evidence": "the Designated Person is in severe financial hardship and a pressing financial commitment cannot be satisfied otherwise than by disposing of Company Securities."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chair (Approval Officer), or the Board if the Designated Person is a Director",
+   "evidence": "the Designated Person is required by a court order, or there are court enforceability undertakings, to transfer or dispose of Company Securities or there is some other overriding legal regulatory requirement for them to do so."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept, a takeover offer."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "Board (approves timing and structure of the offer)",
+   "evidence": "participate in an offer or invitation made to all or most security holders, including a rights issue, equal access buy-back, security purchase plan or dividend or distribution reinvestment plan, where the timing and structure of the offer or invitation has been approved by the Board."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "exercise (but not Deal with the Company Securities following exercise) an option or right under an employee incentive scheme where the final date for the exercise of the option or right falls during a Black-out Period ... and the Designated Person could not reasonably have been expected to exercise it at a time when free to do so."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Company securities under a bonus issue made to all holders of securities of the same class."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Company securities under a dividend reinvestment, or top-up plan that is available to all holders of securities of the same class."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire, or agree to acquire, Company Securities under any employee incentive scheme or through the exercise of Company Securities under an employee incentive scheme (eg. options or convertible securities)."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "withdraw ordinary shares in the Company held on behalf of the Designated Person in an employee incentive scheme where the withdrawal is permitted by the rules of that plan."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "other trustees or investment managers",
+   "evidence": "where the Designated Person is a trustee, trade in Company Securities by that trust, provided the Designated Person is not a beneficiary of the trust and any decision to trade during a Black-out Period is taken by the other trustees or by the investment managers independently of the Designated Person."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Disposal Consent (clause 5.2) is limited to disposals/transfers, not acquisitions, and only for severe financial hardship or a court order/legal requirement, granted at the Chair's (or, for a Director, the Board's) absolute discretion. No exemption authority extends to acquiring securities, to protection arrangements or margin loans, and clause 2.1 confirms no exemption overrides the underlying insider trading prohibition.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Company Securities definition narrower than PC2-style policies",
+   "clause": "Company Securities includes shares, options, warrants, derivatives and interests in shares (including vested options and vested performance share rights) linked in any way to the underlying price of shares in the Company.",
+   "why_it_matters": "Only 'vested' options/performance rights are called out; the definition does not say 'vested or unvested', creating ambiguity as to whether unvested equity awards are 'Company Securities' at all, even though clause 7.3(a) still refers to Company Securities 'which are unvested'. A collar should in any event only be structured over vested shares, but this drafting gap adds uncertainty for any unvested-related structuring."
+  },
+  {
+   "topic": "no standalone Derivatives clause",
+   "clause": "The Policy contains no dedicated Derivatives section (contrast PC2-style policies); an OTC derivative is regulated only via the Company Securities definition and, where it limits economic risk, the 'protection arrangements' ban in 7.3.",
+   "why_it_matters": "Absent an express blanket ban on derivatives over unvested equity, the analysis for a collar rests entirely on whether it is a 'protection arrangement' under 7.3, which a purchased put/written call collar squarely is given it operates to limit economic risk."
+  },
+  {
+   "topic": "Margin Loan definition scope",
+   "clause": "Margin Loan ... means any lending or similar arrangement allowing a person to borrow money to invest in securities using existing investments as security.",
+   "why_it_matters": "The loan leg of a funded collar plausibly falls within 'similar funding arrangement' under 7.4(b) even though the loan proceeds are not used to buy more securities, creating a real risk the financing leg is banned outright with no approval route."
+  },
+  {
+   "topic": "no AGM blackout",
+   "clause": "The designated Black-out Periods in clause 3.2(b) cover quarterly, half-year and full-year results and Chair-determined periods, but do not include a fixed period around the Annual General Meeting (unlike some comparable policies).",
+   "why_it_matters": "There is one fewer scheduled closed window to plan collar entry, roll or unwind around, though ad-hoc Black-out Periods can still be declared by the Chair at any time."
+  },
+  {
+   "topic": "Disposal Consent confidentiality carve-out",
+   "clause": "must be kept strictly confidential by the Designated Person and not disclosed to any other person (unless otherwise required by law or the ASX Listing Rules).",
+   "why_it_matters": "An ASX Listing Rule disclosure obligation (e.g. a director's interest notice) could require public disclosure of a Disposal Consent used to unwind or settle a collar, despite the general confidentiality requirement."
+  }
+ ],
+ "summary": "A funded collar is very difficult under this policy. There is no standalone derivatives clause, but the put/call structure operates to limit economic risk and so is squarely a 'protection arrangement', banned outright over unvested equity and vested but holding-locked shares, and permitted over vested, unrestricted shares only with prior written approval (Chair or an Executive Director for non-Director Designated Persons, the Chair for Directors, and the Board for the Chair), outside Black-out Periods and confidential ad-hoc restrictions, and while not in possession of Inside Information. The loan leg is fatal: clause 7.4 bans Designated Persons from using Company Securities as security for a 'Margin Loan or similar funding arrangement', a term broad enough to plausibly capture a bank loan secured on the collared shares, with no clearance route or exemption. There is no forced-sale, price-trigger or financing-disclosure framework because secured financing is meant to be entirely absent. Even a cleared, unfunded collar could not rely on Disposal Consent to override the insider trading prohibition, and any unexecuted leg caught by a newly declared Black-out Period must complete within five trading days or lapse. Overall, the options legs might be achievable with clearance once shares are vested and unrestricted, but the secured loan cannot be structured as described without breaching the Policy."
+}

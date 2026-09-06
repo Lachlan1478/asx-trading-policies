@@ -1,0 +1,387 @@
+{
+ "symbol": "COG",
+ "company": "COG Financial Services Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "30 June 2021",
+ "date_lodged": "1 September 2021",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employee",
+   "kind": "all_staff",
+   "description": "A person under the employ of the Company (employee or consultant) who is not a Designated Officer. May deal in Company Securities if they lack inside information; no Closed Period or clearance regime applies.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Designated Officer",
+   "kind": "restricted",
+   "description": "A director or person engaged in the management of the Company (employee or consultant), including all persons who are key management personnel under AASB 124. Subject to Closed Periods, Written Clearance, post-trade notification and the speculative-dealing ban.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "associated person or investment manager",
+   "kind": "associate",
+   "description": "Family or nominee companies, family trusts, and investment managers dealing on behalf of a Designated Officer or their associate; barred from dealing whenever the Designated Officer may not deal, unless the dealing is Excluded Trading.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions in products which would limit the economic risk of holding unvested entitlements under those schemes",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Officer"],
+   "start_anchor": "1 January",
+   "end_anchor": "commencement of trading on the next business day after release of the Appendix 4D Half Year Report to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Officer"],
+   "start_anchor": "1 July",
+   "end_anchor": "commencement of trading on the next business day after release of the Appendix 4E Full Year Report to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may resolve any other period as a Closed Period when the Company is considering matters subject to Listing Rule 3.1A (the continuous disclosure carve-out); confidentiality of such a resolution is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2 (Company Securities); 6.1",
+   "detail": "Company Securities is defined to include options over Company shares and any other financial products of the Company, whether traded on ASX or unlisted, so an option (a collar leg) is a Company Security. An ordinary Employee may deal in it so long as they lack inside information; no Closed Period or clearance regime applies to this tier.",
+   "evidence": "An Employee (who is not a Designated Officer) may deal in Company Securities or the listed securities of another entity if he or she does not have information that he or she knows, or ought reasonably to know, is inside information."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2 (Company Securities); 9-11",
+   "detail": "Options over Company shares fall within Company Securities. A Designated Officer may deal in them freely outside a Closed Period; within a Closed Period, prior Written Clearance from the Disclosure Officer is required.",
+   "evidence": "A Designated Officer may only deal in Company Securities outside of a Closed Period unless Written Clearance has been obtained under Paragraph 11."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.2",
+   "detail": "Absolute ban on economic-risk-limiting transactions over unvested entitlements under equity-based remuneration schemes, applying to any employee participating in such a scheme (Designated Officer or not).",
+   "evidence": "Any employees participating in equity based remuneration schemes are prohibited from entering into transactions in products which would limit the economic risk of holding unvested entitlements under those schemes."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employee",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.1",
+   "detail": "No express hedging ban for vested, unrestricted holdings; an ordinary Employee's hedge is simply a dealing permitted absent inside information.",
+   "evidence": "An Employee (who is not a Designated Officer) may deal in Company Securities ... if he or she does not have information ... is inside information."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Officer",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9-11",
+   "detail": "No express hedging ban over vested, unrestricted holdings for Designated Officers; a hedge is a dealing, so it is free outside a Closed Period and needs Written Clearance within one.",
+   "evidence": "A Designated Officer may only deal in Company Securities outside of a Closed Period unless Written Clearance has been obtained under Paragraph 11."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Monetisation is not named; a prepaid forward or similar is 'an agreement to apply for, acquire or dispose of securities' and so a dealing, permitted for an Employee absent inside information.",
+   "evidence": "Dealing in securities includes ... entering into an agreement to apply for, acquire or dispose of, securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1; 9-11",
+   "detail": "Monetisation is caught as a dealing (agreement to dispose of securities); free outside a Closed Period, Written Clearance required within one.",
+   "evidence": "Dealing in securities includes ... entering into an agreement to apply for, acquire or dispose of, securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and is not within the dealing definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "CFDs are not named. Company Securities is limited to shares, options over those shares, and other financial products 'of the Company' (i.e. issued by COG); a third-party CFD referencing COG shares is not clearly within that defined term or the dealing definition, though the general insider trading prohibition in section 3 uses the broader term 'securities' and would still bar trading a CFD while in possession of inside information.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Definitions (Excluded Trading, para (f))",
+   "detail": "Margin lending is given as the example of a secured lending arrangement; entering into one is not prohibited but the Designated Officer or Employee must inform the Board before entering into it. A subsequent disposal forced by the lender exercising its rights is Excluded Trading.",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement. In this circumstance, the Designated Officer or Employee must have informed the Board of the Company prior to entering into such an arrangement over the securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Definitions (Excluded Trading, para (f))",
+   "detail": "Granting security over Company Securities to a secured lender is not itself listed in the dealing definition, but the same clause requires the Board to be informed before the security arrangement is entered into.",
+   "evidence": "the Designated Officer or Employee must have informed the Board of the Company prior to entering into such an arrangement over the securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Definitions (Excluded Trading, para (f))",
+   "detail": "The exemption is drafted around 'a secured lender exercising their rights', with margin lending given only as an example, so the scope extends to secured financing arrangements generally, not just margin loans; prior notice to the Board before entering the arrangement is the only condition.",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15.1",
+   "detail": "Designated Officers are banned from dealing in Company Securities on a short term nature or for speculative trading gain; no numeric period given.",
+   "evidence": "A Designated Officer may not deal in Company Securities on a short term nature or for speculative trading gain."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The speculative/short-term dealing ban in 15.1 is expressed to apply only to Designated Officers.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Employee",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1",
+   "evidence": "An Employee (who is not a Designated Officer) may deal in Company Securities ... if he or she does not have information ... is inside information."
+  },
+  {
+   "tier": "Designated Officer",
+   "type": "approval",
+   "approver": "Disclosure Officer",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "unspecified",
+   "section": "9-13",
+   "evidence": "Before dealing in Company Securities in a Closed Period, a Designated Officer must first inform the Disclosure Officer and obtain Written Clearance. ... Once a Designated Officer has completed a trade in Company Securities, the Designated Officer must notify the Company Secretary that the trade has been completed."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Officer",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "A Designated Officer may not deal in Company Securities on a short term nature or for speculative trading gain."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of Company Securities already held into a superannuation fund or other saving scheme in which the Designated Officer or Employee is a beneficiary."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Designated Officer or Employee is a trustee, trading in Company Securities by that trust provided the Designated Officer or Employee is not a beneficiary of the trust and any decision to trade during a Closed Period is taken by the other trustees or by the investment managers independently."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board (approves the plan determining timing and structure)",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "Board (must be informed prior to entering the arrangement)",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement. In this circumstance, the Designated Officer or Employee must have informed the Board of the Company prior to entering into such an arrangement over the securities."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise ... falls during a Closed Period ... and the Designated Officer or Employee could not reasonably have been expected to exercise it at a time when free to do so."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "trading under a non-discretionary trading plan for which prior Written Clearance has been provided by the Board of the Company ... the trading plan does not permit the Designated Officer or Employee to exercise any influence or discretion over how, when or whether to trade."
+  },
+  {
+   "kind": "hardship",
+   "scope": "unclear",
+   "approver": "Disclosure Officer",
+   "evidence": "Exceptional circumstances include: financial hardship."
+  },
+  {
+   "kind": "court_order",
+   "scope": "unclear",
+   "approver": "Disclosure Officer",
+   "evidence": "requirements under a court order or court enforceable undertakings."
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chairman or Chief Executive Officer (if the Chairman is involved)",
+   "evidence": "other exceptional circumstances as determined by the Chairman or Chief Executive Officer (if Chairman is involved)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": ["Designated Officer or Employee: prior to entering into a secured lending/margin lending arrangement over Company Securities, must inform the Board before entering into the arrangement (no deadline specified)."],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Disclosure Officer for Closed Period Written Clearance and for exceptional-circumstances clearance (financial hardship, court order/enforceable undertakings); Chairman or CEO (if the Chairman is involved) may determine other exceptional circumstances; the Board approves non-discretionary trading plans and pro-rata offer plans, and must be informed before a secured lending arrangement is entered into.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing pre-notification",
+   "clause": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement. In this circumstance, the Designated Officer or Employee must have informed the Board of the Company prior to entering into such an arrangement over the securities.",
+   "why_it_matters": "A bank loan secured by pledge of COG shares (the loan leg of a funded collar) is not prohibited; it only requires Board notification before the pledge is granted, after which the bank's enforcement sale is Excluded Trading even during a Closed Period."
+  },
+  {
+   "topic": "options expressly within Company Securities",
+   "clause": "Company Securities includes shares in the Company, options over those shares and any other financial products of the Company whether traded on ASX or unlisted.",
+   "why_it_matters": "Put and call options (the two collar legs) are expressly captured regardless of listing status, so they are subject to the ordinary dealing/Closed Period/clearance rules; a CFD or swap is more doubtful since the residual limb is confined to products 'of the Company'."
+  },
+  {
+   "topic": "no clearance needed outside Closed Period",
+   "clause": "a Designated Officer may only deal in Company Securities outside of a Closed Period unless Written Clearance has been obtained under Paragraph 11.",
+   "why_it_matters": "Outside the two Closed Periods (and any ad hoc Listing Rule 3.1A period), a Designated Officer can enter, unwind or roll a collar without any clearance step, only the general insider trading prohibition applies."
+  },
+  {
+   "topic": "single broker / no broker credit",
+   "clause": "An Employee who deals in the company's securities should use only one broker. Employees may not use broker credit unless written approval has been obtained from the Board of the Company prior to execution of such credit.",
+   "why_it_matters": "Execution of the option legs through a bank counterparty may need to route through a single nominated broker, and any broker credit used in the structure needs prior Board approval."
+  }
+ ],
+ "summary": "A funded collar appears achievable for a COG Designated Officer (director or KMP), subject to conditions. Options over COG shares are expressly within the defined 'Company Securities', so the purchased put and written call are dealings that a Designated Officer may enter freely outside the two half-year/full-year Closed Periods (and any Board-declared Listing Rule 3.1A period), needing prior Written Clearance from the Disclosure Officer only if transacted within a Closed Period; hedging is expressly banned only for unvested equity-incentive entitlements, not vested unrestricted shares. The loan leg secured on the collared shares is likewise not prohibited: entering any secured lending arrangement (margin lending is only the stated example) simply requires informing the Board before the pledge is granted, after which a forced sale by the lender enforcing its security is Excluded Trading even in a Closed Period. Designated Officers remain banned from short-term or speculative dealing, so the collar and loan should be structured with a non-speculative, medium-to-long tenor, and no leg may be entered or settled while the officer possesses inside information."
+}

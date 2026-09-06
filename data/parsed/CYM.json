@@ -1,0 +1,380 @@
+{
+ "symbol": "CYM",
+ "company": "Cyprium Metals Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "27 June 2024",
+ "date_effective": "27 June 2024",
+ "date_lodged": "27 June 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "CYM Personnel",
+   "kind": "all_staff",
+   "description": "The Company's directors, officers, employees, consultants and contractors, irrespective of location, who Deal or may Deal in Company Securities. Subject to the general insider trading prohibition and to the outright bans on short-term/speculative trading, short selling, hedging/protection arrangements and margin loan/security arrangements (clauses 7.2-7.5), regardless of Designated Person status.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors, Key Management Personnel and their direct reports, any other person with authority and responsibility for planning, directing and controlling Company activities, and other persons the Board designates in writing. Subject to Black-out Periods, prior written approval to Deal, and post-trade notification.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "The Director appointed as Chair of the Board; approves other Designated Persons' dealing requests, but must obtain the Board's prior written approval before dealing personally.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates of Designated Persons",
+   "kind": "associate",
+   "description": "Spouse (including de facto) or children under 18, a person financially dependent on or acting in concert with a Designated Person, and a trust or company that the Designated Person or close family members control or have an interest in - all deemed to be Designated Persons themselves.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into protection arrangements includes entering into transactions which: (a) operate to limit the economic risk of any CYM Personnel's security holding (e.g. hedging arrangements) including Company Securities held beneficially (for example, in trust or under an incentive plan) on that CYM Personnel's behalf; or (b) otherwise enable a CYM Personnel to profit from a decrease in the market price of securities.",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "7 days prior to the end of April, July, October and January",
+   "end_anchor": "business day after the release of the Company's relevant quarterly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "two weeks prior to the release of the Company's half-year results",
+   "end_anchor": "24 hours after the release of the Company's half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "two weeks prior to the release of the Company's full-year results",
+   "end_anchor": "24 hours after the release of the Company's full-year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Under clause 3.2(d) the Chair, in consultation with the Company Secretary, may determine any other period to be a Black-out Period. Separately, under clause 4 the Company may, without notice and in its sole and absolute discretion, impose additional trading restrictions on any or all Designated Persons even outside a designated Black-out Period; any such restriction communicated to a Designated Person must be kept strictly confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6; 13 (Company Securities, Deal or Dealing)",
+   "detail": "Company Securities is defined to include derivatives and any interest linked to the underlying share price, and Deal/Dealing expressly includes granting, accepting, acquiring, disposing, exercising or discharging an option or other right to acquire or dispose of securities. An OTC put/call over CYM shares is therefore a Dealing requiring the Chair's prior written approval (Board's for the Chair), outside Black-out Periods and without Inside Information; hedging-purpose derivatives are separately and more restrictively governed by clause 7.4.",
+   "evidence": "Company Securities includes shares, options, warrants, derivatives and interests in shares (including vested options and vested performance share rights) linked in any way to the underlying price of shares in the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "CYM Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4",
+   "detail": "Absolute ban on hedging/protection arrangements over unvested Company Securities, applying to all CYM Personnel (not only Designated Persons), with no clearance route.",
+   "evidence": "The entering into of all types of hedging transactions or \"protection arrangements\" for any Company Securities: (a) is prohibited at any time in respect of any Company Securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "CYM Personnel",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4",
+   "detail": "Same absolute ban extends to vested Company Securities that remain subject to a holding lock.",
+   "evidence": "(a) is prohibited at any time in respect of any Company Securities which are unvested or subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "CYM Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4",
+   "detail": "For vested, unrestricted Company Securities, hedging is not banned outright but requires approval under clause 6; clause 6 is nominally addressed to Designated Persons, so how a non-Designated CYM Personnel obtains this approval is not specified.",
+   "evidence": "(b) otherwise, requires approval under clause 6."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "CYM Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7.4",
+   "detail": "Monetisation is not named but a prepaid forward or similar structure would 'operate to limit the economic risk' of the holding or 'enable a CYM Personnel to profit from a decrease in the market price', bringing it within the protection-arrangement definition; also applies to vested Securities subject to a holding lock.",
+   "evidence": "operate to limit the economic risk of any CYM Personnel's security holding (e.g. hedging arrangements) ... or otherwise enable a CYM Personnel to profit from a decrease in the market price of securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "CYM Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7.4",
+   "detail": "Over vested, unrestricted holdings a monetisation transaction caught by the protection-arrangement definition requires clause 6 approval rather than being banned outright.",
+   "evidence": "(b) otherwise, requires approval under clause 6."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "CYM Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.3",
+   "detail": "Outright ban extending even to transactions merely perceived as short selling, applying to all CYM Personnel.",
+   "evidence": "Under no circumstances should CYM Personnel enter into transactions involving Company Securities that are, or might reasonably be perceived to be, short selling"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "CYM Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.2",
+   "detail": "Contracts for difference are named as an example of derivative-market instruments banned when short-term or speculative; a longer-dated, non-speculative CFD would still likely be caught as a protection arrangement under clause 7.4.",
+   "evidence": "This prohibition includes short term direct dealing in Company Securities as well as transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "CYM Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.5",
+   "detail": "Absolute ban on entering a Margin Loan (or similar funding arrangement) to acquire Company Securities, applying to all CYM Personnel with no clearance or exemption route.",
+   "evidence": "Any CYM Personnel may not: (a) enter into a Margin Loan or similar funding arrangement to acquire any Company Securities;"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "CYM Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.5",
+   "detail": "Using Company Securities as security for a Margin Loan or similar funding arrangement is expressly and absolutely prohibited for all CYM Personnel.",
+   "evidence": "(b) use Company Securities as security for a Margin Loan or similar funding arrangement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "CYM Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.5",
+   "detail": "Margin Loan is defined broadly as 'any lending or similar arrangement allowing a person to borrow money to invest in securities using existing investments as security'; both acquiring securities with such financing and using Company Securities as security for it are banned outright.",
+   "evidence": "Any CYM Personnel may not: (a) enter into a Margin Loan or similar funding arrangement to acquire any Company Securities; or (b) use Company Securities as security for a Margin Loan or similar funding arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "CYM Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.2",
+   "detail": "Absolute ban on short-term or speculative trading, with no specific holding period defined, applying to all CYM Personnel.",
+   "evidence": "Under no circumstances should CYM Personnel engage in short-term or speculative trading in Company Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Chair",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (transaction details; also on becoming/ceasing a substantial holding or a movement of at least 1% while a substantial holder)",
+   "post_trade_deadline": "within five business days of the Dealing occurring",
+   "section": "6",
+   "evidence": "Any Designated Person (other than a Director) wishing to Deal in Company Securities must obtain the prior written approval of the Chair before doing so. ... In the case of a Director, prior written approval to Deal in Company Securities must be obtained from the Chair."
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "Board",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within five business days of the Dealing occurring",
+   "section": "6.1(b)",
+   "evidence": "If the Chair wishes to Deal in Company Securities, the Chair must obtain the prior written approval of the Board before doing so."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "CYM Personnel",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should CYM Personnel engage in short-term or speculative trading in Company Securities. This prohibition includes short term direct dealing in Company Securities as well as transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfer Company Securities already held into a superannuation fund or other saving scheme in which the Designated Person is a beneficiary;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or scheme are invested at the discretion of a third party;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept, a takeover offer;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board (approves the timing and structure of the offer)",
+   "evidence": "participate in an offer or invitation made to all or most security holders, including a rights issue, equal access buy-back, security purchase plan or dividend or distribution reinvestment plan, where the timing and structure of the offer or invitation has been approved by the Board."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire, or agree to acquire, Company Securities under any employee incentive scheme or exercise/convert (but not Deal with the Company Securities following exercise/conversion) an option or right under an employee incentive scheme;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Company Securities under a bonus issue made to all holders of securities of the same class;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire Company Securities under a dividend reinvestment, or top-up plan that is available to all holders of securities of the same class;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "prior approval obtained (approver unspecified)",
+   "evidence": "participate in a pre-determined investment or divestment plan (for which prior approval has been obtained) where the Designed Person did not enter into or amend the plan during the Blackout Period, the plan does not permit the Designated Person to exercise any discretion over how, when or whether to acquire or dispose of Company Securities, and this plan cannot be cancelled in a Blackout Period (other than in exceptional circumstances)."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chair (Approval Officer), or the Board if the Designated Person is a Director",
+   "evidence": "the Designated Person is in severe financial hardship and a pressing financial commitment cannot be satisfied otherwise than by disposing of Company Securities;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chair (Approval Officer), or the Board if the Designated Person is a Director",
+   "evidence": "the Designated Person is required by a court order, or there are court enforceability undertakings, to transfer or dispose of Company Securities or there is some other overriding legal regulatory requirement for them to do so."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chair (Approval Officer), or the Board for a Director, may grant 'Disposal Consent' in exceptional circumstances (severe financial hardship, or court order/other overriding legal or regulatory compulsion) to dispose of or transfer - but not acquire or otherwise Deal with - Company Securities during a Black-out Period, on such terms and conditions as considered reasonable, in absolute discretion without giving reasons, kept strictly confidential by the recipient, and voided if Inside Information is acquired before trading. It does not override the clause 7.4 hedging ban or the clause 7.5 margin loan/security ban.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute margin loan and security ban",
+   "clause": "Any CYM Personnel may not: (a) enter into a Margin Loan or similar funding arrangement to acquire any Company Securities; or (b) use Company Securities as security for a Margin Loan or similar funding arrangement.",
+   "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is banned outright for every CYM Personnel (not just Designated Persons) with no approval route and no vesting-state carve-out."
+  },
+  {
+   "topic": "hedging ban tiered by vesting",
+   "clause": "is prohibited at any time in respect of any Company Securities which are unvested or subject to a holding lock; and otherwise, requires approval under clause 6.",
+   "why_it_matters": "Even if the loan ban were somehow avoided, the put/call hedge itself cannot be written at all over unvested or holding-locked shares, and needs Chair (or Board) approval even over vested unrestricted shares."
+  },
+  {
+   "topic": "Disposal Consent scope limit",
+   "clause": "a Designated Person may seek written approval from the Chair (Approval Officer) to dispose of or transfer (but not acquire or otherwise Deal with) Company Securities during a Black-out Period",
+   "why_it_matters": "The only exceptional-circumstances relief covers disposals/transfers during a Black-out Period, not acquiring options, hedging or margin lending, so it cannot be used to unlock a collar structure."
+  },
+  {
+   "topic": "deemed associates",
+   "clause": "their spouse (including a de facto spouse) or any of their children ... under the age of 18 years; a person financially dependent on or acting in concert with any of those persons; and a trust or company which they or any close family members control or have an interest in.",
+   "why_it_matters": "Family members, dependants and controlled trusts/companies are themselves Designated Persons, so the margin loan and hedging bans cannot be sidestepped by routing the collar through them."
+  },
+  {
+   "topic": "ad-hoc confidential restrictions",
+   "clause": "the Company may impose, without notice and in its sole and absolute discretion, additional restrictions on Dealing ... even where the proposed Dealing would otherwise take place outside a Black-out Period ... must be kept strictly confidential.",
+   "why_it_matters": "An undisclosed ad-hoc restriction can block an otherwise-cleared transaction (or its unwind) at any time without the executive being told why."
+  },
+  {
+   "topic": "incomplete order lapse into blackout",
+   "clause": "the order must be completed within five trading days otherwise it will lapse; and the order cannot be varied.",
+   "why_it_matters": "A collar leg placed but not settled before a Black-out Period begins has a hard five-trading-day completion window and cannot be amended, constraining execution timing."
+  }
+ ],
+ "summary": "A funded collar is effectively unworkable under this policy. Clause 7.5 imposes an absolute, unconditional ban on every CYM Personnel entering a margin loan or similar funding arrangement to acquire Company Securities, or using Company Securities as security for one - there is no clearance, waiver or vesting-state carve-out, so the secured loan leg cannot be put in place at all. The hedge legs are separately constrained: clause 7.4 bans all hedging/protection arrangements outright over unvested or holding-locked Company Securities, and permits them over vested, unrestricted Company Securities only with prior Chair approval (Board approval if the Chair is dealing), outside a Black-out Period and while free of Inside Information. Because the loan is banned regardless of vesting state, the funded element of the collar cannot be implemented even where the unfunded put/call could be cleared. The Disposal Consent exceptional-circumstances process only covers disposing of or transferring securities during a Black-out Period for severe hardship or legal compulsion, and deemed Associates (spouses, minor children, dependants, controlled trusts/companies) are equally bound, closing off both regulatory relief and indirect workarounds."
+}

@@ -1,0 +1,377 @@
+{
+ "symbol": "BRN",
+ "company": "BrainChip Holdings Ltd",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "All Directors and officers of the Company including the CEO, all direct reports to the CEO (Senior Executives), their associates (as defined in the Corporations Act, including close family members and trusts and entities controlled by them), and other persons identified by the Company from time to time. Blackouts, no-hedging, margin lending and short-term trading restrictions apply uniformly to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair's own dealings require consent from the Board itself rather than from the Chair.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Directors (including CEO)",
+   "kind": "director",
+   "description": "Directors other than the Chair, including the CEO; must notify and obtain consent from the Chair of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives and other persons",
+   "kind": "kmp",
+   "description": "Direct reports to the CEO and other persons identified by the Company from time to time; must notify and obtain consent from the Chair of the Board.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "engage in hedging arrangements, deal in derivatives or enter into other arrangements which vary economic risk related to the Company's Securities including, for example, dealing in warrants, equity swaps, put and call options, contracts for difference and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of the Company's Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading at the end of the full financial year",
+   "end_anchor": "10.00am on the next trading day following the earlier of the announcement to the ASX of the preliminary final statement or full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading at the end of the financial half year",
+   "end_anchor": "10.00am on the next trading day following the announcement of half-yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading at the end of the financial quarter",
+   "end_anchor": "10.00am on the next trading day following the announcement to the ASX of any material quarterly filing (e.g. Appendix 4C)",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may specify 'any other period ... as applying to any particular Securities held by a Restricted Person' from time to time (6.3); the policy does not state whether such additional blackouts are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.8",
+   "detail": "No dealing in derivatives without prior written approval from the person in rule 7; the ban expressly extends to unvested and holding-locked incentive securities, not just freely tradeable shares.",
+   "evidence": "A Restricted Person must not, without prior written approval by the relevant person specified in rule 7, engage in hedging arrangements, deal in derivatives or enter into other arrangements which vary economic risk related to the Company's Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.8",
+   "detail": "Hedging arrangements varying economic risk are barred without prior written approval; expressly extended to Securities which are unvested, subject to a holding lock, or issued under an equity-based remuneration scheme.",
+   "evidence": "This provision includes engaging in hedging or other arrangements that would have the effect of limiting the economic risk in connection with Company Securities including Securities which are unvested, subject to a holding lock or issued pursuant to an equity-based remuneration scheme."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.8",
+   "detail": "Monetisation is not named, but the residual language 'other arrangements which vary economic risk' and 'other contracts intended to secure a profit or avoid a loss based on fluctuations in the price' is broad enough to sweep in a prepaid forward or similar monetisation, requiring the same prior written approval as hedging.",
+   "evidence": "enter into other arrangements which vary economic risk related to the Company's Securities ... and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of the Company's Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling of Company Securities is not named anywhere in the policy; 'no speculative short term trading' (6.4) concerns holding period, not short sales, and there is no dealing/short-selling definition to sweep it in.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.8",
+   "detail": "Contracts for difference are named as an example of a barred arrangement absent prior written approval, on the same basis as other hedging/derivative dealings.",
+   "evidence": "including, for example, dealing in warrants, equity swaps, put and call options, contracts for difference and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of the Company's Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.9",
+   "detail": "Margin loans over the person's Company holdings require prior written consent from the applicable rule 7 person; the person must also maintain sufficient cash or collateral to meet margin calls, including in volatile periods.",
+   "evidence": "Restricted Persons must not take out margin loans over their holdings in the Company unless they have first obtained prior written consent from the applicable person noted in the table in section 7."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.9; 6.10",
+   "detail": "Granting security is not named as its own act, but the exception for a forced sale under 'a margin lending or other secured financing arrangement that has previously been approved in accordance with this policy' implies that granting security to a financier (beyond a plain margin loan) also requires the same prior approval as margin lending.",
+   "evidence": "an involuntary disposal of securities that results from a margin lender or financier exercising its rights under a margin lending or other secured financing arrangement that has previously been approved in accordance with this policy."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.9; 6.10",
+   "detail": "Beyond plain margin loans, the exceptions clause's reference to 'a margin lending or other secured financing arrangement that has previously been approved in accordance with this policy' extends the same prior-consent regime to any other secured financing arrangement in respect of Company Securities.",
+   "evidence": "a margin lender or financier exercising its rights under a margin lending or other secured financing arrangement that has previously been approved in accordance with this policy"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.4",
+   "detail": "No defined holding period or basis is stated (unlike a typical fixed-months rule); a waiver from this restriction is available under 6.5 for exceptional circumstances.",
+   "evidence": "Restricted Persons should not trade in the Company's Securities on a short term basis or for speculative trading gain."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "The Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "The Board",
+   "post_trade_deadline": "as soon as reasonably practicable and no later than three business days after the date of the change (for ASX reporting purposes)",
+   "section": "6.6; 6.7; 7",
+   "evidence": "Chair of the Board | The Board. ... If granted, trading consent is only valid for a period of 5 business days after notification of approval."
+  },
+  {
+   "tier": "Other Directors (including CEO)",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Chair of the Board",
+   "post_trade_deadline": "as soon as reasonably practicable and no later than three business days after the date of the change (for ASX reporting purposes)",
+   "section": "6.6; 6.7; 7",
+   "evidence": "Other Directors (including CEO) | Chair of the Board."
+  },
+  {
+   "tier": "Senior Executives and other persons",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Chair of the Board",
+   "post_trade_deadline": "as soon as reasonably practicable after the trade is completed",
+   "section": "6.6; 6.7; 7",
+   "evidence": "Senior Executives and other persons identified by the Company from time to time | Chair of the Board."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Restricted Persons should not trade in the Company's Securities on a short term basis or for speculative trading gain."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "specific_dealing",
+   "approver": "person specified in rule 7 (Chair of the Board, or the Board for the Chair)",
+   "evidence": "Exceptional circumstances include severe financial hardship, compulsion by a court order or any other circumstances that are deemed exceptional by the person described in rule 7."
+  },
+  {
+   "kind": "court_order",
+   "scope": "specific_dealing",
+   "approver": "person specified in rule 7 (Chair of the Board, or the Board for the Chair)",
+   "evidence": "compulsion by a court order or any other circumstances that are deemed exceptional by the person described in rule 7."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers to related entities - transfers of Company Securities between a Restricted Person and someone closely related to the Restricted Person (such as a spouse, minor child, family controlled company or family trust) or by a Restricted Person to their superannuation fund, in respect of which prior written clearance has been provided."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "employee share and option plans – a Restricted Person acquiring Company Securities or exercising an option or right under a Company employee incentive scheme subject to the terms of the relevant employee incentive scheme."
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "trustee",
+   "evidence": "employee share plan trust – the sale of Company Securities (held by or on behalf of a Restricted Person) by a trustee under an employee share plan trust for the purpose of satisfying a Restricted Person's withholding tax liability."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "dividend reinvestment plan – a Restricted Person acquiring Company Securities under any Company dividend reinvestment plan (if any)."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board (approves the plan's timing and structure)",
+   "evidence": "rights offers, share purchase plans and buy-backs (or other pro-rata/generalised offers) – trading under an offer or invitation made to all or most of the security holders ... where the plan that determines the timing and structure of the offer has been approved by Board."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "takeover offer, scheme of arrangement – a disposal of securities arising from the acceptance of a takeover or scheme of arrangement in accordance with the Corporations Act."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "third party discretion – an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading plan – an acquisition or disposal of securities under a pre-determined investment or divestment plan for which prior written clearance has been provided ... and where the Restricted Person did not enter into or amend the plan during a prohibited period; and the plan does not permit the Restricted Person to exercise any discretion."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal under margin lending arrangement – an involuntary disposal of securities that results from a margin lender or financier exercising its rights under a margin lending or other secured financing arrangement that has previously been approved in accordance with this policy."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "other - any other permitted dealings as approved by the Board from time to time and notified to Restricted Persons."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The person specified in rule 7 (Chair of the Board for most Restricted Persons; the Board for the Chair) may grant a written waiver from the blackout (6.3) or short-term trading (6.4) restrictions for exceptional circumstances (severe financial hardship, court order, or other circumstances deemed exceptional), valid for 2 trading days. Ordinary trading approval under 6.6 may be given, withdrawn or refused in the Company's discretion without reasons, and a refusal is final and must be kept confidential.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "forced sale exemption",
+   "clause": "an involuntary disposal of securities that results from a margin lender or financier exercising its rights under a margin lending or other secured financing arrangement that has previously been approved in accordance with this policy",
+   "why_it_matters": "If the bank's loan is pre-approved as a secured financing arrangement, its enforcement sale of the collared shares is an excluded dealing that can proceed even during a blackout period, materially de-risking enforcement of the collar's security."
+  },
+  {
+   "topic": "hedging ban covers unvested/locked shares",
+   "clause": "This provision includes engaging in hedging or other arrangements that would have the effect of limiting the economic risk in connection with Company Securities including Securities which are unvested, subject to a holding lock or issued pursuant to an equity-based remuneration scheme.",
+   "why_it_matters": "Confirms the hedging ban (and hence any collar) reaches unvested and holding-locked incentive securities, not just freely tradeable shares, so prior written approval is required regardless of vesting status."
+  },
+  {
+   "topic": "clearance lapses on inside information",
+   "clause": "Trading consent is automatically deemed to be withdrawn if the person becomes aware of inside information prior to trading.",
+   "why_it_matters": "A cleared collar could become unexecutable if inside information arises between approval and signing or settlement."
+  },
+  {
+   "topic": "discretionary, confidential refusal",
+   "clause": "Any approval to trade can be given, withdrawn or refused by the Company in its discretion without giving any reasons. A decision to refuse approval is final and binding ... the person seeking the approval must keep that information confidential and not disclose it to anyone.",
+   "why_it_matters": "The bank or executive cannot compel approval of the collar or challenge a refusal, and the executive cannot disclose a refusal to the bank without itself breaching the policy."
+  },
+  {
+   "topic": "margin call collateral sufficiency",
+   "clause": "Restricted Persons must ensure they have sufficient available cash or collateral to meet any margin calls in relation to any approved margin loans, including in periods of volatility.",
+   "why_it_matters": "Even with an approved loan, the executive bears an ongoing obligation to maintain collateral buffers, relevant to sizing the collar/loan LVR."
+  },
+  {
+   "topic": "consent validity window",
+   "clause": "If granted, trading consent is only valid for a period of 5 business days after notification of approval.",
+   "why_it_matters": "The put/call trade and loan drawdown must occur within 5 business days of clearance, or fresh clearance must be sought."
+  },
+  {
+   "topic": "advance notice period",
+   "clause": "provide prior written notice of their intention to deal ... obtain prior written clearance ... at least two trading days before the proposed dealing.",
+   "why_it_matters": "Collar execution must be scheduled at least two trading days after the clearance application, adding lead time to any bank transaction timetable."
+  }
+ ],
+ "summary": "A funded collar is possible in principle but only with prior written clearance for every leg. Derivatives, hedging arrangements, monetisation and CFDs are all captured by section 6.8's broad no-hedging rule, which expressly reaches unvested and holding-locked incentive securities, and require prior written approval from the Chair of the Board (or the Board itself, for the Chair's own dealings) before entry. The loan leg is treated as a margin loan or 'other secured financing arrangement' under section 6.9/6.10 and likewise needs prior written consent, but once approved a lender's later enforcement sale of the collared shares is an excluded dealing that can proceed even during a blackout period. Both legs must otherwise sit outside the quarterly, half-year and full-year blackout periods (absent a 2-trading-day hardship or court-order waiver), be executed within the 5-business-day validity of clearance, and be abandoned if inside information arises before dealing. Refusal of clearance is final, wholly discretionary and must be kept confidential, and short selling, stock lending, financing disclosure and use of unvested shares as collateral are all left unaddressed by the policy."
+}

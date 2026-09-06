@@ -1,0 +1,320 @@
+{
+ "symbol": "KP2",
+ "company": "Kore Potash plc",
+ "title": "Securities Dealing Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors, Officers, Employees and Contractors",
+   "kind": "all_staff",
+   "description": "All Directors, Officers, Employees and Contractors of the Company and its controlled subsidiaries. Subject to the general prohibition on dealing while in possession of inside information (section 2), but not the formal clearance Dealing Code unless told they are a Restricted Person.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Person",
+   "kind": "restricted",
+   "description": "A PDMR, or any other person who has been told by the Company that the clearance procedures of this policy apply to them. Subject to Part A clearance procedures (prior written clearance from the Company Secretary before dealing).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "PDMR",
+   "kind": "kmp",
+   "description": "A Director of the Company, or any other employee who has been told that they are a PDMR. Subject to Part A (clearance) plus Part B additional provisions: closed-period clearance refusal, ASX/FCA notification of transactions, and PCA obligations.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "PCA",
+   "kind": "associate",
+   "description": "A person closely associated with a PDMR: spouse/civil partner, minor child, a relative sharing the same household for at least one year, or a legal person, trust or partnership controlled by or set up for the benefit of a PDMR or PCA.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Person"],
+   "start_anchor": "the end of the relevant financial year (or, if longer, 30 calendar days before release)",
+   "end_anchor": "release of the preliminary announcement of the Company's annual results (or publication of the annual financial report if no such announcement is released)",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Person"],
+   "start_anchor": "the end of the relevant financial period (or, if longer, 30 calendar days before release)",
+   "end_anchor": "release of the Company's half-yearly financial report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Person"],
+   "start_anchor": "30 calendar days before the release of each of the Company's first quarter and third quarter report",
+   "end_anchor": "release of the relevant quarterly report",
+   "duration_days": 30
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Person"],
+   "start_anchor": "two weeks before the Company's Annual General Meeting",
+   "end_anchor": "the Annual General Meeting",
+   "duration_days": 14
+  }
+ ],
+ "ad_hoc_blackout_authority": "Risk and Compliance Committee may impose 'any other period' as a Closed Period from time to time; confidentiality of such additional periods is not addressed, though any refusal of clearance itself must be kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3 (Securities); 5.1.1(a)",
+   "detail": "Derivatives are not named as a standalone activity. Securities are defined to include 'any linked derivatives or financial instruments', so an OTC put/call over Company shares is a Security and dealing in it is a Dealing requiring prior written clearance from the Company Secretary.",
+   "evidence": "Securities Are any publicly traded or quoted shares or debt instruments and any linked derivatives or financial instruments."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors, Officers, Employees and Contractors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2(a)",
+   "detail": "Employees not designated a Restricted Person are not subject to the formal clearance Dealing Code, only the general prohibition on dealing while in possession of inside information.",
+   "evidence": "An employee may not deal in any securities of the Company if they are in possession of inside information about the Company or its subsidiaries."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Hedging is not mentioned anywhere in the policy; there is no restriction targeted at unvested or vested plan securities beyond the general Dealing/clearance regime.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3 (Deal and Dealing, Securities)",
+   "detail": "Monetisation is not named. A prepaid forward or similar arrangement is a transaction in Securities (and may also use the shares as loan collateral), so it is a Dealing requiring prior written clearance.",
+   "evidence": "Deal and Dealing Covers any type of transaction in a company's securities, including purchases, sales, the exercise of options and using securities as collateral for a loan"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3 (Deal and Dealing)",
+   "detail": "Short selling is not named or otherwise addressed. A short sale is a 'sale' of Company Securities within the Dealing definition and so would require clearance, but the policy does not deal with the mechanics of borrowed stock or short positions.",
+   "evidence": "Deal and Dealing Covers any type of transaction in a company's securities, including purchases, sales, the exercise of options and using securities as collateral for a loan"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere and is not listed in the Deal/Dealing definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3 (Securities)",
+   "detail": "CFDs are not named. A CFD is a 'linked derivative or financial instrument' within the Securities definition, so dealing in one is a Dealing requiring clearance.",
+   "evidence": "Securities Are any publicly traded or quoted shares or debt instruments and any linked derivatives or financial instruments."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Deal and Dealing); 5.1.1(a)",
+   "detail": "Using Company Securities as collateral for a loan is expressly named within the definition of Dealing (not prohibited outright). A Restricted Person may do so only with prior written clearance from the Company Secretary, not while in possession of inside information, and clearance will not ordinarily be given during a closed period.",
+   "evidence": "Deal and Dealing Covers any type of transaction in a company's securities, including purchases, sales, the exercise of options and using securities as collateral for a loan"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Deal and Dealing); 5.1.1(a)",
+   "detail": "Granting security (using shares as collateral for a loan) is expressly named as a Dealing requiring prior written clearance; no outright prohibition.",
+   "evidence": "using securities as collateral for a loan"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Deal and Dealing); 5.1.1(a)",
+   "detail": "Any secured financing that uses Company Securities as collateral is expressly a Dealing, permitted with prior written clearance from the Company Secretary; no blanket ban and no limitation to margin loans specifically.",
+   "evidence": "using securities as collateral for a loan"
+  },
+  {
+   "topic": "short_term",
+   "tier": "PDMR",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2.3(b)",
+   "detail": "The policy does not impose a minimum holding period on the PDMR's own dealings. Instead, a PDMR must request (not compel) their PCAs not to deal during Closed Periods or within a year of acquisition, which is treated as short-term dealing.",
+   "evidence": "The employee must request that their PCAs do not Deal (whether directly or through an Investment Manager) in Company Securities during Closed Periods and not to deal on consideration of a short-term nature. A sale of Company Securities which were acquired less than a year previously will be dealing of a short-term nature."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Person",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": 5,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.1.1",
+   "evidence": "An employee may not Deal for themselves or for anyone else, directly or indirectly in Company Securities without obtaining clearance from the Company in advance. ... An employee will receive a written response to their application within five (5) working days. ... If an employee is granted clearance, they must deal within two (2) working days of receiving clearance."
+  },
+  {
+   "tier": "PDMR",
+   "type": "notification",
+   "approver": "Company Secretary (ASX and FCA as applicable)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (UK, on clearance application); ASX (Australian director); FCA (UK)",
+   "post_trade_deadline": "1 working day (Company, UK); 3 working days (FCA, UK); 5 business days (ASX, Australian director)",
+   "section": "5.2.2",
+   "evidence": "A director must, either personally or through a third party, notify the ASX within (five) 5 days after any transaction in Company Securities that results in a change in the relevant interests of the director. ... An employee must notify the Company and the FCA in writing of every notifiable transaction ... within one (1) working day ... Notifications to the FCA must be made within three (3) working days."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "PCA",
+   "type": "holding_period",
+   "months": 12,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "A sale of Company Securities which were acquired less than a year previously will be dealing of a short-term nature."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "unclear",
+   "approver": "Company",
+   "evidence": "Different clearance procedures will apply where Dealing is being carried out by the Company in relation to an employee share plan (e.g. if the Company is making an option grant or share award to an employee or shares are receivable on vesting under a long-term incentive plan)."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "unclear",
+   "approver": "Company Secretary",
+   "evidence": "An employee may not enter, amend or cancel a Trading Plan or an Investment Programme under which Company Securities may be purchased or sold unless clearance has been given to do so."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "None expressly stated. The Company 'has the right not give reasons if permission to Deal is not granted' (5.1.1(d)), and clearance 'will not ordinarily' be given during a closed period or while inside information exists (5.2.1), implying only limited residual discretion; no hardship or waiver process is described.",
+ "jurisdiction_overlays": ["UK Market Abuse Regulation (596/2014) and FCA notification requirements", "Australian ASX Listing Rules and Corporations Act director notification"],
+ "bespoke_clauses": [
+  {
+   "topic": "collateral within dealing definition",
+   "clause": "Deal and Dealing Covers any type of transaction in a company's securities, including purchases, sales, the exercise of options and using securities as collateral for a loan",
+   "why_it_matters": "The loan leg of a funded collar (pledging vested shares as collateral) is expressly a 'Dealing' requiring prior written clearance from the Company Secretary rather than being prohibited outright, giving a workable path subject to timing and closed-period constraints."
+  },
+  {
+   "topic": "closed period clearance refusal",
+   "clause": "An employee will not ordinarily be given clearance to Deal in Company Securities during any period when there exists any matter which constitutes inside information or during a closed period.",
+   "why_it_matters": "Entry into, or unwind of, the collar and its secured loan should be scheduled outside closed periods and while the executive holds no inside information, since clearance will not ordinarily be granted otherwise."
+  },
+  {
+   "topic": "clearance execution window",
+   "clause": "If an employee is granted clearance, they must deal within two (2) working days of receiving clearance.",
+   "why_it_matters": "The collar and loan must be priced and executed within a 2 working-day window of clearance, requiring tight coordination between the bank and the executive's clearance application."
+  },
+  {
+   "topic": "PCA short-term dealing request",
+   "clause": "The employee must request that their PCAs do not Deal ... in Company Securities during Closed Periods and not to deal on consideration of a short-term nature. A sale of Company Securities which were acquired less than a year previously will be dealing of a short-term nature.",
+   "why_it_matters": "If the collar or its unwind is routed through a PCA (e.g. spouse or family trust), the PDMR must ask the PCA to avoid disposals within 12 months of acquisition, so a tenor of at least a year is advisable where associates are involved."
+  },
+  {
+   "topic": "trustee obligations",
+   "clause": "If an employee acts as the trustee of a trust, they must speak to the Company Secretary about their obligations in respect of any Dealing in Company Securities carried out by the trustee(s) of the trust.",
+   "why_it_matters": "If the collar or loan is booked through a family trust of which the executive is trustee, separate consultation with the Company Secretary is required before dealing."
+  },
+  {
+   "topic": "portfolio exposure guidance",
+   "clause": "An employee should seek further guidance from the Company Secretary before transaction in: ... Financial instruments which provide exposure to a portfolio of assets which has or may have an exposure to Company Securities",
+   "why_it_matters": "Even indirect derivative exposure to the Company's shares (as in a bank-structured product referencing a basket including the stock) should be pre-cleared with the Company Secretary."
+  },
+  {
+   "topic": "notifiable transaction scope",
+   "clause": "Notifiable Transaction ... captures every transaction which changes a PDMR's or PCA's holding of Company Securities, even if the transaction does not require clearance under this code.",
+   "why_it_matters": "If collar settlement or loan enforcement changes the PDMR's shareholding, it must be notified to the Company (and ASX/FCA as applicable) even in circumstances where fresh clearance was not required."
+  }
+ ],
+ "summary": "A funded collar appears structurally possible for a Restricted Person or PDMR under this policy: using vested shares as collateral for a loan is expressly captured within the definition of Dealing (not prohibited), and the OTC put and call are separately caught as Dealings in Securities (defined to include linked derivatives). All of this requires prior written clearance from the Company Secretary, must be executed within 2 working days of clearance being given, and clearance will not ordinarily be granted during a closed period or while the executive holds inside information. PDMRs face additional post-trade notification duties (ASX within 5 days for Australian directors; Company within 1 working day and FCA within 3 working days for UK employees). There is no express prohibition on secured financing, no minimum shareholding requirement, and no treatment of unvested securities as collateral, so eligibility, timing and disclosure are the main conditions rather than an outright bar. If the structure is routed through a spouse, trust or other PCA, the executive should also ask that associate to avoid dealing within 12 months of acquisition."
+}

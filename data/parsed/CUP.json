@@ -1,0 +1,316 @@
+{
+ "symbol": "CUP",
+ "company": "Count Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "28 August 2023",
+ "date_effective": "30 August 2023",
+ "date_lodged": "30 August 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All employees, contractors, officers and directors of Count Limited, Count Financial Limited and any other wholly-owned subsidiary the Board has determined to be within scope. All substantive prohibitions (blackout periods, margin lending, short-term/speculative trading, short selling, hedging/derivatives) apply to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of CUP; a subset of Employees distinguished only by the additional post-trade notification obligation in section 5.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouse or partner, dependent children, trustee of a trust under which the Employee/spouse/children may benefit, a company the Employee controls or holds a majority of shares in, and any other entity where the Employee is a director, secretary or executive officer (unless that entity's decisions are walled off from the Employee).",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "no",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "a transaction that operates to limit the economic risk of their security holding in CUP",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 January",
+   "end_anchor": "one business day after the release to ASX of CUP's half yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 July",
+   "end_anchor": "one business day after the release to ASX of CUP's annual results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "21 days before CUP's Annual General Meeting",
+   "end_anchor": "date of CUP's Annual General Meeting",
+   "duration_days": 21
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may declare a Blackout Period at any time at its absolute discretion and without prior notice (e.g. if Directors believe certain Employees may hold inside information); commencement and cessation are notified by email from the Company Secretary to all Employees, so it is not run as a confidential prohibition.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3",
+   "detail": "Absolute, standalone ban (not via the Trade definition) on trading any financial product created by a third party over CUP securities, with no venue limitation, so it catches an OTC put or call. The general written-permission process in 3.5 does not apply to this prohibition; only the section 6 Exempt Transactions carve it back, and a bank collar is not among them.",
+   "evidence": "the Employees are prohibited from Trading in any financial products issued or created over CUP securities by third parties, or Trading in associated products."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3",
+   "detail": "General ban on any transaction limiting the economic risk of a CUP holding, reinforced by a specific ban on hedging arrangements (including derivatives) over incentive-plan securities that are unvested or vested but subject to a holding lock. No security-state carve-out is given for vested, unrestricted holdings, which remain caught by the general first sentence.",
+   "evidence": "the Employees may not enter into a transaction that operates to limit the economic risk of their security holding in CUP. Employees are prohibited from entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk relating to CUP securities granted under an employee, executive or director incentive plan ... which either have not vested or have vested but remain subject to a holding lock or other restriction on dealing."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.3; 3.5",
+   "detail": "Monetisation (e.g. a prepaid forward sale) is not named. It is an 'agreement to buy or sell CUP securities' within the Trade definition, so it requires prior written permission from the Company Secretary (or CEO) outside Blackout Periods; to the extent it also operates to limit economic risk it would additionally fall foul of the 4.3 prohibition.",
+   "evidence": "Trade or Trading means (i) buying or selling CUP securities, (ii) entering into an agreement to buy or sell CUP securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "Outright ban on short selling CUP securities, no tier or security-state distinction.",
+   "evidence": "Additionally, Employees should not engage in short selling of CUP securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named and is not within the closed list defining Trade.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.1; 4.3",
+   "detail": "CFDs are named in the Purpose section as a covered financial product and are caught by the absolute 4.3 ban on trading third-party financial products created over CUP securities.",
+   "evidence": "financial products issued or created over shares by third parties, including structured financial products, swaps, futures contracts, contracts for differences, spread bets, options, warrants, depositary receipts or other derivatives over or related to the performance of shares in CUP."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2",
+   "detail": "Absolute ban on margin lending arrangements in relation to CUP securities, expressly including entering the lending arrangement itself, transferring CUP securities into an existing margin loan account, or selling to satisfy a margin call (unless the holder has no control over that sale).",
+   "evidence": "Employees are not permitted to enter into margin lending arrangements in relation to CUP securities as the terms may require CUP securities be sold when they possess inside information."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "General encumbrance (a charge, lien or pledge unconnected to a margin loan) is not named; only margin lending arrangements are expressly addressed under 3.2.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2",
+   "detail": "The prohibition is scoped to margin lending arrangements specifically (section heading 'No margin lending arrangements'); it is not drafted as a general ban on all secured financing over CUP securities.",
+   "evidence": "entering into a lending arrangement in respect of CUP securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "No numeric period is given for what counts as short-term; the sale of shares issued on vesting of rights or exercise of options is expressly excluded from being regarded as short-term trading.",
+   "evidence": "they should not engage in short-term or speculative Trading in CUP securities. However, the sale of CUP securities that have been issued after vesting of performance rights or an exercise of options will not be regarded as short-term Trading."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Company Secretary, or the Chief Executive Officer in the Company Secretary's absence",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.5",
+   "evidence": "The approver will notify the Employee in writing within two business days of receiving an application whether or not permission to Trade is granted. ... the Employee must complete the Trade within 7 days of receiving such approval."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Company Secretary, or the Chief Executive Officer in the Company Secretary's absence, for pre-clearance; Company Secretary for post-trade notification",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "3 business days of the Trading occurring",
+   "section": "3.5; 5",
+   "evidence": "In addition to notifying the Company Secretary of any Trading in CUP securities within 3 business days of any such occurring, Directors must also provide any additional information required to allow CUP to notify the ASX in accordance with ASX Listing Rules."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": ["sale of CUP securities that have been issued after vesting of performance rights or an exercise of options"],
+   "evidence": "they should not engage in short-term or speculative Trading in CUP securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairperson of the Board (or Chair of the Audit and Risk Committee if the applicant is the Chairperson) and the Company Secretary",
+   "evidence": "the person is experiencing severe financial hardship or other exceptional circumstances; after investigating all reasonable alternatives, the sale of CUP securities is the only practical way of addressing the exceptional circumstances."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfer of CUP securities by an Employee to a person closely related to that Employee (e.g. spouse or family trust) or to their superannuation fund."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of CUP securities arising from the acceptance of a takeover offer, scheme of arrangement or equal access buy-back."
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of rights acquired under a pro rata issue."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of CUP securities under a pro rata issue, a security purchase plan or a bonus issue."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of CUP securities under a dividend reinvestment plan, provided the election to participate in the dividend/distribution reinvestment plan was not made during a Blackout Period or when the Employee was in possession of any inside information."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of CUP securities under an employee incentive scheme."
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Board",
+   "evidence": "any other transactions identified by the Board for this purpose."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Limited to the section 4.2 Blackout Period exceptional-circumstances process (Chairperson of the Board, or Chair of the Audit and Risk Committee for the Chairperson's own application, together with the Company Secretary), which only lifts the timing restriction and requires severe financial hardship with no practical alternative to selling. There is no exemption authority for the section 3.2 margin lending ban or the section 4.3 derivatives/hedging ban.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "exempt transactions exclude hedging/derivatives ban",
+   "clause": "Sections 4.1, 4.2 and 4.3 of this Policy do not apply to the following types of dealings (Exempt Transactions).",
+   "why_it_matters": "The absolute 4.3 ban on derivatives and economic-risk-limiting transactions only lifts for the seven listed Exempt Transactions (family/super transfers, takeover disposals, pro-rata/DRP/bonus/incentive-scheme acquisitions), none of which cover a bank-written collar."
+  },
+  {
+   "topic": "margin lending scope",
+   "clause": "Arrangements prohibited include: (a) entering into a lending arrangement in respect of CUP securities; (b) transferring CUP securities into an existing margin loan account; or (c) selling CUP securities to satisfy a call under a margin loan except where the holder of the CUP securities has no control over the sale.",
+   "why_it_matters": "A bank loan secured by pledge of the collared shares falls within limb (a) as a 'lending arrangement in respect of CUP securities' and is banned outright, so the loan leg of a funded collar cannot be secured on CUP shares; even if it existed, a lender-forced sale is only excused where the executive has no control over that sale."
+  },
+  {
+   "topic": "escrow",
+   "clause": "Any Employee holding CUP securities subject to binding restrictions on transfer, either as ASX restricted securities or through voluntary escrow arrangements, must comply with the terms of any applicable escrow arrangements and will be unable to Trade in the relevant CUP securities during that time.",
+   "why_it_matters": "Vested shares still under ASX or voluntary escrow cannot be pledged, sold or have derivatives written over them for a collar until the escrow period ends."
+  },
+  {
+   "topic": "post-permission trade window",
+   "clause": "If approval is granted in writing in accordance with this section, the Employee must complete the Trade within 7 days of receiving such approval, or such earlier time as determined. Approval may be withdrawn if new information comes to light or there is a change in circumstances.",
+   "why_it_matters": "Even for a Trade type that were clearable, execution would need to complete within 7 days and could be revoked before signing if inside information emerges, compressing the window to price and execute any collar leg."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 4.3 imposes an absolute, standalone ban on any transaction that limits the economic risk of a CUP shareholding and on trading any third-party financial product created over CUP securities (expressly including derivatives, swaps and contracts for differences), with no clearance mechanism and no security-state carve-out for vested, unrestricted shares; only the narrow section 6 Exempt Transactions list provides relief, and a bank collar is not among them. Separately, section 3.2 bans margin lending arrangements, defined to include entering into any lending arrangement in respect of CUP securities and transferring CUP securities into a margin loan account, which prohibits securing a loan against the collared shares. The only exemption authority in the policy (section 4.2) addresses timing within Blackout Periods for severe financial hardship, not the underlying derivative or secured-financing prohibitions, and ordinary share trades otherwise need written permission from the Company Secretary or CEO, completed within 7 days. Vested shares still subject to ASX or voluntary escrow are additionally untradeable until escrow ends. Consequently, neither the put/call legs nor a secured loan leg of a funded OTC equity collar can be implemented for CUP directors or executives."
+}

@@ -1,0 +1,384 @@
+{
+ "symbol": "RHI",
+ "company": "Red Hill Iron Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "28 December 2010",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "Key Management Personnel as defined in AASB 124 Related Party Disclosures. Subject to the Closed Period trading ban, the exceptional-circumstances approval process, and the margin loan / financial products restrictions.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All other employees of and contractors to the Company. Not bound by Closed Periods but subject to insider trading law and the recommended pre-dealing enquiry.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company; distinguished only for the post-trade notification obligation to the Company Secretary under ASX Listing Rule 3.19A / s205G.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Key Management Personnel"],
+   "start_anchor": "close of trade two calendar weeks prior to the day on which the full-year financial statements are released to the ASX",
+   "end_anchor": "close of trade one day after release of the full-year financial statements",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Key Management Personnel"],
+   "start_anchor": "close of trade two calendar weeks prior to the day on which the half-year financial statements are released to the ASX",
+   "end_anchor": "close of trade one day after release of the half-year financial statements",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Directors may determine 'any other period' as a Closed Period from time to time, notified to Key Management Personnel; the policy does not state whether such additional periods are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Financial products issued or created over Company securities (i.e. derivatives) may not be traded by KMP during a Closed Period. Outside a Closed Period there is no formal restriction, only insider trading law and the recommended enquiry.",
+   "evidence": "Key Management Personnel are prohibited from trading during the Closed Period in financial products issued or created over or in respect of the Company's securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1; 3.1",
+   "detail": "Employees who are not KMP are not bound by the Closed Period ban; securities are defined broadly (3.1) to include derivatives, so dealing in them remains subject only to insider trading law and the 4.3 enquiry recommendation.",
+   "evidence": "Employees other than Key Management Personnel are not prohibited from trading in Closed Periods, but at all times are subject to the insider trading provisions of the Corporations Act."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1; 4.5",
+   "detail": "Hedging is not a defined or named term. A hedge structured as a derivative or other financial product over Company securities is caught as a 'financial product ... created over ... the Company's securities' and is barred for KMP during a Closed Period.",
+   "evidence": "Key Management Personnel are prohibited from trading during the Closed Period in financial products issued or created over or in respect of the Company's securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1",
+   "detail": "No hedging-specific rule exists for non-KMP employees; only general insider trading law and the recommended enquiry apply.",
+   "evidence": "Employees other than Key Management Personnel are not prohibited from trading in Closed Periods, but at all times are subject to the insider trading provisions of the Corporations Act."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.5",
+   "detail": "A prepaid forward or similar monetisation is not named but would be a 'financial product ... created over ... the Company's securities' and so is barred for KMP during a Closed Period.",
+   "evidence": "Key Management Personnel are prohibited from trading during the Closed Period in financial products issued or created over or in respect of the Company's securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1",
+   "detail": "No monetisation-specific rule exists for non-KMP employees; only general insider trading law and the recommended enquiry apply.",
+   "evidence": "Employees other than Key Management Personnel are not prohibited from trading in Closed Periods, but at all times are subject to the insider trading provisions of the Corporations Act."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.5",
+   "detail": "CFDs are not named but are a 'financial product ... created over ... the Company's securities' and so are barred for KMP during a Closed Period.",
+   "evidence": "Key Management Personnel are prohibited from trading during the Closed Period in financial products issued or created over or in respect of the Company's securities."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1",
+   "detail": "No CFD-specific rule exists for non-KMP employees; only general insider trading law and the recommended enquiry apply.",
+   "evidence": "Employees other than Key Management Personnel are not prohibited from trading in Closed Periods, but at all times are subject to the insider trading provisions of the Corporations Act."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Advisory only, not an outright ban and not subject to any consent or notification procedure: KMP should avoid margin loans that could cause a forced trade by the lender during a Closed Period.",
+   "evidence": "should not enter into margin loans which could cause a forced trade by a margin lender during a Closed Period."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or pledge over Company securities is not named as its own act anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Only margin loans are addressed, and only to the extent of avoiding a forced sale during a Closed Period; no other form of secured financing, and no consent requirement, is addressed.",
+   "evidence": "should not enter into margin loans which could cause a forced trade by a margin lender during a Closed Period."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No short-term or minimum holding period restriction is stated anywhere in the policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Key Management Personnel",
+   "type": "approval",
+   "approver": "Chairman of the Board (copy to Company Secretary); for the Chairman's own dealing, the CEO and Company Secretary",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": 1,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.2",
+   "evidence": "The Key Management Person can only trade if prior written approval, either in the form of an email or formal letter has been provided. ... If written approval is provided, the transaction must be completed within two business days of the approval."
+  },
+  {
+   "tier": "Employees",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.3",
+   "evidence": "Employees intending to deal in the Company's securities should, prior to so dealing, enquire of the Company Secretary or the Chairman as to whether any announcements of price sensitive information are anticipated."
+  },
+  {
+   "tier": "Directors",
+   "type": "notification",
+   "approver": "Company Secretary",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two business days of the trade",
+   "section": "4.4",
+   "evidence": "Following a trade of or dealing in securities by a Director, the Director must provide confirmation of price and quantity to the Company Secretary within two business days of the trade."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": ""
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman of the Board (or CEO and Company Secretary for the Chairman)",
+   "evidence": "financial hardship where the individual has a binding financial commitment that cannot be satisfied unless they sell or otherwise dispose of the securities in the Company."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chairman of the Board (or CEO and Company Secretary for the Chairman)",
+   "evidence": "the issuing or enforcement of a court order or other means of legal or regulatory enforcement where the individual is required to transfer or sell the securities of the Company."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "It is not the intent of this Policy to capture potential trades where the trade would result in no change in beneficial interest in the securities."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in a fund where the assets of the fund are invested at the discretion of a third party."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where an Employee is a trustee, trading in the securities of the Company by that trust provided that the Employee is not a beneficiary of the trust and any decision by a Key Management Person to trade during a Closed Period is taken by the other trustees independently of the Key Management Person."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "trading under an offer made to all or most of the security holders of the Company such as a rights issue, buy-back or security purchase plan where the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of securities of the Company between an Employee and a self managed superannuation fund in which the Employee is a beneficiary."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise of an option, where the final date for the exercise of an option, falls during a prohibited period and the Company has had a number of consecutive Closed Periods to the extent that the Key Management Person could not reasonably have been expected to exercise the options at a point in time in which they were able to do so."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Designated Officer(s) - the Chairman of the Board (or, for the Chairman's own dealing, the CEO and Company Secretary) - may grant written approval for KMP to trade within a Closed Period in exceptional circumstances (financial hardship or court/regulatory compulsion), assessed case by case, generally determined within 1 business day, with the trade to be completed within 2 business days of approval.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "no closed-period route for derivatives",
+   "clause": "Key Management Personnel are prohibited from trading during the Closed Period in financial products issued or created over or in respect of the Company's securities.",
+   "why_it_matters": "The put and call legs of a collar are barred outright for KMP inside a Closed Period, and 4.5's flat prohibition makes no reference to the 4.2 exceptional-circumstances approval route available for ordinary share trades."
+  },
+  {
+   "topic": "no preclearance regime outside closed periods",
+   "clause": "Employees intending to deal in the Company's securities should, prior to so dealing, enquire of the Company Secretary or the Chairman as to whether any announcements of price sensitive information are anticipated.",
+   "why_it_matters": "Outside the twice-yearly Closed Periods there is no mandatory preclearance system for KMP or other employees, so the collar's derivative legs, margin loan, and any sale can be executed without seeking company approval, subject only to actually possessing inside information."
+  },
+  {
+   "topic": "advisory-only margin loan restriction",
+   "clause": "should not enter into margin loans which could cause a forced trade by a margin lender during a Closed Period.",
+   "why_it_matters": "Framed as a 'should not,' not an outright ban, with no consent or notification requirement, so a loan secured on RHI shares appears permissible provided its terms would not force a lender sale during a Closed Period."
+  },
+  {
+   "topic": "insider trading overrides everything",
+   "clause": "Trading is prohibited at any time if the Employee possesses inside information, irrespective of whether it is outside the Closed Period or is excluded from operation of this policy.",
+   "why_it_matters": "Even a fully off-Closed-Period or exception-based collar or loan transaction remains void if the executive or the bank's counterpart possesses inside information at signing."
+  },
+  {
+   "topic": "consecutive closed period option relief",
+   "clause": "the exercise of an option, where the final date for the exercise of an option, falls during a prohibited period and the Company has had a number of consecutive Closed Periods to the extent that the Key Management Person could not reasonably have been expected to exercise the options at a point in time in which they were able to do so.",
+   "why_it_matters": "Relevant if the collar is written over unvested options nearing expiry, since the policy permits exercise in this narrow circumstance despite consecutive Closed Periods."
+  }
+ ],
+ "summary": "A funded collar appears workable for Red Hill Iron KMP with a comparatively light compliance burden, because the policy has no mandatory preclearance system for dealing outside the twice-yearly Closed Periods (two weeks before to one day after half-year and full-year results). Outside those windows, the put, call and secured loan legs could be entered subject only to actual insider trading law and a recommended (not mandatory) enquiry of the Company Secretary or Chairman. Margin loans are addressed only by an advisory that KMP 'should not' take out a loan that could force a lender sale during a Closed Period; there is no formal consent, notification, or restriction on other secured financing, so a loan secured on the collared shares is not itself prohibited. However, financial products (derivatives, and by extension CFDs, forwards and hedges over Company securities) are expressly barred for KMP during a Closed Period with no referenced exceptional-circumstances clearance route, so collar execution, unwind or settlement timed inside a Closed Period is at risk, and any dealing while in possession of inside information is void regardless of timing or exemption. Directors must also notify the Company Secretary of price and quantity within two business days of any completed trade."
+}
