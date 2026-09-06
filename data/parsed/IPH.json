@@ -1,0 +1,405 @@
+{
+ "symbol": "IPH",
+ "company": "IPH Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "16 June 2026",
+ "date_lodged": "17 June 2026",
+ "date_next_review": "June 2029",
+ "tiers": [
+  {
+   "name": "IPH Personnel",
+   "kind": "all_staff",
+   "description": "Directors, officers, employees and contractors of the Company and its controlled entities. Subject to the insider trading provisions and the Trading Windows; not subject to the Restricted Persons' clearance, hedging or margin loan restrictions unless separately designated a Restricted Person.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors, any member of the Executive Leadership Team, any Managing Director or CEO of an IPH Group member firm, the Company Secretary, any employees of IPH Limited (including the IPH Group finance team), and any other IPH Personnel advised by the Company Secretary that they are subject to special restrictions. Subject to standing clearance, hedging and margin loan prohibitions in addition to the Trading Windows.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman of the Board",
+   "kind": "director",
+   "description": "Restricted Person sub-group; own dealings are cleared by the Chair of the Audit and Risk Committee rather than the Chairman.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Directors, the Executive Leadership Team and the Company Secretary",
+   "kind": "kmp",
+   "description": "Restricted Person sub-group cleared by the Chairman of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Any other Restricted Persons",
+   "kind": "restricted",
+   "description": "Restricted Person sub-group cleared by the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associated Parties",
+   "kind": "associate",
+   "description": "Family members who may be expected to influence, or be influenced by, IPH Personnel (spouse/partner, children, dependents), and any family trust, super fund, company or other entity over which the IPH Personnel or such family member has control, significant influence, or is a beneficiary. IPH Personnel have personal responsibility to ensure Associated Parties comply with the Trading Windows and clearance requirements.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "transactions in financial products that operate to limit the economic risk associated with holding securities in the Company",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "beginning of trade on the trading day following release of annual financial statements to ASX",
+   "end_anchor": "four weeks after commencement",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "beginning of trade on the trading day following release of half-yearly financial statements to ASX",
+   "end_anchor": "four weeks after commencement",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "beginning of trade on the trading day following the annual general meeting",
+   "end_anchor": "four weeks after commencement",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board has an absolute discretion to place an embargo on Restricted Persons, other IPH Personnel and/or their respective Associated Parties trading in the Company's securities or limit the Trading Windows at any time. The Policy does not state whether such an embargo is disclosed or kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7",
+   "detail": "No separate derivatives clause. A derivative such as a purchased put or written call is caught because it is 'a transaction in a financial product that operates to limit the economic risk associated with holding securities in the Company', which section 7 bans outright for Restricted Persons regardless of vesting state.",
+   "evidence": "A Restricted Person must not enter into hedging arrangements with respect to securities in the Company (including any shares, options and rights). Hedging arrangements include entering into transactions in financial products that operate to limit the economic risk associated with holding securities in the Company."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "IPH Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "4; 7",
+   "detail": "The hedging ban in section 7 and margin loan ban in section 8 are expressed to apply only to Restricted Persons. General IPH Personnel who are not Restricted Persons are not named as subject to any derivatives-specific restriction and need only deal within a Trading Window (no standing clearance requirement).",
+   "evidence": "Restricted Persons (as defined in section 6 below) are subject to additional restrictions under this Policy, including obtaining written clearance before dealing in any securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Outright ban on hedging arrangements over shares, options and rights, with no distinction drawn between unvested and vested securities and no exemption or clearance route provided.",
+   "evidence": "A Restricted Person must not enter into hedging arrangements with respect to securities in the Company (including any shares, options and rights)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "IPH Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "7",
+   "detail": "Section 7 is expressed to apply only to a 'Restricted Person'; IPH Personnel who are not Restricted Persons are not addressed by the hedging prohibition.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure is a transaction in a financial product that operates to limit the economic risk of holding Company securities, and is therefore banned as a hedging arrangement under section 7.",
+   "evidence": "Hedging arrangements include entering into transactions in financial products that operate to limit the economic risk associated with holding securities in the Company."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5; 7",
+   "detail": "CFDs are not named. A CFD referencing Company securities that operates to limit the economic risk of a holding would be a banned hedging arrangement under section 7; if not economic-risk-limiting it would be an ordinary dealing subject to the standing written clearance requirement that applies to Restricted Persons at all times.",
+   "evidence": "Restricted Persons and their Associated Parties must not deal in the Company's securities until written approval has been given by the relevant Authorising Officer. This obligation operates at all times (whether the Trading Window is open or not)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Outright ban on including Company securities in a margin loan portfolio or otherwise dealing pursuant to a margin lending arrangement, expressly including entering the arrangement, transferring securities into an existing margin account, and selling to satisfy a margin call.",
+   "evidence": "A Restricted Person must not include their Company securities in a margin loan portfolio or otherwise deal in securities in the Company pursuant to a margin lending arrangement."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "IPH Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "8",
+   "detail": "Section 8 is expressed to apply only to a 'Restricted Person'; IPH Personnel who are not Restricted Persons are not addressed by the margin loan prohibition.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "8",
+   "detail": "The Policy addresses margin lending specifically (section 8) but does not otherwise name granting a charge, lien or pledge over Company securities to secure financing generally.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Only margin lending arrangements are named (a margin loan portfolio, transfer into an existing margin account, or a sale to satisfy a margin call). The Policy does not use broader 'any other secured financing arrangement' wording, so a bespoke bilateral loan from a bank secured by a pledge of shares, not structured as a margin loan, is not expressly addressed.",
+   "evidence": "A Restricted Person must not include their Company securities in a margin loan portfolio or otherwise deal in securities in the Company pursuant to a margin lending arrangement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No short-term or minimum holding period restriction is named anywhere in the Policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chairman of the Board",
+   "type": "approval",
+   "approver": "Chair of the Audit and Risk Committee (copied to the Company Secretary)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "no more than two days after the dealing",
+   "section": "5; 9",
+   "evidence": "Chairman of the Board / Chair of the Audit and Risk Committee (copied to the Company Secretary)"
+  },
+  {
+   "tier": "Other Directors, the Executive Leadership Team and the Company Secretary",
+   "type": "approval",
+   "approver": "Chairman of the Board (copied to the Company Secretary)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "no more than two days after the dealing (Directors); unspecified for other members of this tier",
+   "section": "5; 9",
+   "evidence": "Other Directors, the Executive Leadership Team and the Company Secretary / Chairman of the Board (copied to the Company Secretary)"
+  },
+  {
+   "tier": "Any other Restricted Persons",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5",
+   "evidence": "Any other Restricted Persons / Company Secretary"
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "relevant Authorising Officer",
+   "evidence": "severe financial hardship (including a pressing financial commitment that cannot otherwise be satisfied);"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "relevant Authorising Officer",
+   "evidence": "a court order;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "relevant Authorising Officer",
+   "evidence": "a court enforceable undertaking in a bona fide family settlement;"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "relevant Authorising Officer",
+   "evidence": "some other overriding legal or regulatory requirement to transfer or sell shares in the Company;"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Chairman of the Board",
+   "evidence": "other circumstances that may be deemed exceptional by the Chairman of the Board."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transactions that do not alter the beneficial ownership of Company securities (e.g. transferring a personal holding of Company securities to a self-managed superannuation fund);"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "investing in or trading units of a fund or other scheme (excluding schemes that invest solely in Company securities) where a third party has discretionary control over the fund or scheme's assets;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposing of Company securities as a result of a scheme of arrangement or acceptance of a takeover offer;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participating in an offer or invitation extended to all or most of the Company's shareholders, such as a rights issue or equal access buy-back, where the Board has approved the plan determining the offer's timing and structure;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquiring Company securities through a share purchase plan or dividend reinvestment plan, provided that Restricted Persons do not initiate or modify their participation in the dividend reinvestment plan outside a Trading Window (except in exceptional circumstances and with prior written clearance);"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "exercising (but not selling Company securities after exercise) an option, right or other security under a Company employee incentive scheme."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The relevant Authorising Officer (Chairman of the Board; Chair of the Audit and Risk Committee for the Chairman's own dealings; or the Company Secretary) may grant prior written consent to sell or dispose of securities outside a Trading Window only for severe financial hardship, a court order, a court-enforceable family settlement undertaking, another overriding legal/regulatory requirement, or other circumstances the Chairman deems exceptional, provided the person is not in possession of Inside Information; determined case-by-case at the Authorising Officer's absolute discretion. There is no exemption authority for the hedging or margin loan bans in sections 7 and 8.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute hedging ban",
+   "clause": "A Restricted Person must not enter into hedging arrangements with respect to securities in the Company (including any shares, options and rights).",
+   "why_it_matters": "Both legs of a collar (purchased put and written call) are hedging arrangements banned outright for Restricted Persons, with no clearance or exemption route, so the derivative overlay cannot be implemented while the person is a Restricted Person."
+  },
+  {
+   "topic": "margin loan scope only",
+   "clause": "A Restricted Person must not include their Company securities in a margin loan portfolio or otherwise deal in securities in the Company pursuant to a margin lending arrangement.",
+   "why_it_matters": "The ban is expressly limited to margin lending arrangements and does not use broader 'any other secured financing arrangement' wording, so a bespoke bilateral bank loan secured by a pledge of the collared shares, not structured as a margin loan, arguably sits outside the literal wording -- though this is academic given the hedging ban already blocks the derivative legs."
+  },
+  {
+   "topic": "standing clearance requirement",
+   "clause": "Restricted Persons and their Associated Parties must not deal in the Company's securities until written approval has been given by the relevant Authorising Officer. This obligation operates at all times (whether the Trading Window is open or not).",
+   "why_it_matters": "Even a permitted, unhedged sale of vested shares by a Restricted Person needs written clearance at all times, so any unwind or settlement also requires fresh clearance."
+  },
+  {
+   "topic": "Restricted Persons defined broadly",
+   "clause": "any employees of IPH Limited (including any member of the IPH Group finance team)",
+   "why_it_matters": "The hedging and margin-loan bans extend to rank-and-file IPH Limited employees, not just directors and the Executive Leadership Team, though employees of member firms outside IPH Limited itself are not automatically caught."
+  },
+  {
+   "topic": "clearance validity",
+   "clause": "If clearance is granted, the transaction must be initiated within five trading days and completed without delay.",
+   "why_it_matters": "Any cleared dealing (e.g. a sale of unhedged vested shares) must be executed within 5 trading days or fresh clearance must be sought, adding execution-timing risk."
+  },
+  {
+   "topic": "no clearance with inside information",
+   "clause": "if a member of the IPH Personnel is in possession of Inside Information, an Authorising Officer will not grant consent.",
+   "why_it_matters": "Clearance for entry into, or unwind of, any arrangement is unavailable whenever the executive holds Inside Information, regardless of exceptional circumstances."
+  }
+ ],
+ "summary": "A funded collar is not possible for any IPH Restricted Person -- directors, the Executive Leadership Team, MD/CEOs of member firms, the Company Secretary, and all IPH Limited employees. Section 7 imposes an outright ban on hedging arrangements, defined broadly as any transaction in a financial product that limits the economic risk of holding Company securities (shares, options or rights), with no clearance route or exemption, so both legs of a collar are prohibited regardless of vesting state. Section 8 separately bans margin lending arrangements, including transferring shares into an existing margin account or selling to meet a margin call, but is worded narrowly around 'margin lending' rather than secured financing generally, leaving some doubt whether a bespoke bank loan structured other than as a margin loan is caught -- moot, however, given the hedging ban already blocks the derivative legs. Ordinary (unhedged) dealing in vested shares by a Restricted Person requires standing written clearance from the Chairman, the Chair of the Audit and Risk Committee, or the Company Secretary at all times, valid for only 5 trading days, and unavailable while holding Inside Information. Non-Restricted IPH Personnel are not subject to the hedging or margin-loan bans, but the intended audience for a bank collar (directors and executives) will virtually always be Restricted Persons."
+}

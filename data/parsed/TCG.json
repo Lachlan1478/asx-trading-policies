@@ -1,0 +1,353 @@
+{
+ "symbol": "TCG",
+ "company": "Turaco Gold Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "October 2025",
+ "date_lodged": "17 October 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Applicable Persons",
+   "kind": "all_staff",
+   "description": "Directors, employees, Advisers, Contractors and Consultants of Turaco. Must obtain Trading Approval before dealing, must not deal on inside information, must never engage in short-term trading, and must counsel their Related Persons to comply.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Related Persons",
+   "kind": "associate",
+   "description": "Spouses, de facto spouses, parents and children of Applicable Persons, and entities controlled by Applicable Persons. Named alongside Applicable Persons wherever the policy prohibits hedging or margin lending, and covered by Trading Approval if the Applicable Person is aware of their dealing.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Applicable Persons and Related Persons together; the term used for the short-term trading ban, the hedging ban and the list of dealings excluded from the policy.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "Directors, the Company Secretary, the CFO, persons with authority and responsibility for planning, directing and controlling Turaco's activities, and any other person notified by the Board (AASB 124 meaning). Distinguished for the Prohibited Period trading ban, Board clearance to deal during a Prohibited Period, and the Board's power to seek information on ownership, encumbrances and margin loans.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors specifically; distinguished for the additional s205G/Appendix 3X, 3Y or 3Z ASX notification duty on appointment, change of interest or resignation.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions, arrangements or the use of financial derivatives which limit the economic risk in relation to their holding of Turaco's securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Key Management Personnel"
+   ],
+   "start_anchor": "one week before release of the Company's quarterly, half year or annual report to ASX",
+   "end_anchor": "one business day after release of that report",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Turaco may impose additional Prohibited Periods when senior management becomes aware of a matter considered price sensitive, or which the Chair or Managing Director deems price sensitive. Not stated whether confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Applicable Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1(b); 10.1",
+   "detail": "'Securities' expressly includes derivatives and other financial products issued or created over Turaco securities by third parties, with no venue limit, so an OTC derivative is a dealing requiring the same prior written Trading Approval as any other dealing. A derivative used to limit economic risk of a holding is separately and absolutely banned under the hedging provision (topic hedging).",
+   "evidence": "'securities' include shares, options, derivatives and other financial products that can be traded on a financial market including financial products issued or created over Turaco securities by third parties and products which operate to limit economic risk in securities holdings in Turaco"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "Absolute, unconditioned ban with no vesting-state distinction and no clearance route: any transaction, arrangement or use of financial derivatives limiting the economic risk of a Restricted Person's holding of Turaco securities is prohibited outright.",
+   "evidence": "Restricted Persons are prohibited from entering into transactions, arrangements or the use of financial derivatives which limit the economic risk in relation to their holding of Turaco's securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Applicable Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1(a); 10.1",
+   "detail": "Monetisation is not named. A prepaid forward or similar arrangement is an agreement to sell securities and/or a third-party financial product issued over Turaco securities, and so is a dealing requiring Trading Approval; if it operates to limit economic risk it is also caught by the hedging ban.",
+   "evidence": "'dealing' includes applying for, acquiring or disposing of, or entering into an agreement to apply for, acquire or sell, securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere; only the distinct concept of 'short-term trading' (buying and selling the same securities within three months) is addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned and is not listed within the dealing or securities definitions.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Applicable Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1(b); 10.1",
+   "detail": "CFDs are not named. A CFD referencing Turaco securities is a financial product traded on a financial market in respect of Turaco securities and so a dealing requiring Trading Approval; a CFD used to hedge a holding would instead fall within the absolute hedging ban.",
+   "evidence": "'securities' include shares, options, derivatives and other financial products that can be traded on a financial market"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Outright ban on margin lending arrangements involving Turaco securities, extending to Related Persons, with no clearance or exemption route stated.",
+   "evidence": "Applicable Persons and Related Persons are prohibited from entering into a margin lending arrangement involving Turaco's securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4",
+   "detail": "Encumbrances (other than margin loans, which are banned separately) are not prohibited, but the Board may seek information from Key Management Personnel about encumbrances granted over their Turaco securities and may require them to keep the Company Secretary informed of changes, on a reactive rather than proactive basis.",
+   "evidence": "The Board may seek information from Key Management Personnel about their level of ownership of Turaco's securities and about any encumbrances granted or margin loans taken out in respect of those securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4; 8",
+   "detail": "Only margin lending arrangements are expressly banned (section 8). Other secured financing in respect of Turaco securities is not prohibited but is subject to the Board's power to request ownership and encumbrance information from Key Management Personnel and to require ongoing disclosure of changes.",
+   "evidence": "The Board may seek information from Key Management Personnel about their level of ownership of Turaco's securities and about any encumbrances granted or margin loans taken out in respect of those securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5",
+   "detail": "Purchase and sale of the same securities within three months is generally prohibited for Restricted Persons; the Board may exempt on application in exceptional circumstances.",
+   "evidence": "Short-term trading is defined as the purchase and sale of the same securities within a three-month period. In order to prevent the unfair use of information, Restricted Persons are generally prohibited from short-term trading at all times."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Applicable Persons",
+   "type": "approval",
+   "approver": "Managing Director or CFO (Chair, if the dealing person is the Managing Director; a Board member, if the dealing person is the Chair)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "must notify the Company Secretary when trading has commenced and has completed",
+   "section": "10.1",
+   "evidence": "Applicable Persons are required to obtain prior written clearance of all intended dealings in Turaco's securities by themselves or, if they are aware, their Related Persons, two business days before such intended dealings ('Trading Approval') ... A Trading Approval may only be granted to deal in the Company's securities for a maximum of five (5) business [days]"
+  },
+  {
+   "tier": "Key Management Personnel",
+   "type": "approval",
+   "approver": "Board (by resolution at a Board meeting, a written resolution signed by each Director, or each Director's email consent)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly",
+   "section": "7.1-7.3",
+   "evidence": "The Board may, in exceptional circumstances only, give prior written clearance to any member of Key Management Personnel or his/her Related Persons to deal in Turaco's securities during a Prohibited Period ... the relevant Key Management Personnel must comply ... with any conditions imposed by the Board or relevant officers of Turaco, such as the effective period of the clearance."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "purchase and sale of the same securities within the period",
+   "carve_outs": [
+    "Board may exempt Restricted Persons from the prohibition in exceptional circumstances, on application"
+   ],
+   "evidence": "Short-term trading is defined as the purchase and sale of the same securities within a three-month period."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "a rights issue; a dividend reinvestment plan; a share purchase plan"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an employee option plan, employee share acquisition scheme, executive share acquisition plan or similar arrangement"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "The disposing of securities under a buy back or capital reduction made available to most or all of Turaco's shareholders"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "The disposing of entitlements under a renounceable rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "The acceptance of (or undertaking to accept) an offer under a takeover bid, disposing of securities under a scheme of arrangement or agreeing to cancel options over unissued shares in conjunction with a change of control transaction"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "The transfer of securities to a superannuation fund or other saving scheme in which Restricted Person is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "The investment in or trading in units of, a fund or other scheme (other than a scheme investing only in Turaco's securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "Where the Restricted Person is a trustee or officer of a trustee company, trading in securities by that trust provided the Restricted Person is not a beneficiary of the trust and any decision to trade during a Prohibited Period is taken by other trustees, investment managers or beneficiaries independently of the Restricted Person"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Under a non-discretionary trading plan for which prior written clearance has been provided in accordance with procedures set out in this policy"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Entering into a transaction where the beneficial interest in securities will not change"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Exercising an option, exercising a right under an employee incentive scheme or converting a convertible security"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "court orders requiring the sale of the securities in question"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Key Management Personnel; trigger: Board request regarding level of ownership and any encumbrances granted or margin loans taken out (reactive, not on a fixed schedule); to: the Board (may be required to keep the Company Secretary informed of changes); deadline: not specified."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "AASB 124 Related Party Disclosures (defines Key Management Personnel)",
+  "ASX Appendix 3X, 3Y and 3Z forms"
+ ],
+ "exemption_authority": "The Board may grant prior written clearance for Key Management Personnel (or their Related Persons) to deal during a Prohibited Period in exceptional circumstances such as severe financial hardship or a court order, and may impose conditions including the effective period of the clearance; clearance will not be granted if Turaco is currently in possession of Inside Information. The Board may separately exempt Restricted Persons from the short-term trading prohibition in exceptional circumstances on application. Confidentiality of a refusal is not addressed.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "unconditioned hedging ban",
+   "clause": "Restricted Persons are prohibited from entering into transactions, arrangements or the use of financial derivatives which limit the economic risk in relation to their holding of Turaco's securities.",
+   "why_it_matters": "Because the ban is absolute, applies to Applicable Persons and Related Persons alike, and draws no distinction between vested and unvested holdings or between exchange-traded and OTC instruments, the purchased put and written call legs of a collar are prohibited outright with no clearance mechanism to permit them."
+  },
+  {
+   "topic": "margin lending ban extends to Related Persons",
+   "clause": "Applicable Persons and Related Persons are prohibited from entering into a margin lending arrangement involving Turaco's securities.",
+   "why_it_matters": "Routing the loan leg of a funded collar through a spouse, family member or controlled entity does not avoid the prohibition."
+  },
+  {
+   "topic": "encumbrance disclosure is reactive only",
+   "clause": "The Board may seek information from Key Management Personnel about their level of ownership of Turaco's securities and about any encumbrances granted or margin loans taken out in respect of those securities. The Board may also require them to keep the Company Secretary informed of changes to such information.",
+   "why_it_matters": "A non-margin-loan secured facility (e.g. a bank loan secured on collared shares) is not itself banned, but the Board can compel disclosure of the security interest and its terms on request, and can impose an ongoing update obligation."
+  },
+  {
+   "topic": "Trading Approval lapse",
+   "clause": "A Trading Approval may only be granted to deal in the Company's securities for a maximum of five (5) business [days] ... Should dealing not be completed within five (5) business days, the Trading Approval shall lapse automatically",
+   "why_it_matters": "Any dealing component of a collar structure that is not itself hedging-prohibited (e.g. an outright sale) would need to be completed within 5 business days of clearance or re-cleared."
+  }
+ ],
+ "summary": "A funded collar is not achievable under this policy. Section 9 imposes an absolute, unconditioned prohibition on Restricted Persons (Applicable Persons and their Related Persons) entering into any transaction, arrangement or derivative that limits the economic risk of their Turaco holding, with no vesting-state carve-out and no clearance route, which squarely catches the purchased put and written call legs of a collar. Section 8 separately bans any margin lending arrangement involving Turaco securities for the same persons, though other secured financing or encumbrances are not themselves prohibited and are instead subject to the Board's power to demand disclosure of ownership levels and encumbrances from Key Management Personnel. Even setting the hedging and margin-lending bans aside, ordinary dealing in an OTC financial product (which the 'securities' definition expressly covers) requires prior written Trading Approval two business days ahead, lapses after five business days, and must avoid the one-week-before/one-business-day-after Prohibited Periods around quarterly, half-year and annual results or any ad hoc price-sensitive blackout. Implementing a bank-funded collar for any Restricted Person would require a bespoke Board waiver or policy amendment, for which the policy provides no mechanism beyond the narrow hardship/court-order exemption for dealing during a Prohibited Period."
+}

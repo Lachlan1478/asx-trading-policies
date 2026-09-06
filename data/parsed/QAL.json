@@ -1,0 +1,415 @@
+{
+ "symbol": "QAL",
+ "company": "Qualitas Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "25 March 2024",
+ "date_effective": "25 March 2024",
+ "date_lodged": "25 March 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Officer",
+   "kind": "kmp",
+   "description": "Any director of the Company, each member of the executive team, and each other person notified by the Company Secretary as having authority and responsibility for planning, direction and control of the Company's activities (i.e. KMP).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employee",
+   "kind": "all_staff",
+   "description": "Any Group employee, plus any contractor or consultant whose engagement incorporates this policy, and any Business Partner.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associate",
+   "kind": "associate",
+   "description": "Someone a Designated Officer or Employee can be regarded as having investment control or influence over: family members, nominees/investment managers, trusts of which the person or family or a family-controlled company is trustee or beneficiary, partners, and controlled bodies corporate.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "other",
+   "description": "Defined as any Employee, Designated Officer, or Associate; used as the general class for blackout periods, insider trading prohibitions, speculative dealing (short-term nature and hedging) and Clearance.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees and Designated Officers",
+   "kind": "other",
+   "description": "Used in sections 14 (Derivatives) and 15 (Margin loans) without express extension to Associates; an Associate is captured only indirectly via clause 10.1's requirement that an Employee or Designated Officer prevent Dealing by their Associate that they themselves cannot undertake.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading on the ASX on 30 June (or preceding Business Day)",
+   "end_anchor": "day following the announcement to ASX of the full-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading on the ASX on 31 December (or preceding Business Day)",
+   "end_anchor": "day following the announcement to ASX of the half-year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other Blackout Period from time to time (8.1(c)) and may vary, suspend or terminate the availability of any trading window at any time (8.4). Confidentiality of such determinations is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Employees and Designated Officers",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "14.2",
+   "detail": "Absolute ban on using Derivatives in relation to unvested Company Securities in any way, to prevent value being realised before performance/time hurdles are met. Not expressly extended to Associates, but an Associate is caught if the Employee/Designated Officer must prevent Dealing they themselves cannot do (10.1).",
+   "evidence": "Employees and Designated Officers are not permitted to use Derivatives in relation to any unvested Company Securities in any way."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees and Designated Officers",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "14.3",
+   "detail": "Derivatives over vested Company Securities are expressly permitted provided the Dealing complies with the rest of the policy (Clearance, blackout periods, insider trading, and the separate absolute hedging ban in 13.2, which is not limited by vesting state).",
+   "evidence": "Employees and Designated Officers may use Derivatives in relation to vested Company Securities, provided any Dealing complies with the balance of this policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "13.2",
+   "detail": "Absolute, unqualified ban on hedging Company Securities, applying to Employees, Designated Officers and their Associates, 'at all times' - not limited to unvested holdings. The Derivatives definition expressly names 'caps and collars' and 'any other hedging or investment arrangement', so an OTC put/call collar with a bank is squarely a hedging arrangement caught by this clause regardless of vesting state, notwithstanding 14.3's general permission for derivatives over vested securities.",
+   "evidence": "Hedging of Company Securities by Employees, Designated Officers or their Associates is prohibited at all times."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "13.2; 16 (Derivatives)",
+   "detail": "Not named. A prepaid forward or similar arrangement that limits economic risk is a hedging or investment arrangement under the Derivatives definition and is banned at all times by 13.2; a pure unconditional sale that does not limit risk would instead be an ordinary Dealing requiring Clearance under clause 9.",
+   "evidence": "Derivatives ... includes the following if they relate to or derive their value from Company Securities: put or call options, forward contracts, futures, warrants, depositary receipts, structured financial products, swaps, contracts for difference, spread bets, caps and collars, and any other hedging or investment arrangement."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy, including within the 'Speculative dealing' heading (which addresses only Short-Term Nature dealing and hedging) or the Dealing definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "13.2; 16 (Derivatives)",
+   "detail": "Contracts for difference are expressly named within the Derivatives definition; as a Derivative that operates to hedge exposure to Company Securities, a CFD is banned at all times by the absolute hedging prohibition in 13.2.",
+   "evidence": "Derivatives ... includes the following if they relate to or derive their value from Company Securities: ... contracts for difference, spread bets, caps and collars, and any other hedging or investment arrangement."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15.2",
+   "detail": "Absolute ban on margin loan arrangements to fund acquisition of Company Securities, with no clearance route and no stated exemption authority.",
+   "evidence": "Employees and Designated Officers are prohibited from entering into margin loan arrangements to fund the acquisition of Company Securities or in relation to which Company Securities may be used as security against loan repayment."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employees and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15.2",
+   "detail": "Using Company Securities as security against repayment of any loan is banned in the same clause as margin loans; not part of the Dealing definition, so regulated only by this express prohibition.",
+   "evidence": "or in relation to which Company Securities may be used as security against loan repayment."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15.2",
+   "detail": "Covers margin loans and, more broadly, any arrangement in relation to which Company Securities may be used as security for loan repayment, i.e. any secured financing, not just margin loans specifically. No clearance route or exemption authority is provided.",
+   "evidence": "Employees and Designated Officers are prohibited from entering into margin loan arrangements to fund the acquisition of Company Securities or in relation to which Company Securities may be used as security against loan repayment."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "13.1; 16 (Short-Term Nature)",
+   "detail": "Any purchase and sale of Company Securities within six months or less is prohibited, with no stated carve-out for shares acquired under an employee plan.",
+   "evidence": "Restricted Persons are not permitted to Deal in Company Securities of a Short-Term Nature. ... Short-Term Nature means any purchase and sale of Company Securities where both transactions occur within a period of six months or less."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Employee",
+   "type": "approval",
+   "approver": "Director of Compliance of the Company, with a copy to the Chief Financial Officer",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Clearance Officer",
+   "post_trade_deadline": "unspecified ('after such Dealing')",
+   "section": "9; 16 (Clearance Officer)",
+   "evidence": "for an Employee, the Director of Compliance of the Company, with a copy to the Chief Financial Officer."
+  },
+  {
+   "tier": "Director of Compliance",
+   "type": "approval",
+   "approver": "Group Managing Director",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Clearance Officer",
+   "post_trade_deadline": "unspecified ('after such Dealing')",
+   "section": "9; 16 (Clearance Officer)",
+   "evidence": "for the Director of Compliance of the Company, the Group Managing Director."
+  },
+  {
+   "tier": "Designated Officer",
+   "type": "approval",
+   "approver": "Group Managing Director (non-director Designated Officers); chair of the board (directors, including the Group Managing Director, except the chair)",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Clearance Officer",
+   "post_trade_deadline": "unspecified ('after such Dealing')",
+   "section": "9; 12; 16 (Clearance Officer)",
+   "evidence": "for a Designated Officer who is not a director, the Group Managing Director; ... for a director, including the Group Managing Director, (except the chair of the board), the chair of the board."
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "chair of the Audit, Risk and Compliance Committee",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Clearance Officer",
+   "post_trade_deadline": "unspecified ('after such Dealing')",
+   "section": "9; 16 (Clearance Officer)",
+   "evidence": "for the chair of the board, the chair of the Audit, Risk and Compliance Committee."
+  },
+  {
+   "tier": "Associate",
+   "type": "approval",
+   "approver": "Clearance Officer of their principal",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Clearance Officer",
+   "post_trade_deadline": "unspecified ('after such Dealing')",
+   "section": "9; 16 (Clearance Officer)",
+   "evidence": "for an Associate, the Clearance Officer of their principal."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "buy_sell_window",
+   "months": 6,
+   "basis": "any purchase and sale occurring within the period",
+   "carve_outs": [],
+   "evidence": "Short-Term Nature means any purchase and sale of Company Securities where both transactions occur within a period of six months or less."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Clearance Officer",
+   "evidence": "if a person has a pressing financial commitment that cannot otherwise be satisfied, that failure to meet that financial commitment would cause material prejudice to that person and all reasonable alternatives have been investigated."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Clearance Officer",
+   "evidence": "if a person is required by court order, or enforceable undertaking (e.g. in a bona fide family settlement) to transfer or sell Company Securities or there is another overriding legal requirement to do so."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Clearance Officer",
+   "evidence": "any other circumstances determined by the relevant Clearance Officer that warrant the granting of a Clearance."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealing in Company Securities under an offer or invitation made by the Company to all or most of its ordinary shareholders – such as an offer or invitation under a rights issue, bonus issue, share purchase plan, dividend reinvestment plan, equal access buy-back or in lieu of a cash dividend."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertaking to accept, or accepting, an offer for Company Securities made under a takeover bid or disposing of Company Securities under a court-approved compromise or arrangement under Part 5.1 of the Corporations Act."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealing in units of or interests in, a fund or other scheme (other than a scheme investing primarily in Company Securities) where the assets of that fund or scheme are invested at a third party's sole discretion."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "where the Restricted Person is the trustee of a trust, Dealing in Company Securities by that trust provided that neither the Employee, Designated Officer nor any Associate is a beneficiary of the trust and any decision to trade during a prohibited period is taken entirely independently of the Restricted Person."
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of Company Securities effected by a change in the trustee of a trust."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "Board",
+   "evidence": "accepting an offer to acquire Company Securities, or acquiring Company Securities, under any employee share plan that the Board from time to time determines is a plan to which this clause applies."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (including automatic exercise on vesting, but not the sale of Company Securities following exercise) of an option or right under an employee share plan ... where the final date for exercise or conversion falls during a prohibited period."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the forfeiture, lapse, cancellation or surrender of Company Securities under an employee share plan."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "an off-market transaction involving the transfer or other disposal of Company Securities between a Restricted Person and any of the following: an Associate ... a company, trust or other entity over which the relevant Restricted Person ... has control or significant influence ... or a superannuation fund or other pension or saving scheme."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Market Disclosure Policy"],
+ "exemption_authority": "No exemption authority is stated for the absolute hedging ban (13.2) or the margin loan/secured financing ban (15.2). The Clearance Officer may grant clearance to deal during a Blackout Period only for court order, financial hardship, or other circumstances the Clearance Officer determines warrant it (8.3); this does not extend to the hedging or secured financing prohibitions.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute hedging ban vs. vested-derivatives permission",
+   "clause": "Hedging of Company Securities by Employees, Designated Officers or their Associates is prohibited at all times. [cf.] Employees and Designated Officers may use Derivatives in relation to vested Company Securities, provided any Dealing complies with the balance of this policy.",
+   "why_it_matters": "The policy contains an internal tension: 13.2 bans all hedging without a vesting carve-out, while 14.3 generally permits derivatives on vested shares; since collars are expressly named as a hedging arrangement in the Derivatives definition, the specific and more restrictive 13.2 ban should control, meaning an OTC collar is prohibited even over vested, unrestricted shares."
+  },
+  {
+   "topic": "collars named in Derivatives definition",
+   "clause": "Derivatives ... includes the following if they relate to or derive their value from Company Securities: put or call options, forward contracts, futures, warrants, depositary receipts, structured financial products, swaps, contracts for difference, spread bets, caps and collars, and any other hedging or investment arrangement.",
+   "why_it_matters": "The policy drafter clearly contemplated collar structures and classed them as hedging/Derivatives, removing any argument that a bank collar falls outside scope; there is also no venue qualifier, so the definition catches bespoke OTC products."
+  },
+  {
+   "topic": "secured financing ban not limited to 'margin loan'",
+   "clause": "Employees and Designated Officers are prohibited from entering into margin loan arrangements to fund the acquisition of Company Securities or in relation to which Company Securities may be used as security against loan repayment.",
+   "why_it_matters": "The prohibition extends to any arrangement where the shares secure loan repayment, not just formally-labelled margin loans, so a bespoke bank loan secured on the collared shares is independently and absolutely prohibited, with no Board or Clearance Officer discretion to approve it."
+  },
+  {
+   "topic": "statutory KMP hedging overlay",
+   "clause": "Additionally, the hedging of remuneration by key management personnel of the Group is prohibited by Part 2D.7 of the Corporations Act.",
+   "why_it_matters": "For Designated Officers who are KMP, the statutory ban on hedging unvested remuneration securities under the Corporations Act operates independently of, and in addition to, the Policy's own hedging ban."
+  },
+  {
+   "topic": "Appendix 3Y disclosure",
+   "clause": "If a Designated Officer is a director, they must ensure that an Appendix 3Y Change of Directors' Interest Notice is completed and provided to the Company Secretary within 2 business days ... The Company Secretary must provide the Appendix 3Y notice to ASX within 5 business days.",
+   "why_it_matters": "Even if a Dealing were otherwise permissible, director-level participants face a market disclosure timeline (2 then 5 business days) that a bank would need to build into settlement and confidentiality planning."
+  },
+  {
+   "topic": "clearance cannot be retrospective and lapses on inside information",
+   "clause": "Clearance will not be given retrospectively ... A Clearance ... cannot extend for more than 10 business days ... and lapses immediately if the applicant begins to possess Inside Information.",
+   "why_it_matters": "Even for any permitted Dealing (e.g. the general share sale itself), execution is constrained to a 10 business day window from grant and clearance evaporates automatically if inside information arises, a timing risk for any collar-adjacent settlement."
+  }
+ ],
+ "summary": "A funded OTC equity collar with a bank is not achievable under this policy for any tier or security state. Section 13.2 imposes an absolute, unqualified ban on hedging Company Securities by Employees, Designated Officers and their Associates 'at all times', and the Derivatives definition expressly names 'caps and collars' and 'any other hedging or investment arrangement', so a purchased put and written call collar is squarely caught regardless of whether the underlying shares are vested. Section 15.2 separately and absolutely prohibits Employees and Designated Officers from any margin loan or other arrangement under which Company Securities may be used as security for loan repayment, so the secured loan leg is independently barred with no Board or Clearance Officer discretion to approve it. The general permission for Derivatives over vested Company Securities (14.3) does not rescue the structure because the more specific hedging ban in 13.2 applies without a vesting carve-out, and neither the hedging nor the secured-financing prohibition has any stated exemption authority (unlike the hardship/court-order exceptions available for ordinary blackout-period trading). KMP Designated Officers face the additional statutory overlay of the Corporations Act Part 2D.7 ban on hedging unvested remuneration securities."
+}

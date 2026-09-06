@@ -1,0 +1,470 @@
+{
+ "symbol": "CVL",
+ "company": "Civmec Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "October 2022",
+ "date_effective": "October 2022",
+ "date_lodged": "",
+ "date_next_review": "October 2024",
+ "tiers": [
+  {
+   "name": "Civmec People",
+   "kind": "all_staff",
+   "description": "Directors and employees of the Group, particularly senior executives; subject to the general insider trading restrictions but not to the Closed Periods, hedging ban, short-term dealing rule or clearance procedures, which apply only to KMP.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "KMP",
+   "kind": "kmp",
+   "description": "Persons having authority and responsibility for planning, directing and controlling the activities of the Company, directly or indirectly, comprising directors, senior executives and group managers, and also group corporate financial accounting personnel, executive assistants, employees and contractors notified that they are restricted persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished only for the identity of the clearance approver (Chairman of the Audit Committee).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Other directors (including Chief Executive Officer)",
+   "kind": "director",
+   "description": "Directors other than the Chair, including the CEO; distinguished only for the identity of the clearance approver (Chair of the Board).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Senior executives, group manager and other restricted persons",
+   "kind": "restricted",
+   "description": "KMP other than directors; distinguished only for the identity of the clearance approver (CEO).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors and the CEO, for the purposes of the post-trade ASX Listing Rule 3.19A / SFA notification duty in section 10.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Immediate family members of Civmec People, and companies, trusts and entities controlled by them.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "transactions or arrangement which operate to limit the economic risk of its holdings of the Company's securities",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["KMP"],
+   "start_anchor": "one month prior to the release of the Company's Annual Financial Report/Half Year Financial Report to the ASX or SGX",
+   "end_anchor": "48 hours after the release of that report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["KMP"],
+   "start_anchor": "two weeks prior to the release of the Company's price sensitive announcements to the ASX or SGX",
+   "end_anchor": "48 hours after the release of that announcement",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may at its discretion vary a Closed Period rule by general announcement to all KMP, made either before or during the Closed Period; if a KMP holds undisclosed price sensitive information, they must not deal at any time regardless of any such variation.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7.1",
+   "detail": "Derivatives are not named as such, but a derivative that operates to limit the economic risk of a KMP's holding is caught by the section 7.1 ban regardless of venue or vesting state.",
+   "evidence": "KMP and its Associates must not enter into transactions or arrangement which operate to limit the economic risk of its holdings of the Company's securities at any time"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Civmec People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 7.1 is expressed to apply only to KMP and its Associates; not addressed for other Civmec People.",
+   "evidence": ""
+  },
+  {
+   "topic": "hedging",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "General ban on any transaction limiting economic risk of a KMP's Company securities holding, reinforced by the section 206J statutory prohibition specific to unvested or holding-locked incentive remuneration.",
+   "evidence": "KMP and its Associates must not enter into transactions or arrangement which operate to limit the economic risk of its holdings of the Company's securities at any time, which those securities are subject to the hedging prohibitions specified under section 206J of the Corp Act."
+  },
+  {
+   "topic": "hedging",
+   "tier": "KMP",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Separate, broader clause bans all dealing (not just hedging) in unvested securities, including hedging them.",
+   "evidence": "no dealing in unvested securities (including hedging unvested securities) is permitted."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7.1",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure operates to limit the economic risk of the KMP's holding and so is caught by the section 7.1 ban.",
+   "evidence": "KMP and its Associates must not enter into transactions or arrangement which operate to limit the economic risk of its holdings of the Company's securities at any time"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Short selling is not named, but would fall within the ban on 'speculative dealing' in the Company's securities.",
+   "evidence": "KMP should never engage in short-term trading (less than 12 weeks) or speculative dealing in the Company's securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Civmec People",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 6.1 applies only to KMP; not addressed for other Civmec People.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "7.1",
+   "detail": "CFDs are not named, but one referencing Civmec securities would operate to limit the KMP's economic risk and so fall within the section 7.1 ban.",
+   "evidence": "KMP and its Associates must not enter into transactions or arrangement which operate to limit the economic risk of its holdings of the Company's securities at any time"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1; 11.1(j)",
+   "detail": "Clause 11.1(j) presupposes that 'this policy permits KMP to enter into a margin lending or other secured financial arrangement', but no other provision sets out the specific conditions; entry would need to be brought within the general section 9 clearance procedure by analogy, and the gap should be confirmed with the Company.",
+   "evidence": "where this policy permits KMP to enter into a margin lending or other secured financial arrangement in relation to the Company's securities, an involuntary disposal of securities that results from the margin lender or financier exercising its rights under the arrangement"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1; 11.1(j)",
+   "detail": "Same drafting gap as margin lending: granting security is contemplated as something the policy 'permits' subject to conditions not otherwise spelled out beyond the general clearance procedure.",
+   "evidence": "where this policy permits KMP to enter into a margin lending or other secured financial arrangement in relation to the Company's securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.1; 11.1(j)",
+   "detail": "Unlike the outright hedging ban, secured financing is not itself expressly prohibited; clause 11.1(j) assumes it can be permitted, most likely via the general pre-trade clearance procedure, though the substantive conditions for permission are not set out elsewhere in the policy.",
+   "evidence": "where this policy permits KMP to enter into a margin lending or other secured financial arrangement in relation to the Company's securities, an involuntary disposal of securities that results from the margin lender or financier exercising its rights under the arrangement"
+  },
+  {
+   "topic": "short_term",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "No short-term trading of less than 12 weeks, and no dealing in unvested securities.",
+   "evidence": "KMP should never engage in short-term trading (less than 12 weeks) or speculative dealing in the Company's securities and no dealing in unvested securities (including hedging unvested securities) is permitted."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Civmec People",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.1; 3.2",
+   "evidence": "In broad terms, the restrictions apply whilst those persons are in possession of information, which is not generally available and which, if it were generally available, would have an effect on the price or value of the securities concerned"
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "preclearance_system",
+   "approver": "Chairman of the Audit Committee",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9.1-9.3; Table 1",
+   "evidence": "notify the Board and Company Secretary in writing of their intention to trade and obtain clearance, at least 48 hours before the proposed trading, from the nominated authorising officer ... Chair of the Board: Chairman of the Audit Committee"
+  },
+  {
+   "tier": "Other directors (including Chief Executive Officer)",
+   "type": "preclearance_system",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9.1-9.3; Table 1",
+   "evidence": "Other directors (including Chief Executive Officer): Chair of the Board"
+  },
+  {
+   "tier": "Senior executives, group manager and other restricted persons",
+   "type": "preclearance_system",
+   "approver": "Chief Executive Officer (\"CEO\")",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9.1-9.3; Table 1",
+   "evidence": "Senior executives, group manager and other restricted persons identified by the Company from time to time: Chief Executive Officer (\"CEO\")"
+  },
+  {
+   "tier": "Directors",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two business days after the dealing or the relevant change",
+   "section": "10.1; 10.2",
+   "evidence": "If a director or CEO deals in the Company's securities they must notify the Company Secretary of any dealings within two business days after the date on which the director or CEO becomes a director or CEO or the date on which the Director or CEO becomes a holder of, or acquires an interest in, the shares, rights, options, contract, participatory interest or other securities in the Company"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "KMP",
+   "type": "holding_period",
+   "months": 2.8,
+   "basis": "less than 12 weeks from acquisition",
+   "carve_outs": [],
+   "evidence": "KMP should never engage in short-term trading (less than 12 weeks) or speculative dealing in the Company's securities"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfer of securities between a KMP and someone closely related to the KMP or by a KMP to their superannuation fund, in respect of which prior written clearance has been provided in accordance with procedures set out in the trading policy;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of securities arising from the acceptance of a take-over offer, scheme of arrangement or equal access buy-back;"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of rights acquired under a pro rate issue;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of securities under a security purchase plan or a dividend or distribution reinvestment plan where: (i) the KMP did not commence or amend their participation in the plan during a prohibited period; and (ii) this policy does not permit the KMP to withdraw from the plan during a prohibited period other than in exceptional circumstances;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the obtaining by a director of a share qualification;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of securities under an employee incentive scheme;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "where the Company has an employee incentive scheme with a KMP as a trustee of the scheme, an acquisition of securities by the KMP in his or her capacity as a trustee of the scheme;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an acquisition or disposal of securities under a pre-determined investment or divestment plan for which prior written clearance has been provided ... where: (iii) the KMP did not enter into or amend the plan during a prohibited period; (iv) the plan does not permit the KMP to exercise any discretion over how, when, or whether to acquire or dispose of securities"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental trading that occurs as a consequence of a KMP dealing in securities issued by a managed investment scheme, listed investment company, exchange traded fund or similar investment vehicle that is managed by a third party, that happens to hold as part of its portfolio securities in the Company;"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "where this policy permits KMP to enter into a margin lending or other secured financial arrangement in relation to the Company's securities, an involuntary disposal of securities that results from the margin lender or financier exercising its rights under the arrangement."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Board",
+   "evidence": "The sale of the Company's securities is necessary to alleviate severe personal financial hardship;"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "Board",
+   "evidence": "The KMP has entered into a binding commitment prior to the Company being in a Closed Period where it was not reasonably foreseeable at the time the commitment would extend into a Closed Period;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Board",
+   "evidence": "The KMP is required by a court order, or there are court enforceable undertakings to transfer or sell the securities of the Company or there is some other overriding legal or regulatory requirement for them to do so; or"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Board (or Chairman of the Audit Committee in respect of a trade by the Chairman)",
+   "evidence": "There are other circumstances which have not been identified in this policy, that are deemed exceptional by the Board (or by the Chairman of the Audit Committee in respect of any trade by the Chairman) and the proposed sale or disposal of the relevant securities is the only reasonably course of action available."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Board may grant written approval for a KMP to deal, including during a Closed Period, in cases of severe personal financial hardship, a pre-existing binding commitment that unexpectedly extends into a Closed Period, a court order or overriding legal/regulatory requirement, or any other circumstance the Board (or, for the Chairman, the Chairman of the Audit Committee) deems exceptional and where the proposed sale is the only reasonable course of action. Clearance decisions generally are at the Company's absolute discretion, given or refused without reasons, and a refusal must be kept confidential by the KMP.",
+ "jurisdiction_overlays": [
+  "Singapore - Securities and Futures Act (Cap. 289), including SGX notification under sections 133, 137N and 137Y"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "headline hedging ban",
+   "clause": "KMP and its Associates must not enter into transactions or arrangement which operate to limit the economic risk of its holdings of the Company's securities at any time",
+   "why_it_matters": "This bans a put/call collar for KMP (and their Associates) in any vesting state, reinforced by the section 206J statutory prohibition for unvested or holding-locked incentive remuneration."
+  },
+  {
+   "topic": "no dealing in unvested securities",
+   "clause": "no dealing in unvested securities (including hedging unvested securities) is permitted.",
+   "why_it_matters": "Separately from the hedging ban, KMP cannot deal at all in unvested securities, foreclosing any collar or loan over unvested incentive awards regardless of clearance."
+  },
+  {
+   "topic": "margin lending permission gap",
+   "clause": "where this policy permits KMP to enter into a margin lending or other secured financial arrangement in relation to the Company's securities, an involuntary disposal of securities that results from the margin lender or financier exercising its rights under the arrangement [is excluded from the policy's restrictions]",
+   "why_it_matters": "The policy assumes KMP can be permitted to enter secured financing but never states the conditions for that permission elsewhere; the bank should have the Company confirm the applicable clearance process before relying on the loan leg being available."
+  },
+  {
+   "topic": "involuntary lender sale carve-out",
+   "clause": "an involuntary disposal of securities that results from the margin lender or financier exercising its rights under the arrangement",
+   "why_it_matters": "If a compliant secured loan were in place, the lender's enforcement sale is excluded from the policy's restrictions (including Closed Periods), giving certainty for lender enforcement timing."
+  },
+  {
+   "topic": "refusal confidentiality",
+   "clause": "If approval to trade Company securities is refused, the KMP seeking the approval must keep that information confidential and not disclose it to anyone.",
+   "why_it_matters": "A refused clearance for any permissible leg cannot be disclosed to the bank, limiting transparency in structuring discussions."
+  },
+  {
+   "topic": "clearance validity window",
+   "clause": "If written clearance is granted, it is only valid for a period of one week after notification of approval ... Written clearance is automatically deemed to be withdrawn if the person becomes aware of inside information prior to trading.",
+   "why_it_matters": "Any cleared step in structuring must be completed within one week (or a specified alternative period) and is automatically voided if inside information arises before execution."
+  },
+  {
+   "topic": "Associates bound",
+   "clause": "This policy also extends (in certain respects) to the immediate family members of Civmec People, and to companies, trusts and entities controlled by them (\"Associates\"). ... KMP and its Associates must not enter into transactions or arrangement which operate to limit the economic risk",
+   "why_it_matters": "Routing the collar or loan through a family member, trust or controlled entity does not escape the hedging ban or Closed Period restrictions."
+  }
+ ],
+ "summary": "A funded OTC equity collar cannot be implemented for KMP under this policy: section 7.1 bans KMP and their Associates from any transaction that limits the economic risk of their Company shareholding 'at any time', squarely catching a purchased put and written call collar, and section 6.1 separately and more broadly prohibits KMP from any dealing at all, not just hedging, in unvested securities. These bans apply without a stated clearance route and are reinforced by the section 206J statutory prohibition on unvested or holding-locked incentive remuneration. The loan leg is more ambiguous: clause 11.1(j) assumes 'this policy permits KMP to enter into a margin lending or other secured financial arrangement' and excludes a lender's resulting involuntary sale from the policy's restrictions, but no other provision sets out the terms on which such an arrangement is actually permitted, so the bank should have the Company confirm the applicable clearance process (most likely the general section 9 pre-clearance procedure) before assuming the loan leg is available. Even where a step is otherwise permissible, KMP need written clearance from the Chair of the Board, another director, or the CEO (as applicable) at least 48 hours in advance, valid for only one week and automatically void on receipt of inside information, and cannot deal during the Closed Periods absent Board-approved exceptional circumstances. Overall, this policy forecloses the collar's option legs outright for KMP, and the loan leg's availability turns on resolving an internal drafting gap with the Company before it can be relied upon."
+}
