@@ -1,0 +1,479 @@
+{
+ "symbol": "HMC",
+ "company": "HMC Capital Limited (Home Consortium Limited)",
+ "title": "Securities Trading Policy",
+ "date_approved": "September 2022",
+ "date_effective": "September 2022",
+ "date_lodged": "15 September 2022",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "A person who is an employee, officer or director of a Group Entity, and includes Senior Executives. Subject to Blackout Periods, insider trading rules, the six-month short-term trading ban, the hedging ban over unvested/restricted incentive securities, the short-position ban, and universal prior written pre-approval of all Trading from the Group CEO and Group Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of a Group Entity. Pre-approval requests are instead decided by the Chair and Group Company Secretary (in consultation with the Group CEO), and Directors must notify the Group Company Secretary of any trade within 2 business days.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives",
+   "kind": "kmp",
+   "description": "CEO and CFO of a Group Entity, all direct reports to a Group Entity's CEO, other KMP (as defined in AASB 124) including those named in the most recent Annual Report, and any Employee the Board designates. Subject to the same pre-approval route as general Employees but must also notify the Group Company Secretary of any trade within 2 business days, and are named (with Directors) in the margin lending consent requirement.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Staff Member",
+   "kind": "restricted",
+   "description": "Employees with access to sensitive information about the Group's trading positions in Third Party Securities (e.g. researchers, those aware of M&A or fund positions). Subject to a Restricted List and pre-approval regime for Trading in listed Third Party Securities, not HMC Capital Group Securities themselves.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "associates",
+   "kind": "associate",
+   "description": "Spouse, children and other family members of a Director or Employee, and any trusts, companies, nominees and other persons over whom the Director or Employee has, or may be expected to have, investment control or influence. The Director/Employee must seek the same prior approval before Trading on their associate's behalf.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk relating to HMC Capital Group Securities granted under an employee, executive or director incentive plan or as part of the Employee's remuneration, which either have not vested or have vested but remain subject to a holding lock or other restriction on dealing under the terms of the plan",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 January",
+   "end_anchor": "one business day after release of the half year accounts to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 July",
+   "end_anchor": "one business day after release of the annual accounts to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Group Board (in consultation with a Group Entity's Board) may declare a Blackout Period at any time, at its absolute discretion and without prior notice, for any one or more HMC Capital Group Securities; additional restrictions may also be imposed from time to time and are notified to Employees by the Group Company Secretary (not stated as confidential - contrast the refusal of an individual trade request, which must be kept confidential by the requester).",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7(b)",
+   "detail": "Ban on entering derivatives or similar financial products that limit the economic risk of incentive-plan securities that have not vested, regardless of whether the instrument is exchange-traded or OTC (no 'financial market' qualifier in this clause).",
+   "evidence": "entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk relating to HMC Capital Group Securities granted under an employee, executive or director incentive plan ... which either have not vested"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7(b)",
+   "detail": "Same ban extends to vested incentive securities still subject to a holding lock or other dealing restriction under the plan.",
+   "evidence": "or have vested but remain subject to a holding lock or other restriction on dealing under the terms of the plan"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.1(d); 5.1",
+   "detail": "An exchange-listed derivative over vested, unrestricted securities is a 'Financial Product' able to be traded on a financial market, so it is an 'HMC Capital Group Security' and buying/selling it is 'Trading' requiring the universal prior written pre-approval from the Group CEO and Group Company Secretary.",
+   "evidence": "any Financial Products issued over or in respect of the above securities which are able to be traded on a financial market, (collectively, the HMC Capital Group Securities)"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "1.1(d)",
+   "detail": "A bespoke, bilateral OTC derivative (such as a bank collar) is arguably not 'able to be traded on a financial market', so it is not a 'Financial Product' within 'HMC Capital Group Securities' and the general Trade/pre-approval/Blackout regime, which is keyed to that defined term, may not apply to it once the underlying securities are vested and unrestricted. The Policy does not otherwise address OTC derivatives directly.",
+   "evidence": ""
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7(b)",
+   "detail": "Same clause as the unvested derivatives ban; 'hedging' is not separately labelled but is the clause's operative concept (limiting economic risk).",
+   "evidence": "entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk relating to HMC Capital Group Securities granted under an employee, executive or director incentive plan or as part of the Employee's remuneration"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7(b)",
+   "detail": "Hedging ban extends to vested but still holding-locked or restricted incentive securities.",
+   "evidence": "or have vested but remain subject to a holding lock or other restriction on dealing under the terms of the plan"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "3.7(b); 3.7(c)",
+   "detail": "The 3.7(b) hedging ban only applies to unvested or still-restricted incentive securities; once vested and unrestricted, hedging is not separately named. The short-position ban (3.7(c)) could catch a put-type hedge but is framed as 'Trading in HMC Capital Group Securities', which for a derivative again depends on the 'able to be traded on a financial market' gate.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "8",
+   "detail": "Not named. A prepaid forward or similar bespoke monetisation is not a 'margin lending arrangement' as such, so section 8's consent regime does not clearly extend to it, though the company would likely treat an economically equivalent structure as analogous given the same forced-sale-in-Blackout-Period concern.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7(c)",
+   "detail": "Ban on Trading that enables an Employee to profit from, or limit the economic risk of, a decrease in the market price of HMC Capital Group Securities; a short sale of the underlying shares is squarely 'Trading in HMC Capital Group Securities' regardless of the financial-market qualifier that applies to Financial Products.",
+   "evidence": "Trading in HMC Capital Group Securities which enable an Employee to profit from or limit the economic risk of a decrease in the market price of HMC Capital Group Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere and is not one of the limbs of 'Trade or Trading'.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2.1 (Financial Products); 1.1(d)",
+   "detail": "'Contracts for difference' are expressly named as a type of Financial Product, but Financial Products only form part of 'HMC Capital Group Securities' (and so trigger the Trade/pre-approval regime) if 'able to be traded on a financial market' - most CFDs are OTC bilateral contracts with a provider and would not meet that test.",
+   "evidence": "Financial Products means any structured financial products, swaps, futures contracts, contracts for difference, spread bets, options, warrants, depositary receipts or other derivatives over or related to the performance of any HMC Capital Group Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1; 8.2",
+   "detail": "Directors may not include HMC Capital Group Securities in a margin loan portfolio, transfer them into an existing margin loan account, or Trade under a margin lending arrangement, without first obtaining consent of the Group CEO and Group Company Secretary (Chair, if the Director is the CEO or Company Secretary).",
+   "evidence": "Directors and Senior Executives may not include their HMC Capital Group Securities in a margin loan portfolio or otherwise Trade in HMC Capital Group Securities pursuant to a margin lending arrangement without first obtaining the consent of the Group Chief Executive Officer and the Group Company Secretary"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1; 8.2",
+   "detail": "Same prior-consent requirement as Directors applies to Senior Executives before entering, or transferring securities into, a margin lending arrangement.",
+   "evidence": "Directors and Senior Executives may not include their HMC Capital Group Securities in a margin loan portfolio or otherwise Trade in HMC Capital Group Securities pursuant to a margin lending arrangement without first obtaining the consent of the Group Chief Executive Officer and the Group Company Secretary"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "8",
+   "detail": "Section 8's margin lending consent requirement is expressly limited to Directors and Senior Executives; general Employees are not named, though any resulting sale would still be a 'Trade' requiring the universal pre-approval under 5.1.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1; 8.2(a)",
+   "detail": "Including securities in a margin loan portfolio necessarily involves granting the lender security; this is only expressly regulated in the margin lending context for Directors and Senior Executives, requiring prior consent.",
+   "evidence": "entering into a margin lending arrangement in respect of HMC Capital Group Securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8.1; 8.2(a)",
+   "detail": "Same consent requirement as Directors applies to Senior Executives granting security over their HMC Capital Group Securities via a margin lending arrangement.",
+   "evidence": "entering into a margin lending arrangement in respect of HMC Capital Group Securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1",
+   "detail": "The only secured-financing arrangement expressly addressed is a margin loan; any such arrangement requires prior consent of the Group CEO and Group Company Secretary and must not require sale of the securities during a Blackout Period or while holding inside information.",
+   "evidence": "This is particularly because the terms of the arrangement may require the HMC Capital Group Securities to be sold during a Blackout Period or when the relevant Director or Senior Executive possesses inside information."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Same consent requirement as Directors applies to Senior Executives entering a margin loan or similar secured financing arrangement.",
+   "evidence": "This is particularly because the terms of the arrangement may require the HMC Capital Group Securities to be sold during a Blackout Period or when the relevant Director or Senior Executive possesses inside information."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7(a)",
+   "detail": "Six-month minimum holding period, including entering into other short-term dealings such as forward contracts; carve-out for exercising employee options/rights at the specified price and for selling securities converted after such exercise.",
+   "evidence": "Short-term trading includes buying and selling HMC Capital Group Securities within a six month period, and entering into other short-term dealings (e.g. forward contracts). However, the sale of HMC Capital Group Securities that have been converted after exercising options or rights will not be regarded as short-term trading"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair and Group Company Secretary, in consultation with the Group CEO",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary",
+   "post_trade_deadline": "within 2 business days of execution",
+   "section": "5.1; 5.7",
+   "evidence": "the Pre-approval Request is received from a Director where, subject to clause 6.2, it must be approved by the Chair and the Group Company Secretary, in consultation with the Group Chief Executive Officer."
+  },
+  {
+   "tier": "Senior Executives",
+   "type": "approval",
+   "approver": "Group CEO and Group Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Group Company Secretary",
+   "post_trade_deadline": "within 2 business days of execution",
+   "section": "5.1; 5.7",
+   "evidence": "once a Trade has been made by or for a Director or Senior Executive, details of the Trade, including the date, number and price of HMC Capital Group Securities involved, must be notified by email to the Group Company Secretary within 2 business days of execution of the Trade."
+  },
+  {
+   "tier": "Employees",
+   "type": "approval",
+   "approver": "Group CEO and Group Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.1",
+   "evidence": "all Directors and Employees must give a prior written request for pre-approval to the Group Chief Executive Officer and the Group Company Secretary of any proposed Trading in HMC Capital Group Securities"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "buying and selling within a six month period",
+   "carve_outs": [
+    "exercising employee options or performance rights to acquire securities at the specified exercise price",
+    "sale of HMC Capital Group Securities that have been converted after exercising options or rights"
+   ],
+   "evidence": "Short-term trading includes buying and selling HMC Capital Group Securities within a six month period, and entering into other short-term dealings (e.g. forward contracts). However, the sale of HMC Capital Group Securities that have been converted after exercising options or rights will not be regarded as short-term trading"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an exercise (but not the sale of HMC Capital Group Securities following exercise) of an option or other right to acquire HMC Capital Group Securities under an employee incentive scheme or the conversion of a convertible HMC Capital Group Security"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading under an offer or invitation made to all or most securityholders in a listed Group Entity or LPT such as a rights or entitlement issue, a security purchase plan, or an equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading where the beneficial interest in the relevant HMC Capital Group Securities does not change."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of HMC Capital Group Securities under a dividend/distribution reinvestment plan, provided the election to participate ... was not made during a Blackout Period or when the Employee was in possession of any inside information"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an Employee accepting a takeover bid or transferring HMC Capital Group Securities under a scheme of arrangement in respect of a Group Entity or LPT"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "an involuntary disposal of HMC Capital Group Securities that is the result of a secured lender or financier exercising their rights. However, this does not extend to disposal under a margin lending arrangement where such arrangement is prohibited by this Policy."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of HMC Capital Group Securities under a bonus issue made on the same terms to all holders of HMC Capital Group Securities of the same class"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental Trading that occurs as a consequence of an Employee dealing in securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading under a pre-determined investment or divestment plan for which prior written clearance has been provided ... where the trading plan does not permit the Employee to exercise any influence or discretion over how, when, or where to Trade"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Group Company Secretary and Group CEO (or Chair)",
+   "evidence": "severe financial hardship, where the Employee has pressing financial commitments that cannot be satisfied otherwise than by selling HMC Capital Group Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Group Company Secretary and Group CEO (or Chair)",
+   "evidence": "requirements under a court order or court enforceable undertakings or other legal or regulatory requirements"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors and Senior Executives; trigger: entering a margin lending arrangement, including a margin loan portfolio or transfer into an existing margin loan account; to: Group CEO and Group Company Secretary (or Chair, for the CEO or Company Secretary); deadline: before entering the arrangement.",
+   "Directors and Senior Executives; trigger: any Trade (including a sale to satisfy a margin call within the consented terms); to: Group Company Secretary by email; deadline: within 2 business days of execution."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Group CEO and Group Company Secretary (Chair and Group Company Secretary for Directors) may grant permission to Trade during a Blackout Period only in Exceptional Circumstances (severe hardship or legal/court requirements); the decision is entirely discretionary, need not be reasoned, and the applicant must keep a refusal confidential. Margin lending consent under section 8 may be made conditional on terms the Group Entity sees fit, such as specifying when securities may be sold to meet a call.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "OTC derivative scope gap",
+   "clause": "any Financial Products issued over or in respect of the above securities which are able to be traded on a financial market, (collectively, the HMC Capital Group Securities)",
+   "why_it_matters": "A bespoke, bilateral OTC bank collar is arguably not a Financial Product 'able to be traded on a financial market', so once the underlying shares are vested and unrestricted the collar itself may fall entirely outside the defined 'HMC Capital Group Securities' and therefore outside the Trade/pre-approval/Blackout Period regime."
+  },
+  {
+   "topic": "hedging ban not venue-limited",
+   "clause": "entering into transactions or arrangements, including by way of derivatives or similar financial products, which operate to limit the economic risk relating to HMC Capital Group Securities granted under an employee, executive or director incentive plan ... which either have not vested or have vested but remain subject to a holding lock or other restriction",
+   "why_it_matters": "Unlike the general Trade definition, this hedging ban has no 'financial market' qualifier, so an OTC collar over unvested or still-restricted incentive securities is banned regardless of the scope gap identified above."
+  },
+  {
+   "topic": "margin lending framed narrowly",
+   "clause": "Directors and Senior Executives may not include their HMC Capital Group Securities in a margin loan portfolio or otherwise Trade in HMC Capital Group Securities pursuant to a margin lending arrangement without first obtaining the consent of the Group Chief Executive Officer and the Group Company Secretary",
+   "why_it_matters": "The secured-financing control is drafted around 'margin lending arrangements'; a bespoke bank loan secured on collared shares is analogous but not identical, so whether section 8 consent is legally required is uncertain, though the company would likely treat it as caught given the same forced-sale-during-Blackout concern the section addresses."
+  },
+  {
+   "topic": "lender enforcement carve-out",
+   "clause": "an involuntary disposal of HMC Capital Group Securities that is the result of a secured lender or financier exercising their rights. However, this does not extend to disposal under a margin lending arrangement where such arrangement is prohibited by this Policy.",
+   "why_it_matters": "If the underlying financing arrangement had the required consent, a lender's enforcement sale during a Blackout Period is expressly excluded from breaching the Policy - but only if the arrangement was properly consented to in the first place."
+  },
+  {
+   "topic": "universal pre-approval",
+   "clause": "When permitted to Trade in accordance with this Policy, or where Trading is proposed during a Blackout Period, all Directors and Employees must give a prior written request for pre-approval to the Group Chief Executive Officer and the Group Company Secretary of any proposed Trading",
+   "why_it_matters": "Unlike policies that reserve pre-clearance for directors/executives, HMC requires prior written approval for essentially all Trading by all Employees, so even routine sales to fund or unwind a collar need clearance, not just derivative or financing legs."
+  },
+  {
+   "topic": "5-trading-day approval window",
+   "clause": "the opportunity to make the Trade expires five trading days from the date the approval is received",
+   "why_it_matters": "Both trading pre-approval and margin/financing consent are effectively time-boxed, requiring tight coordination between clearance and execution of the loan and collar with the bank."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted HMC shares is workable but sits across two different regimes with a notable gap. Because 'HMC Capital Group Securities' only captures Financial Products 'able to be traded on a financial market', a bespoke OTC put/call with a bank arguably falls outside the Trade definition once the shares are vested and unrestricted, meaning the derivative legs may not need pre-approval at all - though the company could still take a broader view. The secured loan leg is different: it is caught, or at least closely analogous to, the section 8 margin lending regime, requiring prior written consent from the Group CEO and Group Company Secretary (Chair and Group Company Secretary for Directors) before entering, with terms that must not require sale during a Blackout Period or while inside information is held, and any sale to meet a call needs consent unless the holder has no control over it. Derivatives or hedges over unvested or still holding-locked incentive securities are banned outright, and any approval or consent lapses after 5 trading days, so execution must be tightly coordinated with the bank. If a properly-consented lender enforces the collar/loan and forces a sale, that involuntary disposal is expressly excluded from the Blackout Period prohibition."
+}

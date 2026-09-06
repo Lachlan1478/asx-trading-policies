@@ -1,0 +1,466 @@
+{
+ "symbol": "MMS",
+ "company": "McMillan Shakespeare Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "19 June 2017",
+ "date_effective": "19 June 2017",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "MMS Staff",
+   "kind": "all_staff",
+   "description": "Directors, officers, employees and contractors of MMS and its related entities. Bound by the inside-information prohibition, Closed Periods and (if not KMP) no other clearance requirement.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "Directors of the MMSG and members of the Senior Executive Team of MMSG. Subject to a standing requirement to obtain the Chairman's written approval before trading, a post-trade notification duty, the short-term/speculative trading ban and the security-interest/margin-loan consent requirement.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associated Parties",
+   "kind": "associate",
+   "description": "Spouse, de facto partner, children under 18, and any company or trust controlled by a Key Management Personnel member or a family member. Bound by the same policy requirements as the KMP member, including the short-term/speculative trading ban and the security-interest/margin-loan consent requirement.",
+   "includes_associates": "no"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "no",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "a transaction that is designated or intended to hedge that employee's exposure to the MMS Security that is subject to retention arrangements or an unvested MMS option",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "close of business on 31 December",
+   "end_anchor": "opening of the ASX the first trading day after MMS' half-year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "close of business on 30 June",
+   "end_anchor": "opening of the ASX the first trading day after MMS' full-year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "two weeks before the Annual General Meeting",
+   "end_anchor": "the first trading day following the Annual General Meeting",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "'MMS Securities' is defined narrowly as shares, options and other securities in MMS. A third-party OTC put/call referencing vested, unrestricted MMS shares is not itself an MMS Security, so it does not appear to be a 'Trade' under section 3, and section 7's hedging ban is expressly limited to shares subject to retention arrangements or an unvested option.",
+   "evidence": ""
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "A transaction designed or intended to hedge exposure to an unvested MMS option is banned outright, with no clearance route; this reaches an OTC derivative used for that purpose regardless of the narrow MMS Securities definition.",
+   "evidence": "MMS Staff must not enter into a transaction that is designated or intended to hedge that employee's exposure to the MMS Security that is subject to retention arrangements or an unvested MMS option."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Same absolute ban applies to MMS Securities still subject to retention arrangements after vesting.",
+   "evidence": "MMS Staff must not enter into a transaction that is designated or intended to hedge that employee's exposure to the MMS Security that is subject to retention arrangements or an unvested MMS option."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Absolute, unqualified ban; no clearance or exemption route stated.",
+   "evidence": "MMS Staff must not enter into a transaction that is designated or intended to hedge that employee's exposure to the MMS Security that is subject to retention arrangements or an unvested MMS option."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Applies equally to shares that have vested but remain subject to a retention arrangement.",
+   "evidence": "MMS Staff must not enter into a transaction that is designated or intended to hedge that employee's exposure to the MMS Security that is subject to retention arrangements or an unvested MMS option."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The hedging ban is expressly limited to shares under retention arrangements or unvested options. Once a share is vested and no longer subject to a retention arrangement, hedging it is not addressed by section 7.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No provision addresses monetisation arrangements such as a prepaid forward sale.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "7",
+   "detail": "Short selling is not named but is inherently short-term/speculative trading, which is banned for Key Management Personnel and their Associated Parties.",
+   "evidence": "Key Management Personnel and their Associated Parties must not engage in short-term or speculative trading in MMS Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "MMS Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No short-term/speculative trading restriction applies to staff who are not Key Management Personnel or Associated Parties.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "CFDs are not named. A CFD referencing MMS shares is not itself an MMS Security and is not a hedge of retention-locked or unvested holdings, so it falls outside every express provision, though it may in substance amount to 'speculative trading' for Key Management Personnel under section 7.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Margin loans are named as an example of a prohibited security interest over owned MMS Securities unless the Chairman's prior written consent is obtained.",
+   "evidence": "Key Management Personnel and their Associated Parties must not grant a security interest over MMS Securities they own, including any margin loan without first receiving the written consent of the Chairman."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "MMS Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "This restriction applies only to Key Management Personnel and their Associated Parties.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Broad ban on granting any security interest over owned MMS Securities (margin loan is only the example given), unless the Chairman's prior written consent is obtained; no process detail or refusal ground is stated.",
+   "evidence": "Key Management Personnel and their Associated Parties must not grant a security interest over MMS Securities they own, including any margin loan without first receiving the written consent of the Chairman."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "MMS Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No encumbrance restriction applies outside Key Management Personnel and their Associated Parties.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "Any secured financing arrangement over owned MMS Securities is a 'security interest' requiring the Chairman's prior written consent; not limited to margin loans.",
+   "evidence": "Key Management Personnel and their Associated Parties must not grant a security interest over MMS Securities they own, including any margin loan without first receiving the written consent of the Chairman."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "MMS Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No secured financing restriction applies outside Key Management Personnel and their Associated Parties.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Key Management Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7",
+   "detail": "General ban on short-term or speculative trading; no defined holding period or carve-outs.",
+   "evidence": "Key Management Personnel and their Associated Parties must not engage in short-term or speculative trading in MMS Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "MMS Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No short-term dealing restriction applies to staff who are not Key Management Personnel or Associated Parties.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Key Management Personnel",
+   "type": "approval",
+   "approver": "Chairman of the MMS Board",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 3 business days after the Trade",
+   "section": "5; 8",
+   "evidence": "Key Management Personnel must first obtain written approval from the Chairman of the MMS Board prior to trading in MMS Securities."
+  },
+  {
+   "tier": "Key Management Personnel",
+   "type": "approval",
+   "approver": "Chairman",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6(e)",
+   "evidence": "A Trade in MMS Securities for which prior written approval of the Chairman (in relation to Key Management Personnel and their Associated Parties) ... has been obtained. ... Approval, if granted, will be valid for a period of 7 days."
+  },
+  {
+   "tier": "MMS Staff",
+   "type": "approval",
+   "approver": "Chairman, Group CFO or the CEO",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6(e)",
+   "evidence": "A Trade in MMS Securities for which ... the prior written approval of the Chairman, Group CFO or the CEO (in relation to other MMS Staff) has been obtained."
+  },
+  {
+   "tier": "MMS Staff",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3",
+   "evidence": "you must only Trade in MMS Securities when you are not in possession of inside information"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Key Management Personnel",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Key Management Personnel and their Associated Parties must not engage in short-term or speculative trading in MMS Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Participation in the MMS Employee Option Plan (including the allocation of options and the issuing of shares pursuant to the Employee Option Plan) but do not apply in respect of any subsequent trading of MMS Securities to which MMS Staff become entitled under those plans."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Dealings under an offer or invitation made to all or most MMS Security Holders such as a share purchase plan, a dividend reinvestment, or a rights issue."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealings which have no change to the beneficial interest in MMS Securities."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "The acceptance of a takeover offer."
+  },
+  {
+   "kind": "hardship",
+   "scope": "unclear",
+   "approver": "Chairman (KMP and Associated Parties); Chairman, Group CFO or CEO (other MMS Staff)",
+   "evidence": "Approval may be granted in circumstances in which the relevant MMS Staff is in severe financial hardship or other circumstances deemed by the Chairman to be exceptional."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Key Management Personnel and Associated Parties; trigger: before granting a security interest (including a margin loan) over owned MMS Securities; to: Chairman; deadline: written consent required before entering the arrangement."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Code of Conduct",
+  "Conflicts of Interest Policy",
+  "Disciplinary Policy and Process",
+  "Employee Due Diligence Policy",
+  "Risk Management Framework and Policy",
+  "Compliance Framework",
+  "Breach and Incident Reporting Policy",
+  "Whistleblower Policy",
+  "Continuous Disclosure Policy",
+  "Fraud and Corruption Policy and Plan",
+  "Procurement Policy",
+  "Responsible Manager Policy",
+  "AML / CTF Program",
+  "Privacy Policy"
+ ],
+ "exemption_authority": "The Chairman (or, for non-KMP staff, the Chairman, Group CFO or CEO) may grant written approval to trade during a Closed Period in cases of severe financial hardship or other circumstances the Chairman deems exceptional, on a signed no-inside-information declaration, valid for 7 days. The Chairman alone consents to KMP/Associated Party security interests and margin loans; no board-level waiver process is described.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "narrow securities definition",
+   "clause": "MMS Staff who possess inside information must not ... apply for, acquire or dispose of MMS Securities or enter into an agreement to apply for, acquire or dispose of MMS Securities ('Trade')",
+   "why_it_matters": "'MMS Securities' means shares, options and other securities in MMS; a third-party OTC put/call written by a bank over vested, unrestricted MMS shares is arguably not itself an MMS Security and so may not be a 'Trade' at all, leaving the derivative legs of a collar over such shares outside the Closed Period and clearance regime altogether."
+  },
+  {
+   "topic": "hedging ban scope",
+   "clause": "MMS Staff must not enter into a transaction that is designated or intended to hedge that employee's exposure to the MMS Security that is subject to retention arrangements or an unvested MMS option.",
+   "why_it_matters": "The hedging ban only reaches shares still under retention arrangements or unvested options; once a share has vested and any retention period has ended, entering a collar over it is not expressly prohibited by this clause."
+  },
+  {
+   "topic": "security interest requires Chairman consent",
+   "clause": "Key Management Personnel and their Associated Parties must not grant a security interest over MMS Securities they own, including any margin loan without first receiving the written consent of the Chairman.",
+   "why_it_matters": "The loan leg of a funded collar, secured on KMP-owned vested shares, needs the Chairman's prior written consent; no criteria, process or refusal grounds are stated, and non-KMP staff face no such restriction."
+  },
+  {
+   "topic": "hardship exception",
+   "clause": "Approval may be granted in circumstances in which the relevant MMS Staff is in severe financial hardship or other circumstances deemed by the Chairman to be exceptional ... Approval, if granted, will be valid for a period of 7 days.",
+   "why_it_matters": "Gives a discretionary route to trade, unwind or settle a collar during a Closed Period, but it is time-limited to 7 days and conditional on a signed no-inside-information declaration."
+  },
+  {
+   "topic": "no forced-sale provision",
+   "clause": "The policy contains no provision addressing a lender's forced sale of MMS Securities on a margin call or default.",
+   "why_it_matters": "It is unclear whether a bank's enforcement sale during a Closed Period would itself breach the policy or would require separate Chairman consent, creating uncertainty for the bank's security enforcement rights."
+  }
+ ],
+ "summary": "A funded collar is plausible for a Key Management Personnel member over vested MMS shares that are no longer subject to a retention arrangement, because section 7's absolute hedging ban and the narrow definition of 'MMS Securities' (shares, options and other securities in MMS) both appear limited to unvested or retention-locked holdings and to instruments that are themselves MMS-issued securities, arguably leaving a third-party OTC put/call over unrestricted vested shares outside the Trade/Closed Period regime. However, the loan leg is separately and expressly regulated: KMP and their Associated Parties must not grant a security interest over MMS Securities they own, including a margin loan, without first obtaining the Chairman's prior written consent, with no stated criteria or refusal grounds. Any dealing must also avoid Closed Periods (unless the Chairman, or for non-KMP staff the Chairman/Group CFO/CEO, grants written approval valid for 7 days, including on hardship grounds) and must not be entered while in possession of inside information. KMP must also avoid the general ban on short-term or speculative trading. Overall: feasible in principle for vested, unretained shares, subject to Chairman consent for the security interest, timing outside Closed Periods (or hardship approval), and standing pre-clearance to trade."
+}

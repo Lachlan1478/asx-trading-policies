@@ -1,0 +1,501 @@
+{
+ "symbol": "GDG",
+ "company": "Generation Development Group Limited",
+ "title": "Policy in Relation to Share Trading",
+ "date_approved": "3 November 2025",
+ "date_effective": "3 November 2025",
+ "date_lodged": "5 November 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "A director of the Company, and for the purposes of this Policy includes the Chief Executive Officer. Subject to the hedging ban in 4.3, margin lending consent in section 5, and clearance from the Chairman and one Authorised Person.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman",
+   "kind": "director",
+   "description": "The Director appointed Chairman of the Board. Distinguished only because his or her own dealing clearance and margin lending consent are escalated to the Chair of the Remuneration and Nomination Committee or Chair of the Audit Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Relevant Employee",
+   "kind": "all_staff",
+   "description": "An employee of the Company; a director or employee of a related body corporate; or a contractor providing services similar to an employee under a contract exceeding 6 months. Subject to general clearance from two Authorised Persons but not to the section 5 margin lending consent regime, which is limited to Directors and GDG's Executive Team.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "GDG's Executive Team",
+   "kind": "kmp",
+   "description": "Referenced in paragraphs 4.2 and 5.1-5.2 alongside Directors for the no-inside-information declaration and the margin lending/secured financing consent requirement; not separately defined in the Policy and presumably a subset of Relevant Employees.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Has the same meaning as in section 9 of the Corporations Act 2001 and includes a person's spouse, defacto, family members, controlled trusts and companies, or other third parties contemplating the acquisition or sale of securities on behalf of the person.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Investment Managers",
+   "kind": "other",
+   "description": "A person who manages investments (whether or not on a discretionary basis) on behalf of a Director or Relevant Employee or their Associates, excluding managers of interests in a registered managed investment scheme.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 January",
+   "end_anchor": "1 business day after the Company's half year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 July",
+   "end_anchor": "1 business day after the Company's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 April",
+   "end_anchor": "1 business day after the Company's Quarterly Update for the relevant quarter is announced to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 October",
+   "end_anchor": "1 business day after the Company's Quarterly Update for the relevant quarter is announced to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3(9); 6",
+   "detail": "Securities is defined narrowly as listed or unlisted shares, debentures, interests, rights, units or option contracts in the Company, so a bank-written OTC put/call is not itself 'Securities'. However Dealing includes 'entering into any other form of agreement to acquire or dispose of an interest in securities', which arguably catches entering a derivative referencing those shares; on that basis the general clearance requirement in paragraph 6 applies.",
+   "evidence": "\"Dealing\" includes ... entering into any other form of agreement to acquire or dispose of an interest in securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3",
+   "detail": "Absolute ban on a Director hedging exposure to an unvested option.",
+   "evidence": "A Director must not enter into a transaction that is designed or intended to hedge his or her exposure to ... an unvested option."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3",
+   "detail": "Absolute ban on a Director hedging exposure to a Security subject to retention arrangements (a vested but locked/escrowed holding).",
+   "evidence": "A Director must not enter into a transaction that is designed or intended to hedge his or her exposure to: (1) a Security that is subject to retention arrangements."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.3; 6",
+   "detail": "The express hedging ban is limited to retention-locked securities and unvested options; hedging of vested, unrestricted Director shares is not named and falls back to the general Dealing clearance regime.",
+   "evidence": "A Director must not enter into a transaction that is designed or intended to hedge his or her exposure to: (1) a Security that is subject to retention arrangements; or (2) an unvested option."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Relevant Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6",
+   "detail": "The paragraph 4.3 hedging ban applies only to Directors; hedging by a Relevant Employee is not named and is caught only via the general Dealing clearance requirement.",
+   "evidence": "A Relevant Employee must not deal in Securities without obtaining the prior approval of two Authorised Persons."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3(9); 6",
+   "detail": "Monetisation (e.g. a prepaid forward sale) is not named; it is caught as an agreement to acquire or dispose of an interest in securities, requiring the general clearance under paragraph 6.",
+   "evidence": "\"Dealing\" includes any subscription, redemption, purchase or sale of securities, or any agreement to effect the same."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named in the Policy and is not listed among the guidance items in paragraph 13.1.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3(9); 6",
+   "detail": "CFDs are not named; treated the same as other derivative agreements referencing an interest in securities and so subject to the general clearance requirement, though the narrow Securities definition leaves this uncertain.",
+   "evidence": "\"Dealing\" includes ... entering into any other form of agreement to acquire or dispose of an interest in securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Prior consent from the Chairman required before entering margin loans or other financing arrangements creating a security interest over a significant holding (more than 1% of issued capital). No restriction stated for holdings at or below that threshold.",
+   "evidence": "Directors and members of GDG's Executive Team must receive prior consent from the Chairman before entering into margin loans or other financing arrangements which create a security interest over a significant holding of Company securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Chairman",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Where the Chairman is the one entering the arrangement, approval must come from the Chair of the Audit Committee instead.",
+   "evidence": "In the case of the Chairman, approval must be obtained from the Chair of the Audit Committee."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "GDG's Executive Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Same Chairman-consent requirement as Directors, above the 1% significant holding threshold.",
+   "evidence": "Directors and members of GDG's Executive Team must receive prior consent from the Chairman before entering into margin loans or other financing arrangements which create a security interest over a significant holding of Company securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Relevant Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 5 is expressed to apply only to Directors and members of GDG's Executive Team; ordinary Relevant Employees are not addressed by the margin lending consent regime.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Creating a security interest (charge, lien or pledge) over a significant holding (more than 1% of issued capital) requires prior Chairman consent; encumbrance is not part of the Dealing definition itself.",
+   "evidence": "financing arrangements which create a security interest over a significant holding of Company securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Chairman",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Chairman's consent to create a security interest over a significant holding is given by the Chair of the Audit Committee instead.",
+   "evidence": "In the case of the Chairman, approval must be obtained from the Chair of the Audit Committee."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "GDG's Executive Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Same consent requirement as Directors for creating a security interest over a significant holding.",
+   "evidence": "financing arrangements which create a security interest over a significant holding of Company securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Relevant Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not covered by section 5 and encumbrance is not part of the Dealing definition, so granting security over securities by an ordinary Relevant Employee is not addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1; 5.3",
+   "detail": "Any secured financing arrangement (not limited to margin loans) over a significant holding requires prior Chairman consent; the Policy continues to apply regardless of financing commitments entered into.",
+   "evidence": "This Policy continues to apply to all Directors and members of GDG's Executive Team regardless of commitments which such individuals may enter into in relation to margin lending contracts or other financing arrangements."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Chairman",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1",
+   "detail": "Chairman's consent for secured financing over a significant holding is given by the Chair of the Audit Committee.",
+   "evidence": "In the case of the Chairman, approval must be obtained from the Chair of the Audit Committee."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "GDG's Executive Team",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.1; 5.3",
+   "detail": "Same consent requirement as Directors for any secured financing arrangement over a significant holding.",
+   "evidence": "or other financing arrangements which create a security interest over a significant holding of Company securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Relevant Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 5 is limited to Directors and GDG's Executive Team; secured financing by an ordinary Relevant Employee is not addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11",
+   "detail": "General ban on dealing 'on considerations of a short term nature'; no fixed holding period stated. Paragraph 13.1(1) also deems a sale with intention to repurchase an equal number of securities soon afterwards to be a Dealing subject to the Policy.",
+   "evidence": "A Director or Relevant Employee must not deal in Securities on considerations of a short term nature."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman and one Authorised Person",
+   "form": "written",
+   "validity_days": 30,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (trading confirmations, if requested)",
+   "post_trade_deadline": "unspecified, on request",
+   "section": "6.2; 6.4-6.6",
+   "evidence": "A Director must not deal in Securities without obtaining the prior approval of the Chairman and one Authorised Person."
+  },
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "Chair of the Remuneration and Nomination Committee or Chair of the Audit Committee, and one Authorised Person",
+   "form": "written",
+   "validity_days": 30,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (trading confirmations, if requested)",
+   "post_trade_deadline": "unspecified, on request",
+   "section": "6.3-6.6",
+   "evidence": "The Chairman must not deal in Securities without obtaining the prior approval of either the Chair of the Remuneration and Nomination Committee or Chair of the Audit Committee and one Authorised Person."
+  },
+  {
+   "tier": "Relevant Employee",
+   "type": "approval",
+   "approver": "two Authorised Persons",
+   "form": "written",
+   "validity_days": 30,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (trading confirmations, if requested)",
+   "post_trade_deadline": "unspecified, on request",
+   "section": "6.1; 6.4-6.6",
+   "evidence": "A Relevant Employee must not deal in Securities without obtaining the prior approval of two Authorised Persons."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "A Director or Relevant Employee must not deal in Securities on considerations of a short term nature."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "person responsible for the clearance",
+   "evidence": "In exceptional circumstances, clearance may be given for a Director or Relevant Employee to sell (but not to purchase) Securities where they would otherwise be prohibited from doing so only because the proposed sale would fall within a closed period."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings or elections to take up or the take up or the lapse of entitlements under a rights issue or other offer in which all shareholders are entitled to participate"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "a dealing by a Director or Relevant Employee with an associated person whose interest in the securities is to be treated by virtue of the Corporations Act as their own interest"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "subscription for shares under an employee share scheme"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "shares issued under a dividend reinvestment plan"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors and GDG's Executive Team: if required by the Company, provide the Company Secretary with information relevant to the margin loan or financing arrangement; no fixed trigger or deadline stated (5.2)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The person responsible for giving clearance may permit a sale (not a purchase) during a closed period in exceptional circumstances, such as a pressing financial commitment that cannot otherwise be satisfied, provided no other prohibition applies (paragraphs 10.1-10.3). No exemption exists for the margin lending/secured financing consent regime in section 5.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "significant holding threshold",
+   "clause": "A 'significant holding' of Company securities is a holding of more than 1% of the issued capital of the Company.",
+   "why_it_matters": "The section 5 consent requirement for margin loans and other secured financing is only triggered once the collared shares (together with other holdings) exceed 1% of issued capital; a collar over a smaller stake may fall outside that consent requirement on the plain wording."
+  },
+  {
+   "topic": "policy survives despite financing commitments",
+   "clause": "This Policy continues to apply to all Directors and members of GDG's Executive Team regardless of commitments which such individuals may enter into in relation to margin lending contracts or other financing arrangements.",
+   "why_it_matters": "A lender's contractual right to force a sale on default does not override the Policy; enforcement or physical settlement during a closed period or while holding inside information would still need to satisfy the ordinary dealing/clearance rules, creating execution risk for the bank's security."
+  },
+  {
+   "topic": "hedging ban scope",
+   "clause": "A Director must not enter into a transaction that is designed or intended to hedge his or her exposure to: (1) a Security that is subject to retention arrangements; or (2) an unvested option.",
+   "why_it_matters": "A funded collar over vested, unrestricted director shares (no longer subject to retention/escrow) is not caught by this express hedging ban; it would block a collar only over retention-locked or unvested holdings."
+  },
+  {
+   "topic": "Chairman clearance escalation",
+   "clause": "The Chairman must not deal in Securities without obtaining the prior approval of either the Chair of the Remuneration and Nomination Committee or Chair of the Audit Committee and one Authorised Person.",
+   "why_it_matters": "If the counterparty director is the Chairman, sign-off for the collar and any secured loan routes to board committee chairs rather than the Chairman personally, adding an approval step."
+  },
+  {
+   "topic": "declaration of no inside information",
+   "clause": "Directors and members of GDG's Executive Team must make a declaration to the effect that they are not in possession of any unpublished price sensitive information when seeking approval to trade.",
+   "why_it_matters": "Collar execution, and any later unwind or roll (each a fresh Dealing requiring fresh clearance), requires a fresh no-inside-information declaration each time."
+  },
+  {
+   "topic": "clearance validity window",
+   "clause": "Dealings in Securities must be completed within 1 month of approval being granted, unless otherwise advised by the Company Secretary.",
+   "why_it_matters": "A cleared collar (and its secured loan) must be priced and executed within roughly 30 days of clearance or a fresh approval will be needed."
+  }
+ ],
+ "summary": "A funded collar is arguably possible under this policy, though it is not squarely addressed. Because 'Securities' is defined narrowly as Company-issued shares, debentures, rights, units or options, an OTC put/call written by a bank is not itself 'Securities', but entering into it is likely still a 'Dealing' (an agreement to acquire or dispose of an interest in securities) requiring ordinary clearance -- Chairman and one Authorised Person for Directors, two Authorised Persons for other Relevant Employees -- outside closed periods and while not holding inside information. The loan leg secured on the collared shares falls within section 5: Directors and GDG's Executive Team need prior Chairman consent (Audit Committee Chair consent if the Chairman is the borrower) only once the secured holding exceeds 1% of issued capital; below that threshold, or for an ordinary Relevant Employee, the policy does not address secured financing at all. The paragraph 4.3 hedging ban only stops a Director hedging retention-locked or unvested holdings, so a collar over vested, unrestricted shares escapes it. Key execution risks are the roughly 30-day validity of any clearance and the requirement to re-declare no inside information for entry, unwind, or roll, since the policy expressly continues to bind the executive regardless of financing commitments made to a lender."
+}

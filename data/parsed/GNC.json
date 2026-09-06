@@ -1,0 +1,472 @@
+{
+ "symbol": "GNC",
+ "company": "GrainCorp Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "20 June 2024",
+ "date_effective": "20 June 2024",
+ "date_lodged": "27 June 2024",
+ "date_next_review": "20 June 2026",
+ "tiers": [
+  {
+   "name": "Restricted Person",
+   "kind": "restricted",
+   "description": "A director and officer of GrainCorp, members of the Executive Leadership Team, the Senior Leadership Team, and all other persons the Company Secretary determines to be a Restricted Person from time to time. Subject to Trading Windows, clearance, the hedging ban, the Financing Arrangement approval requirement, and the short-term/speculative dealing and short selling ban.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director",
+   "kind": "director",
+   "description": "A director of GrainCorp; a subset of Restricted Person, distinguished only by the additional obligation to notify the Company Secretary of dealings within 2 business days for ASX Listing Rule 3.19A purposes.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employee",
+   "kind": "all_staff",
+   "description": "An officer, employee or contractor of GrainCorp who is not a Restricted Person. Bound by the insider trading prohibition and the short-term/speculative dealing and short selling ban, but not by Trading Windows, the hedging ban or the Financing Arrangement approval requirement.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "An 'associate' as defined by section 9 of the Corporations Act, including a Closely Related Party (spouse, child, dependant, family member able to influence the person, or a company the person controls).",
+   "includes_associates": "no"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding the Securities.",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "Restricted Person"
+   ],
+   "start_anchor": "48 hours after lodgement of the half year accounts of GrainCorp with the ASX",
+   "end_anchor": "four weeks after that start",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Restricted Person"
+   ],
+   "start_anchor": "48 hours after lodgement of the preliminary final report of GrainCorp with the ASX",
+   "end_anchor": "four weeks after that start",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Restricted Person"
+   ],
+   "start_anchor": "48 hours after the Annual General Meeting of GrainCorp",
+   "end_anchor": "four weeks after that start",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "Restricted Person"
+   ],
+   "start_anchor": "8th business day (seven day exposure period) from lodgement of a Prospectus or PDS with ASIC",
+   "end_anchor": "close of the offer, subject to no material matters raised by the Due Diligence Committee",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board, CEO or Company Secretary may suspend a Trading Window at any time if a market sensitive event has occurred or is likely to occur, or for any other reason deemed necessary. Confidentiality of a suspension is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "13 (Securities); 5; 7",
+   "detail": "Securities is defined to expressly include warrants, options, performance rights, CFDs and other derivatives relating to or limiting/leveraging/increasing economic risk in the underlying shares, whether issued or created by GrainCorp or third parties, so an OTC put/call is a GrainCorp Security. Dealing in it (entering the derivative) requires prior clearance from the Approver and must occur within a Trading Window unless a No Objection Notice is obtained.",
+   "evidence": "Securities means ... financial products (such as warrants, options, performance rights, contracts for difference and other derivatives) relating to, or which operate to limit, leverage or increase the economic risk in holding, those securities ... whether or not the securities or the financial products are issued or created by GrainCorp or third parties."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2; 13",
+   "detail": "Employees are bound only by the insider trading prohibition; the Trading Window and clearance requirements apply only to Restricted Persons and their Associates.",
+   "evidence": "the requirement to deal within the prescribed periods as set out in this Policy only applies to Restricted Persons and their Associates"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.3",
+   "detail": "Absolute ban, no clearance route.",
+   "evidence": "Securities acquired under an employee share scheme operated by GrainCorp must never be hedged prior to vesting."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.3",
+   "detail": "Absolute ban while a holding lock or dealing restriction under an employee share scheme applies.",
+   "evidence": "Securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee share scheme operated by GrainCorp."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.3",
+   "detail": "A separate, broader clause bans Restricted Persons from hedging any GrainCorp security holding at all, not just plan securities or locked holdings, with no clearance or exemption route stated in this section. A purchased put and written call collar plainly 'operates to limit the economic risk' of the holding.",
+   "evidence": "Restricted Persons may not enter into any other transaction that operates to limit the economic risk of their security holding in GrainCorp."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 9.3's hedging ban is addressed to Restricted Persons and employee share scheme securities; it is not expressed to apply to Employees generally.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "9.3",
+   "detail": "Not named, but a prepaid forward or similar structure that locks in value operates to limit the economic risk of the holding and falls within the same blanket hedging ban.",
+   "evidence": "Restricted Persons may not enter into any other transaction that operates to limit the economic risk of their security holding in GrainCorp."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "13",
+   "detail": "Not named; a monetisation derivative is a GrainCorp Security under the broad definition, and Employees may deal in it absent inside information.",
+   "evidence": "Securities means ... financial products (such as warrants, options, performance rights, contracts for difference and other derivatives) relating to, or which operate to limit, leverage or increase the economic risk in holding, those securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.2",
+   "detail": "Absolute ban applying to both Restricted Persons and ordinary employees.",
+   "evidence": "Restricted Persons and employees are prohibited from engaging in short-term or speculative dealing and short selling of GrainCorp Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending by the holder is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.2; 13",
+   "detail": "CFDs are expressly named within the Securities definition; entering one is captured by the ban on short-term or speculative dealing and short selling, and would separately fall within the hedging ban if it limits the economic risk of the holding.",
+   "evidence": "Restricted Persons and employees are prohibited from engaging in short-term or speculative dealing and short selling of GrainCorp Securities."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "9.2; 13",
+   "detail": "Employees are also bound by the short-term/speculative dealing and short selling ban, which in practice captures CFD trading.",
+   "evidence": "Restricted Persons and employees are prohibited from engaging in short-term or speculative dealing and short selling of GrainCorp Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.1",
+   "detail": "A margin loan is expressly named as a type of 'Financing Arrangement'. No Restricted Person or Associate may enter one without prior written notice of intention and key terms and Chairman/ARC Chair approval in absolute discretion. This sits in tension with section 9.3's blanket hedging ban, which on its face independently prohibits any transaction limiting the economic risk of the holding.",
+   "evidence": "no Restricted Person nor any of their Associates may enter into any Financing Arrangement unless (a) the Chairman (or in their absence the ARC Chair) ... has ... received notification ... and ... given approval in their absolute discretion ... to permit entry into the Financing Arrangement."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The Financing Arrangement notification and approval requirements apply only to Restricted Persons and their Associates.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.1",
+   "detail": "'Financing Arrangement' is defined broadly as any margin loan, cap and collar or other similar funding, lending, borrowing or financing arrangement over GrainCorp Securities, which in practice involves granting the financier rights over the securities (including a right to sell them unilaterally or claim title). Entry requires prior notice and Chairman/ARC Chair approval.",
+   "evidence": "any pre-existing margin loan, cap and collar or other similar funding, lending, borrowing or financing arrangement over any GrainCorp Securities (Financing Arrangement)"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The Financing Arrangement provisions apply only to Restricted Persons and their Associates.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.1",
+   "detail": "A cap and collar arrangement is expressly named as a Financing Arrangement over GrainCorp Securities, requiring prior notice of key terms (including trigger events and lender step-in rights) and Chairman/ARC Chair approval in absolute discretion.",
+   "evidence": "the share value at which the bank may be entitled to payment under a cap and collar arrangement"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The Financing Arrangement provisions apply only to Restricted Persons and their Associates.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9.2",
+   "detail": "General ban on short-term or speculative dealing; no defined holding period stated.",
+   "evidence": "GrainCorp encourages Restricted Persons and employees to adopt a long-term attitude to their investment in GrainCorp Securities. Consequently, Restricted Persons and employees are prohibited from engaging in short-term or speculative dealing and short selling of GrainCorp Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "all",
+   "type": "preclearance_system",
+   "approver": "Approver per Schedule 1 (varies by category: Chairman for Non-Executive Directors, CEO and Company Secretary; ARC Chair for the Chairman; Company Secretary for ELT/SLT/Senior Managers and all other Persons, with CEO as substitute)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "7; Schedule 1",
+   "evidence": "All Restricted Persons, Employees and their Associates must seek clearance from their respective Approver prior to dealing. ... A clearance to deal may be given and remain valid for the entire length of a Trading Window, but can be revoked at any time without reason or recourse."
+  },
+  {
+   "tier": "Restricted Person",
+   "type": "approval",
+   "approver": "Approver per Schedule 1",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1",
+   "evidence": "A No Objection Notice may be issued to a Restricted Person to permit the Restricted Person to deal in GrainCorp Securities outside the Trading Windows if ... the Approver is satisfied ... that it is reasonable in all the circumstances."
+  },
+  {
+   "tier": "Director",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 business days",
+   "section": "8",
+   "evidence": "Directors must also notify the Company Secretary of any dealing in GrainCorp Securities within two (2) business days of such dealing occurring so that GrainCorp can comply with the ASX Listing Rule 3.19A requirement."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Restricted Persons and employees are prohibited from engaging in short-term or speculative dealing and short selling of GrainCorp Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "applications to participate in the relevant plan, acquisitions and exercises of GrainCorp Securities under a plan and variations of instructions in relation to levels of participation in a plan may be made at any time"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "Restricted Persons are permitted to acquire Securities outside the Trading Windows where the Securities are issued to the person as a result of the person having given GrainCorp Limited or its agent ongoing instructions to reinvest dividends under GrainCorp Limited's Dividend Reinvestment Plan."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "A Restricted Person transfers GrainCorp Securities to someone closely related (such as a spouse, minor, child, family company, or family trust), or by a Restricted Person to their superannuation fund"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "An acquisition of GrainCorp Securities under a pro rata issue"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "Indirect and incidental dealing that occurs as a consequence of a Restricted Person dealing in securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party that happens to hold GrainCorp Securities as part of its portfolio of securities"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "If a Restricted Person has a margin loan or other financing arrangements in place, as defined in this Policy, an involuntary disposal of GrainCorp Securities that results from the margin lender or financier exercising its rights under the arrangement."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Approver per Schedule 1",
+   "evidence": "they are suffering severe financial difficulty or there are other exceptional circumstances that justify being permitted to deal in GrainCorp Securities outside a Trading Window"
+  },
+  {
+   "kind": "court_order",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "An example of an \"exceptional circumstance\" would be if the person was subject to a court order that required he or she to transfer GrainCorp Securities."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "Restricted Persons must disclose the share value at which a margin call may be triggered under a margin loan, or the share value at which the bank may be entitled to payment under a cap and collar arrangement.",
+  "financing_disclosure": [
+   "Restricted Person; trigger: pre-existing Financing Arrangement (margin loan, cap and collar or similar) already in place; to: Company Secretary; deadline: immediately, including key terms and any third-party right to sell or claim title unilaterally.",
+   "Restricted Person; trigger: intention to enter a new Financing Arrangement; to: Chairman (or ARC Chair if the Chairman or their Associate is the one entering it, or another nominated Director in the Chair's absence); deadline: prior written notice of intention and key terms before entry, with approval required before entering."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Continuous Disclosure and Financial Markets Communication Policy",
+  "Code of Conduct"
+ ],
+ "exemption_authority": "The Approver named in Schedule 1 may issue a No Objection Notice permitting dealing outside a Trading Window in exceptional circumstances (severe financial difficulty or other exceptional circumstances, e.g. a court order), in their absolute discretion and without giving reasons; refusal must be kept confidential by the applicant. The Chairman (or ARC Chair) separately has absolute discretion to approve or refuse a Financing Arrangement. No board-level waiver process beyond these is described.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban vs Financing Arrangement approval",
+   "clause": "Restricted Persons may not enter into any other transaction that operates to limit the economic risk of their security holding in GrainCorp. [cf] no Restricted Person nor any of their Associates may enter into any Financing Arrangement [including a cap and collar] unless [Chairman/ARC Chair approval obtained].",
+   "why_it_matters": "Section 9.3 appears to impose an unconditional, unqualified ban on any hedge of a Restricted Person's holding, while section 9.1 separately names 'cap and collar' as a type of Financing Arrangement that can be approved by the Chairman/ARC Chair; the two clauses are in tension and GrainCorp would need to confirm in writing whether a Chairman-approved collar financing is treated as an exception to the section 9.3 hedging ban before a bank could rely on it."
+  },
+  {
+   "topic": "third-party derivatives caught regardless of structure",
+   "clause": "Securities means ... financial products ... relating to, or which operate to limit, leverage or increase the economic risk in holding, those securities ... whether or not the securities or the financial products are issued or created by GrainCorp or third parties.",
+   "why_it_matters": "The definition is deliberately structured to prevent avoidance through a bank-issued OTC instrument; a funded collar cannot escape the policy merely because the put/call are written by a third party rather than GrainCorp."
+  },
+  {
+   "topic": "ETF/managed fund lookthrough",
+   "clause": "Indirect and incidental dealing that occurs as a consequence of a Restricted Person dealing in securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party that happens to hold GrainCorp Securities.",
+   "why_it_matters": "Confirms the policy does not reach indirect exposure through a genuinely third-party-managed fund, but this carve-out would not extend to a bespoke bilateral collar structured for the individual."
+  },
+  {
+   "topic": "post-employment restriction",
+   "clause": "On retirement or departure from GrainCorp, former Restricted Persons and their Associates are restricted from dealing in GrainCorp Securities for either a period of 12 weeks or the commencement of a Trading Window, whichever is earlier.",
+   "why_it_matters": "A collar entered pre-departure cannot be unwound, rolled or settled by dealing in the underlying shares during this post-employment restriction without falling back into the Trading Window/clearance regime."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "an involuntary disposal of GrainCorp Securities that results from the margin lender or financier exercising its rights under the arrangement [is not a breach and clearance is not required, though notification requirements may apply]",
+   "why_it_matters": "Gives the bank comfort that enforcement of security under an approved Financing Arrangement (including outside a Trading Window) will not itself put the executive in breach, unlike policies with no forced-sale carve-out."
+  }
+ ],
+ "summary": "GrainCorp's policy is unusually explicit about collar-style financing: a 'cap and collar' arrangement is expressly named as a permissible 'Financing Arrangement' that a Restricted Person may enter with prior written notice of its key terms (including trigger share values and any lender step-in or unilateral sale rights) and the Chairman's (or ARC Chair's) approval in their absolute discretion, and a lender's enforcement sale is expressly carved out from breach even outside a Trading Window. However, section 9.3 separately and unconditionally prohibits a Restricted Person from entering 'any other transaction that operates to limit the economic risk of their security holding in GrainCorp', which on its face bans the put/call legs of a collar outright regardless of vesting status, with no stated exception for an approved Financing Arrangement. This creates a direct internal tension: the financing/security leg looks approvable, but the hedging leg looks banned. Until GrainCorp confirms in writing that a Chairman-approved cap-and-collar Financing Arrangement is treated as outside the section 9.3 ban, a funded collar should be treated as not available for a Restricted Person (the tier covering directors and executives); ordinary Employees face no hedging ban but would still need to structure around the short-term/speculative dealing and short-selling prohibition that applies to them too."
+}

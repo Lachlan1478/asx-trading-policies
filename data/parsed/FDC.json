@@ -1,0 +1,434 @@
+{
+ "symbol": "FDC",
+ "company": "FDC Consolidated Holdings Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "28 June 2026",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "FDC Personnel",
+   "kind": "all_staff",
+   "description": "All directors, officers, employees, consultants and contractors of FDC (and any other person designated as FDC Personnel by the Board in writing), and any company, trust or other body or entity controlled by such persons. Subject to the insider trading ban, the three-month short-term dealing ban and the hedging restrictions on unvested/locked securities, but not to Trading Windows or the margin lending prohibition unless also a Restricted Person.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "All Directors and other Key Management Personnel (including the CEO), all direct reports to Key Management Personnel, any other personnel designated by the Board, and the closely related parties of all of the above. Subject to Trading Windows, the exceptional-circumstances pre-clearance regime, and an outright ban on margin lending arrangements.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely related parties",
+   "kind": "associate",
+   "description": "As defined in the Corporations Act: a person's spouse, child, spouse's child, a dependant of the person or their spouse, any other family member in a position to influence or be influenced by the person, or a company controlled by the person. Included as Restricted Persons in their own right.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "yes",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into transactions in financial products that operate to limit the economic risk associated with holding FDC securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "announcement of FDC's half year financial results",
+   "end_anchor": "four weeks after announcement of FDC's half year financial results",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "announcement of FDC's full year financial results",
+   "end_anchor": "four weeks after announcement of FDC's full year financial results",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "FDC's AGM",
+   "end_anchor": "four weeks after FDC's AGM",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "FDC Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(b),(e); 4.1",
+   "detail": "Securities expressly include derivatives (equity swaps, futures, hedges, exchange-traded or OTC options); dealing includes buying or selling securities. For FDC Personnel who are not Restricted Persons, dealing in an OTC put/call is not subject to Trading Windows or clearance, only to the insider trading ban.",
+   "evidence": "any derivatives of those securities, including equity swaps, futures, hedges and exchange-traded or over-the-counter options, whether settled by cash or otherwise."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2(e); 5.1",
+   "detail": "Because securities include OTC derivatives, entering an OTC put/call is a dealing confined to Trading Windows; outside a window it requires exceptional-circumstances pre-clearance from the Reviewer.",
+   "evidence": "Trading Windows are the only times when Restricted Persons may deal in FDC's securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(b)",
+   "detail": "Absolute ban on hedging unvested equity plan securities, for all FDC Personnel.",
+   "evidence": "FDC securities must never be hedged prior to the vesting of those FDC securities. In particular, FDC Personnel are prohibited from entering into any hedge transaction involving unvested equity held pursuant to any employee, executive or director equity plan operated by FDC."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(c)",
+   "detail": "Absolute ban on hedging vested securities that remain subject to a holding lock or dealing restriction under a plan.",
+   "evidence": "FDC securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of any employee, executive or director equity plan operated by FDC."
+  },
+  {
+   "topic": "hedging",
+   "tier": "FDC Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "4.3",
+   "detail": "The permission conditioned on treating the hedge as a dealing and satisfying Section 5.1 is stated only for Restricted Persons, implying general FDC Personnel may hedge vested unrestricted securities subject only to the insider trading ban.",
+   "evidence": "Restricted Persons are permitted to hedge their vested and unrestricted FDC securities on the following conditions: the hedge transaction is treated as a dealing in FDC securities for the purposes of this Policy, and the relevant clearances and notifications are made on this basis; and the relevant requirements under Section 5.1 have been satisfied."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3; 5.1",
+   "detail": "Hedging vested and unrestricted securities is expressly permitted provided it is treated as a dealing subject to Trading Windows and, if outside a window, exceptional pre-clearance.",
+   "evidence": "Restricted Persons are permitted to hedge their vested and unrestricted FDC securities on the following conditions: the hedge transaction is treated as a dealing in FDC securities for the purposes of this Policy, and the relevant clearances and notifications are made on this basis; and the relevant requirements under Section 5.1 have been satisfied."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "FDC Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(b)(iv)",
+   "detail": "Monetisation via a financing arrangement over securities is not named but falls within 'other financing arrangements related to securities' in the dealing definition; for non-Restricted Persons this is unrestricted beyond the insider trading ban.",
+   "evidence": "margin lending, stock lending or other financing arrangements related to securities;"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(b)(iv); 5.1",
+   "detail": "As a 'financing arrangement related to securities' a monetisation structure is a dealing confined to Trading Windows (or exceptional pre-clearance outside a window); it is not banned outright unless it is a margin lending arrangement (Section 5.2).",
+   "evidence": "margin lending, stock lending or other financing arrangements related to securities;"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "FDC Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2(b)(iv)",
+   "detail": "Stock lending is expressly named as a form of dealing; for non-Restricted Persons it is unrestricted beyond the insider trading ban.",
+   "evidence": "margin lending, stock lending or other financing arrangements related to securities;"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2(b)(iv); 5.1",
+   "detail": "As an express dealing, stock lending by a Restricted Person is confined to Trading Windows or requires exceptional pre-clearance outside a window.",
+   "evidence": "margin lending, stock lending or other financing arrangements related to securities;"
+  },
+  {
+   "topic": "cfd",
+   "tier": "FDC Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(e)",
+   "detail": "CFDs are not named; caught only as 'other financial products'/derivatives within the securities definition.",
+   "evidence": "interests in managed investment schemes, trusts and other financial products; and any derivatives of those securities"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(e); 5.1",
+   "detail": "Caught only via the securities/dealing definitions, so confined to Trading Windows or exceptional pre-clearance outside a window.",
+   "evidence": "interests in managed investment schemes, trusts and other financial products; and any derivatives of those securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "FDC Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(b)(iv)",
+   "detail": "The outright margin lending ban in Section 5.2 applies only to Restricted Persons; for other FDC Personnel margin lending is merely a dealing subject to the insider trading ban.",
+   "evidence": "margin lending, stock lending or other financing arrangements related to securities;"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.2",
+   "detail": "Outright ban on entering a margin lending arrangement, transferring securities into an existing margin loan account, or selling to satisfy a margin call, with no security-state or approval carve-out.",
+   "evidence": "Any dealing in FDC's securities by Restricted Persons pursuant to a margin lending arrangement is not permitted. Such dealings would cover: entering into a margin lending arrangement in respect of FDC's securities; transferring securities in FDC into an existing margin loan account; and selling securities in FDC to satisfy a call pursuant to a margin loan."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or pledge over securities is not separately named; it is caught only to the extent it forms part of a margin lending arrangement (banned for Restricted Persons) or another 'financing arrangement related to securities' (a dealing for Restricted Persons; unrestricted for others).",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "FDC Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(b)(iv)",
+   "detail": "Secured financing generally (beyond margin lending) is only a dealing, unrestricted for non-Restricted Persons beyond the insider trading ban.",
+   "evidence": "margin lending, stock lending or other financing arrangements related to securities;"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2(b)(iv); 5.1; 5.2",
+   "detail": "A secured financing arrangement that is not itself a 'margin lending arrangement' is only caught as a dealing, confined to Trading Windows or exceptional pre-clearance outside a window; if it is (or resembles) a margin lending arrangement it is banned outright under 5.2.",
+   "evidence": "margin lending, stock lending or other financing arrangements related to securities;"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2",
+   "detail": "Ban on buying and selling on market within three months of acquisition, and on entering short-term dealings such as forward contracts, applying to all FDC Personnel with no carve-out.",
+   "evidence": "FDC Personnel must not deal in FDC's securities on a short-term trading basis. Short-term trading includes buying and selling securities on market within a three month period, and entering into other short-term dealings (eg, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "Chair of the Board (for Directors other than the Chair, and their closely related parties); Chair of the Audit Committee and the CEO (for the Chair of the Board and the Chair's closely related parties); CEO or CFO (for other Restricted Persons)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (record-keeping of the waiver details)",
+   "post_trade_deadline": "unspecified",
+   "section": "5.1.2",
+   "evidence": "If pre-clearance is granted, the Restricted Person will be notified in writing (including by email) and in each circumstance the duration of the waiver to deal in securities will be two business days or as otherwise nominated by the Reviewer. Where pre-clearance is refused, it is final and binding on the Restricted Person and the Restricted Person must keep all information relating to the waiver confidential."
+  },
+  {
+   "tier": "FDC Personnel",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "",
+   "evidence": ""
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "FDC Personnel must not deal in FDC's securities on a short-term trading basis. Short-term trading includes buying and selling securities on market within a three month period, and entering into other short-term dealings (eg, forward contracts)."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chair of the Board / Chair of the Audit Committee and CEO / CEO or CFO (per Section 5.1.2 role routing)",
+   "evidence": "Exceptional circumstances for these purposes include severe financial hardship, compulsion by court order or any other circumstance that is deemed exceptional by the Reviewer."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chair of the Board / Chair of the Audit Committee and CEO / CEO or CFO (per Section 5.1.2 role routing)",
+   "evidence": "Exceptional circumstances for these purposes include severe financial hardship, compulsion by court order or any other circumstance that is deemed exceptional by the Reviewer."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by FDC (eg, applying for an allocation of securities under an employee equity plan offer)."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of FDC securities through a dividend reinvestment plan;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of FDC securities through a share purchase plan available to all retail shareholders; ... acquisition of FDC securities through a rights issue or other pro rata entitlement offer;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of FDC securities through the acceptance of a takeover offer."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (eg, transfers of FDC securities already held into a superannuation fund or trust of which the Restricted Person is a beneficiary);"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Restricted Person did not enter into the plan or amend the plan outside a Trading Window, the plan does not permit the Restricted Person to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled outside a Trading Window, other than in exceptional circumstances."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "No general exemption. Section 5.1.2 allows the Reviewer (Chair of the Board, or Chair of the Audit Committee and CEO, or CEO/CFO, depending on the Restricted Person's role) to grant a two-business-day pre-clearance to deal outside a Trading Window only for severe financial hardship, court order compulsion, or another circumstance the Reviewer deems exceptional; refusal is final and binding.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "escrow",
+   "clause": "Any FDC Personnel who holds FDC securities subject to binding restrictions on transfer (either as ASX restricted securities or through voluntary escrow arrangements) must comply with the terms of any applicable escrow arrangements and will be unable to trade in those securities during that time.",
+   "why_it_matters": "Escrowed shares (common for a recently listed company) cannot be pledged, sold or delivered into a collar until the escrow period ends, regardless of vesting status."
+  },
+  {
+   "topic": "margin lending narrowly defined",
+   "clause": "Any dealing in FDC's securities by Restricted Persons pursuant to a margin lending arrangement is not permitted ... entering into a margin lending arrangement ... transferring securities ... into an existing margin loan account; and selling securities ... to satisfy a call pursuant to a margin loan.",
+   "why_it_matters": "The outright ban targets 'margin lending arrangements' specifically; a bank facility structured and documented as a different form of secured lending may fall outside this ban and instead only need Trading Window timing or exceptional pre-clearance, which is decisive for whether the collar's loan leg is feasible."
+  },
+  {
+   "topic": "no clearance inside window",
+   "clause": "Trading Windows are the only times when Restricted Persons may deal in FDC's securities ... Provided that even when a Trading Window is operating, if you are in possession of Inside Information, you cannot trade.",
+   "why_it_matters": "No approval or notification is required to execute, unwind or roll a collar inside an open window (only outside-window dealing needs exceptional pre-clearance), simplifying bank execution timing."
+  },
+  {
+   "topic": "associates are Restricted Persons",
+   "clause": "closely related parties (as that term is defined in the Corporations Act) of all Relevant Personnel, ... the persons listed above are called Restricted Persons.",
+   "why_it_matters": "Routing the collar or loan through a spouse, dependant or controlled entity does not escape the Trading Window or margin-lending restrictions, since associates are Restricted Persons in their own right."
+  },
+  {
+   "topic": "hedge disclosure",
+   "clause": "Where a Restricted Person enters into a hedging arrangement in respect of FDC securities, FDC may, where appropriate, disclose the fact and nature of the hedge (eg, in its Annual Report or to the ASX).",
+   "why_it_matters": "FDC retains discretion to publicly disclose the existence and nature of a director's or executive's collar."
+  },
+  {
+   "topic": "breach consequences",
+   "clause": "is proven to have breached this Policy could face disciplinary action (including forfeiture of securities and / or suspension or termination of employment).",
+   "why_it_matters": "A collar or loan structured to evade the margin lending ban or Trading Window timing risks forfeiture of the underlying securities in addition to employment sanctions."
+  }
+ ],
+ "summary": "A funded collar is workable in outline for a Restricted Person over vested, unrestricted, non-escrowed shares: hedging such shares is expressly permitted provided it is treated as a dealing, timed inside a Trading Window (four weeks after half-year or full-year results or the AGM), and not entered while holding inside information, with no clearance needed at all if executed inside a window. The obstacle is the loan leg: Section 5.2 bans outright any dealing 'pursuant to a margin lending arrangement', including transferring shares into or selling out of such an account, with no exemption route for Restricted Persons; if the bank's secured facility would be treated as a margin loan, the structure fails. A secured facility documented as something other than a conventional margin loan is, on the text, only caught as a general 'financing arrangement related to securities' and therefore merely needs Trading Window timing (or exceptional-circumstances pre-clearance from the Chair/CEO/CFO outside a window) rather than being banned. Shares under ASX or voluntary escrow cannot be used at all until escrow ends, and FDC may choose to disclose the hedge in its Annual Report or to the ASX. Overall: feasible only if the loan is structured and documented to avoid characterisation as a 'margin lending arrangement', is executed within an open Trading Window, and involves vested, unrestricted, non-escrowed shares."
+}
