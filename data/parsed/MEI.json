@@ -1,0 +1,284 @@
+{
+ "symbol": "MEI",
+ "company": "Meteoric Resources NL",
+ "title": "Securities Trading Policy and Rules",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Officer",
+   "kind": "kmp",
+   "description": "A director or person engaged in the management of the Company, whether as an employee or consultant. Must obtain clearance from the Disclosure Officer before dealing and must prohibit associated persons/investment managers from dealing when the Designated Officer may not deal.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director",
+   "kind": "director",
+   "description": "Designated Officer who is a director; distinguished only for the additional duty to notify the Company Secretary within 3 days of any share transaction, for release to the ASX.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employee",
+   "kind": "all_staff",
+   "description": "An employee (or, by extension, a contractor) who is not a Designated Officer. May deal in Company Securities or listed securities of another entity without any clearance step, provided they do not have (or suspect the Company has) inside information.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Parents, children, spouses (including de facto) and entities controlled by a Designated Officer, director, officer, KMP, employee or contractor (footnote 1). A Designated Officer must prohibit dealing by, and inform, their Associates and investment managers when the Designated Officer may not deal.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Officer"],
+   "start_anchor": "the day on which the Company has made, or is expected to make, an announcement to the ASX",
+   "end_anchor": "same day",
+   "duration_days": 1
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Disclosure Officer may issue an instruction prohibiting dealing in Company Securities by a Designated Officer (para 7.1.2). The policy does not state whether such an instruction is confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.2; 6; 10",
+   "detail": "Options over Company shares traded on ASX are 'Company Securities'. Dealing in them (applying for, acquiring, disposing, or granting/exercising the option) requires the same prior Disclosure Officer clearance as dealing in shares.",
+   "evidence": "Company Securities includes shares in the Company, options over those shares and any other financial products of the Company traded on ASX."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "2.2",
+   "detail": "'Company Securities' is defined to require the financial product be 'traded on ASX'. An OTC derivative (e.g. a bank-written put or call over Meteoric shares) is not traded on ASX and so is not 'Company Securities' or a 'listed security of another entity'; on the document's wording it falls outside the scope of what the Rules regulate as 'dealing'.",
+   "evidence": "Company Securities includes shares in the Company, options over those shares and any other financial products of the Company traded on ASX."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Hedging, or arrangements limiting the economic risk of a holding, is never mentioned. There is also no equity incentive scheme or unvested-holding concept anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1; 10",
+   "detail": "Monetisation is not named. An agreement to dispose of Company Securities, or granting/discharging a right or obligation to acquire or dispose of them (e.g. a prepaid forward over ASX-traded shares), is 'dealing in securities' and needs prior Disclosure Officer clearance; a monetisation structured purely as an OTC arrangement over the shares (not the shares themselves) may fall outside 'Company Securities' for the same reason as OTC derivatives.",
+   "evidence": "entering into an agreement to apply for, acquire or dispose of, securities; and ... granting, accepting, acquiring, disposing, exercising or discharging an option or other right or obligation to acquire or dispose of securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1.1; 10",
+   "detail": "Short selling is not named or separately banned. Disposing of Company Securities (which includes a short sale of ASX-traded shares) is 'dealing' requiring prior Disclosure Officer clearance.",
+   "evidence": "Dealing in securities includes: applying for, acquiring or disposing of, securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy or rules.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "2.2",
+   "detail": "CFDs are not named. An OTC CFD referencing Meteoric shares is not a financial product of the Company 'traded on ASX' and so is not 'Company Securities'; it falls outside the definitions used in the dealing rules.",
+   "evidence": "Company Securities includes shares in the Company, options over those shares and any other financial products of the Company traded on ASX."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "13.1",
+   "detail": "Margin lending (and broker credit beyond T+3, or leveraged equity providers 'by whatever name and under whatever guise') must not be used by any Designated Officer, employee, contractor or their associated persons/investment managers without the fully informed consent of the Board.",
+   "evidence": "Broker credit (beyond T+3), margin lending or leveraged equity providers (by whatever name and under whatever guise) must not be used by any Designated Officer, employee, contractor or any of their associated persons or investment managers, without the fully informed consent of the Board."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5.1.3; 13.1",
+   "detail": "Encumbrance is not named as such. Granting a charge with a power of sale plausibly grants the lender 'a right or obligation to acquire or dispose of securities' under the general dealing definition, and is in substance a 'leveraged equity' arrangement 'by whatever name and under whatever guise' caught by the credit-prohibition clause, requiring the Board's fully informed consent.",
+   "evidence": "Broker credit (beyond T+3), margin lending or leveraged equity providers (by whatever name and under whatever guise) must not be used ... without the fully informed consent of the Board."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "13.1",
+   "detail": "The credit-prohibition clause is broad and anti-avoidance ('by whatever name and under whatever guise'), covering any secured or leveraged financing in respect of securities, not just conventional margin loans; Board consent (not merely Disclosure Officer clearance) is required.",
+   "evidence": "Broker credit (beyond T+3), margin lending or leveraged equity providers (by whatever name and under whatever guise) must not be used by any Designated Officer, employee, contractor or any of their associated persons or investment managers, without the fully informed consent of the Board."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Officer",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No holding-period, buy-sell window or short-term trading restriction is stated anywhere in the policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Officer",
+   "type": "approval",
+   "approver": "Disclosure Officer",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "10",
+   "evidence": "Before dealing in Company Securities, a Designated Officer must first inform the Disclosure Officer and obtain clearance."
+  },
+  {
+   "tier": "Director",
+   "type": "approval",
+   "approver": "Disclosure Officer",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "3 days of the transaction, for release to the ASX",
+   "section": "10; Preamble/3",
+   "evidence": "Any share transaction undertaken by Directors must be notified to the Company Secretary within 3 days of such transaction, for release to the ASX."
+  },
+  {
+   "tier": "Employee",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8; 9",
+   "evidence": "An employee (who is not a Designated Officer) may deal in Company Securities or the listed securities of another entity if he or she does not have: information that he or she knows, or ought reasonably to know, is inside information"
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "A decision to join, or subscribe for shares under, any dividend reinvestment plan is not dealing in Company Securities."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Designated Officer, employee or contractor: must inform the Disclosure Officer of all details concerning any broker credit, margin lending or leveraged equity arrangements in place in respect of any dealings (including prospective dealings) in Company Securities; to the Disclosure Officer; no deadline specified (para 13.2)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Company's Continuous Disclosure Policy (appoints the Disclosure Officer referred to throughout the Rules)"
+ ],
+ "exemption_authority": "The Board may give its 'fully informed consent' to permit broker credit, margin lending or leveraged equity arrangements that would otherwise be prohibited (para 13.1). No other waiver or exemption authority is provided for the ordinary dealing/clearance restrictions.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "ASX-traded definition gap",
+   "clause": "Company Securities includes shares in the Company, options over those shares and any other financial products of the Company traded on ASX.",
+   "why_it_matters": "A bank-written OTC put and call over Meteoric shares are not 'financial products ... traded on ASX' and are not issued 'of the Company', so on the document's wording they are not 'Company Securities' and the dealing, clearance and announcement-day restrictions do not apply to the derivative legs of a funded collar."
+  },
+  {
+   "topic": "credit prohibition catches the loan",
+   "clause": "Broker credit (beyond T+3), margin lending or leveraged equity providers (by whatever name and under whatever guise) must not be used ... without the fully informed consent of the Board.",
+   "why_it_matters": "Unlike the derivative legs, the anti-avoidance wording ('by whatever name and under whatever guise') means the loan secured on the collared shares is caught regardless of how it is structured, and needs full Board consent rather than mere Disclosure Officer clearance."
+  },
+  {
+   "topic": "no forced-sale exception",
+   "clause": "The policy's only carve-out from 'dealing' is joining or subscribing under a dividend reinvestment plan (para 5.2); there is no exempt-dealing list of the kind other policies use for secured-lender forced sales.",
+   "why_it_matters": "If the bank ever enforces its security and sells the collared shares, that sale is an ordinary 'dealing in Company Securities' by the executive (or is treated as if by them) with no stated exemption, so it would still require Disclosure Officer clearance and could be blocked on an ASX announcement day."
+  }
+ ],
+ "summary": "On this policy's own definitions, the derivative legs of a funded collar likely sit outside its scope: 'Company Securities' is limited to shares, ASX-traded options and other financial products 'of the Company traded on ASX', so a bilateral OTC put and call written by a bank do not meet that definition and the dealing, clearance and announcement-day rules do not apply to them. The loan is treated differently: the credit-prohibition clause bans margin lending, broker credit and 'leveraged equity providers (by whatever name and under whatever guise)' unless the Board gives its fully informed consent, and the same anti-avoidance wording plausibly extends to granting security over the shares, so the loan leg needs express Board approval. Any dealing in the underlying Meteoric shares themselves (entry, unwind, exercise, or a lender's enforcement sale) remains an ordinary dealing requiring prior Disclosure Officer clearance, is barred on ASX announcement days, and for a Director must be notified to the Company Secretary within three days; there is no exemption for a lender's forced sale. Overall the structure appears achievable, subject to Board consent for the financing leg and ordinary clearance for any share-level dealing, but this 2010-era policy is thin on financing-specific safeguards (no minimum shareholding requirement, price-trigger guidance or forced-sale carve-out) that a bank would ordinarily look for."
+}

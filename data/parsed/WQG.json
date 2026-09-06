@@ -1,0 +1,304 @@
+{
+ "symbol": "WQG",
+ "company": "WCM Global Growth Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "23 May 2022",
+ "date_effective": "23 May 2022",
+ "date_lodged": "23 May 2022",
+ "date_next_review": "May 2023",
+ "tiers": [
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "Those persons having authority and responsibility for planning, directing and controlling the activities of the Company, directly or indirectly, including any director (whether executive or otherwise). The sole tier addressed by the policy; all substantive rules apply to this tier without differentiation.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any arrangement that has the effect of limiting their exposure to risk relating to a holding of WQG Securities in a Relevant Account (including unvested options)",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "second Trading Day after the release to ASX of the half-year results",
+   "end_anchor": "4 weeks after that Trading Day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "second Trading Day after the release to ASX of the full-year results",
+   "end_anchor": "4 weeks after that Trading Day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "second Trading Day after an Annual General Meeting or Extraordinary General Meeting",
+   "end_anchor": "4 weeks after that Trading Day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "Trading Day following the release of the weekly Net Tangible Asset announcement",
+   "end_anchor": "1 day later",
+   "duration_days": 1
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "as designated by the WQG board",
+   "end_anchor": "as designated by the WQG board",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1; 6 (WQG Securities, Deal)",
+   "detail": "Derivatives (security specific derivatives, options, CFDs and warrants referencing WQG shares) fall within the definition of WQG Securities, so dealing in them is a Dealing requiring pre-trade approval and confined to a Trading Window, subject to the hedging and short-sale bans in 3.4.",
+   "evidence": "WQG Securities means any share, debenture, option, unit, interest or other financial products issued by WQG, including any security specific derivatives, options, Contracts for Difference (CFDs) and warrants that may be issued by third parties where the underlying or referenced security is issued by WQG."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4(b)",
+   "detail": "Absolute ban on any arrangement that limits exposure to risk relating to a holding of WQG Securities in a Relevant Account, expressly extended to unvested options; this bans a purchased put, written call or full collar regardless of vesting status.",
+   "evidence": "any arrangement that has the effect of limiting their exposure to risk relating to a holding of WQG Securities in a Relevant Account (including unvested options)"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "3.4(b)",
+   "detail": "Monetisation is not named, but any structure (prepaid forward, collar, or similar) that has the effect of limiting risk exposure to a WQG Securities holding is caught by the same prohibition as hedging.",
+   "evidence": "any arrangement that has the effect of limiting their exposure to risk relating to a holding of WQG Securities in a Relevant Account (including unvested options)"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4(c)",
+   "detail": "Outright ban on short sales and on any other transaction that enables a profit to be made from a decrease in WQG's market price, in any Relevant Account.",
+   "evidence": "any short sale of WQG Securities or other transaction that enables profit to be made from a decrease in the market price of WQG Securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere and is not listed within the Dealing definition or the prohibited transactions in clause 3.4.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6 (WQG Securities); 3.1",
+   "detail": "CFDs referencing WQG shares (even if issued by a third party) are expressly included within WQG Securities, so dealing in them requires pre-trade approval like any other WQG Security, subject to the short-sale and hedging-effect bans in 3.4.",
+   "evidence": "Contracts for Difference (CFDs) and warrants that may be issued by third parties where the underlying or referenced security is issued by WQG."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4(a)",
+   "detail": "Outright ban on margin lending over any WQG Securities in a Relevant Account, with no vesting, tier or approval carve-out.",
+   "evidence": "margin lending over any WQG Securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or pledge over WQG Securities other than by way of margin lending is not named and is not caught by the Dealing definition (acquiring/disposing, agreements to deal, or exercising options).",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.4(a)",
+   "detail": "Only margin lending is named as a prohibited secured financing arrangement; the clause does not use broader wording such as 'any other secured financing arrangement', so a bespoke bank loan secured over WQG Securities that is not structured as margin lending sits in an interpretive grey zone rather than being expressly banned.",
+   "evidence": "margin lending over any WQG Securities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.3",
+   "detail": "No sale within 6 months of purchase and no purchase within 6 months of a sale, in any Relevant Account; carve-out for immediate sale of securities acquired on exercise of options provided the sale occurs in a permitted Trading Window.",
+   "evidence": "the sale of WQG Securities within 6 months of their purchase in a Relevant Account is not permitted, nor is the purchase of WQG Securities within 6 months of having sold such WQG Securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Company Secretary or Contango Group CFO",
+   "form": "unspecified",
+   "validity_days": 1,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (trade confirmation statement from the broker)",
+   "post_trade_deadline": "unspecified",
+   "section": "4.1; 4.3",
+   "evidence": "Key Management Personnel must ensure they have received the requisite approval from the Company Secretary or Contango Group CFO before they conduct any trading in WQG Securities. ... Approved trades must be placed within 1 business day of receiving the approval pursuant to clause 4.1 or 4.2 and within the prescribed Trading Window."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "from purchase or sale, bidirectional, in any Relevant Account",
+   "carve_outs": [
+    "immediate sale of WQG Securities acquired via exercise of options, provided the sale occurs during a permitted Trading Window"
+   ],
+   "evidence": "the sale of WQG Securities within 6 months of their purchase in a Relevant Account is not permitted, nor is the purchase of WQG Securities within 6 months of having sold such WQG Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chair and Company Secretary or Contango Group CFO",
+   "evidence": "a pressing financial commitment that cannot be satisfied otherwise than by selling the WQG Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chair and Company Secretary or Contango Group CFO",
+   "evidence": "a court order, court enforceable undertaking, or other legal or regulatory requirement requiring the sale of WQG Securities"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chair and Company Secretary",
+   "evidence": "another circumstance which the Chair and Company Secretary may collectively determine, using their discretion sparingly and with caution, having regard to ASX Guidance Note 27."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "investments in or trading in units of, a fund or scheme where a member of Key Management Personnel is not in the position to influence the trading activities of that fund or scheme"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "off-market transfers of WQG Securities where there is no change in underlying beneficial ownership"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transactions resulting from the acceptance of a takeover offer in relation to WQG Securities; and (f) compulsory acquisition."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "transactions pursuant to a dividend or distribution reinvestment plan, rights issue, security purchase plan, bonus issue or other security offer or corporate action in respect of WQG Securities and which does not require any discretion by the holder"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "transactions pursuant to any WQG share or incentive plan (although the sale of WQG Securities granted/vested under such plan does require approval)"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Chair and Company Secretary (or Contango Group CFO) may, sparingly and with regard to ASX Guidance Note 27, permit dealing outside a Trading Window in Exceptional Circumstances (pressing financial commitment, court order, or other discretionary circumstance). No exemption authority is provided for the prohibited transactions in clause 3.4 (margin lending, hedging-effect arrangements, short selling).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban is the binding constraint",
+   "clause": "any arrangement that has the effect of limiting their exposure to risk relating to a holding of WQG Securities in a Relevant Account (including unvested options)",
+   "why_it_matters": "This is an absolute, substance-based ban with no clearance or Exceptional Circumstances carve-out, so a purchased put or a collar over vested or unvested holdings is prohibited outright regardless of any financing question."
+  },
+  {
+   "topic": "Relevant Account scope",
+   "clause": "Relevant Account means all accounts: (a) in which a Key Management Personnel has any form of ownership interest (including with other entities); (b) that a Key Management Personnel has the power, directly or indirectly, to effect or influence decisions regarding transactions in the account.",
+   "why_it_matters": "Routing the collar or a secured loan through a family trust, SMSF or controlled entity does not escape the hedging, margin lending or short-term trading bans."
+  },
+  {
+   "topic": "narrow secured-financing wording",
+   "clause": "margin lending over any WQG Securities",
+   "why_it_matters": "Unlike policies that ban 'any secured financing arrangement', this ban is limited to the named activity of margin lending; a bespoke bank loan secured over shares that is not badged a margin loan is not expressly captured, though the hedging ban would independently block the collar leg that the loan is meant to finance."
+  },
+  {
+   "topic": "default-closed trading structure",
+   "clause": "Other than transactions excluded by virtue of clause 3.4, any trading in WQG Securities may only be done during the following periods as applies to the relevant WQG Securities",
+   "why_it_matters": "Even a permitted derivative dealing (outside the hedging ban) could only be entered, unwound or rolled inside narrow post-results/AGM/weekly-NTA windows, materially constraining execution timing for a bank counterparty."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Clause 3.4(b) imposes an absolute, substance-based ban on any arrangement that limits a Key Management Personnel's exposure to risk on a holding of WQG Securities, expressly extending to unvested options, which squarely prohibits a purchased put and written call regardless of vesting state and has no clearance or hardship exemption. Even setting that aside, the put and call would each be a Dealing (WQG Securities expressly includes third-party derivatives and CFDs), requiring prior approval from the Company Secretary or Contango Group CFO and execution within a narrow Trading Window (post-results, post-AGM, or weekly-NTA windows). The loan leg is also problematic: margin lending over any WQG Securities is expressly banned, and while the ban is worded narrowly around 'margin lending' rather than secured financing generally, a bank loan secured on the collared shares would likely be treated the same way in substance. There is no exemption authority for any of these prohibitions; the only discretionary relief (Exceptional Circumstances) is limited to permitting an outright sale for hardship or legal reasons, not financing or hedging structures."
+}
