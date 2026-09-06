@@ -1,0 +1,424 @@
+{
+ "symbol": "CBO",
+ "company": "Cobram Estate Olives Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "15 July 2021",
+ "date_effective": "15 July 2021",
+ "date_lodged": "",
+ "date_next_review": "The Board is responsible for regularly reviewing this Policy, having regard to changing circumstances and any changes to the ASX Listing Rules, the Corporations Act or other applicable legislation (no fixed date stated)",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All directors of the Company (Directors) and Group employees, collectively. Subject to the baseline prohibition on dealing while in possession of Inside Information (in Company securities or another company's securities) and the Restricted Securities List.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Senior Executives (all Directors, KMP and direct reports to the CEO), persons who work closely with a Senior Executive and/or in finance or strategy or IT staff with access to sensitive materials, and Nominated Employees advised by the Company Secretary. Subject to Blackout Periods, the approval regime, margin lending approval, the short-term/speculative dealing ban, the hedging ban, and duties regarding Connected Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "All directors of the Company; a subset of Restricted Persons named specifically for the post-trade confirmation duty and forming part of the 'CEO or other Directors' clearance approver group.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Nominated Employees or Senior Executives",
+   "kind": "kmp",
+   "description": "Clause 3.4.1 approver-routing group: Nominated Employees and Senior Executives (other than the CEO and other Directors, who are routed separately). Requests are forwarded to the CEO.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "CEO or other Directors",
+   "kind": "director",
+   "description": "Clause 3.4.2 approver-routing group: the CEO and Directors other than the Chair. Requests are forwarded to the Chair of the Board.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "Clause 3.4.3 approver-routing group: the Chair of the Board. Requests are forwarded to the Chair of the Audit and Risk Committee.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A family member who may be expected to influence, or be influenced by, the Restricted Person (spouse, partner, children, partner's children, dependants), and a company or other entity the Restricted Person can control. Restricted Persons must ensure Connected Persons only deal as the Restricted Person would be permitted to.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "entering into any arrangements that operate to limit the economic risk associated with holding the Company's securities",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "1 April",
+   "end_anchor": "30 June",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading on the ASX on 30 June",
+   "end_anchor": "the day following the announcement to ASX of the full-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading on the ASX on 31 December",
+   "end_anchor": "the day following the announcement to ASX of the half-year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "2 weeks prior to the AGM or any other shareholder meeting",
+   "end_anchor": "close of normal trading on the first trading day after the relevant meeting",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "issue of any release to the ASX marked as price sensitive",
+   "end_anchor": "2 trading days after that release",
+   "duration_days": 2
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other Blackout Period from time to time (clause 3.1.6); no statement on whether such additional Blackout Periods are kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "3.7; 3.3; 3.4",
+   "detail": "No express derivatives category. An OTC put/written call over vested, unrestricted Company securities falls within the hedging definition ('arrangements that operate to limit the economic risk associated with holding the Company's securities') and, as a dealing, requires prior written approval outside Blackout Periods under the clause 3.4 approver-routing process.",
+   "evidence": "Hedging includes entering into any arrangements that operate to limit the economic risk associated with holding the Company's securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Absolute ban on hedging equity plan securities before vesting, with no approval route stated.",
+   "evidence": "Company securities acquired by a Restricted Person under an employee, executive or director equity plan operated by the Company must never be hedged prior to vesting."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Absolute ban on hedging plan securities while subject to a holding lock or dealing restriction under the plan terms, even after vesting; no approval route stated.",
+   "evidence": "Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan operated by the Company by a Restricted Person."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.7; 3.3; 3.4",
+   "detail": "Once vested and no longer subject to a holding lock, hedging is not itself expressly named as needing approval, but it is a dealing in Company securities and so must go through the standard clause 3.3/3.4 approval process outside Blackout Periods.",
+   "evidence": "Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee, executive or director equity plan"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.3; 3.4; 5.1.1",
+   "detail": "Monetisation is not named. A forward sale or similar arrangement is an agreement to deal in securities (Corporations Act deal definition referenced in 5.1.1) and requires the standard approval process outside Blackout Periods.",
+   "evidence": "buy or sell securities in a company, or enter in an agreement to buy or sell securities, or exercise options over securities, or otherwise apply for, acquire or dispose of securities (deal)"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6",
+   "detail": "Outright ban on speculative dealing, including short-selling; no clearance route offered for this specific activity.",
+   "evidence": "Restricted Persons must not deal in the Company's securities on a speculative basis, including short-selling."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending by the holder is not named anywhere in the Policy and is not covered by the deal definition or any excluded dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.6; 3.3; 3.4",
+   "detail": "CFDs are not named. Forward contracts are named only as an example of a short-term dealing; a CFD would similarly be caught as a dealing requiring standard approval, and if held short-term (within 3 months) or on a speculative basis would breach clause 3.6.",
+   "evidence": "entering into other short term dealings (for example, forward contracts)"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Margin lending arrangements in respect of Company securities, and transferring Company securities into an existing margin loan account, both require prior approval under the clause 3.4 process. The Company may impose conditions, including on the circumstances in which securities may be sold to satisfy a margin call. Not an outright ban.",
+   "evidence": "Approval must be obtained in accordance with the procedure set out in clause 3.4 for any: entering into a margin lending arrangement in respect of the Company's securities; and transferring securities in the Company into an existing margin loan account."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "Only margin lending is named as a form of encumbrance requiring approval; a charge, lien or pledge unconnected to a margin loan is not separately addressed, though the Policy's substance-over-form approach (clause 1.2) suggests it would be treated the same way.",
+   "evidence": "entering into a margin lending arrangement in respect of the Company's securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.5",
+   "detail": "The Policy addresses only margin lending arrangements by name, not a broader 'secured financing' category. A bank loan secured against the collared shares that is not structured as a margin loan is not literally captured, though the substance-over-form principle in clause 1.2 would likely bring it within clause 3.5's approval requirement.",
+   "evidence": "The Company will take a substance over form approach and will have regard to the intent and spirit of this Policy when applying and enforcing it."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6",
+   "detail": "Ban on buying and selling Company securities on market within a 3-month period, and on other short-term dealings such as forward contracts. Express carve-out: selling shares received on vesting within 3 months of the vesting date is not treated as short-term dealing, and participation in an equity plan is separately excluded under clause 4.1.1.",
+   "evidence": "Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings (for example, forward contracts). Selling shares received on vesting of entitlements under an employee, executive or director equity plan within 3 months of the vesting date is not a short-term dealing."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Nominated Employees or Senior Executives",
+   "type": "approval",
+   "approver": "CEO",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.2; 3.3; 3.4",
+   "evidence": "Requests for approval under 3.2 or 3.3 should be submitted to the Company Secretary, who will forward it to: the CEO (in the case of Nominated Employees or Senior Executives)"
+  },
+  {
+   "tier": "CEO or other Directors",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "3.2; 3.3; 3.4; 3.8",
+   "evidence": "the Chair of the Board (in the case of the CEO or other Directors)"
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Chair of the Audit and Risk Committee",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day the trade is entered into",
+   "section": "3.2; 3.3; 3.4; 3.8",
+   "evidence": "the Chair of the Audit and Risk Committee (in the case of the Chair of the Board)"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "from acquisition",
+   "carve_outs": [
+    "Selling shares received on vesting of entitlements under an employee, executive or director equity plan within 3 months of the vesting date",
+    "Participation in an employee, executive or director equity plan operated by the Company (clause 4.1.1)"
+   ],
+   "evidence": "Short-term trading includes buying and selling securities on market within a 3 month period and entering into other short term dealings (for example, forward contracts). Selling shares received on vesting of entitlements under an employee, executive or director equity plan within 3 months of the vesting date is not a short-term dealing."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by the Company. However, where securities in the Company granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a share purchase plan available to all retail shareholders"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Company securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Company securities already held into a superannuation fund or trust of which the Employee is a beneficiary)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Employee did not enter into the plan or amend the plan during a Blackout Period, the plan does not permit the Employee to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a Blackout Period, other than in exceptional circumstances"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "CEO / Chair of the Board / Chair of the Audit and Risk Committee (per clause 3.4 routing)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "CEO / Chair of the Board / Chair of the Audit and Risk Committee (per clause 3.4 routing)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "The Company may, at its discretion, make any approval granted under this clause 3.5 conditional upon such terms and conditions as the Company sees fit (for example, with regard to the circumstances in which the Company's securities may be sold to satisfy a margin call).",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The CEO, Chair of the Board, or Chair of the Audit and Risk Committee (depending on the applicant's tier, per clause 3.4) may grant, refuse or condition approval to deal (including exceptional-circumstances dealing in a Blackout Period, standard dealing outside a Blackout Period, and margin lending/transfer arrangements) in their discretion, without giving reasons, and may revoke approval at any time; a refusal or revocation must be kept confidential.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Front Page Test",
+   "clause": "Where any approval is required for a dealing under this Policy, approval will not be granted where the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "Even if the collar/loan structure otherwise complies with the approval process, it can still be refused on a subjective reputational-perception test applied by the approver."
+  },
+  {
+   "topic": "substance over form",
+   "clause": "The Company will take a substance over form approach and will have regard to the intent and spirit of this Policy when applying and enforcing it.",
+   "why_it_matters": "A loan structured to avoid the literal words 'margin lending arrangement' (e.g. a bank collar loan) is still likely to be treated as requiring clause 3.5 approval."
+  },
+  {
+   "topic": "forced sale exclusion",
+   "clause": "a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement ... [excluded from Blackout Periods, approval-required dealing, and short-term dealing rules]",
+   "why_it_matters": "If the bank's loan is treated as a margin lending arrangement, its enforcement sale on default is expressly excluded from the Blackout Period ban, the pre-approval requirement and the short-term dealing rule, giving the bank a clear enforcement path even during a closed period."
+  },
+  {
+   "topic": "margin call sale conditions",
+   "clause": "The Company may, at its discretion, make any approval granted in under this clause 3.5 conditional upon such terms and conditions as the Company sees fit (for example, with regard to the circumstances in which the Company's securities may be sold to satisfy a margin call).",
+   "why_it_matters": "The Company can impose bespoke conditions on when and how the bank may sell the collared shares to satisfy a shortfall, which should be negotiated into the approval before the facility is put in place."
+  },
+  {
+   "topic": "director trade confirmation",
+   "clause": "Following any trade, Directors must promptly notify the Company Secretary, ideally by close of business on the day the trade is entered into.",
+   "why_it_matters": "Entry into, adjustment of, or unwind of the collar by a director must be reported same-day to the Company Secretary to support the Company's ASX disclosure obligations."
+  },
+  {
+   "topic": "confidentiality of refusal or revocation",
+   "clause": "The approver is not obliged to provide reasons for any aspect of their decision and may revoke their approval at any time. If a request is not approved or an approval is revoked, that fact must be kept confidential.",
+   "why_it_matters": "Approval for the collar/loan can be withdrawn without reasons at any time, and the executive cannot disclose a refusal or revocation, creating unwind risk for the bank that is not publicly visible."
+  },
+  {
+   "topic": "Connected Persons",
+   "clause": "Restricted Persons must take appropriate steps to ensure that their 'Connected Persons' only deal in securities in circumstances where the Restricted Person to whom they are connected would be permitted to deal under this Policy.",
+   "why_it_matters": "A collar or loan cannot be routed through a spouse, family member or controlled entity to escape the approval regime; the Restricted Person remains responsible for ensuring the same clearance is obtained."
+  }
+ ],
+ "summary": "A funded collar is not prohibited outright but requires approval at two levels. Hedging (which expressly includes any arrangement limiting the economic risk of holding Company securities) is absolutely banned on unvested plan securities and on vested securities still subject to a holding lock, so the structure can only be built on vested, unrestricted shares. Once vested and unrestricted, both the hedge and the margin-lending-style loan secured on the shares require prior written approval via the clause 3.4 process (CEO, Chair of the Board, or Chair of the Audit and Risk Committee depending on the applicant), executed within 3 business days of approval, outside Blackout Periods, and subject to the Front Page Test and a substance-over-form assessment since the Policy's only named secured-financing category is 'margin lending arrangements.' Approval is discretionary, need not be reasoned, can be revoked at any time, and any refusal or revocation must be kept confidential, so the executive bears execution and unwind timing risk. If the bank's loan is treated as a margin lending arrangement, an enforcement sale on default is a clearly excluded dealing (not subject to Blackout Periods, pre-clearance or the short-term rule), giving the bank a workable enforcement path once approval for the underlying facility has been obtained."
+}
