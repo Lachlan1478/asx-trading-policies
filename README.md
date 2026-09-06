@@ -10,6 +10,8 @@ Collects the securities trading policy of the largest ASX-listed companies and e
 
 ## Outputs
 
+`report/findings.html` is a self-contained summary of the findings with charts; open it locally in a browser.
+
 | File | One row per | Contents |
 |---|---|---|
 | `data/tables/policies.json` | company | Full nested extraction, including `bespoke_clauses` for anything the structured fields cannot hold |

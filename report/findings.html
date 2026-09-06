@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASX Trading Policies: Funded Collar Findings</title>
+<style>
+:root{color-scheme:light;--bg:#f6f5f2;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--ink3:#7a7975;--line:#e2e0da;--grid:#ece9e2;--accent:#2a78d6;
+--seq:#2a78d6;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#121211;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--ink3:#8f8e86;--line:#33322f;--grid:#2a2926;--accent:#3987e5;
+--seq:#3987e5;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#121211;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--ink3:#8f8e86;--line:#33322f;--grid:#2a2926;--accent:#3987e5;
+--seq:#3987e5;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+main{max-width:1040px;margin:0 auto;padding:40px 24px 80px}
+h1{font-size:30px;line-height:1.15;margin:0 0 6px;letter-spacing:-.01em}h2{font-size:20px;margin:44px 0 10px}h3{font-size:16px;margin:0 0 4px}
+p{max-width:72ch;color:var(--ink2)}.lead{font-size:17px;color:var(--ink2);max-width:76ch}
+.meta{color:var(--ink3);font-size:13px;margin-bottom:28px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}.tile .n{font-size:28px;font-weight:600;letter-spacing:-.02em}.tile .l{font-size:13px;color:var(--ink2)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:14px 0}
+.card .sub{color:var(--ink2);font-size:13px;margin:0 0 10px}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.bar{transition:opacity .12s}.bar:hover{opacity:.85}
+text{fill:var(--ink2);font-size:12px}text.v{fill:var(--ink);font-weight:500}text.cat{fill:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--ink2);margin:8px 0 4px}.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;padding:6px 9px;border-radius:6px;opacity:0;transition:opacity .1s;z-index:9;max-width:280px}
+details{margin-top:8px}summary{cursor:pointer;color:var(--ink2);font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--ink2);font-weight:500}
+.wrap{overflow-x:auto}.pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:12px;border:1px solid var(--line);white-space:nowrap}
+ul{color:var(--ink2);max-width:76ch}li{margin:6px 0}li b{color:var(--ink);font-weight:600}
+footer{color:var(--ink3);font-size:13px;margin-top:48px;border-top:1px solid var(--line);padding-top:16px}
+code{font-size:13px;background:var(--grid);padding:1px 5px;border-radius:4px}
+</style></head><body><main>
+<h1>ASX Trading Policies: Funded Collar Findings</h1>
+<p class="lead">What the securities trading policies of the 500 largest ASX-listed companies say about a director or executive entering an OTC equity collar with a bank, and borrowing against the collared shares.</p>
+<div class="meta">Source: policies lodged with ASX under Listing Rule 12.9, plus four company websites. Extracted 2 to 6 September 2026. Repository: <a href="https://github.com/Lachlan1478/asx-trading-policies">Lachlan1478/asx-trading-policies</a>.</div>
+
+<div class="tiles" id="tiles"></div>
+
+<h2>Headline</h2>
+<ul>
+<li><b>The loan is the harder leg.</b> 272 of 454 policies ban secured financing in terms wider than margin loans, or any financing "in respect of" the securities. Only 105 confine the ban to margin lending, and 77 are silent.</li>
+<li><b>Hedging unvested equity is banned almost everywhere</b> (458 rules prohibited against 23 permitted in some form), mirroring section 206J of the Corporations Act. Hedging vested, unrestricted shares splits: 260 rules permit it with clearance, 153 prohibit it, 71 permit it outright.</li>
+<li><b>Nobody regulates collars by name.</b> Only 47 policies quote the word "collar" anywhere. The rest reach the trade through a definition of hedging ("limit the economic risk") or of dealing (452 rules are caught only via the dealing definition, 267 only via the hedging definition).</li>
+<li><b>Enforcement risk is under-drafted.</b> 190 policies expressly carve out a secured lender's enforcement sale, 31 make it a breach by the executive even in a closed period, and 214 say nothing.</li>
+<li><b>Clearance is the norm, not a bar.</b> 1,161 of 1,488 clearance regimes are approval-based; the modal validity is 5 business days (498 regimes), then 2, 7, 3 and 10.</li>
+<li><b>Substance-over-form clauses appear in 86 policies</b>, which is the main reason a loan without margin-call features cannot be assumed to escape a "margin lending" ban.</li>
+</ul>
+
+<h2>Policy-level verdict</h2>
+<div class="card"><h3>Can a senior insider do a loan-funded collar?</h3><p class="sub">Computed from the extracted rules for director, KMP and restricted-person tiers, not from model prose. "Workable" means nothing in the policy blocks it; clearance and window timing still apply.</p><div id="c-funded"></div><details><summary>Table view</summary><div id="t-funded"></div></details></div>
+
+<h2>What the rules say, topic by topic</h2>
+<div class="card"><h3>Rules on vested, unrestricted shares</h3><p class="sub">One row per topic. Each rule is one company, tier and security state; a company can contribute several rules per topic. Colour identifies the answer; hover any segment for the count.</p><div class="legend" id="lg-topics"></div><div id="c-topics"></div><details><summary>Table view</summary><div id="t-topics"></div></details></div>
+
+<div class="card"><h3>Funding leg: scope of the secured financing ban</h3><div id="c-scope"></div></div>
+<div class="card"><h3>Funding leg: treatment of a lender's forced sale in a closed period</h3><div id="c-forced"></div></div>
+
+<h2>Practical patterns for the bank</h2>
+<ul>
+<li><b>Vesting alone is not enough diligence.</b> Most policies treat vested-but-holding-locked shares like unvested ones. The collared parcel must be vested and free of plan restrictions.</li>
+<li><b>Where only "margin lending" is banned (105 policies), structure matters.</b> A term loan with no margin call or loan-to-value trigger sits outside the literal words, but 86 policies apply substance over form. Get written clearance that names the structure.</li>
+<li><b>Get the loan approved at inception.</b> Many forced-sale carve-outs (COH, CDA, PRU, YAL, HCW, SMR, IGO among others) apply only where the financing was cleared in advance.</li>
+<li><b>Tenor rules can catch the collar itself.</b> BHP treats any instrument with maturity of one year or less as short-term dealing; WTC, ALQ and BSL run 6 to 9 month tests; several policies name forward contracts as short-term dealings.</li>
+<li><b>Cash settlement avoids a "change in beneficial ownership" at settlement</b> but does not escape policies whose securities definition includes cash-settled instruments (CBA, WBC, NAB).</li>
+<li><b>Expect public disclosure.</b> Appendix 3Y captures a director's collar within five business days, and several policies (SEK, TPG, APE, SMR) disclose loan trigger points to the market.</li>
+</ul>
+
+<h2>Largest 40 companies</h2>
+<div class="card"><p class="sub">Verdict, financing scope and forced-sale treatment for the 40 largest constituents. Full detail for every company is in <code>data/parsed/&lt;code&gt;.json</code>.</p><div class="wrap" id="t-top"></div></div>
+
+<h2>Corpus and provenance</h2>
+<div class="card"><h3>Lodgement year of the policy read</h3><p class="sub">The lodged copy is the version ASX holds the company to, but 54 policies date from 2010 to 2012 and may have been superseded on the company website.</p><div id="c-years"></div></div>
+<ul>
+<li>459 of 500 companies had a policy: 455 from ASX lodgements typed "Trading Policy", four (CHI, EF2, RYM, TRA) from company websites. The 41 missing are mostly foreign-exempt dual listings not bound by Listing Rule 12.9.</li>
+<li>Five lodgements were not policies and were skipped: ZIM and SNZ (date-change notices), FRS (cover letter), GLN (a s708A notice), QRI (a responsible entity's staff policy). KKC, MOT, OPH, GLF and MA1 were extracted but are also responsible-entity staff policies, so their verdicts do not describe the trust's directors.</li>
+<li>Reused codes and renames: SKS resolves to an Energy Developments policy; Webjet, Burson, Moelis, Pacific Niugini, Kentor Gold and others appear under their old names. All flagged in <code>data/tables/qa.csv</code>.</li>
+<li>The first 60 or so companies by market cap were read by a stronger model and carry richer bespoke-clause notes; the remainder were read by a smaller model with the same schema and validator.</li>
+<li>Where a summary flags a drafting ambiguity (QAN, GGP, CVL, ACF, OMA, WGX), the point needs confirmation from the company, not a policy read.</li>
+</ul>
+
+<footer>Built from the structured dataset in <code>data/tables/</code>. Every rule carries a verbatim evidence quote; verify against the PDF in <code>data/pdf/</code> before relying on a row. This is a reading of company policy documents, not legal advice.</footer>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const S = {"n": {"policies": 454, "rules": 6521, "clearance": 1488, "windows": 1403, "bespoke": 3054}, "funded": [["workable", 254], ["blocked_loan", 69], ["blocked_hedge", 66], ["loan_margin_features_banned", 44], ["clearance_required", 11], ["enforcement_restricted", 10]], "scope": [["any_secured_financing", 213], ["margin_loan_only", 105], ["not_addressed", 77], ["any_financing_in_respect_of_securities", 59]], "forced": [["not_addressed", 214], ["excluded_dealing", 190], ["breach", 31], ["clearance_required", 19]], "hedging_vested": [["permitted_with_clearance", 260], ["prohibited", 153], ["not_addressed", 112], ["permitted", 71], ["permitted_with_notification", 30], ["floor", 3]], "hedging_unvested": [["prohibited", 458], ["permitted_with_clearance", 22], ["not_addressed", 11], ["permitted", 1]], "derivatives": [["permitted_with_clearance", 326], ["permitted", 139], ["prohibited", 134], ["not_addressed", 77], ["permitted_with_notification", 38]], "margin": [["permitted_with_clearance", 202], ["prohibited", 184], ["not_addressed", 136], ["permitted", 63], ["permitted_with_notification", 27], ["floor", 2]], "encumbrance": [["permitted_with_clearance", 190], ["not_addressed", 148], ["prohibited", 114], ["permitted", 60], ["permitted_with_notification", 26], ["floor", 2]], "short_term": [["prohibited", 347], ["not_addressed", 113], ["permitted_with_clearance", 39], ["permitted", 9], ["permitted_with_notification", 1]], "monetisation": [["permitted_with_clearance", 263], ["prohibited", 132], ["not_addressed", 69], ["permitted", 43], ["permitted_with_notification", 22], ["floor", 1]], "mechanism": [["express", 547], ["via_dealing_definition", 452], ["via_hedging_definition", 267], ["none", 146], ["implied", 72]], "window": [["closed", 333], ["open", 120], ["none", 1]], "clear_type": [["approval", 1161], ["notification", 145], ["none", 115], ["preclearance_system", 59], ["not_addressed", 8]], "validity": [["5", 498], ["2", 128], ["7", 87], ["3", 71], ["10", 71], ["14", 23], ["1", 18], ["0", 4]], "sof": 86, "otc": [["yes", 311], ["not_addressed", 85], ["no", 58]], "years": [["2010", 39], ["2011", 11], ["2012", 4], ["2013", 7], ["2014", 6], ["2015", 26], ["2016", 15], ["2017", 18], ["2018", 15], ["2019", 14], ["2020", 23], ["2021", 40], ["2022", 27], ["2023", 37], ["2024", 53], ["2025", 71], ["2026", 44]], "industry": [["Materials", 122, 79], ["Not Applic", 37, 18], ["Financial Services", 34, 19], ["Capital Goods", 30, 18], ["Equity Real Estate Investment Trusts (REITs)", 26, 7], ["Software & Services", 22, 13], ["Health Care Equipment & Services", 21, 16], ["Consumer Discretionary Distribution & Retail", 19, 15], ["Energy", 19, 13], ["Consumer Services", 16, 9], ["Pharmaceuticals, Biotechnology & Life Sciences", 12, 4], ["Commercial & Professional Services", 11, 3]], "top": [["BHP", "Bhp Group Limited", "workable", "any_secured_financing", "not_addressed"], ["CBA", "Commonwealth Bank Of Australia.", "blocked_loan", "any_secured_financing", "breach"], ["NAB", "National Australia Bank Limited", "workable", "any_secured_financing", "not_addressed"], ["WBC", "Westpac Banking Corporation", "enforcement_restricted", "margin_loan_only", "breach"], ["ANZ", "Anz Group Holdings Limited", "blocked_loan", "any_secured_financing", "not_addressed"], ["MQG", "Macquarie Group Limited", "blocked_hedge", "any_secured_financing", "clearance_required"], ["WES", "Wesfarmers Limited", "workable", "any_financing_in_respect_of_securities", "not_addressed"], ["CSL", "Csl Limited", "blocked_loan", "any_financing_in_respect_of_securities", "not_addressed"], ["RIO", "Rio Tinto Limited", "blocked_loan", "any_secured_financing", "excluded_dealing"], ["WDS", "Woodside Energy Group Ltd", "blocked_loan", "any_secured_financing", "excluded_dealing"], ["GMG", "Goodman Group", "loan_margin_features_banned", "margin_loan_only", "breach"], ["FMG", "Fortescue Ltd", "workable", "not_addressed", "not_addressed"], ["TLS", "Telstra Group Limited", "blocked_loan", "any_secured_financing", "excluded_dealing"], ["WOW", "Woolworths Group Limited", "blocked_loan", "any_secured_financing", "not_addressed"], ["RMD", "Resmed Inc", "workable", "any_secured_financing", "not_addressed"], ["TCL", "Transurban Group", "workable", "any_financing_in_respect_of_securities", "not_addressed"], ["ALL", "Aristocrat Leisure Limited", "loan_margin_features_banned", "margin_loan_only", "not_addressed"], ["NST", "Northern Star Resources Ltd", "workable", "any_secured_financing", "excluded_dealing"], ["QBE", "Qbe Insurance Group Limited", "workable", "any_secured_financing", "not_addressed"], ["COL", "Coles Group Limited.", "blocked_loan", "any_secured_financing", "excluded_dealing"], ["SIG", "Sigma Healthcare Limited", "enforcement_restricted", "margin_loan_only", "breach"], ["EVN", "Evolution Mining Limited", "blocked_loan", "any_secured_financing", "not_addressed"], ["AMC", "Amcor Plc", "workable", "any_financing_in_respect_of_securities", "excluded_dealing"], ["STO", "Santos Limited", "blocked_loan", "any_secured_financing", "breach"], ["NWS", "News Corporation..", "workable", "any_secured_financing", "not_addressed"], ["NWSLV", "News Corporation..", "workable", "any_secured_financing", "not_addressed"], ["BXB", "Brambles Limited", "blocked_hedge", "any_secured_financing", "breach"], ["JHX", "James Hardie Industries Plc", "workable", "not_addressed", "not_addressed"], ["S32", "South32 Limited", "blocked_loan", "any_secured_financing", "not_addressed"], ["CPU", "Computershare Limited.", "workable", "not_addressed", "excluded_dealing"], ["REA", "Rea Group Ltd", "blocked_loan", "any_secured_financing", "excluded_dealing"], ["FPH", "Fisher & Paykel Healthcare Corporation", "workable", "not_addressed", "excluded_dealing"], ["ORG", "Origin Energy Limited", "blocked_loan", "any_financing_in_respect_of_securities", "breach"], ["SUN", "Suncorp Group Limited", "workable", "any_secured_financing", "excluded_dealing"], ["SCG", "Scentre Group", "loan_margin_features_banned", "margin_loan_only", "excluded_dealing"], ["PME", "Pro Medicus Limited", "workable", "not_addressed", "not_addressed"], ["IAG", "Insurance Australia Group Limited", "blocked_loan", "any_secured_financing", "not_addressed"], ["PLS", "Pls Group Limited", "workable", "any_secured_financing", "excluded_dealing"], ["SOL", "Washington H. Soul Pattinson And Compa", "blocked_hedge", "margin_loan_only", "not_addressed"], ["SGH", "Sgh Limited", "workable", "margin_loan_only", "excluded_dealing"]], "collar_named": 47, "msr": 27, "ext": 234};
+const answers = ["permitted","permitted_with_notification","permitted_with_clearance","floor","prohibited","not_addressed"];
+const label = s => s.replace(/_/g," ");
+const tip = document.getElementById('tip');
+function showTip(e,t){tip.textContent=t;tip.style.opacity=1;tip.style.left=(e.clientX+12)+'px';tip.style.top=(e.clientY+12)+'px';}
+function hideTip(){tip.style.opacity=0;}
+function hbar(el, pairs, {fill='var(--seq)', total=null}={}){
+  const w=900, rowH=30, padL=250, padR=60, n=pairs.length, h=n*rowH+10, max=Math.max(...pairs.map(p=>p[1]));
+  const sum = total ?? pairs.reduce((a,p)=>a+p[1],0);
+  let s=`<svg viewBox="0 0 ${w} ${h}" role="img">`;
+  pairs.forEach(([k,v],i)=>{const y=5+i*rowH, bw=Math.max(2,(w-padL-padR)*v/max);
+    s+=`<text x="${padL-10}" y="${y+19}" text-anchor="end" class="cat">${label(k)}</text>`;
+    s+=`<rect class="bar" x="${padL}" y="${y+6}" width="${bw}" height="16" rx="0" fill="${fill}" data-t="${label(k)}: ${v} (${Math.round(100*v/sum)}%)"/>`;
+    s+=`<rect x="${padL+bw-4}" y="${y+6}" width="4" height="16" rx="3" fill="${fill}"/>`;
+    s+=`<text x="${padL+bw+8}" y="${y+19}" class="v">${v}</text>`;});
+  el.innerHTML=s+'</svg>';
+}
+function stacked(el, rows){
+  const w=900, rowH=34, padL=150, n=rows.length, h=n*rowH+10;
+  let s=`<svg viewBox="0 0 ${w} ${h}" role="img">`;
+  rows.forEach(([topic,counts],i)=>{const y=5+i*rowH; const tot=answers.reduce((a,k)=>a+(counts[k]||0),0); let x=padL;
+    s+=`<text x="${padL-10}" y="${y+21}" text-anchor="end" class="cat">${label(topic)}</text>`;
+    answers.forEach((k,j)=>{const v=counts[k]||0; if(!v) return; const bw=(w-padL-10)*v/tot;
+      s+=`<rect class="bar" x="${x}" y="${y+7}" width="${Math.max(0,bw-2)}" height="18" fill="var(--s${j+1})" data-t="${label(topic)} / ${label(k)}: ${v} rules (${Math.round(100*v/tot)}%)"/>`;
+      if(bw>56) s+=`<text x="${x+bw/2-1}" y="${y+21}" text-anchor="middle" style="fill:#fff;font-size:11px">${v}</text>`;
+      x+=bw;});});
+  el.innerHTML=s+'</svg>';
+}
+function table(el, head, rows){el.innerHTML='<table><thead><tr>'+head.map(h=>`<th>${h}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>`<td>${c}</td>`).join('')+'</tr>').join('')+'</tbody></table>';}
+
+document.getElementById('tiles').innerHTML=[[500,'companies in scope'],[459,'policies found'],[S.n.policies,'policies extracted'],[S.n.rules.toLocaleString(),'rules'],[S.n.clearance.toLocaleString(),'clearance regimes'],[S.n.bespoke.toLocaleString(),'bespoke clauses']].map(([n,l])=>`<div class="tile"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
+
+hbar(document.getElementById('c-funded'), S.funded);
+table(document.getElementById('t-funded'),['Verdict','Policies','Share'],S.funded.map(([k,v])=>[label(k),v,Math.round(100*v/S.n.policies)+'%']));
+
+const topics=[['hedging',S.hedging_vested],['derivatives',S.derivatives],['monetisation',S.monetisation],['margin_lending',S.margin],['encumbrance',S.encumbrance],['short_term',S.short_term]].map(([t,c])=>[t,Object.fromEntries(c)]);
+document.getElementById('lg-topics').innerHTML=answers.map((k,j)=>`<span style="--c:var(--s${j+1})">${label(k)}</span>`).join('');
+stacked(document.getElementById('c-topics'), topics);
+table(document.getElementById('t-topics'),['Topic',...answers.map(label)],topics.map(([t,c])=>[label(t),...answers.map(k=>c[k]||0)]));
+
+hbar(document.getElementById('c-scope'), S.scope);
+hbar(document.getElementById('c-forced'), S.forced);
+hbar(document.getElementById('c-years'), S.years, {fill:'var(--seq)'});
+
+table(document.getElementById('t-top'),['Code','Company','Verdict','Financing ban scope','Forced sale in closed period'],S.top.map(r=>[`<a href="../data/parsed/${r[0]}.json">${r[0]}</a>`,r[1],`<span class="pill">${label(r[2])}</span>`,label(r[3]),label(r[4])]));
+
+document.querySelectorAll('.bar').forEach(b=>{b.addEventListener('mousemove',e=>showTip(e,b.dataset.t));b.addEventListener('mouseleave',hideTip);});
+</script></body></html>
