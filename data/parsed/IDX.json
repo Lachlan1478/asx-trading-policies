@@ -1,0 +1,413 @@
+{
+ "symbol": "IDX",
+ "company": "Integral Diagnostics Limited",
+ "title": "Securities Dealing Policy",
+ "date_approved": "",
+ "date_effective": "1 October 2015",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "All directors of the Company, other than the Chair of the Board (who has a distinct approval chain).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished because their own overseer/approver is the Chair of the Audit, Risk and Compliance Committee (or the Board) rather than themselves.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives",
+   "kind": "kmp",
+   "description": "Officers and other direct reports to the Chief Executive Officer.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Employees",
+   "kind": "all_staff",
+   "description": "All other employees of the Group.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A family member who may be expected to influence, or be influenced by, the Employee in dealings with the Company or Company securities, or a company or other entity the Employee has an ability to control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading on the ASX on 30 June each year",
+   "end_anchor": "day following the announcement to ASX of the full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading on 31 December each year",
+   "end_anchor": "day following the announcement of the half-yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "10.00am on the next trading day after the announcement to ASX of half-yearly results",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "10.00am on the next trading day after the announcement to ASX of the preliminary final statement or full year results",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["all"],
+   "start_anchor": "10.00am on the next trading day after the holding of the Annual General Meeting",
+   "end_anchor": "4 weeks later",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other blackout period from time to time (3.3), determine at any time that a trading window is closed, or designate other trading windows such as a prospectus period (3.5(a)). The Company may also give general notice at any time that Employees must not deal, which overrides any otherwise-permitted dealing including an existing trading clearance (3.1). Confidentiality of these determinations is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.3",
+   "detail": "No standalone derivatives clause. A derivative (e.g. an OTC put/call) over Company securities is a 'financial product that operates to limit the economic risk' of holding them and so is hedging, subject to the vesting/holding-lock bans in 4.3(b)-(c) and, once permitted, ordinary section 3 approvals under 4.3(d).",
+   "evidence": "Hedging includes entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(b)",
+   "detail": "Absolute ban on hedging incentive plan securities before they vest.",
+   "evidence": "Company securities acquired under a director or employee incentive plan must never be hedged prior to the vesting."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(c)",
+   "detail": "Absolute ban extends to vested securities still subject to a holding lock or dealing restriction under an equity plan.",
+   "evidence": "Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of any employee, executive or director equity plan operated by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(d)",
+   "detail": "Hedging of vested, unrestricted Company securities is expressly permitted, provided the hedge transaction is treated as a dealing and cleared through the ordinary section 3 notification/approval process, and not entered, renewed, altered or closed out while holding Inside Information (4.3(a)).",
+   "evidence": "Employees are permitted to hedge their vested and unrestricted Company securities provided that the hedge transaction is treated as a dealing in Company securities for the purposes of this Policy, and the relevant approvals and notifications required under section 3 are made on that basis."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.3; 6(a)",
+   "detail": "Not named. A prepaid forward or similar arrangement that limits economic risk is hedging under 4.3, subject to the vesting/holding-lock bans and, once permitted, section 3 clearance; a pure unconditional sale is instead caught as an ordinary dealing under the insider trading 'deal' definition.",
+   "evidence": "Hedging includes entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.3; 4.1",
+   "detail": "CFDs are not named. Used to hedge exposure to Company securities, a CFD is a financial product limiting economic risk and subject to the hedging rules in 4.3; used speculatively over a short period it would also breach the short-term dealing ban in 4.1.",
+   "evidence": "Short term trading includes buying and selling securities on market within a 3 month period, and entering into other short term dealings (for example, forward contracts)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2",
+   "detail": "Entering a margin lending arrangement, transferring Company securities into an existing margin loan account, and selling securities to satisfy a margin call are all examples of dealing requiring approval under the out-of-window procedure (3.6), irrespective of whether a trading window is open. The Company may impose bespoke conditions on the approval.",
+   "evidence": "Employees must obtain approval in accordance with the procedure set out in section 3.6 for any proposed dealing in the Company's securities in connection with a margin lending arrangement, irrespective of any trading window."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a)(1)",
+   "detail": "Granting security to a margin lender is treated as dealing and requires the same 3.6 approval as other margin lending dealings; the policy does not use broader 'encumbrance' or 'any secured financing' language, only 'margin lending arrangement'.",
+   "evidence": "entering into a margin lending arrangement in respect of the Company's securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2",
+   "detail": "Coverage is expressly limited to a 'margin lending arrangement'; there is no catch-all extending to secured financing generally, so whether a bespoke bank loan facility not labelled a margin loan falls within this regime (rather than being unaddressed) is a definitional question.",
+   "evidence": "Any dealing in the Company's securities by Employees or their Connected Persons pursuant to a margin lending arrangement must be conducted in accordance with this Policy."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "On-market buying and selling within 3 months, and other short-term dealings such as forward contracts, are prohibited, except for the exclusions in section 5 (plan participation, pro-rata/dividend-plan acquisitions and takeover disposals, no-change-of-beneficial-interest transfers, and pre-approved non-discretionary trading plans).",
+   "evidence": "Employees and their Connected Persons must not deal in the Company's securities on a short term trading basis. Short term trading includes buying and selling securities on market within a 3 month period, and entering into other short term dealings (for example, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Other Employees",
+   "type": "approval",
+   "approver": "Chief Executive Officer",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.4; 3.5; 3.6",
+   "evidence": "any Senior Executive or Other Employee must inform and obtain approval from the Chief Executive Officer before a transaction is undertaken."
+  },
+  {
+   "tier": "Senior Executives",
+   "type": "approval",
+   "approver": "Chief Executive Officer (ordinary dealing); Chair of the Board (blackout-period waiver)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "3.4; 3.5; 3.6; 3.7",
+   "evidence": "the Chair of the Board (in the case of a Director or a Senior Executive) ... Following any trade, Directors and Senior Executives must promptly notify the Company Secretary, ideally by close of business on the day of the trade."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "3.4; 3.5; 3.6; 3.7",
+   "evidence": "any Director (other than the Chair of the Board) must inform and receive approval from the Chair of the Board before a transaction is undertaken."
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Board or Chair of the Audit, Risk and Compliance Committee",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "promptly, ideally by close of business on the day of the trade",
+   "section": "3.4; 3.5; 3.6; 3.7",
+   "evidence": "the Chair of the Board must inform and obtain approval from the Board or the Chair of the Audit, Risk and Compliance Committee before a transaction is undertaken."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "on market, from acquisition",
+   "carve_outs": [
+    "participation in an employee, executive or director equity plan operated by the Company",
+    "acquisition through a dividend reinvestment plan, share purchase plan or rights issue, or disposal via takeover offer, scheme of arrangement or equal access buy-back",
+    "dealings that result in no effective change to the beneficial interest in the securities",
+    "trading under a pre-approved non-discretionary trading plan"
+   ],
+   "evidence": "Short term trading includes buying and selling securities on market within a 3 month period, and entering into other short term dealings (for example, forward contracts)."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by the Company. However, where securities in the Company granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan; acquisition of Company securities through a share purchase plan available to all retail shareholders; acquisition of Company securities through a rights issue."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Company securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Company securities already held into a superannuation fund or trust of which the Employee or Connected Person is a beneficiary)."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Employee or Connected Person did not enter into the plan or amend the plan during a blackout period, the plan does not permit the Employee or Connected Person to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a blackout period, other than in exceptional circumstances."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "subject to paragraph 4.2, a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "the applicable Approver (Chief Executive Officer, Chair of the Board, or Chair of the Audit, Risk and Compliance Committee)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "the applicable Approver (Chief Executive Officer, Chair of the Board, or Chair of the Audit, Risk and Compliance Committee)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The applicable Approver (CEO for Other Employees; Chair of the Board for Directors and Senior Executives; Chair of the Audit, Risk and Compliance Committee for the Chair of the Board) may waive a blackout period for exceptional circumstances such as severe financial hardship or court order, evidenced to their satisfaction, for a fixed 2 business day duration (3.4). The Company may impose conditions on any margin-lending approval at its discretion (4.2(c)). No exemption authority is stated for the hedging bans on unvested or holding-locked securities (4.3(b)-(c)).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedge transaction deemed a dealing",
+   "clause": "Employees are permitted to hedge their vested and unrestricted Company securities provided that the hedge transaction is treated as a dealing in Company securities for the purposes of this Policy, and the relevant approvals and notifications required under section 3 are made on that basis.",
+   "why_it_matters": "This is an express structural bridge: once shares are vested and unrestricted, an OTC collar is permitted provided it is run through the same notification/approval and window machinery as an ordinary share trade."
+  },
+  {
+   "topic": "margin lending approval overrides trading window",
+   "clause": "Employees must obtain approval in accordance with the procedure set out in section 3.6 for any proposed dealing in the Company's securities in connection with a margin lending arrangement, irrespective of any trading window.",
+   "why_it_matters": "Unlike an ordinary share sale (which only needs notification during an open trading window), any dealing connected with the secured loan - entering the facility, transferring shares into it, or selling to meet a call - always needs the heavier CEO/Chair/Board approval, even inside a trading window."
+  },
+  {
+   "topic": "conditions on margin loan approval",
+   "clause": "The Company may, at its discretion, make any approval granted in accordance with 4.2(b) conditional upon such terms and conditions as the Company sees fit (for example, with regard to the circumstances in which the Company's securities may be sold to satisfy a margin call).",
+   "why_it_matters": "The Company can attach bespoke conditions to its approval of the secured facility, potentially including price triggers or notice requirements for enforcement, which the bank's facility documentation should anticipate."
+  },
+  {
+   "topic": "forced sale carve-out is conditional",
+   "clause": "Paragraphs 3.3, 3.5, 3.6 and 4.1 of this Policy do not apply to ... subject to paragraph 4.2, a disposal of securities of the Company that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement.",
+   "why_it_matters": "A lender's enforcement sale is excluded from the blackout, window, approval and short-term dealing rules, but only 'subject to paragraph 4.2' - meaning the underlying facility must itself have been approved as a margin lending arrangement; an unapproved or non-conforming facility may not benefit from the carve-out."
+  },
+  {
+   "topic": "scope of 'margin lending arrangement'",
+   "clause": "Any dealing in the Company's securities by Employees or their Connected Persons pursuant to a margin lending arrangement must be conducted in accordance with this Policy.",
+   "why_it_matters": "The policy never uses broader language like 'any other secured financing arrangement'; whether a bespoke bank loan secured on the collared shares (not conventionally marketed as a 'margin loan') falls within section 4.2's approval regime, or is simply unaddressed, should be confirmed with the Company Secretary before structuring."
+  },
+  {
+   "topic": "overriding inside information restriction",
+   "clause": "This restriction will apply even if the dealing would otherwise be permitted under this Policy, such as where it would occur within a permitted trading window, outside a black-out period, fall within an exclusion, or if the Employee has been given clearance to trade.",
+   "why_it_matters": "Any clearance already obtained for the collar or loan becomes ineffective if the executive comes into possession of inside information before execution or settlement."
+  }
+ ],
+ "summary": "A funded OTC equity collar appears achievable under this policy, but only over vested, unrestricted shares and with distinct clearance for each leg. Hedging - broadly defined as financial products limiting the economic risk of holding Company securities - is banned pre-vesting and while shares are subject to a plan holding lock, but is expressly permitted once vested and unrestricted, provided the hedge is treated as an ordinary dealing and cleared under section 3 (notification within a 4-week trading window, or CEO/Chair/Board approval outside one, each valid for 2 business days). The loan leg is separately regulated: entering a margin lending arrangement, transferring shares into a margin account, or selling to satisfy a call all require approval under the out-of-window procedure irrespective of any open trading window, and the Company may impose bespoke conditions on that approval. If the bank later exercises its own enforcement rights and force-sells the collared shares, that disposal is excluded from the blackout, window, approval and short-term dealing rules, provided the underlying facility was itself approved as a margin lending arrangement. Because the policy's secured-financing language is confined to 'margin lending arrangement' with no broader catch-all, the bank should confirm with the Company Secretary that its bespoke loan structure falls within that regime rather than being left unaddressed."
+}
