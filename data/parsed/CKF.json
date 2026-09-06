@@ -1,0 +1,489 @@
+{
+ "symbol": "CKF",
+ "company": "Collins Foods Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "25 March 2015",
+ "date_effective": "",
+ "date_lodged": "25 March 2015",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "All Collins Foods Staff",
+   "kind": "all_staff",
+   "description": "All Directors and employees of the Group, and Connected Persons of those Directors and employees. Subject to the insider trading prohibition, the no-personal-advantage rule and the ban on short-term trading, but not to Trading Windows, prior written clearance or the margin loan/encumbrance ban, which apply only to Directors and Restricted Employees.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of any company in the Group. Subject, together with Restricted Employees, to Trading Windows, prior written clearance, a ban on margin loans/granting lenders rights over their Company Securities, and a ban on hedging unvested Company Securities.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Employees",
+   "kind": "restricted",
+   "description": "The Chief Financial Officer, the Company Secretary, the General Counsel, all managers down to and including Regional/Area Managers, and employees nominated by the Board as Restricted Employees. Subject to the same restrictions as Directors under section 4.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A spouse, partner or cohabitee, child or step-child under 18, an unlisted body corporate controlled by or of which the staff member is a director, a trust of which the staff member is trustee and a beneficiary (or of which a listed connected person is a beneficiary), a self-managed superannuation fund of which the staff member is beneficiary, or any other person over whom the staff member has significant influence or control in relation to financial or business affairs.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "any Derivatives or other products which operate to limit the economic risk of unvested Company Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "commencement of the trading day after the day on which the ASX announcement of half year results is released",
+   "end_anchor": "close of trading on the trading day that is 30 days after the day on which the window opens",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "commencement of the trading day after the day on which the ASX announcement of full year results is released",
+   "end_anchor": "close of trading on the trading day that is 30 days after the day on which the window opens",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "commencement of the trading day after the day on which the conclusion of the Annual General Meeting occurs",
+   "end_anchor": "close of trading on the trading day that is 30 days after the day on which the window opens",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "commencement of the trading day after the day on which a disclosure document offering equity securities in the Company is released",
+   "end_anchor": "close of trading on the trading day that is 30 days after the day on which the window opens",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "commencement of the trading day after the day on which a Cleansing Statement under s.708 of the Corporations Act is released",
+   "end_anchor": "close of trading on the trading day that is 30 days after the day on which the window opens",
+   "duration_days": 30
+  }
+ ],
+ "ad_hoc_blackout_authority": "Trading Windows may be varied from time to time; variations will be provided to Directors and Restricted Employees in writing. The policy does not state whether such variations are kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.2; 5.1",
+   "detail": "The policy never formally defines 'Securities' or 'Dealing'; insider trading is described as dealing in 'a company's securities (which includes shares and options)'. Only Directors and Restricted Employees must obtain prior written clearance to trade, so general staff can deal (including in options) subject only to the insider trading prohibition; whether an OTC put/call is 'trading in securities' at all is not addressed.",
+   "evidence": "Directors and Restricted Employees must seek prior written clearance before undertaking any trading in the Company's securities"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1(b); 5",
+   "detail": "No express derivatives rule. Trading in the Company's securities (which the policy elsewhere says includes options) requires prior written clearance and must occur within a Trading Window (or under Exceptional Circumstances); there is no formal 'Securities' definition confirming OTC derivatives are covered.",
+   "evidence": "obtain prior written clearance for any trade in the Company's securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1(d)",
+   "detail": "Absolute ban on Derivatives or other products limiting the economic risk of unvested Company Securities, with no clearance route.",
+   "evidence": "not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of unvested Company Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1(b); 5",
+   "detail": "Hedging of vested securities is not separately named; the 4.1(d) unvested ban does not apply once vested, so it is caught only as ordinary trading requiring prior written clearance and a Trading Window.",
+   "evidence": "obtain prior written clearance for any trade in the Company's securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The unvested-hedging ban in 4.1(d) is stated only for Directors and Restricted Employees; the policy is silent on hedging by other Collins Foods Staff.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.4",
+   "detail": "Monetisation is not named. Entering into an agreement to acquire or dispose of securities is captured by the insider trading description of trading, but general staff need no clearance, only compliance with the insider trading prohibition.",
+   "evidence": "apply for, acquire or dispose of or enter into an agreement to apply for, acquire or dispose of any securities in the Company"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1(b); 5",
+   "detail": "A prepaid forward or similar agreement to dispose of securities is caught as trading requiring prior written clearance and a Trading Window.",
+   "evidence": "obtain prior written clearance for any trade in the Company's securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.2",
+   "detail": "CFDs are not named. If treated as dealing in securities (which includes options) they would be permitted for general staff without clearance, subject to the insider trading prohibition; the point is not addressed directly.",
+   "evidence": "dealing in a company's securities (which includes shares and options)"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.1(b); 5",
+   "detail": "A CFD over the Company's securities would be caught as trading requiring prior written clearance and a Trading Window.",
+   "evidence": "obtain prior written clearance for any trade in the Company's securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1(c)",
+   "detail": "Absolute ban on entering a margin loan or similar funding arrangement to acquire any Company Securities, with no clearance or exception route.",
+   "evidence": "not enter into a margin loan or similar funding arrangement to acquire any Company's Securities, or grant lenders any rights over their Company Securities;"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The 4.1(c) margin loan ban applies only to Directors and Restricted Employees; the policy is silent on margin lending by other Collins Foods Staff.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1(c)",
+   "detail": "Separate from the margin loan limb, Directors and Restricted Employees must not grant lenders any rights over their Company Securities at all, for any purpose, with no clearance or exception route in sections 4.5-4.7.",
+   "evidence": "or grant lenders any rights over their Company Securities;"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The 4.1(c) encumbrance ban applies only to Directors and Restricted Employees; the policy is silent on other Collins Foods Staff granting security over their holdings.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1(c)",
+   "detail": "The 'grant lenders any rights over their Company Securities' limb is not confined to acquisition financing, so any secured financing arrangement using the Company Securities as collateral (including a loan securing a collar) is banned outright for this tier, with no exception or clearance path.",
+   "evidence": "not enter into a margin loan or similar funding arrangement to acquire any Company's Securities, or grant lenders any rights over their Company Securities;"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The 4.1(c) ban applies only to Directors and Restricted Employees; the policy does not address secured financing by other Collins Foods Staff.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3(c)",
+   "detail": "General ban on short-term trading applying to all Collins Foods Staff, with no defined period, LIFO basis or carve-out.",
+   "evidence": "not engage in short term trading of the Company's securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors (other than the Chairman)",
+   "type": "approval",
+   "approver": "Chairman",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as reasonably possible after the Contract Date, no later than 3 business days after (next business day if a substantial holding is created, ceased or changed)",
+   "section": "5; 6; Schedule 1(c)",
+   "evidence": "Designated Officer means: in respect of a Director, the Chairman"
+  },
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "CEO",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as reasonably possible after the Contract Date, no later than 3 business days after (next business day if a substantial holding is created, ceased or changed)",
+   "section": "5; 6; Schedule 1(c)",
+   "evidence": "in respect of the Chairman, the CEO"
+  },
+  {
+   "tier": "Restricted Employees (other than the Company Secretary)",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as reasonably possible after the Contract Date, no later than 3 business days after (next business day if a substantial holding is created, ceased or changed)",
+   "section": "5; 6; Schedule 1(c)",
+   "evidence": "in respect of a Restricted Employee, the Company Secretary"
+  },
+  {
+   "tier": "Company Secretary",
+   "type": "approval",
+   "approver": "CEO",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "as soon as reasonably possible after the Contract Date, no later than 3 business days after (next business day if a substantial holding is created, ceased or changed)",
+   "section": "5; 6; Schedule 1(c)",
+   "evidence": "in respect of the Company Secretary, the CEO"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "not engage in short term trading of the Company's securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Transfers of the Company's securities already held into a superannuation fund or other saving scheme in which the Director or Restricted Employee is a beneficiary."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the Company's securities) where the assets of the fund or other scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "other trustees, directors, or investment managers acting independently",
+   "evidence": "trading in the Company's securities by that trust provided the Director or Restricted Employee is not a beneficiary of the trust and any decision to trade during a Prohibited Period is taken by the other trustees or directors or by the investment managers independently"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Undertakings to accept, or the acceptance of, a takeover offer, or participation in a scheme of arrangement."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading under an offer or invitation made to all or most of the Company's security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme. This exception applies to options and rights granted under an employee incentive scheme before this Policy takes effect."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the final date for the exercise of the option or right, or the conversion of the security, falls during a Prohibited Period and the Company has been in an exceptionally long Prohibited Period ... and the Director or Restricted Employee could not reasonably have been expected to exercise it at a time when free to do so."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Designated Officer",
+   "evidence": "(Severe financial hardship): a pressing financial commitment that can only be satisfied by selling the relevant Company's securities;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Designated Officer",
+   "evidence": "(Court order): a requirement to trade in the Company's securities as a result of: a court order; court enforceable undertakings ... or some other overriding legal or regulatory requirement"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Designated Officer",
+   "evidence": "(Other circumstances): any other circumstances considered exceptional by the Designated Officer."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Company's employee incentive scheme rules (referenced in section 4.7(f)-(g))",
+  "Securities Trading Clearance Form (referenced in section 5.2)"
+ ],
+ "exemption_authority": "The Designated Officer may permit trading during a Prohibited Period only in Exceptional Circumstances (severe financial hardship, court order/legal requirement, or other circumstances the Designated Officer considers exceptional) where trading then is the only reasonable course of action (4.5-4.6), and clearance generally may be withdrawn or refused at the Designated Officer's discretion without giving reasons (5.5). There is no exception, waiver or clearance route anywhere in the policy for the section 4.1(c) margin loan/lender-rights prohibition; it applies absolutely to Directors and Restricted Employees.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "margin loan / encumbrance ban",
+   "clause": "not enter into a margin loan or similar funding arrangement to acquire any Company's Securities, or grant lenders any rights over their Company Securities",
+   "why_it_matters": "The loan leg of a funded collar secured on the shares is expressly and absolutely prohibited for Directors and Restricted Employees, with no exception listed among Permitted Dealings or Exceptional Circumstances, so this population cannot grant the bank security over their holdings."
+  },
+  {
+   "topic": "clearance validity and revocability",
+   "clause": "Any clearance for the trading will be valid for 7 days from the date it is given. Prior written clearance may be withdrawn at the discretion of the Designated Officer without giving any reasons.",
+   "why_it_matters": "The derivative legs of a collar must be priced and executed within a 7-day clearance window and remain vulnerable to withdrawal without explanation at any time before completion."
+  },
+  {
+   "topic": "confidential refusal",
+   "clause": "Where prior written clearance is withdrawn or written clearance is refused, the decision ... must be kept confidential by the person seeking clearance and must not be disclosed to anybody.",
+   "why_it_matters": "If clearance for the collar legs is refused, the executive cannot tell the bank why, which complicates coordinating deal timing and pricing with a counterparty bank."
+  },
+  {
+   "topic": "undefined dealing/securities scope",
+   "clause": "dealing in a company's securities (which includes shares and options)",
+   "why_it_matters": "The policy never formally defines 'Securities' or 'Dealing'; whether an OTC cash-settled put and call over vested shares counts as 'trading in the Company's securities' at all is not addressed, so the bank should have this confirmed by the Company Secretary before relying on any clearance."
+  },
+  {
+   "topic": "no secured-lender-sale exception",
+   "clause": "During a Prohibited Period, Directors and Restricted Employees may trade in the Company's securities in the circumstances described below",
+   "why_it_matters": "Unlike some peer policies, there is no Permitted Dealing carve-out for a disposal forced by a secured lender/financier exercising rights under a loan agreement; since 4.1(c) bans the underlying security grant outright for this tier in any event, the forced-sale scenario should not arise, but there is no fallback exception if it did."
+  },
+  {
+   "topic": "incentive scheme tax liability excluded from hardship",
+   "clause": "A tax liability relating to Securities received under an employee incentive scheme would also not normally constitute severe financial hardship or otherwise be considered an exceptional circumstance for the purpose of obtaining proper written clearance to sell or otherwise dispose of securities during a Prohibited Period",
+   "why_it_matters": "An executive cannot rely on incentive-scheme tax obligations as Exceptional Circumstances to trade around or unwind a collar during a Prohibited Period."
+  }
+ ],
+ "summary": "A funded collar is not available to Directors or Restricted Employees (which includes the CFO, Company Secretary, General Counsel and all managers down to Regional/Area Manager level), because section 4.1(c) absolutely prohibits this tier from entering a margin loan or similar funding arrangement, or from granting a lender any rights over their Company Securities, with no exception among the Permitted Dealings or Exceptional Circumstances. The OTC put and call themselves would likely need to be treated as 'trading in the Company's securities' requiring prior written clearance from the relevant Designated Officer (Chairman for Directors, CEO for the Chairman, Company Secretary for Restricted Employees, CEO for the Company Secretary), valid for only 7 days, confined to a Trading Window, and revocable without reasons; however the policy never formally defines 'Securities' or 'trading' to expressly extend to OTC derivatives, so coverage of a cash-settled collar is uncertain. Hedging of unvested Company Securities is separately and absolutely banned for this tier, so any collar could only be written over already-vested holdings. Ordinary Collins Foods Staff who are neither Directors nor Restricted Employees are not subject to the margin loan/encumbrance ban, Trading Windows or clearance, and so face no policy obstacle to a funded collar, but they are unlikely to be the executives a bank is targeting. For the senior population the bank would actually approach, the secured-loan leg of a funded collar is prohibited outright."
+}

@@ -1,0 +1,540 @@
+{
+ "symbol": "LFG",
+ "company": "Liberty Financial Group Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "1 July 2026",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Staff",
+   "kind": "all_staff",
+   "description": "A person who is an employee, officer or director or person seconded to the Liberty Group and includes the Senior Executives; certain contractors where stated in their terms of engagement. Subject to the base rules: Trading only during Trading Windows (absent permission), no short-term trading, no short positions, no hedging of unvested or disposal-restricted employee incentive securities, and insider trading law.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Any director of the Company or the RE. Must give prior written Trading Notice to the Chair (or Chair of the Audit and Risk Committee for the Chair's own trades) and obtain Trade Clearance before Trading even within an open Trading Window; must immediately notify the Company Secretary of all acquisitions, disposals or other Trading without exception; margin lending is prohibited absent Board approval.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives",
+   "kind": "kmp",
+   "description": "The CEO, COO and CFO; all direct reports to the CEO, COO, CFO or Executive Director; other AASB 124 key management personnel; and any Staff member the Board designates as a Senior Executive. Same Trading Notice/Trade Clearance regime as Directors (Company Secretary as Notification Officer); margin lending prohibited absent Board approval; also subject to the Corporations Act's separate 'closely related parties' remuneration-hedging prohibition.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "Spouses, family members, trusts, companies, nominees and other persons or entities over whom a Director or Senior Executive has, or may be expected to have, investment control or influence (also referred to as 'closely related parties' for the Corporations Act remuneration-hedging overlay). Directors and Senior Executives must give at least 5 business days' prior written notice of proposed Trading on their behalf.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into arrangements which have the effect of limiting the economic risk related to an unvested share, option or other Security granted or awarded under an employee incentive scheme (or a vested share, option or other Security granted, awarded or acquired under an employee incentive scheme that is still subject to disposal restrictions).",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "the trading day following the public release by the Company and the Trust of their preliminary annual and half year results to the ASX",
+   "end_anchor": "4 weeks after commencement",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "the trading day following the holding of the Company's and RE's Annual General Meeting",
+   "end_anchor": "4 weeks after commencement",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "the trading day following the public release of any earnings guidance in respect of the Company or the Trust",
+   "end_anchor": "4 weeks after commencement",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "commencement of an offer period under a publicly available disclosure document issued by the Liberty Group offering Securities",
+   "end_anchor": "close of that offer period",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "the trading day following the public release of the Company's or the Trust's respective quarterly reports to the ASX",
+   "end_anchor": "4 weeks after commencement",
+   "duration_days": 28
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "any time other than during a Trading Window (the default state; a Closed Period)",
+   "end_anchor": "commencement of the next Trading Window",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Chair, in consultation with the Board of the Company and the Board of the RE, may declare a Trading Window closed at any time, at absolute discretion and without prior notice, and may impose an additional Prohibited Period. Refusals of Trade Clearance or of permission to trade under Exceptional Circumstances must be kept confidential by the recipient, but the existence of a general closure is not stated to be confidential.",
+ "rules": [
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6(b)",
+   "detail": "The 'short positions' prohibition has no vesting or restriction qualifier: it bans any Trading that limits the economic risk of a price decrease for all Staff, over any Securities, at any vesting state - this independently blocks a protective put leg even over fully vested, unrestricted shares.",
+   "evidence": "(short positions) Trading in Securities which enable a Staff member to profit from or limit the economic risk of a decrease in the market price of Securities;"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6(c)",
+   "detail": "Separate, narrower express hedging ban specific to unvested employee incentive scheme securities.",
+   "evidence": "entering into arrangements which have the effect of limiting the economic risk related to an unvested share, option or other Security granted or awarded under an employee incentive scheme"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6(c)",
+   "detail": "Hedging of vested employee incentive scheme securities still subject to disposal restrictions is expressly banned.",
+   "evidence": "a vested share, option or other Security granted, awarded or acquired under an employee incentive scheme that is still subject to disposal restrictions"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Senior Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Separate, non-waivable Corporations Act overlay: Senior Executives and their closely related parties (spouse, child, dependant, controlled company/trust/super fund) may not limit the Senior Executive's exposure to risk relating to unvested remuneration securities.",
+   "evidence": "the Corporations Act prohibits a Senior Executive and their “closely related parties” from entering into arrangements that would have the effect of limiting the Senior Executive’s exposure to risk relating to an element of their remuneration ... that has not vested, or has vested but remains subject to a disposal restriction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Senior Executives",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Same Corporations Act overlay extends to vested remuneration securities still subject to a disposal restriction.",
+   "evidence": "the Corporations Act prohibits a Senior Executive and their “closely related parties” from entering into arrangements that would have the effect of limiting the Senior Executive’s exposure to risk relating to an element of their remuneration ... that has not vested, or has vested but remains subject to a disposal restriction."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6(b); definitions of Securities and Derivatives",
+   "detail": "Securities expressly includes Derivatives, defined to include 'options, forward contracts, swaps, futures, warrants, caps and collars'. Any derivative, including an OTC purchased put, that would let the holder profit from or limit the risk of a price decrease is banned outright for all Staff at any vesting state as a 'short position'; there is no venue limitation.",
+   "evidence": "Derivatives has the meaning given in section 761D of the Corporations Act and includes options, forward contracts, swaps, futures, warrants, caps and collars."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.6(b)",
+   "detail": "Monetisation is not named, but a prepaid forward or similar structure that limits the economic risk of a price decrease falls within the 'short positions' ban; a monetisation structure that does not limit downside risk would instead be an ordinary Trade requiring Window compliance and, for Directors/Senior Executives, notification and clearance.",
+   "evidence": "(short positions) Trading in Securities which enable a Staff member to profit from or limit the economic risk of a decrease in the market price of Securities;"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6(b)",
+   "detail": "Short selling is captured by the same 'short positions' clause (profiting from a price decrease).",
+   "evidence": "(short positions) Trading in Securities which enable a Staff member to profit from or limit the economic risk of a decrease in the market price of Securities;"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "definition of Securities; 3.6(b)",
+   "detail": "A CFD over the Stapled Securities is an 'other financial product relating to or over the Stapled Securities' and so a Security; trading one is an ordinary Trade requiring Window compliance and, for Directors/Senior Executives, notification and clearance. A CFD structured to profit from or limit the risk of a price decrease is separately banned outright as a 'short position'.",
+   "evidence": "Securities includes the Stapled Securities, and any options, rights, debentures, interests in a management investment scheme, Derivatives and other financial products relating to or over the Stapled Securities, covered by the insider trading provisions in the Corporations Act."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Section 8's margin lending restriction is expressly scoped to 'Directors of the Company or the RE and Senior Executives'; other Staff are not named, so their margin lending falls to the ordinary Trading Window/notification rules only.",
+   "evidence": "Except as approved in accordance with section 8.3, Directors of the Company or the RE and Senior Executives may not include their Securities in a margin loan portfolio or otherwise Trade in Securities pursuant to a margin lending arrangement (Margin Lending Arrangement)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1; 8.3",
+   "detail": "Default prohibition on margin loan arrangements (including entering one, transferring shares into an existing account, or selling to satisfy a call) unless the Board of the Company approves, in its sole discretion after liaising with the Board of the RE; approved arrangements must be disclosed to the Company Secretary within 24 hours.",
+   "evidence": "Directors and Senior Executives may request permission from the Board of the Company to enter into a Margin Lending Arrangement. ... the decision to give or refuse approval is at the sole discretion of the Board of the Company"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1; 8.3",
+   "detail": "Same Board-approval regime as Directors.",
+   "evidence": "Directors and Senior Executives may request permission from the Board of the Company to enter into a Margin Lending Arrangement. ... the decision to give or refuse approval is at the sole discretion of the Board of the Company"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "8.1",
+   "detail": "Granting security over shares is only addressed as part of the Margin Lending Arrangement concept, which is scoped to Directors and Senior Executives only.",
+   "evidence": "Except as approved in accordance with section 8.3, Directors of the Company or the RE and Senior Executives may not include their Securities in a margin loan portfolio or otherwise Trade in Securities pursuant to a margin lending arrangement (Margin Lending Arrangement)."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1; 8.3",
+   "detail": "Granting security over shares via a margin loan requires Board approval, disclosed within 24 hours; no broader 'encumbrance' or 'charge' concept is used outside the margin lending regime.",
+   "evidence": "entering into a margin lending arrangement in respect of Securities;"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1; 8.3",
+   "detail": "Same Board-approval regime as Directors.",
+   "evidence": "entering into a margin lending arrangement in respect of Securities;"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Staff",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "8.1",
+   "detail": "No general 'secured financing' concept exists; only margin lending is addressed, and it does not apply by its terms to Staff who are not Directors or Senior Executives.",
+   "evidence": "Except as approved in accordance with section 8.3, Directors of the Company or the RE and Senior Executives may not include their Securities in a margin loan portfolio or otherwise Trade in Securities pursuant to a margin lending arrangement (Margin Lending Arrangement)."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8.1; 8.3; 8.5",
+   "detail": "A loan secured on the shares (structured as a margin lending arrangement) requires Board approval and disclosure to the Company Secretary within 24 hours of entry; a non-margin-loan secured facility is not separately addressed.",
+   "evidence": "If approval to a Margin Lending Arrangement is given by the Board of the Company in accordance with section 8.3, the relevant Margin Lending Arrangement must be disclosed in writing to the Company Secretary as soon as practicable after entry into that arrangement and, in any case, not more than 24 hours afterwards."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.6(a)",
+   "detail": "No buying and selling within 6 months, and no other short-term dealings such as forward contracts; exercising employee options or performance rights at the specified exercise price is excluded.",
+   "evidence": "Short-term trading includes buying and selling Securities within a 6 month period, and entering into other short-term dealings (e.g. forward contracts);"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Staff",
+   "type": "approval",
+   "approver": "Chair (or the Chair of the Audit and Risk Committee for proposed Trading by the Chair), after consultation with the Board of the Company and the Board of the RE, via the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "7",
+   "evidence": "A permission expires five trading days from its date, unless it specifies a different date. Any permission to Trade can be given or refused by the Liberty Group in its discretion, without giving any reasons."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair (Chair of the Audit and Risk Committee for the Chair's own proposed Trading)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "immediately for all acquisitions/disposals (no exception); trade details by email once made",
+   "section": "6",
+   "evidence": "The Director or Senior Executive must not proceed with the Trade unless and until they have received written confirmation from the relevant Notification Officer that the Liberty Group does not object to the Trade (Trade Clearance)."
+  },
+  {
+   "tier": "Senior Executives",
+   "type": "approval",
+   "approver": "Company Secretary",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "trade details (number and price) by email once made",
+   "section": "6",
+   "evidence": "in the case of Senior Executives, to the Company Secretary;"
+  },
+  {
+   "tier": "Associates",
+   "type": "notification",
+   "approver": "Notification Officer, via the relevant Director or Senior Executive",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.11",
+   "evidence": "Directors and Senior Executives must give at least 5 business days’ prior written notice of any proposed Trading in Securities in accordance with section 6.1 on behalf of their associates."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 6,
+   "basis": "on market",
+   "carve_outs": [
+    "exercising employee options or performance rights to acquire Securities at the specified exercise price"
+   ],
+   "evidence": "Short-term trading includes buying and selling Securities within a 6 month period, and entering into other short-term dealings (e.g. forward contracts);"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition or the exercise of Securities (including an option, award or other right to acquire Securities, which may be cash and/or equity settled) under an employee incentive scheme, but not the sale of Securities following such acquisition or exercise;"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the conversion of a convertible security, where the final date for the conversion of the security falls during a Prohibited Period;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board of the Company (approves the plan/timing)",
+   "evidence": "Trading under an offer or invitation made to all or most of the shareholders such as a rights or entitlement issue, a security purchase plan, or an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board of the Company"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading where the beneficial interest in the relevant Securities does not change."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Securities under a dividend reinvestment plan, provided the election to participate in the dividend reinvestment plan was not made during a Prohibited Period or when the Staff member was in possession of any inside information;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "any Staff accepting a takeover bid or transferring Securities under a scheme of arrangement in respect of the Liberty Group;"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "an involuntary disposal of Securities that is the result of a secured lender or financier exercising their rights. However, this does not extend to disposal under a margin lending arrangement where such arrangement is prohibited by this Policy."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Securities under a bonus issue made to all holders of the Liberty Group’s Securities of the same class;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "where the Company has an employee incentive scheme with any Staff as a trustee of the scheme, an acquisition of securities by a Staff member in their capacity as a trustee of the scheme;"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "indirect and incidental Trading that occurs as a consequence of any Staff dealing in securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Staff member is a trustee, Trading in the Securities of the Liberty Group by that trust provided the Staff member is not a beneficiary of the trust and any decision to trade during a Prohibited Period is taken by the other trustees or by the investment managers independently of the relevant Staff member;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading under a pre-determined investment or divestment plan for which prior written clearance has been provided ... the trading plan does not permit Staff to exercise any influence or discretion over how, when, or where to Trade"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chair (or Chair of the Audit and Risk Committee for the Chair), after consulting both Boards",
+   "evidence": "severe financial hardship, where any Staff have pressing financial commitments that cannot be satisfied otherwise than by selling Securities;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chair (or Chair of the Audit and Risk Committee for the Chair), after consulting both Boards",
+   "evidence": "requirements under a court order or court enforceable undertakings or other legal or regulatory requirements;"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors and Senior Executives; trigger: entry into an approved Margin Lending Arrangement; to: Company Secretary; deadline: as soon as practicable, and in any case not more than 24 hours after entry (8.5)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Exceptional Circumstances permission to trade outside Trading Windows (severe financial hardship, court order/legal requirement, or other exceptional circumstances) is granted entirely at the discretion of the Chair (or Chair of the Audit and Risk Committee for the Chair) after consulting both Boards, valid for 5 trading days unless otherwise specified, with no reasons required and refusal kept confidential (section 7). Separately, the Board of the Company may approve a Margin Lending Arrangement for Directors and Senior Executives (8.3). Neither route extends to the 'short positions' prohibition (3.6(b)), which has no stated exemption.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "short positions ban",
+   "clause": "(short positions) Trading in Securities which enable a Staff member to profit from or limit the economic risk of a decrease in the market price of Securities;",
+   "why_it_matters": "This clause has no vesting or tier qualifier, so it independently bans the purchased-put leg of any collar over any Securities (vested or unvested) for every Staff member, making a funded collar impossible under this Policy regardless of approval sought."
+  },
+  {
+   "topic": "collars named as Derivatives",
+   "clause": "Derivatives has the meaning given in section 761D of the Corporations Act and includes options, forward contracts, swaps, futures, warrants, caps and collars.",
+   "why_it_matters": "The Policy expressly recognises a 'collar' as a Derivative and therefore a Security in scope; there is no argument that an OTC collar falls outside the Policy's defined terms."
+  },
+  {
+   "topic": "conditional forced-sale exclusion",
+   "clause": "an involuntary disposal of Securities that is the result of a secured lender or financier exercising their rights. However, this does not extend to disposal under a margin lending arrangement where such arrangement is prohibited by this Policy.",
+   "why_it_matters": "A lender's enforcement sale is excluded from breach only if the underlying secured loan was itself properly Board-approved; an unapproved or informally structured funded facility would leave the bank's enforcement sale in breach of the Policy."
+  },
+  {
+   "topic": "closely related parties overlay",
+   "clause": "the Corporations Act prohibits a Senior Executive and their “closely related parties” from entering into arrangements that would have the effect of limiting the Senior Executive’s exposure to risk relating to an element of their remuneration ... that has not vested, or has vested but remains subject to a disposal restriction.",
+   "why_it_matters": "This is a non-waivable statutory prohibition (not merely a Policy rule) that extends to a Senior Executive's spouse, children, dependants and controlled trusts/companies/super funds, so routing the collar through such an entity does not avoid it for unvested or restricted remuneration securities."
+  },
+  {
+   "topic": "escrow",
+   "clause": "Any Staff who hold Securities subject to binding restrictions on transfer (either as ASX restricted securities or through voluntary escrow arrangements) must comply with the terms of any applicable escrow arrangements and will be unable to trade in Securities during that time.",
+   "why_it_matters": "Shares under ASX or voluntary escrow cannot be collared at all during the escrow period, independent of the vesting analysis."
+  }
+ ],
+ "summary": "A funded OTC equity collar is not possible under this Policy in any form. The 'short positions' rule (3.6(b)) bans, for every Staff member and at every vesting state including fully vested unrestricted shares, any Trading in Securities (expressly including Derivatives, defined to include 'collars') that would let the holder profit from or limit the economic risk of a price decrease - this squarely prohibits the purchased-put leg with no exemption authority reaching it. A narrower, overlapping ban also applies to hedging unvested or disposal-restricted employee incentive securities (3.6(c)), reinforced for Senior Executives and their closely related parties by a non-waivable Corporations Act prohibition (3.7). Even if the put leg were somehow structured to avoid this characterisation, the funding leg (a loan secured on the shares) is only available to Directors and Senior Executives with prior Board approval and 24-hour disclosure, and a lender's enforcement sale loses its exemption from the Trading Window rules if that underlying facility was not properly approved. General Staff face no special margin-lending restriction, but they remain subject to the same absolute short-positions ban, so the structural blocker applies across every tier."
+}

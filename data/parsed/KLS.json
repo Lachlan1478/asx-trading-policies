@@ -1,0 +1,488 @@
+{
+ "symbol": "KLS",
+ "company": "Kelsian Group Limited",
+ "title": "Securities Dealing Policy",
+ "date_approved": "",
+ "date_effective": "30 August 2023",
+ "date_lodged": "30 August 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Kelsian directors and employees and their Related Parties. Subject to the insider trading prohibition, Front Page Test, Closed Periods, short-term dealing ban and short selling ban at all times; may hedge vested, unrestricted Kelsian Securities subject to conditions; not required to obtain clearance for ordinary dealings outside a Closed Period.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "A Kelsian director, a key management personnel named in Kelsian's remuneration report, a Senior Executive, a Senior Manager, and/or a person determined by the Company Secretary and notified as such. Must not deal at all without prior clearance (even outside Closed Periods), must not enter into any hedging arrangement, and must obtain clearance before any margin lending related Dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Clearance-applicant category; approver is the Chair of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "Clearance-applicant category; approver is the Chair of the Audit, Risk & Sustainability Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives, Senior Managers",
+   "kind": "kmp",
+   "description": "Clearance-applicant category (Senior Executive: reports directly to the Managing Director & Group CEO (a 'Group Executive'); Senior Manager: reports directly to a Group Executive); approver is the Managing Director & Group CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "All other Employees",
+   "kind": "all_staff",
+   "description": "Clearance-applicant category for non-Restricted-Person employees when clearance is required under the policy (eg exceptional-circumstances requests); approver is the Kelsian Company Secretary.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "yes",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "Hedging is a form of Dealing that operates to limit the economic risk associated with holding Kelsian Securities.",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Employees"],
+   "start_anchor": "1 July",
+   "end_anchor": "close of ASX trading on the next ASX trading day after the release of Kelsian's full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Employees"],
+   "start_anchor": "1 January",
+   "end_anchor": "close of ASX trading on the next ASX trading day after the release of Kelsian's half-year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Kelsian Board may determine and notify Employees of any additional closed periods in which Employees and their Related Parties must not Deal; confidentiality of such determinations is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.8 Restricted Persons",
+   "detail": "Dealing includes 'entering into a contract to secure a profit or avoid a loss by reference to price fluctuations', capturing an OTC put/call over Kelsian shares. Restricted Persons must not Deal at any time (including outside Closed Periods) without prior clearance.",
+   "evidence": "entering into a contract to secure a profit or avoid a loss by reference to price fluctuations ... Restricted Persons must not Deal in Kelsian Securities: during any Closed Period; or at any other time without obtaining prior clearance."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.2 Closed Periods",
+   "detail": "Non-Restricted Employees may enter a contract of this kind without seeking clearance, provided it is not done during a Closed Period or while in possession of Inside Information, and (if it operates as a hedge) subject to the hedging rules in 4.6.",
+   "evidence": "entering into a contract to secure a profit or avoid a loss by reference to price fluctuations."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6 Hedging",
+   "detail": "Absolute ban on Restricted Persons and their Related Parties entering into any hedging arrangement in relation to Kelsian Securities, regardless of vesting state.",
+   "evidence": "Restricted Persons and their Related Parties must not enter into hedging arrangements in relation to Kelsian Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6 Hedging",
+   "detail": "Kelsian Securities acquired under an employee incentive plan must not be hedged prior to vesting.",
+   "evidence": "Kelsian Securities acquired under an employee incentive plan must not be hedged prior to their vesting or while subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6 Hedging",
+   "detail": "Plan securities remain unhedgeable while subject to a holding lock, even after vesting.",
+   "evidence": "or while subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.6 Hedging",
+   "detail": "Other Employees may hedge exposure to vested, unrestricted Kelsian Securities provided the hedge is not entered into, renewed, altered or closed out while in possession of Inside Information or during a Closed Period; no clearance is expressly required.",
+   "evidence": "Other Employees and their Related Parties may hedge exposure to Kelsian Securities subject to each of the following rules: the hedge transaction must not be entered into, renewed, altered or closed out when the Employee or their Related Parties are in possession of Inside Information or during a Closed Period."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.8",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure is caught by the broad Dealing definition (contract to secure a profit/avoid a loss by reference to price fluctuations; any right or obligation to acquire or dispose) and, for a Restricted Person, requires prior clearance like any other Dealing.",
+   "evidence": "any other right or obligation, present or future, conditional or unconditional, to acquire or dispose."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.2",
+   "detail": "For non-Restricted Employees, a monetisation structure is a Dealing subject only to the Closed Period, short-term and Front Page Test constraints, with no separate clearance requirement.",
+   "evidence": "any other right or obligation, present or future, conditional or unconditional, to acquire or dispose."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7 Short selling",
+   "detail": "Outright ban on all Employees and their Related Parties engaging in short selling of Kelsian Securities.",
+   "evidence": "Employees and their Related Parties are not permitted to engage in any short selling of Kelsian Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.8",
+   "detail": "Entering, terminating, assigning or novating a Securities lending agreement is a Dealing; a Restricted Person needs prior clearance to do so at any time.",
+   "evidence": "entering, terminating, assigning or novating any Securities lending agreement."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.2",
+   "detail": "Non-Restricted Employees may enter a securities lending agreement without clearance, subject to the Closed Period and short-term dealing rules.",
+   "evidence": "entering, terminating, assigning or novating any Securities lending agreement."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.8",
+   "detail": "CFDs are not separately named but fall within 'entering into a contract to secure a profit or avoid a loss by reference to price fluctuations'; a Restricted Person needs prior clearance.",
+   "evidence": "entering into a contract to secure a profit or avoid a loss by reference to price fluctuations."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.2",
+   "detail": "Non-Restricted Employees may enter such a contract without clearance, subject to the Closed Period, short-term and hedging rules.",
+   "evidence": "entering into a contract to secure a profit or avoid a loss by reference to price fluctuations."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5 Margin Loans",
+   "detail": "Restricted Persons must obtain prior written clearance before entering into a margin loan, transferring securities into an existing margin loan account, or selling to satisfy a margin loan call, including a statement that they have considered their duties/insider trading risk and assess the risk of a forced sale as low; Kelsian may impose conditions on the circumstances in which securities may be sold to satisfy a call and requires ongoing information and proactive notice of material value changes.",
+   "evidence": "Restricted Persons must request clearance in writing in accordance with section 6 below prior to any proposed Dealing in Kelsian Securities in connection with a margin lending arrangement."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5 Margin Loans",
+   "detail": "Non-Restricted Employees may deal under a margin lending arrangement without seeking specific clearance, provided the dealing otherwise complies with the policy (Closed Periods, short-term dealing, Front Page Test).",
+   "evidence": "Any Dealing in Kelsian Securities by Employees or their Related Parties under a margin lending arrangement must be conducted in accordance with this policy."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.5 Margin Loans",
+   "detail": "Using Kelsian Securities as security or otherwise granting a charge, lien or encumbrance is expressly a Dealing; for a Restricted Person this requires the same prior clearance as a margin loan.",
+   "evidence": "using as security, or otherwise granting a charge, lien or other encumbrance."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.2",
+   "detail": "Non-Restricted Employees granting security over Kelsian Securities are Dealing but need no specific clearance, subject to the Closed Period, short-term and hedging rules.",
+   "evidence": "using as security, or otherwise granting a charge, lien or other encumbrance."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.5; 4.8",
+   "detail": "Beyond margin loans by name, any secured financing arrangement over Kelsian Securities is a Dealing via the encumbrance clause; a Restricted Person must obtain prior clearance for it under the general 'any other time' clearance requirement.",
+   "evidence": "using as security, or otherwise granting a charge, lien or other encumbrance."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8 Glossary (Deal/Dealing); 4.2",
+   "detail": "Non-Restricted Employees may enter a secured financing arrangement without specific clearance, subject to the Closed Period, short-term and hedging rules.",
+   "evidence": "using as security, or otherwise granting a charge, lien or other encumbrance."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3 Short term Dealing",
+   "detail": "Ban on buying and subsequently selling Kelsian Securities within a three month period; clearance may be sought in exceptional circumstances (severe financial hardship, court order, or other exceptional circumstances).",
+   "evidence": "Employees and their Related Parties must not Deal in Kelsian Securities on a short term basis. Short term Dealing includes buying and subsequently selling Kelsian Securities within a three month period."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Kelsian Company Secretary",
+   "post_trade_deadline": "by close of business on the day of the Dealing (day of trade, not settlement)",
+   "section": "6 Clearance Procedures",
+   "evidence": "Any clearance to Deal in Kelsian Securities may be given or refused by Kelsian in its sole discretion, without giving reasons. ... If clearance to Deal is provided, then the duration of the clearance will be five ASX trading days. ... Restricted Persons must notify the Kelsian Company Secretary by the close of business on the day of the Dealing."
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Chair of the Audit, Risk & Sustainability Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Kelsian Company Secretary",
+   "post_trade_deadline": "by close of business on the day of the Dealing (day of trade, not settlement)",
+   "section": "6 Clearance Procedures",
+   "evidence": "Chair of the Board and their Related Parties: Chair of the Audit, Risk & Sustainability Committee."
+  },
+  {
+   "tier": "Senior Executives, Senior Managers",
+   "type": "approval",
+   "approver": "Managing Director & Group CEO",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Kelsian Company Secretary",
+   "post_trade_deadline": "by close of business on the day of the Dealing (day of trade, not settlement)",
+   "section": "6 Clearance Procedures",
+   "evidence": "Senior Executives, Senior Managers, and their Related Parties: Managing Director & Group CEO."
+  },
+  {
+   "tier": "All other Employees",
+   "type": "approval",
+   "approver": "Kelsian Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6 Clearance Procedures",
+   "evidence": "All other Employees and their Related Parties: Kelsian Company Secretary."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "buying and subsequently selling within the period",
+   "carve_outs": [],
+   "evidence": "Short term Dealing includes buying and subsequently selling Kelsian Securities within a three month period."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "participation in a Kelsian equity plan. However, where Kelsian Securities granted under an equity plan cease to be held under the terms of that plan ... the Employee must only Deal with those Kelsian Securities in accordance with this policy."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition through a: dividend reinvestment plan; share purchase plan available to all retail shareholders; or rights issue."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal through acceptance of a takeover offer, scheme of arrangement or equal access buy-back."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "indirect or incidental trading that occurs as a consequence of an Employee Dealing in units or shares of a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by an independent third party and holds Kelsian Securities as part of its portfolio."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers resulting in no change in beneficial interest in those Kelsian Securities (eg, the transfer from one personal security holding to another)."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "a transfer arising from the administration of a deceased estate."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "relevant clearance officer (per section 6 table)",
+   "evidence": "Employees and their Related Parties who are not in possession of Inside Information may request clearance in writing to Deal in Kelsian Securities during a Closed Period or on a short term basis if they are in severe financial hardship."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "relevant clearance officer (per section 6 table)",
+   "evidence": "pursuant to a court order or there are other exceptional circumstances."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "clearance_required",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "Kelsian may make any clearance conditional on terms including the circumstances in which Kelsian Securities may be sold to satisfy a margin loan call; Restricted Persons must proactively inform the Company Secretary of any material change to the value of the securities supporting their margin loan.",
+  "financing_disclosure": [
+   "Restricted Persons; before entering a margin loan or transferring Kelsian Securities into an existing margin loan account; to the relevant clearance officer; written statement of considered duties/insider trading risk and assessed low forced-sale risk, prior to the Dealing",
+   "Restricted Persons; on request from time to time; to Kelsian; all information related to the margin lending arrangement and their financial situation, no fixed deadline stated",
+   "Restricted Persons; on any material change in value of the securities supporting the margin loan; to the Kelsian Company Secretary; proactively, no fixed deadline stated"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The relevant clearance officer (Chair of the Board for Directors, Chair of the Audit, Risk & Sustainability Committee for the Chair, Managing Director & Group CEO for Senior Executives/Senior Managers, or Company Secretary for other Employees) may grant clearance to Deal during a Closed Period or on a short term basis for severe financial hardship, a court order, or other exceptional circumstances, in Kelsian's sole discretion without giving reasons; clearance will not be granted if the dealing would fail the Front Page Test.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Front Page Test",
+   "clause": "Where a clearance is requested for a Dealing under this policy, clearance will not be granted where the Dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "Even a technically compliant collar structure can be refused clearance if Kelsian judges it would look inappropriate if reported publicly, adding a discretionary reputational screen on top of the formal criteria."
+  },
+  {
+   "topic": "margin loan clearance conditions",
+   "clause": "Kelsian may, at its discretion, make any clearance conditional upon such terms and conditions as Kelsian sees fit, including (without limitation) with regard to the circumstances in which Kelsian Securities may be sold to satisfy a margin loan call.",
+   "why_it_matters": "Kelsian can constrain in advance when and how the bank's collateral could be sold on a call, which may limit the bank's enforcement flexibility on the secured loan leg of a collar."
+  },
+  {
+   "topic": "forced-sale risk representation",
+   "clause": "they have considered their duties to Kelsian, the risk of insider trading and that they, having regard to their own personal circumstances, consider that the risks of a forced sale of Kelsian Securities on a margin loan call is low.",
+   "why_it_matters": "The Restricted Person must be able to represent in writing that the risk of a forced sale is low before clearance will be sought, which may constrain loan-to-value ratios or require additional collateral/margin buffers on the bank's facility."
+  },
+  {
+   "topic": "absolute hedging ban for Restricted Persons",
+   "clause": "Restricted Persons and their Related Parties must not enter into hedging arrangements in relation to Kelsian Securities.",
+   "why_it_matters": "This forecloses the put/call legs of a funded collar for directors, KMP, Senior Executives and Senior Managers entirely, regardless of vesting state or Board approval; only non-restricted employees may hedge (subject to conditions)."
+  },
+  {
+   "topic": "broad Dealing definition",
+   "clause": "Deal / Dealing: Includes ... entering into a contract to secure a profit or avoid a loss by reference to price fluctuations ... using as security, or otherwise granting a charge, lien or other encumbrance ... entering, terminating, assigning or novating any Securities lending agreement ... any transaction ... effecting change of ownership of a beneficial interest.",
+   "why_it_matters": "Every leg of a funded collar (the OTC put/call, the loan security grant, and any unwind) is squarely captured as a 'Dealing', so no leg escapes the closed period, clearance or Front Page Test regime by structuring around a narrower securities definition."
+  }
+ ],
+ "summary": "Kelsian's 'Dealing' definition is deliberately broad, expressly covering a contract to secure a profit or avoid a loss by reference to price fluctuations, granting a charge or encumbrance, securities lending and any change of beneficial interest, so every leg of a funded collar is a regulated Dealing. Critically, Restricted Persons (directors, KMP named in the remuneration report, Senior Executives and Senior Managers) and their Related Parties are absolutely banned from entering into any hedging arrangement over Kelsian securities, which forecloses the put/call legs of a collar for that population regardless of vesting state or approval; only non-Restricted employees may hedge, and only over vested, unrestricted securities outside a Closed Period or possession of Inside Information. The loan leg is not banned but a Restricted Person needs prior written clearance to enter a margin loan or other secured financing, including a written statement assessing the forced-sale risk as low, and Kelsian may impose bespoke conditions on when the collateral can be sold to meet a call, with any clearance lasting only five ASX trading days and refused outright if it fails the Front Page Test. Overall, a funded collar with a bank is not available to Restricted Persons because of the absolute hedging ban, though a cleared secured loan alone might be structured for them; non-Restricted employees face no equivalent hedging ban but must still clear the Closed Period, short-term and Front Page Test hurdles."
+}
