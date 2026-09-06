@@ -1,0 +1,338 @@
+{
+ "symbol": "CWP",
+ "company": "Cedar Woods Properties Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "30 December 2010",
+ "date_lodged": "30 December 2010",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employee",
+   "kind": "all_staff",
+   "description": "Defined to mean a director, manager, sales manager (commissions-based or otherwise) and any other person employed by the Company full time, part time, casual or hourly; the policy applies to all directors and employees.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company; subject to all the general Employee rules plus a Director-specific prohibition on margin lending arrangements relating to Company securities.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected persons",
+   "kind": "associate",
+   "description": "A person's spouse/de facto spouse, any child under 18, and any trust of which such individuals are trustees or beneficiaries or company over which they have management control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "hedging or acquiring options over unvested securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 January",
+   "end_anchor": "end of the day of the release of the Company's half year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 July",
+   "end_anchor": "end of the day of the release of the Company's full year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Definitions - securities); 6.1(b),(c)",
+   "detail": "'Securities' expressly includes derivatives (swap options, warrants) and other financial products issued by third parties in relation to CWP shares, so an OTC put/call written by a bank is itself a 'security'; creating or acquiring it is 'dealing' requiring one trading day's prior notice to, and clearance from, the Company Secretary, and is barred in closed periods.",
+   "evidence": "derivatives (such as swap options, warrants) and other financial products issued by third parties in relation to CWP shares, options and financial instruments"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employee",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Definitions - dealing(e)); 6.1(c)",
+   "detail": "Hedging, or acquiring options over, unvested securities is expressly named as 'dealing', so it is not banned outright but is swept into the same notice/clearance/closed-period regime as any other dealing.",
+   "evidence": "hedging or acquiring options over unvested securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employee",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1(d)",
+   "detail": "Existing hedging arrangements over vested shares must be disclosed in writing to the Company Secretary, and any resulting trading must independently comply with the policy.",
+   "evidence": "You must disclose any existing hedging arrangements to the Company Secretary in writing and any trading as a result of a hedging arrangement must comply with this policy."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4 (Definitions - dealing(c))",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure is an agreement to dispose of securities, caught as 'dealing' and requiring the same notice and clearance.",
+   "evidence": "entering into an agreement to apply for, acquire, dispose of, mortgage, charge, pledge or grant a lien over securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4 (Definitions - dealing(a)); 6.1(c)",
+   "detail": "Short selling is not named separately; disposing of securities is 'dealing' and subject to the general notice/clearance/closed-period regime with no outright ban stated.",
+   "evidence": "acquiring or disposing of securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The dealing definition covers mortgaging, charging, pledging and granting a lien, but never mentions lending securities or transferring title under a securities lending arrangement.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4 (Definitions - securities(e))",
+   "detail": "CFDs are not named but fall within 'other financial products issued by third parties in relation to CWP shares', so acquiring one is dealing requiring notice and clearance.",
+   "evidence": "derivatives ... and other financial products issued by third parties in relation to CWP shares, options and financial instruments"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Absolute ban on Directors entering margin lending arrangements secured on CWP securities; not extended in terms to other employees.",
+   "evidence": "Directors of the company are not permitted to enter into margin lending arrangements in relation to the company's securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4 (Definitions - dealing(b)); 6.1(c)",
+   "detail": "For non-director employees, a margin loan secured on CWP securities is 'dealing' (mortgaging/charging/pledging) requiring notice and clearance, but is not expressly banned as it is for Directors.",
+   "evidence": "mortgaging, charging, pledging or granting a lien over securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "Granting security over CWP securities is caught as 'dealing' (4(b)); for Directors the more specific margin lending prohibition means a loan secured by mortgage/charge over CWP shares is likely to be treated as a banned margin lending arrangement.",
+   "evidence": "Directors of the company are not permitted to enter into margin lending arrangements in relation to the company's securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4 (Definitions - dealing(b)); 6.1(c)",
+   "detail": "Granting a mortgage, charge, pledge or lien over CWP securities is expressly a dealing for non-director employees, requiring one trading day's notice and clearance, but is not banned outright.",
+   "evidence": "mortgaging, charging, pledging or granting a lien over securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.3",
+   "detail": "The margin lending ban is the operative secured-financing restriction for Directors and is not limited to any particular lender type.",
+   "evidence": "Directors of the company are not permitted to enter into margin lending arrangements in relation to the company's securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4 (Definitions - dealing(b)); 6.1(c)",
+   "detail": "Secured financing against CWP securities is caught only via the encumbrance limb of the dealing definition for non-director employees, requiring notice and clearance.",
+   "evidence": "mortgaging, charging, pledging or granting a lien over securities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Employee",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period, intention test, or short-term dealing restriction is stated anywhere in the Policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Company Secretary (or Managing Director if the Company Secretary is unavailable)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.1(b),(c)",
+   "evidence": "You may deal in securities at any time outside a closed period provided that you give the Company Secretary not less than one (1) trading day's prior notice of any proposed dealing ... You must not deal in securities of the Company without first advising the Company Secretary in advance and receiving clearance."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "You are not required to seek consent or provide notification in connection with participation in an employee share plan (e.g. applying for an allocation of securities pursuant to an employee share offer or exercising vested rights or options)."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Transfer of securities of the company already held into a superannuation fund or other savings scheme in which the employee is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An investment in, or trading in units of, a fund or other scheme ... where the assets of the fund or scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trading in the securities of the company by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Undertakings to accept, or the acceptance of, a formal takeover offer"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "board of directors",
+   "evidence": "Trading under an offer or invitation made to all or most of the security holders, such as a rights issue, a security purchase plan, a dividend reinvestment plan or bonus share plan, where the plan ... has been approved by the board of directors"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "The conversion of a convertible security, where the final date for the conversion of the security falls during a prohibited period and the company has been in an exceptionally long prohibited period"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "Exceptions approved in advance by the Board on rare occasions ... where employees can demonstrate severe financial hardship or that their circumstances are otherwise exceptional and that the proposed sale or disposal of the relevant securities is the only reasonable course of action available."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board",
+   "evidence": "Trading in a closed period that has been approved in advance by the Board, in circumstances where the Board deems that all relevant material information is generally available to the market."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Board may approve rare exceptions in advance, including for severe financial hardship or otherwise exceptional circumstances where sale is the only reasonable course, and may approve trading in a closed period where it deems all material information generally available (6.3(g),(h)); confidentiality is not addressed.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Director margin lending ban",
+   "clause": "Directors of the company are not permitted to enter into margin lending arrangements in relation to the company's securities.",
+   "why_it_matters": "A bank loan secured against the collared CWP shares, if characterised as a margin lending arrangement, is an absolute prohibition for a Director, so the collar's financing leg for a Director participant faces a real risk of being unavailable unless structured to avoid that characterisation or specifically approved by the Board."
+  },
+  {
+   "topic": "OTC derivatives are securities",
+   "clause": "securities means ... derivatives (such as swap options, warrants) and other financial products issued by third parties in relation to CWP shares, options and financial instruments; dealing means ... hedging or acquiring options over unvested securities.",
+   "why_it_matters": "The bank-written put and call are themselves 'securities' under this policy and entering into them is 'dealing', so the whole collar structure (not just any sale of underlying shares) needs one trading day's notice, Company Secretary clearance, and must sit outside the closed periods."
+  },
+  {
+   "topic": "no secured lender forced-sale exception",
+   "clause": "Dealing in the following circumstances is exempted from the Share Trading Policy: (a)-(h) [list of exceptions, none addressing a secured lender's enforcement sale].",
+   "why_it_matters": "Unlike some peer policies, CWP has no carve-out for a lender's forced sale on default; if the bank enforces its security and sells the collared shares during a closed period, that sale appears to breach the policy, so enforcement timing should be addressed contractually or via a Board-approved exception."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "connected person means ... spouse/de facto spouse and any child ... under the age of eighteen ... and shall include any trust of which any such individuals are trustees or beneficiaries and any company over which they have control.",
+   "why_it_matters": "Routing the collar or its financing through a connected person's trust or company does not escape the policy, since dealing by connected persons (and procuring or advising them) is expressly covered."
+  }
+ ],
+ "summary": "A funded collar is more constrained under CWP's policy than under a typical peer policy because 'securities' and 'dealing' are drafted unusually broadly: a bank-issued OTC put and call are themselves 'securities', and creating them, hedging, and granting security (mortgage, charge, pledge or lien) over the collared shares are each 'dealing', requiring one trading day's prior notice to and clearance from the Company Secretary, and are barred inside the January-to-half-year-results and July-to-full-year-results closed periods. Directors face an additional, absolute prohibition on 'margin lending arrangements' in relation to CWP securities, which is likely to capture a bank loan secured against the collared shares, making the funded (secured-loan) leg genuinely at risk for a Director unless restructured or specifically approved by the Board; non-director employees are not subject to this express ban and only need to satisfy the general notice/clearance regime. Any existing hedge must be disclosed in writing to the Company Secretary, and there is no exception for a lender's forced sale on default during a closed period, so enforcement timing needs to be managed contractually. Overall: workable for a non-director employee subject to standard notice, clearance and window timing; for a Director, the loan leg specifically should be cleared with the Board in advance."
+}

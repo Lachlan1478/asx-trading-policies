@@ -1,0 +1,426 @@
+{
+ "symbol": "BOE",
+ "company": "Boss Energy Limited",
+ "title": "Securities Dealing Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "9 January 2026",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All employees and directors of the Group. Subject to the inside-information ban, the Front Page Test, the short-term dealing ban, the margin lending ban and the hedging ban.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Collective term for Directors, Key Management Personnel and Nominated Employees. Subject to additional blackout periods, trading-window notification and outside-window approval requirements.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director",
+   "kind": "director",
+   "description": "A Director other than the Chair of the Board; approval for dealing outside trading windows comes from the Chair of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair of the Board; approval for dealing outside trading windows comes from the Board or the Chair of the Audit Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "Officers and other direct reports to the Managing Director and other key management personnel as defined in the Accounting Standards; approval comes from the Managing Director.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Nominated Employee",
+   "kind": "other",
+   "description": "An employee advised by the Company Secretary that they have information that is or may become Inside Information; approval comes from the Managing Director.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A family member who may be expected to influence, or be influenced by, the Employee (e.g. spouse, partner, children, dependants), or a company or other entity the Employee can control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading on the ASX on 30 June each year (or the last trading day before, if 30 June is not a trading day)",
+   "end_anchor": "the day following the announcement to ASX of the full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading on the ASX on 31 December each year (or the last trading day before, if 31 December is not a trading day)",
+   "end_anchor": "the day following the announcement of the half-yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading on the ASX on 30 September and 31 March each year (or the last trading day before)",
+   "end_anchor": "the day following the announcement of the quarterly results",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "10.00am on the next trading day after the announcement to ASX of half-yearly results",
+   "end_anchor": "4 weeks after the start anchor",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "10.00am on the next trading day after the announcement to ASX of the preliminary final statement or full year results",
+   "end_anchor": "4 weeks after the start anchor",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "10.00am on the next trading day after the announcement to ASX of the quarterly results",
+   "end_anchor": "4 weeks after the start anchor",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify any other period as a blackout period from time to time, and 'may at any time determine that a trading window is closed.' The policy does not state that such Board-imposed extra restrictions are kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.1.1; 1.4(a)",
+   "detail": "There is no formal 'Company Securities' definition listing derivatives, but the general 'deal' concept in 1.4(a) includes exercising options over securities. For ordinary Employees, dealing in a derivative is permitted provided they are not in possession of Inside Information; no formal clearance step applies to this tier.",
+   "evidence": "buy or sell securities in a company, or enter in an agreement to buy or sell securities, or exercise options over securities, or otherwise apply for, acquire or dispose of securities (deal)"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.1.5; 1.1.6",
+   "detail": "The same broad 'deal' concept applies, but Restricted Persons must notify the Company Secretary (during trading windows, subject to a power to block or condition the dealing) or obtain prior approval (outside trading windows) before dealing in any Company security, including a derivative over it.",
+   "evidence": "Restricted Persons must, prior to any proposed dealing, notify the Company Secretary and seek approval for the proposed dealing in the Company's securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.2.3",
+   "detail": "Absolute, unwaivable ban on any transaction in a financial product that limits the economic risk of holding Company securities. Not among the sections excluded for plan-acquired, DRP, rights-issue or non-discretionary-plan securities, so it applies regardless of how the shares were acquired or their vesting state.",
+   "evidence": "Hedging includes entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities. Hedging of Company securities by an Employee or their Connected Persons is not permitted under this Policy."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "1.2.3; 1.4(a)",
+   "detail": "Monetisation is not separately named. A prepaid forward or similar structure over Company securities would typically also limit the economic risk of the holding and so falls within the absolute hedging ban; if it does not limit economic risk it would still be an agreement to dispose of securities requiring the ordinary dealing process for a Restricted Person.",
+   "evidence": "Hedging includes entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities. Hedging of Company securities by an Employee or their Connected Persons is not permitted under this Policy."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.4(a)",
+   "detail": "Short selling is not named or separately banned. Disposing of securities generally (per the 1.4(a) 'deal' concept) covers a short sale; for ordinary Employees it is permitted provided they are not in possession of Inside Information.",
+   "evidence": "buy or sell securities in a company, or enter in an agreement to buy or sell securities ... or otherwise apply for, acquire or dispose of securities (deal)"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.1.5; 1.1.6",
+   "detail": "For Restricted Persons the same disposal would need trading-window notification or outside-window approval, as for any other dealing.",
+   "evidence": "Restricted Persons must, prior to any proposed dealing, notify the Company Secretary and seek approval for the proposed dealing in the Company's securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.4",
+   "detail": "CFDs are not named. 'These restrictions apply to all securities, not just the Company's securities,' suggesting a CFD referencing Company shares is a security for these purposes; for ordinary Employees it is permitted absent Inside Information, though a CFD used to hedge a holding would instead fall within the absolute hedging ban.",
+   "evidence": "These restrictions apply to all securities, not just the Company's securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.2.2",
+   "detail": "Absolute, unwaivable ban on dealing pursuant to a margin lending arrangement. Not among the sections excluded for plan-acquired or other categories in 1.3, so no carve-out exists.",
+   "evidence": "Any dealing in the Company's securities by Employees or their Connected Persons pursuant to a margin lending arrangement is not permitted under this Policy."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or pledge over Company securities is not separately mentioned; only 'margin lending arrangements' are named, and there is no broader 'or other secured financing' catch-all as some peer policies use.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "1.2.2",
+   "detail": "Only margin lending is expressly named and banned; secured financing more broadly (e.g. a bespoke loan secured on shares that is not styled as 'margin lending') is not addressed one way or the other.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.2.1",
+   "detail": "Ban on buying and selling on market within 3 months and on other short-term dealings such as forward contracts; excluded for plan-acquired, DRP, SPP, rights-issue, takeover-disposal, no-beneficial-change and non-discretionary-plan dealings (1.3).",
+   "evidence": "Employees and their Connected Persons must not deal in the Company's securities on a short-term trading basis. Short term trading includes buying and selling securities on market within a three (3) month period, and entering into other short-term dealings (for example, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Director",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 5 business days of the transaction occurring",
+   "section": "1.1.5; 1.1.6; 1.1.7",
+   "evidence": "any other Director (other than the Chair of the Board) must inform and receive approval from the Chair of the Board before a transaction is undertaken ... the approved dealing must occur within 5 business days following approval, otherwise the approval is no longer effective."
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Board or Chair of the Audit Committee",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 5 business days of the transaction occurring",
+   "section": "1.1.5; 1.1.6; 1.1.7",
+   "evidence": "the Chair of the Board must inform and obtain approval from the Board or the Chair of the Audit Committee before a transaction is undertaken."
+  },
+  {
+   "tier": "Key Management Personnel",
+   "type": "approval",
+   "approver": "Managing Director",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 5 business days of the transaction occurring",
+   "section": "1.1.5; 1.1.6; 1.1.7",
+   "evidence": "any Key Management Personnel or Nominated Employee must inform and obtain approval from the Managing Director before a transaction is undertaken."
+  },
+  {
+   "tier": "Nominated Employee",
+   "type": "approval",
+   "approver": "Managing Director",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 5 business days of the transaction occurring",
+   "section": "1.1.5; 1.1.6; 1.1.7",
+   "evidence": "any Key Management Personnel or Nominated Employee must inform and obtain approval from the Managing Director before a transaction is undertaken."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Employees",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "buying and selling on market within a three month period, plus other short-term dealings such as forward contracts",
+   "carve_outs": [
+    "participation in an employee, executive or director equity plan",
+    "acquisition of Company securities through a dividend reinvestment plan",
+    "acquisition of Company securities through a share purchase plan available to all retail shareholders",
+    "acquisition of Company securities through a rights issue",
+    "disposal of Company securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back",
+    "dealings that result in no effective change to the beneficial interest in the securities",
+    "trading under a pre-approved non-discretionary trading plan"
+   ],
+   "evidence": "Employees and their Connected Persons must not deal in the Company's securities on a short-term trading basis. Short term trading includes buying and selling securities on market within a three (3) month period, and entering into other short-term dealings (for example, forward contracts)."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by the Company. However, where securities in the Company granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a share purchase plan available to all retail shareholders"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the disposal of Company securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Company securities already held into a superannuation fund or trust of which the Employee or Connected Person is a beneficiary)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a pre-approved non-discretionary trading plan, where the Employee or Connected Person did not enter into the plan or amend the plan during a blackout period"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Managing Director / Chair of the Board / Chair of the Audit Committee, depending on tier",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Managing Director / Chair of the Board / Chair of the Audit Committee, depending on tier",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Managing Director (for Nominated Employees), the Chair of the Board (for a Director or KMP) or the Chair of the Audit Committee (for the Chair of the Board) may grant a written waiver to deal during a blackout period for exceptional circumstances (severe financial hardship or court compulsion) if satisfied the dealing is the most reasonable course of action available; the waiver lasts 5 business days. Outside blackout periods the same officers (or the Board) may approve, decline, or condition a dealing in their discretion without giving reasons, and any approval must satisfy the Front Page Test. Neither waiver nor approval can override the absolute hedging and margin lending bans.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging and margin lending bans have no carve-outs",
+   "clause": "Sections 1.1.3, 1.1.5, 1.1.6 and 1.2.1 of this Policy do not apply to: (a) participation in an employee, executive or director equity plan ... (b)-(d) [DRP/SPP/rights issue/takeover/no-change-of-interest/non-discretionary-plan dealings]",
+   "why_it_matters": "Sections 1.2.2 (margin lending) and 1.2.3 (hedging) are not among the excluded sections, so both absolute bans apply even to securities acquired under an incentive plan, DRP, rights issue or non-discretionary plan — there is no route to a funded collar regardless of how the underlying shares were acquired."
+  },
+  {
+   "topic": "Front Page Test override",
+   "clause": "Where any approval is required for a dealing under this Policy, approval will not be granted where the dealing would not satisfy the Front Page Test.",
+   "why_it_matters": "Even for dealing that is not otherwise banned, any approval needed for the share-settlement leg of a structure can be refused on reputational grounds alone, at the approver's unreviewable discretion."
+  },
+  {
+   "topic": "approval and waiver both lapse in 5 business days",
+   "clause": "the approved dealing must occur within 5 business days following approval, otherwise the approval is no longer effective, and fresh approval must be sought ... the duration of the waiver to deal in securities will be 5 business days.",
+   "why_it_matters": "Any approved share-level leg (entry, unwind or delivery) must be executed within a tight 5-business-day window across every approval pathway in this policy, constraining settlement timing."
+  }
+ ],
+ "summary": "A funded collar cannot be implemented under this policy. Section 1.2.3 flatly and unconditionally prohibits any Employee or Connected Person from 'entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities' — an express, unwaivable ban on exactly the put/call collar structure, with no approval or exceptional-circumstances route available. Section 1.2.2 separately and equally absolutely bans 'any dealing ... pursuant to a margin lending arrangement,' which would catch the loan if structured as margin lending, though the ban does not expressly extend to secured financing generally, so a loan avoiding that label is not addressed either way. Neither ban is among the sections excluded for plan-acquired, DRP, rights-issue or non-discretionary-plan securities, so there is no route to the structure regardless of how the underlying shares were acquired or their vesting state. Ordinary dealing in the physical shares (entry, unwind, or exercise) by a Restricted Person otherwise proceeds through blackout periods, 4-week post-results trading windows (notification, with a right for the Chair/MD/Company Secretary to block or condition it), or approval outside those windows (5 business days to complete once granted), each also subject to the Front Page Test."
+}
