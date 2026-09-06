@@ -1,0 +1,366 @@
+{
+ "symbol": "JIN",
+ "company": "Jumbo Interactive Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "25 August 2026",
+ "date_effective": "25 August 2026",
+ "date_lodged": "27 August 2026",
+ "date_next_review": "19 August 2027",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Directors, employees and consultants of Jumbo and its subsidiaries, in Australia and overseas. Subject to the insider trading prohibition, Closed Periods, the short-term/speculative trading ban, and the absolute hedging/derivatives and margin lending bans.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Employees",
+   "kind": "kmp",
+   "description": "Directors; senior executives/KMP (CEO, CFO, Chief Commercial Officer, Chief Technology Officer, Chief People Officer); the General Counsel and Company Secretary; direct reports to a KMP member; Finance team employees; anyone on the Jumbo M&A Insider List; anyone the Board or CEO designates due to role or access to inside information; and their Related Persons/Entities. Prohibited from dealing in Company securities at all times without prior written approval, but (unlike other Employees) may enter secured financing agreements over Company securities with approval.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Members of the Board; a subset of Designated Employees distinguished for the approver hierarchy (the Chair of the Board approves Directors including the CEO; the Chair of the Audit and Risk Management Committee approves the Chair) and for the section 205G ASX substantial holding notification duty.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associate",
+   "kind": "associate",
+   "description": "A Related Person (spouse or dependent child of an Employee) or Related Entity (a trust, family-owned company, or company controlled by an Employee).",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "arrangements that limit the economic risk related to holdings in the Company's securities or other unvested entitlements under an Employee incentive scheme",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Employees"],
+   "start_anchor": "end of 31 December",
+   "end_anchor": "one trading day after the release of the Company's half yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Employees"],
+   "start_anchor": "end of 30 June",
+   "end_anchor": "one trading day after the release of the full year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Any additional periods when Employees are restricted from trading by directive from the Board (for example, when the Company is considering a matter that might be subject to Listing Rule 3.1A). The Policy does not state whether such directives are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Prohibition on hedging transactions and derivatives on securities)",
+   "detail": "Absolute, unconditional ban on dealing in derivatives (expressly including exchange-traded or OTC options, per the Securities definition) over holdings in Company securities or unvested incentive entitlements. Unlike the short-term trading rule, this clause carries no cross-reference to the section 5 Exceptional Circumstances relief, so there is no approval route.",
+   "evidence": "Employees must not engage in hedging arrangements, deal in derivatives or enter into other arrangements that limit the economic risk related to holdings in the Company's securities or other unvested entitlements under an Employee incentive scheme."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Prohibition on hedging transactions and derivatives on securities)",
+   "detail": "Absolute ban on hedging arrangements over both vested holdings and unvested incentive entitlements, with no exceptional-circumstances carve-out and no approver identified.",
+   "evidence": "Employees must not engage in hedging arrangements, deal in derivatives or enter into other arrangements that limit the economic risk related to holdings in the Company's securities or other unvested entitlements under an Employee incentive scheme."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Prohibition on hedging transactions and derivatives on securities)",
+   "detail": "Monetisation is not named, but the Policy expressly extends the hedging/derivatives ban to 'other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of the Company's securities', which is a substance-over-form catch-all that squarely covers a prepaid forward or similar monetisation structure.",
+   "evidence": "For the purposes of this Policy, this prohibition applies to any contracts for difference and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of the Company's securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Prohibition on short term and speculative trading)",
+   "detail": "Absolute ban on speculative dealing, expressly including short selling, with no clearance route mentioned.",
+   "evidence": "Employees must not deal in Company securities on a speculative basis (including short selling)."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Prohibition on hedging transactions and derivatives on securities)",
+   "detail": "CFDs are expressly named twice: within the Securities/derivatives definition and within the hedging prohibition's extension clause, which is an absolute ban with no clearance route.",
+   "evidence": "this prohibition applies to any contracts for difference and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of the Company's securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Margin lending and other secured financing)",
+   "detail": "Absolute ban on margin lending arrangements using Company securities, expressly extending to Designated Employees with no carve-out, unlike the general secured financing permission below.",
+   "evidence": "Employees (including Designated Employees) are prohibited from entering into margin lending arrangements using Company securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Margin lending and other secured financing)",
+   "detail": "Designated Employees may grant security over Company securities under a secured financing agreement (as distinct from a margin loan), subject to prior approval from the relevant approver and to conditions preserving the Board's clawback/malus powers.",
+   "evidence": "Designated Employees may enter into secured financing agreements where Company securities are used as security over that finance."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "The express secured financing permission is given only to Designated Employees; the Policy is silent on whether ordinary Employees may grant security over Company securities outside the margin lending ban.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Margin lending and other secured financing); 4",
+   "detail": "Designated Employees may enter into secured financing agreements (Company securities as security) with prior approval from the relevant approver under section 4, provided the agreement does not fetter the Board's clawback/malus powers, the Employee arranges alternative funding for any clawback-driven collateral call, the Employee does not personally dispose of securities to meet a collateral call while holding inside information or during a Closed Period, and the relevant approver is notified immediately of any collateral call or expected forced disposal. Approval, once given, cannot be revoked as to securities already used, though further use can be refused.",
+   "evidence": "Designated Employees may enter into secured financing agreements where Company securities are used as security over that finance. A Designated Employee who wishes to enter in a secured financing agreement is required to: obtain approval from a relevant approver as outlined in section 4 of this Policy prior to entering into the secured financing agreement"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "",
+   "detail": "Secured financing other than margin lending is addressed only for Designated Employees; the Policy does not state the position for ordinary Employees.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3 (Prohibition on short term and speculative trading)",
+   "detail": "Employees must not sell Company securities within 3 months of purchase, subject to a carve-out for sale within 3 months of vesting/release from restriction under an incentive scheme, or exceptional circumstances approval under section 5.",
+   "evidence": "Employees must not sell Company securities within three (3) months after their purchase except: for the sale of Company securities within three (3) months of their vesting or release from restrictions under an Employee incentive scheme; or in exceptional circumstances and where prior approval is obtained as outlined in section 5 of this Policy."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Employees",
+   "type": "approval",
+   "approver": "CEO (for all other Designated Employees); Chair of the Board (for Directors including the CEO); Chair of the Audit and Risk Management Committee (for the Chair of the Board)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4 (Dealing outside of a Closed Period)",
+   "evidence": "It is the responsibility of the Designated Employee to ensure that any dealing in the Company's securities occurs within five (5) business days. A new approval is required should the transaction exceed the 5 business day approval period."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board (for Directors including the CEO); Chair of the Audit and Risk Management Committee (for the Chair of the Board)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary, who notifies ASX under Listing Rule 3.19A",
+   "post_trade_deadline": "within 1 business day of the trade",
+   "section": "7 (Directors' Obligations)",
+   "evidence": "Directors should notify the Company Secretary of the trade within one (1) business day."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "from purchase",
+   "carve_outs": [
+    "sale of Company securities within 3 months of their vesting or release from restrictions under an Employee incentive scheme",
+    "exceptional circumstances with prior approval under section 5"
+   ],
+   "evidence": "Employees must not sell Company securities within three (3) months after their purchase"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "CEO / Chair of the Board / Chair of the Audit and Risk Management Committee (per role hierarchy)",
+   "evidence": "severe financial hardship requiring sale of securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "CEO / Chair of the Board / Chair of the Audit and Risk Management Committee (per role hierarchy)",
+   "evidence": "court order or enforceable undertaking, such as in a family settlement requiring transfer or sale of securities"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chair of the Board (or Chair of the Audit and Risk Management Committee for the Chair of the Board)",
+   "evidence": "other circumstances specific to an individual which the Chair of the Board (or, in the case of the Chair of the Board, the Chair of the Audit and Risk Management Committee) determines are exceptional"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "any election made to acquire shares or other securities under the terms of any dividend reinvestment plan or the issue of bonus shares in lieu of dividends"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where trading results in no change in the beneficial interest in securities"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the existing security holders, such as a pro-rata rights issue, a security purchase plan or an equal access buy-back"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the acquisition or exercise of options and/or rights under an employee incentive scheme"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "where securities are traded non-voluntarily by a financier who has made a call under secured financial agreements without the consent of the Designated Employee or relevant approver"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Designated Employees: trigger = proposing to enter a secured financing agreement; to = relevant approver per section 4 hierarchy; deadline = prior approval before entering the agreement",
+   "Designated Employees: trigger = financier entitled to make, or has made, a call for collateral; to = relevant approver; deadline = immediately",
+   "Designated Employees: trigger = expectation that a demand under the agreement cannot be met without disposing of Company securities; to = relevant approver; deadline = immediately, stating the number of securities likely to be disposed",
+   "Directors: trigger = any secured financing agreement entered into; to = public (at the Board's discretion); deadline = not specified"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Continuous Disclosure Policy",
+  "Claw back or malus policy"
+ ],
+ "exemption_authority": "An Employee or Designated Employee otherwise prohibited from dealing may apply for Exceptional Circumstances clearance (severe financial hardship, court order/enforceable undertaking, or other individually exceptional circumstances) via a written Request for Approval to the CEO (or, for Directors including the CEO, the Chair of the Board; or, for the Chair of the Board, the Chair of the Audit and Risk Management Committee), who may approve or refuse in their sole discretion without giving reasons, and any approval may be revoked at any time; the dealing must occur within 5 business days (or another period the approver deems reasonable). This exemption route is not cross-referenced by, and does not appear to extend to, the absolute hedging, derivatives, CFD, speculative/short-selling or margin lending prohibitions.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute derivatives/hedging ban with no waiver route",
+   "clause": "Employees must not engage in hedging arrangements, deal in derivatives or enter into other arrangements that limit the economic risk related to holdings in the Company's securities or other unvested entitlements under an Employee incentive scheme. For the purposes of this Policy, this prohibition applies to any contracts for difference and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of the Company's securities.",
+   "why_it_matters": "This is an absolute, universal ban on entering any derivative (including an OTC put/call collar) over the Company's securities, covering Directors, KMP and all Employees, over both vested and unvested holdings, with no cross-reference to the section 5 Exceptional Circumstances relief that the short-term trading rule expressly has, so there is no policy-based approval route to write or buy the collar's derivative legs."
+  },
+  {
+   "topic": "secured financing expressly permitted for Designated Employees",
+   "clause": "Designated Employees may enter into secured financing agreements where Company securities are used as security over that finance.",
+   "why_it_matters": "The loan leg of a facility secured by a pledge over the shares is expressly contemplated and permitted for Designated Employees with prior approval, but this is only useful for an unhedged securities-backed loan, since the derivative overlay that would make it a collar remains absolutely banned."
+  },
+  {
+   "topic": "clawback/malus interaction",
+   "clause": "ensure that any secured financing agreement: is subject to, and does not fetter or impact, the Board's powers within any claw back or malus policy ... and the Employee makes provisions for alternative funding to meet a call for collateral should the Board exercise any powers within any claw back or malus policy over securities",
+   "why_it_matters": "Any secured facility must preserve the Board's clawback/malus rights over incentive securities, and the executive must independently fund any resulting collateral shortfall, so the bank cannot treat clawback-eligible shares as unencumbered security."
+  },
+  {
+   "topic": "no voluntary disposal to meet a call in a closed period",
+   "clause": "ensure that they do not dispose of Company securities to meet a call for collateral on a secured financing agreement whilst in possession of inside information or during a Closed Period",
+   "why_it_matters": "If a collateral call arises during a Closed Period or while the executive holds inside information, the executive personally cannot sell the pledged shares to meet it; only a genuinely non-consensual financier-enforced sale is excluded from the Policy's restrictions."
+  },
+  {
+   "topic": "irrevocable approval for pledged securities",
+   "clause": "Once a relevant approver has provided approval for a Designated Employee to enter into a secured financing agreement, such approval cannot be revoked on the use of those securities for that purpose.",
+   "why_it_matters": "Gives the bank comfort that approval for the secured facility, once given, cannot later be revoked as to the securities already pledged, though the approver can refuse any further/future use of securities."
+  },
+  {
+   "topic": "public disclosure of Director facilities",
+   "clause": "The Company Secretary will maintain a record of any secured financing agreement entered into by a Designated Employee and the Board may, in respect of such agreements entered into by Directors of the Company, make those details available publicly.",
+   "why_it_matters": "A Director's secured financing arrangement with the bank may be made public at the Board's discretion, which should be factored into the parties' confidentiality expectations."
+  }
+ ],
+ "summary": "A funded collar is not possible under this Policy. Section 3 imposes an absolute, unconditional ban on all Employees and Designated Employees (Directors and KMP included) engaging in hedging arrangements, dealing in derivatives, or entering any contract intended to secure a profit or avoid a loss from price fluctuations in the Company's securities, covering both vested and unvested holdings, and unlike the short-term trading rule this ban carries no cross-reference to the section 5 Exceptional Circumstances relief, so there is no approval route for the put/call legs at all. The loan leg is genuinely workable in isolation: Designated Employees may enter secured financing agreements using Company securities as security, with prior approval, provided the arrangement does not impair the Board's clawback/malus powers, the executive arranges alternative funding for any clawback-driven collateral call, and the executive does not personally dispose of pledged shares during a Closed Period or while holding inside information; a lender's genuinely non-consensual enforcement sale is excluded from the Policy even in a Closed Period. Margin lending specifically remains banned outright for everyone, including Designated Employees, so any facility must be a bespoke secured loan rather than a margin loan. Because the derivative overlay is what converts a secured loan into a collar, and that overlay is prohibited with no waiver mechanism, only an unhedged securities-backed loan is achievable under this Policy, not a funded collar."
+}
