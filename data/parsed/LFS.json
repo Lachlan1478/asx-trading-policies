@@ -1,0 +1,576 @@
+{
+ "symbol": "LFS",
+ "company": "Latitude Group Holdings Limited",
+ "title": "Trading Policy",
+ "date_approved": "29/03/2021",
+ "date_effective": "29/03/2021",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Everyone",
+   "kind": "all_staff",
+   "description": "All employees, contractors, family and their Associates. Bound by the whole policy except paragraphs 1.4 (Associates procedure), 4.1 (margin lending/security), 4.2 (short-term/speculative/short selling) and 4.3 (hedging), and 5.3 (post-trade notification), which apply only to Designated Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "(a) directors, officers and other KMP of any Latitude Group member; (b) any participant in the long-term incentive plan; (c) employees likely to come into contact with material price-sensitive information; and (d) any other person designated by the Company Secretary. The whole policy applies, including the margin lending/security, short-term/short-selling, hedging and post-trade notification provisions.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman of the Board",
+   "kind": "director",
+   "description": "A Designated Person; distinguished only for clearance, obtained from the Chairman of the Audit Committee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Directors (including the Managing Director and CEO and Alternate Directors)",
+   "kind": "director",
+   "description": "Designated Persons; distinguished only for clearance, obtained from the Chairman of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "All Employees",
+   "kind": "all_staff",
+   "description": "The default clearance category for every discloser who is not the Chairman or another director: non-director Designated Persons and ordinary employees alike obtain clearance from the General Counsel or Company Secretary; only the Designated Persons within this group carry the post-trade notification obligation.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates of Designated Persons",
+   "kind": "associate",
+   "description": "Family members, trusts, companies, nominees and other persons over whom a Designated Person has, or may be expected to have, investment control or influence. Subject to the whole policy, but prior notification, confirmation and post-trade notification (5.1-5.3) are handled via the Designated Person 'as appropriate to the circumstances'.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "enter into transactions or arrangements with anyone which could have the effect of limiting the exposure of the person to risk relating to an element of the person's remuneration that: has not vested in the person; or has vested in the person but remains subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading on 31 May",
+   "end_anchor": "start of trading on the second trading day after the Latitude Group's half yearly results are announced to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading on 30 November",
+   "end_anchor": "start of trading on the second trading day after the Latitude Group's annual results are announced to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "4 weeks before the Company's annual general meeting",
+   "end_anchor": "start of trading on the second trading day after the annual general meeting",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "up to 2 weeks before a prospectus, cleansing notice or similar disclosure document is lodged with ASX",
+   "end_anchor": "as notified by the Company Secretary",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board of Directors may specify any extension to a closed period, or any additional period (clause 3.1(b)). Confidentiality of such an extension is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule 1 (Company Securities, Financial Products); 5.1-5.2",
+   "detail": "Company Securities is defined to include derivatives and other Financial Products, so dealing in a derivative is a 'deal' requiring prior notification and confirmation like any other dealing; the hedging/short-term bans in Part 4 do not apply to this tier.",
+   "evidence": "any securities of the Company including debentures, options, rights, derivatives and other Financial Products issued over or in respect of Company securities that are able to be traded on a financial market"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(b)",
+   "detail": "Under the 'No hedging' clause, Designated Persons must not deal at any time in financial products over or in respect of Company Securities except for dealing types permitted under this policy (i.e. ordinary share dealing under Part 5 and Schedule 2), so an OTC derivative such as a put or call is banned regardless of vesting.",
+   "evidence": "deal at any time in financial products over or in respect of Company Securities, except for the type of dealing permitted by law and under this policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(a)",
+   "detail": "Ban on transactions limiting exposure to risk on remuneration that has not vested; example given is a put option on incentive remuneration.",
+   "evidence": "enter into transactions or arrangements with anyone which could have the effect of limiting the exposure of the person to risk relating to an element of the person's remuneration that: has not vested in the person"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(a)",
+   "detail": "Same ban extends to remuneration that has vested but remains subject to a holding lock.",
+   "evidence": "has vested in the person but remains subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(b)",
+   "detail": "A separate, unqualified limb bans dealing in any financial product over Company Securities 'at any time', with no vesting carve-out, except for dealing types otherwise permitted under the policy.",
+   "evidence": "deal at any time in financial products over or in respect of Company Securities, except for the type of dealing permitted by law and under this policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Paragraph 4.3 (No hedging) is expressly excluded from applying to this tier per the paragraph 1.3 table.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.3(b); Schedule 1 (Financial Products)",
+   "detail": "Monetisation is not named, but a prepaid forward or similar structured product is a 'Financial Product' (forward contracts and structured/swap-type products are named) and so is caught by the blanket ban on financial-product dealing in 4.3(b).",
+   "evidence": "Financial Products include derivatives, options, warrants, futures, forward contracts, swaps and contracts for difference issued or created over or associated with Company Securities by third parties"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule 1 (Financial Products); 5.1-5.2",
+   "detail": "A forward-type monetisation is a Financial Product and so a dealing requiring prior notification and confirmation; the 4.3 hedging ban does not apply to this tier.",
+   "evidence": "Financial Products include derivatives, options, warrants, futures, forward contracts, swaps and contracts for difference issued or created over or associated with Company Securities by third parties"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2",
+   "detail": "Outright ban on short selling of Company Securities by Designated Persons.",
+   "evidence": "Designated Persons must not engage in short selling of Company Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Paragraph 4.2 (short-term/speculative trading and short selling) is expressly excluded from applying to this tier per the paragraph 1.3 table.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy or its Glossary.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2; 4.3(b); Schedule 1",
+   "detail": "Contracts for difference are named in the Financial Products definition, so a CFD over Company Securities is caught by the blanket financial-product ban in 4.3(b) and would also be short-term/speculative trading under 4.2.",
+   "evidence": "swaps and contracts for difference issued or created over or associated with Company Securities by third parties"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule 1; 5.1-5.2",
+   "detail": "A CFD is a Financial Product and so a dealing requiring prior notification and confirmation for this tier, which is not subject to the 4.2/4.3 restrictions.",
+   "evidence": "swaps and contracts for difference issued or created over or associated with Company Securities by third parties"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "Absolute ban on margin lending arrangements in relation to Company Securities, with no Board exception mentioned (unlike the general security-arrangement carve-out later in the same clause).",
+   "evidence": "Designated Persons are not permitted to enter into margin lending arrangements in relation to Company Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Paragraph 4.1 (margin lending/security arrangements) is expressly excluded from applying to this tier per the paragraph 1.3 table.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "Company Securities that are the subject of escrow arrangements under an LTI plan (i.e. still unvested) must not be subject to any security arrangement.",
+   "evidence": "no Company Securities that are the subject of escrow arrangements or which are otherwise restricted in accordance with the terms of a long-term incentive arrangement of the Latitude Group may be subject to security arrangements."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "The same escrow/restricted-securities ban extends to LTI securities that have vested but remain otherwise restricted (e.g. a holding lock).",
+   "evidence": "no Company Securities that are the subject of escrow arrangements or which are otherwise restricted in accordance with the terms of a long-term incentive arrangement of the Latitude Group may be subject to security arrangements."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "Granting security over vested, unrestricted Company Securities under a funding arrangement other than margin lending is expressly permitted, subject to prior approval of the General Counsel or Company Secretary before agreeing to the security.",
+   "evidence": "The restrictions above do not prohibit other funding arrangements under which Company Securities may be included as security, however if a Designated Person proposes to enter into any such security arrangement the prior approval of the General Counsel or Company Secretary must be obtained prior to agreeing to provide Company Securities as security under any arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Paragraph 4.1 is expressly excluded from applying to this tier per the paragraph 1.3 table.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "Any secured financing over escrowed/unvested LTI Company Securities is banned.",
+   "evidence": "no Company Securities that are the subject of escrow arrangements or which are otherwise restricted in accordance with the terms of a long-term incentive arrangement of the Latitude Group may be subject to security arrangements."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "Any secured financing over vested-but-restricted (holding-locked) Company Securities is likewise banned.",
+   "evidence": "no Company Securities that are the subject of escrow arrangements or which are otherwise restricted in accordance with the terms of a long-term incentive arrangement of the Latitude Group may be subject to security arrangements."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "A non-margin-lending secured financing arrangement over vested, unrestricted Company Securities is permitted with the prior approval of the General Counsel or Company Secretary. This is the operative gateway for a bank loan secured on the collared shares.",
+   "evidence": "The restrictions above do not prohibit other funding arrangements under which Company Securities may be included as security, however if a Designated Person proposes to enter into any such security arrangement the prior approval of the General Counsel or Company Secretary must be obtained prior to agreeing to provide Company Securities as security under any arrangement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Paragraph 4.1 is expressly excluded from applying to this tier per the paragraph 1.3 table.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2",
+   "detail": "Ban on short-term or speculative trading in Company Securities or derivative/financial products over them; short term means less than a 90-day period.",
+   "evidence": "Designated Persons must not engage in short term or speculative trading in Company Securities or in derivative or other financial products issued over or in respect of Company Securities. Short term means in less than a 90-day period."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Everyone",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Paragraph 4.2 is expressly excluded from applying to this tier per the paragraph 1.3 table.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chairman of the Board",
+   "type": "approval",
+   "approver": "The Chairman of the Audit Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "The Chairman of the Audit Committee",
+   "post_trade_deadline": "3 business days from dealing",
+   "section": "5.1; 5.2; 5.3",
+   "evidence": "Chairman of the Board / The Chairman of the Audit Committee"
+  },
+  {
+   "tier": "Other Directors (including the Managing Director and CEO and Alternate Directors)",
+   "type": "approval",
+   "approver": "The Chairman of the Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "The Chairman of the Board",
+   "post_trade_deadline": "3 business days from dealing",
+   "section": "5.1; 5.2; 5.3",
+   "evidence": "Other Directors (including the Managing Director and CEO and Alternate Directors) / The Chairman of the Board"
+  },
+  {
+   "tier": "All Employees",
+   "type": "approval",
+   "approver": "The General Counsel or the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "General Counsel or Company Secretary (Designated Persons within this group only)",
+   "post_trade_deadline": "3 business days from dealing (Designated Persons only)",
+   "section": "5.1; 5.2; 5.3",
+   "evidence": "All Employees / The General Counsel or the Company Secretary"
+  },
+  {
+   "tier": "Associates of Designated Persons",
+   "type": "approval",
+   "approver": "The Designated Person's Notification Officer, communicated via the Designated Person",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Notification Officer, via the Designated Person",
+   "post_trade_deadline": "as appropriate to the circumstances (not fixed)",
+   "section": "1.4; 5.1-5.3",
+   "evidence": "This policy also applies to Associates of Designated Persons, except that paragraphs 5.1 to 5.3 regarding prior notification, confirmation and notification of dealing apply as appropriate to the circumstances."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "90-day period, not tied to a stated event",
+   "carve_outs": [],
+   "evidence": "Designated Persons must not engage in short term or speculative trading in Company Securities ... Short term means in less than a 90-day period."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer or divestment under a scheme of arrangement"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board (approves the plan's timing and structure)",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquiring Company Securities under a bonus issue made to all holders of Company Securities of the same class"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading Company Securities where the trading results in no change in beneficial interest in Company Securities. However, the requirements of paragraphs 5.1 to 5.3 must be complied with"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "cancellation of Company Securities as a result of failure to vest or other forfeiture of securities received by individuals as part of performance based remuneration"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "acceptance of an invitation to participate in, or receiving Company Securities under any employee share plan or through the exercise of options under any option plan. However, any dealing in those Company Securities remains subject to this policy"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "vesting (but not subsequent sale) of Company Securities as a result of meeting performance hurdles or release of Company Securities from holding lock or holding term"
+  },
+  {
+   "kind": "hardship",
+   "scope": "unclear",
+   "approver": "Notification Officer",
+   "evidence": "deal in Company Securities during a Prohibited Period; or dispose of Company Securities even if otherwise prohibited under Part 4 ... if there are exceptional circumstances ... severe financial hardship, e.g., a pressing financial commitment that cannot be satisfied otherwise than by selling the relevant Company Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "unclear",
+   "approver": "Notification Officer",
+   "evidence": "requirements under a court order or court enforceable undertakings or other legal or regulatory requirements (e.g., a family law settlement)"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chairman (or CEO where the Chairman is involved)",
+   "evidence": "other exceptional circumstances as determined by the Chairman (or Chief Executive Officer where the Chairman is involved)"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The General Counsel or Company Secretary may approve a Designated Person providing vested, unrestricted Company Securities as security under a non-margin-lending funding arrangement (clause 4.1). Separately, the Notification Officer may grant exceptional-circumstances confirmation under Schedule 3 to deal during a Prohibited Period or to dispose of securities despite a Part 4 restriction (e.g. severe financial hardship or a court order); a tax liability alone does not qualify, and 'other exceptional circumstances' are for the Chairman (or CEO if the Chairman is conflicted) to determine.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "near-total hedging ban for Designated Persons",
+   "clause": "deal at any time in financial products over or in respect of Company Securities, except for the type of dealing permitted by law and under this policy.",
+   "why_it_matters": "This unqualified limb of the 'No hedging' clause appears to ban an OTC put/call collar for Designated Persons regardless of whether the underlying shares are vested, unless it can be characterised as a dealing type otherwise permitted under the policy."
+  },
+  {
+   "topic": "Everyone carve-out from Part 4",
+   "clause": "Everyone - including all employees, contractors, family and their Associates | The whole Trading Policy with the exception of paragraphs 1.4, 4.1, 4.2, 4.3 and 5.3",
+   "why_it_matters": "Employees who are not Designated Persons face no margin-lending, short-term or hedging restriction at all, but the directors and executives targeted for a funded collar will almost always be Designated Persons, so this carve-out is unlikely to be available to the client base."
+  },
+  {
+   "topic": "secured financing gateway for vested shares",
+   "clause": "The restrictions above do not prohibit other funding arrangements under which Company Securities may be included as security, however if a Designated Person proposes to enter into any such security arrangement the prior approval of the General Counsel or Company Secretary must be obtained prior to agreeing to provide Company Securities as security under any arrangement.",
+   "why_it_matters": "This is the key gateway: a bank loan secured on vested, unrestricted Company Securities is expressly contemplated, subject only to prior GC/Company Secretary approval, separate from and additional to the ordinary Part 5 dealing clearance."
+  },
+  {
+   "topic": "hardship override of Part 4",
+   "clause": "you may request, and the Notification Officer may give, confirmation for you to ... dispose of Company Securities even if otherwise prohibited under Part 4.",
+   "why_it_matters": "Gives a discretionary route to force an unwind sale despite the margin-lending/hedging prohibitions in Part 4, for example on severe financial hardship or court order, though a tax liability alone does not qualify and the outcome is at the Notification Officer's discretion."
+  },
+  {
+   "topic": "confirmation is not an endorsement",
+   "clause": "A confirmation confirms that the proposed dealing is within the terms of the Trading Policy but does not otherwise constitute approval or endorsement by the Company or the Notification Officer for the proposed dealing.",
+   "why_it_matters": "The bank cannot treat a policy confirmation as validating the commercial terms of the collar or loan; the executive remains personally responsible for compliance with the insider trading law."
+  }
+ ],
+ "summary": "A funded collar is realistically achievable for a Designated Person only over vested, unrestricted shares, and only through the section 4.1 secured-financing gateway rather than the general hedging clause. The 'No hedging' clause (4.3(b)) bans dealing in any financial product over Company Securities 'at any time' subject only to dealing types permitted under the policy, which on its face catches an OTC put and call regardless of vesting, so the derivative legs need to be structured as, or fall within, a permitted dealing type and clear the ordinary Part 5 notification and confirmation process (Notification Officer varies by role: Chairman of the Audit Committee for the Chairman, Chairman of the Board for other directors and the CEO, General Counsel/Company Secretary otherwise), outside the closed periods, subject to a 5-business-day confirmation validity and the insider trading ban. The loan leg secured on the collared shares is expressly permitted for vested, unrestricted securities with prior approval of the General Counsel or Company Secretary, but is absolutely prohibited if the shares remain unvested or are still subject to escrow or a holding lock, and margin lending specifically is banned outright with no stated exception. Employees who are not 'Designated Persons' escape the hedging, margin-lending and short-term rules entirely, but this is unlikely to help the bank's target client base of directors and executives. Overall: the loan is structurally available for vested, unrestricted shares subject to GC/Company Secretary approval, but the collar's derivative legs face a real risk of falling foul of the blanket financial-product ban in 4.3(b) unless clearance can bring them within a permitted dealing type."
+}

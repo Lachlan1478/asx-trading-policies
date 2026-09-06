@@ -1,0 +1,354 @@
+{
+ "symbol": "PL8",
+ "company": "Plato Income Maximiser Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "The Board, any Executives, and the Company Secretary. Subject to trading windows, a notify-and-confer process before any dealing, an outright hedging ban, and a margin lending consent requirement.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "associated parties",
+   "kind": "associate",
+   "description": "Immediate family (including a spouse (or equivalent) or dependent), family company or trust of a Restricted Person. Bound by the same respective restrictions as the Restricted Person.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into transactions in financial products that operate to limit the economic risk associated with holding securities in the Company",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "1st of each month",
+   "end_anchor": "5pm on the day of the release of the NAV",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Restricted Persons"
+   ],
+   "start_anchor": "5 business days before the announcement of a dividend or any other capital management initiative that might have a material impact on the share price",
+   "end_anchor": "announcement of the dividend or capital management initiative",
+   "duration_days": 5
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board has absolute discretion to place an embargo on Restricted Persons and/or their associated parties trading at any time; the Company may also designate further prohibited periods from time to time. Confidentiality of an embargo is not addressed.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "1.10",
+   "detail": "No separate general derivatives provision. An OTC put/call over the Restricted Person's own shares limits the economic risk of holding those shares and is therefore caught by, and absolutely barred under, the hedging ban, with no clearance route.",
+   "evidence": "Hedging arrangements include entering into transactions in financial products that operate to limit the economic risk associated with holding securities in the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.10",
+   "detail": "Absolute ban, not limited to closed periods and with no exceptional-circumstances or Board-consent carve-out (clause 1.8 clearance is sale-only).",
+   "evidence": "A Restricted Person must not enter into hedging arrangements with respect to securities in the Company (including any shares, options and rights)."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "1.10",
+   "detail": "Not named, but a monetisation structure (e.g. a prepaid forward) transfers price risk while economic exposure is reduced, which is precisely what clause 1.10 defines as a hedging arrangement.",
+   "evidence": "Hedging arrangements include entering into transactions in financial products that operate to limit the economic risk associated with holding securities in the Company."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.4; 1.6",
+   "detail": "Not named separately; treated as an ordinary dealing (buying/selling) subject to the notify-and-confer process, trading windows and the inside information ban.",
+   "evidence": "Restricted Persons are required to notify the Company of intended dealings in the Company's shares, by themselves or their associated parties, prior to such intended dealings."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "1.10",
+   "detail": "Not named; a CFD written against the Restricted Person's shareholding operates to limit the economic risk of holding those shares and is caught by the hedging ban.",
+   "evidence": "Hedging arrangements include entering into transactions in financial products that operate to limit the economic risk associated with holding securities in the Company."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.11",
+   "detail": "Requires the Company's prior consent, which may be made conditional, including on the circumstances in which the shares may be sold to meet a margin call.",
+   "evidence": "A Restricted Person must not include his or her securities in the Company in a margin loan portfolio or otherwise deal in securities in the Company pursuant to a margin lending arrangement without first obtaining the Company's consent."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.11",
+   "detail": "Clause 1.11 is framed around margin lending specifically; whether a bespoke bank loan secured by a pledge (not a broker margin loan) is covered by this consent regime at all is not addressed.",
+   "evidence": "Such dealing would include: (a) entering into a margin lending arrangement in respect of securities in the Company; (b) transferring securities in the Company into an existing margin loan account; and (c) selling securities in the Company to satisfy a call pursuant to a margin loan."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.11",
+   "detail": "The financing leg of a funded structure requires prior consent as a margin lending arrangement, but this covers only the loan; the derivative legs remain absolutely banned by clause 1.10, so consent to the loan alone does not enable a funded collar.",
+   "evidence": "A Restricted Person must not include his or her securities in the Company in a margin loan portfolio or otherwise deal in securities in the Company pursuant to a margin lending arrangement without first obtaining the Company's consent."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No holding period, intention test or buy-sell window is stated.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "preclearance_system",
+   "approver": "Company Secretary, in conference with the Chairperson",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.6",
+   "evidence": "Restricted Persons are required to notify the Company of intended dealings in the Company's shares, by themselves or their associated parties, prior to such intended dealings. This should be done by written notice to the Company Secretary... The Company Secretary will confer with the Chairperson in relation to any proposed dealing... any clearance or refusal to grant clearance given under this policy."
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "the Company",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.11",
+   "evidence": "The Company may, at its discretion, make any clearance granted in accordance with this Clause 4.11 conditional upon such terms and conditions as the Company sees fit (for example, in regards to the circumstances in which the securities in the Company may be sold to satisfy a margin call)."
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "approval",
+   "approver": "the Chairperson (or another Director if the Chairperson is involved)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "1.8",
+   "evidence": "Any clearance given by the Chairperson in accordance with this section must be in writing (which may be in the form of an email). The Chairperson must determine, and specify in the written clearance, the maximum duration of the clearance."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "undertakings or elections to take up entitlements under a rights issue or other offer (including an offer of shares in lieu of a cash dividend)"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the take up of entitlements under a rights issue or other offer (including an offer of shares in lieu of a cash dividend)"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "allowing entitlements to lapse under a rights issue or other offer (including an offer of shares in lieu of a cash dividend)"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "the sale of sufficient entitlements to allow take up of the balance of the entitlements under a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer or pursuant to a scheme of arrangement implemented in accordance with section 411 of the Corporations Act"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "the purchase of shares or the communication of information pursuant to a requirement imposed by law"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "bona fide gifts to a Director by a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of shares in the Company already held into a superannuation fund or other saving scheme in which the Restricted Person is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the securities of the entity) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Restricted Person is a trustee, trading in the securities of the entity by that trust provided the Restricted Person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the Restricted Person"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "the Chairperson",
+   "evidence": "a Restricted Person may be in severe financial hardship if he or she has a pressing financial commitment that cannot otherwise be satisfied"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "the Chairperson",
+   "evidence": "a court order (or court enforceable undertaking), or some other overriding legal or regulatory requirement, to transfer or sell shares in the Company"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "the Chairperson",
+   "evidence": "other circumstances that may be deemed exceptional by the Chairperson"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "clearance_required",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Restricted Persons: before entering a margin lending arrangement, transferring shares into an existing margin loan account, or selling to satisfy a margin call, to the Company, for its prior consent"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Continuous Disclosure Policy (referenced in clause 2.2(a), not included)"
+ ],
+ "exemption_authority": "The Board may agree to permit dealing during an otherwise prohibited period (clause 1.4). Separately, the Chairperson (or another Director if the Chairperson is involved) may give written clearance for a Restricted Person to sell (not purchase) shares in exceptional circumstances (severe financial hardship, court order or other overriding legal/regulatory requirement, or other circumstances the Chairperson deems exceptional), never while Inside Information exists, with a maximum duration specified in the clearance.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "hedging ban has no clearance route",
+   "clause": "A Restricted Person must not enter into hedging arrangements with respect to securities in the Company (including any shares, options and rights).",
+   "why_it_matters": "Unlike ordinary share dealing (which goes through the notify-and-confer process) or margin loans (which can be consented to), hedging is an absolute ban with no clearance, waiver or exceptional-circumstances mechanism reaching a derivative transaction; the only clearance available under clause 1.8 permits a sale, not entry into a hedge."
+  },
+  {
+   "topic": "margin loan consent scope uncertain for a bespoke bank facility",
+   "clause": "otherwise deal in securities in the Company pursuant to a margin lending arrangement without first obtaining the Company's consent",
+   "why_it_matters": "Clause 1.11 is drafted around a conventional margin loan portfolio and margin account; it is unclear whether a bespoke bilateral loan from a bank secured by a pledge over the collared shares (not a standard margin lending facility) is covered by this consent regime at all, leaving a structuring gap the Company would need to address by extension or analogy."
+  },
+  {
+   "topic": "associated parties bound",
+   "clause": "Each Restricted Person has a personal responsibility to ensure that his or her associated parties ... complies with the same respective restrictions as apply to Restricted Persons.",
+   "why_it_matters": "Routing the collar or loan through a spouse, family trust or family company does not escape the hedging ban or the margin lending consent requirement."
+  },
+  {
+   "topic": "unqualified Board embargo power",
+   "clause": "The Board has an absolute discretion to place an embargo on Restricted Persons and/or their respective associated parties trading in the Company's shares at any time.",
+   "why_it_matters": "Even if a structuring workaround to the hedging ban were found, the Board could unilaterally freeze all dealing at any time with no stated notice or confidentiality requirement, adding execution risk to any financing timeline."
+  }
+ ],
+ "summary": "A funded collar is not possible for a Restricted Person (the Board, Executives and the Company Secretary) under this policy. Clause 1.10 bans hedging arrangements over the Company's shares outright, defined broadly as any transaction in financial products that limits the economic risk of holding those shares, which captures both legs of an OTC collar with no clearance, notification or exceptional-circumstances route (the only clearance under clause 1.8 permits a sale, not entry into a derivative). The loan leg, if structured as a conventional margin loan, requires the Company's prior consent, which may be made conditional including on when the collateral may be sold to meet a margin call, but consent to the loan alone is of no use without the banned derivative legs, and it is unclear whether a bespoke bilateral bank facility secured by a pledge would even be treated as a margin lending arrangement for this purpose. Associated parties (immediate family, family companies and trusts) are bound by the same hedging ban and consent requirements, so the structure cannot be routed around the individual. The Board also retains an absolute, unqualified discretion to embargo any Restricted Person's dealing at any time, adding further execution risk even if a workaround to the hedging ban were identified."
+}

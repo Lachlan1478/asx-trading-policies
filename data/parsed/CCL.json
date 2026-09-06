@@ -1,0 +1,484 @@
+{
+ "symbol": "CCL",
+ "company": "Cuscal Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "18 October 2024",
+ "date_effective": "18 October 2024",
+ "date_lodged": "",
+ "date_next_review": "Annual or as required",
+ "tiers": [
+  {
+   "name": "Cuscal Persons",
+   "kind": "all_staff",
+   "description": "All directors, officers and employees of Cuscal and its Related Bodies Corporate; contractors, secondees and consultants of the Cuscal Group; and any other person designated a Cuscal Person by the Board in writing. Subject uniformly to the base rules: Dealing only in Trading Windows with prior written consent, no Dealing with Inside Information, no speculative/short-term trading, no Protection Arrangement or granting of security over unvested/holding-locked Securities, and an absolute ban on margin lending.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of Cuscal (a subset of Cuscal Persons). Additionally subject to a statutory relevant-interest disclosure duty: must notify the Company Secretary in writing of any relevant event immediately and no later than 3 Business Days afterwards, so Cuscal can notify ASX within 5 Business Days.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "For the purposes of section 5 (Trading Restrictions and Clearance Procedures) only, 'Cuscal Person' itself extends to a spouse (including de facto), child (including stepchild or adopted child), a close relative, a person financially dependent on, or acting in concert with, a Cuscal Person, and a company or trust controlled by any of them. These persons are directly bound by the Trading Window and clearance requirements as if they were the Cuscal Person themselves.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "operates to limit the economic risk of any Cuscal Person's security holding (e.g. hedging arrangements) including Cuscal's Securities held beneficially on that Cuscal Person's behalf",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "release of Cuscal's half yearly results to the ASX",
+   "end_anchor": "28 days after release",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "release of Cuscal's full year results and Annual Report to the ASX",
+   "end_anchor": "28 days after release",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "Cuscal's annual general meeting or any other general meeting of shareholders",
+   "end_anchor": "20 days after the meeting",
+   "duration_days": 20
+  },
+  {
+   "kind": "open",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "commencement of an offer of Securities pursuant to a prospectus, product disclosure statement or cleansing notice",
+   "end_anchor": "end of that offer period",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "all"
+   ],
+   "start_anchor": "any time not within a designated Trading Window",
+   "end_anchor": "commencement of the next Trading Window",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may designate any other period as a Trading Window, and Cuscal may impose 'any additional restriction' during an otherwise-open Trading Window. Confidentiality of such a determination is not addressed.",
+ "rules": [
+  {
+   "topic": "hedging",
+   "tier": "Cuscal Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "A Protection Arrangement (defined to include hedging arrangements that limit economic risk) is banned at all times over unvested Securities.",
+   "evidence": "The entering into of any type of Protection Arrangements for any Cuscal Securities (or Cuscal products in the derivatives markets) is prohibited at all times in respect of any Cuscal Securities which are unvested or subject to a holding lock otherwise."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Same absolute ban extends to vested Securities still subject to a holding lock.",
+   "evidence": "The entering into of any type of Protection Arrangements for any Cuscal Securities (or Cuscal products in the derivatives markets) is prohibited at all times in respect of any Cuscal Securities which are unvested or subject to a holding lock otherwise."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1; 5.3; 6.2 (by omission)",
+   "detail": "The 6.2 ban is expressly scoped to Securities which are unvested or holding-locked; hedging vested, unrestricted Securities is not itself banned and falls to the ordinary Dealing rules: it is a transaction 'associated with buying, acquiring, selling, disposing of, converting or agreeing to do any of these' in a 'Security', a term that expressly includes third-party derivative products, so it requires a Trading Window and prior written Authorising Officer consent.",
+   "evidence": "The entering into of any type of Protection Arrangements for any Cuscal Securities ... is prohibited at all times in respect of any Cuscal Securities which are unvested or subject to a holding lock otherwise."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Cuscal Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Protection Arrangements 'in the derivatives markets' are named expressly and banned outright over unvested Securities.",
+   "evidence": "The entering into of any type of Protection Arrangements for any Cuscal Securities (or Cuscal products in the derivatives markets) is prohibited at all times in respect of any Cuscal Securities which are unvested or subject to a holding lock otherwise."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Same ban extends to vested, holding-locked Securities.",
+   "evidence": "The entering into of any type of Protection Arrangements for any Cuscal Securities (or Cuscal products in the derivatives markets) is prohibited at all times in respect of any Cuscal Securities which are unvested or subject to a holding lock otherwise."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1; 5.3; definition of Securities",
+   "detail": "Securities is defined to include 'financial products issued or created over or in respect of Cuscal's Securities by Cuscal or third parties (for example warrants and other derivative products)' with no venue limitation, so an OTC put/call over vested, unrestricted Securities is a Dealing requiring a Trading Window and prior written consent, since it is not banned by 6.2 (limited to unvested/holding-locked Securities).",
+   "evidence": "Securities means shares; options; debentures; units and other securities which Cuscal may issue; financial products issued or created over or in respect of Cuscal's Securities by Cuscal or third parties (for example warrants and other derivative products)."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Cuscal Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Monetisation is not named, but a prepaid forward or similar structure over unvested Securities that limits economic risk is a Protection Arrangement, banned outright.",
+   "evidence": "The entering into of any type of Protection Arrangements for any Cuscal Securities ... is prohibited at all times in respect of any Cuscal Securities which are unvested or subject to a holding lock otherwise."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5.1; 5.3",
+   "detail": "A monetisation of vested, unrestricted Securities is not a banned Protection Arrangement and is treated as an ordinary Dealing requiring a Trading Window and Authorising Officer consent.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Cuscal Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.2",
+   "detail": "Short selling is the first limb of the defined 'Protection Arrangement', banned in respect of unvested Securities.",
+   "evidence": "Protection Arrangement means any transaction which: amounts to \"short selling\" of Securities;"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Cuscal Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Short selling is inherently speculative/short-term trading and so is separately and unconditionally banned regardless of vesting state under the No Speculative Trading rule.",
+   "evidence": "Under no circumstances should Cuscal Persons engage in short-term or speculative trading in Cuscal Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Cuscal Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Cuscal Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "CFDs are named expressly as an example of derivative-market dealing; those that are short-term or speculative are banned outright regardless of vesting. A CFD used as a longer-term risk-limiting position over vested unrestricted shares would instead be analysed as a Protection Arrangement under 6.2, which does not reach vested, unrestricted Securities.",
+   "evidence": "This prohibition includes short term direct Dealing in Cuscal Securities as well as transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Cuscal Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "Absolute, vesting-blind ban on margin lending arrangements 'at all times' - unlike the general security-granting rule in the same clause, this sentence has no unvested/holding-locked qualifier, so it also reaches vested, unrestricted Securities.",
+   "evidence": "Cuscal Persons are prohibited at all times from entering into any margin lending arrangement involving Cuscal Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Cuscal Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "No charge, mortgage, pledge or other security may be granted over unvested Securities to secure any obligation, of the Cuscal Person or a third party.",
+   "evidence": "Cuscal Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Cuscal Securities which are unvested or subject to a holding lock, to secure any obligation of that Cuscal Person or any third party."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "Same ban extends to vested Securities subject to a holding lock.",
+   "evidence": "Cuscal Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Cuscal Securities which are unvested or subject to a holding lock, to secure any obligation of that Cuscal Person or any third party."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.3 (by omission)",
+   "detail": "Granting security over vested, unrestricted Securities is not banned by 6.3's first sentence (limited to unvested/holding-locked Securities) and does not clearly fall within the Policy's narrow Deal definition (buying, acquiring, selling, disposing of, converting or agreeing to do any of these). However, if the arrangement is characterised as a 'margin lending arrangement' it is separately and absolutely banned regardless of vesting state.",
+   "evidence": "Cuscal Persons may not at any time, directly or indirectly, grant any form of security ... over any Cuscal Securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Cuscal Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "Both the security-granting ban and the margin lending ban prohibit any financing secured on unvested Securities.",
+   "evidence": "Cuscal Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any Cuscal Securities which are unvested or subject to a holding lock, to secure any obligation of that Cuscal Person or any third party."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Cuscal Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "Although granting security over vested, unrestricted Securities is not itself banned, any facility that is (or is characterised as) a 'margin lending arrangement' is absolutely prohibited 'at all times' regardless of vesting, so the bank's loan must be structured to avoid that characterisation or obtain specific Authorising Officer comfort.",
+   "evidence": "Cuscal Persons are prohibited at all times from entering into any margin lending arrangement involving Cuscal Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Cuscal Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.1",
+   "detail": "No short-term or speculative direct dealing or derivative-market dealing; no specific holding period is defined.",
+   "evidence": "Under no circumstances should Cuscal Persons engage in short-term or speculative trading in Cuscal Securities. This prohibition includes short term direct Dealing in Cuscal Securities as well as transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Cuscal Persons",
+   "type": "approval",
+   "approver": "Authorising Officer (Company Secretary, or in his or her absence, the Chairman of the Audit Committee)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "within 2 business days of Dealing",
+   "section": "5.1; 5.3",
+   "evidence": "prior to Dealing in Cuscal Securities, notify the Authorising Officer of their proposed Dealing and obtain consent using the Securities Trading Form from the Authorising Officer; confirm that they are not in possession of any Inside Information; and within 2 business days of Dealing with the Cuscal Securities, provide the Authorising Officer with a transaction confirmation."
+  },
+  {
+   "tier": "Cuscal Persons",
+   "type": "approval",
+   "approver": "Authorising Officer",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.2",
+   "evidence": "In Exceptional Circumstances the Authorising Officer, has discretion to approve Dealings in Cuscal Securities outside a Trading Window, or other Dealings that would otherwise be prohibited by this Policy (except if granting such approval would be likely to result in a breach of any applicable insider trading laws)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Cuscal Persons",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should Cuscal Persons engage in short-term or speculative trading in Cuscal Securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Cuscal Securities under any employee share plan or through the exercise of options or performance rights under an option or performance rights plan or the acquisition of options or performance rights under an option or performance rights plan. However, any Dealing in those Securities remains subject to this Policy"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfer of Cuscal securities already held into a self-managed superannuation fund or other saving scheme in which the restricted person is a beneficiary;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Cuscal's ordinary shares by conversion of securities giving a right of conversion to Cuscal's ordinary shares;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Cuscal's securities under a bonus issue made to all holders of securities of the same class;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertaking to accept, or accept, a takeover offer;"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "investing in, or trading in units of, a fund or other scheme (other than a scheme only investing in the Securities of Cuscal) where the assets of the fund or other scheme are invested at the discretion of a third party;"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Cuscal Securities that is the result of a secured lender exercising their rights under a loan or security agreement;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trading in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the restricted person;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board (approves the plan/timing)",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer",
+   "evidence": "severe financial hardship;"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer",
+   "evidence": "compulsion by court order or court enforceable undertaking (e.g. in a bona fide family settlement to sell or transfer securities;"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chairman or the Chairman of the Audit Compliance Committee",
+   "evidence": "any other circumstance that is deemed exceptional by the Chairman or the Chairman of the Audit Compliance Committee (as applicable)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Cuscal Persons; trigger: reliance on any section 7 exemption (including a secured lender's forced sale); to: Authorising Officer; deadline: within 2 Business Days of the transaction."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "Continuous Disclosure Policy",
+  "External Communications Policy",
+  "Code of Conduct",
+  "Anti-Bribery and Corruption Policy"
+ ],
+ "exemption_authority": "The Authorising Officer (Company Secretary, or the Chairman of the Audit Committee in their absence) has discretion under Exceptional Circumstances (severe financial hardship, court order/enforceable undertaking, another overriding legal/regulatory requirement, a prospectus/cleansing notice released outside a Trading Window, or any other circumstance the Chairman or Chairman of the Audit Committee deems exceptional) to approve Dealings outside a Trading Window, or 'other Dealings that would otherwise be prohibited by this Policy', provided approval would not breach insider trading law. It is unclear whether this discretion can override the 'at all times' Protection Arrangement (6.2) and margin lending (6.3) prohibitions, which are drafted as absolute; specific written confirmation from the Authorising Officer should be sought before relying on it for a collar or its financing.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Protection Arrangement scoped to unvested/locked only",
+   "clause": "The entering into of any type of Protection Arrangements for any Cuscal Securities (or Cuscal products in the derivatives markets) is prohibited at all times in respect of any Cuscal Securities which are unvested or subject to a holding lock otherwise.",
+   "why_it_matters": "Unlike several peer policies, this ban does not reach vested, unrestricted Securities, so a collar's put/call legs over such shares are treated as an ordinary Dealing requiring only a Trading Window and Authorising Officer consent, not an outright prohibition."
+  },
+  {
+   "topic": "absolute margin lending ban regardless of vesting",
+   "clause": "Cuscal Persons are prohibited at all times from entering into any margin lending arrangement involving Cuscal Securities.",
+   "why_it_matters": "This sentence has no vesting qualifier, unlike the security-granting sentence beside it, so if the bank's loan is characterised as a margin lending arrangement it is banned even over vested, unrestricted shares - the facility should be structured, or specifically cleared, to avoid that characterisation."
+  },
+  {
+   "topic": "Exceptional Circumstances override",
+   "clause": "the Authorising Officer, has discretion to approve Dealings in Cuscal Securities outside a Trading Window, or other Dealings that would otherwise be prohibited by this Policy (except if granting such approval would be likely to result in a breach of any applicable insider trading laws).",
+   "why_it_matters": "This is broad enough to arguably extend to overriding the 6.2/6.3 absolute prohibitions, but the 'at all times' wording in those clauses creates real interpretive tension; the bank should obtain an express written ruling rather than assume the override applies."
+  },
+  {
+   "topic": "associates are Cuscal Persons",
+   "clause": "for the purposes section 5 of this Policy only, a spouse (including a de facto spouse), child (including a stepchild or adopted child), a close relative, a person financially dependent on or acting in concert with any of the persons referred to above.",
+   "why_it_matters": "A spouse, family trust or controlled company is itself directly bound by the Trading Window and clearance requirements, so routing the collar or loan through them does not avoid the Policy."
+  },
+  {
+   "topic": "forced sale exemption",
+   "clause": "a disposal of Cuscal Securities that is the result of a secured lender exercising their rights under a loan or security agreement;",
+   "why_it_matters": "A lender's enforcement sale is exempted from the Policy's Trading Window and other restrictions (subject to insider trading law), with only a post-transaction notice to the Authorising Officer required, which favours the bank's enforcement position once the underlying facility is properly established."
+  }
+ ],
+ "summary": "A funded OTC equity collar is achievable over vested, unrestricted Cuscal Securities but not over unvested or holding-locked shares. The put/call legs are a 'Protection Arrangement', banned only in respect of Securities that are unvested or subject to a holding lock; over vested, unrestricted shares this is an ordinary Dealing, permitted with prior written consent from the Authorising Officer inside a Trading Window. The loan leg is more constrained: granting security over vested, unrestricted shares is not itself banned, but Cuscal Persons are separately and absolutely prohibited 'at all times' from entering into any margin lending arrangement involving Cuscal Securities, so the facility needs to be structured, and ideally confirmed with the Authorising Officer, to avoid that characterisation. The Authorising Officer's Exceptional Circumstances discretion to approve 'other Dealings that would otherwise be prohibited by this Policy' may extend to overriding either absolute ban, but this is untested against the 'at all times' wording and should not be assumed. A secured lender's enforcement sale is exempted from the Policy's other restrictions subject to post-transaction notice, which favours the bank once the structure and any required clearances are in place."
+}

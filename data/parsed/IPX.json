@@ -1,0 +1,445 @@
+{
+ "symbol": "IPX",
+ "company": "IperionX Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "May 2024",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees (non-KMP)",
+   "kind": "all_staff",
+   "description": "Any employee or consultant of the Company who is not KMP. May Deal in Company Securities or a Transaction Entity's securities provided they do not know, or ought reasonably to know, of Inside Information. No Closed Period, clearance system, hedging/short-sale ban or margin lending restriction applies to this tier expressly.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "KMP",
+   "kind": "kmp",
+   "description": "Persons having authority and responsibility for planning, directing and controlling the Company's activities, directly or indirectly, including any director (executive or otherwise), CEO, CFO or company secretary, determined under AASB 124. Subject to Closed Periods, mandatory prior clearance for every Dealing, an absolute at-all-times ban on dealing in financial products over the Company's Securities, a ban on hedging/short-sale/short-term dealing, and prior clearance for margin lending.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company (a subset of KMP). Distinguished only by Approving Officer: the chairman of the board approves for directors other than the chairman, and any other two Directors approve for the chairman.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "KMP"
+   ],
+   "start_anchor": "10 Business Days prior to the expected release of announcements regarding material exploration results, mineral resource/reserve estimates, technical studies, sales/production figures, profit/production forecasts, material borrowings, liquidity/cash flow changes, significant operational changes, litigation, M&A/restructures/takeovers, major asset purchases/sales, material new products/technology, or capital raisings (other than KMP participation in the raising itself)",
+   "end_anchor": "2 hours after the actual release of the relevant announcement",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "KMP"
+   ],
+   "start_anchor": "5 Business Days prior to the expected release of quarterly activity/cash flow reports, half year or full year financial results, a disclosure document, a takeover target statement, a bidder's statement, or a scheme booklet",
+   "end_anchor": "2 hours after the actual release of the relevant document",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "hedging",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "14.1",
+   "detail": "Absolute ban on hedging Company Securities for KMP, with no vesting distinction and no clearance route referenced.",
+   "evidence": "A KMP may not deal in Company Securities on considerations of a short-term nature or engage in hedging or short-sale transactions with respect to Company Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Employees (non-KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1",
+   "detail": "Section 14.1's hedging/short-sale ban applies only to KMP. For other Employees, entering into a hedge over Company Securities is an ordinary Deal, permitted provided they do not have Inside Information; no clearance system applies to this tier.",
+   "evidence": "An Employee (who is not a KMP) may Deal in Company Securities or the Securities of a Transaction Entity if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "Absolute, at-all-times ban on KMP dealing in any financial product issued or created over or in respect of the Company's Securities; the only carve-out is an option over unissued capital granted by the Company itself. No clearance mechanism anywhere in the Policy reaches this clause; an OTC put or call is squarely caught with no venue limitation.",
+   "evidence": "KMP are prohibited at all times from Dealing in financial products issued or created over or in respect of the Company's Securities. For the avoidance of doubt this clause does not apply to an option over unissued capital granted by the Company."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees (non-KMP)",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1; definition of Company Securities",
+   "detail": "The 6.3 ban is scoped to KMP only. For other Employees, a financial product over the Company's Securities is simply within the defined 'Company Securities' and dealing in it is an ordinary Deal, permitted absent Inside Information.",
+   "evidence": "Company Securities means all Securities in the Company or a Group member ... (including financial products issued or created over or in respect of the Company's Securities)."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "Clause 6.3 bans ANY financial product dealing by KMP, not only risk-limiting ones, so a prepaid forward or other monetisation structure is caught without needing to characterise it as a hedge.",
+   "evidence": "KMP are prohibited at all times from Dealing in financial products issued or created over or in respect of the Company's Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "14.1",
+   "detail": "Short-sale transactions are named expressly as prohibited for KMP.",
+   "evidence": "A KMP may not deal in Company Securities on considerations of a short-term nature or engage in hedging or short-sale transactions with respect to Company Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Employees (non-KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1",
+   "detail": "No short-selling ban applies to non-KMP; it is an ordinary Deal permitted absent Inside Information.",
+   "evidence": "An Employee (who is not a KMP) may Deal in Company Securities ... if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.3",
+   "detail": "A CFD over Company Securities is a financial product created in respect of them, so is caught by the same absolute clause 6.3 ban for KMP.",
+   "evidence": "KMP are prohibited at all times from Dealing in financial products issued or created over or in respect of the Company's Securities."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employees (non-KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.1",
+   "detail": "Ordinary Deal for non-KMP, permitted absent Inside Information.",
+   "evidence": "An Employee (who is not a KMP) may Deal in Company Securities ... if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.4; 10",
+   "detail": "KMP may enter margin lending or similar arrangements only with prior clearance from the Approving Officer, sought at least 10 Business Days beforehand with all loan documentation provided for review.",
+   "evidence": "KMP are prohibited from entering into margin lending or similar arrangements in respect to Company Securities they hold or in which they have a Relevant Interest without first obtaining prior clearance from the appropriate Approving Officer in accordance with the procedures detailed in Clause 10."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees (non-KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.4",
+   "detail": "Clause 6.4's margin lending restriction is scoped to KMP only; non-KMP Employees are not named and face no special restriction.",
+   "evidence": "KMP are prohibited from entering into margin lending or similar arrangements in respect to Company Securities they hold or in which they have a Relevant Interest without first obtaining prior clearance"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.4; 10",
+   "detail": "Only form of encumbrance addressed is margin lending/similar arrangements, requiring the same 10-business-day prior clearance as margin_lending.",
+   "evidence": "KMP are prohibited from entering into margin lending or similar arrangements in respect to Company Securities they hold or in which they have a Relevant Interest without first obtaining prior clearance from the appropriate Approving Officer"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.4; 10",
+   "detail": "'Margin lending or similar arrangements' extends beyond a strict margin loan to other securities-backed financing, all requiring prior 10-business-day Approving Officer clearance and document review.",
+   "evidence": "KMP are prohibited from entering into margin lending or similar arrangements in respect to Company Securities they hold or in which they have a Relevant Interest without first obtaining prior clearance from the appropriate Approving Officer in accordance with the procedures detailed in Clause 10."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees (non-KMP)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "6.4",
+   "detail": "Not restricted for non-KMP Employees.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "KMP",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "14.1",
+   "detail": "'Considerations of a short-term nature' are banned for KMP; no specific period is defined in the Policy.",
+   "evidence": "A KMP may not deal in Company Securities on considerations of a short-term nature"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Employees (non-KMP)",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.1; 4.1",
+   "evidence": "An Employee (who is not a KMP) may Deal in Company Securities or the Securities of a Transaction Entity if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information"
+  },
+  {
+   "tier": "KMP",
+   "type": "approval",
+   "approver": "Approving Officer: CEO (for a KMP who is not a Director), chairman of the board (for a Director other than the chairman), or any other two Directors (for the chairman)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two Business Days of the Deal occurring",
+   "section": "9; 13",
+   "evidence": "At least 2 Business Days prior to when a KMP intends to Deal in Company Securities, the KMP must first inform the Approving Officer (and at the same time the Company Secretary) by submitting a completed Securities Trading Request Form."
+  },
+  {
+   "tier": "KMP",
+   "type": "approval",
+   "approver": "Approving Officer (same definition as ordinary Dealing clearance)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "",
+   "section": "10",
+   "evidence": "At least 10 Business Days prior to a KMP entering into any margin lending or similar arrangement, the KMP must first seek approval from the Approving Officer to enter into the margin lending or similar arrangement. The KMP must provide a copy of all documents relating to the margin lending arrangements for review by the Approving Officer."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman of the board (for directors other than the chairman); any other two Directors (for the chairman)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two Business Days of the Deal occurring",
+   "section": "9; 13; Schedule 1 (Approving Officer)",
+   "evidence": "for a Director (except the chairman of the board), the chairman of the board; and for the chairman of the board, any other two Directors."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "KMP",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "A KMP may not deal in Company Securities on considerations of a short-term nature"
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of Securities already held into a superannuation fund over which the KMP and its representatives have no discretion or into another non-discretionary saving scheme in which the KMP is a beneficiary"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of Securities where there is no change in beneficial ownership;"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the securities of the entity) where the assets of the fund or other scheme are invested at the sole discretion of a third party;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a KMP is a trustee, trading in Securities by that trust provided the KMP is not a beneficiary of the trust and any decision to trade during a Closed Period is taken by the other trustees or by the investment managers independently of the KMP;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or acceptance of, a takeover offer;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "board (approves the plan/timing)",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the board."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided in accordance with procedures set out in the trading policy ... the trading plan does not permit the KMP to exercise any influence or discretion over how, when, or whether to trade"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "shareholders (approval for the issue)",
+   "evidence": "the issue or grant of Company Securities by the Company to a KMP where shareholder approval for the issue of the Company Securities has been obtained and if Inside Information exists both the Company and KMP are fully aware of the Inside Information."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Approving Officer",
+   "evidence": "severe financial hardship whereby the Employee has a pressing financial commitment that cannot be satisfied otherwise than by selling the relevant Securities."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Approving Officer",
+   "evidence": "The Employee is required by a court order, or there are court enforceable undertakings, for example, in a bona fide family settlement, to transfer or sell the securities of the entity or there is some other overriding legal or regulatory requirement for him or her to do so."
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Approving Officer; Board (via the 'consistent with objectives' test)",
+   "evidence": "An unforeseen circumstance that is considered by the Board to be consistent with the objectives of this Policy."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "KMP; trigger: entry into an approved margin lending or similar arrangement; to: Approving Officer, copy kept and sent to Company Secretary; deadline: written record kept at time of clearance (10.4)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Approving Officer may give clearance during a Closed Period for a KMP to sell (not buy) in Exceptional Circumstances (severe financial hardship, court order, or a Board-endorsed unforeseen circumstance), but never while Inside Information exists (clause 8). No exemption authority anywhere in the Policy reaches the absolute clause 6.3 ban on KMP dealing in financial products over the Company's Securities; that ban has no exception besides company-granted unissued-capital options.",
+ "jurisdiction_overlays": [
+  "U.S. securities law requirements and market best practices regarding insider trading liabilities (recital 1.3(e))"
+ ],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute KMP derivatives ban",
+   "clause": "KMP are prohibited at all times from Dealing in financial products issued or created over or in respect of the Company's Securities. For the avoidance of doubt this clause does not apply to an option over unissued capital granted by the Company.",
+   "why_it_matters": "This stands apart from, and is not curable by, the Policy's clearance regimes for ordinary Dealing or margin lending - there is no route for any KMP (which includes every director and the CEO, CFO and company secretary) to obtain approval for an OTC put, call or collar."
+  },
+  {
+   "topic": "two-tier policy",
+   "clause": "An Employee (who is not a KMP) may Deal in Company Securities ... if he or she does not have information that he or she knows, or ought reasonably to know, is Inside Information.",
+   "why_it_matters": "Employees who are not KMP face no Closed Period, clearance, hedging or margin-lending restriction at all, so a funded collar could in principle be offered to a non-KMP employee subject only to the insider trading law overlay - a materially different (and better) answer than for the executive/director population a bank would typically target."
+  },
+  {
+   "topic": "lender dealing must itself comply",
+   "clause": "the Approving Officer does not believe that there are appropriate arrangements in place between the KMP and the margin lender or financier to enable the KMP to comply with the terms of this Policy and with applicable securities laws, including clause 6.1 if there is any Dealing in any Company Securities by the margin lender or financier;",
+   "why_it_matters": "Clearance for the funding leg can be refused unless the loan documents ensure the bank's own enforcement sale will itself respect Closed Periods and the no-inside-information rule, and there is no stated exception allowing a forced sale to proceed during a Closed Period."
+  },
+  {
+   "topic": "no associate/family extension",
+   "clause": "Relevant Interest A person has a Relevant Interest in securities if they: are the holder of the securities; or have power to exercise ... a right to vote attached to the securities; or have power to dispose of ... the securities.",
+   "why_it_matters": "Unlike most peer policies, there is no express 'associate', 'connected person' or family-member extension - only the KMP's own Relevant Interest is captured - so the Policy's text may not on its face bind a spouse or family trust trading independently, though general securities law would still apply to them."
+  }
+ ],
+ "summary": "For KMP - the population a bank would target, covering every director, the CEO, CFO and company secretary - a funded OTC equity collar is not possible: clause 6.3 imposes an absolute, all-times ban on dealing in any financial product created over the Company's Securities, with no clearance mechanism anywhere in the Policy reaching it (the only carve-out is for company-granted unissued-capital options). The funding leg is separately available in principle: KMP may enter a margin lending or similar secured financing arrangement, but only with the Approving Officer's prior clearance sought at least 10 Business Days ahead and full documentation review, and the Approving Officer must be satisfied the lender's own enforcement dealing will comply with the Closed Period and inside-information rules - meaning a forced sale during a Closed Period is not excused. Even if that funding leg were cleared, the derivative legs remain prohibited outright, so the structure cannot be implemented for any KMP. By contrast, Employees who are not KMP face no Closed Period, clearance system, or hedging/margin-lending restriction at all under this Policy, and could in principle enter a collar subject only to not possessing Inside Information - though this population is unlikely to be relevant to the bank's offering."
+}
