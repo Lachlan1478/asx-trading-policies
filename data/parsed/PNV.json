@@ -1,0 +1,345 @@
+{
+ "symbol": "PNV",
+ "company": "PolyNovo Limited",
+ "title": "Share trading policy",
+ "date_approved": "23 December 2010",
+ "date_effective": "23 December 2010",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Specified person",
+   "kind": "restricted",
+   "description": "All directors and officers of the Company; all employees of the Company; all directors, officers and employees of PolyNovo Biomaterials; in relation to any of those persons, their Family, nominees (including an investment manager), a trust/superannuation fund of which they or Family are trustee/member/beneficiary, persons acting in concert with them, a company they or their Family control, and any entity over which they have control; and any other person notified as a Specified Person by the CEO.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any transaction which would have the effect of hedging or otherwise transferring to any other person the risk of any fluctuation in the value of: (i) shares in the Company which are subject to a restriction on disposal under an employee share or incentive plan; or (ii) options or performance rights (or shares in the Company underlying them) granted under an employee share or incentive plan",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Specified person"
+   ],
+   "start_anchor": "30 June",
+   "end_anchor": "one day after the release of the Company's Annual Financial Results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": [
+    "Specified person"
+   ],
+   "start_anchor": "31 December",
+   "end_anchor": "one day after the release of the Company's Interim Financial Results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Specified person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "12(ii)",
+   "detail": "Any transaction with the effect of hedging options or performance rights granted under an employee share or incentive plan is banned before they vest, regardless of venue; this catches an OTC put/call written against unvested rights.",
+   "evidence": "Employees may not enter into any transaction which would have the effect of hedging or otherwise transferring to any other person the risk of any fluctuation in the value of ... options or performance rights (or shares in the Company underlying them) granted under an employee share or incentive plan."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Specified person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "12(i)",
+   "detail": "The hedging ban extends to shares that have vested but remain subject to a disposal restriction under an employee share or incentive plan, so a collar cannot be written over those shares until the restriction lifts.",
+   "evidence": "Employees may not enter into any transaction which would have the effect of hedging or otherwise transferring to any other person the risk of any fluctuation in the value of: (i) shares in the Company which are subject to a restriction on disposal under an employee share or incentive plan."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Specified person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1(c); 6; 7",
+   "detail": "Once shares are vested and unrestricted, section 12 no longer applies. Granting or accepting an option (or other right/obligation to acquire or dispose of shares) is expressly 'dealing in securities', so writing a call or buying a put over the shares to a bank is dealing in Company Securities requiring prior written request to the Company Secretary and Approving Officer clearance, and cannot occur in a blackout period (absent the narrow disposal-only exemption).",
+   "evidence": "granting, accepting, acquiring, disposing, exercising or discharging an option or other right or obligation to acquire or dispose of securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Specified person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12(ii)",
+   "detail": "Absolute ban on hedging options or performance rights granted under an employee share or incentive plan before they are exercised.",
+   "evidence": "Employees may not enter into any transaction which would have the effect of hedging or otherwise transferring to any other person the risk of any fluctuation in the value of ... options or performance rights (or shares in the Company underlying them) granted under an employee share or incentive plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Specified person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "12(i)",
+   "detail": "Absolute ban on hedging shares that are subject to a disposal restriction under an employee share or incentive plan, whether or not they have technically vested.",
+   "evidence": "Employees may not enter into any transaction which would have the effect of hedging or otherwise transferring to any other person the risk of any fluctuation in the value of: (i) shares in the Company which are subject to a restriction on disposal under an employee share or incentive plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Specified person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 12's hedging ban is expressly confined to unvested or disposal-restricted incentive securities; it does not extend to shares once fully vested and unrestricted.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Specified person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1(b); 6; 7",
+   "detail": "Monetisation instruments (e.g. a prepaid forward) are not named; entering into an agreement to dispose of shares is expressly dealing in securities, requiring the same clearance and blackout compliance as an ordinary sale.",
+   "evidence": "entering into an agreement to apply for, acquire or dispose of, securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Specified person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1(a); 6; 9",
+   "detail": "Short selling is not named. Disposing of securities is dealing whether or not the Specified Person currently owns them, so a short sale of Company Securities requires clearance and blackout compliance, and would also likely fall foul of the section 9 ban on speculative dealing.",
+   "evidence": "applying for, acquiring or disposing of, securities"
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Specified person",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "5.1(c)",
+   "detail": "CFDs are not named. As a cash-settled instrument a CFD may not literally be 'an obligation to acquire or dispose of securities' under 5.1(c), but the safer reading treats a CFD referencing PNV shares as dealing requiring the same clearance and blackout compliance.",
+   "evidence": "granting, accepting, acquiring, disposing, exercising or discharging an option or other right or obligation to acquire or dispose of securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Specified person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "10(f)",
+   "detail": "Margin lending is not named as such; it is one instance of the generic 'secured lender' arrangement addressed in the exceptions clause, which requires the Board to be told before the Specified Person enters into the arrangement.",
+   "evidence": "The board must be made aware of any agreement or rights placed over a Specified Persons Company Securities prior to the person entering into the agreement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Specified person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10(f)",
+   "detail": "Placing any agreement or rights (i.e. security) over a Specified Person's Company Securities in favour of a lender requires the Board to be made aware before the person enters into it; no veto or approval power is stated.",
+   "evidence": "The board must be made aware of any agreement or rights placed over a Specified Persons Company Securities prior to the person entering into the agreement."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Specified person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "express",
+   "floor": "",
+   "section": "10(f)",
+   "detail": "Not limited to margin loans: any secured lending arrangement over Company Securities requires prior Board notification, and the lender's ensuing forced disposal on enforcement is listed as an exception to the whole Policy.",
+   "evidence": "disposal of securities of the Company due to a secured lender exercising their rights. The board must be made aware of any agreement or rights placed over a Specified Persons Company Securities prior to the person entering into the agreement."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Specified person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "9",
+   "detail": "General ban on dealing in Company Securities 'on considerations of a short term or speculative nature'; no defined holding period or months threshold is given.",
+   "evidence": "A Specified Person may not deal in Company Securities on considerations of a short term or speculative nature."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Specified person",
+   "type": "approval",
+   "approver": "Approving Officers (Chief Executive Officer and Chairman of the Board, or in their absence any two Directors), via the Company Secretary",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "",
+   "section": "6; 7",
+   "evidence": "A Specified Person must make a request in writing to the Company Secretary before dealing in Company Securities. The Company Secretary must request clearance from the Approving Officers."
+  },
+  {
+   "tier": "Specified person",
+   "type": "approval",
+   "approver": "Approving Officers",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "11",
+   "evidence": "Any application for an exemption allowing the disposal of Company Securities during a blackout period must be made in writing or electronically by email and be accompanied by a relevant court order or supporting legal, accounting, bank or other independent documentation supporting the Specified Persons claim. Any claim must be approved by the approving officers."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Specified person",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "A Specified Person may not deal in Company Securities on considerations of a short term or speculative nature."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading in a managed securities portfolio where a Specified Person is not in a position to influence a choice of the portfolio"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "trading under a dividend reinvestment plan established by the Company where a Specified Person has given instructions to reinvest dividends"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of securities of the entity already held into a superannuation fund or other saving scheme in which the Specified Person is a beneficiary"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertaking to accept, or the acceptance of a takeover offer"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most security holders, such as a rights issue, security purchase plan or an equal access buyback, where the plan that determines the timing and structure of the offer has been approved by the board"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "Board",
+   "evidence": "disposal of securities of the Company due to a secured lender exercising their rights. The board must be made aware of any agreement or rights placed over a Specified Persons Company Securities prior to the person entering into the agreement."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or right under an employee incentive scheme where the final date for exercise falls during a blackout period, and where the person could not have reasonably been expected to exercise their right at a time where they were free to do so"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Specified person; trigger: prior to entering into any agreement or rights placed over their Company Securities in favour of a lender (inception); to: the Board; deadline: before entering into the agreement"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Approving Officers (Chief Executive Officer and Chairman, or in their absence any two Directors) may approve a disposal-only exemption during a blackout period for severe financial hardship (with no other financial means) or a court order/overriding legal or regulatory requirement, on written or emailed application with supporting documentation. The Board may also vary the Policy at any time in its absolute discretion.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "options sweep in the collar",
+   "clause": "granting, accepting, acquiring, disposing, exercising or discharging an option or other right or obligation to acquire or dispose of securities",
+   "why_it_matters": "Both legs of an OTC collar with a bank are 'dealing in securities' under this limb regardless of whether the option itself is a 'financial product of the Company', so the transaction needs Approving Officer clearance and must sit outside the blackout periods (or fall within the narrow disposal-only exemption)."
+  },
+  {
+   "topic": "hedging ban limited to unvested/restricted holdings",
+   "clause": "Employees may not enter into any transaction which would have the effect of hedging ... the risk of any fluctuation in the value of: (i) shares in the Company which are subject to a restriction on disposal under an employee share or incentive plan; or (ii) options or performance rights ... granted under an employee share or incentive plan.",
+   "why_it_matters": "The absolute hedging ban is confined to unvested or disposal-restricted incentive securities; once shares vest and any disposal restriction lifts, section 12 no longer bars a collar over them, leaving only the general dealing-clearance and blackout regime to satisfy."
+  },
+  {
+   "topic": "secured lender notification, not consent",
+   "clause": "The board must be made aware of any agreement or rights placed over a Specified Persons Company Securities prior to the person entering into the agreement.",
+   "why_it_matters": "The loan leg secured on the collared shares needs only prior Board notification, not Board consent or a veto right, and the lender's eventual enforcement sale is itself exempted from the Policy's dealing and blackout restrictions."
+  },
+  {
+   "topic": "current policy text unavailable",
+   "clause": "This policy was approved and adopted by the board on 23 December 2010.",
+   "why_it_matters": "PolyNovo lodged an 'Updated Share Trading Policy' with the ASX on 30 April 2026, but the full text of that update could not be located (both the ASX filing and the company's investor-hub governance page returned only a cover announcement); this extraction is based on the last full text available (23 December 2010) and must be reconfirmed against the 2026 update before being relied on."
+  }
+ ],
+ "summary": "Based on the last publicly available full text of PolyNovo's Share Trading Policy (adopted 23 December 2010) — the Board-approved 'Updated Share Trading Policy' lodged with the ASX on 30 April 2026 could not be retrieved in full and should be checked before relying on this analysis — a funded collar over vested, unrestricted PolyNovo shares appears achievable subject to clearance. Section 12's absolute hedging ban applies only to shares still subject to a disposal restriction or to options/performance rights under an incentive plan, so it does not bar a collar once shares have vested and any restriction has lifted. However, granting or accepting an option is itself 'dealing in securities' under clause 5.1(c), so both the written call and the purchased put require a prior written request to the Company Secretary and approval by the Approving Officers (CEO and Chairman, or two Directors), and cannot occur during the blackout periods running from 30 June and 31 December until one day after the relevant results release (subject only to a narrow hardship/court-order disposal exemption). The loan secured on the collared shares needs only prior Board notification, not consent, and a lender's forced sale on enforcement is itself excluded from the Policy's dealing and blackout restrictions, making the financing leg comparatively permissive. As the operative document is fifteen years old and its 2026 replacement was unavailable, these terms should be verified against PolyNovo's current Share Trading Policy before the bank finalises structuring."
+}

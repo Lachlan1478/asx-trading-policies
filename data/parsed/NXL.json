@@ -1,0 +1,522 @@
+{
+ "symbol": "NXL",
+ "company": "Nuix Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "18 November 2020",
+ "date_effective": "date of the Company's admission to the Official List of the ASX",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors and employees",
+   "kind": "all_staff",
+   "description": "All Directors and employees (including consultants, secondees and contractors) of the Company and its subsidiaries; baseline tier for insider trading, short-term trading and Prohibited Period rules.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of any company in the Group; distinguished for the additional ASX Appendix filing duty following notification of a Trade.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Employees",
+   "kind": "restricted",
+   "description": "CEO, CFO, Company Secretary, General Counsel, their direct reports, employees involved in preparing the Group's monthly financial reports, and employees nominated by the CEO or Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and Restricted Employees",
+   "kind": "restricted",
+   "description": "Combined tier subject to the Trading Window regime, the margin loan / secured financing approval regime (3.7), and post-trade notification (3.6).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "employees (other than Directors and Restricted Employees)",
+   "kind": "all_staff",
+   "description": "Employees who are neither Directors nor Restricted Employees; subject only to Prohibited Periods (not Trading Windows) and have no post-trade notification duty for ordinary dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Connected Persons",
+   "kind": "associate",
+   "description": "Spouse, de facto partner or children residing with a Director or employee, and companies, trusts or super funds controlled by that Director, employee or their spouse/de facto/children.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Derivatives or other products which operate to limit the economic risk of holding unvested Company Securities or Company Securities subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "Company's year end",
+   "end_anchor": "business day after the release of the Company's full year results to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "Company's half year end",
+   "end_anchor": "business day after the release of the Company's half yearly results to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "business day after the release of the Company's full year results to ASX",
+   "end_anchor": "four weeks after that business day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "business day after the release of the Company's half year results to ASX",
+   "end_anchor": "four weeks after that business day",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors", "Restricted Employees"],
+   "start_anchor": "business day after the Company's Annual General Meeting",
+   "end_anchor": "four weeks after that business day",
+   "duration_days": 28
+  }
+ ],
+ "ad_hoc_blackout_authority": "Board may impose additional Prohibited Periods from time to time (e.g. when considering matters subject to Listing Rule 3.1A) and may extend, shorten or add Trading Windows; changes are communicated by email to Directors and Restricted Employees and take effect immediately on notice. No confidentiality obligation is stated for the fact of the change itself.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule 1 (Securities, Deal, Derivative); 3.4",
+   "detail": "Securities (and therefore Company Securities, being Securities issued by the Company) include Derivatives per s761D - options, forwards, futures, warrants, cash-settled swaps, caps and collars. Dealing in a company-issued derivative is a Trade in Company Securities, permitted outside Prohibited Periods and without inside information; no clearance or notification applies to this baseline tier.",
+   "evidence": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.5; 3.6",
+   "detail": "Same dealing-definition hook, but confined to the four-week Trading Windows and subject to post-trade written notification to the Company Secretary within two business days; Directors additionally trigger an ASX filing.",
+   "evidence": "Directors and Restricted Employees must provide the Company Secretary with subsequent written notification of all Trading in Company Securities within two business days, regardless of whether prior written approval has been given for that Trading."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "Schedule 1 (Company Securities, Securities)",
+   "detail": "Company Securities is defined narrowly as 'Securities issued by the Company'. A third-party derivative referencing Company shares (e.g. a bank-written put or call) is not itself issued by the Company, so on a literal reading it falls outside the Company Securities used in the Trading Window/Prohibited Period restrictions; it remains subject only to the general insider trading prohibition on Trading in 'Securities' (the broader term used in clauses 2 and 3.1) while in possession of inside information.",
+   "evidence": "Company Securities means Securities issued by the Company"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and employees",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Absolute ban on Derivatives or other products limiting the economic risk of holding unvested Company Securities, regardless of tier.",
+   "evidence": "Directors and employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of holding unvested Company Securities or Company Securities subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and employees",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Same absolute ban extends to Company Securities subject to a holding lock (vested but not yet released).",
+   "evidence": "Directors and employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of holding unvested Company Securities or Company Securities subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Clause 3.8 only restricts derivatives/products over unvested or holding-locked Company Securities; hedging of vested, unrestricted Company Securities is not named and falls back to the general Trading Window/Prohibited Period rules for that tier.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule 1 (Deal); 3.5; 3.6",
+   "detail": "A monetisation involving disposal of, or an agreement to dispose of, actual Company shares (e.g. a forward sale) is a Dealing, confined to Trading Windows with post-trade notification.",
+   "evidence": "to Deal in Securities means to apply for, acquire or dispose of Securities, or enter into an agreement to do any of those things"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "Schedule 1 (Company Securities)",
+   "detail": "An OTC monetisation (e.g. a bank total return swap) that does not dispose of the underlying Company Securities and is not itself 'issued by the Company' is not clearly caught, mirroring the Company Securities definitional gap identified for derivatives.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere; only 'short term Trading' (a holding-period concept, clause 3.2) is addressed, which is distinct from short selling.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere and is not part of the Deal definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "CFDs are not named. As OTC contracts written by a third-party provider rather than 'issued by the Company', they would likely fall outside Company Securities and thus outside the Dealing restrictions, though they remain subject to the general insider trading prohibition.",
+   "evidence": ""
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Margin loan or similar funding arrangement to acquire Company Securities, transferring Securities into an existing margin loan account, or selling Securities to satisfy a margin call, all require prior written Designated Officer approval; approval is revocable, refusal is confidential, and material changes plus at least annual disclosure of amount drawn and Securities covered must be reported.",
+   "evidence": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, (which includes transferring Securities into an existing margin loan account, or selling Securities to satisfy a call pursuant to a margin loan) or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "employees (other than Directors and Restricted Employees)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Clause 3.7 is headed 'Directors and Restricted Employees' only; margin lending by employees who are neither Directors nor Restricted Employees is not addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Granting any lender rights over Company Securities (a charge, lien or pledge) requires the same prior written Designated Officer approval as a margin loan, regardless of the purpose of the financing.",
+   "evidence": "or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors and Restricted Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "'Margin loan or similar funding arrangement' together with 'grant lenders any rights over their Company Securities' extends the approval requirement to secured financing generally, not only conventional margin loans; approval is a Designated Officer discretion, revocable, with confidential refusal.",
+   "evidence": "No Director or Restricted Employee may enter into a margin loan or similar funding arrangement to acquire any Company Securities, ... or grant lenders any rights over their Company Securities without first obtaining prior written approval."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "employees (other than Directors and Restricted Employees)",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Secured financing restrictions are limited to Directors and Restricted Employees by the heading of 3.7.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2",
+   "detail": "Acquisition with a view to resale within 6 months, or sale with a view to repurchase within 6 months, is prohibited short-term Trading; carve-out for exercise/conversion of options or rights and subsequent sale of resultant Securities under the Company's employee incentive schemes.",
+   "evidence": "Directors and employees must not engage in short term Trading of Company Securities. In general, the acquisition of Securities with a view to resale within a 6 month period and the sale of Securities with a view to repurchase within a 6 month period would be considered to be transactions of a short term nature."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "notification",
+   "approver": "",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary; also ASX (Appendix filing) via the Company",
+   "post_trade_deadline": "within 2 business days to Company Secretary; Company to file ASX notice within 5 business days of the Trade",
+   "section": "3.6",
+   "evidence": "Directors must provide sufficient details of all Trading to enable the Company to file a notice in accordance with the ASX Listing Rules within 5 business days of the Trade."
+  },
+  {
+   "tier": "Restricted Employees",
+   "type": "notification",
+   "approver": "",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 business days",
+   "section": "3.6",
+   "evidence": "Directors and Restricted Employees must provide the Company Secretary with subsequent written notification of all Trading in Company Securities within two business days, regardless of whether prior written approval has been given for that Trading."
+  },
+  {
+   "tier": "employees (other than Directors and Restricted Employees)",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.4; 3.6",
+   "evidence": "Directors and Restricted Employees must provide the Company Secretary with subsequent written notification of all Trading in Company Securities within two business days"
+  },
+  {
+   "tier": "Directors and employees",
+   "type": "approval",
+   "approver": "Designated Officer",
+   "form": "written",
+   "validity_days": 7,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "3.9; 3.10",
+   "evidence": "Any prior written approval given for Exceptional Circumstances trading will be valid for 7 days from the date it is given. ... if approval to Trade is refused, the person seeking the approval must keep that information confidential and not disclose it to anyone."
+  },
+  {
+   "tier": "Directors and Restricted Employees",
+   "type": "approval",
+   "approver": "Designated Officer",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary; Board (informed at next meeting)",
+   "post_trade_deadline": "material changes as they occur; amount drawn and Securities covered at least annually",
+   "section": "3.7",
+   "evidence": "Approval to enter into a margin loan or similar funding arrangement can be withdrawn if new information comes to light or there is a change in circumstances. The Company's decision to refuse approval is final and binding on the person seeking the approval and if approval ... is refused, the person seeking the approval must keep that information confidential and not disclose it to anyone."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "from acquisition (or from sale, for repurchase); framed as an intention test",
+   "carve_outs": [
+    "Transactions related to the exercise or conversion of options or rights and the subsequent sale of any resultant Securities under the Company's employee incentive schemes"
+   ],
+   "evidence": "Directors and employees must not engage in short term Trading of Company Securities. In general, the acquisition of Securities with a view to resale within a 6 month period and the sale of Securities with a view to repurchase within a 6 month period would be considered to be transactions of a short term nature."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(No change in beneficial ownership) Trades in Company Securities where the Trading does not result in a change of beneficial interest in the Securities."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "(Transfers into a superannuation fund) Transfers of Company Securities already held into a superannuation fund or other saving scheme in which the Director or employee is a beneficiary."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(Investment in fund etc) An investment in, or Trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(Director or employee acting as trustee) Where the Director or employee is a trustee or a director of a corporate trustee, Trading in Company Securities by that trust provided the Director or employee is not a beneficiary of the trust and any decision to Trade is taken by the other trustees or directors or by the investment managers independently of the Director or employee."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "(Accepting a takeover offer) Undertakings to accept, or the acceptance of, a takeover offer, or participation in a scheme of arrangement."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "Board (approves the plan structure/timing)",
+   "evidence": "(Rights issue, security purchase plan, distribution reinvestment plan etc) Trading under an offer or invitation made to all or most of the Company's security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "(Participation in an equity plan) The participation in an equity plan operated by the Company, including the acceptance of any grant or offer under such an equity plan and the associated application for or acquisition of Securities under the equity plan."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "(Exercise of options or rights) The exercise (but not the sale of Securities following exercise or conversion) of an option or a right under an incentive scheme."
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "(Involuntary disposals caused by margin lender) An involuntary disposal of Securities that results from a margin lender or similar financier exercising its rights under a margin loan or similar funding arrangement, entered into with prior approval under this Policy."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "(Share qualifications) The acquisition of shares by a Director of shares to obtain a share qualification."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Designated Officer",
+   "evidence": "(Severe financial hardship): a pressing financial commitment that can only be satisfied by selling the relevant Company Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Designated Officer",
+   "evidence": "(Court order): a requirement to Trade in Company Securities as a result of: (i) a court order; (ii) court enforceable undertakings (eg as part of a bona fide family settlement); or (iii) some other overriding legal or regulatory requirement"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Designated Officer",
+   "evidence": "(Other circumstances): any other circumstances considered exceptional by the Designated Officer."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "yes",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors and Restricted Employees, inception (before entering arrangement), written request to Designated Officer copied to Company Secretary",
+   "Directors and Restricted Employees, material change (e.g. LVR movements from drawdowns or price movements), to Company Secretary, as it occurs",
+   "Directors and Restricted Employees, at least annually, amount drawn and Securities covered, to Company Secretary",
+   "Company Secretary informs the Board at its next meeting of details of all approved margin loan/funding arrangements"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Designated Officer decides Exceptional Circumstances trading approvals (3.9-3.10) and margin loan/secured financing approvals (3.7); decisions are final and binding, given without reasons, and confidential if refused. The Board may impose or lift additional Prohibited Periods and extend/shorten Trading Windows (3.4(c), 3.5(d)).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "Company Securities definitional gap",
+   "clause": "Company Securities means Securities issued by the Company. Derivative has the meaning in section 761D ... includes options, forward contracts, futures, warrants, cash settled swaps, caps and collars.",
+   "why_it_matters": "Because Company Securities is confined to instruments issued by Nuix, a bank-written OTC put/call referencing Nuix shares is arguably not itself 'Company Securities', so the Trading Window, Prohibited Period and margin-loan/secured-financing restrictions (all framed by reference to Company Securities) may not directly bite on the derivative legs of a collar, though the underlying insider trading law and clause 3.8's hedging ban (framed around the shares held, not the instrument's issuer) still apply."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "An involuntary disposal of Securities that results from a margin lender or similar financier exercising its rights under a margin loan or similar funding arrangement, entered into with prior approval under this Policy.",
+   "why_it_matters": "Unlike policies that treat a lender's enforcement sale as a breach, NXL expressly excludes an involuntary sale by a properly pre-approved secured financier from the Trading Window/Prohibited Period restrictions, so a bank enforcing security under a pre-cleared collar loan would not itself put the executive in breach."
+  },
+  {
+   "topic": "unreviewable, confidential refusal",
+   "clause": "The Company's decision to refuse approval is final and binding on the person seeking the approval and if approval to enter into a margin loan or similar funding arrangement is refused, the person seeking the approval must keep that information confidential and not disclose it to anyone.",
+   "why_it_matters": "If the Designated Officer declines to approve the collar's secured loan, there is no appeal, and the executive cannot disclose the refusal (including, on a strict reading, to the bank) which complicates deal negotiation and any explanation for withdrawing from a term sheet."
+  },
+  {
+   "topic": "ongoing financing disclosure",
+   "clause": "The Directors and Restricted Employees must inform the Company Secretary of any material change in their margin loan or similar funding arrangements e.g. movements in the LVR occasioned by drawdowns or price movements, and at least annually, of the amount drawn and Securities covered.",
+   "why_it_matters": "A funded collar's loan-to-value ratio moving with the put/call value would need to be reported to the Company Secretary as a material change, and the facility amount and shares covered must be disclosed at least annually, creating an ongoing compliance channel between the executive, the Company and (indirectly) the bank."
+  },
+  {
+   "topic": "tax liability excluded from hardship",
+   "clause": "A tax liability relating to Securities received under an employee incentive scheme would also not normally constitute severe financial hardship or otherwise be considered an exceptional circumstance for the purpose of obtaining proper written approval to sell or otherwise dispose of Securities due to Exceptional Circumstances.",
+   "why_it_matters": "An executive cannot rely on the Exceptional Circumstances gateway to justify entering a collar or selling shares primarily to fund tax on vesting equity, narrowing the practical urgency arguments available if ordinary windows are closed."
+  }
+ ],
+ "summary": "A funded collar is difficult but not entirely foreclosed under this policy, and turns on a genuine definitional gap. The put/call derivative legs, if treated as Dealings in Company Securities, would be permitted for Directors and Restricted Employees only within the quarterly-plus Trading Windows and outside any Board-imposed additional Prohibited Period, with post-trade notification to the Company Secretary within two business days and no inside information; other employees need only avoid Prohibited Periods. However, Company Securities is defined narrowly as securities issued by the Company, so a third-party bank-written derivative arguably falls outside that definition and the Trading Window regime altogether (subject only to the general insider trading law), a point a cautious bank should not rely on without company sign-off. The loan leg is squarely caught: clause 3.7 requires prior written Designated Officer approval before any Director or Restricted Employee enters a margin loan or similar funding arrangement or grants a lender any rights over Company Securities, with revocable, unreviewable and confidentially-refusable approval, ongoing LVR/material-change reporting, and at least annual disclosure of amount drawn and securities covered. Favourably, a lender's involuntary enforcement sale under a pre-approved facility is an excluded Dealing even during a closed period or outside the Trading Window. Hedging derivatives over unvested or holding-locked shares are banned outright, so the collar could only be written over vested, unrestricted shares, and cannot rely on tax liability alone as an Exceptional Circumstances justification to trade outside a window."
+}
