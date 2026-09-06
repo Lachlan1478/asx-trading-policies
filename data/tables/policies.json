@@ -190666,6 +190666,585 @@
   ],
   "summary": "A funded collar is not available to a director or senior executive (Designated Personnel) under this policy. Section 4.3 imposes two independent, unconditional bans: dealing in any financial product issued or created over the Securities by a third party, and entering any transaction that limits the economic risk of the securityholding \u2014 both apply regardless of vesting state, have no clearance path, and are not relieved by any of the section 7 Exempt Transactions. The loan leg is separately blocked by the section 3.2 ban on margin lending arrangements in relation to the Securities, which binds all employees and directors and is reasoned on a forced-sale-while-holding-inside-information rationale that would likely extend to any bank loan secured on the collared shares even though only 'margin lending' is named. Even setting aside sections 3.2 and 4.3, any dealing during a Prohibited Period (two weeks before annual, half-year or quarterly results, or as otherwise declared by the Board) needs prior written clearance from the Chairperson (or the Audit and Risk Committee Chair), must complete within 7 days, and Designated Personnel must give the Company Secretary written confirmation within 3 days of dealing. No exemption authority can override the section 3.2 or 4.3 bans; the only relief is the Board's power to designate further exempt transactions or the Chairperson's narrow exceptional-circumstances (severe hardship, sale-only) approval, neither of which accommodates a collar or its financing."
  },
+ "SST": {
+  "symbol": "SST",
+  "company": "Steamships Trading Company Limited",
+  "title": "Securities Trading Policy (Appendix G to the Code of Conduct)",
+  "date_approved": "",
+  "date_effective": "May 2026",
+  "date_lodged": "25 May 2026",
+  "date_next_review": "",
+  "tiers": [
+   {
+    "name": "Relevant Persons",
+    "kind": "all_staff",
+    "description": "All employees, officers and directors of Steamships Trading Company Limited and its subsidiaries. Subject to the absolute insider trading prohibitions, the Blackout Period ban, and the Company Secretary notification procedure for Dealings.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Director",
+    "kind": "director",
+    "description": "All persons holding the office of Director of any STC Group member. In addition to the Relevant Persons rules, bound by the absolute short-term trading and hedging bans (Rule A.8) and confined to Dealing within Trading Windows, with prior written notification to the Chairman (or delegate) within a window and prior written consent from the Chairman outside one.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Chairman",
+    "kind": "director",
+    "description": "The Chairman of the STC Board; a Director whose own Trading Window notification or outside-window consent must instead be given by the Chair of the Audit and Risk Committee.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Senior Executive",
+    "kind": "kmp",
+    "description": "Any Executive Director, Divisional Director, first-level report to those positions, or other person designated a Senior Executive by the Chairman and/or Managing Director. Bound by the same Rule A.8 restrictions as Directors, with the Managing Director (or nominee, the Company Secretary) as the notification/consent officer.",
+    "includes_associates": "yes"
+   },
+   {
+    "name": "Connected Person",
+    "kind": "associate",
+    "description": "Any family member or relative of a Relevant Person, and any company controlled by a Relevant Person or a family member of a Relevant Person. Dealings by a Connected Person are treated as the Relevant Person's own dealings.",
+    "includes_associates": "not_addressed"
+   }
+  ],
+  "definitions": {
+   "dealing_covers_derivatives": "yes",
+   "dealing_covers_agreements_to_deal": "yes",
+   "dealing_covers_encumbrance": "yes",
+   "dealing_covers_stock_lending": "not_addressed",
+   "dealing_covers_change_of_beneficial_ownership": "yes",
+   "securities_include_otc_derivatives": "yes",
+   "hedging_definition": "transactions or arrangements in products which operate to limit the economic risk in STC's Securities held by a Director or Senior Executive e.g. hedging",
+   "substance_over_form": "not_addressed"
+  },
+  "windows": [
+   {
+    "kind": "open",
+    "applies_to": [
+     "Director",
+     "Senior Executive"
+    ],
+    "start_anchor": "the second business day (not including the day of the trigger event) after the date of STC's AGM",
+    "end_anchor": "6 weeks after that second business day",
+    "duration_days": 42
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Director",
+     "Senior Executive"
+    ],
+    "start_anchor": "the second business day (not including the day of the trigger event) after release of the half-yearly results announcement to PNGX and ASX",
+    "end_anchor": "6 weeks after that second business day",
+    "duration_days": 42
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Director",
+     "Senior Executive"
+    ],
+    "start_anchor": "the second business day (not including the day of the trigger event) after release of the full year results announcement to PNGX and ASX",
+    "end_anchor": "6 weeks after that second business day",
+    "duration_days": 42
+   },
+   {
+    "kind": "open",
+    "applies_to": [
+     "Director",
+     "Senior Executive"
+    ],
+    "start_anchor": "commencement of the offer period specified under a disclosure document (e.g. a prospectus or product disclosure statement) released by Steamships",
+    "end_anchor": "end of that offer period",
+    "duration_days": null
+   },
+   {
+    "kind": "closed",
+    "applies_to": [
+     "all"
+    ],
+    "start_anchor": "close of trading on 30 June each year",
+    "end_anchor": "commencement of the trading window on the second business day after the release of the half-yearly results announcement to PNGX and ASX",
+    "duration_days": null
+   },
+   {
+    "kind": "closed",
+    "applies_to": [
+     "all"
+    ],
+    "start_anchor": "close of trading on 31 December each year",
+    "end_anchor": "commencement of the trading window on the second business day after the release of the full year results announcement to PNGX and ASX",
+    "duration_days": null
+   },
+   {
+    "kind": "closed",
+    "applies_to": [
+     "all"
+    ],
+    "start_anchor": "four weeks before the AGM",
+    "end_anchor": "one day after the AGM",
+    "duration_days": 29
+   }
+  ],
+  "ad_hoc_blackout_authority": "The Board may determine any other period to be a Blackout Period, notified to Directors and Senior Executives. The Board may also declare an additional Trading Window following release of price-sensitive information that in the Board's opinion ensures the market is fully informed, or any other period notified in writing by the Company Secretary. Confidentiality of these determinations is not addressed.",
+  "rules": [
+   {
+    "topic": "derivatives",
+    "tier": "Relevant Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Interpretation (Dealing); Control Guideline point 4",
+    "detail": "Dealing is expressly defined to include the grant, acceptance, acquisition, disposal, exercise or discharge of any option (whether call, put or both), present or future, conditional or unconditional. A Relevant Person may deal subject only to notifying the Company Secretary before and after, outside any Blackout Period and without Inside Information.",
+    "evidence": "the grant, acceptance, acquisition, disposal, transfer, exercise or discharge of any option (whether call, put or both) or other right or obligation, present or future, conditional or unconditional, to acquire, dispose of or transfer securities, or any interest in securities, of the STC Group"
+   },
+   {
+    "topic": "derivatives",
+    "tier": "Director",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Rule 3; Rule 13",
+    "detail": "Directors and Senior Executives may only Deal (including in options/derivatives) within a Trading Window, with prior written notification to the Chairman; outside a Trading Window they must not transact without the Chairman's prior written consent, which is generally refused absent special circumstances.",
+    "evidence": "outside a Trading Window, a Director or Senior Executive must not transact in Steamships securities or engage in transactions or arrangements in risk limiting products without the prior written consent"
+   },
+   {
+    "topic": "hedging",
+    "tier": "Director",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Rule A.8(ii)",
+    "detail": "Absolute, unconditional ban on any transaction or arrangement that limits the economic risk of a Director's or Senior Executive's STC Securities, irrespective of Trading Window timing; no clearance route or exemption stated.",
+    "evidence": "must not engage in transactions or arrangements in products which operate to limit the economic risk in STC's Securities held by a Director or Senior Executive e.g. hedging"
+   },
+   {
+    "topic": "hedging",
+    "tier": "Senior Executive",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Rule A.8(ii)",
+    "detail": "Same absolute ban applies to Senior Executives as to Directors.",
+    "evidence": "must not engage in transactions or arrangements in products which operate to limit the economic risk in STC's Securities held by a Director or Senior Executive e.g. hedging"
+   },
+   {
+    "topic": "hedging",
+    "tier": "Relevant Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "The Rule A.8(ii) hedging ban applies only to Directors and Senior Executives; no equivalent restriction is stated for other Relevant Persons.",
+    "evidence": ""
+   },
+   {
+    "topic": "monetisation",
+    "tier": "Director",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "via_hedging_definition",
+    "floor": "",
+    "section": "Rule A.8(ii)",
+    "detail": "Monetisation is not named, but any transaction or arrangement (including a prepaid forward) that operates to limit the economic risk of holding STC Securities is caught by the absolute Rule A.8(ii) ban.",
+    "evidence": "must not engage in transactions or arrangements in products which operate to limit the economic risk in STC's Securities held by a Director or Senior Executive e.g. hedging"
+   },
+   {
+    "topic": "monetisation",
+    "tier": "Relevant Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "Interpretation (Dealing); Control Guideline point 4",
+    "detail": "A prepaid forward or similar monetisation is an agreement to dispose of, or create an interest over, Securities, and so a Dealing subject to Company Secretary notification, outside any Blackout Period.",
+    "evidence": "any agreements to do any of the foregoing, and \"deal\" shall be construed accordingly."
+   },
+   {
+    "topic": "short_selling",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Short selling is not named anywhere in the Policy.",
+    "evidence": ""
+   },
+   {
+    "topic": "stock_lending",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "Securities lending is not named anywhere and is not included in the Dealing definition.",
+    "evidence": ""
+   },
+   {
+    "topic": "cfd",
+    "tier": "Relevant Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "Interpretation (Securities, Dealing)",
+    "detail": "CFDs are not named but are a derivative-type financial product; Securities expressly includes derivatives and products directly associated with a proposed transaction involving the Group, so dealing in a CFD is a Dealing subject to notification.",
+    "evidence": "Includes shares (ordinary shares and reset preference shares), options, rights, convertible notes, derivatives and any other financial product able to be traded on PNGX and/or ASX or another stock exchange, whether or not such securities are created by the STC Group or issued or created by or directly associated with any proposed transaction involving the STC Group (including margin lending or collars)."
+   },
+   {
+    "topic": "cfd",
+    "tier": "Director",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "Rule 13",
+    "detail": "Subject to the ordinary Trading Window notification / outside-window consent regime; if the CFD is used to limit the economic risk of an existing STC shareholding it would instead be caught by the absolute Rule A.8(ii) hedging ban.",
+    "evidence": "outside a Trading Window, a Director or Senior Executive must not transact in Steamships securities or engage in transactions or arrangements in risk limiting products without the prior written consent"
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "Director",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Rule A.8(iii)(b)",
+    "detail": "Directors and Senior Executives may enter a margin lending arrangement only if they have complied with the Code, in particular the Rule A.8(ii) restriction on risk-limiting products; entering the arrangement is itself a Dealing (creation of a security interest) requiring Trading Window timing and Chairman/Managing Director notification or consent.",
+    "evidence": "enter into a margin lending arrangement only if they have compiled with this Code (in particular, in regards to restrictions on transactions in products which operate to limit the economic risk of holding STC's Securities)"
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "Senior Executive",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_clearance",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Rule A.8(iii)(b)",
+    "detail": "Same conditional permission applies to Senior Executives, via the Managing Director as notification/consent officer.",
+    "evidence": "enter into a margin lending arrangement only if they have compiled with this Code (in particular, in regards to restrictions on transactions in products which operate to limit the economic risk of holding STC's Securities)"
+   },
+   {
+    "topic": "margin_lending",
+    "tier": "Relevant Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "via_dealing_definition",
+    "floor": "",
+    "section": "Interpretation (Dealing); Control Guideline point 4",
+    "detail": "Margin lending is not separately named for this tier, but creating a pledge, charge or security interest over Securities is expressly a Dealing, so it is permitted subject to Company Secretary notification and the Blackout Period ban.",
+    "evidence": "creation of pledge, charge or any other security interest in, any securities of STC"
+   },
+   {
+    "topic": "encumbrance",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Interpretation (Dealing)",
+    "detail": "Granting a pledge, charge or any other security interest over Securities is expressly a Dealing, so it is permitted subject to the applicable notification (Relevant Persons) or notification/consent (Directors and Senior Executives) regime and the Blackout Period ban.",
+    "evidence": "Means any acquisition, disposal or transfer of, or offer to acquire, dispose of or transfer, or creation of pledge, charge or any other security interest in, any securities of STC"
+   },
+   {
+    "topic": "secured_financing",
+    "tier": "all",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "permitted_with_notification",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Interpretation (Dealing, Securities)",
+    "detail": "Not limited to conventional margin loans: the Dealing definition catches creation of any security interest, and the Securities definition expressly contemplates products 'directly associated with any proposed transaction involving the STC Group (including margin lending or collars)'. A bank loan secured on the collared shares is therefore a Dealing permitted subject to the Policy's timing and notification/consent requirements, not an outright ban.",
+    "evidence": "issued or created by or directly associated with any proposed transaction involving the STC Group (including margin lending or collars)"
+   },
+   {
+    "topic": "short_term",
+    "tier": "Director",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Rule A.8(i)",
+    "detail": "Absolute ban on purchasing Securities with a view to re-selling within 12 months, or selling with a view to re-purchasing within 12 months.",
+    "evidence": "are prohibited from engaging in any short term trading of Securities, including purchasing of Securities with a view to re-selling such Securities within a 12 month period, or the sale of Securities with a view to re-purchase such Securities within a 12 month period"
+   },
+   {
+    "topic": "short_term",
+    "tier": "Senior Executive",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "prohibited",
+    "mechanism": "express",
+    "floor": "",
+    "section": "Rule A.8(i)",
+    "detail": "Same 12-month short-term trading ban applies to Senior Executives.",
+    "evidence": "are prohibited from engaging in any short term trading of Securities, including purchasing of Securities with a view to re-selling such Securities within a 12 month period, or the sale of Securities with a view to re-purchase such Securities within a 12 month period"
+   },
+   {
+    "topic": "short_term",
+    "tier": "Relevant Persons",
+    "security_state": "any",
+    "venue": "any",
+    "answer": "not_addressed",
+    "mechanism": "none",
+    "floor": "",
+    "section": "",
+    "detail": "The Rule A.8(i) short-term trading ban applies only to Directors and Senior Executives.",
+    "evidence": ""
+   }
+  ],
+  "clearance": [
+   {
+    "tier": "Relevant Persons",
+    "type": "notification",
+    "approver": "Company Secretary",
+    "form": "unspecified",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Company Secretary",
+    "post_trade_deadline": "once the Dealing is complete (no fixed number of days stated)",
+    "section": "Control Guideline point 4",
+    "evidence": "The Company Secretary must be notified of a proposed Dealing before it occurs. The Company Secretary will acknowledge the notification. The Company Secretary must be provided with details of the Dealing or transaction once the Dealing is complete."
+   },
+   {
+    "tier": "Director",
+    "type": "notification",
+    "approver": "Chairman of the Board (or his or her delegate)",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Company Secretary",
+    "post_trade_deadline": "",
+    "section": "Rule 13(i)(a)",
+    "evidence": "during a Trading Window, prior written notification must be given to: in the case of a Director \u2013 of the Chairman of the Board or his or her delegate"
+   },
+   {
+    "tier": "Director",
+    "type": "approval",
+    "approver": "Chairman of the Board (or his or her delegate)",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Company Secretary",
+    "post_trade_deadline": "",
+    "section": "Rule 13(ii)(a); Rule 14",
+    "evidence": "outside a Trading Window, a Director or Senior Executive must not transact in Steamships securities or engage in transactions or arrangements in risk limiting products without the prior written consent ... The Chairman ... will generally refuse consent ... during a Blackout Period unless special circumstances exist"
+   },
+   {
+    "tier": "Chairman",
+    "type": "approval",
+    "approver": "Chair of the Audit and Risk Committee",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Company Secretary",
+    "post_trade_deadline": "",
+    "section": "Rule 13(i)(b); (ii)(b)",
+    "evidence": "in the case of the Chairman \u2013 the Chair of the Audit and Risk Committee"
+   },
+   {
+    "tier": "Senior Executive",
+    "type": "notification",
+    "approver": "Managing Director (or his or her nominee, the Company Secretary)",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Company Secretary",
+    "post_trade_deadline": "",
+    "section": "Rule 13(i)(c)",
+    "evidence": "in the case of Senior Executive \u2013 of the Managing Director (or his or her nominee, the Company Secretary)"
+   },
+   {
+    "tier": "Senior Executive",
+    "type": "approval",
+    "approver": "Managing Director (or his or her nominee, the Company Secretary)",
+    "form": "written",
+    "validity_days": null,
+    "response_sla_days": null,
+    "revocable": "not_addressed",
+    "conditions_allowed": "not_addressed",
+    "refusal_confidential": "not_addressed",
+    "covers_derivatives": "implied",
+    "post_trade_to": "Company Secretary",
+    "post_trade_deadline": "",
+    "section": "Rule 13(ii)(c); Rule 14",
+    "evidence": "The Chairman, Chair of the Audit and Risk Committee, Managing Director or Company Secretary (as applicable) will generally refuse consent for a Director or Senior Executive to apply for, buy or sell STC Securities or enter into transactions or arrangements in risk limiting products during a Blackout Period unless special circumstances exist"
+   }
+  ],
+  "short_term": [
+   {
+    "tier": "Director",
+    "type": "holding_period",
+    "months": 12,
+    "basis": "from acquisition or sale (round trip)",
+    "carve_outs": [],
+    "evidence": "purchasing of Securities with a view to re-selling such Securities within a 12 month period, or the sale of Securities with a view to re-purchase such Securities within a 12 month period"
+   },
+   {
+    "tier": "Senior Executive",
+    "type": "holding_period",
+    "months": 12,
+    "basis": "from acquisition or sale (round trip)",
+    "carve_outs": [],
+    "evidence": "purchasing of Securities with a view to re-selling such Securities within a 12 month period, or the sale of Securities with a view to re-purchase such Securities within a 12 month period"
+   }
+  ],
+  "exceptions": [
+   {
+    "kind": "other",
+    "scope": "acquisition_only",
+    "approver": "",
+    "evidence": "taking up of entitlements under a rights issue, bonus issue, capitalisation issue or other offer made by STC to holders of its Securities (including an offer of shares in lieu of a cash dividend) but, for the avoidance of doubt, applying for excess shares in a rights issue or applying for shares in excess of an assured allotment in an open offer is a Dealing"
+   },
+   {
+    "kind": "other",
+    "scope": "specific_dealing",
+    "approver": "",
+    "evidence": "allowing entitlements to lapse under a rights issue or other offer made by the STC Group to holders of its Securities (including an offer of shares in lieu of a cash dividend)"
+   },
+   {
+    "kind": "takeover",
+    "scope": "sale_only",
+    "approver": "",
+    "evidence": "undertakings to accept, or the acceptance of, a general offer for shares in the STC Group made to shareholders other than those that are concert parties (as defined under the takeovers codes) of the offer"
+   },
+   {
+    "kind": "plan_dealing",
+    "scope": "acquisition_only",
+    "approver": "",
+    "evidence": "exercise of share options or warrants or acceptance of an offer for shares pursuant to an agreement entered into with the STC Group before a period during which a Dealing is prohibited under this Code at the pre-determined exercise price"
+   },
+   {
+    "kind": "no_change_beneficial_interest",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "Dealing where the beneficial interest or interests in the relevant Security of the listed issuer do not change"
+   },
+   {
+    "kind": "other",
+    "scope": "specific_dealing",
+    "approver": "",
+    "evidence": "Dealing where a shareholder places out his or her existing shares in a \"top-up\" placing where the number of new shares subscribed by him or her pursuant to an irrevocable, binding obligation equals the number of existing shares placed out and the subscription price (after expenses) is the same as the price at which the existing shares were placed out"
+   },
+   {
+    "kind": "other",
+    "scope": "specific_dealing",
+    "approver": "",
+    "evidence": "Dealing where the beneficial ownership is transferred from another party by operation of law"
+   },
+   {
+    "kind": "plan_dealing",
+    "scope": "any_dealing",
+    "approver": "",
+    "evidence": "any Securities acquired or disposed of under any employee equity or incentive plan of the STC Group"
+   },
+   {
+    "kind": "hardship",
+    "scope": "sale_only",
+    "approver": "Chairman (Directors); Managing Director (other Relevant Persons); Chair of the Audit and Risk Committee (Chairman)",
+    "evidence": "An example of the type of circumstances which may be considered exceptional for such purposes would be a pressing financial commitment on the part of the Relevant Person that cannot otherwise be satisfied."
+   }
+  ],
+  "financing": {
+   "secured_financing_scope": "any_secured_financing",
+   "unvested_as_collateral": "not_addressed",
+   "transfer_into_margin_account_is_dealing": "yes",
+   "forced_sale_in_closed_period": "not_addressed",
+   "margin_call_sale_needs_clearance": "not_addressed",
+   "price_trigger_guidance": "",
+   "financing_disclosure": [
+    "Director or Senior Executive; trigger: entering a margin lending arrangement or otherwise granting security over Securities (itself a Dealing); to whom: Chairman (Directors), Managing Director or Company Secretary nominee (Senior Executives), or Chair of the Audit and Risk Committee (Chairman); deadline: prior written notification within a Trading Window or prior written consent outside one, plus details to the Company Secretary once complete"
+   ],
+   "transfer_to_custodian_is_dealing": "not_addressed",
+   "minimum_shareholding_requirement": ""
+  },
+  "external_documents": [
+   "Code of Conduct (main body, of which this Securities Trading Policy is Appendix G)",
+   "1.03 Conflict of Interest Procedure",
+   "1.02 Whistleblowing Procedure"
+  ],
+  "exemption_authority": "Limited to the Chairman's, Managing Director's, or Audit and Risk Committee Chair's power (as applicable to the Relevant Person's role) to give prior written consent to deal outside a Trading Window or during a Blackout Period in special or exceptional circumstances (Rules 14-15, e.g. a pressing financial commitment that cannot otherwise be satisfied); such consent is 'generally' refused absent those circumstances. The Board may also declare further Trading Windows or additional Blackout Periods. There is no exemption from the absolute Rule A.8(ii) prohibition on risk-limiting/hedging transactions for Directors and Senior Executives.",
+  "jurisdiction_overlays": [
+   "PNGX Listing Rules (dual ASX/PNGX listing)",
+   "Papua New Guinea securities trading and market misconduct laws"
+  ],
+  "bespoke_clauses": [
+   {
+    "topic": "collars named in Securities definition",
+    "clause": "Securities... Includes shares (ordinary shares and reset preference shares), options, rights, convertible notes, derivatives and any other financial product able to be traded on PNGX and / or ASX or another stock exchange, whether or not such securities are created by the STC Group or issued or created by or directly associated with any proposed transaction involving the STC Group (including margin lending or collars).",
+    "why_it_matters": "This is an unusually explicit textual hook: the Policy expressly names 'collars' and 'margin lending' as within-scope transactions, closing off any argument that a bespoke bank-issued OTC collar or secured loan falls outside the definition merely because it is not itself listed or exchange-tradable."
+   },
+   {
+    "topic": "encumbrance expressly a Dealing",
+    "clause": "Means any acquisition, disposal or transfer of, or offer to acquire, dispose of or transfer, or creation of pledge, charge or any other security interest in, any securities of STC or any entity whose assets solely or substantially comprise securities of STC...",
+    "why_it_matters": "Granting security over the collared shares to the bank is expressly a 'Dealing' in its own right, triggering the full Blackout Period/Trading Window and notification/consent regime for that step alone, separately from the derivative legs."
+   },
+   {
+    "topic": "absolute hedging ban for Directors/Senior Executives",
+    "clause": "must not engage in transactions or arrangements in products which operate to limit the economic risk in STC's Securities held by a Director or Senior Executive e.g. hedging",
+    "why_it_matters": "Regardless of Trading Window timing, Directors and Senior Executives are absolutely prohibited from any transaction or arrangement that limits the economic risk of their STC shareholding, which independently bars the put/call legs of a collar for this tier with no clearance route at all."
+   },
+   {
+    "topic": "margin lending conditionally permitted",
+    "clause": "enter into a margin lending arrangement only if they have compiled with this Code (in particular, in regards to restrictions on transactions in products which operate to limit the economic risk of holding STC's Securities)",
+    "why_it_matters": "Unlike peer policies with an outright margin-lending ban, STC expressly contemplates Directors/Senior Executives entering margin lending arrangements provided they otherwise comply with the Code, so the loan leg is not itself prohibited \u2014 though it cannot be paired with a risk-limiting derivative given the absolute hedging ban."
+   },
+   {
+    "topic": "consent generally refused outside window",
+    "clause": "The Chairman, Chair of the Audit and Risk Committee, Managing Director or Company Secretary (as applicable) will generally refuse consent for a Director or Senior Executive to apply for, buy or sell STC Securities or enter into transactions or arrangements in risk limiting products during a Blackout Period unless special circumstances exist.",
+    "why_it_matters": "Outside a Trading Window (and during any Blackout Period), consent to deal is generally refused absent special circumstances such as financial hardship, so execution timing for any permitted leg (e.g. the loan) is effectively confined to the 6-week Trading Windows following results announcements or the AGM."
+   },
+   {
+    "topic": "Connected Person and trustee sweep",
+    "clause": "The restrictions on Dealings by a Relevant Person contained in this Code will be regarded as equally applicable to any dealings by the Relevant Person's Connected Person. It is the duty of the Relevant Person, therefore, to seek to avoid any such Dealing at a time when he or she is not free to deal.",
+    "why_it_matters": "Routing the collar or loan through a family member, controlled company or discretionary trust does not avoid the Code: dealings by a Connected Person are treated as the Relevant Person's own."
+   }
+  ],
+  "summary": "A funded collar cannot be implemented in full for a Director or Senior Executive: Rule A.8(ii) imposes an absolute, unconditional ban on any transaction or arrangement that limits the economic risk of their STC shareholding, and the Policy expressly anticipates 'collars' as exactly this kind of product by naming them in the Securities definition, with no vesting-state carve-out and no clearance route. The loan leg is comparatively workable: Rule A.8(iii)(b) expressly permits Directors and Senior Executives to enter margin lending arrangements provided they otherwise comply with the Code, and granting security over the shares is itself a 'Dealing' (an express limb of the Dealing definition) subject to the ordinary Trading Window/notification-and-consent regime rather than a ban. In practice, a secured loan against vested shares could be arranged within one of the 6-week Trading Windows following the AGM or half-year/full-year results, with prior written notification to the Chairman (Directors) or Managing Director (Senior Executives), or with their prior written consent outside a window (which is 'generally' refused absent special circumstances such as financial hardship) \u2014 but the put and call legs cannot be added without breaching the absolute hedging ban. Ordinary employees who are not Directors or Senior Executives face a lighter, notification-only regime under the Control Guideline and are not subject to the Rule A.8(ii) hedging ban, so a full collar and its financing could in principle proceed for that tier subject to Company Secretary notification and Blackout Period timing. Overall, for the bank's likely target counterparties (directors and senior executives), only an unhedged, secured loan is achievable under this Policy."
+ },
  "BRN": {
   "symbol": "BRN",
   "company": "BrainChip Holdings Ltd",
