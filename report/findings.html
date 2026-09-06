@@ -35,6 +35,12 @@ code{font-size:13px;background:var(--grid);padding:1px 5px;border-radius:4px}
 
 <div class="tiles" id="tiles"></div>
 
+<h2>Policy-level verdict</h2>
+<div class="card"><h3>Can a senior insider do a loan-funded collar?</h3><p class="sub">Computed from the extracted rules for director, KMP and restricted-person tiers, not from model prose. "Workable" means nothing in the policy blocks it; clearance and window timing still apply. "Unclear" means the policy addresses neither hedging nor derivatives and its dealing definition does not reach them.</p><div id="c-funded"></div><details><summary>Table view</summary><div id="t-funded"></div></details></div>
+
+<h2>What the rules say, topic by topic</h2>
+<div class="card"><h3>Rules on vested, unrestricted shares</h3><p class="sub">Rules whose security state is "vested unrestricted" or "any", all tiers. Each rule is one company, tier and security state, so a company can contribute several rules per topic. Colour identifies the answer; hover any segment for the count.</p><div class="legend" id="lg-topics"></div><div id="c-topics"></div><details><summary>Table view</summary><div id="t-topics"></div></details></div>
+
 <h2>Headline</h2>
 <ul>
 <li><b>The loan leg is banned outright in 144 policies</b> for directors and senior executives: 90 ban any secured financing over the shares (or any financing "in respect of" them) and 54 ban margin lending specifically. A further 157 allow it with clearance, 46 with notification or freely, and 106 are silent. Where the rules do reach financing, most (272 policies) reach any secured arrangement, not just margin loans, whether the treatment is a ban or a clearance.</li>
@@ -45,12 +51,7 @@ code{font-size:13px;background:var(--grid);padding:1px 5px;border-radius:4px}
 <li><b>Substance-over-form clauses appear in 86 policies</b>, which is the main reason a loan without margin-call features cannot be assumed to escape a "margin lending" ban.</li>
 </ul>
 
-<h2>Policy-level verdict</h2>
-<div class="card"><h3>Can a senior insider do a loan-funded collar?</h3><p class="sub">Computed from the extracted rules for director, KMP and restricted-person tiers, not from model prose. "Workable" means nothing in the policy blocks it; clearance and window timing still apply. "Unclear" means the policy addresses neither hedging nor derivatives and its dealing definition does not reach them.</p><div id="c-funded"></div><details><summary>Table view</summary><div id="t-funded"></div></details></div>
-
-<h2>What the rules say, topic by topic</h2>
-<div class="card"><h3>Rules on vested, unrestricted shares</h3><p class="sub">Rules whose security state is "vested unrestricted" or "any", all tiers. Each rule is one company, tier and security state, so a company can contribute several rules per topic. Colour identifies the answer; hover any segment for the count.</p><div class="legend" id="lg-topics"></div><div id="c-topics"></div><details><summary>Table view</summary><div id="t-topics"></div></details></div>
-
+<h2>The funding leg</h2>
 <div class="card"><h3>Funding leg: is a loan secured on the shares allowed?</h3><p class="sub">Strictest rule on secured financing, margin lending or encumbrance for the senior tiers over vested unrestricted shares. "Banned wide" means the ban covers any secured financing; "banned margin only" means only margin lending is named.</p><div id="c-loan"></div></div>
 <div class="card"><h3>Funding leg: how far the financing rules reach</h3><p class="sub">Which arrangements the policy regulates at all, by ban or by clearance. This is scope, not permission: BHP regulates any secured financing but only requires clearance.</p><div id="c-scope"></div></div>
 <div class="card"><h3>Funding leg: treatment of a lender's forced sale in a closed period</h3><div id="c-forced"></div></div>
