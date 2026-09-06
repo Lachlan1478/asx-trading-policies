@@ -1,0 +1,392 @@
+{
+ "symbol": "SRV",
+ "company": "Servcorp Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "30 December 2010",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "Directors, the Company Secretary, Key Management Personnel (AASB 124), all direct reports to the CEO, anyone entitled to receive options under an equity incentive scheme, and consultants, advisors and contractors.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Director",
+   "kind": "director",
+   "description": "Directors of the Company other than the Chairman, for clearance purposes: must obtain the Chairman's prior written consent to trade and notify/confirm to the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman",
+   "kind": "director",
+   "description": "The Chairman, for clearance purposes: must obtain the prior written approval of the next most senior Director and notify/confirm to the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons other than Directors",
+   "kind": "other",
+   "description": "Designated Persons who are not Directors: may trade at any time, subject to the general restrictions, provided they notify the Company Secretary prior to the transaction; no separate approval is required.",
+   "includes_associates": "yes"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "six weeks prior to the announcement to the ASX of the Company's half-year results",
+   "end_anchor": "the day after the announcement",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "six weeks prior to the announcement to the ASX of the Company's full-year results",
+   "end_anchor": "the day after the announcement",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Directors of the Company may declare 'any other period when the Directors of the Company are of the opinion that trading in Company Securities should be restricted' as a closed period; the Company Secretary notifies Designated Persons in writing of the start/end dates. No confidentiality requirement is stated for this notice.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Director",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.1",
+   "detail": "Derivatives are not named as a distinct restricted activity, but 'Company Securities' includes derivatives and financial products created over or in respect of the Company's securities, so any such instrument is a 'trade' requiring the Chairman's prior written consent.",
+   "evidence": "derivatives and other financial products issued or created over or in respect of the Company's securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons other than Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.3",
+   "detail": "Same broad Company Securities definition applies; non-director Designated Persons may deal in a derivative over Company Securities at any time provided they notify the Company Secretary prior to the transaction and are not otherwise prohibited.",
+   "evidence": "Designated Persons other than Directors may trade in Company Securities at any time provided they are not prohibited by this policy and they notify the Company Secretary prior to undertaking any transaction."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Director",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.1",
+   "detail": "Hedging is never named or defined. A collar or similar arrangement is itself a 'financial product ... created ... in respect of' Company Securities, so it is caught only as an ordinary trade requiring the Chairman's prior written consent; there is no separate unvested-holding hedging ban.",
+   "evidence": "derivatives and other financial products issued or created over or in respect of the Company's securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons other than Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.3",
+   "detail": "As with derivatives generally, a hedge is caught only via the Company Securities definition; non-director Designated Persons need only notify the Company Secretary before entering it.",
+   "evidence": "Designated Persons other than Directors may trade in Company Securities at any time provided they are not prohibited by this policy and they notify the Company Secretary prior to undertaking any transaction."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Director",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.1; 9(b)",
+   "detail": "Monetisation is not named. A prepaid forward or similar undertaking to deal is caught as a 'financial product' over Company Securities; that undertakings are treated as trades is confirmed by the exemption for 'undertakings to accept ... a takeover offer', which would otherwise need clearance.",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer or scheme of arrangement"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons other than Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.3",
+   "detail": "Same reasoning as Directors, but only prior notification to the Company Secretary is required, not approval.",
+   "evidence": "Designated Persons other than Directors may trade in Company Securities at any time provided they are not prohibited by this policy and they notify the Company Secretary prior to undertaking any transaction."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Director",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.1",
+   "detail": "Short selling is not named or separately banned. Selling Company Securities of any kind is a 'trade' requiring the Chairman's prior written consent for a Director.",
+   "evidence": "A Director must not trade in Company Securities at any time without the prior written consent of the Chairman of the Board"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Persons other than Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "6.3",
+   "detail": "No express short-selling rule; a short sale is a trade requiring only prior notification to the Company Secretary for this tier.",
+   "evidence": "Designated Persons other than Directors may trade in Company Securities at any time provided they are not prohibited by this policy and they notify the Company Secretary prior to undertaking any transaction."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Director",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.1",
+   "detail": "CFDs are not named. A CFD referencing Company Securities is an 'other financial product ... created ... in respect of' the Company's securities and so a trade requiring the Chairman's clearance.",
+   "evidence": "derivatives and other financial products issued or created over or in respect of the Company's securities."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons other than Directors",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_notification",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2(d); 6.3",
+   "detail": "Same reasoning; only prior notification to the Company Secretary is required for this tier.",
+   "evidence": "Designated Persons other than Directors may trade in Company Securities at any time provided they are not prohibited by this policy and they notify the Company Secretary prior to undertaking any transaction."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Margin lending, security interests and secured financing are not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting a charge, lien or pledge over Company Securities is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No provision of any kind addresses secured financing arrangements over Company Securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8",
+   "detail": "Blanket ban on frequent, regular trading for short-term gain; no fixed holding period or months is specified.",
+   "evidence": "Designated Persons must not engage in short term trading in Company Securities. Short term trading means trading in a manner which involves frequent and regular trading activity for short term trading gain."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Director",
+   "type": "approval",
+   "approver": "Chairman of the Board",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "unspecified ('subsequent confirmation of the trading that has occurred')",
+   "section": "6.1",
+   "evidence": "A Director must not trade in Company Securities at any time without the prior written consent of the Chairman of the Board. A Director must also notify the Company Secretary of his or her intention to trade and provide the Company Secretary with subsequent confirmation of the trading that has occurred."
+  },
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "next most senior Director",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "unspecified ('subsequent confirmation of the trading that has occurred')",
+   "section": "6.2",
+   "evidence": "The Chairman must not trade in Company Securities at any time without the prior written approval of the next most senior Director. The Chairman must notify the Company Secretary of his intention to trade and provide the Company Secretary with subsequent confirmation of the trading that has occurred."
+  },
+  {
+   "tier": "Designated Persons other than Directors",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6.3",
+   "evidence": "Designated Persons other than Directors may trade in Company Securities at any time provided they are not prohibited by this policy and they notify the Company Secretary prior to undertaking any transaction."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "undefined",
+   "months": null,
+   "basis": "frequent and regular trading activity for short term trading gain",
+   "carve_outs": [],
+   "evidence": "Designated Persons must not engage in short term trading in Company Securities. Short term trading means trading in a manner which involves frequent and regular trading activity for short term trading gain."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where trading results in no change in beneficial interest in the Company Securities, such as transfers of Company Securities already held into a superannuation fund or other saving scheme in which the Designated Person is a beneficiary"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer or scheme of arrangement"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertakings or elections to take up, the take up, or allowing the lapse of, entitlements under a rights issue or other offer (including an offer of securities in lieu of a cash dividend)"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of an independent third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Designated Person is a trustee, trading in the Company Securities by that trust provided the Designated Person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "the exercise of an option or right under any executive or employee share option scheme ... where the final date for the exercise ... falls during any prohibited period and the Company has been in an exceptionally long prohibited period and the Designated Person could not reasonably have been expected to exercise it at an earlier time"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman, or if he is unavailable, the CEO",
+   "evidence": "if a Designated Person is in severe financial hardship. Severe financial hardship may exist if a person has a pressing financial commitment that cannot be satisfied otherwise than by selling the Company Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chairman, or if he is unavailable, the CEO",
+   "evidence": "if a Designated Person is required to trade the Company Securities by a court order, or there are court enforceable undertakings or there is some other overriding legal or regulatory requirement to do so"
+  },
+  {
+   "kind": "other",
+   "scope": "unclear",
+   "approver": "Chairman, or if he is unavailable, the CEO",
+   "evidence": "if other circumstances exist which are accepted as being exceptional in nature"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chairman, or if unavailable the CEO, decides whether to grant a waiver of the policy for exceptional circumstances, generally within two business days of the application, in writing; applications are treated as confidential. Where a waiver is granted, the trade must be executed within five trading days of the grant.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "waiver timing",
+   "clause": "The determination ... will be made, where circumstances permit, within two (2) business days of receipt of the application ... Where a waiver of this policy is granted, the Designated Person must execute the proposed trade within five (5) trading days after the day on which the waiver is granted.",
+   "why_it_matters": "If collar entry or unwind needs an exceptional-circumstances waiver during a closed period, the decision is relatively fast (about two business days) and confidential, but the trade must then be executed within a tight five-trading-day window."
+  },
+  {
+   "topic": "OTC derivatives are Company Securities",
+   "clause": "In this policy \"Company Securities\" include: ... derivatives and other financial products issued or created over or in respect of the Company's securities.",
+   "why_it_matters": "The bank-written put and call are themselves 'Company Securities' under this policy, so entering into, adjusting or unwinding the collar is treated identically to trading the underlying shares for closed-period, insider-information and clearance/notification purposes."
+  },
+  {
+   "topic": "no financing or security provisions",
+   "clause": "This policy does not mention margin lending, security interests, encumbrances or any form of secured financing.",
+   "why_it_matters": "The loan leg of a funded collar and the grant of security over the collared shares are not expressly regulated, leaving the bank without company-policy comfort on enforcement, forced-sale, or disclosure treatment; those risks must be managed contractually rather than by reference to this policy."
+  }
+ ],
+ "summary": "A funded collar is not prohibited by this policy, which is silent on margin lending, security and secured financing, so the loan is not addressed one way or the other. However, 'Company Securities' expressly includes 'derivatives and other financial products ... created over or in respect of' Servcorp securities, so the OTC put and call are themselves Company Securities and every step (entry, variation, unwind) is a 'trade' governed by the same regime as ordinary share dealing. If the executive is a Director, that trade needs the Chairman's prior written consent (the Chairman needs the next most senior Director's consent instead) plus prior notice and post-trade confirmation to the Company Secretary; other Designated Persons need only notify the Company Secretary before dealing, with no approval step. All dealing, including the collar, is banned while in possession of non-public price-sensitive information and during the six-week pre-results Closed Periods (or any other Board-declared period), unless the Chairman or CEO grants a confidential exceptional-circumstances waiver (roughly a two-business-day turnaround), in which case the trade must complete within five trading days. Because encumbrance, forced sale and minimum shareholding requirements are entirely unaddressed, those collar-specific risks fall to be managed between the executive and the bank rather than under this policy."
+}
