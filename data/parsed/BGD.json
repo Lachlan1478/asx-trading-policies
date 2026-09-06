@@ -1,0 +1,341 @@
+{
+ "symbol": "BGD",
+ "company": "Barton Gold Holdings Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "29 April 2025",
+ "date_effective": "29 April 2025",
+ "date_lodged": "29 April 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors and employees",
+   "kind": "all_staff",
+   "description": "All Directors, employees and contractors of the Company. Subject to the general insider trading prohibition and confidentiality duty (clauses 4-5); the additional restrictions in clause 6 (blackout periods, clearance, no short selling/hedging, margin lending approval) apply only to Restricted Persons.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "All Directors and officers (including CEO/Managing Director, CFO and Company Secretary), other key management personnel and employees, and contractors notified they are Restricted Persons. Subject to blackout periods, prior notification and clearance, no short selling, no hedging, margin lending/secured financing approval, and discouragement of short-term trading (defined as 6 months or less).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman of the Board",
+   "kind": "director",
+   "description": "Board Chairman; distinguished only for clearance/waiver, approved by the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Restricted Persons",
+   "kind": "other",
+   "description": "Restricted Persons other than the Chairman; distinguished only for clearance/waiver, approved by the Chairman of the Board (or delegate).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Connected Persons",
+   "kind": "associate",
+   "description": "A Restricted Person's spouse or de facto, minor children or children living with them (including a spouse's/de facto's children), and any family company or family trust the Restricted Person or those close family members control or have an interest in. Restricted Persons must ensure their trading complies with the policy.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions designed to hedge their exposure to Company Securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading at the end of the full financial year",
+   "end_anchor": "10.00am on the next trading day following the date of announcement to ASX of the preliminary final statement or full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading at the end of the financial half year",
+   "end_anchor": "10.00am on the next trading day following the date of announcement of half-yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "2 weeks prior to the announcement of the quarterly results",
+   "end_anchor": "date of announcement of the quarterly results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may specify any other blackout period from time to time (rule 6.5(b)(iv)). The policy does not state who within the Company makes this determination or whether such additional periods are kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3; 6.5; 6.7",
+   "detail": "Securities is expressly defined to include warrant contracts and other derivatives relating to the shares, with no venue limitation, so dealing in an OTC put/call is dealing in Company Securities requiring prior notification and Company Secretary confirmation, and is barred during blackout periods.",
+   "evidence": "For the purposes of this policy Securities means shares, debentures, options to subscribe for new shares and options over existing shares, warrant contracts and other derivatives relating to the shares."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.11",
+   "detail": "Absolute, unqualified ban on hedging transactions, with no vesting-state distinction and, unlike margin lending in the same clause, no 'unless prior approval' carve-out. The rule 6.9 exceptional-circumstances waiver is expressly limited to rules 6.5(b) and 6.6 and does not extend to this clause.",
+   "evidence": "A Restricted Person must not engage in transactions designed to hedge their exposure to Company Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "6.11",
+   "detail": "Monetisation is not named, but a prepaid forward or similar structure designed to realise value while reducing exposure would fall within 'transactions designed to hedge their exposure to Company Securities'.",
+   "evidence": "A Restricted Person must not engage in transactions designed to hedge their exposure to Company Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.11",
+   "detail": "Outright ban on short selling Company Securities, in the same clause as the hedging and margin lending rules.",
+   "evidence": "A Restricted Person must not engage in short selling in respect of Company Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 6.7",
+   "detail": "CFDs are not named but are a derivative relating to the shares within the Securities definition, so dealing in one requires prior notification and clearance; a CFD used to hedge exposure would instead fall within the absolute rule 6.11 hedging ban.",
+   "evidence": "Securities means shares, debentures, options to subscribe for new shares and options over existing shares, warrant contracts and other derivatives relating to the shares."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.11",
+   "detail": "Margin lending in respect of Company Securities is permitted only with the prior approval of the Chairman (or delegate); the Chairman's own margin lending would require Board approval per the rule 7 table.",
+   "evidence": "A Restricted Person must not enter into margin lending or other secured financing arrangements in respect of Company Securities, unless the prior approval of the Chairman (or his or her delegate) has been obtained."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.11",
+   "detail": "Granting security is not separately named but is captured within 'other secured financing arrangements', permitted with prior Chairman (or delegate) approval.",
+   "evidence": "A Restricted Person must not enter into margin lending or other secured financing arrangements in respect of Company Securities, unless the prior approval of the Chairman (or his or her delegate) has been obtained."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.11",
+   "detail": "Any secured financing arrangement in respect of Company Securities (not limited to margin loans) requires prior Chairman (or delegate) approval; a forced sale under a previously-approved arrangement is expressly excepted from the blackout restriction (rule 6.8(g)).",
+   "evidence": "A Restricted Person must not enter into margin lending or other secured financing arrangements in respect of Company Securities, unless the prior approval of the Chairman (or his or her delegate) has been obtained."
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "6.6",
+   "detail": "Advisory ('should not') ban on short-term or speculative trading, with the Company defining 'short-term' as 6 months or less.",
+   "evidence": "Restricted Persons should not trade in Company Securities on a short-term basis or for speculative trading gain. The Company considers \"short-term\" to be a period of 6 months or less."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chairman of the Board",
+   "type": "approval",
+   "approver": "The Board",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (trade completion; for Directors, information for ASX change-of-interests notice)",
+   "post_trade_deadline": "not specified",
+   "section": "6.7; 6.10; 7",
+   "evidence": "Restricted Persons must notify the Company in advance of any proposed dealing in Company Securities. ... Upon: (a) provision of notification; and (b) confirmation by the Company Secretary that there is no objection to the person trading, the Restricted Person may undertake the proposed dealing. The confirmation may specify a period of time within which trading is to occur."
+  },
+  {
+   "tier": "Other Restricted Persons",
+   "type": "approval",
+   "approver": "Chairman of the Board (or his or her delegate)",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (trade completion; for Directors, information for ASX change-of-interests notice)",
+   "post_trade_deadline": "not specified",
+   "section": "6.7; 6.10; 7",
+   "evidence": "Restricted Persons are only permitted to deal in Company Securities if they have given notice and obtained approval as set out below (and on the basis that rule 4.1 does not apply)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Restricted Persons",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Restricted Persons should not trade in Company Securities on a short-term basis or for speculative trading gain. The Company considers \"short-term\" to be a period of 6 months or less."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of Company Securities to a Closely Connected Person or a Restricted Person's superannuation fund, in respect of which prior clearance has been obtained as set out in rule 6.7;"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Company Securities arising from the acceptance of a takeover offer, scheme of arrangement or equal access buy-back;"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of rights acquired under a pro rata issue;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Company Securities under a pro rata issue;"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Company Securities under a security purchase plan or dividend purchase plan where the Restricted Person did not commence or amend their participation in the plan during a blackout period;"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "an acquisition of Company Securities under an employee incentive scheme (however, the additional restrictions in this policy apply to any subsequent trade of any Company Securities issued to (or for the benefit of) a Restricted Person under an employee incentive scheme);"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "where a Restricted Person has been granted approval to enter into margin lending or other secured financing arrangements (see rule 6.11), an involuntary disposal of securities that results from the margin lender or financier exercising its rights under the arrangement."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "person specified in rule 7 (the Board for the Chairman; Chairman or delegate for other Restricted Persons)",
+   "evidence": "Exceptional circumstances include severe financial hardship, compulsion by a court order or any other circumstances that is deemed exceptional by the person described in rule 6.11."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "person specified in rule 7 (the Board for the Chairman; Chairman or delegate for other Restricted Persons)",
+   "evidence": "compulsion by a court order or any other circumstances that is deemed exceptional by the person described in rule 6.11."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Directors: post-trade, provide the Company Secretary with sufficient information to enable notification of a change of interests to ASX (rule 6.10(b)); no separate inception-based disclosure is required for the margin lending/secured financing arrangement beyond the prior Chairman (or delegate) approval under rule 6.11."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Rule 6.9 exceptional-circumstances waiver (severe financial hardship, court order, or other circumstances deemed exceptional) may be granted, without reasons and revocable if new circumstances arise, by the Board (for the Chairman) or the Chairman/delegate (for other Restricted Persons), for a duration of 5 business days. It expressly covers only rules 6.5(b) (blackout periods) and 6.6 (short-term trading) - it does not extend to the rule 6.11 bans on short selling, hedging or unapproved margin lending/secured financing.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute hedging ban outside waiver reach",
+   "clause": "A Restricted Person must not engage in transactions designed to hedge their exposure to Company Securities.",
+   "why_it_matters": "This ban has no built-in clearance mechanism (unlike the adjacent margin lending sentence) and the only waiver process in the policy (rule 6.9) is expressly limited to rules 6.5(b)/6.6, so it cannot be used to authorise a hedge."
+  },
+  {
+   "topic": "margin lending permitted with approval",
+   "clause": "A Restricted Person must not enter into margin lending or other secured financing arrangements in respect of Company Securities, unless the prior approval of the Chairman (or his or her delegate) has been obtained.",
+   "why_it_matters": "The loan leg of a structure secured on Company Securities is achievable with Chairman approval, but pairing it with a collar hedge fails because the hedge itself is separately and absolutely banned."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "where a Restricted Person has been granted approval to enter into margin lending or other secured financing arrangements (see rule 6.11), an involuntary disposal of securities that results from the margin lender or financier exercising its rights under the arrangement.",
+   "why_it_matters": "A lender's enforcement sale under a pre-approved secured facility is excepted from the blackout period restriction, so the loan (absent the banned hedge) could be enforced without breaching the policy."
+  },
+  {
+   "topic": "closely connected persons bound",
+   "clause": "a family company or family trust that the Restricted Person or their close family members may control or have an interest in ... Each Restricted Person must ensure that any trading by their Closely Connected Persons are undertaken in accordance with this policy.",
+   "why_it_matters": "Routing a collar or loan through a spouse, family trust or family company does not escape the section 6.11 bans, since the Restricted Person remains responsible for their compliance."
+  },
+  {
+   "topic": "clearance time window",
+   "clause": "The confirmation may specify a period of time within which trading is to occur.",
+   "why_it_matters": "Any cleared leg of a transaction (e.g. the loan) may be time-boxed by the Company Secretary's confirmation, constraining execution timing."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy for a Director or executive who is a Restricted Person, because rule 6.11 imposes an absolute, unqualified ban on transactions designed to hedge exposure to Company Securities, with no built-in clearance mechanism and no reachable waiver - the only waiver process (rule 6.9) is expressly limited to the blackout-period and short-term-trading rules, not the hedging ban. By contrast, the loan leg is achievable: margin lending or other secured financing arrangements in respect of Company Securities are permitted with the prior approval of the Chairman (or delegate, or the Board if the Chairman is dealing), and a lender's enforcement sale under a pre-approved facility is expressly excepted from the blackout period restriction. Because the put/call hedge cannot lawfully be entered into at all, the bank could at most offer an unhedged, Chairman-cleared share-secured loan rather than a genuine funded collar. Closely Connected Persons (spouses, minor children, family trusts and companies) are bound by the same restrictions, so the ban cannot be worked around through related parties."
+}
