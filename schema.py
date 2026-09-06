@@ -87,7 +87,8 @@ class Exception_(Strict):
 
 
 class Financing(Strict):
-    secured_financing_scope: Literal["margin_loan_only", "any_secured_financing", "any_financing_in_respect_of_securities", "not_addressed"]
+    secured_financing_scope: Literal["margin_loan_only", "any_secured_financing", "any_financing_in_respect_of_securities", "not_addressed"] = Field(
+        description="How widely the policy's financing rules reach, whether by ban or by clearance. Whether financing is banned is recorded in the rules, not here.")
     unvested_as_collateral: Literal["prohibited", "not_addressed"]
     transfer_into_margin_account_is_dealing: YesNo
     forced_sale_in_closed_period: Literal["breach", "excluded_dealing", "clearance_required", "not_addressed"]

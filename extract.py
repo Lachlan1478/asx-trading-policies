@@ -77,6 +77,17 @@ def collar_status(p, tier):
     return {"approval": "clearance_required", "preclearance_system": "clearance_required", "notification": "notification_required"}.get(c.type if c else "", "available"), []
 
 
+def loan_leg(p):
+    """Strictest answer on secured financing, margin lending or encumbrance for the senior tiers over vested unrestricted shares."""
+    rank = ["prohibited", "floor", "permitted_with_clearance", "permitted_with_notification", "permitted", "not_addressed"]
+    senior = [t.name for t in p.tiers if t.kind in ("director", "kmp", "restricted")] or [t.name for t in p.tiers]
+    rs = [r for r in p.rules if r.topic in ("secured_financing", "margin_lending", "encumbrance") and r.security_state in ("vested_unrestricted", "any") and (r.tier in senior or r.tier == "all")]
+    ans = min((r.answer for r in rs), key=rank.index, default="not_addressed")
+    if ans == "prohibited":
+        return "banned_wide" if p.financing.secured_financing_scope in ("any_secured_financing", "any_financing_in_respect_of_securities") else "banned_margin_only"
+    return ans
+
+
 def funded_status(p):
     """Policy-level verdict on a loan-funded collar for the most senior tiers, derived from the rules rather than the model's summary."""
     senior = [t.name for t in p.tiers if t.kind in ("director", "kmp", "restricted")] or [t.name for t in p.tiers]
@@ -106,7 +117,7 @@ def report(rows):
         tables["policies"].append({**base, "title": p.title, "date_effective": p.date_effective, "tiers": " | ".join(t.name for t in p.tiers),
             "window_model": "open" if any(w.kind == "open" for w in p.windows) else "closed" if p.windows else "none",
             "ad_hoc_blackout_authority": p.ad_hoc_blackout_authority, **{k: getattr(d, k) for k in Definitions_fields},
-            "secured_financing_scope": f.secured_financing_scope, "forced_sale_in_closed_period": f.forced_sale_in_closed_period,
+            "financing_rules_reach": f.secured_financing_scope, "loan_leg": loan_leg(p), "forced_sale_in_closed_period": f.forced_sale_in_closed_period,
             "unvested_as_collateral": f.unvested_as_collateral, "financing_disclosure": " | ".join(f.financing_disclosure),
             "minimum_shareholding_requirement": f.minimum_shareholding_requirement, "exemption_authority": p.exemption_authority,
             "external_documents": " | ".join(p.external_documents), "jurisdiction_overlays": " | ".join(p.jurisdiction_overlays),
