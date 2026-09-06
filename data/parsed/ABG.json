@@ -1,0 +1,324 @@
+{
+ "symbol": "ABG",
+ "company": "Abacus Group",
+ "title": "Trading Policy",
+ "date_approved": "18 June 2026",
+ "date_effective": "01 July 2026",
+ "date_lodged": "1 July 2026",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Abacus directors; also fall within Restricted Persons for the purposes of section 5.4.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All Abacus employees; the general dealing prohibitions of sections 3 and 5 apply to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Abacus directors, members of the Executive Committee, and employees advised by the Company Secretary that they have information that is or may become Inside Information. Subject to additional prior notification for any dealing under section 5.4.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A family member who may influence or be influenced by the director or employee (spouse, de facto, children, other closely connected or dependent persons); investment vehicles or entities in which the director, employee or associate is a beneficiary or has direct or indirect control (trusts, superannuation funds, companies); any other entity in which they are a director, secretary or executive officer; and any investment manager acting on their behalf.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "a hedging transaction to limit his or her exposure to Abacus Securities (whether received under an equity based remuneration scheme or otherwise and whether vested or unvested)",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 July each year",
+   "end_anchor": "the day after which Abacus Group's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 January each year",
+   "end_anchor": "the day after which Abacus Group's half year results are released to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Abacus may impose a restriction on trading during any period, including one that would otherwise be outside the Blackout Period; the Board may also at any time determine that a Blackout Period is extended for Restricted Persons. Confidentiality of such a restriction itself is not addressed, though a person whose dealing approval or notification is refused must keep that refusal confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.6; 8",
+   "detail": "No standalone derivatives rule; 'deal' expressly covers exercising options over securities but not OTC derivatives generally. A purchased put and written call structured to limit exposure to Abacus Securities is a 'hedging transaction' and is absolutely banned regardless of tier or vesting.",
+   "evidence": "directors, employees and associates are prohibited from entering into any transaction to hedge their exposure to Abacus Securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.6",
+   "detail": "Absolute ban on any transaction to hedge exposure to Abacus Securities, expressly stated to apply whether the securities were received under an equity-based remuneration scheme or otherwise, and whether vested or unvested. No approval route or carve-out exists for hedging.",
+   "evidence": "directors, employees and associates are prohibited from entering into any transaction to hedge their exposure to Abacus Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.6; 8",
+   "detail": "Monetisation is not named. A prepaid forward or similar structure that limits economic exposure to Abacus Securities is a hedging transaction and is banned; absent that characterisation it would otherwise be a 'deal' (an agreement to sell) subject to Blackout Periods and Restricted Person notification.",
+   "evidence": "directors, employees and associates are prohibited from entering into any transaction to hedge their exposure to Abacus Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "5.6",
+   "detail": "CFDs are not named and are not clearly 'securities' within the deal definition. A CFD used to limit economic exposure to Abacus Securities would be a hedging transaction and is banned; a CFD unconnected to any Abacus Securities exposure is not addressed.",
+   "evidence": "directors, employees and associates are prohibited from entering into any transaction to hedge their exposure to Abacus Securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Holding Abacus Securities subject to a margin loan is prohibited unless the Chair (or the Chair of the Audit and Risk Committee if the Chair is the applicant) has given prior written approval.",
+   "evidence": "directors, employees and associates are prohibited from holding Abacus Securities which are subject to margin loans or similar funding arrangements unless they have prior written approval from the Chair to do so (and the Chair of the Audit Committee has corresponding rights of approval if the Chair is the person seeking approval)."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Encumbrance is not named as such, but granting security to support a margin loan or similar funding arrangement is necessarily implied by the approval-gated prohibition on holding securities subject to such arrangements; a charge unconnected to financing is not addressed.",
+   "evidence": "directors, employees and associates are prohibited from holding Abacus Securities which are subject to margin loans or similar funding arrangements unless they have prior written approval from the Chair to do so."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "5.5",
+   "detail": "Margin loans or 'similar funding arrangements' secured against Abacus Securities are prohibited for directors, employees and associates unless the Chair (or Chair of the Audit and Risk Committee for the Chair) gives prior written approval; no validity period or SLA is stated for this approval.",
+   "evidence": "directors, employees and associates are prohibited from holding Abacus Securities which are subject to margin loans or similar funding arrangements unless they have prior written approval from the Chair to do so (and the Chair of the Audit Committee has corresponding rights of approval if the Chair is the person seeking approval)."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period, short-term dealing prohibition or intention test is stated anywhere in the policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "The Chair (or the Chair of the Audit and Risk Committee if the Chair is the applicant)",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.2",
+   "evidence": "Approval may be given or refused by the Chair or the Chair of the Audit and Risk Committee (as the case may require) in their sole discretion and without reason and their decision is final. ... the duration of the approval to deal in Abacus Securities under this rule 5.2 will be five business days."
+  },
+  {
+   "tier": "Restricted Persons",
+   "type": "notification",
+   "approver": "Company Secretary, who notifies the Chair (for Restricted Persons who are directors), the Managing Director (for Restricted Persons who are employees), or the Chair of the Audit and Risk Committee (for the Chair)",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": 1,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.4",
+   "evidence": "Restricted Persons must notify the Company Secretary prior to any dealing, including periods outside of the Blackout Period ... The Restricted Person will be notified within 24 hours whether they may trade or not. ... the Restricted Person will have five business days to enter into the proposed dealing."
+  },
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "The Chair (or the Chair of the Audit and Risk Committee if the Chair is the applicant)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5.5",
+   "evidence": "directors, employees and associates are prohibited from holding Abacus Securities which are subject to margin loans or similar funding arrangements unless they have prior written approval from the Chair to do so."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "not_addressed",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": ""
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "The Chair (or the Chair of the Audit and Risk Committee if the Chair is the applicant)",
+   "evidence": "The Chair does have a limited right to approve trading during the Blackout Period ... in cases of genuine financial hardship ... or other circumstances at the discretion of the Chair provided the relevant person is not in possession of any Inside Information."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "The Chair (or the Chair of the Audit and Risk Committee if the Chair is the applicant)",
+   "evidence": "where the person is required by a court order or enforceable undertaking to transfer or sell the securities"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of Abacus Securities through the acceptance of a takeover offer, scheme of arrangement or equal access buy-back"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participation in an employee, executive or director equity plan operated by Abacus. However, where securities in Abacus granted under an employee, executive or director equity plan cease to be held under the terms of that plan, any dealings in those securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participation in any distribution reinvestment plan or security purchase plan which may be open and is available to all Abacus security holders on an equal basis; ... acquisition of Abacus Securities through a rights issue;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that result in no effective change to the beneficial interest in the securities (for example, transfers of Abacus Securities already held into a superannuation fund or trust of which the director, employee or associate is the sole beneficiary)."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Continuous Disclosure and Security Holder Communication Policy", "Code of Conduct"],
+ "exemption_authority": "The Chair (or the Chair of the Audit and Risk Committee if the Chair is the applicant) may approve trading during a Blackout Period for genuine financial hardship, a court order or enforceable undertaking, or other circumstances in the Chair's discretion, provided the applicant holds no Inside Information; approval runs for five business days, is given without reasons and is final, and refusal must be kept confidential by the applicant. The same Chair authority separately governs approval to hold Abacus Securities subject to a margin loan or similar funding arrangement. No exemption authority extends to the absolute hedging ban in 5.6.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute hedging ban",
+   "clause": "directors, employees and associates are prohibited from entering into any transaction to hedge their exposure to Abacus Securities.",
+   "why_it_matters": "A purchased put and written call limiting exposure to the shares is squarely a hedging transaction; this ban applies to every tier, both vested and unvested holdings, and has no approval or exemption route, so it blocks a funded collar outright regardless of the financing question."
+  },
+  {
+   "topic": "secured financing approval route",
+   "clause": "directors, employees and associates are prohibited from holding Abacus Securities which are subject to margin loans or similar funding arrangements unless they have prior written approval from the Chair to do so.",
+   "why_it_matters": "Unlike the hedging ban, the loan leg secured on the collared shares is only conditionally restricted and could in principle be approved by the Chair, but this is moot while the derivative legs remain absolutely prohibited."
+  },
+  {
+   "topic": "forced sale risk",
+   "clause": "Margin loans used to fund the purchase of Abacus Securities may give the lender the right to require the sale of those securities at a time during the Blackout Period ... Such a sale may amount to insider trading (or create a perception of insider trading).",
+   "why_it_matters": "Abacus's own rationale for gating secured financing is the risk of a lender-triggered forced sale landing in a Blackout Period; any facility agreement would need to build in trading-window-aware enforcement mechanics even if the hedging ban were ever lifted."
+  },
+  {
+   "topic": "perception risk overlay",
+   "clause": "Where any approval is required for a dealing under this policy, approval will not be granted where the dealing would create a perception risk outlined above.",
+   "why_it_matters": "Even a technically permitted structure (such as an approved secured loan) can still be refused if the market might perceive the director or employee as taking advantage of their position, adding a discretionary layer on top of the express rules."
+  },
+  {
+   "topic": "notification not consent by default",
+   "clause": "Restricted Persons must notify the Company Secretary prior to any dealing, including periods outside of the Blackout Period ... the Chair, Chair of the Audit and Risk Committee, the Managing Director or the Company Secretary (as relevant) may direct the person ... not to deal, or to impose conditions on the dealing in their discretion, and is not obliged to provide reasons.",
+   "why_it_matters": "Even outside Blackout Periods, Restricted Persons (including directors) must pre-notify any dealing and can be blocked or have conditions imposed without reasons, adding execution-timing uncertainty for a bank-structured trade even before reaching the hedging ban."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy. Section 5.6 imposes an absolute, unconditional ban on directors, employees and their associates entering into any transaction to hedge their exposure to Abacus Securities, expressly covering both vested and unvested holdings, with no clearance mechanism, exemption authority or carve-out reaching that prohibition. The loan leg is treated more leniently: holding Abacus Securities subject to a margin loan or similar secured funding arrangement is only conditionally restricted and can be approved in writing by the Chair (or the Chair of the Audit and Risk Committee if the Chair is the applicant), but this approval is irrelevant while the put and call legs remain banned outright. Even non-hedging dealings by Restricted Persons face additional friction, including mandatory pre-notification outside Blackout Periods, a five-business-day execution window once cleared, and a discretionary 'perception risk' override that can block an otherwise permitted approval. No amendment to this policy or waiver process is described that could unlock the hedging prohibition for a funded collar."
+}

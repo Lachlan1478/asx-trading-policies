@@ -1,0 +1,490 @@
+{
+ "symbol": "AMI",
+ "company": "Aurelia Metals Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "31 October 2023",
+ "date_lodged": "1 November 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Aurelia Personnel",
+   "kind": "all_staff",
+   "description": "All Directors, Senior Executives, employees, contractors and consultants of any member of the Aurelia Group, and any company, trust or other entity controlled by any of them. The base dealing prohibition (section 3) applies to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Directors, other Senior Executives (including the CEO), direct reports to Senior Executives, personnel based in corporate head office (Brisbane), any other personnel designated by the Company Secretary, and closely related parties of all Relevant Personnel. Subject to Trading Windows and Prior Written Clearance under sections 4-6.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors including the Managing Director/CEO but excluding the Chair, and the Company Secretary; clearance approver is the Chair of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Senior Executives",
+   "kind": "kmp",
+   "description": "Individuals who are not Directors but meet the KMP definition under AASB 124, and direct reports to the Managing Director/CEO; clearance approver is the Managing Director/CEO.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair, whose own clearance requests must be approved by the Chair of the Audit Committee rather than the Chair.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Restricted Persons",
+   "kind": "restricted",
+   "description": "Restricted Persons not otherwise listed (e.g. head-office staff not Directors or Senior Executives); clearance approver is the Company Secretary.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Related Parties",
+   "kind": "associate",
+   "description": "A Relevant Person's spouse, child, spouse's child, a dependant, any other family member in a position of influence over or influenced by the person, or a company controlled by the person. Bound by the same obligations as the Restricted Person they relate to.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "enter into transactions with Securities (or any derivative thereof) which limit the economic risk of any unvested entitlements awarded under an equity-based remuneration scheme, or otherwise awarded, or which will be offered by the Company in the future (e.g. hedging)",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "release of the Company's half year results",
+   "end_anchor": "30 days after release of half year results",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "release of the Company's full year results",
+   "end_anchor": "30 days after release of full year results",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "AGM or any other general meeting",
+   "end_anchor": "15 days after the meeting",
+   "duration_days": 15
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "release of the Company's March or September quarterly report",
+   "end_anchor": "15 days after release",
+   "duration_days": 15
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "first trading day after the date of issue of a Prospectus for new Securities or a debt issue",
+   "end_anchor": "closing date of applications",
+   "duration_days": null
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "trading day of the release of a Cleansing Statement",
+   "end_anchor": "the following trading day",
+   "duration_days": 2
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company (in practice the Board/Company Secretary) may impose an additional restriction at any time, including within an otherwise open Trading Window; confidentiality of an ad hoc blackout itself is not addressed, though refusal of a clearance request must be kept confidential by the person who sought it.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4; 10 (Deal, Securities)",
+   "detail": "No express derivatives rule. Securities include derivatives; Deal includes entering into a contract to secure a profit or avoid a loss by reference to price fluctuations, so an OTC put/call is a Dealing. Restricted Persons may only Deal during a nominated Trading Window and after Prior Written Clearance.",
+   "evidence": "Restricted Persons have additional dealing restrictions and are only permitted to Deal in Aurelia Group Securities: during a nominated Trading Window; and after obtaining Prior Written Clearance."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Aurelia Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 10 (Deal, Securities)",
+   "detail": "For personnel who are not Restricted Persons, there is no Trading Window or clearance requirement; an OTC derivative is a Dealing but is only barred while the person holds Inside Information.",
+   "evidence": "entering into a contract with the purpose to secure a profit or avoid a loss by reference to price fluctuations."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2.3",
+   "detail": "Absolute ban, applying to Aurelia Personnel and their closely related parties at any time, on transactions in Securities or derivatives that limit the economic risk of unvested equity-based remuneration entitlements.",
+   "evidence": "enter into transactions with Securities (or any derivative thereof) which limit the economic risk of any unvested entitlements awarded under an equity-based remuneration scheme, or otherwise awarded, or which will be offered by the Company in the future (e.g. hedging)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4; 3.2.3 (a contrario)",
+   "detail": "The hedging ban is expressly limited to unvested entitlements. Hedging of vested shares is not named and is only caught as an ordinary Dealing, requiring a Trading Window and Prior Written Clearance for Restricted Persons.",
+   "evidence": "Restricted Persons have additional dealing restrictions and are only permitted to Deal in Aurelia Group Securities: during a nominated Trading Window; and after obtaining Prior Written Clearance."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Aurelia Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.2.3 (a contrario)",
+   "detail": "For non-Restricted personnel, hedging of vested shares is not addressed and falls outside the unvested-only hedging ban; it is an ordinary Dealing subject only to the general inside-information prohibition.",
+   "evidence": "which limit the economic risk of any unvested entitlements awarded under an equity-based remuneration scheme"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4; 10 (Deal)",
+   "detail": "Monetisation is not named. A prepaid forward or similar is an agreement to dispose of Securities and so a Dealing requiring Trading Window and clearance; if it involves granting security it would also breach the secured financing prohibition.",
+   "evidence": "any acquisition or disposal, or agreement to acquire or dispose;"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Aurelia Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 10 (Deal)",
+   "detail": "For non-Restricted personnel, a monetisation is an agreement to deal and thus a Dealing, but no clearance or window applies; the secured financing ban still applies if security is granted.",
+   "evidence": "agreeing to do any of the above things."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2.1",
+   "detail": "Outright ban on short selling Aurelia Group Securities at any time, applying to all Aurelia Personnel and their closely related parties, not limited to Restricted Persons.",
+   "evidence": "engage in short-term trading (less than three months), or short selling of Aurelia Group Securities at any time."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere and is not listed among the examples of Dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4; 10 (Deal)",
+   "detail": "CFDs are not named. A CFD referencing Aurelia securities is a contract to secure a profit or avoid a loss by reference to price fluctuations and so a Dealing requiring Trading Window and clearance; a short CFD would also breach the short-selling ban.",
+   "evidence": "entering into a contract with the purpose to secure a profit or avoid a loss by reference to price fluctuations."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Aurelia Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3; 10 (Deal)",
+   "detail": "For non-Restricted personnel a CFD is a Dealing but no clearance or window applies; the short-selling and inside-information bans still apply.",
+   "evidence": "entering into a contract with the purpose to secure a profit or avoid a loss by reference to price fluctuations."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2.2",
+   "detail": "Blanket ban on margin lending using Aurelia Group Securities, applying to all Aurelia Personnel and closely related parties at all times, not limited to Restricted Persons or Trading Windows.",
+   "evidence": "enter margin lending or other secured financing arrangements in respect of Aurelia Group Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "3.2.2",
+   "detail": "Encumbrance is not named as such, but granting security over Aurelia Group Securities is a necessary element of the banned 'secured financing arrangements'; a charge unconnected to financing is not addressed.",
+   "evidence": "enter margin lending or other secured financing arrangements in respect of Aurelia Group Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2.2",
+   "detail": "Blanket ban on entering margin lending or any other secured financing arrangement in respect of Aurelia Group Securities, applying to all Aurelia Personnel and their closely related parties at all times, with no approval route or carve-out.",
+   "evidence": "enter margin lending or other secured financing arrangements in respect of Aurelia Group Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.2.1",
+   "detail": "Ban on short-term trading (less than three months) at any time, applying to all Aurelia Personnel and closely related parties, with carve-outs for sales of plan shares acquired on exercise and no-beneficial-change off-market transactions.",
+   "evidence": "engage in short-term trading (less than three months), or short selling of Aurelia Group Securities at any time. For the avoidance of doubt, this rule does not apply to the sale of ordinary shares in the Company acquired on the exercise of a right or option under an employee share plan operated by the Company or an off-market transaction in Aurelia Group Securities where there is no effective change in the beneficial owner"
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "The Chair of the Board",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (for Listing Rule 3.19A/3.19B director dealing disclosure)",
+   "post_trade_deadline": "not specified; Company Secretary notifies the Board 'as soon as reasonably practicable'",
+   "section": "4.4-4.6; 5; 7",
+   "evidence": "Restricted Persons who are given Prior Written Clearance must Deal no later than five business days from clearance being received."
+  },
+  {
+   "tier": "Senior Executives",
+   "type": "approval",
+   "approver": "The Managing Director/CEO",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.4-4.6; 5",
+   "evidence": "The Company Secretary must give a copy of the response and clearance (if any) to the Restricted Person requesting clearance within two business days of the initial clearance request."
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "The Chair of the Audit Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (for Listing Rule 3.19A/3.19B director dealing disclosure)",
+   "post_trade_deadline": "not specified",
+   "section": "4.4; 6.4; 7",
+   "evidence": "Prior Written Clearance must be obtained from the Chair or if being sought by the Chair, Prior Written Clearance must be obtained from the Chair of the Company's Audit Committee."
+  },
+  {
+   "tier": "Other Restricted Persons",
+   "type": "approval",
+   "approver": "The Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": 2,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.4-4.6; 5",
+   "evidence": "Any clearance to Deal can be given or refused by the Company in its discretion, without giving any reasons."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "not specified; appears to bar round-trip trading within a rolling three-month period",
+   "carve_outs": [
+    "sale of ordinary shares acquired on the exercise of a right or option under an employee share plan operated by the Company",
+    "off-market transaction in Aurelia Group Securities where there is no effective change in the beneficial owner"
+   ],
+   "evidence": "engage in short-term trading (less than three months), or short selling of Aurelia Group Securities at any time."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "The Chair of the Board (or the Chair of the Audit Committee if the Restricted Person is the Chair)",
+   "evidence": "Prior Written Clearance may be given for such a person to sell (but not purchase) Aurelia Group Securities in a Prohibited Trading Period."
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "The Chair of the Board (or the Chair of the Audit Committee if the Restricted Person is the Chair)",
+   "evidence": "the person in question is required by a court order to transfer or sell the Aurelia Group Securities or there is some other overriding legal requirement for him or her to do so."
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Securities arising from the acceptance of a takeover offer, scheme of arrangement, equal access buy-back or capital reduction;"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "where a Restricted Person is a trustee, Dealing in Securities by that trust provided the Restricted Person is not a beneficiary of the trust and any decision to deal during the Prohibited Trading Period is taken by the other trustees or by the investment managers independently of the Restricted Person;"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the obtaining by a Director of a share qualification (if any);"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "participating in an employee, executive or director incentive scheme operated by the Company ... or the exercise (but not the sale of Securities following exercise) of an option or a right under an employee, executive or director incentive scheme"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the acquisition of Securities by a trustee of an employee, executive or director incentive scheme in accordance with the terms of such incentive scheme;"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Board (approves timing and structure of the offer)",
+   "evidence": "Trading under an offer or invitation made to all or most of Aurelia's security holders, such as a security purchase plan, bonus issue or a rights issue where the timing and structure of the offer has been approved by the Board;"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading under a non-discretionary trading plan for which Prior Written Clearance has been provided and where: the Restricted Person did not enter into the plan or amend the plan during a prohibited period; the trading plan does not permit the Restricted Person to exercise any influence or discretion over how, when or whether to trade"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "indirect and incidental trading that occurs as a consequence of a Restricted Person Dealing in securities issued by a managed investment scheme, listed investment company, exchange-traded fund or similar investment vehicle that is managed by a third party and that happens to hold Aurelia Group Securities as part of its portfolio;"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Dealings that result in no effective change to the beneficial interest in the Securities (e.g. transfers of Aurelia Group Securities already held into a superannuation fund or trust of which the Restricted Person is a beneficiary or transfers between such funds);"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquiring Securities under the terms of a Dividend Reinvestment Plan operated by the Company (DRP), provided that the Restricted Person's election to participate in the DRP was not lodged with the Company's share registry during a Prohibited Trading Period."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chair of the Board (or the Chair of the Audit Committee if the Restricted Person is the Chair) may grant Prior Written Clearance to sell, but not purchase, Aurelia Group Securities during a Prohibited Trading Period in cases of severe financial difficulty or other Exceptional Circumstances, including a court order. All clearance decisions, whether in or out of a Trading Window, are given or refused by the Company in its discretion without reasons, and refusal is final and binding.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing scope",
+   "clause": "Aurelia Personnel and their closely related parties are not permitted at any time to ... enter margin lending or other secured financing arrangements in respect of Aurelia Group Securities.",
+   "why_it_matters": "The loan leg of a funded collar, secured against the collared shares, is banned outright for every Aurelia Personnel and their closely related parties at all times, with no clearance route, tier carve-out or reference to vesting status."
+  },
+  {
+   "topic": "clearance validity window",
+   "clause": "Restricted Persons who are given Prior Written Clearance must Deal no later than five business days from clearance being received.",
+   "why_it_matters": "Any cleared derivative leg of a collar must be priced and executed within 5 business days of approval, which constrains how a bank can time execution against its own documentation and hedging process."
+  },
+  {
+   "topic": "ad hoc blackout",
+   "clause": "The Company reserves the right to impose restrictions on Dealing in Aurelia Group Securities during any period, including one that would otherwise fall within a permitted Trading Window.",
+   "why_it_matters": "Even a scheduled open Trading Window can be closed at the Company's discretion, so the timing of collar entry, roll or unwind cannot be guaranteed in advance."
+  },
+  {
+   "topic": "closely related parties sweep",
+   "clause": "the persons listed above are called \"Restricted Persons\" ... Where this Policy requires a Restricted Person to do something (e.g. obtain Prior Written Clearance), the Relevant Personnel must also do so for their closely related parties.",
+   "why_it_matters": "Routing the collar or the secured loan through a spouse, dependant or controlled entity does not avoid the secured financing ban or clearance requirement, since closely related parties are bound by the same rules."
+  },
+  {
+   "topic": "no forced-sale carve-out",
+   "clause": "enter margin lending or other secured financing arrangements in respect of Aurelia Group Securities",
+   "why_it_matters": "Because secured financing is banned outright rather than merely restricted in closed periods, the policy never reaches the question of a lender's forced sale during a Prohibited Trading Period, unlike policies that separately address that scenario."
+  },
+  {
+   "topic": "securities definition venue qualifier",
+   "clause": "Securities – Include, but are not limited to shares, hybrids, debt securities, options, derivatives, interests in managed investment schemes, or any other financial products that are able to be traded on a financial market.",
+   "why_it_matters": "The closing qualifier 'able to be traded on a financial market' creates some interpretive uncertainty over whether a bespoke OTC put/call is caught as a 'derivative' or only as part of the market-traded catch-all, though the separate listing of 'derivatives' supports inclusion."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy because section 3.2.2 bans all Aurelia Personnel and their closely related parties, at all times and regardless of vesting or tier, from entering margin lending or any other secured financing arrangement in respect of Aurelia Group Securities, with no exemption authority reaching that prohibition. The unfunded put and call legs alone, taken as Dealings, could in principle be entered by a Restricted Person with Prior Written Clearance from the applicable approver (Chair of the Board, MD/CEO, Chair of the Audit Committee for the Chair, or Company Secretary), executed within 5 business days of clearance and only within a nominated Trading Window, and over vested shares since hedging of unvested equity incentives is separately and absolutely prohibited. Non-Restricted personnel face no clearance or window requirement for the derivative legs, only the general inside-information prohibition. Because the secured loan cannot be put in place, a true funded collar with a bank cannot be implemented; only an unfunded collar structure, cleared and timed around Trading Windows, is workable."
+}

@@ -1,0 +1,422 @@
+{
+ "symbol": "MYS",
+ "company": "MyState Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "",
+ "date_effective": "1 June 2018",
+ "date_lodged": "1 June 2018",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "MYS Group employees and contractors",
+   "kind": "all_staff",
+   "description": "All MYS Group employees and contractors. Only subject to the insider trading prohibitions in paragraphs 1 to 3; not required (though free) to follow the Designated Persons regime in paragraphs 4 to 17.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "kmp",
+   "description": "MYS Directors and other Key Management Personnel, all members of the Executive Team (ET), all direct reports of ET members, and other persons specified from time to time by the CEO. Subject to blackout periods, notification, prohibited dealings, Approval Requests and share plan rules (paragraphs 4-17).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Board or ET",
+   "kind": "kmp",
+   "description": "Members of the Board or the Executive Team; a subset of Designated Persons who additionally require the Chairman's prior approval to deal outside a blackout period.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of MYS, including the MD/CEO; for Approval Requests under paragraph 8, this tier's approver is the Chairman.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Chairman",
+   "kind": "other",
+   "description": "The Chairman of MYS; for Approval Requests under paragraph 8, the Chairman's own approver is the Board or the Chairman of the Group Audit Committee.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Relative",
+   "kind": "associate",
+   "description": "A family member who may be expected to influence, or be influenced by, a Designated Person in dealings in MYS shares, including a partner, parent, sibling, child, or a parent, sibling or child of that person's partner.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "yes",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "must not enter into transactions in associated products which effectively operate to limit the economic risk of your security holdings allocated under the plan during the period the shares are held on your behalf by the trustee of the relevant plan",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "15 December",
+   "end_anchor": "5:00 pm on the day after the release of MYS half yearly results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Persons"],
+   "start_anchor": "15 June",
+   "end_anchor": "5:00 pm on the day after the release of MYS annual results to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board of MYS may determine additional blackout periods 'at such other times as the Board of MYS determines'; the policy does not state whether these are kept confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Securities); 4; 8",
+   "detail": "Derivatives are not named as such. 'Securities' (and hence 'MYS shares') is defined to extend to financial products relating to MYS securities whether created by MYS or by third parties, so an OTC derivative over MYS shares is itself 'MYS shares' for policy purposes and subject to the same blackout, notification and Chairman/Board approval regime as an ordinary trade.",
+   "evidence": "It also extends to financial products relating to securities issued by the Company whether or not the financial products are created by the Company or by third parties."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15(b)",
+   "detail": "Express ban on hedging security holdings allocated under a MYS share plan while held on the participant's behalf by the plan trustee (i.e. before the shares are released to the participant), unless approved via an Approval Request.",
+   "evidence": "must not enter into transactions in associated products which effectively operate to limit the economic risk of your security holdings allocated under the plan during the period the shares are held on your behalf by the trustee of the relevant plan, unless approved pursuant to an Approval Request."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Securities); 4; 8",
+   "detail": "Hedging of vested, unrestricted MYS shares (held outside a share plan trust) is not separately named, but a hedge is a financial product relating to MYS securities and so is itself 'MYS shares', subject to the same blackout/notification/approval regime as any other dealing.",
+   "evidence": "It also extends to financial products relating to securities issued by the Company whether or not the financial products are created by the Company or by third parties."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Securities, Dealing); 4; 8",
+   "detail": "Not named. A prepaid forward or similar monetisation structure is a financial product relating to MYS securities and so is itself 'MYS shares', triggering blackout/notification rules; if it also uses the shares as collateral it is separately a Prohibited Dealing under 8(b) absent approval.",
+   "evidence": "It also extends to financial products relating to securities issued by the Company whether or not the financial products are created by the Company or by third parties."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the policy (the only related concepts named are stock lending and short-term trading, which are distinct).",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8(c)",
+   "detail": "Expressly named as a Prohibited Dealing for Designated Persons, permitted only if approved via the Approval Request process or otherwise excused under paragraph 10.",
+   "evidence": "engaging in any stock lending arrangements in relation to MYS shares"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Definitions (Securities); 4; 8",
+   "detail": "Not named. A CFD over MYS shares is a financial product relating to MYS securities created by a third party, and so is itself 'MYS shares', subject to the standard blackout/notification/approval regime.",
+   "evidence": "It also extends to financial products relating to securities issued by the Company whether or not the financial products are created by the Company or by third parties."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8(b); 9",
+   "detail": "Entering a margin loan and transferring shares into an existing margin loan account are expressly named Prohibited Dealings, permitted only via an approved Approval Request or grandfathering under paragraph 10.",
+   "evidence": "using MYS shares as collateral in any financial transaction, including margin loan arrangements"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8(b)",
+   "detail": "Broader than margin lending: 'using MYS shares as collateral in any financial transaction' is a Prohibited Dealing for Designated Persons, permitted only with approval or grandfathering under paragraph 10.",
+   "evidence": "using MYS shares as collateral in any financial transaction, including margin loan arrangements"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8(b)",
+   "detail": "'Any financial transaction' using MYS shares as collateral is broad enough to capture the loan leg of a funded collar; it is a Prohibited Dealing unless an Approval Request is granted in exceptional circumstances or the arrangement predates Designated Person status (paragraph 10).",
+   "evidence": "using MYS shares as collateral in any financial transaction, including margin loan arrangements"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8(d); 9",
+   "detail": "Buying and selling MYS shares on a short-term trading basis is a Prohibited Dealing, illustrated as within a 3 month period, and expressly extends to 'short-term arrangements, such as forward contracts'; permitted only with an approved Approval Request or paragraph 10 grandfathering.",
+   "evidence": "buying and selling shares within a 3 month period and entering into short-term arrangements, such as forward contracts."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Board or ET",
+   "type": "approval",
+   "approver": "Chairman of MYS",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "6",
+   "evidence": "if you are a member of the Board or the ET, you may only buy, sell or otherwise deal in MYS shares during a non-blackout period if you have obtained the prior approval of the Chairman of MYS."
+  },
+  {
+   "tier": "Designated Persons",
+   "type": "notification",
+   "approver": "Company Secretary",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5",
+   "evidence": "If you are a Designated Person, you must notify the Company Secretary: before you or a relative buy, sell or otherwise deal in MYS shares during a non-blackout period."
+  },
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairman",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8; 11-13",
+   "evidence": "if you are a Director of MYS (including the MD/CEO), the Chairman"
+  },
+  {
+   "tier": "Chairman",
+   "type": "approval",
+   "approver": "Board or the Chairman of the Group Audit Committee",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8; 11-13",
+   "evidence": "if you are the Chairman, the Board or the Chairman of the Group Audit Committee"
+  },
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "MD/CEO or the Company Secretary",
+   "form": "written",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8; 11-13",
+   "evidence": "if you are any other Designated Person, the MD/CEO or the Company Secretary"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Designated Persons",
+   "type": "buy_sell_window",
+   "months": 3,
+   "basis": "illustrative example, from acquisition",
+   "carve_outs": [
+    "dealings which do not result in a change in beneficial interest of MYS shares",
+    "acquisition of MYS shares through a Dividend Reinvestment Plan as an ordinary shareholder",
+    "acquisition of MYS shares through a share purchase plan available to all retail shareholders",
+    "acquisition of MYS shares through a rights issue",
+    "disposal of MYS shares through the acceptance of a takeover offer",
+    "disposal resulting from a secured lender exercising rights under an arrangement permitted under paragraph 10",
+    "participation in a MYS share plan",
+    "arrangements entered into before becoming a Designated Person, for up to 12 months or until expiry, whichever is earlier"
+   ],
+   "evidence": "buying and selling shares within a 3 month period and entering into short-term arrangements, such as forward contracts."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairman / Board / Chairman of Group Audit Committee / MD-CEO / Company Secretary (as relevant)",
+   "evidence": "severe financial hardship"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chairman / Board / Chairman of Group Audit Committee / MD-CEO / Company Secretary (as relevant)",
+   "evidence": "compulsion by court order"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Chairman / Board / Chairman of Group Audit Committee / MD-CEO / Company Secretary (as relevant)",
+   "evidence": "any other circumstance that is deemed by the Chairman, the Board, the Chairman of the Group Audit Committee, the MD/CEO or the Company Secretary (as relevant) to be exceptional."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "arrangements that you entered into prior to you becoming a Designated Person that would otherwise be prohibited under paragraph 8 are permitted to continue for a 12 month period from the date that you became a Designated Person or until the date of expiry of the relevant arrangement, whichever is the earlier to occur."
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings which do not result in a change in beneficial interest of MYS shares e.g. transferring a personal holding of MYS shares to a personal superannuation fund"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of MYS shares through participation in a Dividend Reinvestment Plan as an ordinary shareholder; acquisition of MYS shares through participation in a share purchase plan available to all retail shareholders; acquisition of MYS shares through a rights issue"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of MYS shares through the acceptance of a takeover offer"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of MYS shares that is the result of a secured lender exercising their rights pursuant to an arrangement that was permitted under paragraph 10"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "participation in a share plan operated by MYS. However, where any MYS shares granted to a Designated Person under a share plan cease to be held under the terms of that plan, the Designated Person must only deal in those MYS shares in accordance with this policy"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Designated Persons; trigger: prior to entering a collateral/margin arrangement not otherwise permitted (inception); disclose circumstances of the proposed dealing and reasons in a written Approval Request; to Chairman/Board/MD-CEO/Company Secretary depending on role; deadline: before entering the arrangement."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": "Paragraph 16 refers ET members to 'share ownership requirements set out in the MYS Remuneration Policy' (an external document, not reproduced); whether hedged shares are excluded from that requirement is not addressed."
+ },
+ "external_documents": [
+  "MYS Remuneration Report (Key Management Personnel identification)",
+  "MYS Remuneration Policy (share ownership requirements for ET members)"
+ ],
+ "exemption_authority": "Approval Requests may be granted only in exceptional circumstances (severe financial hardship, compulsion by court order, or another circumstance deemed exceptional) by the Chairman, the Board, the Chairman of the Group Audit Committee, the MD/CEO or the Company Secretary depending on the applicant's role (paragraphs 11-13). The MD/CEO or Company Secretary may also extend the Policy's scope to other dealings or other companies' shares (paragraph 17).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "grandfathering of pre-existing arrangements",
+   "clause": "arrangements that you entered into prior to you becoming a Designated Person that would otherwise be prohibited under paragraph 8 are permitted to continue for a 12 month period from the date that you became a Designated Person or until the date of expiry of the relevant arrangement, whichever is the earlier to occur.",
+   "why_it_matters": "A funded collar entered into before someone becomes a Designated Person can continue for up to 12 months (or until its stated expiry) without an Approval Request, but a new collar entered into while already a Designated Person is a Prohibited Dealing requiring exceptional-circumstances approval."
+  },
+  {
+   "topic": "broad collateral prohibition",
+   "clause": "using MYS shares as collateral in any financial transaction, including margin loan arrangements",
+   "why_it_matters": "Not limited to margin loans - 'any financial transaction' captures the loan leg of a funded collar, making it a Prohibited Dealing for Designated Persons absent an approved Approval Request or paragraph 10 grandfathering."
+  },
+  {
+   "topic": "exceptional circumstances threshold",
+   "clause": "An Approval Request will only be granted: in exceptional circumstances; where the Approval Request is accompanied by sufficient evidence that the proposed purchase, sale or other dealing in MYS shares is the only reasonable course of action available in the circumstances.",
+   "why_it_matters": "The bar for permission to enter a prohibited dealing (including a collar's loan leg or short-term derivative legs) is high; a voluntary wealth-diversification or monetisation strategy is unlikely to qualify as the 'only reasonable course of action'."
+  },
+  {
+   "topic": "window-period stacking ban",
+   "clause": "must not exercise rights under these share plans and sell (or otherwise dispose of your interest in) MYS shares within the same window period, unless approved pursuant to an Approval Request.",
+   "why_it_matters": "Even after vesting/exercise, disposing of the resulting shares in the same window period as the exercise is itself restricted, which could delay unwinding a collar timed around vesting."
+  },
+  {
+   "topic": "forced sale carve-out conditional on approved arrangement",
+   "clause": "a disposal of MYS shares that is the result of a secured lender exercising their rights pursuant to an arrangement that was permitted under paragraph 10",
+   "why_it_matters": "A lender's enforcement sale is only an excluded dealing if the underlying secured arrangement was itself 'permitted' (grandfathered or separately approved); an unapproved arrangement's enforcement sale would not benefit from this carve-out."
+  },
+  {
+   "topic": "5-business-day execution window",
+   "clause": "Upon receipt of approval, you must undertake the proposed purchase, sale or other dealing in MYS shares immediately but at least within 5 business days. If the dealing is not undertaken within 5 business days, the approval will no longer have effect.",
+   "why_it_matters": "Any approved collar leg must be executed within 5 business days of approval or a fresh Approval Request is required."
+  },
+  {
+   "topic": "securities include third-party financial products",
+   "clause": "It also extends to financial products relating to securities issued by the Company whether or not the financial products are created by the Company or by third parties.",
+   "why_it_matters": "A bank-written OTC put/call over MYS shares is itself 'MYS shares' for policy purposes, so dealing in it triggers the full blackout/notification/approval regime that applies to ordinary share trades."
+  }
+ ],
+ "summary": "A funded collar is very difficult to implement for a Designated Person unless it predates their appointment. Because 'Securities' expressly extends to third-party financial products over MYS shares, both the option legs and the loan leg of a collar are themselves 'MYS shares' dealings. The loan leg, as 'using MYS shares as collateral in any financial transaction', is a Prohibited Dealing under paragraph 8(b), permitted only via a written Approval Request granted in exceptional circumstances (severe hardship, court order, or similarly exceptional circumstance) by the Chairman, Board, Chairman of the Group Audit Committee, MD/CEO or Company Secretary depending on role, or if the arrangement predates the individual's Designated Person status (continuing for up to 12 months or until expiry under paragraph 10). The option legs would likely also engage the short-term/forward-contract dealing prohibition (paragraph 8(d)) and require the same Approval Request process, on top of separate blackout-period rules and (for Board/ET members) Chairman pre-approval to deal outside blackout at all. In practice, a new bank-funded collar for a current Designated Person requires a successful exceptional-circumstances Approval Request, which the policy's 'only reasonable course of action' standard makes unlikely for a discretionary hedge; a pre-existing collar can continue for a limited grandfathering period."
+}

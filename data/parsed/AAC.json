@@ -1,0 +1,228 @@
+{
+ "symbol": "AAC",
+ "company": "Australian Agricultural Company Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "2 December 2024",
+ "date_effective": "2 December 2024",
+ "date_lodged": "4 December 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Company Personnel",
+   "kind": "all_staff",
+   "description": "All directors and employees of, and contractors to, any entity in the Company Group, and any other person designated as Company Personnel by the Board in writing; and any company, trust or other body or entity controlled by any of those persons. Only the general insider trading prohibition (Section 4) applies to this tier as such.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "Relevant Personnel (directors, other KMP including the CEO and Managing Director and their direct reports, employees/contractors/consultants who receive regular financial performance or sales data, and any other person the CEO/Managing Director or Board designates), plus any Related Person or Related Entity (or an Associate of one) of a Relevant Personnel, plus Closely Related Parties of all Relevant Personnel. All Section 5 restrictions (Blackout Periods, clearance, margin lending ban, hedging rules, short-term trading ban) apply to this tier.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and other Key Management Personnel (including the CEO and Managing Director), other than the Chair of the Board",
+   "kind": "kmp",
+   "description": "Directors and KMP other than the Chair; distinguished only for the Approver table (Chair of the Board, or Chair of the Audit and Risk Management Committee if the CEO is also Chair).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair of the Board; distinguished only for the Approver table (Chair of the Audit and Risk Management Committee).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other Restricted Persons",
+   "kind": "restricted",
+   "description": "Restricted Persons who are not directors, KMP or the Chair; distinguished only for the Approver table (the CEO and Managing Director).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Related Parties",
+   "kind": "associate",
+   "description": "As defined in the Corporations Act: a Relevant Personnel's spouse, child, spouse's child, a dependent of the person or their spouse, any other family member in a position of influence over or influenced by the person, or a company controlled by the person. Where a Restricted Person must do something under this Policy, they must also do so for their Closely Related Parties.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Related Persons and Related Entities",
+   "kind": "associate",
+   "description": "A Related Person (parent, spouse or child) or a Related Entity (an entity of which the Relevant Personnel is a director/secretary or otherwise controls or influences) of a Relevant Personnel, or an Associate (Corporations Act meaning) of a Related Person or Related Entity.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "yes",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into transactions in financial products that operate to limit the economic risk associated with holding Company Securities. This includes Securities awarded under the Company's incentive programs.",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "12.01am (AEST) on the day following the last day of the Company's financial year",
+   "end_anchor": "close of the ASX trading day one business day after the Company's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "12.01am (AEST) on the day following the last day of the Company's half-year reporting period",
+   "end_anchor": "close of the ASX trading day one business day after the Company's half-year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of the ASX trading day 30 days prior to the day scheduled for the Company's AGM",
+   "end_anchor": "close of the ASX trading day one business day after the date the AGM was held",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of the ASX trading day 30 days prior to the day a prospectus offering Company Securities is issued",
+   "end_anchor": "close of the ASX trading day one business day after the prospectus was issued",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify 'any other period' as a Blackout Period (5.1(a)(v)). The policy does not state whether such additional periods are announced or confidential, though a refused waiver 'is final and binding' and the Restricted Person 'must keep all information relating to the waiver confidential' (5.1(b)).",
+ "rules": [
+  {"topic": "derivatives", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_dealing_definition", "floor": "", "section": "2(e), 2(l), 5.2", "detail": "Securities expressly includes 'any derivatives of those securities, including equity swaps, futures, hedges and exchange-traded or over-the-counter options, whether settled by cash or otherwise'; buying or selling such a derivative is a Dealing requiring the Section 5.2 notification-and-approval process (or a Blackout-Period waiver). Where the derivative operates to limit economic risk (i.e. is a hedge), the stricter vesting-based rules in Section 5.4 apply instead.", "evidence": "any derivatives of those securities, including equity swaps, futures, hedges and exchange-traded or over-the-counter options, whether settled by cash or otherwise"},
+  {"topic": "hedging", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.4(b)", "detail": "Absolute, unwaivable ban: unvested equity under any employee, executive or director equity plan must never be hedged. The Blackout-Period exceptional-circumstances waiver (5.1(b)) applies only to Section 5.1(a), not to this prohibition.", "evidence": "Company Securities must never be hedged prior to the vesting of those Company Securities. In particular, Restricted Persons are prohibited from entering into any hedge transaction involving unvested equity held pursuant to any employee, executive or director equity plan operated by the Company."},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.4(c)", "detail": "Absolute ban while Company Securities are subject to a holding lock or restriction on Dealing under an equity plan; not subject to any waiver mechanism in the policy.", "evidence": "Company Securities must never be hedged while they are subject to a holding lock or restriction on Dealing under the terms of any employee, executive or director equity plan operated by the Company."},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "5.4", "detail": "Vested and unrestricted Company Securities may be hedged; the hedge is treated as an ordinary Dealing and must go through the Section 5.2 approval and notification process (or a Blackout waiver). The Company may publicly disclose the fact and nature of the hedge.", "evidence": "Restricted Persons are permitted to hedge their vested and unrestricted Company Securities on the following conditions: (a) the hedge transaction is treated as a Dealing in Company Securities for the purposes of this Policy, and the relevant approvals and notifications are made on this basis; and (b) the relevant requirements under Section 5.2 have been satisfied."},
+  {"topic": "monetisation", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_dealing_definition", "floor": "", "section": "2(e)", "detail": "Monetisation is not named; a prepaid forward or similar structure is caught as a 'financing arrangement related to Securities' or a disposal, and is a Dealing requiring the Section 5.2 approval process. If it operates to limit economic risk it is also 'Hedging' and subject to the Section 5.4 vesting-based rules.", "evidence": "margin lending, stock lending or other financing arrangements related to Securities"},
+  {"topic": "short_selling", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_dealing_definition", "floor": "", "section": "2(e), 5.2", "detail": "Short selling is not named; selling or otherwise disposing of Securities, whether on or off market, is a Dealing requiring approval under Section 5.2 like any other sale.", "evidence": "selling or otherwise disposing of Securities, whether on or off market"},
+  {"topic": "stock_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "2(e)(iv)", "detail": "Stock lending is expressly named as a Dealing and, unlike margin lending, is not separately banned; it requires the ordinary Section 5.2 approval and notification process.", "evidence": "margin lending, stock lending or other financing arrangements related to Securities"},
+  {"topic": "cfd", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_dealing_definition", "floor": "", "section": "2(l)(v)", "detail": "CFDs are not named individually, but a cash-settled derivative over Company Securities falls within 'any derivatives of those securities ... whether settled by cash or otherwise' and is a Dealing requiring Section 5.2 approval.", "evidence": "any derivatives of those securities, including equity swaps, futures, hedges and exchange-traded or over-the-counter options, whether settled by cash or otherwise"},
+  {"topic": "margin_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.3", "detail": "Absolute ban covering entering into a margin lending arrangement, transferring Securities into an existing margin loan account, and selling Securities to satisfy a margin call; the policy states no exceptional-circumstances waiver route for this section (the 5.1(b) waiver addresses only the Blackout Period restriction).", "evidence": "Any Dealing in the Company's Securities by Restricted Persons pursuant to a margin lending arrangement is not permitted."},
+  {"topic": "encumbrance", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "2(e)(iv)", "detail": "Granting security is not named separately from financing; a charge or pledge to secure a non-margin-lending facility falls within 'other financing arrangements related to Securities' in the Dealing definition and requires Section 5.2 approval. It is not banned outright the way margin lending specifically is under Section 5.3.", "evidence": "margin lending, stock lending or other financing arrangements related to Securities"},
+  {"topic": "secured_financing", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "2(e)(iv)", "detail": "Secured financing generally (other than margin lending, which is separately banned by Section 5.3) is an express Dealing requiring Section 5.2 approval and notification, with no vesting-based carve-out stated.", "evidence": "margin lending, stock lending or other financing arrangements related to Securities"},
+  {"topic": "short_term", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.1(c)", "detail": "Three-month on-market buy/sell rule, expressly extended to disposal within three months of receipt of Securities under an incentive program, and to other short-term Dealings such as forward contracts.", "evidence": "Short-term trading includes buying and selling Securities on market within a three month period, and entering into other short-term Dealings (e.g. forward contracts). For the avoidance of doubt, this applies to the disposal of Company Securities within a three month period from the receipt of Company Securities pursuant to any of the Company's incentive programs."}
+ ],
+ "clearance": [
+  {
+   "tier": "Directors and other Key Management Personnel (including the CEO and Managing Director), other than the Chair of the Board",
+   "type": "approval",
+   "approver": "The Chair of the Board (or, where the Restricted Person is the CEO and the CEO is also Chair, the Chair of the Audit and Risk Management Committee)",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "the Relevant Person/Approver who approved the transaction and the Company Secretary/General Counsel",
+   "post_trade_deadline": "within 2 business days of the Dealing",
+   "section": "5.1(b), 5.2",
+   "evidence": "Following approval, Restricted Persons must undertake the proposed Dealing within two clear trading days from the date the approval is given, or as otherwise notified by the Relevant Person. If the Dealing is not undertaken within this time, the approval will no longer have effect and a new approval will be required."
+  },
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "The Chair of the Audit and Risk Management Committee",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "the Relevant Person/Approver who approved the transaction and the Company Secretary/General Counsel",
+   "post_trade_deadline": "within 2 business days of the Dealing",
+   "section": "5.1(b), 5.2",
+   "evidence": "The Relevant Person may approve or refuse the proposed Dealing in their absolute discretion, without providing any reasons."
+  },
+  {
+   "tier": "Other Restricted Persons",
+   "type": "approval",
+   "approver": "The CEO and Managing Director",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "the Relevant Person/Approver who approved the transaction and the Company Secretary/General Counsel",
+   "post_trade_deadline": "within 2 business days of the Dealing",
+   "section": "5.1(b), 5.2",
+   "evidence": "Where clearance is required for a Dealing under this Policy, clearance will not be granted where the Dealing would not satisfy the considerations above."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "on market, or from receipt of Securities under an incentive program",
+   "carve_outs": [],
+   "evidence": "Short-term trading includes buying and selling Securities on market within a three month period, and entering into other short-term Dealings (e.g. forward contracts)."
+  }
+ ],
+ "exceptions": [
+  {"kind": "plan_dealing", "scope": "acquisition_only", "approver": "", "evidence": "participation in an employee, executive or director equity plan operated by the Company (e.g. applying for an allocation of Securities under an employee equity plan offer)"},
+  {"kind": "dividend_plan", "scope": "acquisition_only", "approver": "", "evidence": "acquisition of Company Securities through a dividend reinvestment plan"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "acquisition of Company Securities through a share purchase plan available to all retail shareholders"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "acquisition of Company Securities through a rights issue or other pro rata entitlement offer"},
+  {"kind": "takeover", "scope": "any_dealing", "approver": "", "evidence": "the disposal of Company Securities through the acceptance of a takeover offer"},
+  {"kind": "no_change_beneficial_interest", "scope": "any_dealing", "approver": "", "evidence": "Dealings that result in no effective change to the beneficial interest in the Securities (e.g. transfers of Company Securities already held into a superannuation fund or trust of which the Restricted Person is a beneficiary)"},
+  {"kind": "non_discretionary_plan", "scope": "any_dealing", "approver": "", "evidence": "trading under a pre-approved non-discretionary trading plan, where the Restricted Person did not enter into the plan or amend the plan during a Blackout Period, the plan does not permit the Restricted Person to exercise any influence or discretion in relation to trading under the plan and the plan cannot be cancelled during a Blackout Period, other than in exceptional circumstances"},
+  {"kind": "hardship", "scope": "any_dealing", "approver": "The Approver (Chair of the Board, Chair of the Audit and Risk Management Committee, or CEO and Managing Director, as applicable)", "evidence": "Exceptional circumstances for these purposes include severe financial hardship, compulsion by court order, some other overriding legal or regulatory requirement to transfer Securities, or any other circumstance that is deemed exceptional by the Approver."},
+  {"kind": "court_order", "scope": "any_dealing", "approver": "The Approver (Chair of the Board, Chair of the Audit and Risk Management Committee, or CEO and Managing Director, as applicable)", "evidence": "Exceptional circumstances for these purposes include severe financial hardship, compulsion by court order, some other overriding legal or regulatory requirement to transfer Securities, or any other circumstance that is deemed exceptional by the Approver."}
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "breach",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Restricted Person; entering any financing arrangement related to Securities other than margin lending, treated as a Dealing; to the Relevant Person/Approver and Company Secretary/General Counsel; approval before the Dealing, confirmation within 2 business days after"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Terms of the Company's employee, executive and director equity plans (govern vesting and holding locks referenced in Sections 5.4 and 6)"],
+ "exemption_authority": "The Approver (Chair of the Board, Chair of the Audit and Risk Management Committee, or CEO and Managing Director, depending on the Restricted Person) may grant a waiver from the Blackout Period restriction in Section 5.1(a) only, for exceptional circumstances (severe financial hardship, court order, overriding legal/regulatory requirement, or other circumstance the Approver deems exceptional), valid for two clear trading days unless otherwise nominated; there is no equivalent waiver for the Section 5.3 margin lending ban or the Section 5.4 unvested/holding-locked hedging ban. The Board may amend the Policy by resolution and add further Blackout Periods.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "margin lending ban has no waiver route",
+   "clause": "Any Dealing in the Company's Securities by Restricted Persons pursuant to a margin lending arrangement is not permitted. Such Dealings would cover: (a) entering into a margin lending arrangement in respect of the Company's Securities; (b) transferring Securities in the Company into an existing margin loan account; and (c) selling Securities in the Company to satisfy a call pursuant to a margin loan.",
+   "why_it_matters": "The exceptional-circumstances waiver in Section 5.1(b) applies only to the Blackout Period restriction in 5.1(a), not to Section 5.3, so a margin-style loan secured on the collared shares cannot be structured, transferred into, or unwound by forced sale under any circumstances, hardship included."
+  },
+  {
+   "topic": "unvested/locked hedging ban is unwaivable",
+   "clause": "Company Securities must never be hedged prior to the vesting of those Company Securities ... Company Securities must never be hedged while they are subject to a holding lock or restriction on Dealing under the terms of any employee, executive or director equity plan operated by the Company.",
+   "why_it_matters": "The 'must never' language and absence of any waiver mechanism for Section 5.4 means a collar cannot be entered over unvested or holding-locked incentive securities under any circumstances, unlike the Blackout Period timing restriction which can be waived."
+  },
+  {
+   "topic": "hedge disclosure",
+   "clause": "Where a Restricted Person enters into a hedging arrangement in respect of Company Securities, the Company may, where appropriate, disclose the fact and nature of the hedge (e.g. in its Annual Report or to the ASX).",
+   "why_it_matters": "A cleared collar over vested unrestricted shares may become publicly disclosed by the Company at its discretion, a reputational factor for the executive and the bank to consider in structuring."
+  },
+  {
+   "topic": "reputational veto over clearance",
+   "clause": "Where clearance is required for a Dealing under this Policy, clearance will not be granted where the Dealing would not satisfy the considerations above.",
+   "why_it_matters": "Even a collar over vested, unrestricted shares that is otherwise compliant can be refused clearance on a subjective 'front page of the newspaper' reputational test."
+  },
+  {
+   "topic": "escrow overlay",
+   "clause": "Any Company Personnel who holds Company Securities subject to binding restrictions on transfer (either as ASX restricted Securities or through voluntary escrow arrangements) must comply with the terms of any applicable escrow arrangements and will be unable to trade in those Securities during that time.",
+   "why_it_matters": "If the shares intended for the collar are ASX-restricted or under voluntary escrow, no Dealing (including granting security or a derivative) is possible until escrow ends, regardless of vesting status."
+  },
+  {
+   "topic": "broad Dealing definition includes varying terms",
+   "clause": "issuing, underwriting or varying the terms of Securities",
+   "why_it_matters": "Restructuring, rolling or amending the collar or its strike/tenor after inception would itself be a fresh Dealing requiring clearance and compliance with Blackout Periods."
+  }
+ ],
+ "summary": "A funded collar is not achievable over unvested or holding-locked shares, and the loan leg cannot be structured as a margin loan at all, under this policy. Section 5.4 imposes an absolute, unwaivable 'must never' ban on hedging unvested or holding-locked equity, and Section 5.3 imposes an absolute ban on any Dealing pursuant to a margin lending arrangement (entering, transferring securities into, or a forced sale to satisfy a call), with the Section 5.1(b) exceptional-circumstances waiver applying only to the separate Blackout Period timing restriction, not to either ban. Over vested, unrestricted shares, however, a hedge (expressly including OTC and cash-settled derivatives) is permitted as an ordinary Dealing requiring prior written approval from the Chair of the Board, Chair of the Audit and Risk Management Committee, or CEO/Managing Director as applicable, execution within two clear trading days of approval, and confirmation to the approver and Company Secretary within two business days; a non-margin secured financing arrangement (e.g. a bespoke bank loan secured on the shares) appears similarly permitted with clearance as an 'other financing arrangement related to Securities', though a lender's forced sale during a Blackout Period is not carved out and would itself be a breach absent a waiver. Clearance can still be refused on a subjective reputational ('front page of the newspaper') basis, and any hedge the Company allows may be publicly disclosed in its Annual Report or to the ASX."
+}

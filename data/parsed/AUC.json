@@ -1,0 +1,443 @@
+{
+ "symbol": "AUC",
+ "company": "Ausgold Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "7 November 2025",
+ "date_effective": "",
+ "date_lodged": "10 November 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "AUC Persons",
+   "kind": "all_staff",
+   "description": "All employees, officers, and strategic contractors of the Company or its subsidiaries. All substantive prohibitions in section 7 (short-term/speculative trading, short selling, margin lending/secured financing, hedging of remuneration securities) apply to this whole group without differentiation, and their Connected Persons must comply to the same standard.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Persons",
+   "kind": "restricted",
+   "description": "All directors and officers of the Company or its subsidiaries, key management personnel, and any other person designated by the Board. Must obtain prior written clearance before dealing at all times, even outside a Prohibited Period.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The Chair of the Board, a subset of Designated Persons distinguished only because their own clearance must come from the Chair of the Audit & Risk Committee rather than from the Chair of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Non-Designated Person",
+   "kind": "all_staff",
+   "description": "AUC Persons who are not Designated Persons; do not require approval to trade outside Prohibited Periods (subject to insider trading law), but need approval to trade within a Prohibited Period under the exceptional-circumstances gateway.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Person",
+   "kind": "associate",
+   "description": "Spouse or partner, minor children, relatives who have lived in the same household 12+ months, business partners of the above, an entity in which the person is a director, senior executive or >20% shareholder, a trustee for the benefit of any of the above, or any other person over whom the person has significant influence or control.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "enter into transactions or arrangements with anyone which could have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (b) has not vested in the member; or (c) has vested in the member but remains subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading at the end of each quarter",
+   "end_anchor": "commencement of trading on the next trading day following the announcement to ASX of the Company's quarterly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading at the end of the financial half year",
+   "end_anchor": "commencement of trading on the next trading day following the announcement of the Company's half-yearly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of trading at the end of the full financial year",
+   "end_anchor": "commencement of trading on the next trading date following the announcement to ASX of the preliminary final statement or full year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may impose an Additional Prohibited Period at any time it is considering matters that would require disclosure but for Listing Rule 3.1A; notified to AUC Persons by email. Not stated to be confidential to the person seeking clearance, though the underlying matter is 'usually because the matter is incomplete and confidential.'",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2(d); 6.4(d); 8.1",
+   "detail": "Company Securities is defined to include 'any hedging arrangement, financial instrument or derivative' with no venue limit, so an OTC put/call is a Company Security dealt in by Dealing. Designated Persons must obtain prior written clearance from the Chair of the Board (or Chair of the ARC for the Chair's own trades) before dealing, even outside a Prohibited Period.",
+   "evidence": "each Designated Person is required to obtain prior written clearance in accordance with the procedure described below ... before dealing or trading in the Company Securities, even if the proposed transaction is outside of a Prohibited Period."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Non-Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "express",
+   "floor": "",
+   "section": "2.2(d); 8.2",
+   "detail": "Non-Designated Persons need no clearance to deal in Company Securities (including derivatives, per the 2.2(d) definition) outside Prohibited Periods provided no insider trading or other Policy breach occurs; clearance is only required to deal within a Prohibited Period under the exceptional-circumstances gateway.",
+   "evidence": "Employees, officers, and strategic contractors of the Company or its subsidiaries who are not Designated Persons do not require approval to trade in Company Securities outside of Prohibited Periods, provided that such trading does not breach insider trading laws or other prohibitions set out in this Policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4(a)-(b)",
+   "detail": "Absolute ban on transactions or arrangements that limit exposure to risk on remuneration that has not yet vested.",
+   "evidence": "enter into transactions or arrangements with anyone which could have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: ... has not vested in the member"
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.4(a),(c)",
+   "detail": "Same absolute ban extends to remuneration securities that have vested but remain subject to a holding lock.",
+   "evidence": "has vested in the member but remains subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Designated Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "7.4(d); 8.1",
+   "detail": "Once vested and free of any holding lock, hedging is not separately named but falls under the residual ban on dealing in financial products over Company Securities 'except for the type of dealing permitted by law or under this Policy' - i.e. it must qualify as an ordinary cleared Dealing, requiring prior written clearance from the Chair of the Board (or ARC Chair for the Chair).",
+   "evidence": "deal in financial products over or in respect of Company Securities, except for the type of dealing permitted by law or under this Policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Non-Designated Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "7.4(d); 8.2",
+   "detail": "For vested, unlocked securities, a Non-Designated Person may hedge as an ordinary Dealing without clearance outside a Prohibited Period; clearance is needed only to deal inside a Prohibited Period under the exceptional-circumstances gateway.",
+   "evidence": "deal in financial products over or in respect of Company Securities, except for the type of dealing permitted by law or under this Policy."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.4(c)-(d); 8.1",
+   "detail": "Monetisation is not named. A prepaid forward or similar is caught as Dealing (an agreement to buy/sell at a future time, or an arrangement transferring beneficial ownership) and requires the Designated Person's prior written clearance at any time; if it involves granting security over the shares it is separately barred as a secured financing arrangement under 7.1.",
+   "evidence": "entering into an agreement or undertaking to buy or sell at a future time"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Non-Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.4(c)-(d); 8.2",
+   "detail": "Permitted as an ordinary Dealing outside Prohibited Periods without clearance; requires exceptional-circumstances clearance if undertaken within a Prohibited Period; secured monetisation is barred under 7.1 regardless of tier.",
+   "evidence": "entering into an arrangement or acting to transfer the beneficial or underlying ownership of securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.3",
+   "detail": "Outright ban on short selling for all AUC Persons, with no clearance carve-out.",
+   "evidence": "AUC Persons must not engage in short selling (being the selling by a person of financial products they do not own with a view to repurchasing them later at a lower price) of Company Securities."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the Policy and is not listed in the Dealing definition.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.2(d); 8.1",
+   "detail": "CFDs are not named but fall within 'financial instrument or derivative' in the Company Securities definition, so they are a Dealing requiring the Designated Person's prior written clearance at all times; a short CFD would also breach the short-selling ban and any speculative use would breach 7.2.",
+   "evidence": "any hedging arrangement, financial instrument or derivative of Ausgold ordinary shares"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Non-Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2.2(d); 8.2",
+   "detail": "Permitted as an ordinary Dealing outside Prohibited Periods without clearance, subject to the short-selling and short-term/speculative bans applying equally to all AUC Persons.",
+   "evidence": "any hedging arrangement, financial instrument or derivative of Ausgold ordinary shares"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "Blanket ban on margin lending for all AUC Persons, with no tier or approval carve-out.",
+   "evidence": "AUC Persons are not permitted to enter into margin lending or other secured financing arrangements in relation to Company Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "Granting security connected to a financing arrangement is caught by the 'other secured financing arrangements' wording; an encumbrance unconnected to any financing is not separately named and is not listed in the Dealing definition.",
+   "evidence": "or other secured financing arrangements in relation to Company Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.1",
+   "detail": "Blanket ban on any secured financing arrangement in relation to Company Securities, for all AUC Persons and their Connected Persons, with no exemption authority.",
+   "evidence": "AUC Persons are not permitted to enter into margin lending or other secured financing arrangements in relation to Company Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "7.2",
+   "detail": "Duration-based ban: 'short term' means holding less than 6 months, applying to Company Securities and to derivatives/other financial products issued over them. Carve-out for selling shares shortly after exercising EIS options/rights.",
+   "evidence": "AUC Persons must not engage in short term or speculative trading in Company Securities or in derivative or other financial products issued over or in respect of Company Securities. Short term means in less than a 6-month period."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "Chair of the Audit & Risk Committee (ARC)",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "the relevant Approving Officer",
+   "post_trade_deadline": "1 business day",
+   "section": "8.1; 8.5; 8.6",
+   "evidence": "Chair of the Board | Chair of the Audit & Risk Committee ('ARC')"
+  },
+  {
+   "tier": "Designated Persons",
+   "type": "approval",
+   "approver": "Chair of the Board",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "the relevant Approving Officer",
+   "post_trade_deadline": "1 business day",
+   "section": "8.1; 8.5; 8.6",
+   "evidence": "Any Designated Person must not trade in the Company Securities in any periods, unless prior approval has been obtained. ... Other Designated Persons | Chair of the Board"
+  },
+  {
+   "tier": "Non-Designated Person",
+   "type": "approval",
+   "approver": "Executive Chairman or Company Secretary",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "the relevant Approving Officer",
+   "post_trade_deadline": "1 business day",
+   "section": "8.2; 8.5; 8.6",
+   "evidence": "Any AUC Person must not trade in the Company's securities during the Prohibited Periods. If exceptional circumstances exist, that person must apply for approval before trading."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "from acquisition",
+   "carve_outs": ["selling shares shortly after exercising options or rights issued to the person under the Company's Employee Incentive Scheme"],
+   "evidence": "AUC Persons must not engage in short term or speculative trading in Company Securities ... Short term means in less than a 6-month period. This does not apply to selling shares shortly after exercising options or rights issued to the person under the Company's Employee Incentive Scheme."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of securities already held into a superannuation fund or other saving scheme in which the a person is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme ... where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where the person is a trustee, trading in the Company Securities by that trust provided the person is not a beneficiary of the trust and any decision to trade during a Prohibited Period is taken by the other trustees or by the investment managers independently of the person"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities that is the result of a secured lender exercising their rights, for example, however, this does not extend to disposal under a margin lending agreement if the agreement is prohibited by this Policy."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or right under an Employee Incentive Scheme, or the conversion of a convertible security, where the final date for the exercise ... falls during a Prohibited Period"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "person granting the prior written clearance (Chair of the Board / Chair of ARC / Executive Chairman / Company Secretary)",
+   "evidence": "the person granting the prior written clearance in accordance with this Policy is satisfied that the person seeking the clearance does not possess unpublished price sensitive information about the Company and the person seeking clearance is in severe financial hardship"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "person granting the prior written clearance",
+   "evidence": "there are other circumstances deemed to be exceptional by the person granting the prior written clearance"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where trading is required for compliance with a court order or court enforceable undertakings or for some other legal or regulatory requirement"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Exceptional-circumstances clearance for hardship, other exceptional circumstances, or legal/court requirement, granted by the Approving Officer (Chair of the Board, Chair of the ARC, Executive Chairman or Company Secretary) provided the person does not hold Inside Information; there is no exemption from the section 7.1 secured financing ban.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing scope",
+   "clause": "AUC Persons are not permitted to enter into margin lending or other secured financing arrangements in relation to Company Securities.",
+   "why_it_matters": "Outright bars the loan leg of a funded collar secured on the shares for all AUC Persons and their Connected Persons, with no clearance route or exemption."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "a disposal of securities that is the result of a secured lender exercising their rights ... this does not extend to disposal under a margin lending agreement if the agreement is prohibited by this Policy.",
+   "why_it_matters": "Even if a secured facility somehow existed, this carve-out is moot because 7.1 already bans the underlying secured financing arrangement, so a bank could never lawfully hold enforceable security to sell against."
+  },
+  {
+   "topic": "hedging of remuneration securities",
+   "clause": "must not ... enter into transactions or arrangements with anyone which could have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that has not vested ... or has vested ... but remains subject to a holding lock",
+   "why_it_matters": "The collar's put/call legs cannot be written over incentive securities until they are both vested and free of any holding lock."
+  },
+  {
+   "topic": "residual financial-products dealing ban",
+   "clause": "deal in financial products over or in respect of Company Securities, except for the type of dealing permitted by law or under this Policy.",
+   "why_it_matters": "Once vested and unlocked, an OTC put/call is only lawful if it qualifies as ordinary cleared Dealing under the Policy, so the bank's derivative documentation and timing must fit within the standard clearance procedure."
+  },
+  {
+   "topic": "clearance discretion and confidentiality",
+   "clause": "Any clearance to trade can be granted or refused by Ausgold in its discretion, without giving any reasons. ... If a written clearance to trade is refused, the person seeking the clearance must keep that information confidential.",
+   "why_it_matters": "Clearance for the derivative legs (and any later roll or unwind) can be refused without explanation and is capped at 10 business days, creating execution timing risk for a bank-facing collar."
+  },
+  {
+   "topic": "always-on clearance for Designated Persons",
+   "clause": "each Designated Person is required to obtain prior written clearance ... even if the proposed transaction is outside of a Prohibited Period.",
+   "why_it_matters": "Director/officer/KMP executives must clear every leg of a collar (entry, roll, unwind) at any time, not just during open windows, unlike other staff."
+  },
+  {
+   "topic": "connected persons",
+   "clause": "The AUC Persons (including Designated Persons) must ensure their Connected Persons comply with this Policy to the same standard and obligations that apply to that AUC Person.",
+   "why_it_matters": "Routing the collar or loan through a spouse, controlled entity or family trust does not escape the secured-financing ban or the clearance requirement."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy: clause 7.1 flatly prohibits AUC Persons and their Connected Persons from entering into margin lending or 'other secured financing arrangements' in relation to Company Securities, with no clearance route or hardship exemption, so the loan leg secured on the collared shares cannot be put in place. The unfunded put/call legs would separately be treated as dealing in 'financial products ... over or in respect of Company Securities' under 7.4(d); for vested, unrestricted shares this is only permitted as an ordinary cleared Dealing, with Designated Persons (directors, officers, KMP) needing prior written clearance from the Chair of the Board (or the Chair of the ARC for the Chair's own trades) at all times, while other AUC Persons need clearance only to deal within a Prohibited Period under the narrow exceptional-circumstances gateway. Clause 7.4(b)-(c) separately bans any hedge limiting economic risk on remuneration securities that are unvested or vested-but-holding-locked, so the shares must be fully vested and lock-free before the derivative legs can even be contemplated. Clearance, where required, is discretionary, may be refused without reasons, lasts a maximum of 10 business days, and any refusal must be kept confidential by the executive. Overall the derivative legs are structurally achievable post-vesting/post-lock subject to clearance, but the financing leg secured on the shares is an outright breach under this policy."
+}

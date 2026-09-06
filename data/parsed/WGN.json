@@ -1,0 +1,193 @@
+{
+ "symbol": "WGN",
+ "company": "Wagners Holding Company Limited",
+ "title": "Securities trading policy",
+ "date_approved": "3 November 2017",
+ "date_effective": "3 November 2017",
+ "date_lodged": "7 December 2017",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "restricted",
+   "description": "All directors; the Company Secretary; all senior executives and senior management; executive/personal assistants to those officers; any KMP not otherwise covered; and any other employee, contractor, consultant or adviser nominated by the CEO or Company Secretary (e.g. because working on a confidential price-sensitive project) and notified as an Employee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "The Chairman",
+   "kind": "director",
+   "description": "The chairman of the Board; distinguished only for the Authorised Officer table (another non-executive director).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "The CEO, or a director other than the Chairman",
+   "kind": "director",
+   "description": "The CEO or any director other than the Chairman; distinguished only for the Authorised Officer table (the Chairman, or a non-executive director nominated by the Chairman if the Chairman is absent).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Any other person",
+   "kind": "all_staff",
+   "description": "Employees who are not the Chairman, CEO or another director; distinguished only for the Authorised Officer table (the CEO, or a non-executive director nominated by the CEO if the CEO is absent).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Family/trust/company",
+   "kind": "associate",
+   "description": "Any member of an Employee's family, or a trust or company over which the Employee has influence or control, through which an Employee prohibited from trading must not trade.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "engage in hedging arrangements, deal in derivatives or enter into other arrangements which limit the economic risk related to Wagners Securities (including, for example, the use of put and call options, contracts for differences and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Wagners Securities)",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 January",
+   "end_anchor": "day of release of the Appendix 4D Half Year Report to ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "1 July",
+   "end_anchor": "day of release of the Appendix 4E Full Year Report to ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may resolve 'any other period' as a Restricted Period (3.5(c)); the policy does not state whether such additional periods are announced or confidential.",
+ "rules": [
+  {"topic": "derivatives", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "7(b)", "detail": "Dealing in derivatives over Wagners Securities is expressly named and banned unless Written Clearance is obtained under paragraph 5; the policy has no unvested/vested distinction, so this applies uniformly to all Wagners Securities.", "evidence": "engage in hedging arrangements, deal in derivatives or enter into other arrangements which limit the economic risk related to Wagners Securities ... unless you have Written Clearance (as set out in paragraph 5 of this Policy)"},
+  {"topic": "hedging", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "7(b)", "detail": "Hedging arrangements limiting economic risk are expressly named and require Written Clearance; obtaining that clearance requires the exceptional-circumstances test in paragraph 5.3-5.4, not routine approval.", "evidence": "engage in hedging arrangements ... which limit the economic risk related to Wagners Securities ... unless you have Written Clearance"},
+  {"topic": "monetisation", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "7(b)", "detail": "Monetisation is not named, but a structure intended to secure a profit or avoid a loss from price fluctuations (e.g. a prepaid forward) falls within the broad catch-all requiring Written Clearance.", "evidence": "other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Wagners Securities"},
+  {"topic": "short_selling", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "7(b)", "detail": "Short selling is not named, but as an arrangement to profit from a price fall it falls within the section 7(b) catch-all and requires Written Clearance; it is also a 'trade' subject to the Restricted Period and inside information rules.", "evidence": "other arrangements which limit the economic risk related to Wagners Securities ... other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Wagners Securities"},
+  {"topic": "stock_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "not_addressed", "mechanism": "none", "floor": "", "section": "", "detail": "Securities lending is not named anywhere in the policy.", "evidence": ""},
+  {"topic": "cfd", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "7(b)", "detail": "Contracts for differences are expressly named and require Written Clearance, subject to the same exceptional-circumstances test.", "evidence": "the use of put and call options, contracts for differences and other contracts intended to secure a profit or avoid a loss based on fluctuations in the price of Wagners Securities"},
+  {"topic": "margin_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "7(a)", "detail": "Absolute ban, with no Written Clearance carve-out (unlike paragraph 7(b) hedging/derivatives): Employees must not use Wagners Securities in connection with a margin loan or similar financing product subject to a margin call or LVR breach.", "evidence": "use Wagners Securities in connection with a margin loan or similar financing arrangement or product which may be subject to a margin call or loan to value ratio (LVR) breach"},
+  {"topic": "encumbrance", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "7(a)", "detail": "Using Wagners Securities as collateral for a margin-call/LVR-exposed financing arrangement is banned outright; granting security is not addressed outside that specific financing context.", "evidence": "use Wagners Securities in connection with a margin loan or similar financing arrangement or product which may be subject to a margin call or loan to value ratio (LVR) breach"},
+  {"topic": "secured_financing", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "7(a)", "detail": "The ban is scoped to margin loans and similar financing products carrying margin-call/LVR risk, not to secured financing generally; a fixed-term secured loan without margin-call or LVR triggers is not expressly addressed either way.", "evidence": "use Wagners Securities in connection with a margin loan or similar financing arrangement or product which may be subject to a margin call or loan to value ratio (LVR) breach"},
+  {"topic": "short_term", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "3.7", "detail": "No defined holding period; general ban on trading for short term or speculative gain.", "evidence": "If you are an Employee, you must not trade in Wagners Securities for short term or speculative gain."}
+ ],
+ "clearance": [
+  {
+   "tier": "The Chairman",
+   "type": "approval",
+   "approver": "Another non-executive director",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (and, for directors, information for an Appendix 3Y or other prescribed ASX form)",
+   "post_trade_deadline": "within 14 days of each transaction (directors: as soon as practicable for ASX notification)",
+   "section": "5, 6",
+   "evidence": "Written Clearance can only be given if the proposed trade is not: contrary to law; for speculative gain; to take advantage of inside information; or likely to be seen by the public, press, other shareholders or ASX as unfair; and exceptional circumstances exist justifying the issue of the Written Clearance."
+  },
+  {
+   "tier": "The CEO, or a director other than the Chairman",
+   "type": "approval",
+   "approver": "The Chairman, or in the absence of the Chairman, a non-executive director nominated by the Chairman",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary (and, for directors, information for an Appendix 3Y or other prescribed ASX form)",
+   "post_trade_deadline": "within 14 days of each transaction (directors: as soon as practicable for ASX notification)",
+   "section": "5, 6",
+   "evidence": "What constitutes an exceptional circumstance is a matter for the discretion of the Authorised Officer."
+  },
+  {
+   "tier": "Any other person",
+   "type": "approval",
+   "approver": "The CEO, or in the absence of the CEO, a non-executive director nominated by the CEO",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 14 days of each transaction",
+   "section": "5, 6",
+   "evidence": "If you trade in Wagners Securities you must notify the company secretary of the details of all completed transactions within fourteen days after each transaction."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "If you are an Employee, you must not trade in Wagners Securities for short term or speculative gain."
+  }
+ ],
+ "exceptions": [
+  {"kind": "other", "scope": "specific_dealing", "approver": "", "evidence": "a transfer of Wagners Securities already held by you into a superannuation fund or other saving scheme of which you are a beneficiary"},
+  {"kind": "takeover", "scope": "any_dealing", "approver": "", "evidence": "undertakings to accept, or the acceptance of, a takeover offer"},
+  {"kind": "dividend_plan", "scope": "any_dealing", "approver": "", "evidence": "trading under an offer or invitation made to all or most of the existing security holders in a company, such as a pro-rata rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "the exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security, if the final date for the exercise ... falls during a Restricted Period"},
+  {"kind": "hardship", "scope": "any_dealing", "approver": "Authorised Officer", "evidence": "exceptional circumstances may exist if the proposed trade is: to realise cash in a time of financial hardship"},
+  {"kind": "court_order", "scope": "any_dealing", "approver": "Authorised Officer", "evidence": "to comply with the requirement of a court order or enforceable undertaking"}
+ ],
+ "financing": {
+  "secured_financing_scope": "margin_loan_only",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "The trigger for the absolute ban in 7(a) is whether the financing arrangement or product 'may be subject to a margin call or loan to value ratio (LVR) breach'.",
+  "financing_disclosure": [
+   "Employee; a hedging/derivative arrangement cleared under paragraph 5 (treated as a trade); to the Company Secretary; within 14 days of the transaction",
+   "Director; any trade (including a cleared hedging arrangement); to the Company Secretary for Appendix 3Y/ASX notification; as soon as practicable"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Authorised Officer may give Written Clearance to trade during a Restricted Period, or to enter a hedging/derivative arrangement at any time, only where exceptional circumstances exist (financial hardship, court order/enforceable undertaking, or delay causing greater hardship, family detriment, or breach of a court order) and the trade is not unlawful, speculative, informed by inside information, or seen as unfair; there is no exemption route for the paragraph 7(a) margin loan/LVR-linked financing ban.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute margin/LVR financing ban",
+   "clause": "use Wagners Securities in connection with a margin loan or similar financing arrangement or product which may be subject to a margin call or loan to value ratio (LVR) breach",
+   "why_it_matters": "Unlike the hedging/derivatives restriction, this prohibition has no Written Clearance carve-out, so a loan secured on the collared shares that could be subject to a margin call or LVR breach is banned outright with no approval route."
+  },
+  {
+   "topic": "hedging clearance gated by exceptional circumstances",
+   "clause": "Written Clearance can only be given if the proposed trade is not ... and exceptional circumstances exist justifying the issue of the Written Clearance.",
+   "why_it_matters": "The put/call legs of a collar can only be cleared by satisfying the same high 'exceptional circumstances' bar (financial hardship, court order, etc.) that applies to trading during a Restricted Period, not by routine sign-off, materially narrowing when a collar can be entered."
+  },
+  {
+   "topic": "no vesting-state distinction",
+   "clause": "This Policy applies to all securities issued by Wagners of any kind, including ordinary or preference shares, debentures, convertible notes, options and hedging or derivative instruments.",
+   "why_it_matters": "The policy draws no distinction between unvested, holding-locked and freely held shares, so the same exceptional-circumstances gate for hedging applies uniformly regardless of the collared shares' vesting status."
+  },
+  {
+   "topic": "insider trading overlay on cleared arrangements",
+   "clause": "enter into any arrangement of the nature described in paragraph 7(a) or (b) above if to do so would be in breach of the Corporations Act",
+   "why_it_matters": "Even a cleared hedge or otherwise-permitted arrangement remains void if it would independently breach insider trading law, an overlay the bank's collar documentation should not assume away."
+  },
+  {
+   "topic": "anti-avoidance through family/trust/company",
+   "clause": "An Employee who is prohibited from trading under this Policy must not trade through any member of their family, or through a trust or company over which they have influence or control.",
+   "why_it_matters": "Routing the collar or loan through a family trust or controlled company does not avoid the paragraph 7 restrictions where the Employee would otherwise be prohibited."
+  }
+ ],
+ "summary": "A funded collar faces a significant obstacle under this policy: paragraph 7(a) bans outright, with no clearance route, using Wagners Securities in connection with a margin loan or similar financing arrangement or product that may be subject to a margin call or LVR breach, so a conventional margin-style loan secured on the collared shares is prohibited. The derivative legs are more workable in principle: paragraph 7(b) expressly permits hedging arrangements, derivatives, put and call options and CFDs, but only with 'Written Clearance', and clearance requires satisfying an 'exceptional circumstances' test (financial hardship, court order, or similar) under paragraphs 5.3-5.4, not a routine sign-off. Both legs also cannot occur during a Restricted Period (1 January to Half Year results, 1 July to Full Year results, or a Board-declared period) unless that same exceptional-circumstances Written Clearance is obtained, and any completed trade must be notified to the Company Secretary within 14 days (directors also trigger an Appendix 3Y). A structurally different loan without margin-call or LVR features might arguably sit outside paragraph 7(a)'s literal wording, but this would need confirmation from the company, since the exemption list in paragraph 8 does not address secured financing or forced sales at all."
+}
