@@ -1,0 +1,479 @@
+{
+ "symbol": "AX1",
+ "company": "Accent Group Limited",
+ "title": "Policy for Dealing in Securities",
+ "date_approved": "",
+ "date_effective": "31 August 2020",
+ "date_lodged": "31 August 2020",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "Distinguished only for the approval route: the Chair must inform and obtain written approval from the Board or the most senior director before dealing, instead of from the Chair.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors and Officers",
+   "kind": "director",
+   "description": "Directors (other than the Chair) and officers of the Company, including the CEO. Must inform and receive written approval from the Chair of the Board before dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Designated Officers",
+   "kind": "kmp",
+   "description": "Senior management, contractors and employees with access to price-sensitive or 'inside' information, including all Key management personnel as defined in the Company's Remuneration Report. Must inform and receive written approval from the Company Secretary before dealing.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors, Officers and Designated Officers",
+   "kind": "kmp",
+   "description": "The document's own collective heading for the Chair, other Directors and Officers, and Designated Officers, who together are subject to blackout periods, the pre-trade approval requirement, and the margin loan/secured financing prohibition; they differ only in which designated approver they must obtain approval from (see the three tiers above).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Relevant Persons other than Directors, Officers and Designated Officers. May deal in the Company's securities without pre-trade approval and are not subject to blackout periods, but remain subject to the inside information prohibition, the hedging vesting/holding-lock rules, and the short-term dealing ban.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Connected Persons",
+   "kind": "associate",
+   "description": "A close family member of an Employee (partner, spouse, minor children), a company or other entity of which an Employee is a director or chief executive, and any other company, entity or family trust which an Employee or their close family member controls or has an interest in.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "entering into transactions in financial products that operate to limit the economic risk associated with holding Company securities",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Chair of the Board", "Directors and Officers", "Designated Officers"],
+   "start_anchor": "close of trading on the last day of each financial year",
+   "end_anchor": "10am on the second trading day after the Company announces its full year results to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Chair of the Board", "Directors and Officers", "Designated Officers"],
+   "start_anchor": "close of trading on the last day of the first half of each financial year",
+   "end_anchor": "10am on the second trading day after the Company announces its half-yearly results to the ASX",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may specify 'any other period' as a blackout period from time to time, applicable to Directors, officers and Designated Officers; not stated to be confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors, Officers and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2 (Definitions - Securities, Dealing)",
+   "detail": "Securities expressly include 'any derivatives including but not limited to options', and Dealing includes the grant, acceptance, acquisition, disposal, exercise or discharge of any option or other right. An OTC put/call is therefore a Dealing requiring a Personal Trading Approval Form and prior written approval from the designated approver, outside blackout periods and without inside information.",
+   "evidence": "Securities ... include ... any derivatives including but not limited to options in respect of any of (a) to (c) above."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; 'Relevant Persons (other than Directors, Officers and Designated Officers)'",
+   "detail": "Still a Dealing under the Securities/Dealing definitions, but Employees may deal without pre-trade approval, subject only to not possessing inside information.",
+   "evidence": "Relevant Persons other than a director, officer or Designated Officer may deal in the Company's securities (subject to them not being in possession of price sensitive or 'inside' information)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Hedging of Company Securities",
+   "detail": "Absolute prohibition on hedging Company securities before they vest, applying to every Relevant Person.",
+   "evidence": "Company securities must never be hedged prior to the vesting of those Company securities."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Hedging of Company Securities",
+   "detail": "Absolute prohibition on hedging vested Company securities that remain subject to a holding lock or dealing restriction under an employee incentive plan.",
+   "evidence": "Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee incentive plan operated by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Hedging of Company Securities",
+   "detail": "Hedging of vested, unrestricted Company securities is expressly permitted for every Relevant Person (not only Directors/Officers/Designated Officers), provided a Personal Trading Approval Form is completed and prior written approval obtained from the designated approver, and paragraph 2 (blackout, inside information) is otherwise complied with. The Company may disclose the fact and nature of the hedge (e.g. in its annual report or to ASX).",
+   "evidence": "Relevant Persons are permitted to hedge Company securities on the following conditions: the hedge transaction is treated as a dealing in Company securities for the purposes of this Policy ... completing a Personal Trading Approval Form (Schedule A) of their intention to enter into the hedge transaction; and obtaining the prior written approval of the designated approver before entering into the hedge transaction."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors, Officers and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; No Short-Term Dealing",
+   "detail": "Monetisation (e.g. a prepaid forward) is not named as such but is caught as an 'agreement to apply for, acquire or dispose of any securities' (Dealing) and forward contracts are expressly cited as an example of short-term dealing if within 3 months. Requires Personal Trading Approval and designated approver's written approval outside blackout periods.",
+   "evidence": "entering into other short-term dealings (for example, forward contracts)."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; 'Relevant Persons (other than Directors, Officers and Designated Officers)'",
+   "detail": "Caught as a Dealing (agreement to dispose of securities) but Employees need no pre-trade approval, subject to not possessing inside information and the 3-month short-term dealing ban.",
+   "evidence": "Relevant Persons other than a director, officer or Designated Officer may deal in the Company's securities (subject to them not being in possession of price sensitive or 'inside' information)."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named and is not clearly captured by the Dealing definition (acquisition, disposal or agreement to acquire/dispose), which does not obviously extend to a short sale of borrowed securities.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors, Officers and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2 (Definitions - Securities, Dealing)",
+   "detail": "CFDs are not named. A CFD referencing Company securities is a derivative within the Securities definition, so entering into it is a Dealing requiring approval and compliance with blackout periods.",
+   "evidence": "Securities ... include ... any derivatives including but not limited to options in respect of any of (a) to (c) above."
+  },
+  {
+   "topic": "cfd",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; 'Relevant Persons (other than Directors, Officers and Designated Officers)'",
+   "detail": "Caught as a Dealing via the derivatives limb of the Securities definition, but Employees need no pre-trade approval.",
+   "evidence": "Relevant Persons other than a director, officer or Designated Officer may deal in the Company's securities (subject to them not being in possession of price sensitive or 'inside' information)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors, Officers and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Margin Loans and Secured Financing Arrangements",
+   "detail": "Margin loans are expressly prohibited unless treated as a Dealing, with a Personal Trading Approval Form completed and prior written approval of the designated approver obtained, and paragraph 2's other requirements satisfied.",
+   "evidence": "Directors, officers and Designated Officers are prohibited from entering into a margin loan or other secured financing arrangement in respect of the Company's securities, unless: the margin loan or other secured financing arrangement is treated as a dealing in Company securities for the purposes of this Policy and the relevant provisions of this Policy are complied with."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "Margin Loans and Secured Financing Arrangements",
+   "detail": "The express prohibition/approval regime for margin loans is limited by its terms to Directors, officers and Designated Officers; the policy is silent on margin loans by ordinary Employees.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors, Officers and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Margin Loans and Secured Financing Arrangements",
+   "detail": "Granting security is inherent in the expressly named 'secured financing arrangement', permitted only if treated as a Dealing with prior written approval of the designated approver.",
+   "evidence": "Directors, officers and Designated Officers are prohibited from entering into a margin loan or other secured financing arrangement in respect of the Company's securities, unless ... obtaining the prior written approval of the designated approver before entering into the margin loan or other secured financing arrangement."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "Margin Loans and Secured Financing Arrangements",
+   "detail": "The secured financing regime is limited to Directors, officers and Designated Officers; encumbrance by ordinary Employees is not addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors, Officers and Designated Officers",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Margin Loans and Secured Financing Arrangements",
+   "detail": "Secured financing arrangements over Company securities (not limited to margin loans) are expressly prohibited unless treated as a Dealing with prior written approval of the designated approver; approval may be conditioned on permitting Company disclosure of the arrangement to ASX.",
+   "evidence": "Directors, officers and Designated Officers are prohibited from entering into a margin loan or other secured financing arrangement in respect of the Company's securities, unless ... the relevant requirements under paragraph 2 of this Policy have been satisfied."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "Margin Loans and Secured Financing Arrangements",
+   "detail": "The express secured financing regime applies only to Directors, officers and Designated Officers; the policy does not address secured financing by ordinary Employees.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "No Short-Term Dealing",
+   "detail": "Absolute ban on short-term dealing (buying/selling within 3 months, or other short-term dealings such as forward contracts) applying to every Relevant Person, with no stated clearance route specific to short-term dealing; however, a director, officer or Designated Officer may separately apply to the Chair/Board for an Exceptional Circumstances waiver from paragraph 2 (which includes this restriction).",
+   "evidence": "Relevant Persons must not deal in the Company's securities on a short-term trading basis. Short-term trading includes buying and selling securities within a 3-month period, and entering into other short-term dealings (for example, forward contracts)."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "the Board or the most senior director",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "immediately upon dealing",
+   "section": "Trading Outside Blackout Periods",
+   "evidence": "the Chair of the Board must inform and obtain written approval from the Board or the most senior director before undertaking a transaction."
+  },
+  {
+   "tier": "Directors and Officers",
+   "type": "approval",
+   "approver": "the Chair of the Board",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary (directors must confirm immediately upon dealing; not stated for non-director officers)",
+   "post_trade_deadline": "immediately upon dealing (directors)",
+   "section": "Trading Outside Blackout Periods",
+   "evidence": "directors and officers of the Company (including the CEO) must inform and receive written approval from the Chair of the Board before undertaking a transaction."
+  },
+  {
+   "tier": "Designated Officers",
+   "type": "approval",
+   "approver": "the Company Secretary",
+   "form": "written",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "Trading Outside Blackout Periods",
+   "evidence": "Designated Officers must inform and receive written approval from the Company Secretary before undertaking a transaction."
+  },
+  {
+   "tier": "Employees",
+   "type": "none",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "'Relevant Persons (other than Directors, Officers and Designated Officers)'",
+   "evidence": "Relevant Persons other than a director, officer or Designated Officer may deal in the Company's securities (subject to them not being in possession of price sensitive or 'inside' information)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "buying and selling within the period; also covers other short-term dealings such as forward contracts",
+   "carve_outs": ["Exceptional Circumstances waiver from the Chair/Board, available only to directors, officers and Designated Officers"],
+   "evidence": "Relevant Persons must not deal in the Company's securities on a short-term trading basis. Short-term trading includes buying and selling securities within a 3-month period, and entering into other short-term dealings (for example, forward contracts)."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a dividend reinvestment plan"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a share purchase plan"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through a rights issues"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of Company securities through the acceptance of a takeover offer or under a scheme of arrangement or equal access buy back"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "disposal of rights acquired under a pro rata issue"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquisition of Company securities through participation in an employee incentive plan (eg applying for an allocation of securities under an employee incentive offer, or exercising options or performance rights issued under an employee incentive scheme). However, where securities cease to be held under the terms of that plan, any dealing in these securities must only occur in accordance with this Policy"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "dealings that do not result in a change to the beneficial interest in the Company securities"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "an involuntary disposal of Company securities that results from a margin lender or financier exercising its rights under the arrangement"
+  },
+  {
+   "kind": "hardship",
+   "scope": "unclear",
+   "approver": "Chair of the Board (or the Board/most senior director where the applicant is the Chair)",
+   "evidence": "Exceptional circumstances for these purposes include severe financial hardship, compulsion by court order or any other circumstance that is deemed exceptional by the approver."
+  },
+  {
+   "kind": "court_order",
+   "scope": "unclear",
+   "approver": "Chair of the Board (or the Board/most senior director where the applicant is the Chair)",
+   "evidence": "Exceptional circumstances for these purposes include severe financial hardship, compulsion by court order or any other circumstance that is deemed exceptional by the approver."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "Approval for a margin loan or secured financing arrangement may be conditioned on the Company being permitted to disclose to ASX the existence of the arrangement and, where the Company considers appropriate, relevant terms such as trigger points or the financier's right to sell unilaterally.",
+  "financing_disclosure": [
+   "Directors, Officers and Designated Officers: approval to enter a margin loan or secured financing arrangement may be conditioned on the Company being permitted to disclose the arrangement's existence and, where appropriate, terms such as trigger points or the financier's unilateral sale right, to ASX; timing/trigger not otherwise specified."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Company's Remuneration Report (defines Key Management Personnel)"],
+ "exemption_authority": "The Chair of the Board (or the Board/most senior director where the Chair is the applicant) may grant a waiver from paragraph 2 (other than the inside information prohibition) for exceptional circumstances (severe financial hardship, court order compulsion, or any other circumstance deemed exceptional by the approver), available to directors, officers, Designated Officers and their Connected Persons. The waiver is in the approver's absolute discretion, may be refused without reasons, is final and binding, can be withdrawn on new information, and lasts 10 business days (or such other period agreed).",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing conditional on ASX disclosure",
+   "clause": "Any approval for a Director, officer or Designated Officer to enter into a margin loan or other secured financing arrangement in respect of the Company's securities is in the absolute discretion of the designated approver and may be subject to the condition that the Company be permitted to disclose to the ASX the existence of the margin loan or secured financing arrangement, and where the Company considers appropriate, any relevant terms such as the trigger points or the right of the financier to sell unilaterally.",
+   "why_it_matters": "Approving the loan leg of a funded collar may come bundled with a condition that the bank's security, LVR trigger points and unilateral sale rights be disclosed to ASX, which the executive and bank should anticipate in structuring and negotiating confidentiality."
+  },
+  {
+   "topic": "lender enforcement sale excluded",
+   "clause": "an involuntary disposal of Company securities that results from a margin lender or financier exercising its rights under the arrangement",
+   "why_it_matters": "A forced sale by the bank on default or margin call is excluded from paragraph 2 (including blackout periods), so enforcement is not itself a breach, though the underlying insider trading prohibition still applies regardless of any exclusion or approval."
+  },
+  {
+   "topic": "hedging approval applies to all Relevant Persons",
+   "clause": "Hedging of Company securities by a Relevant Person is subject to the following overriding prohibitions ... Relevant Persons are permitted to hedge Company securities on the following conditions.",
+   "why_it_matters": "Unlike ordinary dealing (where non-Designated Employees need no pre-approval), hedging via a collar requires prior written approval from the designated approver regardless of tier, so no Relevant Person can enter a collar without clearance."
+  },
+  {
+   "topic": "vesting and holding lock gate",
+   "clause": "Company securities must never be hedged prior to the vesting of those Company securities; and Company securities must never be hedged while they are subject to a holding lock or restriction on dealing under the terms of an employee incentive plan operated by the Company.",
+   "why_it_matters": "The collar can only be written over shares that have both vested and cleared any plan holding lock; these are absolute prohibitions with no approval override."
+  },
+  {
+   "topic": "approval lapses in 10 business days",
+   "clause": "Upon receipt of approval, a director, officer or Designated Officer must undertake the proposed dealing within 10 business days (or such other period agreed by the designated approver). If the dealing is not undertaken within this time, the approval will no longer have effect and new approval will be required.",
+   "why_it_matters": "The put, call and secured loan must all be executed within 10 business days of approval (or an agreed longer period), requiring the bank's documentation to be ready before applying for clearance."
+  },
+  {
+   "topic": "approval is discretionary and refusal confidential",
+   "clause": "Any approval for any proposed dealing in the Company's securities: is in the absolute discretion of the designated approver and can be refused without giving any reasons ... If approval is refused, the person seeking the approval must keep that information confidential and not disclose it to anyone.",
+   "why_it_matters": "There is no right to reasons or appeal if the collar or loan is refused, and the executive cannot disclose a refusal, which affects how the bank should sequence term sheet negotiation around the approval process."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted shares is achievable for a director, officer or Designated Officer: hedging (defined to include arrangements limiting the economic risk of holding Company securities) and a margin loan or other secured financing arrangement are both expressly permitted, subject to completing a Personal Trading Approval Form and obtaining prior written approval from the designated approver (the Board/most senior director for the Chair, the Chair for other directors/officers, or the Company Secretary for Designated Officers), outside the financial year-end and half-year blackout periods and without possessing inside information. Approval can be refused or withdrawn in absolute discretion without reasons (with refusal kept confidential), lapses after 10 business days, and margin loan/secured financing approval may be conditioned on the Company disclosing the arrangement's existence and terms (e.g. trigger points, unilateral sale rights) to ASX. Hedging is absolutely prohibited before vesting or while shares remain subject to a plan holding lock, with no approval override, so the collar can only be written once both conditions are cleared. A lender's involuntary enforcement sale is excluded from the blackout/paragraph 2 restrictions, though the ever-present inside information prohibition is unaffected by any approval or exclusion. Ordinary Employees need no pre-trade approval for dealing generally, but the express margin loan/secured financing regime is limited to Directors, Officers and Designated Officers, leaving the position for other Employees unaddressed."
+}
