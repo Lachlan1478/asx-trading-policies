@@ -1,0 +1,553 @@
+{
+ "symbol": "WA1",
+ "company": "WA1 Resources Ltd",
+ "title": "Securities Trading Policy",
+ "date_approved": "26 July 2023",
+ "date_effective": "26 July 2023",
+ "date_lodged": "27 July 2023",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "WA1 Person",
+   "kind": "restricted",
+   "description": "All directors and senior management (including the Managing Director and Company Secretary), Key Management Personnel, all employees, and any other person the Board designates in writing, plus a company or trust they control. For clause 3 (Blackout Periods/notifications) only, also extends to spouse, child, close relative, or a person financially dependent on or acting in concert with them.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "Distinguished only for clearance: Authorising Officer is the Managing Director.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other directors, Company Secretary and any other Key Management Personnel",
+   "kind": "kmp",
+   "description": "Distinguished only for clearance: Authorising Officer is the Chair of the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Any other WA1 Person",
+   "kind": "all_staff",
+   "description": "All WA1 Persons other than directors, Company Secretary and KMP; distinguished only for clearance (Company Secretary, or the Managing Director in their absence).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "For clause 3 purposes: a spouse (including de facto), child (including step-child or adopted child), a close relative, or a person financially dependent on or acting in concert with a WA1 Person; a controlled company or trust is included generally.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "not_addressed",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "operate to limit the economic risk of any WA1 Person's security holding (e.g. hedging arrangements) including WA1's securities held beneficially (for example, in trust or under an incentive plan) on that WA1 Person's behalf",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "five trading days immediately preceding the release of the Company's half year results",
+   "end_anchor": "24 hours immediately following the release of the Company's half year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "five trading days immediately preceding the release of the Company's full year results",
+   "end_anchor": "24 hours immediately following the release of the Company's full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of the ASX trading day two weeks prior to the date of WA1's Annual General Meeting",
+   "end_anchor": "10:00am (Sydney time) on the ASX trading day following the date of WA1's AGM",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "five trading days immediately preceding the release of the Company's quarterly reports",
+   "end_anchor": "24 hours immediately following the release of the Company's quarterly reports",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "WA1 may impose, without notice and in its sole and absolute discretion, additional restrictions on trading by any or all WA1 Persons (or other staff), even outside a mandated Blackout Period. Confidential: any restriction communicated under clause 3.2 must be kept strictly confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "WA1 Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a)",
+   "detail": "A 'protection arrangement' in respect of any WA1 securities or WA1 products in the derivatives markets (which includes an OTC put or call) is banned outright over unvested securities, with no clearance route.",
+   "evidence": "The entering into of all types of \"protection arrangements\" for any WA1 securities (or WA1 products in the derivatives markets): is prohibited at any time in respect of any WA1 securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "WA1 Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a)",
+   "detail": "Same absolute ban extends to vested securities still subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any WA1 securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "WA1 Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(b); 3.3",
+   "detail": "Over vested, unrestricted securities a protection arrangement (including an OTC derivative) requires ordinary consent under clause 3.3 from the Authorising Officer - not the narrower 'exceptional circumstances' gate in clause 3.4.",
+   "evidence": "otherwise, requires consent under clause 3.3."
+  },
+  {
+   "topic": "hedging",
+   "tier": "WA1 Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a),(c)",
+   "detail": "Arrangements that limit the economic risk of a security holding are 'protection arrangements', banned outright over unvested securities.",
+   "evidence": "operate to limit the economic risk of any WA1 Person's security holding (e.g. hedging arrangements) including WA1's securities held beneficially (for example, in trust or under an incentive plan) on that WA1 Person's behalf"
+  },
+  {
+   "topic": "hedging",
+   "tier": "WA1 Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a),(c)",
+   "detail": "Same absolute ban on hedging extends to vested securities subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any WA1 securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "hedging",
+   "tier": "WA1 Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(b),(c); 3.3",
+   "detail": "Hedging of vested, unrestricted securities requires ordinary clause 3.3 consent from the Authorising Officer.",
+   "evidence": "otherwise, requires consent under clause 3.3."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "WA1 Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.2(d); 3.3",
+   "detail": "Monetisation is not named, but a forward sale or similar that lets a WA1 Person profit from a market decrease, or otherwise limits economic risk, is a protection arrangement: banned outright if unvested/locked, otherwise requiring clause 3.3 consent.",
+   "evidence": "otherwise enable a WA1 Person to profit from a decrease in the market price of securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "WA1 Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a)",
+   "detail": "Short selling beyond a WA1 Person's holding is a protection arrangement, banned outright over unvested securities.",
+   "evidence": "amount to \"short selling\" of securities beyond the WA1 Person's holding of securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "WA1 Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a)",
+   "detail": "Same ban extends to vested securities subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any WA1 securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "WA1 Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(b); 3.3",
+   "detail": "Over vested unrestricted securities, short selling beyond holding requires clause 3.3 consent; clause 4.1 separately bans short-term/speculative trading generally with no clearance route.",
+   "evidence": "otherwise, requires consent under clause 3.3."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "WA1 Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "WA1 Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1; 4.2(a)",
+   "detail": "CFDs are named as an example of a derivative-markets instrument; a CFD over unvested securities is also a protection arrangement, banned outright.",
+   "evidence": "transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative"
+  },
+  {
+   "topic": "cfd",
+   "tier": "WA1 Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(a)",
+   "detail": "Same ban extends to CFDs over vested securities subject to a holding lock.",
+   "evidence": "is prohibited at any time in respect of any WA1 securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "cfd",
+   "tier": "WA1 Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.2(b); 3.3",
+   "detail": "A CFD over vested unrestricted securities used to limit economic risk requires clause 3.3 consent; if short-term or speculative it is separately banned by clause 4.1.",
+   "evidence": "otherwise, requires consent under clause 3.3."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "WA1 Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(a)",
+   "detail": "Margin lending arrangements involving unvested or holding-locked WA1 securities are banned outright.",
+   "evidence": "WA1 Persons may not at any time, directly or indirectly ... enter into any margin lending arrangements involving WA1 securities [where those securities] are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "WA1 Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(a)",
+   "detail": "Same ban applies to vested securities subject to a holding lock.",
+   "evidence": "WA1 Persons may not at any time, directly or indirectly, grant any form of security ... over any WA1 securities which are unvested or subject to a holding lock, to secure any obligation of that WA1 Person or any third party or enter into any margin lending arrangements involving WA1 securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "WA1 Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(b); 3.3",
+   "detail": "Margin lending arrangements over vested, unrestricted WA1 securities are expressly permitted with ordinary clause 3.3 consent.",
+   "evidence": "Unless clause 4.3(a) applies, WA1 Persons may, directly or indirectly, grant security (whether by charge, mortgage, pledge or otherwise) over any of WA1's securities, to secure any obligation of that WA1 Person or any third party or enter into any margin lending arrangements involving WA1 securities, with consent provided under clause 3.3."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "WA1 Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(a)",
+   "detail": "Granting any form of security over unvested or holding-locked WA1 securities is banned outright.",
+   "evidence": "WA1 Persons may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any WA1 securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "WA1 Person",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(a)",
+   "detail": "Same ban applies to vested securities subject to a holding lock.",
+   "evidence": "grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any WA1 securities which are unvested or subject to a holding lock"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "WA1 Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(b); 3.3",
+   "detail": "Granting security (charge, mortgage, pledge or otherwise) over vested, unrestricted WA1 securities is expressly permitted with ordinary clause 3.3 consent.",
+   "evidence": "Unless clause 4.3(a) applies, WA1 Persons may, directly or indirectly, grant security (whether by charge, mortgage, pledge or otherwise) over any of WA1's securities ... with consent provided under clause 3.3."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "WA1 Person",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(a)",
+   "detail": "Any secured financing (security grant or margin lending) involving unvested or holding-locked WA1 securities is banned outright, with a carve-out only where clause 4.3(a) does not apply.",
+   "evidence": "WA1 Persons may not at any time, directly or indirectly, grant any form of security ... over any WA1 securities which are unvested or subject to a holding lock, to secure any obligation of that WA1 Person or any third party or enter into any margin lending arrangements involving WA1 securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "WA1 Person",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.3(b); 3.3",
+   "detail": "Any secured financing arrangement over vested, unrestricted WA1 securities is expressly permitted with ordinary clause 3.3 consent from the Authorising Officer.",
+   "evidence": "Unless clause 4.3(a) applies, WA1 Persons may, directly or indirectly, grant security (whether by charge, mortgage, pledge or otherwise) over any of WA1's securities, to secure any obligation of that WA1 Person or any third party or enter into any margin lending arrangements involving WA1 securities, with consent provided under clause 3.3."
+  },
+  {
+   "topic": "short_term",
+   "tier": "WA1 Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1",
+   "detail": "Unconditional ban ('under no circumstances') on short-term or speculative trading, including via derivative-market instruments, with no defined holding period and no clearance route referenced.",
+   "evidence": "Under no circumstances should WA1 Persons engage in short-term or speculative trading in WA1 securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "The Managing Director",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "unspecified ('after dealing')",
+   "section": "3.3; 3.4",
+   "evidence": "Chair of the Board | The Managing Director"
+  },
+  {
+   "tier": "Other directors, Company Secretary and any other Key Management Personnel",
+   "type": "approval",
+   "approver": "The Chair of the Board",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "unspecified ('after dealing')",
+   "section": "3.3; 3.4",
+   "evidence": "Other directors, Company Secretary and any other Key Management Personnel | The Chair of the Board."
+  },
+  {
+   "tier": "Any other WA1 Person",
+   "type": "approval",
+   "approver": "Company Secretary or, in their absence, the Managing Director",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer",
+   "post_trade_deadline": "unspecified ('after dealing')",
+   "section": "3.3; 3.4",
+   "evidence": "Any other WA1 Person | Company Secretary or, in their absence, the Managing Director"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "WA1 Person",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "Under no circumstances should WA1 Persons engage in short-term or speculative trading in WA1 securities. This prohibition includes short term direct dealing in WA1 securities as well as transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade in WA1's securities where the trading does not result in a change of beneficial interest in the securities"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire securities under any director or employee security plan or through the exercise of options or performance rights under an option or performance rights plan or acquire, or agree to acquire, options or performance rights under an option or performance rights plan"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfer WA1 securities already held into a self-managed superannuation fund or other saving scheme in which the restricted person is a beneficiary"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire WA1's ordinary shares by conversion of securities giving a right of conversion to WA1's ordinary shares"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire WA1's securities under a bonus issue made to all holders of securities of the same class"
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "undertake to accept, or accept, a takeover offer or a disposal through a scheme of arrangement"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "invest in, or trade in units of, a fund or other scheme (other than a scheme only investing in the securities of WA1) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "acquire or agree to acquire rights, options or shares under a salary sacrifice plan"
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "subscribe for securities offered under a disclosure document (e.g. a prospectus)"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of WA1 securities that is the result of a secured lender exercising their rights under a loan or security agreement"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a restricted person is a trustee, trade in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently of the restricted person"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trade under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back"
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer",
+   "evidence": "may include, without limitation, severe financial hardship or a requirement to comply with a court order or court enforceable undertaking"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Authorising Officer",
+   "evidence": "may include, without limitation, severe financial hardship or a requirement to comply with a court order or court enforceable undertaking"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Authorising Officer for the relevant tier (Managing Director for the Chair; Chair of the Board for other directors/Company Secretary/KMP; Company Secretary or Managing Director for other WA1 Persons) has absolute discretion under clause 3.4 to approve dealing in exceptional circumstances (severe financial hardship or a court order, without limitation) during a Blackout Period or otherwise-prohibited dealing, except where it would breach insider trading laws. The decision is final and binding, needs no reasons, and must be kept strictly confidential by the WA1 Person.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured financing carve-out for vested shares",
+   "clause": "Unless clause 4.3(a) applies, WA1 Persons may, directly or indirectly, grant security (whether by charge, mortgage, pledge or otherwise) over any of WA1's securities, to secure any obligation of that WA1 Person or any third party or enter into any margin lending arrangements involving WA1 securities, with consent provided under clause 3.3.",
+   "why_it_matters": "Unlike many peer policies, WA1 expressly permits the loan leg of a funded collar secured on vested, unrestricted shares, subject only to ordinary Authorising Officer consent, not an exceptional-circumstances gate."
+  },
+  {
+   "topic": "protection arrangement sweep",
+   "clause": "The entering into of all types of \"protection arrangements\" for any WA1 securities (or WA1 products in the derivatives markets): is prohibited at any time in respect of any WA1 securities which are unvested or subject to a holding lock; and otherwise, requires consent under clause 3.3.",
+   "why_it_matters": "A collar's put and call fall within 'protection arrangements'; over vested, unrestricted shares they need only ordinary clause 3.3 consent (the same regime as for dealing outside a Blackout Period), not the narrower 'exceptional circumstances' standard used elsewhere in the policy for Blackout Period trading."
+  },
+  {
+   "topic": "ordinary consent, not exceptional circumstances",
+   "clause": "prior to dealing in WA1 securities outside a Blackout Period or where clause 4 requires the person to obtain a consent under clause 3.3, notify the relevant person ... and obtain consent from the Authorising Officer.",
+   "why_it_matters": "Both the derivative/hedging consent and the secured-financing consent for vested shares are gated by the routine notify-and-consent process, materially easier to obtain than a hardship/court-order threshold."
+  },
+  {
+   "topic": "forced sale carve-out",
+   "clause": "a disposal of WA1 securities that is the result of a secured lender exercising their rights under a loan or security agreement",
+   "why_it_matters": "The bank's enforcement sale on default is excluded from Blackout Period and other policy restrictions, giving a clean enforcement path."
+  },
+  {
+   "topic": "confidential ad-hoc restriction",
+   "clause": "WA1 may impose, without notice and in its sole and absolute discretion, additional restrictions on trading ... Any restriction communicated ... must be kept strictly confidential.",
+   "why_it_matters": "An undisclosed ad-hoc restriction can block collar entry, unwind or settlement at any time without the executive being able to explain the delay to the bank."
+  },
+  {
+   "topic": "clearance lapse on inside information",
+   "clause": "If an WA1 Person comes into possession of Inside Information after receiving a clearance to trade, they must not trade despite having received the clearance.",
+   "why_it_matters": "A cleared collar transaction can become unexecutable if inside information arises before signing, even after consent is granted."
+  }
+ ],
+ "summary": "A funded collar over vested, unrestricted WA1 shares is achievable and comparatively favourable: clause 4.3(b) expressly permits granting security over such shares and entering into margin lending arrangements with ordinary Authorising Officer consent under clause 3.3, so the loan leg is not banned outright. The put and call together are a 'protection arrangement' under clause 4.2, banned absolutely over unvested or holding-locked shares but, over vested unrestricted shares, permitted with the same ordinary clause 3.3 consent (not the narrower 'exceptional circumstances' standard reserved for Blackout Period overrides). A secured lender's enforcement sale on default is excluded from Blackout Period and other restrictions, giving the bank a workable path. Short-term or speculative trading (including via CFDs and exchange-traded options) is banned outright under clause 4.1 with no clearance route, so collar tenor should avoid that characterisation, and any consent lapses if inside information arises before execution or can be withdrawn if circumstances change. Overall, subject to ordinary consent and staying outside Blackout Periods, both legs of the structure are workable for vested, unrestricted shares."
+}

@@ -1,0 +1,221 @@
+{
+ "symbol": "SDR",
+ "company": "SiteMinder Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "6 February 2026",
+ "date_effective": "6 February 2026",
+ "date_lodged": "6 February 2026",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "SiteMinder Person",
+   "kind": "restricted",
+   "description": "All Directors and Senior Management (each director, the CEO, CFO, Managing Director and Company Secretary, Key Management Personnel) and any other person the Board designates in writing, plus a company or trust controlled by any of them (at all times), plus (for section 4 purposes only) their spouse, child, close relative, financial dependant or person acting in concert with them.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair of the Board",
+   "kind": "director",
+   "description": "The chair of the Board; distinguished only as a distinct authorising-officer category (approved by the Audit and Risk Committee chair plus one other director).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Other directors, Company Secretary and any other Key Management Personnel",
+   "kind": "kmp",
+   "description": "Directors other than the Chair, the Company Secretary, and any other KMP; distinguished only for the authorising-officer table (Board chair, or Audit and Risk Committee chair in the Board chair's absence, plus one other director).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Any other SiteMinder Person",
+   "kind": "restricted",
+   "description": "SiteMinder Persons who are not directors, the Company Secretary or KMP (i.e. other designated persons); distinguished only for the authorising-officer table (Company Secretary, or CEO in the Company Secretary's absence).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "A company or trust controlled by a SiteMinder Person (a SiteMinder Person for all purposes), and, for section 4 (Blackout Periods and consent) purposes only, a spouse (including de facto), child (including step-child or adopted child), close relative, person financially dependent on, or person acting in concert with, a SiteMinder Person.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "Operate to limit the economic risk of any SiteMinder Person's security holding (e.g. hedging arrangements) including SiteMinder's securities held beneficially (for example, in trust or under any SiteMinder incentive plan) on that SiteMinder Person's behalf",
+  "substance_over_form": "yes"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of the ASX trading day on 31 December each year",
+   "end_anchor": "10:00am (Sydney time) on the ASX trading day following the day on which the Company's half yearly results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of the ASX trading day on 30 June each year",
+   "end_anchor": "10:00am (Sydney time) on the ASX trading day following the day on which the Company's full year results are released to the ASX",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "close of the ASX trading day two weeks prior to the date of the Company's AGM",
+   "end_anchor": "10:00am (Sydney time) on the ASX trading day following the date of the Company's AGM",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may specify 'any other period' as a mandated Blackout Period from time to time (4.1(b)(iv)); the policy does not state whether such additional Blackout Periods are announced or kept confidential, though a related refusal of consent is 'final, confidential and must not be disclosed' (4.2(b)).",
+ "rules": [
+  {"topic": "derivatives", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(a)", "detail": "An OTC put/call is not named, but any 'protection arrangement' (defined functionally, including 'SiteMinder products in the derivatives markets') over unvested or holding-locked SiteMinder securities is banned outright.", "evidence": "The entering into of all types of \"protection arrangements\" for any SiteMinder securities (or SiteMinder products in the derivatives markets) ... is prohibited at any time in respect of any SiteMinder securities which are unvested or subject to a holding lock"},
+  {"topic": "derivatives", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(a)", "detail": "Shares subject to a holding lock are treated identically to unvested shares: an OTC derivative over them is a banned protection arrangement.", "evidence": "is prohibited at any time in respect of any SiteMinder securities which are unvested or subject to a holding lock"},
+  {"topic": "derivatives", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(b)", "detail": "Once vested and lock-free, a protection arrangement (which functionally captures an OTC put/call) requires prior consent under section 4.2 rather than being banned.", "evidence": "otherwise, requires consent under paragraph 4.2."},
+  {"topic": "hedging", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.2(a),(d)", "detail": "Hedging arrangements limiting economic risk of the holding, including beneficially held plan securities, are expressly named as a protection arrangement and banned while unvested or holding-locked.", "evidence": "Operate to limit the economic risk of any SiteMinder Person's security holding (e.g. hedging arrangements) including SiteMinder's securities held beneficially (for example, in trust or under any SiteMinder incentive plan) on that SiteMinder Person's behalf"},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.2(a),(d)", "detail": "Same express hedging ban applies to vested shares still subject to a holding lock.", "evidence": "is prohibited at any time in respect of any SiteMinder securities which are unvested or subject to a holding lock"},
+  {"topic": "hedging", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "5.2(b)", "detail": "Hedging of vested, unrestricted holdings is permitted with prior consent under 4.2.", "evidence": "otherwise, requires consent under paragraph 4.2."},
+  {"topic": "monetisation", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(a)", "detail": "Monetisation (e.g. a prepaid forward sale) is not named, but its effect of limiting economic risk of the holding brings it within 'protection arrangement', banned outright for unvested/locked securities.", "evidence": "Operate to limit the economic risk of any SiteMinder Person's security holding"},
+  {"topic": "monetisation", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(a)", "detail": "Same protection-arrangement ban applies while a holding lock subsists.", "evidence": "is prohibited at any time in respect of any SiteMinder securities which are unvested or subject to a holding lock"},
+  {"topic": "monetisation", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(b)", "detail": "A monetisation structure over vested unrestricted shares is a protection arrangement requiring consent under 4.2.", "evidence": "otherwise, requires consent under paragraph 4.2."},
+  {"topic": "short_selling", "tier": "all", "security_state": "any", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "5.2(b),(c)", "detail": "Short selling beyond the person's holding is expressly listed as a protection arrangement; it is banned outright only insofar as it involves unvested/holding-locked securities (5.2(a)) and otherwise requires consent under 4.2.", "evidence": "Amount to \"short selling\" of securities beyond the SiteMinder Person's holding of securities"},
+  {"topic": "stock_lending", "tier": "all", "security_state": "any", "venue": "any", "answer": "not_addressed", "mechanism": "none", "floor": "", "section": "", "detail": "Securities lending is not named and is not captured by the 'protection arrangement' or any other defined restriction.", "evidence": ""},
+  {"topic": "cfd", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(a)", "detail": "A CFD over unvested or holding-locked securities is a banned protection arrangement.", "evidence": "is prohibited at any time in respect of any SiteMinder securities which are unvested or subject to a holding lock"},
+  {"topic": "cfd", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "via_hedging_definition", "floor": "", "section": "5.2(b)", "detail": "A non-speculative CFD over vested unrestricted shares requires consent under 4.2 as a protection arrangement.", "evidence": "otherwise, requires consent under paragraph 4.2."},
+  {"topic": "cfd", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.1", "detail": "CFDs are expressly named: a short-term or speculative CFD is banned outright regardless of vesting state, overriding the consent route.", "evidence": "transactions in the derivative markets, involving exchange traded options, share warrants, contracts for difference, and other similar instruments, which are short term or speculative"},
+  {"topic": "margin_lending", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.3(a)", "detail": "Margin lending arrangements involving unvested or holding-locked SiteMinder securities are banned outright.", "evidence": "or enter into any margin lending arrangement involving SiteMinder securities"},
+  {"topic": "margin_lending", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.3(a)", "detail": "Same absolute ban while a holding lock subsists.", "evidence": "SiteMinder Persons may not at any time, directly or indirectly, grant any form of security ... over any SiteMinder securities which are unvested or subject to a holding lock"},
+  {"topic": "margin_lending", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "5.3(b)", "detail": "Margin lending over vested unrestricted securities requires consent under 4.2 and prompt post-trade notice to the Company Secretary.", "evidence": "SiteMinder Persons may, directly or indirectly ... enter into any margin lending arrangement involving SiteMinder securities, with consent under paragraph 4.2."},
+  {"topic": "encumbrance", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.3(a)", "detail": "Granting any charge, mortgage, pledge or other security over unvested or holding-locked securities, for any obligation of the person or a third party, is banned outright.", "evidence": "may not at any time, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any SiteMinder securities which are unvested or subject to a holding lock"},
+  {"topic": "encumbrance", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.3(a)", "detail": "Same absolute ban applies while subject to a holding lock.", "evidence": "over any SiteMinder securities which are unvested or subject to a holding lock, to secure any obligation of that SiteMinder Person or any third party"},
+  {"topic": "encumbrance", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "5.3(b)", "detail": "Granting security over vested unrestricted securities is permitted with consent under 4.2 and prompt post-trade notice to the Company Secretary.", "evidence": "SiteMinder Persons may, directly or indirectly, grant any form of security (whether by way of charge, mortgage, pledge or otherwise) over any SiteMinder securities, to secure any obligation of that SiteMinder Person or any third party ... with consent under paragraph 4.2."},
+  {"topic": "secured_financing", "tier": "all", "security_state": "unvested", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.3(a)", "detail": "Any secured financing (margin loan or otherwise) using unvested or holding-locked securities as security is banned outright, whether the obligation is the person's own or a third party's.", "evidence": "to secure any obligation of that SiteMinder Person or any third party or enter into any margin lending arrangement involving SiteMinder securities"},
+  {"topic": "secured_financing", "tier": "all", "security_state": "vested_locked", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.3(a)", "detail": "Same absolute ban while a holding lock subsists.", "evidence": "over any SiteMinder securities which are unvested or subject to a holding lock, to secure any obligation of that SiteMinder Person or any third party"},
+  {"topic": "secured_financing", "tier": "all", "security_state": "vested_unrestricted", "venue": "any", "answer": "permitted_with_clearance", "mechanism": "express", "floor": "", "section": "5.3(b)", "detail": "Secured financing (of any kind, for the person's or a third party's obligation) over vested unrestricted securities is permitted with consent under 4.2, and the person must promptly advise the Company Secretary of any security granted.", "evidence": "Unless paragraph (a) applies, SiteMinder Persons may, directly or indirectly, grant any form of security ... to secure any obligation of that SiteMinder Person or any third party ... with consent under paragraph 4.2. The SiteMinder Person must promptly advise the Company Secretary of any security granted"},
+  {"topic": "short_term", "tier": "all", "security_state": "any", "venue": "any", "answer": "prohibited", "mechanism": "express", "floor": "", "section": "5.1", "detail": "Absolute ban on short-term or speculative trading, defined as buying and selling within six months, including via derivatives.", "evidence": "Under no circumstances should SiteMinder Persons engage in short-term or speculative trading in SiteMinder securities. Short-term trading includes buying and selling securities within a six-month period."}
+ ],
+ "clearance": [
+  {
+   "tier": "Chair of the Board",
+   "type": "approval",
+   "approver": "The chair of the Audit and Risk Committee and one other Board director",
+   "form": "unspecified",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer(s), with a copy to the Company Secretary; the Chair must also notify the Company Secretary in writing within 3 business days for ASX/ASIC notification purposes",
+   "post_trade_deadline": "3 business days (director ASX/ASIC notification); general transaction confirmation deadline unspecified",
+   "section": "4.2; 7(b)",
+   "evidence": "Any consent may be refused without reason and may be withdrawn at any time if new information arises or circumstances change. A refusal is final, confidential and must not be disclosed."
+  },
+  {
+   "tier": "Other directors, Company Secretary and any other Key Management Personnel",
+   "type": "approval",
+   "approver": "The chair of the Board or, in his/her absence, the chair of the Audit and Risk Committee, and one other Board Director",
+   "form": "unspecified",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer(s), with a copy to the Company Secretary; directors must also notify the Company Secretary in writing within 3 business days for ASX/ASIC notification purposes",
+   "post_trade_deadline": "3 business days (director ASX/ASIC notification); general transaction confirmation deadline unspecified",
+   "section": "4.2; 7(b)",
+   "evidence": "undertake any dealing authorised under paragraph 4.2(a)(i) within 10 business days of receiving the consent from their Authorising Officer(s), provided that the Authorising Officer(s) has not provided notice to the person withdrawing the consent"
+  },
+  {
+   "tier": "Any other SiteMinder Person",
+   "type": "approval",
+   "approver": "The Company Secretary or, in his/her absence, the Chief Executive Officer",
+   "form": "unspecified",
+   "validity_days": 10,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Authorising Officer(s), with a copy to the Company Secretary",
+   "post_trade_deadline": "unspecified",
+   "section": "4.2",
+   "evidence": "after the authorised dealing with the SiteMinder securities, provide the Authorising Officer(s) with a transaction confirmation, with a copy to the Company Secretary"
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "buying and selling within a six-month period",
+   "carve_outs": [],
+   "evidence": "Short-term trading includes buying and selling securities within a six-month period."
+  }
+ ],
+ "exceptions": [
+  {"kind": "no_change_beneficial_interest", "scope": "any_dealing", "approver": "", "evidence": "trade SiteMinder securities where the trading does not result in a change of beneficial interest in the securities"},
+  {"kind": "plan_dealing", "scope": "acquisition_only", "approver": "", "evidence": "acquire securities under any director or employee security plan or through the exercise of options or performance rights under an option or performance rights plan or acquire, or agree to acquire, options or performance rights under an option or performance rights plan"},
+  {"kind": "other", "scope": "specific_dealing", "approver": "", "evidence": "transfer SiteMinder securities already held into a self-managed superannuation fund or other saving scheme in which the restricted person is a beneficiary"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "acquire SiteMinder's ordinary shares by conversion of securities giving a right of conversion to SiteMinder's ordinary shares"},
+  {"kind": "other", "scope": "acquisition_only", "approver": "", "evidence": "acquire SiteMinder's securities under a bonus issue made to all holders of securities of the same class"},
+  {"kind": "takeover", "scope": "any_dealing", "approver": "", "evidence": "undertake to accept, or accept, a takeover offer"},
+  {"kind": "other", "scope": "any_dealing", "approver": "", "evidence": "invest in, or trade in units of, a fund (including an exchange-traded fund) or other scheme (other than a scheme only investing in the securities of SiteMinder) where the assets of the fund or other scheme are invested at the discretion of a third party"},
+  {"kind": "secured_lender_sale", "scope": "sale_only", "approver": "", "evidence": "a disposal of SiteMinder securities that is the result of a secured lender exercising their rights under a loan or security agreement"},
+  {"kind": "other", "scope": "unclear", "approver": "", "evidence": "where a restricted person is a trustee, trade in the securities managed by that trust provided the restricted person is not a beneficiary of the trust and any decision to trade during a prohibited period is taken by the other trustees or by the investment managers independently"},
+  {"kind": "dividend_plan", "scope": "any_dealing", "approver": "", "evidence": "trade under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back"},
+  {"kind": "hardship", "scope": "any_dealing", "approver": "Authorising Officer(s), in the Board's absolute discretion", "evidence": "severe financial hardship or a requirement to comply with a court order or court enforceable undertaking"},
+  {"kind": "court_order", "scope": "any_dealing", "approver": "Authorising Officer(s), in the Board's absolute discretion", "evidence": "severe financial hardship or a requirement to comply with a court order or court enforceable undertaking"}
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "SiteMinder Person; grant of security over vested unrestricted securities under 5.3(b); to the Company Secretary; promptly",
+   "SiteMinder Person; any exempted dealing under section 6(a) (including a secured lender's forced sale); to the relevant Authorising Officer(s); not specified",
+   "Director; any change in relevant interest in securities; to the Company Secretary in writing; no later than 3 business days after the relevant event"
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Authorising Officer(s) have absolute discretion, assessed case-by-case within the Board's absolute discretion, to approve dealings otherwise prohibited (including during a Blackout Period) in 'exceptional circumstances', which may include severe financial hardship or a court order/enforceable undertaking; approval must be given by email and notification requirements still apply.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "secured lender forced sale exemption",
+   "clause": "a disposal of SiteMinder securities that is the result of a secured lender exercising their rights under a loan or security agreement",
+   "why_it_matters": "The bank's enforcement sale of collared shares under the loan is a policy-exempt dealing rather than a breach, even during a Blackout Period, though the executive must still advise the relevant Authorising Officer(s) afterwards."
+  },
+  {
+   "topic": "protection arrangement catch-all",
+   "clause": "Otherwise enable a SiteMinder Person to profit from a decrease in the market price of securities",
+   "why_it_matters": "The catch-all wording is broad enough to capture the purchased-put leg of a collar (which profits on a price fall) even if it is not badged as a hedge, reinforcing that clearance (or an outright ban if unvested/locked) applies to that leg."
+  },
+  {
+   "topic": "controlled entities always caught",
+   "clause": "a company or trust controlled by any of the persons referred to in sub-paragraph (i) above",
+   "why_it_matters": "Unlike natural-person associates (caught only for section 4 purposes), a controlled company or trust is a SiteMinder Person for all purposes, so routing the collar or loan through a family entity does not avoid the section 5.2/5.3 bans."
+  },
+  {
+   "topic": "second-signature consent",
+   "clause": "Chair of the Board: The chair of the Audit and Risk Committee and one other Board director. Other directors, Company Secretary and any other Key Management Personnel: The chair of the Board or, in his/her absence, the chair of the Audit and Risk Committee, and one other Board Director.",
+   "why_it_matters": "Director/KMP clearance for the collar's derivative and security-granting legs needs two named approvers rather than one, which can add time to structuring and requires both to accept the 10-business-day execution window."
+  },
+  {
+   "topic": "no blanket exemption authority",
+   "clause": "This policy will be regarded seriously and may lead to disciplinary action, including dismissal.",
+   "why_it_matters": "Outside the narrow hardship/court-order exceptional-circumstances route, there is no standing waiver mechanism for the policy's bans on unvested/locked hedging and secured financing, so a funded collar over such shares cannot be cleared by consent alone."
+  }
+ ],
+ "summary": "A funded collar is possible over vested, lock-free SiteMinder shares but not over unvested or holding-locked shares. Section 5.2 treats a protection arrangement (which functionally captures an OTC put/call or monetisation) over unvested or holding-locked securities as banned outright, and section 5.3 imposes the same absolute ban on granting security (including a collateral loan) over such shares; both restrictions convert to a permitted-with-consent regime once the shares vest and any holding lock lifts. Consent under section 4.2 must come from two named Authorising Officers (varying by tier), the trade must complete within 10 business days of consent, cannot occur during a Blackout Period (half-year, full-year and AGM windows) or while holding inside information, and any security granted must be notified promptly to the Company Secretary. A forced sale on the bank's enforcement of the loan is an exempt dealing even in a Blackout Period, but there is no general hardship-style waiver for the underlying vesting/holding-lock bans, so the collar's timing depends on the shares' vesting and lock status rather than lender discretion."
+}
