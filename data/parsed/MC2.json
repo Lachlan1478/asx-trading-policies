@@ -1,0 +1,274 @@
+{
+ "symbol": "MC2",
+ "company": "Marimaca Copper Corp.",
+ "title": "Insider Trading and Blackout Policy",
+ "date_approved": "29 November 2022",
+ "date_effective": "29 November 2022",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Marimaca Personnel",
+   "kind": "all_staff",
+   "description": "All directors, officers and employees of Marimaca or its subsidiaries; persons retained or engaged by Marimaca (consultants, independent contractors, advisers, service providers); family members, spouses, other household members or dependent children of the foregoing; partnerships, trusts, corporations, RRSPs and other entities they control or direct; and any other persons those entities control or direct. Bound by the insider trading ban, Blackout Period ban, hedging ban and margin/pledge ban.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors, officers and senior employees",
+   "kind": "restricted",
+   "description": "A subset of Marimaca Personnel who must notify the General Counsel or Chief Financial Officer for clearance before any proposed trading in Marimaca securities.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Reporting Insiders",
+   "kind": "other",
+   "description": "Persons subject to Canadian insider reporting requirements; personally responsible for their own regulatory filings and asked to copy filed reports to the General Counsel or Chief Financial Officer.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "Certain forms of hedging or monetization transactions, such as zero-cost collars and forward sale contracts, allow an employee to lock in much of the value of his or her shareholdings, often in exchange for all or part of the potential for upside appreciation in the shares.",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["all"],
+   "start_anchor": "15 days prior to (and including) the date on which the quarterly financial results are released",
+   "end_anchor": "end of the first full trading day after the financial results are publicly disclosed",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "Marimaca's General Counsel, consulting with the Disclosure Committee as necessary, may declare a Blackout Period of any other time and length deemed necessary; Marimaca also reserves the right to restrict Marimaca Personnel (generally or specifically) from trading at any time. Confidentiality is not addressed, though the policy states efforts will be made to advise of Blackout Periods as soon as possible.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors, officers and senior employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.1(a); 5",
+   "detail": "'Trading' is expressly defined to include buying or selling puts or calls or other derivative securities on Marimaca's securities, with no venue restriction. Directors, officers and senior employees must notify the General Counsel or CFO for clearance before any such trading, which is also barred during Blackout Periods and while in possession of material non-public information.",
+   "evidence": "Under this Policy, \"trading\" includes any sale or purchase of Marimaca's securities, including but not limited to: (a) buying or selling puts or calls or other derivative securities on Marimaca's securities."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Where the put/call structure operates as a hedge (e.g. a collar), it is independently and absolutely prohibited for all Marimaca Personnel regardless of tier or clearance, since zero-cost collars are expressly named as a prohibited hedging transaction.",
+   "evidence": "Certain forms of hedging or monetization transactions, such as zero-cost collars and forward sale contracts, allow an employee to lock in much of the value of his or her shareholdings ... Therefore, you are prohibited by this Policy from engaging in any such hedging transactions."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Absolute ban on hedging transactions for all Marimaca Personnel, expressly naming zero-cost collars and forward sale contracts as examples. No vesting-state distinction and no clearance carve-out.",
+   "evidence": "Marimaca Personnel must not engage in hedging transactions. Certain forms of hedging or monetization transactions, such as zero-cost collars and forward sale contracts, allow an employee to lock in much of the value of his or her shareholdings, often in exchange for all or part of the potential for upside appreciation in the shares."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Monetisation transactions are named alongside hedging transactions and banned on the same terms, with forward sale contracts given as an example.",
+   "evidence": "Certain forms of hedging or monetization transactions, such as zero-cost collars and forward sale contracts, allow an employee to lock in much of the value of his or her shareholdings, often in exchange for all or part of the potential for upside appreciation in the shares."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.4",
+   "detail": "CFDs are not named individually, but a CFD-type instrument used to offset the economic exposure of a shareholding falls within the non-exhaustive hedging/monetisation prohibition ('such as' zero-cost collars and forward sale contracts).",
+   "evidence": "Certain forms of hedging or monetization transactions, such as zero-cost collars and forward sale contracts, allow an employee to lock in much of the value of his or her shareholdings."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Absolute ban on holding Marimaca securities in a margin account, for all Marimaca Personnel, with no Company consent or clearance mechanism.",
+   "evidence": "Marimaca Personnel are prohibited from holding Marimaca securities in a margin account or pledging Marimaca's securities as collateral for a loan."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Pledging or hypothecating Marimaca securities as collateral for any loan is banned outright, not limited to a margin loan, with no clearance carve-out.",
+   "evidence": "or pledging Marimaca's securities as collateral for a loan. ... Similarly, securities pledged (or hypothecated) as collateral for a loan may be sold in foreclosure if the borrower defaults on the loan."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.5",
+   "detail": "Blanket ban on using Marimaca securities as collateral for any loan, not limited to margin loans or a particular lender; no exemption authority exists for this prohibition.",
+   "evidence": "Marimaca Personnel are prohibited from holding Marimaca securities in a margin account or pledging Marimaca's securities as collateral for a loan."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period, buy/sell window or short-term/speculative trading restriction is stated in the policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors, officers and senior employees",
+   "type": "approval",
+   "approver": "General Counsel or Chief Financial Officer",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "express",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "5",
+   "evidence": "all proposed trading in Marimaca securities by Directors, officers and senior employees should be notified to the General Counsel or Chief Financial Officer for clearance. Trading requests must be made in writing (via e-mail). Trading should not occur until clearance has been given."
+  },
+  {
+   "tier": "Reporting Insiders",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "General Counsel or Chief Financial Officer",
+   "post_trade_deadline": "promptly",
+   "section": "7",
+   "evidence": "Any reporting insiders who file their own reports are asked to promptly provide a copy of those reports to the General Counsel or Chief Financial Officer so that the Corporation's records may be updated."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "General Counsel or Chief Financial Officer (plan must be adopted per National Instrument 55-104)",
+   "evidence": "Marimaca Personnel may trade in Marimaca's securities at any time pursuant to a trading plan (e.g. an automatic securities purchase plan) that has been properly adopted and is properly administered in accordance with National Instrument 55-104 – Insider Reporting Requirements and Exemptions (a \"Pre-Approved Trading Plans\")."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Notwithstanding item (c) above, regular purchases (or sales) in accordance with a previously approved automated trading plan are exempt from the foregoing prohibition; however, starting, stopping, or making changes to your Pre-Approved Trading Plan (defined below), is prohibited during any period of time you are in possession of material, non-public information about Marimaca."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_financing_in_respect_of_securities",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": ["Marimaca's Disclosure policy", "National Instrument 55-104 - Insider Reporting Requirements and Exemptions"],
+ "exemption_authority": "No hardship, court order or other exceptional-circumstances relief is provided anywhere in this policy. The only route to trade despite the Policy's prohibitions is a Pre-Approved Trading Plan adopted, amended or cancelled only while the person holds no material non-public information and is outside a Blackout Period, in accordance with National Instrument 55-104.",
+ "jurisdiction_overlays": ["Canadian securities laws and Toronto Stock Exchange rules", "National Instrument 55-104 - Insider Reporting Requirements and Exemptions"],
+ "bespoke_clauses": [
+  {
+   "topic": "zero-cost collars named",
+   "clause": "Certain forms of hedging or monetization transactions, such as zero-cost collars and forward sale contracts, allow an employee to lock in much of the value of his or her shareholdings, often in exchange for all or part of the potential for upside appreciation in the shares.",
+   "why_it_matters": "The policy expressly identifies 'zero-cost collars' as an example of the prohibited hedging transactions, so a bank-funded collar (put+call) over vested shares is squarely and unambiguously caught."
+  },
+  {
+   "topic": "margin/pledge ban",
+   "clause": "Marimaca Personnel are prohibited from holding Marimaca securities in a margin account or pledging Marimaca's securities as collateral for a loan.",
+   "why_it_matters": "The loan leg of a funded collar, secured on the collared shares, is independently and absolutely prohibited with no Company consent or clearance mechanism."
+  },
+  {
+   "topic": "no hardship exception",
+   "clause": "Notwithstanding any of the prohibitions contained in this Policy, Marimaca Personnel may trade ... pursuant to a trading plan ... properly adopted and ... administered in accordance with National Instrument 55-104",
+   "why_it_matters": "Unlike many peer policies, the only relief mechanism in the entire document is the Pre-Approved Trading Plan; there is no severe-financial-hardship or court-order exception to the trading, hedging or margin bans."
+  },
+  {
+   "topic": "controlled entities and associates swept in",
+   "clause": "partnerships, trusts, corporations, RRSP's and other accounts or entities over which any of the above-mentioned individuals exercise control or direction",
+   "why_it_matters": "Routing the collar or loan through a family trust, holding company or RRSP does not avoid the hedging or pledging bans, as these entities are themselves 'Marimaca Personnel'."
+  },
+  {
+   "topic": "Canadian-law policy referencing no ASX regime",
+   "clause": "Marimaca Copper Corp. ... is a publicly traded company listed on the Toronto Stock Exchange (the \"TSX\"). As such, trades in Marimaca's securities are subject to Canadian rules and regulations, as well as the rules and regulations of the TSX.",
+   "why_it_matters": "The policy contains no ASX Listing Rule references, ASX blackout alignment or ASX notification regime; if Marimaca's ASX-quoted securities are covered by the same defined term 'Marimaca's securities', the hedging and pledging bans apply identically to them even though this document is drafted around Canadian and TSX requirements."
+  }
+ ],
+ "summary": "A funded collar is not achievable under this policy. Section 4.4 imposes an outright, unconditional ban on hedging transactions for all Marimaca Personnel, expressly naming 'zero-cost collars' as a prohibited hedging mechanism, with no clearance route or exceptional-circumstances carve-out. Section 4.5 separately and absolutely prohibits holding Marimaca securities in a margin account or pledging them as collateral for any loan, so the bank's secured loan leg is independently banned. General derivative trading (buying or selling puts or calls, which the policy expressly defines as 'trading') is otherwise permitted only with prior written clearance from the General Counsel or CFO for Directors, officers and senior employees, and is barred altogether during Blackout Periods (15 days before to the first full trading day after quarterly results, plus any period the General Counsel declares) or while holding material non-public information. Unlike many comparable policies, there is no hardship, court order or other exceptional-circumstances exception anywhere in this document, and the only recognised trading mechanism outside these restrictions is a Pre-Approved Trading Plan under National Instrument 55-104, which cannot itself be used to structure a hedging or pledging arrangement."
+}

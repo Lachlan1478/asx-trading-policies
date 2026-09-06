@@ -1,0 +1,354 @@
+{
+ "symbol": "MAD",
+ "company": "Mader Group Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "Employees who are not Designated Persons. Only restriction is the insider trading prohibition on dealing while in possession of inside information; the Black Out Period, clearance and Key Management Personnel hedging prohibition do not apply to this tier.",
+   "includes_associates": "no"
+  },
+  {
+   "name": "Designated Person",
+   "kind": "restricted",
+   "description": "A Director or person having authority for planning, directing and controlling the activities of the Company, directly or indirectly, whether as an employee or consultant, and any other person notified by the Company that they are deemed a designated person. Subject to Black Out Periods and must obtain prior written clearance from a Clearance Officer before dealing in Company Securities, and must take reasonable steps to prevent dealing by Associated Persons.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Key Management Personnel",
+   "kind": "kmp",
+   "description": "A person having authority and responsibility for planning, directing and controlling the activities of the Company, directly or indirectly, including any Director (whether executive or otherwise). Separately defined from Designated Person; subject to the hedging prohibition in clause 15 on remuneration that is unvested or vested but subject to a holding lock.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associated Persons",
+   "kind": "associate",
+   "description": "Includes family or nominee companies and family trusts of a Designated Person, and any investment manager acting on their behalf or on behalf of an associated person. A Designated Person must take all reasonable and necessary steps to prevent dealing by Associated Persons when the Designated Person may not deal.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "no",
+  "hedging_definition": "an arrangement with anyone if that arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (a) has not vested in the member; or (b) has vested in the member but remains subject to a holding lock",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Person"],
+   "start_anchor": "the last day of the financial year (currently 30 June)",
+   "end_anchor": "the second trading day after the public announcement of the financial results of the year",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Designated Person"],
+   "start_anchor": "the last day of the half financial year (currently 31 December)",
+   "end_anchor": "the second trading day after the public announcement of the half yearly financial results of the half year",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may notify additional Black Out Periods from time to time, for example where it is considering a major transaction that could have a material effect on the stock price. The Policy does not state whether such periods, or the reasons for them, are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "2; 8-11",
+   "detail": "Company Securities expressly includes rights, options and other financial products of the Company traded on a stock exchange, so an exchange-traded derivative over Company shares is Dealing subject to Black Out Periods and prior written clearance.",
+   "evidence": "Company Securities includes shares, debentures, rights, options and any other financial products of the Company traded on any stock exchange."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2",
+   "detail": "An OTC put or call written by a bank is neither 'of the Company' nor 'traded on any stock exchange', so on a literal reading it is not a 'Company Security' and falls outside the Dealing, Black Out Period and clearance regime, except to the extent it limits a Key Management Personnel member's exposure to unvested or holding-locked remuneration (clause 15).",
+   "evidence": "Company Securities includes shares, debentures, rights, options and any other financial products of the Company traded on any stock exchange."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15",
+   "detail": "Broadly worded: catches any arrangement with anyone (not limited to 'Company Securities' or exchange-traded products) that limits exposure to risk on remuneration not yet vested.",
+   "evidence": "A member of the Key Management Personnel must not enter into an arrangement with anyone if that arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (a) has not vested in the member"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "15",
+   "detail": "Same broad arrangement-with-anyone prohibition extends to remuneration that has vested but remains subject to a holding lock.",
+   "evidence": "or (b) has vested in the member but remains subject to a holding lock."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Key Management Personnel",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "15",
+   "detail": "Clause 15 only restrains hedging of remuneration elements that are unvested or subject to a holding lock. It does not apply once shares have vested and any holding lock has lifted, and there is no other hedging-specific provision in the Policy.",
+   "evidence": "A member of the Key Management Personnel must not enter into an arrangement with anyone if that arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (a) has not vested in the member; or (b) has vested in the member but remains subject to a holding lock."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2",
+   "detail": "Not named. A prepaid forward sale or similar with a bank is not a 'Company Security' (not issued by the Company, not exchange-traded), so it falls outside the Dealing/clearance regime for vested, unrestricted shares; it would only be caught if it limits a Key Management Personnel member's exposure to unvested or holding-locked remuneration.",
+   "evidence": "Company Securities includes shares, debentures, rights, options and any other financial products of the Company traded on any stock exchange."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the Policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "2",
+   "detail": "Not named. A CFD referencing Company shares is issued by a third-party provider, not exchange-traded 'of the Company', so it is not a 'Company Security' and falls outside the Dealing definition.",
+   "evidence": "Company Securities includes shares, debentures, rights, options and any other financial products of the Company traded on any stock exchange."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "13(f)",
+   "detail": "No provision prohibits margin lending. The only reference is the excluded-trading carve-out for a disposal resulting from a secured lender (e.g. a margin lender) exercising rights, which presupposes margin lending arrangements are lawful and contemplated.",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "5; 13(f)",
+   "detail": "Granting security, a charge or a pledge over Company Securities is not itself 'Dealing in Securities' under clause 5 (applying for/acquiring/disposing of securities, or granting/exercising an option) and is not otherwise prohibited.",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "implied",
+   "floor": "",
+   "section": "13(f)",
+   "detail": "Unlike many ASX-listed peer policies, this Policy contains no prohibition on margin lending, secured financing or encumbrance of Company Securities; the excluded-trading carve-out for a secured lender's forced sale positively assumes such arrangements exist and are lawful under the Policy.",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Designated Person",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period, 3-month rule, or short-term/speculative dealing restriction appears anywhere in the Policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Designated Person",
+   "type": "approval",
+   "approver": "Clearance Officer",
+   "form": "written",
+   "validity_days": 3,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "11; Attachment B",
+   "evidence": "Before dealing in Company Securities, a Designated Person must submit a Securities Dealing Clearance Request. ... This form is valid for a period of three business days from the date of approval. After this time, clearance will lapse and a further request will need to be completed."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Clearance Officer",
+   "evidence": "if the Designated Person is in severe financial hardship. A Designated Person may be in severe financial hardship if he or she has a pressing financial commitment that cannot be satisfied otherwise than by selling the relevant Company Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Clearance Officer",
+   "evidence": "if the Designated Person is required by a court order, or there are other enforceable undertakings, for example in a bona fide family settlement, to transfer or sell the Company Securities or there is some other overriding legal or regulatory requirement for the Designated Person to do so"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Chairman of the Company (or the Board if the Chairman is involved)",
+   "evidence": "in any other circumstances that may be deemed exceptional by the Chairman of the Company (or the Board if the Chairman is involved)"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "transfers of Company Securities already held by a Designated Person into a superannuation fund or other saving scheme in which the Designated Person is a beneficiary"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading in units of, a fund or other scheme (other than a scheme only investing in the Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a Designated Person is a trustee, trading in Company Securities by that trust provided the Designated Person is not a beneficiary of the trust and any decision to trade during a Black Out Period is taken by the other trustees or by the investment managers independently of the Designated Person"
+  },
+  {
+   "kind": "takeover",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "undertakings to accept, or acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the Company Security holders, such as, a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise of the option or right, or the conversion of the security, falls during a Black Out Period"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "Clearance Officer",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided by a Clearance Officer and where: (i) the Designated Person did not enter into the plan or amend the plan during a Black Out Period; and (ii) the trading plan does not permit the Designated Person to exercise any influence or discretion over how, when, or whether to trade"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Exceptional-circumstances clearance to sell during a Black Out Period may be given by a Clearance Officer for severe financial hardship or court order/enforceable undertaking, or by the Chairman (or the Board if the Chairman is involved) for any other circumstances deemed exceptional (clause 10). No broader waiver authority is stated.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "narrow Company Securities definition",
+   "clause": "Company Securities includes shares, debentures, rights, options and any other financial products of the Company traded on any stock exchange.",
+   "why_it_matters": "An OTC put and call written by a bank are neither 'of the Company' nor 'traded on any stock exchange', so on a literal reading they are not 'Company Securities' and the Policy's Dealing, Black Out Period and clearance regime does not apply to them at all, outside the separate Key Management Personnel hedging prohibition."
+  },
+  {
+   "topic": "no margin lending or secured financing prohibition",
+   "clause": "a disposal of Company Securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "Unlike most ASX-listed peer policies, this Policy contains no prohibition on margin lending, granting security over, or otherwise financing against Company Securities; this excluded-trading carve-out for a secured lender's forced sale positively assumes such arrangements exist and are lawful, so the loan leg of a funded collar is not restricted by this Policy."
+  },
+  {
+   "topic": "KMP hedging scope",
+   "clause": "A member of the Key Management Personnel must not enter into an arrangement with anyone if that arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (a) has not vested in the member; or (b) has vested in the member but remains subject to a holding lock.",
+   "why_it_matters": "This is broader than the 'Company Securities' Dealing regime (it catches any arrangement with anyone, not just exchange-traded Company Securities) and would catch an OTC collar over unvested or holding-locked equity remuneration, but it does not reach vested, unrestricted shares."
+  },
+  {
+   "topic": "forced sale carve-out scope",
+   "clause": "Notwithstanding clauses 9(a) and 9(c) but subject to clause 9(b), the following types of trading are excluded from the operation of this policy: ... a disposal of Company Securities that is the result of a secured lender exercising their rights",
+   "why_it_matters": "A lender's enforcement sale of the collared shares is excluded from the Black Out Period and clearance requirements (though it remains subject to the insider trading prohibition in clause 9(b)), giving the bank a clear enforcement path even during a closed period."
+  },
+  {
+   "topic": "clearance validity",
+   "clause": "This form is valid for a period of three business days from the date of approval.",
+   "why_it_matters": "A cleared collar trade must be priced and executed within 3 business days of approval, a tight window for documenting an OTC derivative with a bank."
+  },
+  {
+   "topic": "overlapping restricted-tier definitions",
+   "clause": "Key Management Personnel means a person having authority and responsibility for planning, directing and controlling the activities of the Company... Designated Person means a Director or person having authority for planning, directing and controlling the activities of the Company...",
+   "why_it_matters": "The two defined terms are nearly identical but not declared coextensive; in practice the same director or executive is likely both a Designated Person (subject to Black Out Periods and clearance) and a member of Key Management Personnel (subject to the separate hedging ban), so both regimes need to be checked for any individual counterparty."
+  }
+ ],
+ "summary": "A funded collar is comparatively unrestricted under this Policy. 'Company Securities' is defined narrowly as financial products of Mader itself traded on a stock exchange, so an OTC put and call written by a bank arguably fall outside the Dealing, Black Out Period and clearance regime altogether, except that Key Management Personnel are separately and broadly banned from any arrangement that limits their exposure to risk on remuneration that is unvested or still subject to a holding lock. Once shares have vested and any holding lock has lifted, there is no hedging restriction at all, and clearance under clause 11 (a 3-business-day approval from a Clearance Officer, outside Black Out Periods and absent inside information) would only be needed if the derivative or its underlying were treated as a 'Company Security'. Critically, the Policy contains no prohibition whatsoever on margin lending, granting security over Company Securities, or other secured financing; the only reference to secured lending is an excluded-trading carve-out that lets a secured lender's forced sale proceed even during a Black Out Period. On this reading, a funded collar over vested, unrestricted shares held by a Designated Person or Key Management Personnel member is achievable with comparatively few conditions, though the absence of any 'substance over form' clause leaves some residual risk that the Company could still seek to apply the Policy's spirit to a bespoke derivative referencing its shares."
+}
