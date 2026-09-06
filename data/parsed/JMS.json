@@ -1,0 +1,380 @@
+{
+ "symbol": "JMS",
+ "company": "Jupiter Mines Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "9 November 2010",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Personnel",
+   "kind": "restricted",
+   "description": "All Directors, executive officers, employees, contractors and consultants of the JMS Group. Subject to the insider trading prohibition and the blanket ban on granting lenders rights over their Securities; not subject to Trading Windows or the notice-of-intent regime unless also a Director or Senior Executive.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors and Senior Executives",
+   "kind": "kmp",
+   "description": "Directors and Senior Executives (being direct reports to the Chief Executive Officer, and those persons' direct reports), deemed routinely in possession of Material Non-Public Information; subject to Trading Windows, the notice-of-intent-to-deal regime, and the Anti-Hedging Policy for unvested entitlements.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chief Executive Officer",
+   "kind": "kmp",
+   "description": "Distinguished only in that the CEO's own notice of intent to deal, and exceptional-circumstances requests as 'Chairman' would otherwise be routed, are instead given to/considered by the Chairman.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chairman",
+   "kind": "director",
+   "description": "Distinguished only in that the Chairman's own exceptional-circumstances request for approval to deal outside a Trading Window is made to the Chief Executive Officer instead of the Chairman.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Associate",
+   "kind": "associate",
+   "description": "A family member or associate of a Director or Senior Executive over whom that person has influence; the Director/Senior Executive's Trading Window and notice-of-intent obligations extend to dealings by such persons.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "transactions with Securities (or any derivative thereof) in associated products which limit the economic risk of any unvested entitlements under any equity-based remuneration schemes offered by the Company",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Senior Executives"],
+   "start_anchor": "first trading day after public release of JMS's quarterly report (including Appendix 5B)",
+   "end_anchor": "4 weeks after that release",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Senior Executives"],
+   "start_anchor": "first trading day after public release of JMS's annual or half year results",
+   "end_anchor": "4 weeks after that release",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Senior Executives"],
+   "start_anchor": "first trading day after the Company's Annual General Meeting",
+   "end_anchor": "4 weeks after the AGM",
+   "duration_days": 28
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Senior Executives"],
+   "start_anchor": "commencement of an offer period under a Chapter 6D disclosure document issued by JMS offering Securities",
+   "end_anchor": "close of that offer period",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may, in its absolute discretion, otherwise direct when Trading Windows are opened (i.e. it can withhold or alter a window); the policy does not state whether such a direction is confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1 (definition of Securities); 8",
+   "detail": "Securities is expressly defined to include instruments issued or created over JMS securities by third parties, so an OTC put/call with a bank is a Security; Directors and Senior Executives may only deal during a Trading Window (or with Chairman permission for exceptional circumstances) and must give prior written notice of intent to the CEO (Chairman for the CEO).",
+   "evidence": "shares, options or other securities issued by that company or issued or created over the company’s securities by third parties (Securities)."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1 (definition of Securities); 7",
+   "detail": "For Personnel who are not Directors or Senior Executives, no Trading Window or notice regime applies; dealing in a third-party derivative over JMS Securities is only restricted by the general insider trading prohibition.",
+   "evidence": "shares, options or other securities issued by that company or issued or created over the company’s securities by third parties (Securities)."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Senior Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8 (Anti-Hedging Policy)",
+   "detail": "Absolute ban, no clearance route, on hedging unvested entitlements under any equity-based remuneration scheme; expressly extends to derivatives of Securities.",
+   "evidence": "Directors and Senior Executives are not permitted to enter into transactions with Securities (or any derivative thereof) in associated products which limit the economic risk of any unvested entitlements under any equity-based remuneration schemes offered by the Company."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Senior Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8",
+   "detail": "Hedging of vested holdings is not named; a hedge over vested shares is only regulated as ordinary dealing in a Security, requiring the Trading Window and notice-of-intent regime.",
+   "evidence": "“Dealing in JMS Securities” includes but is not limited to buying, selling and transferring JMS Securities."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Senior Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "8 (Anti-Hedging Policy)",
+   "detail": "A monetisation limiting the economic risk of an unvested entitlement is caught by the Anti-Hedging Policy's broad wording.",
+   "evidence": "not permitted to enter into transactions with Securities (or any derivative thereof) in associated products which limit the economic risk of any unvested entitlements under any equity-based remuneration schemes offered by the Company"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Senior Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "8",
+   "detail": "Not named for vested holdings; a prepaid forward or similar structure would be regulated only as ordinary dealing in a Security under the Trading Window/notice regime.",
+   "evidence": "“Dealing in JMS Securities” includes but is not limited to buying, selling and transferring JMS Securities."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1 (definition of Securities); 8",
+   "detail": "Not named specifically, but a CFD over JMS shares is a third-party-created instrument over JMS securities within the Securities definition, so it is regulated the same way as any other derivative dealing.",
+   "evidence": "shares, options or other securities issued by that company or issued or created over the company’s securities by third parties (Securities)."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Blanket ban, applying to all Personnel regardless of tier or vesting status, with no clearance route or exemption authority.",
+   "evidence": "Personnel in all circumstances are also prohibited from entering into any agreement that provides lenders with rights over their interests in Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "Any agreement giving a lender rights over a person's interest in Securities is banned outright for all Personnel; granting security to a bank over the collared shares falls squarely within this.",
+   "evidence": "Personnel in all circumstances are also prohibited from entering into any agreement that provides lenders with rights over their interests in Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "8",
+   "detail": "The ban is not limited to margin loans; it covers any agreement with a lender that gives them rights over Securities, i.e. any secured financing. This sits in tension with the excluded-trading carve-out for a secured lender's forced sale, which presupposes such arrangements can exist.",
+   "evidence": "Personnel in all circumstances are also prohibited from entering into any agreement that provides lenders with rights over their interests in Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No short-term or speculative trading restriction is stated anywhere in the policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors and Senior Executives",
+   "type": "notification",
+   "approver": "",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Chief Executive Officer (Chairman for the CEO's own dealings), copied to the Company Secretary; the Board is also notified of all trades",
+   "post_trade_deadline": "confirmation sent after the trade occurs, no fixed deadline stated",
+   "section": "8 (Notice of Intent to Deal)",
+   "evidence": "Senior Management and Directors ... are prohibited from dealing in JMS Securities without providing the Chief Executive Officer (and the Chairman in the case of the Chief Executive Officer) with prior written notice of their intent to deal in JMS Securities."
+  },
+  {
+   "tier": "all",
+   "type": "approval",
+   "approver": "Chairman (Chief Executive Officer in the case of the Chairman)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "9 (Exceptional Circumstances)",
+   "evidence": "Approval, if granted, must be in writing (which can be by email) and must specify a time period for which the approval applies."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman (Chief Executive Officer for the Chairman)",
+   "evidence": "severe financial hardship which means a member of Personnel has a pressing financial commitment that cannot be satisfied otherwise than by selling the Securities"
+  },
+  {
+   "kind": "court_order",
+   "scope": "sale_only",
+   "approver": "Chairman (Chief Executive Officer for the Chairman)",
+   "evidence": "if a member of Personnel is required by a court order, or there are court enforceable undertakings to transfer or sell the Securities or there is some other overriding legal or regulatory requirement for the Personnel to do so"
+  },
+  {
+   "kind": "other",
+   "scope": "sale_only",
+   "approver": "Chairman (Chief Executive Officer for the Chairman)",
+   "evidence": "a situation determined by the Chairman (or in the case of the Chairman the Chief Executive Officer) to be an exceptional circumstance"
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "transfers of Securities already held into a superannuation fund or other saving scheme in which the member of Personnel is a beneficiary"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "an investment in, or trading units of, a fund or other scheme (other than a scheme only investing in JMS Securities) where the assets of the fund or other scheme are invested at the discretion of a third party"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a member of Personnel is a trustee, trading in Securities by that trust provided the member of Personnel is not a beneficiary of the trust and any decision to trade during a Closed Period is taken by the other trustees or by the investment managers independently of the member of Personnel"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "unclear",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of the security holders, such as, a rights issue, a security purchase plan, a dividend or distribution investment plan (DRP) and an equal access buy-back, where the plan that determines the timing and structure of the offer has been approved by the Board"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of securities of the entity that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "the exercise (but not the sale of securities following exercise) of an option or a right under an employee incentive scheme, or the conversion of a convertible security, where the final date for the exercise ... falls during a Closed Period and where the member of Personnel could not reasonably have been able to exercise at a time when free to do so"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided in accordance with procedures set out in this Policy"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Chairman (Chief Executive Officer where the Chairman is the applicant) may grant written approval to sell or otherwise dispose of (not acquire) Securities outside a Trading Window in exceptional circumstances (severe financial hardship, legal compulsion, or another circumstance the Chairman/CEO deems exceptional), specifying the time period the approval covers; there is no exemption authority at all for the outright ban on granting lenders rights over Securities.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "blanket anti-encumbrance ban",
+   "clause": "Personnel in all circumstances are also prohibited from entering into any agreement that provides lenders with rights over their interests in Securities.",
+   "why_it_matters": "This is an absolute ban, with no clearance route or exemption authority, applying to every tier of Personnel regardless of vesting status; the loan leg of a funded collar necessarily gives the bank a security right over the collared shares and is therefore prohibited outright."
+  },
+  {
+   "topic": "excluded trading vs. anti-encumbrance ban",
+   "clause": "a disposal of securities of the entity that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "This carve-out from the general trading restrictions presupposes a secured lending arrangement can validly exist, which is inconsistent with the outright ban on granting lenders rights over Securities; it appears to be inherited boilerplate rather than a genuine exception, and should not be relied on to structure a facility."
+  },
+  {
+   "topic": "notice-of-intent is disclosure, not consent",
+   "clause": "Senior Management and Directors ... are prohibited from dealing in JMS Securities without providing the Chief Executive Officer (and the Chairman in the case of the Chief Executive Officer) with prior written notice of their intent to deal in JMS Securities.",
+   "why_it_matters": "For the derivative legs (if the encumbrance ban were somehow not engaged), the regime is a notice-and-confirm procedure rather than a discretionary approval, so there is no named right of refusal for the CEO/Chairman beyond the Trading Window and MNPI constraints."
+  },
+  {
+   "topic": "narrow trading windows",
+   "clause": "No trading in JMS Securities may occur outside of these Trading Windows (Closed Periods) without the permission of the Chairman.",
+   "why_it_matters": "Directors and Senior Executives can only deal (including entering derivative legs) during four discrete 4-week windows a year tied to results, the AGM, and offer periods, materially compressing available execution dates."
+  }
+ ],
+ "summary": "A funded collar is not possible under this policy because of an absolute, blanket prohibition: 'Personnel in all circumstances' are banned from entering into any agreement that gives a lender rights over their interests in Securities, with no clearance route, exemption authority, or tier carve-out, which squarely catches the loan secured on the collared shares. Even setting the loan aside, the derivative legs over vested shares would be permitted only with notice to the CEO (Chairman for the CEO) confirming no possession of Material Non-Public Information, and only during one of four narrow 4-week Trading Windows tied to results releases, the AGM, or an offer period. Hedging and monetisation of unvested equity-incentive entitlements are separately and absolutely banned. A carve-out excludes a secured lender's forced sale from the trading restrictions, but this is in tension with, and does not overcome, the blanket ban on ever entering into such a lending arrangement in the first place. Overall, the encumbrance ban is the decisive blocker for this structure."
+}
