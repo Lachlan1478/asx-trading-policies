@@ -1,0 +1,313 @@
+{
+ "symbol": "A4N",
+ "company": "Alpha HPA Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "all Directors and employees",
+   "kind": "all_staff",
+   "description": "All Directors and employees of the Company and their associates; subject to the general insider trading prohibitions but not expressly to the blackout, notification/consent or hedging provisions, which are restricted to Restricted Persons.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Restricted Persons",
+   "kind": "restricted",
+   "description": "All Directors and officers of the Company including the Managing Director; all direct reports to the Managing Director (Senior Executives); their associates (as defined in the Corporations Act) including close family members and trusts and entities controlled by them; and other persons identified by the Company from time to time.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of the Company; distinguished only for the ASX/Listing Rule 3.19A change-of-holding notification obligation.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "not_addressed",
+  "hedging_definition": "hedging arrangements (including, for example, the use of put and call options or other derivative instruments)",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading at the end of the full financial year",
+   "end_anchor": "10.00am on the next trading day following the announcement to the ASX of the preliminary final statement or full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Restricted Persons"],
+   "start_anchor": "close of trading at the end of the financial half year",
+   "end_anchor": "10.00am on the next trading day following the announcement of half-yearly results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Company may specify additional blackout periods from time to time ('any other period that the Company specifies from time to time'); the policy does not state whether such additional periods are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "exchange",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1; 8",
+   "detail": "Derivatives are not addressed as a discrete topic. 'Securities' is defined to include derivative instruments such as exchange traded options and warrants, so dealing in them is caught by the general prior-notification and trading-consent requirement for Restricted Persons.",
+   "evidence": "The definition of a Security is complex and includes not only ordinary shares but also derivative instruments such as exchange traded options and warrants."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "otc",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The policy gives only exchange traded options and warrants as examples of derivative Securities; OTC derivatives are not named or otherwise addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11",
+   "detail": "Absolute ban on hedging (including put and call options) over unvested Securities issued under any employee or director option or share plan.",
+   "evidence": "Restricted Persons must not engage in hedging arrangements (including, for example, the use of put and call options or other derivative instruments) over unvested Securities issued pursuant to any employee or director option or share plan."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Restricted Persons",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "11; 8",
+   "detail": "Hedging of vested Securities is not banned; it must 'comply with this Policy', which requires prior notification to the Chair or Company Secretary and trading consent (valid 5 trading days) before dealing, outside blackout periods and inside information.",
+   "evidence": "In addition, any hedging over vested Securities must comply with this Policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all Directors and employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Section 11's hedging prohibition is expressed to apply only to 'Restricted Persons'; hedging by non-restricted employees is not addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1; 8",
+   "detail": "Monetisation structures are not named. If a prepaid forward or similar arrangement constitutes a 'Security' or a 'deal' in Securities, it is caught by the general notification and trading-consent requirement for Restricted Persons; the policy gives no further guidance.",
+   "evidence": "Buy sell or otherwise deal in Alpha HPA Securities"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1; 8",
+   "detail": "CFDs are not named. To the extent a CFD referencing Alpha HPA shares is a 'Security' or otherwise a 'deal', it would fall under the general notification and trading-consent requirement.",
+   "evidence": "Buy sell or otherwise deal in Alpha HPA Securities"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Margin lending is not mentioned anywhere in the policy; there is no dealing definition listing collateralisation or margin loans as a deemed dealing.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge, lien or pledge over Securities is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Secured financing arrangements over Securities are not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Restricted Persons",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "No minimum holding period or short-term/speculative dealing restriction appears anywhere in the policy.",
+   "evidence": ""
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Restricted Persons",
+   "type": "preclearance_system",
+   "approver": "Chair of the Board or the Company Secretary",
+   "form": "unspecified",
+   "validity_days": 5,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "8",
+   "evidence": "Any Restricted Person wishing to deal in Alpha HPA's Securities must advise the Chair of the Board or the Company Secretary of their intention to do so before dealing in the Securities. ... If granted, trading consent is only valid for a period of 5 trading days after notification of approval."
+  },
+  {
+   "tier": "Directors",
+   "type": "notification",
+   "approver": "",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary (for onward notification to the Chairman and the ASX)",
+   "post_trade_deadline": "within five business days",
+   "section": "9",
+   "evidence": "Directors must furnish the relevant information within five business days to the Company Secretary who will facilitate the transmission of these notifications to the ASX."
+  }
+ ],
+ "short_term": [],
+ "exceptions": [
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Chairman",
+   "evidence": "Restricted Persons must not deal in the Company's securities during any of the following blackout periods unless in special circumstances and with the approval of the Chairman"
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Chairman",
+   "evidence": "It is recognised that a person in severe financial hardship or other exceptional circumstances may require to dispose of Securities outside the specified windows. In such cases any director or employee is required to seek the prior written approval of the Chairman who may approve the transaction with respect to the exceptional circumstances."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The exercising of options issued under the employee or executive option plan are exempt of the limitation periods as outlined in section 7 of this policy."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [
+  "ASX Listing Rules 12.9, 12.10 and 12.12"
+ ],
+ "exemption_authority": "The Chairman may grant prior written approval for a disposal outside the blackout windows in cases of severe financial hardship or other exceptional circumstances, and may approve dealing during a blackout period in 'special circumstances'; no other exemption authority or hardship criteria are specified.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "no secured financing provisions",
+   "clause": "The policy contains no reference anywhere to margin loans, collateral, pledges, charges, liens or secured financing arrangements over Alpha HPA Securities.",
+   "why_it_matters": "The loan leg of a funded collar secured on the collared shares faces no express prohibition, clearance requirement or lender-disclosure obligation under this policy, unlike most peer policies."
+  },
+  {
+   "topic": "hedging ban is scoped to unvested plan securities",
+   "clause": "Restricted Persons must not engage in hedging arrangements ... over unvested Securities issued pursuant to any employee or director option or share plan. In addition, any hedging over vested Securities must comply with this Policy.",
+   "why_it_matters": "A collar over vested shares (rather than unvested incentive securities) is not banned outright; it is treated as an ordinary dealing subject to the section 8 notification/consent regime and blackout periods."
+  },
+  {
+   "topic": "trading consent window",
+   "clause": "If granted, trading consent is only valid for a period of 5 trading days after notification of approval.",
+   "why_it_matters": "Any cleared dealing connected with the collar (entry, unwind, or a lender's exercise if treated as a dealing) must be completed within 5 trading days of consent, requiring tight coordination with the bank."
+  },
+  {
+   "topic": "no short-term dealing or minimum shareholding rule",
+   "clause": "No provision of the policy imposes a minimum holding period, short-term dealing restriction, or minimum shareholding requirement.",
+   "why_it_matters": "There is no policy-driven minimum tenor or floor that would constrain the collar's structure or duration."
+  },
+  {
+   "topic": "cashless exercise restriction while holding inside information",
+   "clause": "Where an employee or executive director exercises options while in the possession of price sensitive information, he/she will have to fund the exercise of the options without the financial assistance of a simultaneous sale of some or all shares just acquired.",
+   "why_it_matters": "If the executive holds inside information at option exercise, sell-to-cover funding is unavailable, which may affect the timing of when shares become available to be collared."
+  }
+ ],
+ "summary": "A funded OTC equity collar appears achievable under this policy because it is entirely silent on margin lending, collateral and secured financing, so the loan leg secured on the collared shares faces no express prohibition or condition beyond the general insider trading law. The option legs are caught only by section 11's hedging ban, which is limited to unvested Securities issued under an employee or director option/share plan; hedging of vested shares is expressly permitted provided it 'complies with this Policy' — meaning the Restricted Person gives prior notice to the Chair of the Board or Company Secretary and obtains trading consent (valid for 5 trading days) before dealing, outside the twice-yearly blackout periods and while not in possession of price-sensitive information. There is no minimum shareholding requirement or short-term dealing restriction to constrain the structure. The Chairman also holds a broad, undocumented discretion to approve dealings during a blackout period in 'special circumstances', which could assist with entry, unwind or lender-driven timing. Overall, a bank-funded collar over vested Alpha HPA shares held by a Restricted Person is workable subject only to pre-trade notification, Chair/Company Secretary consent, execution within the 5-trading-day window, and avoidance of blackout periods and inside information."
+}
