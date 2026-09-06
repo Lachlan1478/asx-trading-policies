@@ -1,0 +1,336 @@
+{
+ "symbol": "TUA",
+ "company": "Tuas Limited",
+ "title": "Securities trading policy",
+ "date_approved": "",
+ "date_effective": "",
+ "date_lodged": "",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors and Senior Executives",
+   "kind": "other",
+   "description": "Combined tier for the substantive dealing restrictions: Directors, and Senior Executives (Chief Executive Officer, Head of Finance, Head of Technology and Security, Head of Network Operations, Company Secretary, and all direct reports of the Executive Chairman or CEO). Subject to the Window Period, Closed Period, written acknowledgement and short-term dealing rules.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Clearance sub-tier: must obtain written acknowledgement from the Chairperson of the Board before trading outside a Window Period, and confirm completed trades to the Company Secretary within 2 business days.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Senior Executives",
+   "kind": "kmp",
+   "description": "Clearance sub-tier: must obtain written acknowledgement from the Chief Executive Officer before trading outside a Window Period, and confirm completed trades to the Company Secretary within 5 business days.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Chairperson of the Board",
+   "kind": "director",
+   "description": "Clearance sub-tier: must obtain written acknowledgement from the Chairperson of the Audit Committee before trading outside a Window Period.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Employees",
+   "kind": "all_staff",
+   "description": "All other employees; required to comply with the insider trading prohibition of the Corporations Act and the general provisions of the Policy, but the Window Period/Closed Period regime is expressly stated to apply only to Directors and Senior Executives.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "not_addressed",
+  "dealing_covers_encumbrance": "not_addressed",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "not_addressed",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Senior Executives"],
+   "start_anchor": "release of the Company's half yearly or annual results to the ASX, or the Company's Annual General Meeting",
+   "end_anchor": "six weeks after that release or meeting",
+   "duration_days": 42
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors and Senior Executives"],
+   "start_anchor": "close of trading on ASX on the last trading day of the financial year or half year",
+   "end_anchor": "release to the ASX of the full year or half year results",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2 Definitions (Securities); 1.3 Window Period, Closed Period, Written Acknowledgement",
+   "detail": "Securities are defined to include derivatives, so an OTC put/call referencing the Company's shares is itself a Security; dealing in it is confined to the six-week Window Period, prohibited in the Closed Period save exceptional circumstances, and outside the Window Period requires prior written acknowledgement.",
+   "evidence": "Securities include shares of any class, options, bonds, derivatives, managed investments and superannuation products and any other financial products that are able to be traded on a financial market."
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Employees",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.3 No dealing while in possession of inside information",
+   "detail": "General employees are bound only by the insider trading prohibition and the Policy's general provisions; the Window Period/Closed Period regime is expressly limited to Directors and Senior Executives.",
+   "evidence": "All employees of the Company are required to comply with the insider trading prohibition of the Corporations Act and the general provisions of this Policy."
+  },
+  {
+   "topic": "hedging",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Hedging is not named or otherwise addressed anywhere in the policy, and there is no distinction between vested and unvested holdings.",
+   "evidence": ""
+  },
+  {
+   "topic": "monetisation",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Monetisation structures are not addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named anywhere; only short-term (holding period) dealing is separately addressed.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not named anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "1.2 Definitions (Securities)",
+   "detail": "CFDs are not separately named but fall within 'derivatives' in the Securities definition, so entering one referencing the Company's shares is subject to the same Window Period/Closed Period/written acknowledgement regime.",
+   "evidence": "Securities include shares of any class, options, bonds, derivatives, managed investments and superannuation products and any other financial products that are able to be traded on a financial market."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Margin lending is not named or otherwise addressed anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Granting security, a charge, lien or pledge over the Company's securities is not addressed anywhere.",
+   "evidence": ""
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Secured financing arrangements of any kind are not addressed anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "short_term",
+   "tier": "Directors and Senior Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "1.3 No short term speculative trading",
+   "detail": "Absolute ban on dealing in the Company's securities for short term gain, defined as a period of three months or less; no carve-outs stated.",
+   "evidence": "Directors and Senior Executives must not deal in the Company’s securities for short term gain. Short term means a period of three months or less."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chairperson of the Board",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 business days of completion of the trade",
+   "section": "1.3 Written Acknowledgement",
+   "evidence": "A Director of the Company must inform and obtain written acknowledgement from the Chairperson of the Board prior to undertaking the trade. ... the relevant trade must occur within 2 business days following approval (or such other time specified in the approval) ... A written confirmation of the acknowledged trade must be given to the Company Secretary within 2 business days of completion of the trade for Directors."
+  },
+  {
+   "tier": "Senior Executives",
+   "type": "approval",
+   "approver": "Chief Executive Officer",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 5 business days of completion of the trade",
+   "section": "1.3 Written Acknowledgement",
+   "evidence": "A Senior Executive of the Company must inform and obtain written acknowledgement from the Chief Executive Officer prior to undertaking the trade. ... 5 business days for Senior Executives."
+  },
+  {
+   "tier": "Chairperson of the Board",
+   "type": "approval",
+   "approver": "Chairperson of the Audit Committee",
+   "form": "written",
+   "validity_days": 2,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 business days of completion of the trade",
+   "section": "1.3 Written Acknowledgement",
+   "evidence": "The Chairperson of the Board must inform and obtain written acknowledgement from the Chairperson of the Audit Committee prior to undertaking the trade."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Directors and Senior Executives",
+   "type": "holding_period",
+   "months": 3,
+   "basis": "from acquisition",
+   "carve_outs": [],
+   "evidence": "Directors and Senior Executives must not deal in the Company’s securities for short term gain. Short term means a period of three months or less."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "where the dealing relates to the acquisition of shares or options pursuant to an employee share option plan or as a result of the exercise of any options ... these dealings are specifically excluded from this Policy."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "through a dividend re-investment plan, any share purchase plan or other issue open to all shareholders ... these dealings are specifically excluded from this Policy."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "or through conversion of convertible securities, these dealings are specifically excluded from this Policy."
+  },
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chairperson of the Board (Directors), CEO (Senior Executives), or Chairperson of the Audit Committee (Chairperson)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chairperson of the Board (Directors), CEO (Senior Executives), or Chairperson of the Audit Committee (Chairperson)",
+   "evidence": "Exceptional circumstances are likely to include severe financial hardship or compulsion by court order."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "not_addressed",
+  "unvested_as_collateral": "not_addressed",
+  "transfer_into_margin_account_is_dealing": "not_addressed",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "not_addressed",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Chairperson of the Board (for a Director), Chief Executive Officer (for a Senior Executive) or Chairperson of the Audit Committee (for the Chairperson) may give written acknowledgement to trade outside a Window Period, or during a Closed Period in exceptional circumstances (severe financial hardship or compulsion by court order) provided the applicant is not in possession of inside information and supplies sufficient evidence the dealing is the most reasonable course of action; the decision is final, binding, and reasons need not be given.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "no financing regime",
+   "clause": "This Policy provides guidance for Directors, Senior Executives and employees in relation to their dealing in securities of the Company.",
+   "why_it_matters": "The policy never mentions margin lending, hedging, encumbrance or secured financing, so the loan leg of a funded collar secured on TUA shares is not directly regulated by any express prohibition or approval regime; the bank should confirm treatment with the Company Secretary rather than assume it is unregulated."
+  },
+  {
+   "topic": "derivatives within Securities definition",
+   "clause": "Securities include shares of any class, options, bonds, derivatives, managed investments and superannuation products and any other financial products that are able to be traded on a financial market.",
+   "why_it_matters": "Because 'derivatives' is listed as a Security in its own right, an OTC put/call referencing TUA shares is a Security and entering it is 'dealing' subject to the Window Period/Closed Period/written acknowledgement regime, just like a share trade."
+  },
+  {
+   "topic": "compressed trading window",
+   "clause": "Directors and Senior Executives are only permitted to deal in the Company’s securities during a six week period following the release of the Company’s half yearly and annual results ... and the Company’s Annual General Meeting.",
+   "why_it_matters": "Entry, unwind or roll of the collar's derivative legs, or any settlement sale, is normally confined to those six-week windows unless separate written acknowledgement is obtained for out-of-window trading."
+  },
+  {
+   "topic": "subsequent dealing restricted",
+   "clause": "Subsequent dealing in the underlying security is restricted as outlined in this Policy.",
+   "why_it_matters": "Shares obtained through an excluded dealing (e.g. exercise of options) remain subject to the ordinary Window Period/Closed Period regime for any later sale or delivery under the collar."
+  },
+  {
+   "topic": "director notifiable interest disclosure",
+   "clause": "Directors must advise the Company of details of any trading in securities by them or by persons or entities controlled by them ... within 2 business days ... to notify the ASX of details of any transaction on behalf of a Director within 5 business days of the trade.",
+   "why_it_matters": "Entry or unwind of the collar by a Director (or an entity they control) must be reported to the Company Secretary within 2 business days for prompt ASX notifiable-interest disclosure."
+  }
+ ],
+ "summary": "TUA's policy does not address hedging, margin lending, encumbrance or secured financing at all, so the loan leg of a funded collar secured on vested shares is not directly regulated by any express prohibition or approval regime specific to financing. However, 'Securities' is defined to include derivatives, so entering an OTC put/call referencing TUA shares is itself dealing in a Security and falls within the Window Period/Closed Period regime applying to Directors and Senior Executives: dealing is confined to the six-week Window Period after each half-year/annual result and the AGM, is prohibited in the Closed Period preceding each results release (save exceptional circumstances), and outside the Window Period requires prior written acknowledgement from the Chairperson of the Board (Directors), the CEO (Senior Executives) or the Chairperson of the Audit Committee (the Chairperson), valid for 2 business days, with post-trade confirmation to the Company Secretary. Dealing for short-term gain (three months or less) is prohibited outright. Because the financing side of a funded collar is simply silent rather than prohibited, the structure appears feasible from a policy perspective provided the derivative legs are timed within a Window Period (or separately acknowledged) and are not for short-term gain, but the bank should confirm with the Company Secretary that the loan/security arrangement itself is not treated as an unaddressed dealing."
+}
