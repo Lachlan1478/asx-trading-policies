@@ -91,8 +91,11 @@ def loan_leg(p):
 def funded_status(p):
     """Policy-level verdict on a loan-funded collar for the most senior tiers, derived from the rules rather than the model's summary."""
     senior = [t.name for t in p.tiers if t.kind in ("director", "kmp", "restricted")] or [t.name for t in p.tiers]
-    if senior and all(collar_status(p, t)[0] in ("blocked", "blocked_below_floor") for t in senior):
+    statuses = [collar_status(p, t)[0] for t in senior]
+    if statuses and all(s in ("blocked", "blocked_below_floor") for s in statuses):
         return "blocked_hedge"
+    if statuses and all(s == "unclear" for s in statuses):
+        return "unclear"
     f = p.financing
     loan_bans = [r for r in p.rules if r.topic in ("secured_financing", "margin_lending", "encumbrance") and r.answer == "prohibited"
                  and r.security_state in ("vested_unrestricted", "any") and (r.tier in senior or r.tier == "all")]
