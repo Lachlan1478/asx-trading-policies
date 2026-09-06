@@ -14,6 +14,8 @@ Collects the securities trading policy of the largest ASX-listed companies and e
 |---|---|---|
 | `data/tables/policies.json` | company | Full nested extraction, including `bespoke_clauses` for anything the structured fields cannot hold |
 | `data/tables/policies.csv` | company | Dates, tiers, window model, definition flags, financing scope, forced-sale treatment, disclosure triggers, funded-collar status, summary |
+
+The `funded_collar` column is computed from the rules for the senior tiers (director, KMP, restricted persons): `blocked_hedge` when every senior tier is barred from hedging or OTC derivatives over vested unrestricted shares; `blocked_loan` when secured financing is banned in terms wider than margin loans; `loan_margin_features_banned` when only margin lending is banned, so the loan must avoid margin-call and LVR features; `enforcement_restricted` when a lender's forced sale in a closed period would be a breach; `clearance_required` when such a sale needs clearance; otherwise `workable`, meaning nothing in the policy blocks it, though clearance and window timing still apply (see `collar.csv`).
 | `data/tables/rules.csv` | company x tier x topic x security state x venue | Answer (prohibited / permitted / with clearance / with notification / floor / not addressed), mechanism (express or via the dealing definition), section, verbatim evidence |
 | `data/tables/clearance.csv` | company x tier | Approval vs notification vs system pre-clearance, approver, validity, SLA, revocability, post-trade notice |
 | `data/tables/windows.csv` | window | Open or closed, anchors, duration, tiers |

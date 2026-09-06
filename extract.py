@@ -78,11 +78,17 @@ def collar_status(p, tier):
 
 
 def funded_status(p):
+    """Policy-level verdict on a loan-funded collar for the most senior tiers, derived from the rules rather than the model's summary."""
+    senior = [t.name for t in p.tiers if t.kind in ("director", "kmp", "restricted")] or [t.name for t in p.tiers]
+    if senior and all(collar_status(p, t)[0] in ("blocked", "blocked_below_floor") for t in senior):
+        return "blocked_hedge"
     f = p.financing
-    if f.secured_financing_scope in ("any_secured_financing", "any_financing_in_respect_of_securities"):
-        pro = [r for r in p.rules if r.topic in ("secured_financing", "margin_lending", "encumbrance") and r.answer == "prohibited"]
-        if pro:
-            return "blocked"
+    loan_bans = [r for r in p.rules if r.topic in ("secured_financing", "margin_lending", "encumbrance") and r.answer == "prohibited"
+                 and r.security_state in ("vested_unrestricted", "any") and (r.tier in senior or r.tier == "all")]
+    if loan_bans and f.secured_financing_scope in ("any_secured_financing", "any_financing_in_respect_of_securities"):
+        return "blocked_loan"
+    if loan_bans:
+        return "loan_margin_features_banned"
     return {"breach": "enforcement_restricted", "clearance_required": "clearance_required"}.get(f.forced_sale_in_closed_period, "workable")
 
 
