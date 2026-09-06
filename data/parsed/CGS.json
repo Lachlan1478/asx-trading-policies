@@ -1,0 +1,403 @@
+{
+ "symbol": "CGS",
+ "company": "Cogstate Limited",
+ "title": "Securities Trading Policy",
+ "date_approved": "26 June 2025",
+ "date_effective": "26 June 2025",
+ "date_lodged": "30 June 2025",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Directors",
+   "kind": "director",
+   "description": "Directors of Cogstate Limited and its subsidiaries.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Restricted Employees",
+   "kind": "restricted",
+   "description": "CEO, CFO, Company Secretary, General Counsel, Chief Scientific/Medical/Technical/Commercial/People/Innovation Officers, Executive Vice President and Vice President level roles, finance department and strategic planning department employees, employees with access to those persons' emails/documents/files, any employee with authority and responsibility for planning, directing and contracting the Company's activities, and employees nominated by the Board.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "kind": "restricted",
+   "description": "The composite group named in the Closed Period, prior clearance, margin loan and encumbrance provisions; Closely Connected Persons and Entities are bound by Directors and Restricted Employees procuring their compliance as if they were a Director or Restricted Employee.",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Closely Connected Persons and Entities",
+   "kind": "associate",
+   "description": "Close family members of employees (spouse, de facto partner, or any children residing with a Director or employee) and any company, trust, self-managed or other super fund or entity controlled by a Director or employee or their close family members.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "no",
+  "dealing_covers_stock_lending": "no",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "any Derivatives or other products which operate to limit the economic risk of holding unvested Company Securities or Company Securities which are subject to holding locks",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "closed",
+   "applies_to": ["Directors, Restricted Employees and Closely Connected Persons and Entities"],
+   "start_anchor": "one business day before the Company's year end",
+   "end_anchor": "business day after the release of the full year results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors, Restricted Employees and Closely Connected Persons and Entities"],
+   "start_anchor": "one business day before the Company's half year end",
+   "end_anchor": "business day after the release of the half yearly results",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors, Restricted Employees and Closely Connected Persons and Entities"],
+   "start_anchor": "one business day before the Company's quarterly balance date (if a quarterly report is required)",
+   "end_anchor": "business day after the release of the quarterly report",
+   "duration_days": null
+  },
+  {
+   "kind": "closed",
+   "applies_to": ["Directors, Restricted Employees and Closely Connected Persons and Entities"],
+   "start_anchor": "two weeks before the Company's Annual General Meeting",
+   "end_anchor": "business day after the Annual General Meeting",
+   "duration_days": null
+  }
+ ],
+ "ad_hoc_blackout_authority": "The Board may impose any additional Closed Periods from time to time, for example when the Company is considering matters subject to Listing Rule 3.1A. Confidentiality of such additional periods is not addressed, though a refusal of clearance to trade must separately be kept confidential by the person who sought it.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Schedule 1 (Securities, Derivative); 3.5",
+   "detail": "'Securities' expressly includes 'Derivatives', defined per s761D of the Corporations Act to include options, forward contracts, futures, warrants, swaps, caps and collars, with no venue limitation, so an OTC put/call/collar with a bank is expressly a Security. All Trading, including derivatives, requires prior written clearance from the Designated Officer and is barred during Closed Periods (subject to Exceptional Circumstances) or while holding inside information.",
+   "evidence": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.10; 1.2",
+   "detail": "Absolute ban on using, or allowing to be used, any Derivatives or other products that limit the economic risk of holding unvested Company Securities. Directors and Restricted Employees must procure that their Closely Connected Persons and Entities comply as if they were a Director or Restricted Employee.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of holding unvested Company Securities or Company Securities which are subject to holding locks."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "vested_locked",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.10; 1.2",
+   "detail": "The same absolute hedging ban extends to Company Securities that are subject to holding locks, even though technically vested.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of holding unvested Company Securities or Company Securities which are subject to holding locks."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "3.10; 3.5",
+   "detail": "The hedging ban is expressly limited to unvested Company Securities and those subject to holding locks. Once a holding lock lifts, hedging vested, unrestricted Company Securities is not itself banned, but the Derivative remains a Security subject to the ordinary prior written clearance regime and Closed Period restrictions.",
+   "evidence": "Directors and Restricted Employees must not use, or allow to be used, any Derivatives or other products which operate to limit the economic risk of holding unvested Company Securities or Company Securities which are subject to holding locks."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "Schedule 1 (Deal); 3.5",
+   "detail": "Monetisation structures are not named. 'Deal' is defined to include disposing of Securities or entering into an agreement to do so, which would sweep in a prepaid forward or similar monetisation of vested, unrestricted shares, requiring the same prior written clearance and Closed Period compliance as an ordinary sale.",
+   "evidence": "to Deal in Securities means to apply for, acquire or dispose of Securities, or enter into an agreement to do any of those things, and Dealing has a corresponding meaning."
+  },
+  {
+   "topic": "short_selling",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.8",
+   "detail": "Absolute ban on short selling Company Securities (selling borrowed securities with a view to repurchasing them later at a lower price). No exception is listed.",
+   "evidence": "Directors and employees must not engage in short selling of Company Securities. Short selling involves selling Securities that a person has borrowed (rather than those that they own) with a view to repurchasing them later at a lower price and returning them to the lender."
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "The Policy does not prohibit or address a person lending out their own Company Securities; a securities lending arrangement is mentioned only as part of the mechanics of what constitutes a prohibited short sale by the borrower.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "Schedule 1 (Securities)",
+   "detail": "CFDs are not named individually but fall within 'other financial products covered by s1042A of the Corporations Act' or as a 'swap'-type Derivative within the Securities definition, so a CFD requires prior written clearance and is barred during Closed Periods; a CFD used to limit the economic risk of unvested or holding-locked shares would instead be caught by the absolute hedging ban in 3.10.",
+   "evidence": "Securities includes shares, options, rights, debentures (including convertible notes), interests in a managed investment scheme ... Derivatives, ... and other financial products covered by s1042A of the Corporations Act."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.9",
+   "detail": "Absolute ban on entering into a margin loan or similar funding arrangement to acquire Company Securities, including transferring existing Securities into a margin loan account or selling Securities to satisfy a margin call. No carve-out or clearance route is provided.",
+   "evidence": "No Director, Restricted Employee or Closely Connected Person and Entity may enter into a margin loan or similar funding arrangement to acquire any Company Securities, (which includes transferring Securities into an existing margin loan account, or selling Securities to satisfy a call pursuant to a margin loan) or grant lenders any rights over their Company Securities."
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.9",
+   "detail": "Granting a lender any rights (such as a charge, lien or pledge) over Company Securities is prohibited outright, not limited to margin-loan collateral.",
+   "evidence": "or grant lenders any rights over their Company Securities."
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors, Restricted Employees and Closely Connected Persons and Entities",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.9",
+   "detail": "The ban is not limited to conventional margin loans: 'similar funding arrangement' together with the separate prohibition on granting lenders any rights over Company Securities operates as a blanket ban on any secured financing arrangement against Company Securities.",
+   "evidence": "No Director, Restricted Employee or Closely Connected Person and Entity may enter into a margin loan or similar funding arrangement to acquire any Company Securities ... or grant lenders any rights over their Company Securities."
+  },
+  {
+   "topic": "short_term",
+   "tier": "all",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "3.7",
+   "detail": "Directors and employees must not engage in short term Trading; acquiring Securities with a view to resale within 6 months, or selling with a view to repurchase within 6 months, is treated as short-term. Carve-out: sale of Securities following vesting or exercise of options under an employee share scheme is not restricted, provided no inside information is held.",
+   "evidence": "In general, the acquisition of Securities with a view to resale within a 6 month period and the sale of Securities with a view to repurchase within a 6 month period would be considered to be transactions of a short term nature."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors",
+   "type": "approval",
+   "approver": "Chair of the Board of Directors (or, for the Chair's own trades, the CEO)",
+   "form": "written",
+   "validity_days": 21,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two business days",
+   "section": "3.5; 3.6; Schedule 1 (Designated Officer)",
+   "evidence": "Directors, Restricted Employees and Closely Connected Persons and Entities must seek prior written clearance before undertaking any Trading in Company Securities ... Any prior written clearance given for trading will be valid for 21 days from the date it is given."
+  },
+  {
+   "tier": "Restricted Employees",
+   "type": "approval",
+   "approver": "CEO (or, for the CEO's own trades, the Chair of the Board)",
+   "form": "written",
+   "validity_days": 21,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two business days",
+   "section": "3.5; 3.6; Schedule 1 (Designated Officer)",
+   "evidence": "Designated Officer means: ... in respect of a Restricted Employee other than the CEO, the CEO ... Any prior written clearance given for trading will be valid for 21 days from the date it is given."
+  },
+  {
+   "tier": "Closely Connected Persons and Entities",
+   "type": "approval",
+   "approver": "The Designated Officer applicable to the connected Director or Restricted Employee",
+   "form": "written",
+   "validity_days": 21,
+   "response_sla_days": null,
+   "revocable": "yes",
+   "conditions_allowed": "yes",
+   "refusal_confidential": "yes",
+   "covers_derivatives": "express",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within two business days",
+   "section": "1.2; 3.5; 3.6",
+   "evidence": "Directors and Restricted Employees must also take reasonable steps to advise their Closely Connected Persons and Entities of this Policy and procure that they comply with this Policy as if they were a Director or Restricted Employee (as applicable)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "all",
+   "type": "holding_period",
+   "months": 6,
+   "basis": "from acquisition (view to resale) or from sale (view to repurchase)",
+   "carve_outs": ["sale of Securities following vesting or exercise of options under an employee share scheme, provided no inside information is held"],
+   "evidence": "In general, the acquisition of Securities with a view to resale within a 6 month period and the sale of Securities with a view to repurchase within a 6 month period would be considered to be transactions of a short term nature."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trades in Company Securities where the Trading does not result in a change of beneficial interest in the Securities."
+  },
+  {
+   "kind": "other",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Transfers of Company Securities already held into a superannuation fund or other saving scheme in which the Director, Restricted Employee or Closely Connected Person and Entity is a beneficiary."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "An investment in, or Trading in units of, a fund or other scheme (other than a scheme only investing in Company Securities) where the assets of the fund or other scheme are invested at the discretion of a third party."
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Trading in Company Securities by that trust provided the Director, Restricted Employee or Closely Connected Person and Entity is not a beneficiary of the trust and any decision to Trade during a Closed Period is taken by the other trustees or directors or by the investment managers independently."
+  },
+  {
+   "kind": "takeover",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "Undertakings to accept, or the acceptance of, a takeover offer, or participation in a scheme of arrangement."
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "Trading under an offer or invitation made to all or most of the Company's security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan or an equal access buy-back."
+  },
+  {
+   "kind": "plan_dealing",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The exercise (but not the sale of Securities following exercise) of an option or a right under an employee incentive scheme."
+  },
+  {
+   "kind": "other",
+   "scope": "acquisition_only",
+   "approver": "",
+   "evidence": "The acquisition of shares by a Director to obtain a share qualification."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Designated Officer",
+   "evidence": "(Severe financial hardship): a pressing financial commitment that can only be satisfied by selling the relevant Company Securities."
+  },
+  {
+   "kind": "hardship",
+   "scope": "sale_only",
+   "approver": "Designated Officer",
+   "evidence": "a tax liability of such a person would constitute severe financial hardship only if the person has no other means of satisfying the liability. A tax liability relating to Securities received under an employee incentive scheme would also not normally constitute severe financial hardship."
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Designated Officer",
+   "evidence": "a requirement to Trade in Company Securities as a result of: a court order; court enforceable undertakings (eg as part of a bona fide family settlement); or some other overriding legal or regulatory requirement."
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "Designated Officer",
+   "evidence": "any other circumstances considered exceptional by the Designated Officer."
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "not_addressed",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "The Designated Officer (Chair of the Board for Directors and the CEO; CEO for other Restricted Employees; or another Board-appointed Designated Officer) may grant prior written clearance to trade during a Closed Period in Exceptional Circumstances (severe financial hardship, a genuine tax liability with no other means of payment, court order/undertaking, or other circumstances the Designated Officer considers exceptional). No exemption authority applies to the absolute margin loan, encumbrance, or unvested/holding-locked hedging bans in 3.9 and 3.10.",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "collars named explicitly",
+   "clause": "Derivative has the meaning in section 761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars.",
+   "why_it_matters": "The very instrument a funded collar comprises is expressly captured as a Security requiring clearance (or banned outright as hedging where unvested or holding-locked), removing any definitional ambiguity."
+  },
+  {
+   "topic": "absolute margin loan and encumbrance ban",
+   "clause": "No Director, Restricted Employee or Closely Connected Person and Entity may enter into a margin loan or similar funding arrangement to acquire any Company Securities ... or grant lenders any rights over their Company Securities.",
+   "why_it_matters": "The loan leg of a funded collar secured on the collared shares is prohibited outright for Directors, Restricted Employees and their connected persons, with no clearance or Exceptional Circumstances route, unlike ordinary Closed Period trading."
+  },
+  {
+   "topic": "hedging ban limited to unvested/holding-locked",
+   "clause": "Directors and Restricted Employees must not use ... any Derivatives ... which operate to limit the economic risk of holding unvested Company Securities or Company Securities which are subject to holding locks.",
+   "why_it_matters": "Once shares vest and any holding lock lifts, hedging (and by extension collaring) becomes permissible subject to ordinary clearance and Closed Periods; the fatal blocker to a funded structure is the financing leg, not the derivative itself."
+  },
+  {
+   "topic": "clearance refusal confidential and final",
+   "clause": "Any decision of the Designated Officer to refuse clearance to Trade is final and binding and must be kept confidential by the Director, Restricted Employee or Closely Connected Person and Entity. The Designated Officer is not required to give reasons should clearance be refused.",
+   "why_it_matters": "The executive cannot challenge, appeal, or disclose a refusal, so bank-timed collar entry could be blocked without recourse or explanation."
+  },
+  {
+   "topic": "clearance lapses on inside information",
+   "clause": "If any Director, Restricted Employee or Closely Connected Person and Entity comes into possession of inside information after receiving a clearance to Trade, they must not Trade despite having received the clearance.",
+   "why_it_matters": "A cleared derivative leg must be executed within the 21-day validity window and can become unexecutable if inside information arises before signing."
+  },
+  {
+   "topic": "connected persons bound as if Director/Restricted Employee",
+   "clause": "Directors and Restricted Employees must also take reasonable steps to advise their Closely Connected Persons and Entities of this Policy and procure that they comply with this Policy as if they were a Director or Restricted Employee.",
+   "why_it_matters": "Routing the collar or its financing through a spouse, family trust or controlled entity does not escape the margin loan ban, hedging ban, or clearance and Closed Period requirements."
+  }
+ ],
+ "summary": "A funded collar (a loan secured on the collared shares) is not possible under this policy, because clause 3.9 imposes an absolute ban on Directors, Restricted Employees and their Closely Connected Persons and Entities entering into any margin loan or similar funding arrangement, or granting a lender any rights over Company Securities, with no clearance or exceptional-circumstances exemption available. The derivative legs themselves are not an obstacle once shares are vested and unrestricted: 'Securities' expressly includes Derivatives (defined to include collars, options and swaps with no venue limitation), and Trading in them is permitted with prior written clearance from the Designated Officer, outside Closed Periods, provided no inside information is held. Hedging is only an absolute bar while the underlying shares are unvested or subject to a holding lock; the OTC put and call could be entered once those restrictions lift. Clearance is valid for only 21 days, lapses if inside information later arises, and a refusal is final, binding and confidential with no stated right of appeal. In short: the put/call structure is achievable with clearance over vested, unrestricted shares, but the secured-loan financing that makes the collar 'funded' is squarely and unconditionally prohibited."
+}

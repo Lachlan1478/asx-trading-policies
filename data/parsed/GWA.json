@@ -1,0 +1,485 @@
+{
+ "symbol": "GWA",
+ "company": "GWA Group Limited",
+ "title": "Share Trading Policy",
+ "date_approved": "29 November 2024",
+ "date_effective": "5 December 2024",
+ "date_lodged": "5 December 2024",
+ "date_next_review": "",
+ "tiers": [
+  {
+   "name": "Company Personnel",
+   "kind": "all_staff",
+   "description": "All directors, officers and employees of GWA Group Limited and its related companies. Subject to the general insider trading prohibition (4.3-4.4), the ban on trading in securities of other companies while holding Inside Information about them (4.10), and the additional prohibition on active short-term trading (4.4).",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Directors and Executives",
+   "kind": "kmp",
+   "description": "Directors and executives, plus any other officers or employees the Managing Director designates from time to time (4.5.1). Subject to the Window Period trading restriction (4.5), the hedging ban on unvested incentive securities (4.7), and the margin loan/secured financing ban (4.8).",
+   "includes_associates": "yes"
+  },
+  {
+   "name": "Chair",
+   "kind": "director",
+   "description": "Distinguished only for clearance: the Chair seeks written approval from the Deputy Chair to trade during a Closed Period.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Executive",
+   "kind": "kmp",
+   "description": "Distinguished only for clearance: an executive seeks written approval from the Managing Director to trade during a Closed Period, and has 5 business days (rather than 2) to confirm the trade to the Company Secretary.",
+   "includes_associates": "not_addressed"
+  },
+  {
+   "name": "Associates",
+   "kind": "associate",
+   "description": "'Associated parties' of a director, whose intended trading a director must notify to the Chair before dealing.",
+   "includes_associates": "not_addressed"
+  }
+ ],
+ "definitions": {
+  "dealing_covers_derivatives": "yes",
+  "dealing_covers_agreements_to_deal": "yes",
+  "dealing_covers_encumbrance": "yes",
+  "dealing_covers_stock_lending": "not_addressed",
+  "dealing_covers_change_of_beneficial_ownership": "yes",
+  "securities_include_otc_derivatives": "yes",
+  "hedging_definition": "hedging arrangements ... which operate to limit the economic risk of any securities issued under the GWA share incentive schemes while those holdings are subject to performance hurdles or are otherwise unvested",
+  "substance_over_form": "not_addressed"
+ },
+ "windows": [
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Executives"],
+   "start_anchor": "each yearly and half yearly results announcement",
+   "end_anchor": "30 days after each yearly and half yearly results announcement",
+   "duration_days": 30
+  },
+  {
+   "kind": "open",
+   "applies_to": ["Directors and Executives"],
+   "start_anchor": "the Annual General Meeting",
+   "end_anchor": "30 days after the Annual General Meeting",
+   "duration_days": 30
+  }
+ ],
+ "ad_hoc_blackout_authority": "Trading is only permitted in the 30-day Window Periods 'in the absence of agreement by the Board to the contrary', implying the Board may vary the Window Periods; the policy does not state whether such variations are confidential.",
+ "rules": [
+  {
+   "topic": "derivatives",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Outside the Directors and Executives regime, creating a derivative (including OTC options, swaps, hedges) over GWA securities is a Dealing swept in by the Securities/Dealing definitions, but not itself banned; it remains subject only to the overriding prohibition on dealing while possessing Inside Information.",
+   "evidence": "any derivatives of those securities, including equity swaps, futures, hedges and exchange-traded or over-the-counter options, whether settled by cash or otherwise"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "otc",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4; 4.5",
+   "detail": "Creating an OTC put/call over GWA securities is expressly a Dealing (creating 'a hedge, security interest ... or other financial interest') and Securities expressly includes over-the-counter options. For directors and executives it is only permitted within the Window Period (or under Exceptional Circumstances) with prior written approval, and never while in possession of Inside Information.",
+   "evidence": "exchange-traded or over-the-counter options, whether settled by cash or otherwise"
+  },
+  {
+   "topic": "derivatives",
+   "tier": "Directors and Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.7",
+   "detail": "A derivative entered into to hedge unvested incentive securities is caught by the outright hedging ban.",
+   "evidence": "Directors and executives must not enter into any hedging arrangements in relation to any unvested GWA securities which operate to limit the economic risk of any securities issued under the GWA share incentive schemes while those holdings are subject to performance hurdles or are otherwise unvested."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4",
+   "detail": "The hedging ban in 4.7 is limited to directors and executives; for other Company Personnel, creating a hedge is simply a Dealing subject to the general insider trading prohibition.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7",
+   "detail": "Absolute ban on hedging arrangements limiting the economic risk of incentive securities while subject to performance hurdles or otherwise unvested.",
+   "evidence": "Directors and executives must not enter into any hedging arrangements in relation to any unvested GWA securities which operate to limit the economic risk of any securities issued under the GWA share incentive schemes while those holdings are subject to performance hurdles or are otherwise unvested."
+  },
+  {
+   "topic": "hedging",
+   "tier": "Directors and Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.7; 4.5",
+   "detail": "Hedging is expressly contemplated once securities have vested, but must comply with the full policy: Window Period timing (or Exceptional Circumstances), prior written approval, and no Inside Information.",
+   "evidence": "Any sale, hedging arrangement or other trade involving those securities after they have vested must be done in compliance with this policy."
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.7",
+   "detail": "Monetisation is not named, but any structure that operates to limit the economic risk of unvested incentive securities falls within the hedging ban.",
+   "evidence": "which operate to limit the economic risk of any securities issued under the GWA share incentive schemes while those holdings are subject to performance hurdles or are otherwise unvested"
+  },
+  {
+   "topic": "monetisation",
+   "tier": "Directors and Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4; 4.5",
+   "detail": "A monetisation structure (e.g. prepaid forward) is caught as 'any other transfer or creation of an interest in securities' and is permitted subject to the Window Period/written approval regime.",
+   "evidence": "any other transfer or creation of an interest in securities, whether directly, or by arranging for someone else to undertake the dealing on your behalf"
+  },
+  {
+   "topic": "short_selling",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Short selling is not named or otherwise addressed anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "stock_lending",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "not_addressed",
+   "mechanism": "none",
+   "floor": "",
+   "section": "",
+   "detail": "Securities lending is not mentioned anywhere in the policy.",
+   "evidence": ""
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and Executives",
+   "security_state": "vested_unrestricted",
+   "venue": "any",
+   "answer": "permitted_with_clearance",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4; 4.5",
+   "detail": "CFDs are not named, but a cash-settled derivative referencing GWA securities falls within 'any derivatives of those securities ... whether settled by cash or otherwise', so it is permitted subject to the Window Period/written approval regime.",
+   "evidence": "any derivatives of those securities ... whether settled by cash or otherwise"
+  },
+  {
+   "topic": "cfd",
+   "tier": "Directors and Executives",
+   "security_state": "unvested",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "via_hedging_definition",
+   "floor": "",
+   "section": "4.7",
+   "detail": "A CFD used to hedge unvested incentive securities is caught by the outright hedging ban.",
+   "evidence": "which operate to limit the economic risk of any securities issued under the GWA share incentive schemes while those holdings are subject to performance hurdles or are otherwise unvested"
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Directors and Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8",
+   "detail": "Absolute ban, not limited to unvested securities and with no consent or exceptional-circumstances pathway referenced: directors and executives cannot obtain a margin loan against GWA securities at all.",
+   "evidence": "All directors and executives are prohibited from obtaining a margin loan using GWA securities (either solely or as part of a portfolio) as security for the loan or entering into any secured financing arrangement in respect of GWA securities."
+  },
+  {
+   "topic": "margin_lending",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4",
+   "detail": "The 4.8 ban is limited to directors and executives; for other Company Personnel, a margin loan involving GWA securities is only caught as a Dealing subject to the insider trading prohibition.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Directors and Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4; 4.8",
+   "detail": "Creating a security interest over GWA securities is expressly a Dealing, and directors/executives are absolutely barred from entering any secured financing arrangement in respect of GWA securities, so granting the bank security over the collared shares is banned outright.",
+   "evidence": "or entering into any secured financing arrangement in respect of GWA securities"
+  },
+  {
+   "topic": "encumbrance",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4",
+   "detail": "For Company Personnel outside the Directors and Executives regime, creating a security interest is only a Dealing subject to the insider trading prohibition.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Directors and Executives",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.8",
+   "detail": "Blanket ban on any secured financing arrangement in respect of GWA securities, expressly extending beyond margin loans; no vesting carve-out and no exemption authority referenced.",
+   "evidence": "or entering into any secured financing arrangement in respect of GWA securities"
+  },
+  {
+   "topic": "secured_financing",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "permitted",
+   "mechanism": "via_dealing_definition",
+   "floor": "",
+   "section": "4.4",
+   "detail": "For Company Personnel outside the Directors and Executives regime, secured financing over GWA securities is only a Dealing subject to the insider trading prohibition.",
+   "evidence": "creating a hedge, security interest, margin loan or other financial interest over or in relation to securities"
+  },
+  {
+   "topic": "short_term",
+   "tier": "Company Personnel",
+   "security_state": "any",
+   "venue": "any",
+   "answer": "prohibited",
+   "mechanism": "express",
+   "floor": "",
+   "section": "4.4",
+   "detail": "Outright ban on active short-term trading applying to all Company Personnel, independent of and in addition to the insider trading prohibition and the Window Period regime.",
+   "evidence": "As an additional prohibition, Company Personnel must not engage in any active short term trading in GWA's securities."
+  }
+ ],
+ "clearance": [
+  {
+   "tier": "Directors and Executives",
+   "type": "notification",
+   "approver": "Chair",
+   "form": "unspecified",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "",
+   "post_trade_deadline": "",
+   "section": "4.5.1",
+   "evidence": "Directors are required to notify the Chair of intended trading in GWA securities, by themselves or their associated parties, prior to such intended dealings."
+  },
+  {
+   "tier": "Directors and Executives",
+   "type": "approval",
+   "approver": "Chair (for directors other than the Chair)",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 business days of completion of the trade",
+   "section": "4.5.2",
+   "evidence": "A director of the Company must inform and secure written approval from the Chair prior to undertaking the trade ... confirmation of the approved trade must be given to the Company Secretary within 2 business days of the completion of the trade for directors"
+  },
+  {
+   "tier": "Chair",
+   "type": "approval",
+   "approver": "Deputy Chair",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 2 business days of completion of the trade",
+   "section": "4.5.2",
+   "evidence": "The Chair must inform and secure written approval from the Deputy Chair prior to undertaking the trade"
+  },
+  {
+   "tier": "Executive",
+   "type": "approval",
+   "approver": "Managing Director",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "implied",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "within 5 business days of completion of the trade",
+   "section": "4.5.2",
+   "evidence": "An executive must inform and secure written approval from the Managing Director prior to undertaking the trade ... 5 business days for executives"
+  },
+  {
+   "tier": "Directors and Executives",
+   "type": "approval",
+   "approver": "Chair (directors other than Chair) / Deputy Chair (Chair) / Managing Director (executives), each in sole discretion, notified to the Company Secretary",
+   "form": "written",
+   "validity_days": null,
+   "response_sla_days": null,
+   "revocable": "not_addressed",
+   "conditions_allowed": "not_addressed",
+   "refusal_confidential": "not_addressed",
+   "covers_derivatives": "not_addressed",
+   "post_trade_to": "Company Secretary",
+   "post_trade_deadline": "",
+   "section": "4.9",
+   "evidence": "Any prior written clearance to trade in exceptional circumstances must specify the duration of such clearance and must be in writing (which includes email)."
+  }
+ ],
+ "short_term": [
+  {
+   "tier": "Company Personnel",
+   "type": "undefined",
+   "months": null,
+   "basis": "",
+   "carve_outs": [],
+   "evidence": "As an additional prohibition, Company Personnel must not engage in any active short term trading in GWA's securities."
+  }
+ ],
+ "exceptions": [
+  {
+   "kind": "hardship",
+   "scope": "any_dealing",
+   "approver": "Chair / Deputy Chair / Managing Director, in sole discretion",
+   "evidence": "severe financial hardship or other circumstances considered to be exceptional"
+  },
+  {
+   "kind": "court_order",
+   "scope": "any_dealing",
+   "approver": "Chair / Deputy Chair / Managing Director, in sole discretion",
+   "evidence": "a court order or court enforceable undertakings in a bona fide family settlement to transfer GWA's securities or some other overriding legal or regulatory requirement to transfer GWA's securities"
+  },
+  {
+   "kind": "no_change_beneficial_interest",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "results in no change in beneficial interest in the securities"
+  },
+  {
+   "kind": "non_discretionary_plan",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "trading under a non-discretionary trading plan for which prior written clearance has been provided and where: (i) the director or executive did not enter into the plan or amend the plan during a designated period"
+  },
+  {
+   "kind": "secured_lender_sale",
+   "scope": "sale_only",
+   "approver": "",
+   "evidence": "a disposal of GWA's securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement"
+  },
+  {
+   "kind": "takeover",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "undertakings to accept, or the acceptance of, a takeover offer"
+  },
+  {
+   "kind": "dividend_plan",
+   "scope": "specific_dealing",
+   "approver": "",
+   "evidence": "trading under an offer or invitation made to all or most of GWA's security holders, such as a rights issue, a security purchase plan, a dividend or distribution reinvestment plan and an equal access buy-back"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "occurs when the director or executive has no control or influence with respect to trading decisions"
+  },
+  {
+   "kind": "other",
+   "scope": "any_dealing",
+   "approver": "",
+   "evidence": "where a director or executive is a trustee, trading in GWA's securities by that trust provided the director or executive is not a beneficiary of the trust and any decision to trade during a designated period is taken by the other trustees or by the investment managers independently"
+  }
+ ],
+ "financing": {
+  "secured_financing_scope": "any_secured_financing",
+  "unvested_as_collateral": "prohibited",
+  "transfer_into_margin_account_is_dealing": "yes",
+  "forced_sale_in_closed_period": "excluded_dealing",
+  "margin_call_sale_needs_clearance": "no",
+  "price_trigger_guidance": "",
+  "financing_disclosure": [
+   "Director; trigger: after any dealing in GWA securities generally (financing-type dealings are separately banned outright for directors/executives under 4.8); to: Company Secretary; deadline: within 2 business days of the dealing (5 business days for executives)."
+  ],
+  "transfer_to_custodian_is_dealing": "not_addressed",
+  "minimum_shareholding_requirement": ""
+ },
+ "external_documents": [],
+ "exemption_authority": "Chair / Deputy Chair / Managing Director, each in their sole discretion under the Exceptional Circumstances procedure (4.9), notified to the Company Secretary",
+ "jurisdiction_overlays": [],
+ "bespoke_clauses": [
+  {
+   "topic": "absolute margin loan / secured financing ban",
+   "clause": "All directors and executives are prohibited from obtaining a margin loan using GWA securities (either solely or as part of a portfolio) as security for the loan or entering into any secured financing arrangement in respect of GWA securities.",
+   "why_it_matters": "This forecloses the loan leg of a funded collar entirely for any director or executive, regardless of vesting status, with no clearance or exceptional-circumstances pathway referenced anywhere in section 4.8."
+  },
+  {
+   "topic": "no vesting carve-out for secured financing",
+   "clause": "Section 4.8 does not distinguish vested from unvested securities, unlike the hedging ban in 4.7 which is limited to unvested holdings.",
+   "why_it_matters": "Even fully vested, unrestricted GWA shares cannot be pledged as loan collateral by a director or executive, a materially stricter position than the hedging restriction alone."
+  },
+  {
+   "topic": "Appendix A secured-lender exemption inconsistency",
+   "clause": "a disposal of GWA's securities that is the result of a secured lender exercising their rights, for example, under a margin lending arrangement",
+   "why_it_matters": "This legacy carve-out sits awkwardly with the absolute 4.8 ban on ever entering such an arrangement; a bank should not treat it as confirmation that secured financing over GWA shares is achievable."
+  },
+  {
+   "topic": "director pre-notification duty",
+   "clause": "Directors are required to notify the Chair of intended trading in GWA securities, by themselves or their associated parties, prior to such intended dealings.",
+   "why_it_matters": "Even a permitted hedge dealt within the Window Period requires a director to separately notify the Chair beforehand, on top of any Closed Period written approval."
+  }
+ ],
+ "summary": "GWA's policy imposes an absolute, vesting-independent ban on directors and executives obtaining a margin loan or entering any secured financing arrangement using GWA securities as collateral (clause 4.8), with no consent or exceptional-circumstances pathway. Because a funded OTC equity collar necessarily requires granting the bank security over the collared shares, the loan leg of the structure cannot be implemented by a GWA director or executive while they hold that role, even over fully vested, unrestricted shares. The hedge (put/call) component alone would be permitted once shares are vested, but only within a 30-day post-results/AGM Window Period (or a narrow Exceptional Circumstances approval), with prior written approval from the Chair, Deputy Chair or Managing Director as applicable, and never while in possession of Inside Information. Appendix A separately excludes a secured lender's enforcement sale from the policy, but this sits awkwardly with the blanket ban on entering such financing at all, so it should not be read as confirming the financing leg is available. Overall, the hedge could in principle be executed post-vesting with approval, but the bank-secured loan cannot, so a genuinely funded collar is not available to GWA directors or executives under this policy."
+}
