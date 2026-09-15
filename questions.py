@@ -25,8 +25,8 @@ MECHANISMS = {
     "none": "not mentioned and not caught",
 }
 ANSWERS = {
-    "explicitly_permitted": "the policy says the activity is allowed, with no approval or notice step",
-    "not_mentioned_implicitly_permitted": "the policy does not mention the activity and no definition of dealing or securities sweeps it in",
+    "explicitly_permitted": "a clause allows the activity by name, with no approval or notice step; the mechanism must be express",
+    "not_mentioned_implicitly_permitted": "no clause addresses the activity for this tier and no definition of dealing or securities sweeps it in, so the only constraint is the law; the mechanism must be none",
     "never_permitted": "prohibited outright, whether by name or because a definition catches it and the catch-all rule is a ban",
     "permitted_with_notification": "allowed if the employee tells the company, before or after",
     "permitted_with_pre_approval": "allowed only with clearance or written consent first, including where a general clearance regime catches it through the definition of dealing",
@@ -47,7 +47,7 @@ The mechanism, recorded with every answer:
 
 Then say whether the rules reach the employee's associates: spouse, family trust, controlled company or nominee, which is where a hedge or loan is usually written.
 
-Rules of reading. Read the definitions first: an activity the policy never names can still be caught if dealing covers derivatives, agreements to deal, granting security or lending stock, or if securities includes derivatives; then the answer is whatever the policy says about dealing, the mechanism is via_definition, and the definition goes in definition. A hedging ban worded as limiting economic risk catches both cash and physically settled hedges. A physically settled hedge ends in a disposal of the shares, so a rule that governs only dealing or disposal catches the physical hedge but not the cash-settled one. A margin lending ban does not by itself ban other secured borrowing, and a rule about loans secured on the shares says nothing about a loan secured on a derivative unless it speaks of financing in respect of securities generally. A lender's forced sale is never_permitted when the policy makes it a breach by the employee, permitted_with_pre_approval when it needs clearance, and explicitly_permitted when the policy excludes it from dealing. A holding floor such as a minimum shareholding requirement is permitted_with_pre_approval with the floor stated in reasoning. Closed periods and windows do not change an answer; they govern timing. Do not infer from what a well-drafted policy would say. Quote clause verbatim from the text, one to three sentences, and leave it empty only when the activity is not mentioned and nothing catches it. Return exactly one finding per question, in the order above, for each tier."""
+Rules of reading. Read the definitions first: an activity the policy never names can still be caught if dealing covers derivatives, agreements to deal, granting security or lending stock, or if securities includes derivatives; then the answer is whatever the policy says about dealing, the mechanism is via_definition, and the definition goes in definition. A hedging ban worded as limiting economic risk catches both cash and physically settled hedges. A physically settled hedge ends in a disposal of the shares, so a rule that governs only dealing or disposal catches the physical hedge but not the cash-settled one. A margin lending ban does not by itself ban other secured borrowing, and a rule about loans secured on the shares says nothing about a loan secured on a derivative unless it speaks of financing in respect of securities generally. A lender's forced sale is never_permitted when the policy makes it a breach by the employee, permitted_with_pre_approval when it needs clearance, and explicitly_permitted when the policy excludes it from dealing. A holding floor such as a minimum shareholding requirement is permitted_with_pre_approval with the floor stated in reasoning. Closed periods and windows do not change an answer; they govern timing. Do not infer from what a well-drafted policy would say, and never turn silence into explicit permission: when a tier is bound only by the insider trading prohibition and nothing addresses the activity, the answer is not_mentioned_implicitly_permitted with mechanism none. Quote clause verbatim from the text, one to three sentences. For a not_mentioned answer, quote the clause that shows what does bind the tier, such as the general prohibition or the scope paragraph, so a reader can see the silence; leave clause empty only when nothing at all applies. Return exactly one finding per question, in the order above, for each tier."""
 
 
 def run(rows):
@@ -80,6 +80,10 @@ def load(rows):
             for t in q.tiers:
                 if [x.question for x in t.findings] != list(QUESTIONS):
                     raise ValueError(f"{t.tier_kind}: findings must be one per question in order")
+                for x in t.findings:
+                    want = {"explicitly_permitted": {"express"}, "not_mentioned_implicitly_permitted": {"none"}}.get(x.answer, {"express", "via_definition"})
+                    if x.answer != "unclear" and x.mechanism not in want:
+                        raise ValueError(f"{t.tier_kind}.{x.question}: answer {x.answer} needs mechanism {' or '.join(sorted(want))}, not {x.mechanism}")
             text = " ".join((DATA / "text" / f"{r['symbol']}.txt").read_text().split())
             quotes = [(f"{t.tier_kind}.{x.question}", x.clause) for t in q.tiers for x in t.findings] + [("associates", q.associates.clause)]
             missing = [k for k, c in quotes if c and " ".join(c.split()) not in text]
