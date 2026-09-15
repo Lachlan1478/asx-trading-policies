@@ -51,7 +51,7 @@ def export(row, q, pages_dir):
             qid = f["question"]
             base = {"section": section, "row": n, "row_label": LABELS[qid]}
             fields.append({"id": f"{kind}.{qid}.answer", "label": "Answer", "value": f["answer"], "type": "enum", "options": list(ANSWERS), **base})
-            fields.append({"id": f"{kind}.{qid}.mechanism", "label": "How", "value": f["mechanism"], "type": "enum", "options": list(MECHANISMS), **base})
+            fields.append({"id": f"{kind}.{qid}.mechanism", "label": "Mechanism", "value": f["mechanism"], "type": "enum", "options": list(MECHANISMS), **base})
             for col in ("clause", "definition"):
                 fld = {"id": f"{kind}.{qid}.{col}", "label": col.capitalize(), "value": f[col] or None, "type": "quote", **base}
                 if f[col]:
@@ -98,7 +98,7 @@ def main():
     docs.sort(key=lambda d: -float(rows[d["doc_id"]]["market_cap"] or 0))
     (TASK / "manifest.jsonl").write_text("".join(json.dumps(d) + "\n" for d in docs))
     (TASK / "task.json").write_text(json.dumps({"name": "asx-trading-policies", "title": "ASX trading policies: what an employee may do",
-        "description": "Seven permission questions answered from each company's securities trading policy, for vested shares, once for the general employee tier and once for the senior tier, plus whether the rules reach associates. Each answer is a reading of the clause shown beneath it, so judge whether the clause supports the answer."}, indent=1))
+        "description": "Seven permission questions answered from each company's securities trading policy, for vested shares, once for the general employee tier and once for the senior tier, plus whether the rules reach associates. Each answer is a reading of the clause shown beneath it, so judge whether the clause supports the answer. Mechanism says how the policy reaches the activity: express when a clause names it, via definition when only a definition of dealing or securities sweeps it in, none when nothing addresses it."}, indent=1))
     print(f"{len(docs)} documents")
 
 
