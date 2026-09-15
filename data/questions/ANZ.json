@@ -3,14 +3,14 @@
  "company": "ANZ Group Holdings Limited",
  "associates": {
   "answer": "covered",
-  "clause": "It is the responsibility of the ANZ Restricted Person to make their Associate(s) aware of and adhere to the obligations of this Policy.",
+  "clause": "ANZ Restricted Persons must treat their Associates’ transactions for the purpose of this Policy and applicable laws as if the transactions were their own.",
   "section": "3.1.1",
-  "reasoning": "Associates — a spouse or partner, dependent child, other influenced person, and any controlled or influenced company, SMSF, partnership or trust — are bound alongside ANZ Restricted Persons throughout section 3, including Pre-trade Approval, Blackout Periods and Prohibited Activities, and their transactions are treated as the Restricted Person's own."
+  "reasoning": "Associate is defined broadly to include a spouse or partner, dependants, and any entity such as an SMSF, partnership or trust the Restricted Person or their Associate controls or influences, and the Restricted Person's obligations expressly extend to their Associates' dealings."
  },
  "tiers": [
   {
    "tier_kind": "general",
-   "tier_name": "Employees and contingent workers who are not ANZ Restricted Persons",
+   "tier_name": "Employees, contingent workers and ANZ Directors",
    "findings": [
     {
      "question": "cash_hedge",
@@ -19,7 +19,7 @@
      "clause": "ANZ employees, contingent workers and ANZ Directors who have Inside Information must not Trade in ANZ Securities, advise or procure another person to Trade in ANZ Securities, or communicate Inside Information to others who may deal in ANZ Securities.",
      "definition": "",
      "section": "3.1",
-     "reasoning": "The Prohibited Activities in section 3.5, including the hedging and margin loan restrictions, and the Pre-trade Approval process in section 3.4, bind only ANZ Restricted Persons and their Associates; an employee or contingent worker who is not an ANZ Restricted Person is bound only by the general insider trading prohibition."
+     "reasoning": "Pre-trade Approval, Blackout Periods and the prohibited-activities rules in section 3.5 bind only ANZ Restricted Persons and their Associates; the general population is bound only by the insider trading prohibition, which is conditional on holding Inside Information, so a cash-settled hedge is otherwise unaddressed."
     },
     {
      "question": "physical_hedge",
@@ -28,7 +28,7 @@
      "clause": "ANZ employees, contingent workers and ANZ Directors who have Inside Information must not Trade in ANZ Securities, advise or procure another person to Trade in ANZ Securities, or communicate Inside Information to others who may deal in ANZ Securities.",
      "definition": "",
      "section": "3.1",
-     "reasoning": "The hedging restriction in section 3.5 binds only ANZ Restricted Persons and their Associates and draws no distinction by settlement method; an employee outside that tier is unaddressed and bound only by the general insider trading prohibition."
+     "reasoning": "The same absence of any clearance or hedging rule for the general population applies regardless of settlement method, so a physically settled hedge is unaddressed outside the insider trading prohibition."
     },
     {
      "question": "encumber",
@@ -37,7 +37,7 @@
      "clause": "ANZ employees, contingent workers and ANZ Directors who have Inside Information must not Trade in ANZ Securities, advise or procure another person to Trade in ANZ Securities, or communicate Inside Information to others who may deal in ANZ Securities.",
      "definition": "",
      "section": "3.1",
-     "reasoning": "The ban on using ANZ Securities in connection with a margin loan or similar financing arrangement applies only to ANZ Restricted Persons and their Associates, not to this tier."
+     "reasoning": "The margin loan and secured-financing prohibition in section 3.5 binds only ANZ Restricted Persons and their Associates, so pledging vested shares is unaddressed for the wider employee population."
     },
     {
      "question": "borrow_against_stock",
@@ -46,7 +46,7 @@
      "clause": "ANZ employees, contingent workers and ANZ Directors who have Inside Information must not Trade in ANZ Securities, advise or procure another person to Trade in ANZ Securities, or communicate Inside Information to others who may deal in ANZ Securities.",
      "definition": "",
      "section": "3.1",
-     "reasoning": "The margin loan and secured financing ban in the Prohibited Activities section applies only to ANZ Restricted Persons and their Associates, not to this tier."
+     "reasoning": "The margin loan ban in section 3.5 is expressly confined to ANZ Restricted Persons and their Associates, leaving margin borrowing against vested shares unaddressed for the general population."
     },
     {
      "question": "borrow_against_derivative",
@@ -55,7 +55,7 @@
      "clause": "ANZ employees, contingent workers and ANZ Directors who have Inside Information must not Trade in ANZ Securities, advise or procure another person to Trade in ANZ Securities, or communicate Inside Information to others who may deal in ANZ Securities.",
      "definition": "",
      "section": "3.1",
-     "reasoning": "No clause anywhere addresses financing secured against a derivative over the shares, for any tier."
+     "reasoning": "No provision addresses financing secured on a derivative rather than the shares, and in any event the general population sits outside the ANZ Restricted Person regime altogether."
     },
     {
      "question": "stock_loan",
@@ -64,7 +64,7 @@
      "clause": "ANZ employees, contingent workers and ANZ Directors who have Inside Information must not Trade in ANZ Securities, advise or procure another person to Trade in ANZ Securities, or communicate Inside Information to others who may deal in ANZ Securities.",
      "definition": "",
      "section": "3.1",
-     "reasoning": "Stock lending is not addressed anywhere in the Policy, for any tier."
+     "reasoning": "Trading in ANZ Securities, defined to include any change of title, is only regulated for ANZ Restricted Persons and their Associates, so lending vested shares is unaddressed for the general population."
     },
     {
      "question": "lender_enforcement",
@@ -73,76 +73,76 @@
      "clause": "ANZ employees, contingent workers and ANZ Directors who have Inside Information must not Trade in ANZ Securities, advise or procure another person to Trade in ANZ Securities, or communicate Inside Information to others who may deal in ANZ Securities.",
      "definition": "",
      "section": "3.1",
-     "reasoning": "No clause addresses a lender's forced sale, and the Prohibited Activities that touch financing bind only ANZ Restricted Persons, not this tier."
+     "reasoning": "The exceptional-circumstances exception process in section 3.8 is only available to, and therefore only regulates, ANZ Restricted Persons, so a lender's enforcement sale is unaddressed for the general population."
     }
    ]
   },
   {
    "tier_kind": "senior",
-   "tier_name": "ANZ Restricted Persons",
+   "tier_name": "ANZ Restricted Persons (including ANZ Directors, ExCo Members and Key Management Personnel)",
    "findings": [
     {
      "question": "cash_hedge",
      "answer": "permitted_with_pre_approval",
      "mechanism": "via_definition",
-     "clause": "ANZ Restricted Persons and their Associates must obtain Pre-trade Approval via the Personal Account Dealing Platform prior to Trading in ANZ Securities.",
+     "clause": "must obtain Pre-trade Approval prior to Trading in ANZ Securities",
      "definition": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right.",
-     "section": "3.4, 6",
-     "reasoning": "A cash-settled collar or put over ANZ shares is itself an ANZ Security under the derivative limb of that definition, so entering it is Trading in ANZ Securities requiring Pre-trade Approval; the express hedging ban in section 3.5 reaches only unvested holdings or holdings under a holding lock or clawback, not fully vested shares."
+     "section": "3.1.1",
+     "reasoning": "The hedging ban in section 3.5 is confined to unvested holdings or vested holdings still subject to a holding lock or clawback, so it does not reach a fully vested, unrestricted holding; but ANZ Security is defined to include an option, derivative, future or warrant relating to ANZ shares, so entering a cash-settled collar or put is itself Trading in an ANZ Security requiring Pre-trade Approval."
     },
     {
      "question": "physical_hedge",
      "answer": "permitted_with_pre_approval",
      "mechanism": "via_definition",
-     "clause": "ANZ Restricted Persons and their Associates must obtain Pre-trade Approval via the Personal Account Dealing Platform prior to Trading in ANZ Securities.",
+     "clause": "must obtain Pre-trade Approval prior to Trading in ANZ Securities",
      "definition": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right.",
-     "section": "3.4, 6",
-     "reasoning": "A physically settled collar or put is equally an ANZ Security under the derivative limb of the definition, and it also ends in a disposal of ANZ Securities, an expressly listed Trading activity, so Pre-trade Approval is required; the section 3.5 hedging ban does not reach fully vested, unrestricted shares."
+     "section": "3.1.1",
+     "reasoning": "The same unvested/locked-only hedging ban leaves a fully vested holding outside section 3.5; a physically settled collar or put is both Trading in the ANZ Security that is the derivative itself and, on exercise, a disposal of ANZ shares, so Pre-trade Approval is required."
     },
     {
      "question": "encumber",
      "answer": "never_permitted",
      "mechanism": "express",
-     "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio;",
+     "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio",
      "definition": "",
      "section": "3.5",
-     "reasoning": "Granting security over vested shares to obtain financing is using ANZ Securities in connection with a margin loan or similar financing arrangement, which is expressly prohibited for ANZ Restricted Persons and their Associates."
+     "reasoning": "The prohibition reaches a margin loan or similar financing arrangement subject to a margin call or loan-to-value ratio, which covers pledging vested shares as collateral for financing of that kind, and it is an outright ban rather than a clearance requirement."
     },
     {
      "question": "borrow_against_stock",
      "answer": "never_permitted",
      "mechanism": "express",
-     "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio;",
+     "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio",
      "definition": "",
      "section": "3.5",
-     "reasoning": "This bullet expressly bans using ANZ Securities in connection with a margin loan or similar secured financing arrangement, covering any borrowing secured against the vested shares."
+     "reasoning": "ANZ Restricted Persons and their Associates are expressly banned from using ANZ Securities in connection with a margin loan or similar financing arrangement subject to a margin call or loan-to-value ratio, which is precisely a margin loan secured on vested shares."
     },
     {
      "question": "borrow_against_derivative",
-     "answer": "not_mentioned_implicitly_permitted",
-     "mechanism": "none",
-     "clause": "must obtain Pre-trade Approval prior to Trading in ANZ Securities;",
-     "definition": "",
-     "section": "3.1.1",
-     "reasoning": "The margin loan ban is confined to financing that uses ANZ Securities themselves in connection with the loan; it does not address financing secured against a derivative over the shares instead, and no other clause covers it."
+     "answer": "unclear",
+     "mechanism": "via_definition",
+     "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio",
+     "definition": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right.",
+     "section": "3.5",
+     "reasoning": "ANZ Security is defined broadly enough to include a derivative relating to ANZ shares, so it is unclear whether the ban on using ANZ Securities in connection with a margin loan or similar financing arrangement extends to a loan secured on a collar or put rather than on the shares themselves, or whether it is confined to the shares as collateral."
     },
     {
      "question": "stock_loan",
-     "answer": "not_mentioned_implicitly_permitted",
-     "mechanism": "none",
-     "clause": "must obtain Pre-trade Approval prior to Trading in ANZ Securities;",
-     "definition": "",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "via_definition",
+     "clause": "must obtain Pre-trade Approval prior to Trading in ANZ Securities",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights",
      "section": "3.1.1",
-     "reasoning": "Neither the Prohibited Activities list nor the definition of Trading mentions lending securities under a title-transfer arrangement, so it is unaddressed even for ANZ Restricted Persons."
+     "reasoning": "Stock lending is not named, but Trading is defined to include any transaction or change affecting title to or interest in ANZ Securities, which a title-transfer securities loan is, so an ANZ Restricted Person must obtain Pre-trade Approval before lending vested shares; this is distinct from the express ban on short sales, which addresses borrowing shares to sell short."
     },
     {
      "question": "lender_enforcement",
-     "answer": "not_mentioned_implicitly_permitted",
-     "mechanism": "none",
-     "clause": "must not Trade in ANZ Securities during a Blackout Period;",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "Exceptions to this Policy will only be granted in exceptional circumstances. For example, where the ANZ Restricted Person is experiencing severe financial hardship or has an unanticipated significant financial commitment.",
      "definition": "",
-     "section": "3.1.1",
-     "reasoning": "ANZ Restricted Persons are themselves barred from using shares in connection with margin lending, so no clause contemplates a lender's forced sale of vested shares, and none addresses what happens if a security interest were nonetheless enforced during a Blackout Period."
+     "section": "3.8",
+     "reasoning": "Because Restricted Persons are otherwise banned from margin loans and similar secured financing, the only route for a lender's forced sale is the exceptional-circumstances exception process, requiring Line Manager and ANZ Control Room approval, for example where severe financial hardship makes sale unavoidable."
     }
    ]
   }
