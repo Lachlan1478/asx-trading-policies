@@ -1,0 +1,150 @@
+{
+ "symbol": "ANZ",
+ "company": "ANZ Group Holdings Limited",
+ "associates": {
+  "answer": "covered",
+  "clause": "ANZ Restricted Persons must treat their Associates’ transactions for the purpose of this Policy and applicable laws as if the transactions were their own.",
+  "section": "3.1.1",
+  "reasoning": "Associates of ANZ Restricted Persons (spouse/partner, dependent children, persons whose investment decisions the Restricted Person can influence, and controlled entities or trusts) are subject to the same Pre-trade Approval, blackout and prohibited-activity rules as the Restricted Person; general employees' Associates are not separately addressed."
+ },
+ "tiers": [
+  {
+   "tier_kind": "general",
+   "tier_name": "Employees, Contingent Workers and ANZ Directors who are not ANZ Restricted Persons",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities.",
+     "definition": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right.",
+     "section": "2. ANZ's approach; Definitions – ANZ Security",
+     "reasoning": "A cash-settled hedge is an ANZ Security because it is a derivative relating to ANZ shares, and so is caught by the definition of Trading, but the Pre-trade Approval, Blackout Period and prohibited-activity rules are additional requirements that apply only to ANZ Restricted Persons and their Associates, leaving other employees free to trade it without approval or notice."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "2. ANZ's approach; Definitions – Trade/ Trading",
+     "reasoning": "A physically settled hedge ends in a disposal of the shares, caught by the Trade definition's reference to selling ANZ Securities, but the additional Pre-trade Approval and Blackout Period requirements apply only to ANZ Restricted Persons and their Associates, so other employees need no approval or notice."
+    },
+    {
+     "question": "encumber",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "2. ANZ's approach; Definitions – Trade/ Trading",
+     "reasoning": "Granting a security interest changes the 'interest in' the shares, caught by the Trade definition, but the Pre-trade Approval requirement that would otherwise apply to such Trading is an additional requirement confined to ANZ Restricted Persons and their Associates."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "2. ANZ's approach; Definitions – Trade/ Trading",
+     "reasoning": "The outright margin loan ban and the Pre-trade Approval regime are both additional requirements limited to ANZ Restricted Persons and their Associates, so a margin loan secured on vested shares by any other employee is not restricted, even though pledging the shares would otherwise be caught as a change of interest under the Trade definition."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities.",
+     "definition": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right.",
+     "section": "2. ANZ's approach; Definitions – ANZ Security",
+     "reasoning": "The margin loan ban, which reaches derivatives only because they are themselves ANZ Securities, is an additional requirement limited to ANZ Restricted Persons and their Associates, so it does not restrict other employees."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "2. ANZ's approach; Definitions – Trade/ Trading",
+     "reasoning": "A title-transfer securities loan changes title to the shares, caught by the Trade definition, but Pre-trade Approval is an additional requirement confined to ANZ Restricted Persons and their Associates, so other employees may lend vested shares without approval or notice."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "Additional requirements apply to ANZ Restricted Persons and their Associates to manage risk arising from the Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "2. ANZ's approach; Definitions – Trade/ Trading",
+     "reasoning": "A forced sale changes title to the shares and so is Trading, but the Blackout Period ban that would otherwise make such Trading a breach is an additional requirement limited to ANZ Restricted Persons and their Associates, so it does not restrict other employees."
+    }
+   ]
+  },
+  {
+   "tier_kind": "senior",
+   "tier_name": "ANZ Restricted Persons",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "via_definition",
+     "clause": "ANZ Restricted Persons and their Associates must obtain Pre-trade Approval via the Personal Account Dealing Platform prior to Trading in ANZ Securities.",
+     "definition": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right.",
+     "section": "3.4; Definitions – ANZ Security",
+     "reasoning": "Section 3.5's hedging ban only covers an unvested holding or a holding under a holding lock or clawback period, so it does not reach vested shares; because a cash-settled hedge is itself a derivative relating to ANZ Securities and so an ANZ Security, entering one is Trading in ANZ Securities and requires Pre-trade Approval."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "ANZ Restricted Persons and their Associates must obtain Pre-trade Approval via the Personal Account Dealing Platform prior to Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "3.4; Definitions – Trade/ Trading",
+     "reasoning": "A physically settled hedge ends in a disposal of the shares, which is expressly 'selling' ANZ Securities under the Trade definition, and section 3.4 requires Pre-trade Approval before any Trading in ANZ Securities by Restricted Persons."
+    },
+    {
+     "question": "encumber",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "via_definition",
+     "clause": "ANZ Restricted Persons and their Associates must obtain Pre-trade Approval via the Personal Account Dealing Platform prior to Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "3.4; Definitions – Trade/ Trading",
+     "reasoning": "Granting a pledge, mortgage or security interest changes the 'interest in' the shares, which the Trade definition catches, so encumbering vested shares is Trading in ANZ Securities requiring Pre-trade Approval under 3.4."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio;",
+     "definition": "",
+     "section": "3.5 Prohibited Activities",
+     "reasoning": "Section 3.5 expressly bans ANZ Restricted Persons and their Associates from using ANZ Securities in connection with a margin loan or similar financing arrangement subject to a margin call or loan-to-value ratio, with no carve-out for vested shares."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "never_permitted",
+     "mechanism": "via_definition",
+     "clause": "not use ANZ Securities in connection with a margin loan or similar financing arrangements that may be subject to a margin call or loan to value ratio;",
+     "definition": "an option, derivative, future or warrant relating to any security or financial product referred to above and, where the context requires, includes an ANZ Right.",
+     "section": "3.5 Prohibited Activities; Definitions – ANZ Security",
+     "reasoning": "Because ANZ Security is defined to include an option, derivative, future or warrant relating to ANZ shares, the margin-loan ban's reference to using ANZ Securities in connection with a margin loan or similar financing arrangement extends to a loan secured on a derivative such as a collar or put."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "via_definition",
+     "clause": "ANZ Restricted Persons and their Associates must obtain Pre-trade Approval via the Personal Account Dealing Platform prior to Trading in ANZ Securities.",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "3.4; Definitions – Trade/ Trading",
+     "reasoning": "A title-transfer securities loan changes title to the shares, which falls within the Trade definition's 'change affecting title to or interest in ANZ Securities', so lending vested shares requires Pre-trade Approval."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "never_permitted",
+     "mechanism": "via_definition",
+     "clause": "must not Trade in ANZ Securities during a Blackout Period;",
+     "definition": "any transaction or change affecting title to or interest in ANZ Securities or ANZ Rights, including: − buying, selling or applying for ANZ Securities or instructing a third party or Associate to do so,",
+     "section": "3.1.1 Additional Obligations; Definitions – Trade/ Trading",
+     "reasoning": "A lender's forced sale changes title to the shares and so is Trading in ANZ Securities; ANZ Restricted Persons and their Associates must not Trade in ANZ Securities during a Blackout Period, so an enforcement sale in a closed period would breach the Policy even though it is not separately named."
+    }
+   ]
+  }
+ ]
+}

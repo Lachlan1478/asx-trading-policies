@@ -1,0 +1,150 @@
+{
+ "symbol": "WBC",
+ "company": "Westpac Banking Corporation",
+ "associates": {
+  "answer": "covered",
+  "clause": "This Policy also applies to your “associates” or “employee related accounts”.  For the purpose of this Policy, your “associates” include:",
+  "section": "2.1",
+  "reasoning": "The Policy expressly extends to the employee's associates, defined to include spouse, dependent children, trustees, controlled companies and entities where the employee is an officer, and Section 4 repeatedly binds Directors and Prescribed Employees \"or their associates\" for trading, blackout and approval rules."
+ },
+ "tiers": [
+  {
+   "tier_kind": "general",
+   "tier_name": "Employees (non-Prescribed)",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "express",
+     "clause": "You must not enter into any options, derivatives or other arrangements which operate to limit the economic risk of an unvested holding in Westpac securities or other unvested entitlements under employee share plans. This prohibition does not apply to vested holdings in Westpac securities, although approval or notification and other arrangements apply to Directors and Prescribed Employees dealing in vested securities (refer to Section 4 below).",
+     "definition": "",
+     "section": "3.4",
+     "reasoning": "The ban on hedging arrangements applies only to unvested holdings, and the clause says this does not apply to vested holdings, with approval or notification arrangements applying only to Directors and Prescribed Employees, a group ordinary employees fall outside of."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "express",
+     "clause": "You must not enter into any options, derivatives or other arrangements which operate to limit the economic risk of an unvested holding in Westpac securities or other unvested entitlements under employee share plans. This prohibition does not apply to vested holdings in Westpac securities, although approval or notification and other arrangements apply to Directors and Prescribed Employees dealing in vested securities (refer to Section 4 below).",
+     "definition": "",
+     "section": "3.4",
+     "reasoning": "The same carve-out for vested holdings covers arrangements settled by delivery of shares as it covers any options, derivatives or other risk-limiting arrangement, and the approval/notification overlay is limited to Directors and Prescribed Employees."
+    },
+    {
+     "question": "encumber",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Pledging or granting security over shares is not addressed for ordinary employees; only Section 4, which applies solely to Directors and Prescribed Employees, deals with margin loans."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Margin loan rules in Section 4.8 apply expressly only to Westpac Directors and Prescribed Employees; Section 4 as a whole applies only to that group, so ordinary employees' borrowing against vested shares is unaddressed."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "The Policy only discusses margin loans secured against Westpac securities themselves; it says nothing about loans secured against a derivative over the shares."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "There is no reference to lending securities, and the definition of securities/trading does not extend to a title-transfer stock loan."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Blackout Periods under Section 4.3 and the forced-sale rule in Section 4.8 apply only to Westpac Directors and Prescribed Employees and their associates, not to ordinary employees, who are not otherwise restricted from trading outside insider-trading periods."
+    }
+   ]
+  },
+  {
+   "tier_kind": "senior",
+   "tier_name": "Key Prescribed Employees",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "Key Prescribed Employees must follow the pre-clearance requirements as set out in the Key Prescribed Employees Trading Process. Since Key Prescribed Employees must seek pre-clearance for trading in Westpac securities, they are not required to complete the online notification form as required for Prescribed Employees in section 4.4 of this Policy.",
+     "definition": "",
+     "section": "4.4, 4.5",
+     "reasoning": "Section 4.4 names \"entering into a hedging arrangement over vested Westpac securities\" as an act requiring notification; Section 4.5 replaces that notification with a pre-clearance requirement for Key Prescribed Employees, so a cash-settled hedge needs pre-clearance."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "Key Prescribed Employees must follow the pre-clearance requirements as set out in the Key Prescribed Employees Trading Process. Since Key Prescribed Employees must seek pre-clearance for trading in Westpac securities, they are not required to complete the online notification form as required for Prescribed Employees in section 4.4 of this Policy.",
+     "definition": "",
+     "section": "4.4, 4.5",
+     "reasoning": "The same \"hedging arrangement over vested Westpac securities\" language in Section 4.4 covers a physically settled collar or put, and Section 4.5 subjects Key Prescribed Employees to pre-clearance rather than mere notification for it."
+    },
+    {
+     "question": "encumber",
+     "answer": "permitted_with_notification",
+     "mechanism": "via_definition",
+     "clause": "In addition, Key Prescribed Employees are required to provide disclosure to the Group Control Room of any margin lending arrangements they may have in respect to Westpac securities.",
+     "definition": "",
+     "section": "4.8",
+     "reasoning": "Encumbering vested shares is not named as its own activity, but it is the necessary effect of the margin loans Section 4.8 permits, and Key Prescribed Employees must additionally disclose any such margin lending arrangement."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "permitted_with_notification",
+     "mechanism": "express",
+     "clause": "Westpac Directors and Prescribed Employees are permitted to take out margin loans over their holdings in Westpac securities, however margin calls are not to be met by the sale of Westpac securities at a time when they would not be permitted to trade Westpac securities under this Policy.",
+     "definition": "",
+     "section": "4.8",
+     "reasoning": "Margin loans over vested holdings are expressly permitted, and Key Prescribed Employees must additionally disclose any margin lending arrangements to the Group Control Room, making the permission conditional on notification."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Section 4.8 addresses only margin loans secured over Westpac securities themselves; a loan secured against a derivative over the shares is not addressed."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "The Policy has no provision on lending securities under a title-transfer arrangement, for Key Prescribed Employees or otherwise."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "Westpac securities cannot be sold to meet a margin call during a Blackout Period or if you are in receipt of inside information relating to Westpac. If your margin lender sells any of your Westpac securities during a Blackout Period, whether on your instructions to do so or not, it will be considered a breach of this Policy.",
+     "definition": "",
+     "section": "4.8",
+     "reasoning": "The Policy makes a lender's forced sale during a Blackout Period a breach by the employee regardless of whether the employee instructed it, so enforcement in a closed period is never permitted."
+    }
+   ]
+  }
+ ]
+}

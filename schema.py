@@ -127,3 +127,40 @@ class Policy(Strict):
     jurisdiction_overlays: list[str] = Field(description="e.g. UK MAR, NZX, US rules.")
     bespoke_clauses: list[BespokeClause] = Field(description="Anything collar-relevant that the structured fields cannot hold.")
     summary: str = Field(description="Three to five sentences: can a director or executive enter a funded collar with a bank, and on what conditions.")
+
+
+QuestionId = Literal["cash_hedge", "physical_hedge", "encumber", "borrow_against_stock", "borrow_against_derivative", "stock_loan",
+                     "lender_enforcement"]
+Permission = Literal["explicitly_permitted", "not_mentioned_implicitly_permitted", "never_permitted", "permitted_with_notification",
+                     "permitted_with_pre_approval", "unclear"]
+Mechanism = Literal["express", "via_definition", "none"]
+
+
+class Finding(Strict):
+    question: QuestionId
+    answer: Permission
+    mechanism: Mechanism = Field(description="'express' when the policy names the activity; 'via_definition' when it is caught only because a definition of dealing, securities or hedging sweeps it in; 'none' when not mentioned.")
+    clause: str = Field(description="Verbatim clause the answer rests on, one to three sentences. Empty only when the policy does not mention the activity.")
+    definition: str = Field(description="Verbatim definition (of dealing, securities, hedging) the answer also relies on, else empty.")
+    section: str = Field(description="Section or paragraph reference of the clause, else empty.")
+    reasoning: str = Field(description="One or two sentences on how the clause gives the answer.")
+
+
+class TierAnswers(Strict):
+    tier_kind: Literal["general", "senior"]
+    tier_name: str = Field(description="The policy's own name for the tier.")
+    findings: list[Finding] = Field(description="Exactly one per question, in the order the questions are listed.")
+
+
+class Reach(Strict):
+    answer: Literal["covered", "not_covered", "unclear"]
+    clause: str = Field(description="Verbatim clause, else empty.")
+    section: str
+    reasoning: str
+
+
+class Questions(Strict):
+    symbol: str
+    company: str
+    associates: Reach = Field(description="Whether the rules reach the employee's associates: spouse, family trust, controlled company, nominee.")
+    tiers: list[TierAnswers] = Field(description="Two entries: the general tier, then the senior tier.")

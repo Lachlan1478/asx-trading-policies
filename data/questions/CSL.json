@@ -1,0 +1,150 @@
+{
+ "symbol": "CSL",
+ "company": "CSL Limited",
+ "associates": {
+  "answer": "covered",
+  "clause": "Personnel who have entitlements to CSL Securities under a CSL Equity Plan must not (and must \nseek to ensure their Related Parties do not) hedge against those entitlements prior to the vesting of those \nentitlements or while they are subject to a holding lock.",
+  "section": "2.5",
+  "reasoning": "The Policy repeatedly extends its dealing rules to Personnel's Related Parties (undefined in the extracted text but used throughout, including the approval and hedging provisions), so the rules reach associates even though no standalone definition of Related Party appears in this document."
+ },
+ "tiers": [
+  {
+   "tier_kind": "general",
+   "tier_name": "Personnel",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "express",
+     "clause": "Personnel (other than a director, member of the Global Leadership Group or their Related Parties) may  \nhedge against vested CSL Securities that are not subject to a holding lock if the hedge is both initiated in, \nand arranged so that the specified exercise date falls within, an Open Period and when not in possession  \nof inside information.",
+     "definition": "",
+     "section": "2.5",
+     "reasoning": "Personnel outside the director/Global Leadership Group tier may hedge vested, unlocked CSL Securities without needing prior approval, provided the hedge is initiated and set to exercise within an Open Period while not in possession of inside information."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "express",
+     "clause": "Personnel (other than a director, member of the Global Leadership Group or their Related Parties) may  \nhedge against vested CSL Securities that are not subject to a holding lock if the hedge is both initiated in, \nand arranged so that the specified exercise date falls within, an Open Period and when not in possession  \nof inside information.",
+     "definition": "",
+     "section": "2.5",
+     "reasoning": "The hedging entitlement is settlement-method neutral, so a physically settled hedge is permitted on the same Open Period and no-inside-information conditions, without needing prior approval."
+    },
+    {
+     "question": "encumber",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "No clause addresses pledging or otherwise encumbering CSL Securities independent of borrowing; only margin lending and secured financing arrangements are addressed."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "Personnel must not obtain margin loans using CSL Securities (either solely or as part of a portfolio) as security \nfor the loans, or enter into any other secured financing arrangements in respect of CSL Securities.",
+     "definition": "",
+     "section": "2.6",
+     "reasoning": "The Policy expressly bans Personnel from obtaining margin loans or any other secured financing arrangement using CSL Securities as security."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "never_permitted",
+     "mechanism": "via_definition",
+     "clause": "Personnel must not obtain margin loans using CSL Securities (either solely or as part of a portfolio) as security \nfor the loans, or enter into any other secured financing arrangements in respect of CSL Securities.",
+     "definition": "Personnel must not obtain margin loans using CSL Securities (either solely or as part of a portfolio) as security \nfor the loans, or enter into any other secured financing arrangements in respect of CSL Securities.",
+     "section": "2.6",
+     "reasoning": "The ban reaches 'any other secured financing arrangements in respect of CSL Securities', which is broad enough to sweep in a loan secured on a derivative over CSL Securities rather than the shares themselves."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "No clause addresses lending CSL Securities under a title-transfer securities loan, and dealing is described only in terms of buying, selling, procuring or advising a deal."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "No clause addresses a secured lender's enforcement sale; secured financing over CSL Securities is itself prohibited, so the Policy does not contemplate the scenario arising."
+    }
+   ]
+  },
+  {
+   "tier_kind": "senior",
+   "tier_name": "Directors and members of the Global Leadership Group",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "Directors, members of the Global Leadership Group and their Related Parties must not enter into hedging \narrangements in relation to CSL Securities.",
+     "definition": "",
+     "section": "2.5",
+     "reasoning": "Directors and Global Leadership Group members are expressly prohibited from entering into any hedging arrangement in relation to CSL Securities."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "Directors, members of the Global Leadership Group and their Related Parties must not enter into hedging \narrangements in relation to CSL Securities.",
+     "definition": "",
+     "section": "2.5",
+     "reasoning": "The prohibition on hedging arrangements is settlement-method neutral and so also bans a physically settled hedge."
+    },
+    {
+     "question": "encumber",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "No clause addresses pledging or otherwise encumbering CSL Securities independent of borrowing, even for Directors or Global Leadership Group members."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "Personnel must not obtain margin loans using CSL Securities (either solely or as part of a portfolio) as security \nfor the loans, or enter into any other secured financing arrangements in respect of CSL Securities.",
+     "definition": "",
+     "section": "2.6",
+     "reasoning": "The margin lending prohibition applies to all Personnel, which includes Directors and Global Leadership Group members."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "never_permitted",
+     "mechanism": "via_definition",
+     "clause": "Personnel must not obtain margin loans using CSL Securities (either solely or as part of a portfolio) as security \nfor the loans, or enter into any other secured financing arrangements in respect of CSL Securities.",
+     "definition": "Personnel must not obtain margin loans using CSL Securities (either solely or as part of a portfolio) as security \nfor the loans, or enter into any other secured financing arrangements in respect of CSL Securities.",
+     "section": "2.6",
+     "reasoning": "The ban on 'any other secured financing arrangements in respect of CSL Securities' applies to all Personnel and is broad enough to sweep in a loan secured on a derivative over CSL Securities."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "No clause addresses lending CSL Securities under a title-transfer securities loan, even for Directors or Global Leadership Group members."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "No clause addresses a secured lender's enforcement sale; secured financing over CSL Securities is itself prohibited for this tier, so the Policy does not contemplate the scenario arising."
+    }
+   ]
+  }
+ ]
+}

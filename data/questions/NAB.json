@@ -1,0 +1,150 @@
+{
+ "symbol": "NAB",
+ "company": "National Australia Bank Limited",
+ "associates": {
+  "answer": "covered",
+  "clause": "This Policy also extends (in certain respects) to the Immediate Family Members of NAB People, and to companies, trusts and entities controlled by them.",
+  "section": "1.4",
+  "reasoning": "The policy expressly extends, in certain respects, to Immediate Family Members and to companies and trusts they control, which covers a spouse, family trust or controlled entity used for a hedge or loan."
+ },
+ "tiers": [
+  {
+   "tier_kind": "general",
+   "tier_name": "NAB People",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "Accordingly, once Group Securities have vested (as described above), Derivatives may be used by NAB People in relation to those vested securities in the following circumstances:",
+     "definition": "Has the meaning given in s761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars",
+     "section": "3.5.7",
+     "reasoning": "A collar or put is a Derivative, and Derivatives over vested securities are confined to two narrow circumstances plus a case-by-case approval route open to all other NAB People, so a cash-settled hedge outside the narrow circumstances needs approval."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "Accordingly, once Group Securities have vested (as described above), Derivatives may be used by NAB People in relation to those vested securities in the following circumstances:",
+     "definition": "Has the meaning given in s761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars",
+     "section": "3.5.7",
+     "reasoning": "The same Derivatives gate applies regardless of settlement method, so a physically settled collar or put is likewise confined to the two narrow circumstances or a case-by-case approval."
+    },
+    {
+     "question": "encumber",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "The only encumbrance-related rule, the Margin Loan Compliance Certificate in 3.4.2, is expressly carved out for everyone except Directors and Executive Leadership Team members, so no rule reaches ordinary NAB People."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Section 3.4.2's Margin Loan Compliance Certificate requirement is expressly limited to Directors and Executive Leadership Team members, leaving ordinary NAB People's margin borrowing unaddressed."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Margin Loan is defined as NAB Securities themselves being mortgaged or charged, not a derivative over them, and there is no general rule on financing in respect of securities, so borrowing secured on a collar or put is not addressed."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "a NAB Person must not enter into any arrangements for short selling or stock lending in relation to Group Securities",
+     "definition": "",
+     "section": "3.2.2",
+     "reasoning": "Stock lending is named and banned outright for every NAB Person, with no tier carve-out."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "The only rule on a financier's forced sale, in 3.4.13, is expressly limited to Directors and Executive Leadership Team members, leaving ordinary NAB People unaddressed."
+    }
+   ]
+  },
+  {
+   "tier_kind": "senior",
+   "tier_name": "Key Management Personnel (Directors and Executive Leadership Team)",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "The use of Derivatives over vested Group Securities by Directors and Designated NAB Employees, like any other Trading in Group Securities, must comply with the law and with the Compliance Certificate process described in section 3.4 above.",
+     "definition": "Has the meaning given in s761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars",
+     "section": "3.5.9",
+     "reasoning": "Directors and Executive Leadership Team members must additionally submit a Compliance Certificate before entering into a Derivative transaction and cannot trade until NAB acknowledges it, on top of the same narrow-circumstances gate that applies generally."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "The use of Derivatives over vested Group Securities by Directors and Designated NAB Employees, like any other Trading in Group Securities, must comply with the law and with the Compliance Certificate process described in section 3.4 above.",
+     "definition": "Has the meaning given in s761D of the Corporations Act and includes options, forward contracts, futures, warrants, swaps, caps and collars",
+     "section": "3.5.9",
+     "reasoning": "The same Compliance Certificate gate and narrow-circumstances test apply to a physically settled collar or put as to a cash-settled one."
+    },
+    {
+     "question": "encumber",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "via_definition",
+     "clause": "In addition, Directors and Executive Leadership Team members (but not other Designated NAB Employees) must submit a Compliance Certificate before they enter into a Margin Loan or agree to provide additional Group Securities as security for an existing Margin Loan.",
+     "definition": "A loan arrangement whereby NAB Securities are mortgaged, provided as security, lent, or charged to a financier.",
+     "section": "3.4.2",
+     "reasoning": "Encumbering vested shares happens by entering a Margin Loan, which the glossary defines as mortgaging, securing or charging shares to a financier, and Directors and Executive Leadership Team members need an acknowledged Compliance Certificate first."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "express",
+     "clause": "In addition, Directors and Executive Leadership Team members (but not other Designated NAB Employees) must submit a Compliance Certificate before they enter into a Margin Loan or agree to provide additional Group Securities as security for an existing Margin Loan.",
+     "definition": "A loan arrangement whereby NAB Securities are mortgaged, provided as security, lent, or charged to a financier.",
+     "section": "3.4.2",
+     "reasoning": "A Margin Loan is expressly named and requires a Compliance Certificate, acknowledged by NAB, before a Director or Executive Leadership Team member enters into it."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Margin Loan is defined as NAB Securities themselves being mortgaged or charged, not a derivative over them, and there is no general rule on financing in respect of securities, so borrowing secured on a collar or put is not addressed even for this tier."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "a NAB Person must not enter into any arrangements for short selling or stock lending in relation to Group Securities",
+     "definition": "",
+     "section": "3.2.2",
+     "reasoning": "Stock lending is named and banned outright for every NAB Person, with no exception for this tier."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "permitted_with_notification",
+     "mechanism": "express",
+     "clause": "In certain circumstances (set out in the Group Disclosure and External Communications Policy) Directors and members of the Executive Leadership Team are required to inform the Group Company Secretary where a financier demands payment under a Margin Loan and there is a risk that the demand will not be able to be satisfied without the disposal of Group Securities.",
+     "definition": "",
+     "section": "3.4.13",
+     "reasoning": "The policy treats a lender's forced sale as something to be reported to the Group Company Secretary rather than as a breach or something requiring pre-clearance."
+    }
+   ]
+  }
+ ]
+}

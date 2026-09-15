@@ -1,0 +1,150 @@
+{
+ "symbol": "RIO",
+ "company": "Rio Tinto Limited",
+ "associates": {
+  "answer": "covered",
+  "clause": "A person closely associated with a PDMR, being: \n(a) a family member (meaning a spouse, civil partner, or dependent children \nor stepchildren of the PDMR or a relative who has shared the same \nhousehold as the PDMR for at least one year on the date of Dealing) or \n(b) a company, trust, partnership or entity:",
+  "section": "16, definition of PCA",
+  "reasoning": "The Policy defines Persons Closely Associated with a PDMR to include family members and controlled companies, trusts or partnerships, and imposes Closed Period and notification obligations on PDMRs in respect of their PCAs' dealings."
+ },
+ "tiers": [
+  {
+   "tier_kind": "general",
+   "tier_name": "Rio Tinto Personnel",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "entering into a transaction the economic outcome of which is \ndependent upon the price of a Rio Tinto Security, including but \nnot limited to a transaction which has the effect of limiting the \neconomic risk of holding a Rio Tinto Security;",
+     "definition": "entering into a transaction the economic outcome of which is \ndependent upon the price of a Rio Tinto Security, including but \nnot limited to a transaction which has the effect of limiting the \neconomic risk of holding a Rio Tinto Security;",
+     "section": "16, definition of Deal/Dealing (e)",
+     "reasoning": "A hedge is swept into Dealing by definition (e), but Rio Tinto Personnel who are not Restricted Persons or PDMRs are subject only to the Insider Dealing prohibition, with no clearance requirement or approval step for this tier."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "entering into a transaction the economic outcome of which is \ndependent upon the price of a Rio Tinto Security, including but \nnot limited to a transaction which has the effect of limiting the \neconomic risk of holding a Rio Tinto Security;",
+     "definition": "entering into a transaction the economic outcome of which is \ndependent upon the price of a Rio Tinto Security, including but \nnot limited to a transaction which has the effect of limiting the \neconomic risk of holding a Rio Tinto Security;",
+     "section": "16, definition of Deal/Dealing (e)",
+     "reasoning": "The definition does not distinguish settlement method, so a physically settled hedge is likewise unrestricted for this tier beyond the Insider Dealing prohibition."
+    },
+    {
+     "question": "encumber",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "using as security, or otherwise granting a charge, lien or other \nencumbrance;",
+     "definition": "using as security, or otherwise granting a charge, lien or other \nencumbrance;",
+     "section": "16, definition of Deal/Dealing (c)",
+     "reasoning": "Encumbrance is swept into Dealing by definition (c), but Rio Tinto Personnel who are not Restricted Persons or PDMRs face no clearance requirement, only the general Insider Dealing prohibition."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "explicitly_permitted",
+     "mechanism": "via_definition",
+     "clause": "entering into any margin lending, derivative contract or other \nsecured financial arrangement pursuant to which a charge is \ngranted over the Rio Tinto Securities.",
+     "definition": "entering into any margin lending, derivative contract or other \nsecured financial arrangement pursuant to which a charge is \ngranted over the Rio Tinto Securities.",
+     "section": "16, definition of Deal/Dealing (h)",
+     "reasoning": "Margin lending is swept into Dealing by definition (h), but this tier faces no clearance requirement, only the general Insider Dealing prohibition."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "Definition (h) addresses financial arrangements secured by a charge over Rio Tinto Securities themselves, not a loan secured on a derivative over them, and no other clause addresses it for this tier."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "not_mentioned_implicitly_permitted",
+     "mechanism": "none",
+     "clause": "",
+     "definition": "",
+     "section": "",
+     "reasoning": "No clause or definition item clearly addresses lending Rio Tinto Securities under a title-transfer securities loan for this tier."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "explicitly_permitted",
+     "mechanism": "express",
+     "clause": "a disposal of Rio Tinto Securities that is the result of a secured lender exercising their rights.",
+     "definition": "",
+     "section": "10(f)",
+     "reasoning": "A disposal resulting from a secured lender exercising its rights is expressly excluded from the operation of the Policy, subject only to the Insider Dealing prohibition."
+    }
+   ]
+  },
+  {
+   "tier_kind": "senior",
+   "tier_name": "PDMR",
+   "findings": [
+    {
+     "question": "cash_hedge",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "PDMRs are prohibited from undertaking any of the following \nDealings with respect to Rio Tinto \nSecurities: \n(a) Dealing in derivative products issued over or in respect of Rio Tinto Securities;",
+     "definition": "",
+     "section": "12.3(a)",
+     "reasoning": "PDMRs are expressly prohibited from dealing in derivative products issued over or in respect of Rio Tinto Securities, which covers a cash-settled hedge such as a collar or put."
+    },
+    {
+     "question": "physical_hedge",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "PDMRs are prohibited from undertaking any of the following \nDealings with respect to Rio Tinto \nSecurities: \n(a) Dealing in derivative products issued over or in respect of Rio Tinto Securities;",
+     "definition": "",
+     "section": "12.3(a)",
+     "reasoning": "The prohibition on derivative products is settlement-method neutral and so also bans a physically settled hedge."
+    },
+    {
+     "question": "encumber",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "via_definition",
+     "clause": "Permanent Restricted Persons and Project Restricted Persons \nare required to seek clearance \nprior to any proposed Dealing in Rio Tinto Securities, other than a Dealing excluded by section \n10.",
+     "definition": "using as security, or otherwise granting a charge, lien or other \nencumbrance;",
+     "section": "14.1",
+     "reasoning": "Encumbrance is swept into Dealing by definition (c); it is not listed among the specific PDMR prohibitions in 12.3, so as a Permanent Restricted Person a PDMR must obtain prior clearance before encumbering vested shares."
+    },
+    {
+     "question": "borrow_against_stock",
+     "answer": "never_permitted",
+     "mechanism": "express",
+     "clause": "entering into margin lending or other secure financing arrangements in respect of Rio Tinto \nSecurities.",
+     "definition": "",
+     "section": "12.3(d)",
+     "reasoning": "PDMRs are expressly prohibited from entering into margin lending or other secured financing arrangements in respect of Rio Tinto Securities."
+    },
+    {
+     "question": "borrow_against_derivative",
+     "answer": "never_permitted",
+     "mechanism": "via_definition",
+     "clause": "entering into margin lending or other secure financing arrangements in respect of Rio Tinto \nSecurities.",
+     "definition": "entering into margin lending or other secure financing arrangements in respect of Rio Tinto \nSecurities.",
+     "section": "12.3(d)",
+     "reasoning": "The prohibition reaches 'other secure financing arrangements in respect of Rio Tinto Securities', which is broad enough to sweep in a loan secured on a derivative over Rio Tinto Securities rather than the shares themselves."
+    },
+    {
+     "question": "stock_loan",
+     "answer": "permitted_with_pre_approval",
+     "mechanism": "via_definition",
+     "clause": "Permanent Restricted Persons and Project Restricted Persons \nare required to seek clearance \nprior to any proposed Dealing in Rio Tinto Securities, other than a Dealing excluded by section \n10.",
+     "definition": "any other transaction or the exercise of any power or discretion, \neffecting a change of ownership of beneficial interest;",
+     "section": "14.1",
+     "reasoning": "A title-transfer securities loan is swept into Dealing by definition (d) (a transaction effecting a change of ownership of beneficial interest); it is not excluded by section 10, so a PDMR must obtain prior clearance."
+    },
+    {
+     "question": "lender_enforcement",
+     "answer": "explicitly_permitted",
+     "mechanism": "express",
+     "clause": "a disposal of Rio Tinto Securities that is the result of a secured lender exercising their rights.",
+     "definition": "",
+     "section": "10(f)",
+     "reasoning": "A disposal resulting from a secured lender exercising its rights is expressly excluded from the operation of the Policy and may be undertaken by Restricted Persons, including PDMRs, at any time without prior written clearance."
+    }
+   ]
+  }
+ ]
+}
